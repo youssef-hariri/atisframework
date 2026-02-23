@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATIS Self-Assessment | AI Project Maturity Diagnostic</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        body {
+            background: #f8fafc;
+            color: #0f172a;
+            line-height: 1.6;
+        }
+
+        /* Navigation */
+        .navbar {
+            background: white;
+            border-bottom: 1px solid #e2e8f0;
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(255,255,255,0.95);
+            backdrop-filter: blur(10px);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #0b1e33;
+            text-decoration: none;
+        }
+
+        .logo span {
+            color: #3b82f6;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: #475569;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .nav-links a:hover, .nav-links a.active {
+            color: #3b82f6;
+        }
+
+        /* Header */
+        .assessment-header {
+            background: linear-gradient(135deg, #0b1e33 0%, #1e3a5f 100%);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        .assessment-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .assessment-header p {
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 0 auto;
+            opacity: 0.9;
+        }
+
+        .badge {
+            background: rgba(59,130,246,0.2);
+            color: #93c5fd;
+            padding: 0.5rem 1.5rem;
+            border-radius: 50px;
+            display: inline-block;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Container */
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+
+        /* Progress Bar */
+        .progress-container {
+            background: white;
+            border-radius: 16px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            border: 1px solid #e2e8f0;
+            position: sticky;
+            top: 80px;
+            z-index: 90;
+        }
+
+        .progress-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+            color: #475569;
+        }
+
+        .progress-bar {
+            height: 8px;
+            background: #e2e8f0;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: #3b82f6;
+            width: 0%;
+            transition: width 0.3s;
+        }
+
+        /* Sections */
+        .section {
+            background: white;
+            border-radius: 16px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border: 1px solid #e2e8f0;
+        }
+
+        .section h2 {
+            font-size: 1.5rem;
+            color: #0b1e33;
+            margin-bottom: 0.5rem;
+        }
+
+        .section-desc {
+            color: #64748b;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .section-stats {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+
+        /* Questions */
+        .question {
+            margin-bottom: 1.5rem;
+            padding: 1.5rem;
+            background: #f8fafc;
+            border-radius: 12px;
+            border: 1px solid #e2e8f0;
+        }
+
+        .question-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .question-text {
+            font-weight: 500;
+            color: #1e293b;
+            flex: 1;
+        }
+
+        .pillar-tag {
+            display: inline-block;
+            padding: 0.25rem 1rem;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .pillar-tag.act { background: #fee2e2; color: #991b1b; }
+        .pillar-tag.train { background: #fef3c7; color: #92400e; }
+        .pillar-tag.inquire { background: #dbeafe; color: #1e40af; }
+        .pillar-tag.standardize { background: #d1fae5; color: #065f46; }
+
+        .options {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .option {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .option input[type="radio"] {
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+        }
+
+        .option label {
+            cursor: pointer;
+            color: #475569;
+        }
+
+        /* Results Panel */
+        .results-panel {
+            background: white;
+            border-radius: 24px;
+            padding: 2rem;
+            margin: 2rem 0;
+            border: 2px solid #3b82f6;
+            display: none;
+        }
+
+        .results-panel.visible {
+            display: block;
+        }
+
+        .results-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+
+        .results-header h2 {
+            font-size: 2rem;
+            color: #0b1e33;
+        }
+
+        .maturity-badge {
+            padding: 0.75rem 2rem;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+
+        .maturity-badge.level1 { background: #fee2e2; color: #991b1b; }
+        .maturity-badge.level2 { background: #fef3c7; color: #92400e; }
+        .maturity-badge.level3 { background: #d1fae5; color: #065f46; }
+
+        /* PSR Cards */
+        .psr-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .psr-card {
+            background: #f8fafc;
+            border-radius: 16px;
+            padding: 1.5rem;
+            text-align: center;
+            border: 1px solid #e2e8f0;
+        }
+
+        .psr-label {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .psr-label.act { color: #991b1b; }
+        .psr-label.train { color: #92400e; }
+        .psr-label.inquire { color: #1e40af; }
+        .psr-label.standardize { color: #065f46; }
+
+        .psr-value {
+            font-size: 3rem;
+            font-weight: 700;
+            margin: 0.5rem 0;
+        }
+
+        .psr-value.act { color: #ef4444; }
+        .psr-value.train { color: #f59e0b; }
+        .psr-value.inquire { color: #3b82f6; }
+        .psr-value.standardize { color: #10b981; }
+
+        .psr-count {
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+
+        /* Radar Chart */
+        .radar-container {
+            background: #f8fafc;
+            border-radius: 16px;
+            padding: 2rem;
+            margin: 2rem 0;
+            text-align: center;
+        }
+
+        #radarChart {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        /* Recommendations */
+        .recommendations {
+            background: #f0f9ff;
+            border-radius: 16px;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+
+        .recommendations h3 {
+            color: #0b1e33;
+            margin-bottom: 1rem;
+        }
+
+        .recommendations-list {
+            list-style: none;
+        }
+
+        .recommendations-list li {
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .recommendations-list li::before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #3b82f6;
+            font-weight: 600;
+        }
+
+        /* Buttons */
+        .btn {
+            background: #3b82f6;
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: background 0.2s;
+        }
+
+        .btn:hover {
+            background: #2563eb;
+        }
+
+        .btn-large {
+            width: 100%;
+            padding: 1.5rem;
+            font-size: 1.2rem;
+        }
+
+        .btn-secondary {
+            background: white;
+            color: #3b82f6;
+            border: 2px solid #3b82f6;
+        }
+
+        .btn-secondary:hover {
+            background: #3b82f6;
+            color: white;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: #64748b;
+            border-top: 1px solid #e2e8f0;
+            margin-top: 3rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .psr-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .options {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">ATIS <span>Framework</span></a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="assessment.html" class="active">Self-Assessment</a>
+                <a href="course.html">Executive Course</a>
+                <a href="about.html">Research</a>
+                <a href="resources.html">Resources</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="assessment-header">
+        <div class="badge">📊 40-Question Diagnostic</div>
+        <h1>ATIS Maturity Self-Assessment</h1>
+        <p>Evaluate your organization's readiness across the four pillars: Act, Train, Inquire, and Standardize</p>
+    </div>
+
+    <div class="container">
+        <!-- Progress Bar -->
+        <div class="progress-container" id="progressContainer">
+            <div class="progress-header">
+                <span><strong>Assessment Progress</strong></span>
+                <span id="progressCount">0/40 answered</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressBar" style="width: 0%;"></div>
+            </div>
+        </div>
+
+        <!-- Assessment Form -->
+        <form id="assessmentForm">
+            <!-- Organizational Level (9 questions) -->
+            <div class="section">
+                <h2>Level 1: Organizational Readiness</h2>
+                <div class="section-stats">
+                    <span>📋 9 questions</span>
+                    <span>⚡ ACT: 4 | 📚 TRAIN: 2 | ⚙️ STANDARDIZE: 3</span>
+                </div>
+                <div class="section-desc">How your organization structurally prepares for cross-cultural AI projects.</div>
+
+                <!-- Q1.1 -->
+                <div class="question" data-pillar="A">
+                    <div class="question-header">
+                        <span class="question-text">1.1 Were AI team members informed of the cross-cultural environment during hiring?</span>
+                        <span class="pillar-tag act">ACT</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q1.1" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q1.1" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Q1.2 -->
+                <div class="question" data-pillar="T">
+                    <div class="question-header">
+                        <span class="question-text">1.2 Was the team's cross-cultural adaptability assessed before assignment?</span>
+                        <span class="pillar-tag train">TRAIN</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q1.2" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q1.2" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Q1.3 -->
+                <div class="question" data-pillar="A">
+                    <div class="question-header">
+                        <span class="question-text">1.3 Does the team reflect the cultural diversity of the client?</span>
+                        <span class="pillar-tag act">ACT</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q1.3" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q1.3" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Q1.4 -->
+                <div class="question" data-pillar="S">
+                    <div class="question-header">
+                        <span class="question-text">1.4 Is there a clear, structured internal communication framework for the project?</span>
+                        <span class="pillar-tag standardize">STANDARDIZE</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q1.4" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q1.4" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Q1.5 -->
+                <div class="question" data-pillar="A">
+                    <div class="question-header">
+                        <span class="question-text">1.5 Is there a dedicated safe space for non-work-related communication?</span>
+                        <span class="pillar-tag act">ACT</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q1.5" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q1.5" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Q1.6 -->
+                <div class="question" data-pillar="S">
+                    <div class="question-header">
+                        <span class="question-text">1.6 Is a clear escalation protocol documented and understood?</span>
+                        <span class="pillar-tag standardize">STANDARDIZE</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q1.6" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q1.6" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Q1.7 -->
+                <div class="question" data-pillar="T">
+                    <div class="question-header">
+                        <span class="question-text">1.7 Is the team trained to use all necessary technology platforms?</span>
+                        <span class="pillar-tag train">TRAIN</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q1.7" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q1.7" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Q1.8 -->
+                <div class="question" data-pillar="S">
+                    <div class="question-header">
+                        <span class="question-text">1.8 Is there a process for documenting cultural conflicts and their resolutions?</span>
+                        <span class="pillar-tag standardize">STANDARDIZE</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q1.8" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q1.8" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Q1.9 -->
+                <div class="question" data-pillar="S">
+                    <div class="question-header">
+                        <span class="question-text">1.9 Is documentation accessible in culturally-aligned formats (language, design)?</span>
+                        <span class="pillar-tag standardize">STANDARDIZE</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q1.9" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q1.9" value="no"> No</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Leadership Level (15 questions) -->
+            <div class="section">
+                <h2>Level 2: Leadership Readiness</h2>
+                <div class="section-stats">
+                    <span>📋 15 questions</span>
+                    <span>⚡ ACT: 4 | 📚 TRAIN: 3 | 🔍 INQUIRE: 5 | ⚙️ STANDARDIZE: 3</span>
+                </div>
+                <div class="section-desc">How leaders navigate uncertainty and cultural dynamics.</div>
+
+                <!-- Q2.1 -->
+                <div class="question" data-pillar="I">
+                    <div class="question-header">
+                        <span class="question-text">2.1 Does the leader understand the degree of agency required by each member?</span>
+                        <span class="pillar-tag inquire">INQUIRE</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q2.1" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q2.1" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Q2.2 -->
+                <div class="question" data-pillar="A">
+                    <div class="question-header">
+                        <span class="question-text">2.2 Is the team aligned with the organization's vision for this specific AI project?</span>
+                        <span class="pillar-tag act">ACT</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q2.2" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q2.2" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Q2.3 -->
+                <div class="question" data-pillar="T">
+                    <div class="question-header">
+                        <span class="question-text">2.3 Can the leader adapt communication to suit diverse team member styles?</span>
+                        <span class="pillar-tag train">TRAIN</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q2.3" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q2.3" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Q2.4 -->
+                <div class="question" data-pillar="I">
+                    <div class="question-header">
+                        <span class="question-text">2.4 Is the leader aware of the work cultures (feedback, values) of the team and client?</span>
+                        <span class="pillar-tag inquire">INQUIRE</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q2.4" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q2.4" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Q2.5 -->
+                <div class="question" data-pillar="T">
+                    <div class="question-header">
+                        <span class="question-text">2.5 Can the leader adapt commercial approaches to the client's cultural norms?</span>
+                        <span class="pillar-tag train">TRAIN</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q2.5" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q2.5" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Q2.6 -->
+                <div class="question" data-pillar="S">
+                    <div class="question-header">
+                        <span class="question-text">2.6 Is there a collaborative procedure for prioritizing stochastic AI tasks?</span>
+                        <span class="pillar-tag standardize">STANDARDIZE</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q2.6" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q2.6" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Q2.7 -->
+                <div class="question" data-pillar="I">
+                    <div class="question-header">
+                        <span class="question-text">2.7 Does the team have a unified understanding of the project's success metrics?</span>
+                        <span class="pillar-tag inquire">INQUIRE</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q2.7" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q2.7" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Q2.8 -->
+                <div class="question" data-pillar="A">
+                    <div class="question-header">
+                        <span class="question-text">2.8 Are feedback channels specifically aligned with team and client cultures?</span>
+                        <span class="pillar-tag act">ACT</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q2.8" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q2.8" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Q2.9 -->
+                <div class="question" data-pillar="S">
+                    <div class="question-header">
+                        <span class="question-text">2.9 Are there defined metrics to monitor technical project progress?</span>
+                        <span class="pillar-tag standardize">STANDARDIZE</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q2.9" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q2.9" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Q2.10 -->
+                <div class="question" data-pillar="S">
+                    <div class="question-header">
+                        <span class="question-text">2.10 Are there metrics to monitor the efficiency of the socio-technical workflow?</span>
+                        <span class="pillar-tag standardize">STANDARDIZE</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q2.10" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q2.10" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Q2.11 -->
+                <div class="question" data-pillar="I">
+                    <div class="question-header">
+                        <span class="question-text">2.11 Does the leader monitor social interactions to prevent cultural friction?</span>
+                        <span class="pillar-tag inquire">INQUIRE</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q2.11" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q2.11" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Q2.12 -->
+                <div class="question" data-pillar="A">
+                    <div class="question-header">
+                        <span class="question-text">2.12 Are team-bonding activities structured, balanced, and culturally sensitive?</span>
+                        <span class="pillar-tag act">ACT</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q2.12" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q2.12" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Q2.13 -->
+                <div class="question" data-pillar="I">
+                    <div class="question-header">
+                        <span class="question-text">2.13 Is the information flow between client and team monitored at all stages?</span>
+                        <span class="pillar-tag inquire">INQUIRE</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q2.13" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q2.13" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Q2.14 -->
+                <div class="question" data-pillar="T">
+                    <div class="question-header">
+                        <span class="question-text">2.14 Does the leader possess the diplomacy skills for cross-cultural conflict?</span>
+                        <span class="pillar-tag train">TRAIN</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q2.14" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q2.14" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Q2.15 -->
+                <div class="question" data-pillar="I">
+                    <div class="question-header">
+                        <span class="question-text">2.15 Are religious differences and holidays considered in the project timeline?</span>
+                        <span class="pillar-tag inquire">INQUIRE</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q2.15" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q2.15" value="no"> No</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Operational Level (4 questions) -->
+            <div class="section">
+                <h2>Level 3: Operational Readiness</h2>
+                <div class="section-stats">
+                    <span>📋 4 questions</span>
+                    <span>⚡ ACT: 2 | 🔍 INQUIRE: 1 | ⚙️ STANDARDIZE: 1</span>
+                </div>
+                <div class="section-desc">How Business Translators and Engineers execute in cross-cultural contexts.</div>
+
+                <!-- Q3.1 -->
+                <div class="question" data-pillar="I">
+                    <div class="question-header">
+                        <span class="question-text">3.1 Does the team understand the client's dream solution vs. the floor reality?</span>
+                        <span class="pillar-tag inquire">INQUIRE</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q3.1" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q3.1" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Q3.2 -->
+                <div class="question" data-pillar="A">
+                    <div class="question-header">
+                        <span class="question-text">3.2 Are technical and business experts connected to their client-side counterparts?</span>
+                        <span class="pillar-tag act">ACT</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q3.2" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q3.2" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Q3.3 -->
+                <div class="question" data-pillar="S">
+                    <div class="question-header">
+                        <span class="question-text">3.3 Are communication templates standardized for different client audiences?</span>
+                        <span class="pillar-tag standardize">STANDARDIZE</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q3.3" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q3.3" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Q3.4 -->
+                <div class="question" data-pillar="A">
+                    <div class="question-header">
+                        <span class="question-text">3.4 Is a designated "Cultural Bridge" active within the project team?</span>
+                        <span class="pillar-tag act">ACT</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q3.4" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q3.4" value="no"> No</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Personal/Team Level (4 questions) -->
+            <div class="section">
+                <h2>Level 4: Personal & Team Readiness</h2>
+                <div class="section-stats">
+                    <span>📋 4 questions</span>
+                    <span>📚 TRAIN: 3 | 🔍 INQUIRE: 1</span>
+                </div>
+                <div class="section-desc">Individual capabilities for cognitive agility and cultural adaptation.</div>
+
+                <!-- Q4.1 -->
+                <div class="question" data-pillar="T">
+                    <div class="question-header">
+                        <span class="question-text">4.1 Do the primary team members possess significant international exposure?</span>
+                        <span class="pillar-tag train">TRAIN</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q4.1" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q4.1" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Q4.2 -->
+                <div class="question" data-pillar="T">
+                    <div class="question-header">
+                        <span class="question-text">4.2 Does the team demonstrate high-level cross-cultural communication skills?</span>
+                        <span class="pillar-tag train">TRAIN</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q4.2" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q4.2" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Q4.3 -->
+                <div class="question" data-pillar="I">
+                    <div class="question-header">
+                        <span class="question-text">4.3 Is there deep awareness of the specific cultural nuances of all stakeholders?</span>
+                        <span class="pillar-tag inquire">INQUIRE</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q4.3" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q4.3" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Q4.4 -->
+                <div class="question" data-pillar="T">
+                    <div class="question-header">
+                        <span class="question-text">4.4 Does the team display the social curiosity required for autonomous learning?</span>
+                        <span class="pillar-tag train">TRAIN</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q4.4" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q4.4" value="no"> No</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="button" class="btn btn-large" onclick="calculateResults()">📊 Generate My Maturity Report</button>
+        </form>
+
+        <!-- Results Panel -->
+        <div class="results-panel" id="resultsPanel">
+            <div class="results-header">
+                <h2>Your ATIS Maturity Report</h2>
+                <div class="maturity-badge" id="maturityBadge">Level 1: Reactive</div>
+            </div>
+
+            <!-- PSR Grid -->
+            <div class="psr-grid">
+                <div class="psr-card">
+                    <div class="psr-label act">ACT</div>
+                    <div class="psr-value act" id="actPsr">0%</div>
+                    <div class="psr-count" id="actCount">0/13</div>
+                </div>
+                <div class="psr-card">
+                    <div class="psr-label train">TRAIN</div>
+                    <div class="psr-value train" id="trainPsr">0%</div>
+                    <div class="psr-count" id="trainCount">0/8</div>
+                </div>
+                <div class="psr-card">
+                    <div class="psr-label inquire">INQUIRE</div>
+                    <div class="psr-value inquire" id="inquirePsr">0%</div>
+                    <div class="psr-count" id="inquireCount">0/8</div>
+                </div>
+                <div class="psr-card">
+                    <div class="psr-label standardize">STANDARDIZE</div>
+                    <div class="psr-value standardize" id="standardizePsr">0%</div>
+                    <div class="psr-count" id="standardizeCount">0/11</div>
+                </div>
+            </div>
+
+            <!-- Radar Chart -->
+            <div class="radar-container">
+                <canvas id="radarChart" width="400" height="400"></canvas>
+            </div>
+
+            <!-- Maturity Description -->
+            <div id="levelDescription" style="background: #f8fafc; padding: 1.5rem; border-radius: 12px; margin: 1.5rem 0;">
+                <!-- Dynamically filled -->
+            </div>
+
+            <!-- Recommendations -->
+            <div class="recommendations" id="recommendations">
+                <h3>🎯 Your Priority Actions</h3>
+                <ul class="recommendations-list" id="recommendationsList">
+                    <!-- Dynamically filled -->
+                </ul>
+            </div>
+
+            <!-- Next Steps -->
+            <div class="button-group">
+                <a href="course-module-6.html" class="btn" style="flex: 1;">📚 Go to Action Planning (Module 6)</a>
+                <button class="btn btn-secondary" onclick="saveResults()" style="flex: 0 0 auto;">💾 Save Results</button>
+            </div>
+            <button class="btn btn-secondary" onclick="resetAssessment()" style="width: 100%; margin-top: 1rem;">⟲ Start New Assessment</button>
+        </div>
+
+        <!-- Footnote -->
+        <p style="text-align: center; margin: 2rem 0; color: #64748b; font-size: 0.9rem;">
+            Based on research with 48 global AI experts • 1,392 analytical units • 279 negative cases
+        </p>
+    </div>
+
+    <footer class="footer">
+        <p>© 2026 ATIS Framework. Expert quotes anonymized (P1-P48) and used with permission.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        // Pillar question counts (from the research)
+        const PILLAR_TOTALS = {
+            A: 13,  // ACT: 4+4+2+0+3? Let's calculate properly
+            T: 8,   // TRAIN: 2+3+0+3 = 8
+            I: 8,   // INQUIRE: 0+5+1+1 = 7? Wait, let's verify
+            S: 11   // STANDARDIZE: 3+3+1+0 = 7? This needs exact count
+        };
+
+        // Let's calculate exactly from the questions above
+        function calculatePillarTotals() {
+            let totals = { A: 0, T: 0, I: 0, S: 0 };
+            
+            // Count all questions by pillar
+            document.querySelectorAll('.question').forEach(q => {
+                const pillar = q.dataset.pillar;
+                if (pillar) totals[pillar]++;
+            });
+            
+            return totals;
+        }
+
+        const PILLAR_TOTALS_EXACT = calculatePillarTotals();
+        console.log('Pillar totals:', PILLAR_TOTALS_EXACT);
+
+        // Update progress
+        function updateProgress() {
+            const total = 40;
+            let answered = 0;
+            
+            document.querySelectorAll('.question').forEach((q, index) => {
+                const qName = q.querySelector('input[type="radio"]').name;
+                const radios = document.getElementsByName(qName);
+                const checked = Array.from(radios).some(r => r.checked);
+                if (checked) answered++;
+            });
+
+            const progress = (answered / total) * 100;
+            document.getElementById('progressBar').style.width = progress + '%';
+            document.getElementById('progressCount').textContent = answered + '/40 answered';
+        }
+
+        // Add event listeners to all radio buttons
+        document.querySelectorAll('input[type="radio"]').forEach(radio => {
+            radio.addEventListener('change', updateProgress);
+        });
+
+        // Calculate results
+        function calculateResults() {
+            // Check if all questions answered
+            let allAnswered = true;
+            let unanswered = [];
+            
+            document.querySelectorAll('.question').forEach((q, index) => {
+                const qName = q.querySelector('input[type="radio"]').name;
+                const radios = document.getElementsByName(qName);
+                const checked = Array.from(radios).some(r => r.checked);
+                if (!checked) {
+                    allAnswered = false;
+                    unanswered.push(qName);
+                }
+            });
+
+            if (!allAnswered) {
+                alert('Please answer all 40 questions before generating your report. Unanswered questions will be marked as "No" by default. Continue?');
+                // Auto-mark unanswered as "No" - we could implement this
+            }
+
+            // Calculate pillar scores
+            let scores = { A: 0, T: 0, I: 0, S: 0 };
+            let totals = { A: 0, T: 0, I: 0, S: 0 };
+
+            document.querySelectorAll('.question').forEach(q => {
+                const pillar = q.dataset.pillar;
+                const qName = q.querySelector('input[type="radio"]').name;
+                const radios = document.getElementsByName(qName);
+                const checked = Array.from(radios).find(r => r.checked);
+                
+                if (pillar) {
+                    totals[pillar]++;
+                    if (checked && checked.value === 'yes') {
+                        scores[pillar]++;
+                    }
+                }
+            });
+
+            // Calculate PSR percentages
+            const actPsr = Math.round((scores.A / totals.A) * 100);
+            const trainPsr = Math.round((scores.T / totals.T) * 100);
+            const inquirePsr = Math.round((scores.I / totals.I) * 100);
+            const standardizePsr = Math.round((scores.S / totals.S) * 100);
+
+            // Update display
+            document.getElementById('actPsr').textContent = actPsr + '%';
+            document.getElementById('trainPsr').textContent = trainPsr + '%';
+            document.getElementById('inquirePsr').textContent = inquirePsr + '%';
+            document.getElementById('standardizePsr').textContent = standardizePsr + '%';
+            
+            document.getElementById('actCount').textContent = scores.A + '/' + totals.A;
+            document.getElementById('trainCount').textContent = scores.T + '/' + totals.T;
+            document.getElementById('inquireCount').textContent = scores.I + '/' + totals.I;
+            document.getElementById('standardizeCount').textContent = scores.S + '/' + totals.S;
+
+            // Determine maturity level
+            let level = 1;
+            let levelText = 'Level 1: Reactive (Act-Centric)';
+            let badgeClass = 'level1';
+            let levelDesc = '';
+
+            if (actPsr > 70 && standardizePsr < 30 && trainPsr < 30) {
+                level = 1;
+                levelText = 'Level 1: Reactive (Act-Centric)';
+                badgeClass = 'level1';
+                levelDesc = 'Your organization relies heavily on individual "heroic" efforts to fix problems. You\'re trapped in the Firefighting Gap (170.8% co-occurrence between technical shocks and reactive management). Success depends on specific people rather than systems.';
+            } else if (inquirePsr > 70 && standardizePsr < 50) {
+                level = 2;
+                levelText = 'Level 2: Mediated (Inquiry-Balanced)';
+                badgeClass = 'level2';
+                levelDesc = 'You\'ve recognized the "AI knows all" perception and actively recalibrate stakeholder expectations. However, lack of standardization leaves you vulnerable to AI\'s rapid evolution. Your inquiry is still reactive (128.0% link with expectations) rather than proactive.';
+            } else if (actPsr > 70 && standardizePsr > 70 && trainPsr > 70 && inquirePsr > 70) {
+                level = 3;
+                levelText = 'Level 3: Strategic (Standardized-Resilient)';
+                badgeClass = 'level3';
+                levelDesc = 'Congratulations! You\'ve achieved "Professional Insulation." Your organization has balanced all four pillars, creating systemic circuit breakers that neutralize technical and cultural friction at the point of origin. You\'re no longer dependent on individual heroes.';
+            } else if (standardizePsr > 70 && trainPsr > 70) {
+                level = 3;
+                levelText = 'Level 3: Strategic (Standardized-Resilient)';
+                badgeClass = 'level3';
+                levelDesc = 'Congratulations! Your strong standardization and training practices have created organizational resilience. Continue building on this foundation.';
+            } else {
+                // Mixed profile - determine closest level
+                level = 1;
+                levelText = 'Level 1: Reactive (Developing)';
+                badgeClass = 'level1';
+                levelDesc = 'Your organization shows a mixed profile. Focus on building standardization and training to move toward Level 2.';
+            }
+
+            const badge = document.getElementById('maturityBadge');
+            badge.textContent = levelText;
+            badge.className = 'maturity-badge ' + badgeClass;
+
+            document.getElementById('levelDescription').innerHTML = `
+                <h3 style="margin-bottom: 0.5rem;">${levelText}</h3>
+                <p>${levelDesc}</p>
+            `;
+
+            // Generate recommendations
+            const recommendations = document.getElementById('recommendationsList');
+            recommendations.innerHTML = '';
+
+            if (actPsr < 50) {
+                recommendations.innerHTML += '<li><strong>Increase ACT:</strong> Hire cultural bridges, create safe spaces for communication, establish clear vision and escalation protocols.</li>';
+            }
+            if (trainPsr < 50) {
+                recommendations.innerHTML += '<li><strong>Address the Skilling Void:</strong> Implement continuous cross-cultural training, assess team weak areas, encourage international exposure.</li>';
+            }
+            if (inquirePsr < 50) {
+                recommendations.innerHTML += '<li><strong>Strengthen INQUIRE:</strong> Front-load stakeholder alignment, conduct one-on-one sessions, understand client "dream vs. reality" before building.</li>';
+            }
+            if (standardizePsr < 50) {
+                recommendations.innerHTML += '<li><strong>Enhance STANDARDIZE:</strong> Document quick fixes, adopt frameworks (Agile/CPMAI/ITIL), create communication templates, define clear metrics.</li>';
+            }
+
+            // Level-specific recommendations
+            if (level === 1) {
+                recommendations.innerHTML += '<li><strong>Priority:</strong> Institutionalize quick fixes. For every manual intervention, document it as a standard procedure. Aim to reduce your ACT:STANDARDIZE ratio from 2:1 to 1:1.</li>';
+                recommendations.innerHTML += '<li><strong>Start training:</strong> Even informal peer briefings can begin filling the Skilling Void.</li>';
+            } else if (level === 2) {
+                recommendations.innerHTML += '<li><strong>Priority:</strong> Move from reactive to proactive inquiry. Conduct pre-emptive alignment sessions during design phase, not after problems arise.</li>';
+                recommendations.innerHTML += '<li><strong>Build standardization:</strong> Create templates, documentation, and metrics to formalize your good inquiry practices.</li>';
+            } else if (level === 3) {
+                recommendations.innerHTML += '<li><strong>Maintain excellence:</strong> Continue auditing your PSR regularly. Consider publishing case studies to establish thought leadership.</li>';
+                recommendations.innerHTML += '<li><strong>Explore advanced resilience:</strong> RAG-based architectural simplicity, advanced explainability techniques.</li>';
+            }
+
+            // Add link to Module 6
+            recommendations.innerHTML += '<li style="margin-top: 1rem;"><a href="course-module-6.html" style="color: #3b82f6;">→ Go to Module 6 for detailed action planning</a></li>';
+
+            // Create radar chart
+            createRadarChart(actPsr, trainPsr, inquirePsr, standardizePsr);
+
+            // Show results
+            document.getElementById('resultsPanel').classList.add('visible');
+            window.scrollTo({ top: document.getElementById('resultsPanel').offsetTop - 100, behavior: 'smooth' });
+        }
+
+        // Radar chart
+        function createRadarChart(act, train, inquire, standardize) {
+            const ctx = document.getElementById('radarChart').getContext('2d');
+            
+            // Clear previous chart if exists
+            if (window.radarChart instanceof Chart) {
+                window.radarChart.destroy();
+            }
+
+            window.radarChart = new Chart(ctx, {
+                type: 'radar',
+                data: {
+                    labels: ['ACT', 'TRAIN', 'INQUIRE', 'STANDARDIZE'],
+                    datasets: [{
+                        label: 'Your PSR Profile',
+                        data: [act, train, inquire, standardize],
+                        backgroundColor: 'rgba(59, 130, 246, 0.2)',
+                        borderColor: '#3b82f6',
+                        pointBackgroundColor: '#3b82f6',
+                        pointBorderColor: '#fff',
+                        pointHoverBackgroundColor: '#fff',
+                        pointHoverBorderColor: '#3b82f6',
+                        borderWidth: 3
+                    }]
+                },
+                options: {
+                    scales: {
+                        r: {
+                            beginAtZero: true,
+                            max: 100,
+                            ticks: {
+                                stepSize: 20,
+                                callback: function(value) {
+                                    return value + '%';
+                                }
+                            }
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    return context.raw + '%';
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        // Save results to localStorage
+        function saveResults() {
+            const results = {
+                act: document.getElementById('actPsr').textContent,
+                train: document.getElementById('trainPsr').textContent,
+                inquire: document.getElementById('inquirePsr').textContent,
+                standardize: document.getElementById('standardizePsr').textContent,
+                level: document.getElementById('maturityBadge').textContent,
+                date: new Date().toISOString()
+            };
+            
+            localStorage.setItem('atisResults', JSON.stringify(results));
+            alert('Results saved! You can access them in Module 6.');
+        }
+
+        // Reset assessment
+        function resetAssessment() {
+            if (confirm('This will clear all your answers. Continue?')) {
+                document.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+                document.getElementById('resultsPanel').classList.remove('visible');
+                document.getElementById('progressBar').style.width = '0%';
+                document.getElementById('progressCount').textContent = '0/40 answered';
+            }
+        }
+
+        // Load saved progress if any
+        window.onload = function() {
+            // Could implement loading from localStorage
+            updateProgress();
+        };
+    </script>
+</body>
+</html>

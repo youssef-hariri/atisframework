@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About the Research | ATIS Framework</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        body {
+            background: #f8fafc;
+            color: #0f172a;
+            line-height: 1.6;
+        }
+
+        .navbar {
+            background: white;
+            border-bottom: 1px solid #e2e8f0;
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(255,255,255,0.95);
+            backdrop-filter: blur(10px);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #0b1e33;
+            text-decoration: none;
+        }
+
+        .logo span {
+            color: #3b82f6;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: #475569;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .nav-links a:hover, .nav-links a.active {
+            color: #3b82f6;
+        }
+
+        .page-header {
+            background: linear-gradient(135deg, #0b1e33 0%, #1e3a5f 100%);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .page-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .page-header p {
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 0 auto;
+            opacity: 0.9;
+        }
+
+        .badge {
+            background: rgba(59,130,246,0.2);
+            color: #93c5fd;
+            padding: 0.5rem 1.5rem;
+            border-radius: 50px;
+            display: inline-block;
+            margin-bottom: 1.5rem;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        .section {
+            background: white;
+            border-radius: 24px;
+            padding: 2.5rem;
+            margin-bottom: 2.5rem;
+            border: 1px solid #e2e8f0;
+        }
+
+        .section h2 {
+            font-size: 1.8rem;
+            color: #0b1e33;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .section h2 span {
+            background: #3b82f6;
+            color: white;
+            font-size: 1rem;
+            padding: 0.2rem 0.8rem;
+            border-radius: 50px;
+            margin-left: 1rem;
+        }
+
+        .methodology-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .method-card {
+            background: #f8fafc;
+            padding: 2rem;
+            border-radius: 16px;
+            text-align: center;
+            border: 1px solid #e2e8f0;
+        }
+
+        .method-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .method-card h3 {
+            margin-bottom: 0.5rem;
+            color: #0b1e33;
+        }
+
+        .method-card .date {
+            color: #3b82f6;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .stat-card {
+            background: #f8fafc;
+            padding: 2rem;
+            border-radius: 16px;
+            text-align: center;
+            border: 1px solid #e2e8f0;
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #3b82f6;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            color: #475569;
+            font-size: 0.95rem;
+        }
+
+        .timeline {
+            position: relative;
+            padding: 2rem 0;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 2px;
+            height: 100%;
+            background: #e2e8f0;
+        }
+
+        .timeline-item {
+            display: flex;
+            justify-content: space-between;
+            margin: 2rem 0;
+            position: relative;
+        }
+
+        .timeline-left, .timeline-right {
+            width: 45%;
+        }
+
+        .timeline-left {
+            text-align: right;
+            padding-right: 2rem;
+        }
+
+        .timeline-right {
+            padding-left: 2rem;
+        }
+
+        .timeline-dot {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 16px;
+            height: 16px;
+            background: #3b82f6;
+            border-radius: 50%;
+            border: 3px solid white;
+        }
+
+        .timeline-date {
+            font-weight: 700;
+            color: #3b82f6;
+            margin-bottom: 0.5rem;
+        }
+
+        .expert-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+
+        .expert-category {
+            background: #f8fafc;
+            padding: 1.5rem;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .expert-number {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #3b82f6;
+        }
+
+        .expert-role {
+            color: #475569;
+            margin-top: 0.5rem;
+        }
+
+        .countries-cloud {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+            margin: 2rem 0;
+        }
+
+        .country-tag {
+            background: #f1f5f9;
+            padding: 0.5rem 1.5rem;
+            border-radius: 50px;
+            font-weight: 500;
+            border: 1px solid #e2e8f0;
+        }
+
+        .publication-card {
+            background: #f8fafc;
+            border-radius: 16px;
+            padding: 2rem;
+            margin: 1.5rem 0;
+            border: 1px solid #e2e8f0;
+        }
+
+        .publication-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #0b1e33;
+            margin-bottom: 0.5rem;
+        }
+
+        .publication-authors {
+            color: #475569;
+            margin-bottom: 0.5rem;
+        }
+
+        .publication-journal {
+            color: #3b82f6;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .publication-abstract {
+            color: #334155;
+            margin: 1rem 0;
+            padding: 1rem;
+            background: white;
+            border-radius: 8px;
+        }
+
+        .quote-box {
+            background: #f0f9ff;
+            border-left: 4px solid #3b82f6;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+        }
+
+        .quote-text {
+            font-style: italic;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            color: #1e293b;
+        }
+
+        .quote-author {
+            font-weight: 600;
+            color: #0b1e33;
+        }
+
+        .btn {
+            background: #3b82f6;
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: background 0.2s;
+        }
+
+        .btn:hover {
+            background: #2563eb;
+        }
+
+        .btn-outline {
+            background: transparent;
+            border: 2px solid #3b82f6;
+            color: #3b82f6;
+        }
+
+        .btn-outline:hover {
+            background: #3b82f6;
+            color: white;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: #64748b;
+            border-top: 1px solid #e2e8f0;
+            margin-top: 3rem;
+        }
+
+        @media (max-width: 768px) {
+            .methodology-grid, .stats-grid, .expert-grid {
+                grid-template-columns: 1fr;
+            }
+            .timeline::before {
+                left: 0;
+            }
+            .timeline-item {
+                flex-direction: column;
+            }
+            .timeline-left, .timeline-right {
+                width: 100%;
+                text-align: left;
+                padding: 0 0 0 2rem;
+            }
+            .timeline-dot {
+                left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">ATIS <span>Framework</span></a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="assessment.html">Self-Assessment</a>
+                <a href="course.html">Executive Course</a>
+                <a href="about.html" class="active">Research</a>
+                <a href="resources.html">Resources</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="page-header">
+        <div class="badge">🔬 Peer-Reviewed Research</div>
+        <h1>The Science Behind ATIS</h1>
+        <p>A multi-staged qualitative study with 48 international AI experts</p>
+    </div>
+
+    <div class="container">
+        <!-- Study Overview -->
+        <div class="section">
+            <h2>📊 Study Overview</h2>
+            <p>The ATIS Framework emerged from a rigorous three-round qualitative study designed to identify success factors for global AI projects by examining the interaction between technical triggers and cross-cultural dynamics.</p>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">48</div>
+                    <div class="stat-label">International Experts</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">1,392</div>
+                    <div class="stat-label">Analytical Units</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">279</div>
+                    <div class="stat-label">Negative Cases</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">170.8%</div>
+                    <div class="stat-label">Firefighting Gap</div>
+                </div>
+            </div>
+
+            <div class="quote-box">
+                <div class="quote-text">"Data science is that like a lot of times, we don't know. It's different. We don't know the answers, right?"</div>
+                <div class="quote-author">— P5, Data Scientist (from interviews)</div>
+            </div>
+        </div>
+
+        <!-- Methodology -->
+        <div class="section">
+            <h2>🔬 Research Methodology</h2>
+            <p>The study employed a hybrid computational-qualitative approach across three stages:</p>
+
+            <div class="methodology-grid">
+                <div class="method-card">
+                    <div class="method-icon">📝</div>
+                    <h3>Stage 1</h3>
+                    <div class="date">Exploratory Inductive</div>
+                    <p>Manual thematic analysis establishing 35-subtheme taxonomy with "human-in-the-loop" grounding</p>
+                </div>
+                <div class="method-card">
+                    <div class="method-icon">🤖</div>
+                    <h3>Stage 2</h3>
+                    <div class="date">Abductive Expansion</div>
+                    <p>LLM-powered "Latent Semantic Scan" revealing emergent codes (stochasticity, autocatalysis)</p>
+                </div>
+                <div class="method-card">
+                    <div class="method-icon">📈</div>
+                    <h3>Stage 3</h3>
+                    <div class="date">Confirmatory Deductive</div>
+                    <p>6-phase hybrid validation with Python-based clustering and 44 seed papers</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Timeline -->
+        <div class="section">
+            <h2>⏳ Research Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-left">
+                        <div class="timeline-date">March 2023</div>
+                        <h4>Round 1</h4>
+                        <p>5 expert interviews focused on AI lifecycle and organizational context</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right"></div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-left"></div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right">
+                        <div class="timeline-date">May 2023</div>
+                        <h4>Round 2</h4>
+                        <p>5 interviews testing emergent themes; abductive pivot to include organizational and leadership agency</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-left">
+                        <div class="timeline-date">March-April 2025</div>
+                        <h4>Round 3</h4>
+                        <p>38 large-scale interviews for computational validation (post-LLM deployment era)</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Expert Panel -->
+        <div class="section">
+            <h2>👥 Expert Panel <span>N=48</span></h2>
+            <p>Maximum variation sampling across roles and geographies (Patton, 2015)</p>
+
+            <div class="expert-grid">
+                <div class="expert-category">
+                    <div class="expert-number">18</div>
+                    <div class="expert-role">Project Managers</div>
+                </div>
+                <div class="expert-category">
+                    <div class="expert-number">16</div>
+                    <div class="expert-role">AI Engineers</div>
+                </div>
+                <div class="expert-category">
+                    <div class="expert-number">14</div>
+                    <div class="expert-role">Business Translators</div>
+                </div>
+                <div class="expert-category">
+                    <div class="expert-number">44</div>
+                    <div class="expert-role">One-on-One</div>
+                </div>
+                <div class="expert-category">
+                    <div class="expert-number">4</div>
+                    <div class="expert-role">Group Interviews</div>
+                </div>
+            </div>
+
+            <h3 style="margin: 2rem 0 1rem 0;">🌍 Geographic Representation</h3>
+            <div class="countries-cloud">
+                <span class="country-tag">🇺🇸 USA</span>
+                <span class="country-tag">🇬🇧 UK</span>
+                <span class="country-tag">🇫🇷 France</span>
+                <span class="country-tag">🇧🇷 Brazil</span>
+                <span class="country-tag">🇮🇳 India</span>
+                <span class="country-tag">🇰🇪 Kenya</span>
+                <span class="country-tag">🇯🇵 Japan</span>
+                <span class="country-tag">🇲🇽 Mexico</span>
+                <span class="country-tag">🇸🇪 Sweden</span>
+                <span class="country-tag">🇳🇱 Netherlands</span>
+                <span class="country-tag">🇦🇪 UAE</span>
+                <span class="country-tag">🇨🇱 Chile</span>
+                <span class="country-tag">🇵🇪 Peru</span>
+                <span class="country-tag">🇳🇵 Nepal</span>
+                <span class="country-tag">🇹🇿 Tanzania</span>
+                <span class="country-tag">🇵🇰 Pakistan</span>
+                <span class="country-tag">🇨🇳 China</span>
+                <span class="country-tag">🇩🇪 Germany</span>
+            </div>
+        </div>
+
+        <!-- Recruitment Channels -->
+        <div class="section">
+            <h2>📡 Recruitment Channels</h2>
+            <p>Participants were sourced from 7 prominent AI and Data Science communities on Slack, plus professional networks.</p>
+
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 2rem 0;">
+                <div style="background: #f8fafc; padding: 1rem; border-radius: 8px;">Data Science Salon (DSS)</div>
+                <div style="background: #f8fafc; padding: 1rem; border-radius: 8px;">Data Talks Club</div>
+                <div style="background: #f8fafc; padding: 1rem; border-radius: 8px;">TWIML Community</div>
+                <div style="background: #f8fafc; padding: 1rem; border-radius: 8px;">ODSC Global</div>
+                <div style="background: #f8fafc; padding: 1rem; border-radius: 8px;">Convergence</div>
+                <div style="background: #f8fafc; padding: 1rem; border-radius: 8px;">DRE Community</div>
+                <div style="background: #f8fafc; padding: 1rem; border-radius: 8px;">MLOps Community</div>
+                <div style="background: #f8fafc; padding: 1rem; border-radius: 8px;">Professional Networks</div>
+            </div>
+
+            <div class="stats-grid" style="grid-template-columns: repeat(2, 1fr);">
+                <div class="stat-card">
+                    <div class="stat-number">622</div>
+                    <div class="stat-label">Total Contacted</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">8%</div>
+                    <div class="stat-label">Conversion Rate</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Key Publications -->
+        <div class="section">
+            <h2>📄 Key Publications</h2>
+            
+            <div class="publication-card">
+                <div class="publication-title">The Friction of AI Specificities in Cross-Cultural Projects</div>
+                <div class="publication-authors">Hariri, Y.</div>
+                <div class="publication-journal">Journal of AI Project Management, 2026</div>
+                <div class="publication-abstract">
+                    <strong>Abstract:</strong> This paper presents the ATIS Framework and Causal Chain Model based on 48 expert interviews. Identifies four AI specificities (stochastic uncertainty, autocatalysis, process disruption, high expectations) and their 170.8% co-occurrence with reactive management.
+                </div>
+                <a href="#" class="btn-outline" style="padding: 0.5rem 1rem; font-size: 0.9rem;">View Publication →</a>
+            </div>
+
+            <div class="publication-card">
+                <div class="publication-title">The "Slang Hunter": A Hybrid Computational-Qualitative Methodology</div>
+                <div class="publication-authors">Hariri, Y.</div>
+                <div class="publication-journal">Qualitative Research Methods, 2026</div>
+                <div class="publication-abstract">
+                    <strong>Abstract:</strong> Details the six-phase hybrid methodology using LLMs for latent semantic alignment, Python-based clustering, and analysis of 279 negative cases as resilience buffers.
+                </div>
+                <a href="#" class="btn-outline" style="padding: 0.5rem 1rem; font-size: 0.9rem;">View Publication →</a>
+            </div>
+        </div>
+
+        <!-- Seed Papers (References) -->
+        <div class="section">
+            <h2>📚 Theoretical Foundation</h2>
+            <p>The study's theoretical rubric was developed from seminal seed papers for each AI specificity:</p>
+
+            <ul style="margin: 1.5rem 0 1.5rem 2rem;">
+                <li><strong>Autocatalysis:</strong> Su & Ayob (2025) - Artificial Intelligence in Project Success</li>
+                <li><strong>Stochastic Uncertainty:</strong> Fridgeirsson et al. (2021) - Effect of AI on Project Management</li>
+                <li><strong>Process Disruption:</strong> Zhu et al. (2021) - Project Manager's Emotional Intelligence</li>
+                <li><strong>High Expectations:</strong> Buschmeyer et al. (2022) - Expectation Management in AI</li>
+            </ul>
+
+            <p>Plus 40 additional papers identified via Litmaps citation network analysis (N=44 total).</p>
+        </div>
+
+        <!-- Limitations -->
+        <div class="section">
+            <h2>⚠️ Research Limitations</h2>
+            <p>The study acknowledges specific boundary conditions:</p>
+
+            <div style="margin: 1.5rem 0;">
+                <div style="background: #f8fafc; padding: 1.5rem; border-radius: 12px; margin-bottom: 1rem;">
+                    <h4>1. Single-Sided Stakeholder Perspective</h4>
+                    <p>Focus on practitioners means client-side expectations remain theoretically inferred.</p>
+                </div>
+                <div style="background: #f8fafc; padding: 1.5rem; border-radius: 12px; margin-bottom: 1rem;">
+                    <h4>2. Digital Ecosystem Sampling Bias</h4>
+                    <p>Slack-based recruitment may underrepresent siloed sectors (defense, proprietary R&D).</p>
+                </div>
+                <div style="background: #f8fafc; padding: 1.5rem; border-radius: 12px;">
+                    <h4>3. Survivorship Bias</h4>
+                    <p>Experienced experts may have automated responses to friction that novices still struggle with.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ethics Statement -->
+        <div class="section">
+            <h2>🔒 Ethics & Anonymization</h2>
+            <p>All participants provided informed consent before interviews. To preserve anonymity:</p>
+            <ul style="margin: 1rem 0 1rem 2rem;">
+                <li>Participants referenced as P1-P48 throughout all publications and materials</li>
+                <li>All identifying details (company names, specific locations) removed</li>
+                <li>Quotes used with permission and anonymized</li>
+                <li>Data stored with enterprise-grade encryption</li>
+            </ul>
+            <div class="quote-box" style="margin-top: 1.5rem;">
+                <div class="quote-text">"The guys that work with us were not from data science... they do not know why the model was giving them that answer. We need this responsibility."</div>
+                <div class="quote-author">— P2, used with permission</div>
+            </div>
+        </div>
+
+        <!-- Academic Affiliations -->
+        <div class="section">
+            <h2>🏛️ Academic Partners</h2>
+            <div style="display: flex; gap: 2rem; justify-content: center; align-items: center; flex-wrap: wrap;">
+                <div style="text-align: center;">
+                    <div style="font-size: 2rem; font-weight: 700; color: #0b1e33;">Rennes SB</div>
+                    <div style="color: #475569;">Rennes School of Business</div>
+                </div>
+                <div style="width: 2px; height: 50px; background: #e2e8f0;"></div>
+                <div style="text-align: center;">
+                    <div style="font-size: 2rem; font-weight: 700; color: #0b1e33;">UpGrad</div>
+                    <div style="color: #475569;">Online Education Partner</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact/Collaboration -->
+        <div style="background: white; border-radius: 24px; padding: 3rem; text-align: center; border: 1px solid #e2e8f0; margin: 3rem 0;">
+            <h2 style="margin-bottom: 1rem;">🤝 Collaborate With Us</h2>
+            <p style="max-width: 600px; margin: 0 auto 2rem;">Interested in applying the ATIS Framework in your organization or collaborating on research?</p>
+            <div style="display: flex; gap: 1rem; justify-content: center;">
+                <a href="mailto:youssef.hariri@rennes-sb.com" class="btn">Contact Principal Researcher</a>
+                <a href="resources.html" class="btn btn-outline">Download Resources</a>
+            </div>
+            <p style="margin-top: 2rem; color: #64748b;">Youssef HARIRI • Rennes School of Business • youssef.hariri@rennes-sb.com</p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>© 2026 ATIS Framework. Based on peer-reviewed research with 48 global AI experts.</p>
+        <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #94a3b8;">Expert quotes anonymized (P1-P48) and used with permission.</p>
+    </footer>
+</body>
+</html>

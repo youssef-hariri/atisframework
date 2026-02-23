@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 3: The ATIS Framework Pillars | ATIS Executive Course</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        body {
+            background: #f8fafc;
+            color: #0f172a;
+            line-height: 1.6;
+        }
+
+        .navbar {
+            background: white;
+            border-bottom: 1px solid #e2e8f0;
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(255,255,255,0.95);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #0b1e33;
+            text-decoration: none;
+        }
+
+        .logo span {
+            color: #3b82f6;
+        }
+
+        .nav-links a {
+            color: #475569;
+            text-decoration: none;
+            margin-left: 2rem;
+            font-weight: 500;
+        }
+
+        .nav-links a:hover, .nav-links a.active {
+            color: #3b82f6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+
+        .module-header {
+            margin-bottom: 2rem;
+        }
+
+        .module-badge {
+            color: #3b82f6;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #0b1e33;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        .progress-bar {
+            height: 8px;
+            background: #e2e8f0;
+            border-radius: 4px;
+            margin: 2rem 0;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: #3b82f6;
+            width: 50%;
+            border-radius: 4px;
+        }
+
+        .lesson {
+            background: white;
+            border-radius: 16px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border: 1px solid #e2e8f0;
+        }
+
+        .lesson h2 {
+            font-size: 1.8rem;
+            color: #0b1e33;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #e2e8f0;
+        }
+
+        .lesson h3 {
+            font-size: 1.3rem;
+            color: #1e293b;
+            margin: 1.5rem 0 1rem 0;
+        }
+
+        .pillar-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .pillar-card {
+            background: #f8fafc;
+            border-radius: 16px;
+            padding: 1.5rem;
+            border-top: 4px solid;
+            transition: transform 0.2s;
+        }
+
+        .pillar-card:hover {
+            transform: translateY(-4px);
+        }
+
+        .pillar-card.act { border-color: #ef4444; }
+        .pillar-card.train { border-color: #f59e0b; }
+        .pillar-card.inquire { border-color: #3b82f6; }
+        .pillar-card.standardize { border-color: #10b981; }
+
+        .pillar-icon {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .pillar-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .pillar-card.act .pillar-title { color: #991b1b; }
+        .pillar-card.train .pillar-title { color: #92400e; }
+        .pillar-card.inquire .pillar-title { color: #1e40af; }
+        .pillar-card.standardize .pillar-title { color: #065f46; }
+
+        .pillar-stats {
+            display: flex;
+            justify-content: space-between;
+            margin: 1rem 0;
+            font-size: 0.9rem;
+            color: #64748b;
+        }
+
+        .quote-box {
+            background: #f0f9ff;
+            border-left: 4px solid #3b82f6;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+        }
+
+        .quote-text {
+            font-style: italic;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            color: #1e293b;
+        }
+
+        .quote-author {
+            font-weight: 600;
+            color: #0b1e33;
+        }
+
+        .action-list {
+            margin: 1rem 0;
+            padding-left: 1.5rem;
+        }
+
+        .action-list li {
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-highlight {
+            background: #1e293b;
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            display: inline-block;
+            margin-right: 0.5rem;
+        }
+
+        .level-box {
+            padding: 1.5rem;
+            border-radius: 12px;
+            margin: 1rem 0;
+        }
+
+        .level1 { background: #fee2e2; }
+        .level2 { background: #fef3c7; }
+        .level3 { background: #d1fae5; }
+
+        .btn {
+            background: #3b82f6;
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: background 0.2s;
+        }
+
+        .btn:hover {
+            background: #2563eb;
+        }
+
+        .btn-secondary {
+            background: white;
+            color: #3b82f6;
+            border: 2px solid #3b82f6;
+        }
+
+        .btn-secondary:hover {
+            background: #3b82f6;
+            color: white;
+        }
+
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin: 2rem 0;
+        }
+
+        .takeaways {
+            background: #f1f5f9;
+            border-radius: 16px;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+
+        .takeaways h3 {
+            color: #0b1e33;
+            margin-bottom: 1rem;
+        }
+
+        .takeaways ul {
+            padding-left: 1.5rem;
+        }
+
+        .takeaways li {
+            margin-bottom: 0.75rem;
+        }
+
+        .assessment-connect {
+            background: white;
+            border-radius: 16px;
+            padding: 2rem;
+            border: 2px solid #3b82f6;
+            margin: 2rem 0;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: #64748b;
+            border-top: 1px solid #e2e8f0;
+            margin-top: 3rem;
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            .pillar-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">ATIS <span>Framework</span></a>
+            <div class="nav-links">
+                <a href="assessment.html">Assessment</a>
+                <a href="course.html" class="active">Course</a>
+                <a href="about.html">Research</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Module Header -->
+        <div class="module-header">
+            <div class="module-badge">MODULE 3 OF 6</div>
+            <h1>The ATIS Framework: Four Pillars of Resilience</h1>
+            <p>Moving from reactive firefighting to systemic organizational resilience.</p>
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="progress-bar">
+            <div class="progress-fill" style="width: 50%;"></div>
+        </div>
+
+        <!-- Lesson 3.1: Introduction to the Pillars -->
+        <div class="lesson">
+            <h2>3.1 The Four Pillars Overview</h2>
+            
+            <p>The ATIS Framework emerged from the synthesis of 48 expert interviews and 1,392 analytical units. It provides a systematic response to the four technical specificities you learned in Module 2.</p>
+
+            <div class="pillar-grid">
+                <!-- Act Pillar -->
+                <div class="pillar-card act">
+                    <div class="pillar-icon">⚡</div>
+                    <div class="pillar-title">ACT</div>
+                    <p>Proactive structural intervention to stabilize process disruption.</p>
+                    <div class="pillar-stats">
+                        <span>📊 464 instances</span>
+                        <span>🔗 170.8% with Stochastic</span>
+                    </div>
+                </div>
+
+                <!-- Train Pillar -->
+                <div class="pillar-card train">
+                    <div class="pillar-icon">📚</div>
+                    <div class="pillar-title">TRAIN</div>
+                    <p>Continuous upgrading of human infrastructure for autocatalysis.</p>
+                    <div class="pillar-stats">
+                        <span>📊 233 instances</span>
+                        <span>📉 16.7% utilization</span>
+                    </div>
+                </div>
+
+                <!-- Inquire Pillar -->
+                <div class="pillar-card inquire">
+                    <div class="pillar-icon">🔍</div>
+                    <div class="pillar-title">INQUIRE</div>
+                    <p>Resolving information asymmetry and uncertainty.</p>
+                    <div class="pillar-stats">
+                        <span>📊 339 instances</span>
+                        <span>🔗 128.0% with Expectations</span>
+                    </div>
+                </div>
+
+                <!-- Standardize Pillar -->
+                <div class="pillar-card standardize">
+                    <div class="pillar-icon">⚙️</div>
+                    <div class="pillar-title">STANDARDIZE</div>
+                    <p>Managing predictability in non-deterministic paths.</p>
+                    <div class="pillar-stats">
+                        <span>📊 252 instances</span>
+                        <span>⚖️ 2:1 ACT ratio</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quote-box">
+                <div class="quote-text">"The framework emerged from the data. We didn't start with these pillars—the experts told us what works."</div>
+                <div class="quote-author">— Research Finding</div>
+            </div>
+        </div>
+
+        <!-- Lesson 3.2: The ACT Pillar - Deep Dive -->
+        <div class="lesson">
+            <h2>3.2 ACT: Proactive Structural Intervention</h2>
+            
+            <div style="background: #fee2e2; padding: 1.5rem; border-radius: 12px; margin-bottom: 1.5rem;">
+                <span class="stat-highlight">⚡ MOST FREQUENT: 464 instances</span>
+                <span class="stat-highlight">🔗 170.8% co-occurrence with Stochastic Uncertainty</span>
+            </div>
+
+            <h3>What It Means</h3>
+            <p>The ACT pillar involves decisive organizational and leadership steps to stabilize process disruption. It's about actively shaping the environment where technical and cultural mindsets can converge.</p>
+
+            <h3>Key Actions at Each Level</h3>
+            
+            <div style="margin: 1.5rem 0;">
+                <h4 style="color: #991b1b;">Organizational Level</h4>
+                <ul class="action-list">
+                    <li><strong>Hiring cultural bridges:</strong> Recruit team members who reflect client diversity</li>
+                    <li><strong>Create safe spaces:</strong> Dedicated channels for non-work communication</li>
+                    <li><strong>Establish feedback channels:</strong> Culturally-aligned communication protocols</li>
+                </ul>
+
+                <div class="quote-box">
+                    <div class="quote-text">"When hiring, for instance... to go pitch to these clients, we have to source... if it's Kenya, we get Kenyan, so that they actually have that intimate understanding of these different companies."</div>
+                    <div class="quote-author">— P33</div>
+                </div>
+
+                <h4 style="color: #991b1b; margin-top: 1.5rem;">Leadership Level</h4>
+                <ul class="action-list">
+                    <li><strong>Create clear vision:</strong> Merge divergent cultural understandings</li>
+                    <li><strong>Decisive conflict resolution:</strong> Act when irresolvable conflicts arise</li>
+                    <li><strong>Balance team bonding:</strong> Structured, culturally-sensitive activities</li>
+                </ul>
+
+                <div class="quote-box">
+                    <div class="quote-text">"When the glitch is there between the team members, I'll give the only two ultimatums... Either they solve by themselves first, then I'll try to solve myself if they are not agree with it, please leave the team."</div>
+                    <div class="quote-author">— P24, Team Leader</div>
+                </div>
+
+                <h4 style="color: #991b1b; margin-top: 1.5rem;">Operational & Personal Level</h4>
+                <ul class="action-list">
+                    <li><strong>Deploy cultural bridges:</strong> Team members who bridge client-developer gaps</li>
+                    <li><strong>Overcommunicate:</strong> Proactive clarity in multilingual settings</li>
+                    <li><strong>Engage in shared experiences:</strong> Non-work interactions build trust</li>
+                </ul>
+
+                <div class="quote-box">
+                    <div class="quote-text">"Overcommunicate, don't assume anything. Don't assume that people would understand what you are talking about, simplify the way you are communicating, make it crystal clear what you are asking and double check if people understood."</div>
+                    <div class="quote-author">— P4</div>
+                </div>
+            </div>
+
+            <h3>When ACT is Overused: The Firefighting Trap</h3>
+            <div class="level-box level1">
+                <p><strong>Warning Sign:</strong> If your organization has high ACT but low STANDARDIZE and TRAIN (<30%), you're trapped in Level 1 (Reactive). Success depends on individual "heroic" efforts rather than systemic reliability.</p>
+            </div>
+        </div>
+
+        <!-- Lesson 3.3: The TRAIN Pillar - Deep Dive -->
+        <div class="lesson">
+            <h2>3.3 TRAIN: Building Capability for Autocatalysis</h2>
+            
+            <div style="background: #fef3c7; padding: 1.5rem; border-radius: 12px; margin-bottom: 1.5rem;">
+                <span class="stat-highlight">📚 LEAST UTILIZED: 16.7% of responses</span>
+                <span class="stat-highlight">⚠️ THE "SKILLING VOID"</span>
+            </div>
+
+            <h3>What It Means</h3>
+            <p>Because AI is autocatalytic (rapidly self-reinforcing), technical and social skills are subject to rapid decay. The TRAIN pillar provides continuous upgrading of human infrastructure.</p>
+
+            <h3>Key Actions at Each Level</h3>
+            
+            <div style="margin: 1.5rem 0;">
+                <h4 style="color: #92400e;">Organizational Level</h4>
+                <ul class="action-list">
+                    <li><strong>Continuous up-skilling:</strong> Not one-time events, but ongoing learning</li>
+                    <li><strong>Assess weak areas:</strong> Proactively identify skill gaps</li>
+                    <li><strong>Informal briefings:</strong> Boss-to-peer knowledge sharing</li>
+                </ul>
+
+                <div class="quote-box">
+                    <div class="quote-text">"What are the weak areas then? We come in and we now act as a backup to help them, not just to overshadow them, but we try to boost them in the areas where they are weak."</div>
+                    <div class="quote-author">— P19</div>
+                </div>
+
+                <h4 style="color: #92400e; margin-top: 1.5rem;">Leadership Level</h4>
+                <ul class="action-list">
+                    <li><strong>Adapt communication:</strong> Adjust style to diverse team members</li>
+                    <li><strong>Adapt commercial approaches:</strong> Match client cultural norms</li>
+                    <li><strong>Develop diplomacy skills:</strong> Cross-cultural conflict resolution</li>
+                </ul>
+
+                <h4 style="color: #92400e; margin-top: 1.5rem;">Personal Level</h4>
+                <ul class="action-list">
+                    <li><strong>International exposure:</strong> Develop "subconscious adaptation"</li>
+                    <li><strong>Social curiosity:</strong> Proactively learn about other cultures</li>
+                    <li><strong>Communication skills:</strong> Master overcommunication techniques</li>
+                </ul>
+
+                <div class="quote-box">
+                    <div class="quote-text">"I guess you know, maybe I don't consciously address it, maybe subconsciously... You know, I've traveled a lot, actually. And so I maybe subconsciously kind of, you know, things like the culture and, you know, the accent."</div>
+                    <div class="quote-author">— P15, on subconscious adaptation</div>
+                </div>
+            </div>
+
+            <h3>The Cost of the Skilling Void</h3>
+            <p>The TRAIN pillar being the least utilized (16.7%) represents a fundamental misalignment between AI evolution and workforce reskilling. Staff are assigned to complex hybrid-AI tasks without socio-technical preparation.</p>
+        </div>
+
+        <!-- Lesson 3.4: The INQUIRE Pillar - Deep Dive -->
+        <div class="lesson">
+            <h2>3.4 INQUIRE: Resolving Information Asymmetry</h2>
+            
+            <div style="background: #dbeafe; padding: 1.5rem; border-radius: 12px; margin-bottom: 1.5rem;">
+                <span class="stat-highlight">🔍 339 instances</span>
+                <span class="stat-highlight">🔗 128.0% with High Customer Expectations</span>
+            </div>
+
+            <h3>What It Means</h3>
+            <p>The INQUIRE pillar addresses stochastic uncertainty by making information acquisition a continuous priority. It closes the "Dream-Reality Gap" between client expectations and technical reality.</p>
+
+            <h3>Key Actions at Each Level</h3>
+            
+            <div style="margin: 1.5rem 0;">
+                <h4 style="color: #1e40af;">Leadership Level</h4>
+                <ul class="action-list">
+                    <li><strong>Understand agency needs:</strong> Determine right degree of autonomy for each member</li>
+                    <li><strong>Foster safe spaces:</strong> Environment where "stuckness" can be admitted</li>
+                    <li><strong>One-on-one sessions:</strong> Capture feedback suppressed in groups</li>
+                </ul>
+
+                <div class="quote-box">
+                    <div class="quote-text">"During the one-on-one, they share really, really helpful feedback that they do not share within the team meeting because they are kind of shy or they don't want to cause heart feelings to others."</div>
+                    <div class="quote-author">— P11</div>
+                </div>
+
+                <h4 style="color: #1e40af; margin-top: 1.5rem;">Operational Level</h4>
+                <ul class="action-list">
+                    <li><strong>Knowledge before action:</strong> Acquire domain knowledge before building</li>
+                    <li><strong>Understand dream vs. reality:</strong> Probe client expectations deeply</li>
+                    <li><strong>Double-blind testing:</strong> Rigorous validation before delivery</li>
+                </ul>
+
+                <div class="quote-box">
+                    <div class="quote-text">"Before you criticize, please, try to understand what they're trying to achieve at the end."</div>
+                    <div class="quote-author">— P28</div>
+                </div>
+
+                <h4 style="color: #1e40af; margin-top: 1.5rem;">Personal Level</h4>
+                <ul class="action-list">
+                    <li><strong>Cultural awareness:</strong> Accept that others think differently</li>
+                    <li><strong>Inquire before judging:</strong> Seek intent before offering critique</li>
+                </ul>
+
+                <div class="quote-box">
+                    <div class="quote-text">"The most important thing is to understand those cultures perspective so that you have an understanding of how you might be saying one thing and they might be hearing another."</div>
+                    <div class="quote-author">— P37</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lesson 3.5: The STANDARDIZE Pillar - Deep Dive -->
+        <div class="lesson">
+            <h2>3.5 STANDARDIZE: Managing Predictability</h2>
+            
+            <div style="background: #d1fae5; padding: 1.5rem; border-radius: 12px; margin-bottom: 1.5rem;">
+                <span class="stat-highlight">⚙️ 252 instances</span>
+                <span class="stat-highlight">⚖️ 2:1 ACT to STANDARDIZE ratio</span>
+            </div>
+
+            <h3>What It Means</h3>
+            <p>To provide stability in a non-deterministic development path, organizations must STANDARDIZE their methodologies. This creates a "common language" for documentation and metrics.</p>
+
+            <h3>Key Actions at Each Level</h3>
+            
+            <div style="margin: 1.5rem 0;">
+                <h4 style="color: #065f46;">Organizational Level</h4>
+                <ul class="action-list">
+                    <li><strong>Communication frameworks:</strong> Structured internal workflows</li>
+                    <li><strong>Documentation:</strong> Ground expectations and enable autonomy</li>
+                    <li><strong>Technology platforms:</strong> Standardize tools across global teams</li>
+                    <li><strong>Legal frameworks:</strong> MSAs/NDAs establish trust boundaries</li>
+                </ul>
+
+                <div class="quote-box">
+                    <div class="quote-text">"One thing I did was writing extensive documentation... close to 1500 or 1800 lines of code collectively... and I wrote close to 50 pages."</div>
+                    <div class="quote-author">— P17, Engineer</div>
+                </div>
+
+                <h4 style="color: #065f46; margin-top: 1.5rem;">Leadership Level</h4>
+                <ul class="action-list">
+                    <li><strong>Prioritization procedures:</strong> Collaborative task prioritization</li>
+                    <li><strong>Progress metrics:</strong> Defined technical and socio-technical metrics</li>
+                    <li><strong>Regular meetings:</strong> Standardized follow-ups and reporting</li>
+                </ul>
+
+                <h4 style="color: #065f46; margin-top: 1.5rem;">Operational Level</h4>
+                <ul class="action-list">
+                    <li><strong>Communication templates:</strong> Standardized for different audiences</li>
+                    <li><strong>Role partitioning:</strong> Clear technical vs. business translation roles</li>
+                </ul>
+
+                <div class="quote-box">
+                    <div class="quote-text">"So, I think there are different ways of addressing that problem, right? One of it is documentation, right? Where you sit and document what is it that you're trying to solve."</div>
+                    <div class="quote-author">— P4</div>
+                </div>
+            </div>
+
+            <h3>The Goal: Professional Insulation</h3>
+            <p>When STANDARDIZE is strong, it creates "Professional Insulation"—systemic circuit breakers that neutralize technical and cultural friction at the point of origin.</p>
+        </div>
+
+        <!-- Lesson 3.6: The Managerial Gap -->
+        <div class="lesson">
+            <h2>3.6 The ATIS Managerial Gap</h2>
+
+            <p>The quantitative distribution of pillars reveals a significant structural imbalance:</p>
+
+            <div style="display: flex; gap: 2rem; margin: 2rem 0;">
+                <div style="flex: 1; text-align: center; padding: 2rem; background: #fee2e2; border-radius: 12px;">
+                    <div style="font-size: 3rem; font-weight: 700; color: #991b1b;">464</div>
+                    <div>ACT (Reactive)</div>
+                </div>
+                <div style="flex: 1; text-align: center; padding: 2rem; background: #d1fae5; border-radius: 12px;">
+                    <div style="font-size: 3rem; font-weight: 700; color: #065f46;">252</div>
+                    <div>STANDARDIZE (Proactive)</div>
+                </div>
+            </div>
+
+            <h3>The Three Gaps</h3>
+            
+            <div style="margin: 1.5rem 0;">
+                <div style="background: #fee2e2; padding: 1.5rem; border-radius: 12px; margin-bottom: 1rem;">
+                    <h4 style="color: #991b1b;">1. The Firefighting Gap</h4>
+                    <p>Nearly 2:1 ratio between reactive ACT and proactive STANDARDIZE. Organizations rely on individual "heroic" effort rather than systemic reliability.</p>
+                </div>
+
+                <div style="background: #fef3c7; padding: 1.5rem; border-radius: 12px; margin-bottom: 1rem;">
+                    <h4 style="color: #92400e;">2. The Skilling Void</h4>
+                    <p>TRAIN is the least utilized pillar (16.7%). Staff assigned to complex AI tasks without necessary socio-technical preparation.</p>
+                </div>
+
+                <div style="background: #dbeafe; padding: 1.5rem; border-radius: 12px;">
+                    <h4 style="color: #1e40af;">3. The Expectation Calibration Gap</h4>
+                    <p>INQUIRE is reactive (128.0% with expectations) rather than proactive—education happens after disillusionment, not before.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Module Navigation -->
+        <div class="nav-buttons">
+            <a href="course-module-2.html" class="btn btn-secondary">← Previous: Module 2</a>
+            <a href="course-module-4.html" class="btn">Next: Module 4 →</a>
+        </div>
+
+        <!-- Key Takeaways -->
+        <div class="takeaways">
+            <h3>📌 Module 3 Key Takeaways</h3>
+            <ul>
+                <li><strong>ACT (464 instances):</strong> Proactive intervention—hiring cultural bridges, safe spaces, clear vision</li>
+                <li><strong>TRAIN (16.7%):</strong> The "Skilling Void"—continuous up-skilling is critically underutilized</li>
+                <li><strong>INQUIRE (339 instances):</strong> Information acquisition—knowledge before action, cultural probing</li>
+                <li><strong>STANDARDIZE (252 instances):</strong> Methodological stability—documentation, frameworks, metrics</li>
+                <li><strong>The Managerial Gap:</strong> 2:1 ACT to STANDARDIZE ratio reveals over-reliance on heroics</li>
+            </ul>
+        </div>
+
+        <!-- Connect to Assessment -->
+        <div class="assessment-connect">
+            <h3>🔗 Connect to Your Assessment</h3>
+            <p>Your assessment results will show your PSR (Pillar Saturation Ratio) for each pillar:</p>
+            <ul style="margin: 1rem 0 1rem 1.5rem;">
+                <li><strong>High ACT (>70%), low STANDARDIZE/TRAIN (<30%):</strong> Level 1 - Reactive</li>
+                <li><strong>High INQUIRE (>70%), STANDARDIZE <50%:</strong> Level 2 - Mediated</li>
+                <li><strong>All pillars >70%:</strong> Level 3 - Strategic Resilience</li>
+            </ul>
+            <a href="assessment.html" style="color: #3b82f6; font-weight: 600; display: inline-block; margin-top: 1rem;">→ Calculate your PSR now</a>
+        </div>
+
+        <!-- Action Planning Exercise -->
+        <div style="background: white; border-radius: 16px; padding: 2rem; border: 1px solid #e2e8f0;">
+            <h3>✍️ Action Planning Exercise</h3>
+            <p>For each pillar, identify one action your organization could take:</p>
+            <ol style="margin: 1rem 0 1rem 1.5rem;">
+                <li><strong>ACT:</strong> What cultural bridges could you establish?</li>
+                <li><strong>TRAIN:</strong> What's one skill gap you need to address?</li>
+                <li><strong>INQUIRE:</strong> What client expectations need proactive probing?</li>
+                <li><strong>STANDARDIZE:</strong> What documentation could prevent firefighting?</li>
+            </ol>
+            <p style="margin-top: 1rem; color: #64748b;">Save your answers—you'll build your full action plan in Module 6.</p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>© 2026 ATIS Framework. Based on research with 48 global AI experts.</p>
+        <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #94a3b8;">Expert quotes anonymized (P1-P48) and used with permission.</p>
+    </footer>
+</body>
+</html>

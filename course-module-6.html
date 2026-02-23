@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 6: Implementation & Action Planning | ATIS Executive Course</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        body {
+            background: #f8fafc;
+            color: #0f172a;
+            line-height: 1.6;
+        }
+
+        .navbar {
+            background: white;
+            border-bottom: 1px solid #e2e8f0;
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(255,255,255,0.95);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #0b1e33;
+            text-decoration: none;
+        }
+
+        .logo span {
+            color: #3b82f6;
+        }
+
+        .nav-links a {
+            color: #475569;
+            text-decoration: none;
+            margin-left: 2rem;
+            font-weight: 500;
+        }
+
+        .nav-links a:hover, .nav-links a.active {
+            color: #3b82f6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+
+        .module-header {
+            margin-bottom: 2rem;
+        }
+
+        .module-badge {
+            color: #3b82f6;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #0b1e33;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        .progress-bar {
+            height: 8px;
+            background: #e2e8f0;
+            border-radius: 4px;
+            margin: 2rem 0;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: #3b82f6;
+            width: 100%;
+            border-radius: 4px;
+        }
+
+        .lesson {
+            background: white;
+            border-radius: 16px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border: 1px solid #e2e8f0;
+        }
+
+        .lesson h2 {
+            font-size: 1.8rem;
+            color: #0b1e33;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #e2e8f0;
+        }
+
+        .lesson h3 {
+            font-size: 1.3rem;
+            color: #1e293b;
+            margin: 1.5rem 0 1rem 0;
+        }
+
+        .worksheet {
+            background: #f8fafc;
+            border: 2px dashed #3b82f6;
+            border-radius: 16px;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+
+        .worksheet h3 {
+            color: #0b1e33;
+            margin-top: 0;
+        }
+
+        .worksheet-item {
+            margin: 1.5rem 0;
+        }
+
+        .worksheet-label {
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #1e293b;
+        }
+
+        .worksheet-input {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            font-family: inherit;
+        }
+
+        .worksheet-textarea {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            min-height: 100px;
+            font-family: inherit;
+        }
+
+        .pillar-card {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1rem 0;
+            border-left: 4px solid;
+        }
+
+        .pillar-card.act { border-color: #ef4444; }
+        .pillar-card.train { border-color: #f59e0b; }
+        .pillar-card.inquire { border-color: #3b82f6; }
+        .pillar-card.standardize { border-color: #10b981; }
+
+        .pillar-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .pillar-card.act .pillar-title { color: #991b1b; }
+        .pillar-card.train .pillar-title { color: #92400e; }
+        .pillar-card.inquire .pillar-title { color: #1e40af; }
+        .pillar-card.standardize .pillar-title { color: #065f46; }
+
+        .recommendation-box {
+            background: #f0f9ff;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1rem 0;
+        }
+
+        .three-shifts {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .shift-card {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            border: 1px solid #e2e8f0;
+            text-align: center;
+        }
+
+        .shift-icon {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .shift-title {
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .shift-stats {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #3b82f6;
+            margin: 0.5rem 0;
+        }
+
+        .checklist-item {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1rem;
+            background: #f8fafc;
+            border-radius: 8px;
+            margin: 0.5rem 0;
+        }
+
+        .checklist-checkbox {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+
+        .quote-box {
+            background: #f0f9ff;
+            border-left: 4px solid #3b82f6;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+        }
+
+        .quote-text {
+            font-style: italic;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            color: #1e293b;
+        }
+
+        .quote-author {
+            font-weight: 600;
+            color: #0b1e33;
+        }
+
+        .btn {
+            background: #3b82f6;
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: background 0.2s;
+        }
+
+        .btn:hover {
+            background: #2563eb;
+        }
+
+        .btn-secondary {
+            background: white;
+            color: #3b82f6;
+            border: 2px solid #3b82f6;
+        }
+
+        .btn-secondary:hover {
+            background: #3b82f6;
+            color: white;
+        }
+
+        .btn-success {
+            background: #10b981;
+        }
+
+        .btn-success:hover {
+            background: #059669;
+        }
+
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin: 2rem 0;
+        }
+
+        .takeaways {
+            background: #f1f5f9;
+            border-radius: 16px;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+
+        .certificate {
+            text-align: center;
+            padding: 3rem;
+            background: linear-gradient(135deg, #f8fafc 0%, white 100%);
+            border: 2px solid #3b82f6;
+            border-radius: 24px;
+            margin: 3rem 0;
+        }
+
+        .certificate h2 {
+            color: #0b1e33;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .certificate-badge {
+            font-size: 4rem;
+            margin: 1rem 0;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: #64748b;
+            border-top: 1px solid #e2e8f0;
+            margin-top: 3rem;
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            .three-shifts { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">ATIS <span>Framework</span></a>
+            <div class="nav-links">
+                <a href="assessment.html">Assessment</a>
+                <a href="course.html" class="active">Course</a>
+                <a href="about.html">Research</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Module Header -->
+        <div class="module-header">
+            <div class="module-badge">MODULE 6 OF 6</div>
+            <h1>Implementation & Action Planning</h1>
+            <p>Translate your assessment results into concrete organizational change.</p>
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="progress-bar">
+            <div class="progress-fill" style="width: 100%;"></div>
+        </div>
+
+        <!-- Lesson 6.1: Introduction -->
+        <div class="lesson">
+            <h2>6.1 From Insight to Action</h2>
+            
+            <p>You've learned about the four AI specificities, the ATIS pillars, cross-cultural dynamics, and the maturity model. Now it's time to put this knowledge to work.</p>
+
+            <div class="quote-box">
+                <div class="quote-text">"Ultimately, successful AI management is achieved not by suppressing the technology, but by building a response that is as adaptive and resilient as the technology itself."</div>
+                <div class="quote-author">— ATIS Research Conclusion</div>
+            </div>
+
+            <p>This final module will guide you through creating a customized action plan based on your assessment results. If you haven't taken the assessment yet, <a href="assessment.html" style="color: #3b82f6; font-weight: 600;">complete it now</a> before proceeding.</p>
+
+            <div style="background: #f1f5f9; padding: 1.5rem; border-radius: 12px; margin: 1.5rem 0;">
+                <h3 style="margin-top: 0;">📋 Before You Begin</h3>
+                <p>Have your assessment results ready. You'll need your PSR scores for:</p>
+                <ul style="margin: 0.5rem 0 0 1.5rem;">
+                    <li>ACT: ___%</li>
+                    <li>TRAIN: ___%</li>
+                    <li>INQUIRE: ___%</li>
+                    <li>STANDARDIZE: ___%</li>
+                    <li>Your Maturity Level: Level ___</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Lesson 6.2: The Three Strategic Shifts -->
+        <div class="lesson">
+            <h2>6.2 The Three Strategic Shifts</h2>
+
+            <p>Based on the analysis of 1,392 analytical units, the research identifies three critical shifts required to move from reactive firefighting to strategic resilience:</p>
+
+            <div class="three-shifts">
+                <div class="shift-card">
+                    <div class="shift-icon">🔥 → ⚙️</div>
+                    <div class="shift-title">Shift 1</div>
+                    <div class="shift-stats">170.8%</div>
+                    <p><strong>From "Heroic Acting"</strong> to Systemic Standardization</p>
+                </div>
+
+                <div class="shift-card">
+                    <div class="shift-icon">📉 → 📚</div>
+                    <div class="shift-title">Shift 2</div>
+                    <div class="shift-stats">16.7%</div>
+                    <p><strong>From Skilling Void</strong> to Continuous Training</p>
+                </div>
+
+                <div class="shift-card">
+                    <div class="shift-icon">🎯 → 🔍</div>
+                    <div class="shift-title">Shift 3</div>
+                    <div class="shift-stats">128.0%</div>
+                    <p><strong>From Reactive Inquiry</strong> to Front-loaded Alignment</p>
+                </div>
+            </div>
+
+            <div class="quote-box">
+                <div class="quote-text">"For every manual intervention required by a model failure, a corresponding standardization task must be triggered to document the failure mode."</div>
+                <div class="quote-author">— Shift 1 Recommendation</div>
+            </div>
+        </div>
+
+        <!-- Lesson 6.3: Action Planning by Maturity Level -->
+        <div class="lesson">
+            <h2>6.3 Action Planning by Maturity Level</h2>
+
+            <!-- Level 1 Actions -->
+            <div class="pillar-card act">
+                <div class="pillar-title">If You're Level 1 (Reactive)</div>
+                <p><strong>Your Profile:</strong> High ACT (>70%), low STANDARDIZE and TRAIN (<30%)</p>
+                
+                <h4 style="margin: 1rem 0 0.5rem 0;">Immediate Priorities:</h4>
+                <ul style="margin-left: 1.5rem;">
+                    <li><strong>Institutionalize Quick Fixes:</strong> For every firefighting incident, create a standard operating procedure</li>
+                    <li><strong>Document Tribal Knowledge:</strong> Capture what your "heroes" know before they burn out</li>
+                    <li><strong>Implement Basic Training:</strong> Start with cross-cultural awareness workshops</li>
+                    <li><strong>Create Escalation Protocols:</strong> So not every problem requires the same hero</li>
+                </ul>
+
+                <div class="quote-box" style="background: white; margin-top: 1rem;">
+                    <div class="quote-text">"I thought I was doing them a favor to give them authority... They didn't want that. They wanted me to tell them what to do."</div>
+                    <div class="quote-author">— P15, on the importance of understanding agency needs</div>
+                </div>
+            </div>
+
+            <!-- Level 2 Actions -->
+            <div class="pillar-card inquire" style="margin-top: 1.5rem;">
+                <div class="pillar-title">If You're Level 2 (Mediated)</div>
+                <p><strong>Your Profile:</strong> High INQUIRE (>70%), STANDARDIZE remains <50%</p>
+                
+                <h4 style="margin: 1rem 0 0.5rem 0;">Immediate Priorities:</h4>
+                <ul style="margin-left: 1.5rem;">
+                    <li><strong>Move from Reactive to Proactive Inquiry:</strong> Front-load stakeholder alignment during design phase</li>
+                    <li><strong>Develop Standardized Templates:</strong> Create communication frameworks for different audiences</li>
+                    <li><strong>Build Documentation Discipline:</strong> Make documentation part of "done"</li>
+                    <li><strong>Establish Metrics:</strong> Define what success looks like for socio-technical workflows</li>
+                </ul>
+
+                <div class="quote-box" style="background: white; margin-top: 1rem;">
+                    <div class="quote-text">"One thing I did was writing extensive documentation... close to 1500 or 1800 lines of code collectively... and I wrote close to 50 pages."</div>
+                    <div class="quote-author">— P17</div>
+                </div>
+            </div>
+
+            <!-- Level 3 Actions -->
+            <div class="pillar-card standardize" style="margin-top: 1.5rem;">
+                <div class="pillar-title">If You're Level 3 (Strategic)</div>
+                <p><strong>Your Profile:</strong> All pillars >70% - "Professional Insulation" achieved</p>
+                
+                <h4 style="margin: 1rem 0 0.5rem 0;">Next-Level Priorities:</h4>
+                <ul style="margin-left: 1.5rem;">
+                    <li><strong>Share Your Practices:</strong> Publish case studies, establish thought leadership</li>
+                    <li><strong>Mentor Others:</strong> Help partners and clients reach Level 3</li>
+                    <li><strong>Explore Advanced Resilience:</strong> RAG-based architectural simplicity, advanced explainability</li>
+                    <li><strong>Continuous Improvement:</strong> Regularly audit and update your PSR</li>
+                </ul>
+
+                <div class="quote-box" style="background: white; margin-top: 1rem;">
+                    <div class="quote-text">"We are aligned on things like data privacy and data security because we understand that this is other people's data."</div>
+                    <div class="quote-author">— P34, on professional insulation</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lesson 6.4: Pillar-by-Pillar Action Plan -->
+        <div class="lesson">
+            <h2>6.4 Pillar-by-Pillar Action Plan</h2>
+
+            <p>Based on your PSR scores, identify the pillars that need the most attention and use these recommendations:</p>
+
+            <!-- ACT Actions -->
+            <div class="pillar-card act">
+                <div class="pillar-title">⚡ If Your ACT Score is Low (<50%)</div>
+                <ul style="margin: 0.5rem 0 0 1.5rem;">
+                    <li>Hire "cultural bridges" who reflect client diversity</li>
+                    <li>Create safe spaces for non-work communication</li>
+                    <li>Establish clear vision that merges cultural understandings</li>
+                    <li>Develop culturally-aligned feedback channels</li>
+                    <li>Plan structured, balanced team-bonding activities</li>
+                </ul>
+            </div>
+
+            <!-- TRAIN Actions -->
+            <div class="pillar-card train">
+                <div class="pillar-title">📚 If Your TRAIN Score is Low (<50%)</div>
+                <ul style="margin: 0.5rem 0 0 1.5rem;">
+                    <li>Implement continuous (not one-time) cross-cultural training</li>
+                    <li>Assess and address team "weak areas" proactively</li>
+                    <li>Provide informal briefings for local contexts</li>
+                    <li>Encourage international exposure opportunities</li>
+                    <li>Foster social curiosity about other cultures</li>
+                </ul>
+                <div class="quote-box" style="background: white; margin-top: 1rem;">
+                    <div class="quote-text">"What are the weak areas then? We come in and act as backup to boost them."</div>
+                    <div class="quote-author">— P19</div>
+                </div>
+            </div>
+
+            <!-- INQUIRE Actions -->
+            <div class="pillar-card inquire">
+                <div class="pillar-title">🔍 If Your INQUIRE Score is Low (<50%)</div>
+                <ul style="margin: 0.5rem 0 0 1.5rem;">
+                    <li>Understand the "dream vs. reality" gap with clients</li>
+                    <li>Conduct one-on-one sessions to capture suppressed feedback</li>
+                    <li>Learn preferred feedback styles of each culture</li>
+                    <li>Inquire before criticizing—understand intent first</li>
+                    <li>Front-load inquiry to design phase, not after problems</li>
+                </ul>
+            </div>
+
+            <!-- STANDARDIZE Actions -->
+            <div class="pillar-card standardize">
+                <div class="pillar-title">⚙️ If Your STANDARDIZE Score is Low (<50%)</div>
+                <ul style="margin: 0.5rem 0 0 1.5rem;">
+                    <li>Document everything—especially quick fixes</li>
+                    <li>Adopt frameworks (Agile, CPMAI, ITIL) as common language</li>
+                    <li>Create communication templates for different audiences</li>
+                    <li>Establish clear escalation protocols</li>
+                    <li>Define metrics for both technical and socio-technical progress</li>
+                </ul>
+                <div class="quote-box" style="background: white; margin-top: 1rem;">
+                    <div class="quote-text">"So, I think there are different ways of addressing that problem... One of it is documentation."</div>
+                    <div class="quote-author">— P4</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lesson 6.5: The ATIS Implementation Worksheet -->
+        <div class="lesson">
+            <h2>6.5 Your ATIS Implementation Worksheet</h2>
+
+            <div class="worksheet">
+                <h3>📝 Action Plan Worksheet</h3>
+                <p>Complete this worksheet to create your organization's ATIS implementation plan.</p>
+
+                <div class="worksheet-item">
+                    <div class="worksheet-label">1. Your Current Maturity Level:</div>
+                    <select class="worksheet-input" id="maturityLevel">
+                        <option value="">Select your level from assessment</option>
+                        <option value="1">Level 1: Reactive (Act-Centric)</option>
+                        <option value="2">Level 2: Mediated (Inquiry-Balanced)</option>
+                        <option value="3">Level 3: Strategic (Standardized-Resilient)</option>
+                    </select>
+                </div>
+
+                <div class="worksheet-item">
+                    <div class="worksheet-label">2. Your PSR Scores (from assessment):</div>
+                    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem;">
+                        <input type="text" class="worksheet-input" placeholder="ACT ___%" id="actScore">
+                        <input type="text" class="worksheet-input" placeholder="TRAIN ___%" id="trainScore">
+                        <input type="text" class="worksheet-input" placeholder="INQUIRE ___%" id="inquireScore">
+                        <input type="text" class="worksheet-input" placeholder="STANDARDIZE ___%" id="standardizeScore">
+                    </div>
+                </div>
+
+                <div class="worksheet-item">
+                    <div class="worksheet-label">3. Which pillar needs the most attention?</div>
+                    <select class="worksheet-input" id="priorityPillar">
+                        <option value="">Select priority pillar</option>
+                        <option value="act">ACT</option>
+                        <option value="train">TRAIN</option>
+                        <option value="inquire">INQUIRE</option>
+                        <option value="standardize">STANDARDIZE</option>
+                    </select>
+                </div>
+
+                <div class="worksheet-item">
+                    <div class="worksheet-label">4. Three specific actions you will take in the next 30 days:</div>
+                    <textarea class="worksheet-textarea" id="action30days" placeholder="1.&#10;2.&#10;3."></textarea>
+                </div>
+
+                <div class="worksheet-item">
+                    <div class="worksheet-label">5. Three actions for the next 90 days:</div>
+                    <textarea class="worksheet-textarea" id="action90days" placeholder="1.&#10;2.&#10;3."></textarea>
+                </div>
+
+                <div class="worksheet-item">
+                    <div class="worksheet-label">6. Who needs to be involved? (Roles/Departments):</div>
+                    <textarea class="worksheet-textarea" id="stakeholders" placeholder="e.g., HR, Project Managers, Engineering Leads, Executive Sponsor"></textarea>
+                </div>
+
+                <div class="worksheet-item">
+                    <div class="worksheet-label">7. How will you measure success?</div>
+                    <textarea class="worksheet-textarea" id="metrics" placeholder="e.g., Re-assessment PSR scores in 6 months, reduced firefighting incidents, team feedback"></textarea>
+                </div>
+
+                <button class="btn btn-success" style="width: 100%;" onclick="saveWorksheet()">💾 Save My Action Plan</button>
+            </div>
+
+            <p style="margin-top: 1rem; color: #64748b; font-size: 0.9rem;">Your worksheet data is saved locally in your browser. You can download or print it when complete.</p>
+        </div>
+
+        <!-- Lesson 6.6: Implementation Checklist -->
+        <div class="lesson">
+            <h2>6.6 ATIS Implementation Checklist</h2>
+
+            <p>Use this checklist to track your progress. Based on the full 40-item diagnostic from your assessment.</p>
+
+            <div style="margin: 1.5rem 0;">
+                <h3>📋 Organizational Level</h3>
+                <div class="checklist-item">
+                    <input type="checkbox" class="checklist-checkbox" id="check1.1">
+                    <label for="check1.1">Team informed of cross-cultural environment during hiring (ACT)</label>
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox" class="checklist-checkbox" id="check1.2">
+                    <label for="check1.2">Cross-cultural adaptability assessed before assignment (TRAIN)</label>
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox" class="checklist-checkbox" id="check1.4">
+                    <label for="check1.4">Clear internal communication framework established (STANDARDIZE)</label>
+                </div>
+            </div>
+
+            <div style="margin: 1.5rem 0;">
+                <h3>📋 Leadership Level</h3>
+                <div class="checklist-item">
+                    <input type="checkbox" class="checklist-checkbox" id="check2.1">
+                    <label for="check2.1">Leader understands agency needs of each member (INQUIRE)</label>
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox" class="checklist-checkbox" id="check2.4">
+                    <label for="check2.4">Leader aware of work cultures of team and client (INQUIRE)</label>
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox" class="checklist-checkbox" id="check2.15">
+                    <label for="check2.15">Religious differences and holidays considered in timeline (INQUIRE)</label>
+                </div>
+            </div>
+
+            <div style="margin: 1.5rem 0;">
+                <h3>📋 Operational Level</h3>
+                <div class="checklist-item">
+                    <input type="checkbox" class="checklist-checkbox" id="check3.1">
+                    <label for="check3.1">Team understands client's dream vs. floor reality (INQUIRE)</label>
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox" class="checklist-checkbox" id="check3.4">
+                    <label for="check3.4">Designated "Cultural Bridge" active in team (ACT)</label>
+                </div>
+            </div>
+
+            <div style="margin: 1.5rem 0;">
+                <h3>📋 Personal Level</h3>
+                <div class="checklist-item">
+                    <input type="checkbox" class="checklist-checkbox" id="check4.1">
+                    <label for="check4.1">Team members have significant international exposure (TRAIN)</label>
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox" class="checklist-checkbox" id="check4.4">
+                    <label for="check4.4">Team displays social curiosity for autonomous learning (TRAIN)</label>
+                </div>
+            </div>
+
+            <button class="btn-secondary" style="width: 100%;" onclick="resetChecklist()">Reset Checklist</button>
+        </div>
+
+        <!-- Lesson 6.7: Case Study Application -->
+        <div class="lesson">
+            <h2>6.7 Case Study: Applying ATIS</h2>
+
+            <h3>The Brazilian Ethics Case</h3>
+            <div class="quote-box">
+                <div class="quote-text">"The guys that work with us were not from data science... they do not know why the model was giving them that answer. We need this responsibility of building the model. We need to remove this kind of biases."</div>
+                <div class="quote-author">— P2, Brazilian Engineer</div>
+            </div>
+
+            <p><strong>Challenge:</strong> An AI model for salary optimization showed gender bias, always assigning lower salaries to women with同等 performance.</p>
+
+            <p><strong>ATIS Applied:</strong></p>
+            <ul style="margin: 0.5rem 0 1rem 1.5rem;">
+                <li><strong>INQUIRE:</strong> Engineers investigated why bias was occurring</li>
+                <li><strong>ACT:</strong> They fixed the issue regardless of ability to explain to non-technical stakeholders</li>
+                <li><strong>TRAIN:</strong> They viewed ethical responsibility as part of their cultural mindset</li>
+            </ul>
+
+            <p><strong>Your Turn:</strong> Think of a recent challenge in your organization. How would you apply the ATIS pillars?</p>
+            <textarea class="worksheet-textarea" placeholder="Describe a challenge and how ACT, TRAIN, INQUIRE, and STANDARDIZE could help..." style="margin-top: 1rem;"></textarea>
+        </div>
+
+        <!-- Module Navigation -->
+        <div class="nav-buttons">
+            <a href="course-module-5.html" class="btn btn-secondary">← Previous: Module 5</a>
+            <a href="#certificate" class="btn btn-success" onclick="showCertificate()">🎓 Complete Course</a>
+        </div>
+
+        <!-- Certificate of Completion -->
+        <div id="certificate" style="display: none;">
+            <div class="certificate">
+                <div class="certificate-badge">🏆</div>
+                <h2>Certificate of Completion</h2>
+                <p style="font-size: 1.2rem; margin: 1rem 0;">This certifies that</p>
+                <input type="text" placeholder="Your Name" style="font-size: 1.5rem; text-align: center; border: none; border-bottom: 2px solid #3b82f6; padding: 0.5rem; width: 60%; margin: 1rem auto; display: block;">
+                <p style="margin: 1rem 0;">has successfully completed the</p>
+                <h3 style="color: #0b1e33; font-size: 1.5rem;">ATIS Framework Executive Course</h3>
+                <p style="margin: 1rem 0;">6 Modules • 48 Expert Insights • 1,392 Analytical Units</p>
+                <div style="margin: 2rem 0; color: #64748b;">
+                    <p>Completed on: <span id="completionDate"></span></p>
+                </div>
+                <button class="btn" onclick="downloadCertificate()">📄 Download Certificate</button>
+            </div>
+        </div>
+
+        <!-- Key Takeaways -->
+        <div class="takeaways">
+            <h3>📌 Module 6 Key Takeaways</h3>
+            <ul>
+                <li><strong>Shift 1:</strong> From "Heroic Acting" to Systemic Standardization (170.8% link)</li>
+                <li><strong>Shift 2:</strong> From Skilling Void to Continuous Training (16.7% utilization → 70%+ target)</li>
+                <li><strong>Shift 3:</strong> From Reactive Inquiry to Front-loaded Alignment (128.0% → proactive)</li>
+                <li><strong>Level-based actions:</strong> Different priorities for Level 1, 2, and 3 organizations</li>
+                <li><strong>Pillar-specific interventions:</strong> Targeted actions for low-scoring pillars</li>
+                <li><strong>Worksheet and checklist:</strong> Concrete tools for implementation</li>
+            </ul>
+        </div>
+
+        <!-- Final Words -->
+        <div class="lesson" style="text-align: center;">
+            <h2>🎯 You're Ready</h2>
+            <p style="font-size: 1.2rem; margin: 2rem 0;">You've completed all six modules of the ATIS Executive Course.</p>
+            
+            <div class="quote-box" style="background: #d1fae5; border-left-color: #10b981;">
+                <div class="quote-text" style="font-size: 1.2rem;">"Ultimately, successful AI management is achieved not by suppressing the technology, but by building a response that is as adaptive and resilient as the technology itself."</div>
+                <div class="quote-author">— ATIS Research</div>
+            </div>
+
+            <div style="display: flex; gap: 1rem; justify-content: center; margin: 2rem 0;">
+                <a href="assessment.html" class="btn">🔄 Retake Assessment</a>
+                <a href="course.html" class="btn btn-secondary">📚 Review Modules</a>
+            </div>
+
+            <p style="color: #64748b;">Share your progress: <span style="color: #3b82f6;">#ATISFramework</span></p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>© 2026 ATIS Framework. Based on research with 48 global AI experts.</p>
+        <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #94a3b8;">Expert quotes anonymized (P1-P48) and used with permission.</p>
+    </footer>
+
+    <script>
+        // Save worksheet data to localStorage
+        function saveWorksheet() {
+            const worksheetData = {
+                maturityLevel: document.getElementById('maturityLevel').value,
+                actScore: document.getElementById('actScore').value,
+                trainScore: document.getElementById('trainScore').value,
+                inquireScore: document.getElementById('inquireScore').value,
+                standardizeScore: document.getElementById('standardizeScore').value,
+                priorityPillar: document.getElementById('priorityPillar').value,
+                action30days: document.getElementById('action30days').value,
+                action90days: document.getElementById('action90days').value,
+                stakeholders: document.getElementById('stakeholders').value,
+                metrics: document.getElementById('metrics').value
+            };
+            
+            localStorage.setItem('atisActionPlan', JSON.stringify(worksheetData));
+            alert('Action plan saved! You can return to it anytime.');
+        }
+
+        // Load saved worksheet data if exists
+        window.onload = function() {
+            const saved = localStorage.getItem('atisActionPlan');
+            if (saved) {
+                const data = JSON.parse(saved);
+                if (data.maturityLevel) document.getElementById('maturityLevel').value = data.maturityLevel;
+                if (data.actScore) document.getElementById('actScore').value = data.actScore;
+                if (data.trainScore) document.getElementById('trainScore').value = data.trainScore;
+                if (data.inquireScore) document.getElementById('inquireScore').value = data.inquireScore;
+                if (data.standardizeScore) document.getElementById('standardizeScore').value = data.standardizeScore;
+                if (data.priorityPillar) document.getElementById('priorityPillar').value = data.priorityPillar;
+                if (data.action30days) document.getElementById('action30days').value = data.action30days;
+                if (data.action90days) document.getElementById('action90days').value = data.action90days;
+                if (data.stakeholders) document.getElementById('stakeholders').value = data.stakeholders;
+                if (data.metrics) document.getElementById('metrics').value = data.metrics;
+            }
+
+            // Set completion date
+            const today = new Date();
+            document.getElementById('completionDate').textContent = today.toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            });
+        };
+
+        // Reset checklist
+        function resetChecklist() {
+            const checkboxes = document.querySelectorAll('.checklist-checkbox');
+            checkboxes.forEach(cb => cb.checked = false);
+        }
+
+        // Show certificate
+        function showCertificate() {
+            document.getElementById('certificate').style.display = 'block';
+            window.scrollTo({ top: document.getElementById('certificate').offsetTop, behavior: 'smooth' });
+        }
+
+        // Download certificate (placeholder - would generate PDF in production)
+        function downloadCertificate() {
+            const name = prompt('Enter your name for the certificate:');
+            if (name) {
+                alert('Certificate download started! (In production, this would generate a PDF)');
+                // In a real implementation, you would generate a PDF here
+            }
+        }
+    </script>
+</body>
+</html>

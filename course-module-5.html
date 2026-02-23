@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 5: The ATIS Maturity Model | ATIS Executive Course</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        body {
+            background: #f8fafc;
+            color: #0f172a;
+            line-height: 1.6;
+        }
+
+        .navbar {
+            background: white;
+            border-bottom: 1px solid #e2e8f0;
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(255,255,255,0.95);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #0b1e33;
+            text-decoration: none;
+        }
+
+        .logo span {
+            color: #3b82f6;
+        }
+
+        .nav-links a {
+            color: #475569;
+            text-decoration: none;
+            margin-left: 2rem;
+            font-weight: 500;
+        }
+
+        .nav-links a:hover, .nav-links a.active {
+            color: #3b82f6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+
+        .module-header {
+            margin-bottom: 2rem;
+        }
+
+        .module-badge {
+            color: #3b82f6;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #0b1e33;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        .progress-bar {
+            height: 8px;
+            background: #e2e8f0;
+            border-radius: 4px;
+            margin: 2rem 0;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: #3b82f6;
+            width: 83%;
+            border-radius: 4px;
+        }
+
+        .lesson {
+            background: white;
+            border-radius: 16px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border: 1px solid #e2e8f0;
+        }
+
+        .lesson h2 {
+            font-size: 1.8rem;
+            color: #0b1e33;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #e2e8f0;
+        }
+
+        .lesson h3 {
+            font-size: 1.3rem;
+            color: #1e293b;
+            margin: 1.5rem 0 1rem 0;
+        }
+
+        .maturity-level {
+            border-radius: 16px;
+            padding: 2rem;
+            margin: 2rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .level1 { background: #fee2e2; }
+        .level2 { background: #fef3c7; }
+        .level3 { background: #d1fae5; }
+
+        .level-badge {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            font-weight: 700;
+            font-size: 1.5rem;
+            opacity: 0.2;
+        }
+
+        .level-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .level1 .level-title { color: #991b1b; }
+        .level2 .level-title { color: #92400e; }
+        .level3 .level-title { color: #065f46; }
+
+        .psr-formula {
+            background: #1e293b;
+            color: white;
+            padding: 2rem;
+            border-radius: 12px;
+            text-align: center;
+            font-size: 1.8rem;
+            margin: 2rem 0;
+            font-family: 'Courier New', monospace;
+        }
+
+        .pillar-stats {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+
+        .stat-card {
+            background: #f8fafc;
+            padding: 1.5rem;
+            border-radius: 12px;
+            text-align: center;
+            border: 1px solid #e2e8f0;
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-number.act { color: #ef4444; }
+        .stat-number.train { color: #f59e0b; }
+        .stat-number.inquire { color: #3b82f6; }
+        .stat-number.standardize { color: #10b981; }
+
+        .radar-container {
+            background: white;
+            border: 2px solid #e2e8f0;
+            border-radius: 16px;
+            padding: 2rem;
+            margin: 2rem 0;
+            text-align: center;
+        }
+
+        .radar-placeholder {
+            background: #f1f5f9;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 12px;
+            color: #64748b;
+        }
+
+        .profile-row {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin: 1rem 0;
+            padding: 1rem;
+            background: #f8fafc;
+            border-radius: 8px;
+        }
+
+        .profile-level {
+            width: 100px;
+            font-weight: 600;
+        }
+
+        .profile-bars {
+            flex: 1;
+            display: flex;
+            gap: 0.5rem;
+            height: 30px;
+        }
+
+        .profile-bar {
+            height: 100%;
+            border-radius: 4px;
+        }
+
+        .bar-act { background: #ef4444; }
+        .bar-train { background: #f59e0b; }
+        .bar-inquire { background: #3b82f6; }
+        .bar-standardize { background: #10b981; }
+
+        .quote-box {
+            background: #f0f9ff;
+            border-left: 4px solid #3b82f6;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+        }
+
+        .quote-text {
+            font-style: italic;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            color: #1e293b;
+        }
+
+        .quote-author {
+            font-weight: 600;
+            color: #0b1e33;
+        }
+
+        .btn {
+            background: #3b82f6;
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: background 0.2s;
+        }
+
+        .btn:hover {
+            background: #2563eb;
+        }
+
+        .btn-secondary {
+            background: white;
+            color: #3b82f6;
+            border: 2px solid #3b82f6;
+        }
+
+        .btn-secondary:hover {
+            background: #3b82f6;
+            color: white;
+        }
+
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin: 2rem 0;
+        }
+
+        .takeaways {
+            background: #f1f5f9;
+            border-radius: 16px;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+
+        .takeaways h3 {
+            color: #0b1e33;
+            margin-bottom: 1rem;
+        }
+
+        .takeaways ul {
+            padding-left: 1.5rem;
+        }
+
+        .takeaways li {
+            margin-bottom: 0.75rem;
+        }
+
+        .assessment-connect {
+            background: white;
+            border-radius: 16px;
+            padding: 2rem;
+            border: 2px solid #3b82f6;
+            margin: 2rem 0;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: #64748b;
+            border-top: 1px solid #e2e8f0;
+            margin-top: 3rem;
+        }
+
+        .matrix-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+        }
+
+        .matrix-table th {
+            background: #f1f5f9;
+            padding: 1rem;
+            text-align: left;
+        }
+
+        .matrix-table td {
+            padding: 1rem;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            .pillar-stats { grid-template-columns: repeat(2, 1fr); }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">ATIS <span>Framework</span></a>
+            <div class="nav-links">
+                <a href="assessment.html">Assessment</a>
+                <a href="course.html" class="active">Course</a>
+                <a href="about.html">Research</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Module Header -->
+        <div class="module-header">
+            <div class="module-badge">MODULE 5 OF 6</div>
+            <h1>The ATIS Maturity Model</h1>
+            <p>From reactive firefighting to strategic organizational resilience.</p>
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="progress-bar">
+            <div class="progress-fill" style="width: 83%;"></div>
+        </div>
+
+        <!-- Lesson 5.1: Introduction to Maturity -->
+        <div class="lesson">
+            <h2>5.1 Why Maturity Matters</h2>
+            
+            <p>The quantitative analysis of 1,392 analytical units reveals a consistent pattern: organizations at different levels of maturity respond differently to the four AI specificities.</p>
+
+            <div class="pillar-stats">
+                <div class="stat-card">
+                    <div class="stat-number act">464</div>
+                    <div>ACT Instances</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number train">233</div>
+                    <div>TRAIN Instances</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number inquire">339</div>
+                    <div>INQUIRE Instances</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number standardize">252</div>
+                    <div>STANDARDIZE Instances</div>
+                </div>
+            </div>
+
+            <div class="quote-box">
+                <div class="quote-text">"Yes, there are cases more [cultural] conflict creates problems, no choice, pushing your deadline, end up sacrificing features."</div>
+                <div class="quote-author">— P9, on reactive firefighting</div>
+            </div>
+
+            <p>The ATIS Maturity Model provides a roadmap for moving from this reactive state to strategic resilience.</p>
+        </div>
+
+        <!-- Lesson 5.2: The Pillar Saturation Ratio (PSR) -->
+        <div class="lesson">
+            <h2>5.2 The Pillar Saturation Ratio (PSR)</h2>
+
+            <p>The PSR is a diagnostic metric that quantifies your organization's maturity across the four pillars.</p>
+
+            <div class="psr-formula">
+                S<sub>P</sub> = (∑c<sub>s</sub> / ∑c<sub>t</sub>) × 100%
+            </div>
+
+            <p>Where:</p>
+            <ul style="margin: 1rem 0 1rem 2rem;">
+                <li><strong>∑c<sub>s</sub></strong> = number of satisfied criteria for a given pillar</li>
+                <li><strong>∑c<sub>t</sub></strong> = total number of criteria for that pillar</li>
+            </ul>
+
+            <div style="background: #f8fafc; padding: 1.5rem; border-radius: 12px; margin: 1.5rem 0;">
+                <h4>Example Calculation:</h4>
+                <p>If a pillar has 10 total criteria and your organization satisfies 7 of them:</p>
+                <p style="font-size: 1.5rem; font-weight: 700; color: #3b82f6; text-align: center;">S<sub>P</sub> = (7/10) × 100% = 70%</p>
+            </div>
+
+            <p><strong>Your assessment results will automatically calculate your PSR for each pillar.</strong></p>
+        </div>
+
+        <!-- Lesson 5.3: Level 1 - Reactive Stage -->
+        <div class="lesson">
+            <h2>5.3 Level 1: The Reactive Stage (Act-Centric)</h2>
+
+            <div class="maturity-level level1">
+                <div class="level-badge">L1</div>
+                <div class="level-title">🔥 Reactive • Act-Centric</div>
+                
+                <div style="margin: 1.5rem 0;">
+                    <p><strong>Profile:</strong> High ACT (>70%), low STANDARDIZE and TRAIN (<30%)</p>
+                    <p><strong>Co-occurrence:</strong> 170.8% link between Stochastic Uncertainty and ACT</p>
+                </div>
+
+                <div class="profile-row">
+                    <div class="profile-level">PSR Profile:</div>
+                    <div class="profile-bars">
+                        <div class="profile-bar bar-act" style="width: 90%;"></div>
+                        <div class="profile-bar bar-train" style="width: 20%;"></div>
+                        <div class="profile-bar bar-inquire" style="width: 40%;"></div>
+                        <div class="profile-bar bar-standardize" style="width: 15%;"></div>
+                    </div>
+                </div>
+
+                <h3 style="margin-top: 1.5rem;">Characteristics</h3>
+                <ul style="margin: 0.5rem 0 1rem 1.5rem;">
+                    <li><strong>"Hero-Dependent":</strong> Success relies on individual effort rather than systemic governance</li>
+                    <li><strong>Firefighting culture:</strong> Managers constantly putting out technical and cultural fires</li>
+                    <li><strong>No standardization:</strong> Quick fixes are never documented or institutionalized</li>
+                    <li><strong>Burnout risk:</strong> Key individuals "staying up until 4:00 AM to fix broken code"</li>
+                </ul>
+
+                <div class="quote-box" style="background: white;">
+                    <div class="quote-text">"We have to work on very fast timelines, so solving larger problem was more important than solving the small problem. Like if it's good enough, let's integrate it. Let's scale it."</div>
+                    <div class="quote-author">— P17, describing reactive mode</div>
+                </div>
+
+                <h3>The Firefighting Gap</h3>
+                <p>Level 1 organizations show a nearly 2:1 ratio between ACT and STANDARDIZE. They are trapped in a cycle of "innovative quick fixes" that never become repeatable processes.</p>
+            </div>
+        </div>
+
+        <!-- Lesson 5.4: Level 2 - Mediated Stage -->
+        <div class="lesson">
+            <h2>5.4 Level 2: The Mediated Stage (Inquiry-Balanced)</h2>
+
+            <div class="maturity-level level2">
+                <div class="level-badge">L2</div>
+                <div class="level-title">⚖️ Mediated • Inquiry-Balanced</div>
+                
+                <div style="margin: 1.5rem 0;">
+                    <p><strong>Profile:</strong> High INQUIRE (>70%), but STANDARDIZE remains <50%</p>
+                    <p><strong>Co-occurrence:</strong> 128.0% link between High Customer Expectations and INQUIRE</p>
+                </div>
+
+                <div class="profile-row">
+                    <div class="profile-level">PSR Profile:</div>
+                    <div class="profile-bars">
+                        <div class="profile-bar bar-act" style="width: 60%;"></div>
+                        <div class="profile-bar bar-train" style="width: 40%;"></div>
+                        <div class="profile-bar bar-inquire" style="width: 85%;"></div>
+                        <div class="profile-bar bar-standardize" style="width: 35%;"></div>
+                    </div>
+                </div>
+
+                <h3 style="margin-top: 1.5rem;">Characteristics</h3>
+                <ul style="margin: 0.5rem 0 1rem 1.5rem;">
+                    <li><strong>Recognized the "AI knows all" perception:</strong> Organizations actively recalibrate stakeholder dreams</li>
+                    <li><strong>Good communication:</strong> Improved stakeholder dialogue and expectation management</li>
+                    <li><strong>Still vulnerable:</strong> Lack of standardization means projects remain exposed to autocatalysis velocity</li>
+                    <li><strong>Reactive inquiry:</strong> Education happens after disillusionment, not before</li>
+                </ul>
+
+                <div class="quote-box" style="background: white;">
+                    <div class="quote-text">"Client would come from his head and be like I need this and then you have to lower his dreams and use maps and graphs to show what's possible."</div>
+                    <div class="quote-author">— P32, on expectation calibration</div>
+                </div>
+
+                <h3>The Expectation Calibration Gap</h3>
+                <p>While INQUIRE is strong, it's deployed defensively. Management labor is concentrated on "re-education" after stakeholder disillusionment rather than proactive alignment during design.</p>
+            </div>
+        </div>
+
+        <!-- Lesson 5.5: Level 3 - Strategic Stage -->
+        <div class="lesson">
+            <h2>5.5 Level 3: The Strategic Stage (Standardized-Resilient)</h2>
+
+            <div class="maturity-level level3">
+                <div class="level-badge">L3</div>
+                <div class="level-title">🛡️ Strategic • Standardized-Resilient</div>
+                
+                <div style="margin: 1.5rem 0;">
+                    <p><strong>Profile:</strong> Balanced high saturation across all four pillars (>70%)</p>
+                    <p><strong>Target State:</strong> "Professional Insulation" achieved</p>
+                </div>
+
+                <div class="profile-row">
+                    <div class="profile-level">PSR Profile:</div>
+                    <div class="profile-bars">
+                        <div class="profile-bar bar-act" style="width: 85%;"></div>
+                        <div class="profile-bar bar-train" style="width: 90%;"></div>
+                        <div class="profile-bar bar-inquire" style="width: 88%;"></div>
+                        <div class="profile-bar bar-standardize" style="width: 92%;"></div>
+                    </div>
+                </div>
+
+                <h3 style="margin-top: 1.5rem;">Characteristics</h3>
+                <ul style="margin: 0.5rem 0 1rem 1.5rem;">
+                    <li><strong>Balanced application:</strong> All four pillars working in harmony</li>
+                    <li><strong>Proactive circuit breakers:</strong> Standardization and training neutralize friction at source</li>
+                    <li><strong>Systemic resilience:</strong> Organization survives loss of key individuals</li>
+                    <li><strong>Knowledge institutionalized:</strong> Quick fixes become documented procedures</li>
+                </ul>
+
+                <div class="quote-box" style="background: white;">
+                    <div class="quote-text">"One thing I did was writing extensive documentation... close to 1500 or 1800 lines of code collectively... and I wrote close to 50 pages."</div>
+                    <div class="quote-author">— P17, on standardization</div>
+                </div>
+
+                <h3>Professional Insulation</h3>
+                <p>Level 3 organizations create "Professional Insulation"—socio-technical shielding that prevents technical and cultural friction from disrupting the project baseline.</p>
+            </div>
+        </div>
+
+        <!-- Lesson 5.6: The Radar Chart Visualization -->
+        <div class="lesson">
+            <h2>5.6 Visualizing Maturity: The Radar Chart</h2>
+
+            <div class="radar-container">
+                <h3>ATIS Maturity Model: PSR Profiles</h3>
+                
+                <!-- Simple SVG Radar Chart Placeholder -->
+                <svg viewBox="0 0 400 300" style="width: 100%; height: auto;">
+                    <!-- Level 1 (Red) -->
+                    <polygon points="200,50 320,120 320,220 200,280 80,220 80,120" 
+                             fill="rgba(239, 68, 68, 0.2)" stroke="#ef4444" stroke-width="2" />
+                    <!-- Level 2 (Yellow) -->
+                    <polygon points="200,60 300,130 290,210 200,260 110,210 100,130" 
+                             fill="rgba(245, 158, 11, 0.2)" stroke="#f59e0b" stroke-width="2" />
+                    <!-- Level 3 (Green) -->
+                    <polygon points="200,30 340,110 340,230 200,290 60,230 60,110" 
+                             fill="rgba(16, 185, 129, 0.2)" stroke="#10b981" stroke-width="3" />
+                    
+                    <!-- Axis Labels -->
+                    <text x="200" y="25" text-anchor="middle" fill="#0f172a" font-weight="600">ACT</text>
+                    <text x="340" y="100" text-anchor="middle" fill="#0f172a">TRAIN</text>
+                    <text x="350" y="240" text-anchor="middle" fill="#0f172a">INQUIRE</text>
+                    <text x="200" y="300" text-anchor="middle" fill="#0f172a">STANDARDIZE</text>
+                    <text x="50" y="240" text-anchor="middle" fill="#0f172a">INQUIRE</text>
+                    <text x="40" y="100" text-anchor="middle" fill="#0f172a">TRAIN</text>
+                </svg>
+                
+                <div style="display: flex; justify-content: center; gap: 2rem; margin-top: 1rem;">
+                    <div><span style="color: #ef4444;">●</span> Level 1: Reactive</div>
+                    <div><span style="color: #f59e0b;">●</span> Level 2: Mediated</div>
+                    <div><span style="color: #10b981;">●</span> Level 3: Strategic</div>
+                </div>
+            </div>
+
+            <p>The radar chart shows how organizations evolve from a narrow, ACT-focused profile (Level 1) to a balanced, resilient profile (Level 3).</p>
+        </div>
+
+        <!-- Lesson 5.7: The Three Gaps Revisited -->
+        <div class="lesson">
+            <h2>5.7 The Three Managerial Gaps</h2>
+
+            <table class="matrix-table">
+                <tr>
+                    <th>Gap</th>
+                    <th>Description</th>
+                    <th>ATIS Response</th>
+                </tr>
+                <tr>
+                    <td><strong style="color: #ef4444;">Firefighting Gap</strong></td>
+                    <td>2:1 ratio between ACT and STANDARDIZE (464 vs 252)</td>
+                    <td>Institutionalize quick fixes into SOPs</td>
+                </tr>
+                <tr>
+                    <td><strong style="color: #f59e0b;">Skilling Void</strong></td>
+                    <td>TRAIN least utilized (16.7%) despite autocatalysis</td>
+                    <td>Continuous socio-technical training</td>
+                </tr>
+                <tr>
+                    <td><strong style="color: #3b82f6;">Expectation Calibration Gap</strong></td>
+                    <td>INQUIRE reactive (128.0% with expectations)</td>
+                    <td>Front-load inquiry to design phase</td>
+                </tr>
+            </table>
+
+            <div class="quote-box" style="margin-top: 1.5rem;">
+                <div class="quote-text">"The system is not followed then, you know you have a people problem... if the people are OK and still things are not going well, then is a system problem."</div>
+                <div class="quote-author">— P28, on diagnosing gaps</div>
+            </div>
+        </div>
+
+        <!-- Lesson 5.8: Resilience Mechanisms -->
+        <div class="lesson">
+            <h2>5.8 Resilience Buffers: The Circuit Breakers</h2>
+
+            <p>The research identified <strong>279 negative cases</strong> where technical triggers did NOT lead to friction. These reveal two critical resilience mechanisms that characterize Level 3 organizations:</p>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 2rem 0;">
+                <div style="background: #f8fafc; padding: 1.5rem; border-radius: 12px;">
+                    <h3 style="color: #0b1e33;">🛡️ Professional Insulation</h3>
+                    <p>Strong professional IT norms act as a buffer against Process Disruption. Strict protocols and "ground rules" bypass latent cultural resistance.</p>
+                    <div class="quote-box" style="margin: 1rem 0 0 0;">
+                        <div class="quote-text">"We are aligned on data privacy because we understand this is other people's data."</div>
+                        <div class="quote-author">— P34</div>
+                    </div>
+                </div>
+
+                <div style="background: #f8fafc; padding: 1.5rem; border-radius: 12px;">
+                    <h3 style="color: #0b1e33;">🏗️ Architectural Simplicity</h3>
+                    <p>Strategic architectural choices (e.g., RAG frameworks) bound probabilistic variance within a verifiable environment.</p>
+                    <div class="quote-box" style="margin: 1rem 0 0 0;">
+                        <div class="quote-text">"We need this responsibility of building the model."</div>
+                        <div class="quote-author">— P2</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Module Navigation -->
+        <div class="nav-buttons">
+            <a href="course-module-4.html" class="btn btn-secondary">← Previous: Module 4</a>
+            <a href="course-module-6.html" class="btn">Next: Module 6 →</a>
+        </div>
+
+        <!-- Key Takeaways -->
+        <div class="takeaways">
+            <h3>📌 Module 5 Key Takeaways</h3>
+            <ul>
+                <li><strong>Level 1 (Reactive):</strong> High ACT (>70%), low STANDARDIZE/TRAIN (<30%) - "Hero-dependent" firefighting</li>
+                <li><strong>Level 2 (Mediated):</strong> High INQUIRE (>70%), STANDARDIZE <50% - Good communication, still vulnerable</li>
+                <li><strong>Level 3 (Strategic):</strong> All pillars >70% - "Professional Insulation" achieved</li>
+                <li><strong>PSR Formula:</strong> S<sub>P</sub> = (∑c<sub>s</sub> / ∑c<sub>t</sub>) × 100%</li>
+                <li><strong>Three Gaps:</strong> Firefighting Gap (2:1 ACT:STANDARDIZE), Skilling Void (16.7% TRAIN), Expectation Calibration Gap (128.0% INQUIRE)</li>
+                <li><strong>Resilience Buffers:</strong> Professional Insulation and Architectural Simplicity neutralize friction at source</li>
+            </ul>
+        </div>
+
+        <!-- Connect to Assessment -->
+        <div class="assessment-connect">
+            <h3>🔗 Your Turn: Calculate Your Maturity Level</h3>
+            <p>The ATIS Self-Assessment will calculate your PSR for each pillar and determine your maturity level:</p>
+            
+            <div style="background: #f8fafc; padding: 1.5rem; border-radius: 12px; margin: 1.5rem 0;">
+                <h4>Your Results Will Show:</h4>
+                <ul style="margin: 1rem 0 0 1.5rem;">
+                    <li><strong>ACT PSR:</strong> ___% — Your level of proactive intervention</li>
+                    <li><strong>TRAIN PSR:</strong> ___% — Your investment in continuous up-skilling</li>
+                    <li><strong>INQUIRE PSR:</strong> ___% — Your information acquisition practices</li>
+                    <li><strong>STANDARDIZE PSR:</strong> ___% — Your methodological stability</li>
+                    <li><strong>Maturity Level:</strong> Level 1, 2, or 3 with customized recommendations</li>
+                </ul>
+            </div>
+
+            <a href="assessment.html" class="btn" style="width: 100%; text-align: center;">→ Take the Assessment Now</a>
+        </div>
+
+        <!-- Maturity Mapping Exercise -->
+        <div style="background: white; border-radius: 16px; padding: 2rem; border: 1px solid #e2e8f0;">
+            <h3>✍️ Maturity Mapping Exercise</h3>
+            <p>Before taking the assessment, estimate your organization's current state:</p>
+            <ol style="margin: 1rem 0 1rem 1.5rem;">
+                <li>On a scale of 0-100%, how much do you rely on individual "heroes" vs. systems?</li>
+                <li>When was your last cross-cultural training? Is it one-time or continuous?</li>
+                <li>Do you proactively probe client expectations, or only react when problems arise?</li>
+                <li>Are your project "quick fixes" documented and turned into standard procedures?</li>
+            </ol>
+            <p style="margin-top: 1rem; color: #64748b;">Compare your estimates with your actual PSR scores after taking the assessment.</p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>© 2026 ATIS Framework. Based on research with 48 global AI experts.</p>
+        <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #94a3b8;">Expert quotes anonymized (P1-P48) and used with permission.</p>
+    </footer>
+</body>
+</html>

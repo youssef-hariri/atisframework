@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 4: Cross-Cultural Dynamics | ATIS Executive Course</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        body {
+            background: #f8fafc;
+            color: #0f172a;
+            line-height: 1.6;
+        }
+
+        .navbar {
+            background: white;
+            border-bottom: 1px solid #e2e8f0;
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(255,255,255,0.95);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #0b1e33;
+            text-decoration: none;
+        }
+
+        .logo span {
+            color: #3b82f6;
+        }
+
+        .nav-links a {
+            color: #475569;
+            text-decoration: none;
+            margin-left: 2rem;
+            font-weight: 500;
+        }
+
+        .nav-links a:hover, .nav-links a.active {
+            color: #3b82f6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+
+        .module-header {
+            margin-bottom: 2rem;
+        }
+
+        .module-badge {
+            color: #3b82f6;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #0b1e33;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        .progress-bar {
+            height: 8px;
+            background: #e2e8f0;
+            border-radius: 4px;
+            margin: 2rem 0;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: #3b82f6;
+            width: 66%;
+            border-radius: 4px;
+        }
+
+        .lesson {
+            background: white;
+            border-radius: 16px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border: 1px solid #e2e8f0;
+        }
+
+        .lesson h2 {
+            font-size: 1.8rem;
+            color: #0b1e33;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #e2e8f0;
+        }
+
+        .lesson h3 {
+            font-size: 1.3rem;
+            color: #1e293b;
+            margin: 1.5rem 0 1rem 0;
+        }
+
+        .phase-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .phase-card {
+            background: #f8fafc;
+            border-radius: 12px;
+            padding: 1.5rem;
+            border: 1px solid #e2e8f0;
+            transition: transform 0.2s;
+        }
+
+        .phase-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+        }
+
+        .phase-number {
+            color: #3b82f6;
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .pill {
+            display: inline-block;
+            padding: 0.25rem 1rem;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .pill.culture { background: #dbeafe; color: #1e40af; }
+        .pill.tech { background: #e2e8f0; color: #334155; }
+
+        .quote-box {
+            background: #f0f9ff;
+            border-left: 4px solid #3b82f6;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+        }
+
+        .quote-text {
+            font-style: italic;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            color: #1e293b;
+        }
+
+        .quote-author {
+            font-weight: 600;
+            color: #0b1e33;
+        }
+
+        .country-example {
+            background: #f1f5f9;
+            border-radius: 12px;
+            padding: 1rem;
+            margin: 1rem 0;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .country-flag {
+            font-size: 2rem;
+        }
+
+        .matrix-diagram {
+            background: white;
+            border: 2px solid #e2e8f0;
+            border-radius: 16px;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+
+        .matrix-row {
+            display: grid;
+            grid-template-columns: 120px 1fr 1fr 1fr;
+            gap: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .matrix-header {
+            font-weight: 600;
+            background: #f1f5f9;
+            padding: 0.75rem;
+            border-radius: 8px;
+        }
+
+        .matrix-cell {
+            background: #f8fafc;
+            padding: 0.75rem;
+            border-radius: 8px;
+            text-align: center;
+            border: 1px solid #e2e8f0;
+        }
+
+        .btn {
+            background: #3b82f6;
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: background 0.2s;
+        }
+
+        .btn:hover {
+            background: #2563eb;
+        }
+
+        .btn-secondary {
+            background: white;
+            color: #3b82f6;
+            border: 2px solid #3b82f6;
+        }
+
+        .btn-secondary:hover {
+            background: #3b82f6;
+            color: white;
+        }
+
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin: 2rem 0;
+        }
+
+        .takeaways {
+            background: #f1f5f9;
+            border-radius: 16px;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+
+        .takeaways h3 {
+            color: #0b1e33;
+            margin-bottom: 1rem;
+        }
+
+        .takeaways ul {
+            padding-left: 1.5rem;
+        }
+
+        .takeaways li {
+            margin-bottom: 0.75rem;
+        }
+
+        .assessment-connect {
+            background: white;
+            border-radius: 16px;
+            padding: 2rem;
+            border: 2px solid #3b82f6;
+            margin: 2rem 0;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: #64748b;
+            border-top: 1px solid #e2e8f0;
+            margin-top: 3rem;
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            .phase-grid { grid-template-columns: 1fr; }
+            .matrix-row { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">ATIS <span>Framework</span></a>
+            <div class="nav-links">
+                <a href="assessment.html">Assessment</a>
+                <a href="course.html" class="active">Course</a>
+                <a href="about.html">Research</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Module Header -->
+        <div class="module-header">
+            <div class="module-badge">MODULE 4 OF 6</div>
+            <h1>Cross-Cultural Dynamics in AI Projects</h1>
+            <p>Understanding how cultural differences create friction across the AI project lifecycle.</p>
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="progress-bar">
+            <div class="progress-fill" style="width: 66%;"></div>
+        </div>
+
+        <!-- Lesson 4.1: Introduction -->
+        <div class="lesson">
+            <h2>4.1 Culture Meets Technology</h2>
+            
+            <p>Culture consists of "shared mind programming" with core values at its center (Hofstede, 2010). When these cultural values intersect with the four AI specificities you learned in Module 2, unique patterns of friction emerge.</p>
+
+            <div class="quote-box">
+                <div class="quote-text">"Different people from different backgrounds. I think it's... it provides a different perspective of the problem in hand."</div>
+                <div class="quote-author">— P3</div>
+            </div>
+
+            <p>This module explores five project phases where cultural differences create high friction, and two phases that remain universally consistent.</p>
+
+            <!-- Figure Reference -->
+            <div style="background: #f1f5f9; padding: 1rem; border-radius: 8px; margin-top: 1rem;">
+                <p style="text-align: center;"><strong>See Figure 4 in the research paper:</strong> Phases of an AI project affected by culture</p>
+            </div>
+        </div>
+
+        <!-- Lesson 4.2: Five High-Friction Phases -->
+        <div class="lesson">
+            <h2>4.2 Five High-Friction Project Phases</h2>
+
+            <div class="phase-grid">
+                <!-- Phase 1 -->
+                <div class="phase-card">
+                    <div class="phase-number">PHASE 1</div>
+                    <h3 style="margin: 0.5rem 0;">Problem Definition</h3>
+                    <span class="pill culture">HIGH FRICTION</span>
+                    <p style="margin-top: 1rem;">Aligning high customer expectations with disruptive technical reality.</p>
+                    <div class="quote-box" style="margin: 1rem 0; padding: 1rem;">
+                        <div class="quote-text" style="font-size: 0.95rem;">"Sort of early on when we're kind of brainstorming, coming up with ideas, going back and forth with maybe a stakeholder trying to figure out what their requirements are."</div>
+                        <div class="quote-author">— P16</div>
+                    </div>
+                </div>
+
+                <!-- Phase 2 -->
+                <div class="phase-card">
+                    <div class="phase-number">PHASE 2</div>
+                    <h3 style="margin: 0.5rem 0;">Data Analytics</h3>
+                    <span class="pill culture">HIGH FRICTION</span>
+                    <p style="margin-top: 1rem;">Interpreting domain knowledge and data representation across cultures.</p>
+                    <div class="quote-box" style="margin: 1rem 0; padding: 1rem;">
+                        <div class="quote-text" style="font-size: 0.95rem;">"The main knowledge... Domain knowledge. But there's also a kind of physical cultural challenge, and that is in how do we represent things?"</div>
+                        <div class="quote-author">— P37</div>
+                    </div>
+                </div>
+
+                <!-- Phase 3 -->
+                <div class="phase-card">
+                    <div class="phase-number">PHASE 3</div>
+                    <h3 style="margin: 0.5rem 0;">Ethics & Privacy</h3>
+                    <span class="pill culture">HIGH FRICTION</span>
+                    <p style="margin-top: 1rem;">Auditing stochastic risk and managing compliance across regulations.</p>
+                    <div class="quote-box" style="margin: 1rem 0; padding: 1rem;">
+                        <div class="quote-text" style="font-size: 0.95rem;">"If you recruit someone from Europe... security, safety and GDPR comes to them. If you recruit from India or Bangladesh? They may not know this."</div>
+                        <div class="quote-author">— P13</div>
+                    </div>
+                </div>
+
+                <!-- Phase 4 -->
+                <div class="phase-card">
+                    <div class="phase-number">PHASE 4</div>
+                    <h3 style="margin: 0.5rem 0;">Business Problem Solving</h3>
+                    <span class="pill culture">HIGH FRICTION</span>
+                    <p style="margin-top: 1rem;">Localizing AI solutions to regional specifics.</p>
+                    <div class="quote-box" style="margin: 1rem 0; padding: 1rem;">
+                        <div class="quote-text" style="font-size: 0.95rem;">"The difference between fintech in Kenya and Nigeria... in Kenya mobile money is obvious. In Nigeria, a different system. You have to study it."</div>
+                        <div class="quote-author">— P25</div>
+                    </div>
+                </div>
+
+                <!-- Phase 5 - spans full width -->
+                <div class="phase-card" style="grid-column: span 2;">
+                    <div class="phase-number">PHASE 5</div>
+                    <h3 style="margin: 0.5rem 0;">Feedback Loops</h3>
+                    <span class="pill culture">HIGH FRICTION</span>
+                    <p style="margin-top: 1rem;">Cultural norms determine how direct or indirect feedback should be.</p>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1rem;">
+                        <div class="quote-box" style="margin: 0;">
+                            <div class="quote-text" style="font-size: 0.95rem;">"Difficult to us to tell that way so directly."</div>
+                            <div class="quote-author">— P1, P2 (Brazil)</div>
+                        </div>
+                        <div class="quote-box" style="margin: 0;">
+                            <div class="quote-text" style="font-size: 0.95rem;">"Latin America takes things very seriously. I almost got into trouble by being too blunt."</div>
+                            <div class="quote-author">— P21</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lesson 4.3: Universal Engineering Paradigms -->
+        <div class="lesson">
+            <h2>4.3 Universal Engineering Paradigms</h2>
+            
+            <p>Interestingly, two phases operate independently of cultural influence, following the universal logic of mathematics and engineering:</p>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 1.5rem 0;">
+                <div style="background: #f1f5f9; padding: 1.5rem; border-radius: 12px;">
+                    <span class="pill tech">📊 STATISTICAL ANALYSIS</span>
+                    <div class="quote-box" style="margin: 1rem 0;">
+                        <div class="quote-text" style="font-size: 0.95rem;">"During the analysis and planning of the project we apply statistical analysis... I don't believe it's multicultural... plays a major role in this."</div>
+                        <div class="quote-author">— P3</div>
+                    </div>
+                </div>
+
+                <div style="background: #f1f5f9; padding: 1.5rem; border-radius: 12px;">
+                    <span class="pill tech">💻 TECHNICAL EXECUTION</span>
+                    <div class="quote-box" style="margin: 1rem 0;">
+                        <div class="quote-text" style="font-size: 0.95rem;">"We're talking the same language, more or less. I find that part it's definitely more equal than if it was something non-tech related."</div>
+                        <div class="quote-author">— P9</div>
+                    </div>
+                </div>
+            </div>
+
+            <p><strong>Important Note:</strong> While execution is neutral, governance and sovereignty decisions regarding those technologies remain culturally contingent.</p>
+
+            <div class="quote-box">
+                <div class="quote-text">"From the Netherlands, there was a tendency to use the AI project to do centralization... was not welcomed by German and Belgian subdivisions because they wanted their own independence."</div>
+                <div class="quote-author">— P29</div>
+            </div>
+        </div>
+
+        <!-- Lesson 4.4: Data Treatment Across Cultures -->
+        <div class="lesson">
+            <h2>4.4 Data Treatment: Bias, Privacy, and Ethics</h2>
+
+            <h3>Data Preparation</h3>
+            <div class="country-example">
+                <span class="country-flag">🇳🇱</span>
+                <div>
+                    <strong>Netherlands:</strong> Comma for decimal separator
+                </div>
+            </div>
+            <div class="country-example">
+                <span class="country-flag">🇮🇳</span>
+                <div>
+                    <strong>India:</strong> Comma for thousand separator
+                </div>
+            </div>
+
+            <div class="quote-box">
+                <div class="quote-text">"So take for example numeric. That is a very notorious one. Here in the Netherlands we use a comma for decimal separator. In India, we use a comma for thousand separator."</div>
+                <div class="quote-author">— P38</div>
+            </div>
+
+            <h3 style="margin-top: 2rem;">Privacy & Regulatory Gaps</h3>
+            <p>The autocatalytic nature of AI leaves regulatory frameworks struggling to keep pace:</p>
+
+            <div class="quote-box">
+                <div class="quote-text">"We try to comply with GDPR in Europe. This relation is a little bit loose when dealing with customers in Asia or United States."</div>
+                <div class="quote-author">— P3</div>
+            </div>
+
+            <div class="quote-box">
+                <div class="quote-text">"Working in Nepal... they were hesitant about sharing data. Probably because they didn't have a standard for sharing data with us."</div>
+                <div class="quote-author">— P27</div>
+            </div>
+
+            <h3 style="margin-top: 2rem;">Ethics as Cultural Responsibility</h3>
+            <div class="quote-box">
+                <div class="quote-text">"The guys that work with us were not from data science... they do not know why the model was giving them that answer. We need this responsibility of building the model. We need to remove this kind of biases."</div>
+                <div class="quote-author">— P2, on fixing gender bias in salary models</div>
+            </div>
+        </div>
+
+        <!-- Lesson 4.5: Knowledge Sharing Across Cultures -->
+        <div class="lesson">
+            <h2>4.5 Knowledge Orchestration</h2>
+
+            <h3>Four Key Dimensions</h3>
+
+            <div style="margin: 1.5rem 0;">
+                <div style="background: #f8fafc; padding: 1.5rem; border-radius: 12px; margin-bottom: 1rem;">
+                    <h4>1. Epistemic Depth & Uncertainty Avoidance</h4>
+                    <div class="quote-box" style="margin: 0.5rem 0;">
+                        <div class="quote-text">"Asian cultures, like Japanese cultures... that's why you provide all information."</div>
+                        <div class="quote-author">— P21</div>
+                    </div>
+                </div>
+
+                <div style="background: #f8fafc; padding: 1.5rem; border-radius: 12px; margin-bottom: 1rem;">
+                    <h4>2. Temporal Pacing</h4>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                        <div class="quote-box" style="margin: 0;">
+                            <div class="quote-text">"Mexican clients need to know... how is the project in production?"</div>
+                            <div class="quote-author">— P7</div>
+                        </div>
+                        <div class="quote-box" style="margin: 0;">
+                            <div class="quote-text">"US clients want little during, but at the end... like a PhD dissertation."</div>
+                            <div class="quote-author">— P7</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="background: #f8fafc; padding: 1.5rem; border-radius: 12px; margin-bottom: 1rem;">
+                    <h4>3. Tacit vs. Explicit Knowledge</h4>
+                    <div class="quote-box" style="margin: 0.5rem 0;">
+                        <div class="quote-text">"Mexican clients give definitions, but not complete... they wait for you to know."</div>
+                        <div class="quote-author">— P7</div>
+                    </div>
+                </div>
+
+                <div style="background: #f8fafc; padding: 1.5rem; border-radius: 12px;">
+                    <h4>4. Modality of Transfer</h4>
+                    <div class="quote-box" style="margin: 0.5rem 0;">
+                        <div class="quote-text">"Spanish executive level... more difficult, separate technical from business talks."</div>
+                        <div class="quote-author">— P1, P2</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lesson 4.6: The Stakeholder Matrix -->
+        <div class="lesson">
+            <h2>4.6 The Stakeholder-Business Process Matrix</h2>
+
+            <div class="matrix-diagram">
+                <h3 style="text-align: center; margin-bottom: 1.5rem;">Cultural Friction by Stakeholder Pair</h3>
+                
+                <div class="matrix-row">
+                    <div class="matrix-header"></div>
+                    <div class="matrix-header">Engineers</div>
+                    <div class="matrix-header">Team Leaders</div>
+                    <div class="matrix-header">Business Translators</div>
+                </div>
+
+                <div class="matrix-row">
+                    <div class="matrix-header">Clients</div>
+                    <div class="matrix-cell">F, KS, W, M</div>
+                    <div class="matrix-cell">-</div>
+                    <div class="matrix-cell">P, CR</div>
+                </div>
+
+                <div class="matrix-row">
+                    <div class="matrix-header">Engineers</div>
+                    <div class="matrix-cell">-</div>
+                    <div class="matrix-cell">T, WC</div>
+                    <div class="matrix-cell">KS</div>
+                </div>
+
+                <div class="matrix-row">
+                    <div class="matrix-header">Team Leaders</div>
+                    <div class="matrix-cell">T, WC</div>
+                    <div class="matrix-cell">-</div>
+                    <div class="matrix-cell">I, CR</div>
+                </div>
+
+                <p style="margin-top: 1.5rem; font-size: 0.9rem;">
+                    <strong>Legend:</strong> F=Feedback, KS=Knowledge Sharing, W=Working Methods, M=Monitoring, 
+                    P=Problem Definition, CR=Customer Relations, T=Training, WC=Work Culture, I=Inquiry
+                </p>
+            </div>
+
+            <div class="quote-box">
+                <div class="quote-text">"I can act as a communication point because I can like a bridge."</div>
+                <div class="quote-author">— P3, on being a cultural bridge</div>
+            </div>
+        </div>
+
+        <!-- Lesson 4.7: Subcultural Granularity -->
+        <div class="lesson">
+            <h2>4.7 Beyond National Culture</h2>
+
+            <p>Cultural differences exist even within countries. Strategies must be recalibrated for specific cities and subregions.</p>
+
+            <div class="quote-box">
+                <div class="quote-text">"I'm used to Bangalore then Bombay... is it going to be exactly the same? That's simply not true. Same for UAE vs Qatar vs Saudi Arabia."</div>
+                <div class="quote-author">— P38</div>
+            </div>
+
+            <div class="quote-box">
+                <div class="quote-text">"In the US... Northerners being more direct, Southerners more roundabout. You have to read between the lines."</div>
+                <div class="quote-author">— P37</div>
+            </div>
+
+            <div class="country-example">
+                <span class="country-flag">🇦🇪</span>
+                <div>
+                    <strong>Emirati generosity:</strong> "In Indian culture, giving something frequently might be seen as looking for hidden benefit. In Emirati culture, it's natural to feed people, to be so nice."
+                </div>
+            </div>
+        </div>
+
+        <!-- Module Navigation -->
+        <div class="nav-buttons">
+            <a href="course-module-3.html" class="btn btn-secondary">← Previous: Module 3</a>
+            <a href="course-module-5.html" class="btn">Next: Module 5 →</a>
+        </div>
+
+        <!-- Key Takeaways -->
+        <div class="takeaways">
+            <h3>📌 Module 4 Key Takeaways</h3>
+            <ul>
+                <li><strong>Five high-friction phases:</strong> Problem Definition, Data Analytics, Ethics & Privacy, Business Problem Solving, Feedback Loops</li>
+                <li><strong>Two universal phases:</strong> Statistical Analysis and Technical Execution operate independently of culture</li>
+                <li><strong>Data treatment varies:</strong> Number formats, labeling conventions, privacy expectations differ significantly</li>
+                <li><strong>Knowledge sharing has four dimensions:</strong> Epistemic depth, temporal pacing, tacit vs. explicit, modality</li>
+                <li><strong>Subcultural granularity matters:</strong> Even within countries, regional differences require adaptation</li>
+            </ul>
+        </div>
+
+        <!-- Connect to Assessment -->
+        <div class="assessment-connect">
+            <h3>🔗 Connect to Your Assessment</h3>
+            <p>Your assessment results identify specific cultural friction points:</p>
+            <ul style="margin: 1rem 0 1rem 1.5rem;">
+                <li><strong>Question 1.1-1.3:</strong> Organizational preparation for cross-cultural work</li>
+                <li><strong>Question 2.4, 2.8, 2.11:</strong> Leadership cultural awareness and monitoring</li>
+                <li><strong>Question 3.4:</strong> Presence of "Cultural Bridges" in your team</li>
+                <li><strong>Question 4.1-4.4:</strong> Personal cross-cultural capabilities</li>
+            </ul>
+            <a href="assessment.html" style="color: #3b82f6; font-weight: 600; display: inline-block; margin-top: 1rem;">→ Review your cultural readiness scores</a>
+        </div>
+
+        <!-- Cultural Audit Exercise -->
+        <div style="background: white; border-radius: 16px; padding: 2rem; border: 1px solid #e2e8f0;">
+            <h3>✍️ Cultural Audit Exercise</h3>
+            <p>For your current or recent AI project:</p>
+            <ol style="margin: 1rem 0 1rem 1.5rem;">
+                <li>Which of the five high-friction phases caused the most challenges?</li>
+                <li>What cultural differences in feedback styles did you observe?</li>
+                <li>Do you have "cultural bridges" on your team? If not, where are the gaps?</li>
+                <li>How do your data preparation practices account for regional variations?</li>
+            </ol>
+            <p style="margin-top: 1rem; color: #64748b;">Save your notes—you'll use them in Module 6 for your action plan.</p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>© 2026 ATIS Framework. Based on research with 48 global AI experts.</p>
+        <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #94a3b8;">Expert quotes anonymized (P1-P48) and used with permission.</p>
+    </footer>
+</body>
+</html>

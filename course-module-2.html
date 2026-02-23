@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 2: The Four AI Specificities | ATIS Executive Course</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        body {
+            background: #f8fafc;
+            color: #0f172a;
+            line-height: 1.6;
+        }
+
+        .navbar {
+            background: white;
+            border-bottom: 1px solid #e2e8f0;
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(255,255,255,0.95);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #0b1e33;
+            text-decoration: none;
+        }
+
+        .logo span {
+            color: #3b82f6;
+        }
+
+        .nav-links a {
+            color: #475569;
+            text-decoration: none;
+            margin-left: 2rem;
+            font-weight: 500;
+        }
+
+        .nav-links a:hover, .nav-links a.active {
+            color: #3b82f6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+
+        .module-header {
+            margin-bottom: 2rem;
+        }
+
+        .module-badge {
+            color: #3b82f6;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #0b1e33;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        .progress-bar {
+            height: 8px;
+            background: #e2e8f0;
+            border-radius: 4px;
+            margin: 2rem 0;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: #3b82f6;
+            width: 33%;
+            border-radius: 4px;
+        }
+
+        .lesson {
+            background: white;
+            border-radius: 16px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border: 1px solid #e2e8f0;
+        }
+
+        .lesson h2 {
+            font-size: 1.8rem;
+            color: #0b1e33;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #e2e8f0;
+        }
+
+        .lesson h3 {
+            font-size: 1.3rem;
+            color: #1e293b;
+            margin: 1.5rem 0 1rem 0;
+        }
+
+        .specificity-card {
+            background: #f8fafc;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-left: 4px solid;
+        }
+
+        .card-stochastic { border-color: #ef4444; }
+        .card-auto { border-color: #f59e0b; }
+        .card-process { border-color: #3b82f6; }
+        .card-expectations { border-color: #10b981; }
+
+        .pill {
+            display: inline-block;
+            padding: 0.25rem 1rem;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .pill.stochastic { background: #fee2e2; color: #991b1b; }
+        .pill.auto { background: #fef3c7; color: #92400e; }
+        .pill.process { background: #dbeafe; color: #1e40af; }
+        .pill.expectations { background: #d1fae5; color: #065f46; }
+
+        .quote-box {
+            background: #f0f9ff;
+            border-left: 4px solid #3b82f6;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+        }
+
+        .quote-text {
+            font-style: italic;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            color: #1e293b;
+        }
+
+        .quote-author {
+            font-weight: 600;
+            color: #0b1e33;
+        }
+
+        .stat-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+
+        .stat-item {
+            background: white;
+            padding: 1rem;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+        }
+
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #3b82f6;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            color: #64748b;
+        }
+
+        .chain-diagram {
+            background: #1e293b;
+            color: white;
+            padding: 2rem;
+            border-radius: 12px;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+
+        .chain-item {
+            display: inline-block;
+            margin: 0 1rem;
+        }
+
+        .chain-arrow {
+            color: #3b82f6;
+            font-size: 1.5rem;
+            margin: 0 0.5rem;
+        }
+
+        .btn {
+            background: #3b82f6;
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: background 0.2s;
+        }
+
+        .btn:hover {
+            background: #2563eb;
+        }
+
+        .btn-secondary {
+            background: white;
+            color: #3b82f6;
+            border: 2px solid #3b82f6;
+        }
+
+        .btn-secondary:hover {
+            background: #3b82f6;
+            color: white;
+        }
+
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin: 2rem 0;
+        }
+
+        .takeaways {
+            background: #f1f5f9;
+            border-radius: 16px;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+
+        .takeaways h3 {
+            color: #0b1e33;
+            margin-bottom: 1rem;
+        }
+
+        .takeaways ul {
+            padding-left: 1.5rem;
+        }
+
+        .takeaways li {
+            margin-bottom: 0.75rem;
+        }
+
+        .assessment-connect {
+            background: white;
+            border-radius: 16px;
+            padding: 2rem;
+            border: 2px solid #3b82f6;
+            margin: 2rem 0;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: #64748b;
+            border-top: 1px solid #e2e8f0;
+            margin-top: 3rem;
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            .stat-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">ATIS <span>Framework</span></a>
+            <div class="nav-links">
+                <a href="assessment.html">Assessment</a>
+                <a href="course.html" class="active">Course</a>
+                <a href="about.html">Research</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Module Header -->
+        <div class="module-header">
+            <div class="module-badge">MODULE 2 OF 6</div>
+            <h1>The Four AI Specificities</h1>
+            <p>Understanding the technical triggers that create unique management friction in AI projects.</p>
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="progress-bar">
+            <div class="progress-fill" style="width: 33%;"></div>
+        </div>
+
+        <!-- Lesson 2.1: Introduction -->
+        <div class="lesson">
+            <h2>2.1 Why AI is Different</h2>
+            
+            <p>Traditional IT projects follow deterministic logic: define requirements, build solution, deliver predictable outcome. AI projects are fundamentally different. They are governed by four inherent technical specificities that transform the nature of project friction.</p>
+
+            <div class="quote-box">
+                <div class="quote-text">"The other thing is the inherent problem of just the sheer complexity in a variation of AI. So, there's a big mindset shift from deterministic solutions to more stochastic meaning. AI introduces a lot of variations in edge cases that people don't normally understand."</div>
+                <div class="quote-author">— P21, Project Manager</div>
+            </div>
+
+            <p>These four specificities act as <strong>technical triggers</strong> that, when combined with cross-cultural dynamics, create the causal chains of friction we'll explore throughout this module.</p>
+
+            <div class="stat-grid">
+                <div class="stat-item">
+                    <div class="stat-value">170.8%</div>
+                    <div class="stat-label">Stochastic Uncertainty → ACT</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">128.0%</div>
+                    <div class="stat-label">High Expectations → INQUIRE</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">104.2%</div>
+                    <div class="stat-label">Autocatalysis → STANDARDIZE</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">29.8%</div>
+                    <div class="stat-label">Process Disruption Prevalence</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lesson 2.2: Stochastic Uncertainty -->
+        <div class="lesson">
+            <h2>2.2 Stochastic Uncertainty (Non-Deterministic Output)</h2>
+            
+            <div class="specificity-card card-stochastic">
+                <span class="pill stochastic">⚡ STOCHASTIC UNCERTAINTY</span>
+                
+                <h3>What It Is</h3>
+                <p>Unlike traditional software engineering where the answer is known in advance, AI solutions are non-deterministic. The same input can produce different outputs, and success is probabilistic rather than guaranteed.</p>
+
+                <div class="quote-box">
+                    <div class="quote-text">"Data science is that like a lot of times, we don't know. It's different. It's like you know... We don't know the answers, right? It's not always like... It's like an engineering problem where you know you just need the requirements and then you implement something to those requirements."</div>
+                    <div class="quote-author">— P5, Data Scientist</div>
+                </div>
+
+                <div class="quote-box">
+                    <div class="quote-text">"With the current kind of projects that people are building with large language models... It's such a general purpose technology. It's very... you can't test for all possible things. There's many ways that it can go wrong."</div>
+                    <div class="quote-author">— P33, AI Engineer</div>
+                </div>
+
+                <h3>The Friction It Creates: Baseline Erosion</h3>
+                <p>Because model performance fluctuates unpredictably due to "data spikes" or latent biases, practitioners find it impossible to maintain a stable project forecast. This creates constant firefighting.</p>
+
+                <div class="chain-diagram">
+                    <span class="chain-item">⚡ Stochastic Uncertainty</span>
+                    <span class="chain-arrow">→</span>
+                    <span class="chain-item">📉 Baseline Erosion</span>
+                    <span class="chain-arrow">→</span>
+                    <span class="chain-item" style="color: #ef4444;">ACT (170.8%)</span>
+                </div>
+
+                <h3>Cultural Dimension</h3>
+                <p>Cultural backgrounds significantly mediate how individuals cope with this ambiguity. Some cultures have higher uncertainty tolerance than others, requiring project managers to align risk tolerances across the team.</p>
+                
+                <div class="quote-box">
+                    <div class="quote-text">"AI generally is very uncertain. So there's this question is, how comfortable are you with uncertainty?"</div>
+                    <div class="quote-author">— P21</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lesson 2.3: Autocatalysis -->
+        <div class="lesson">
+            <h2>2.3 Autocatalysis (Technical Velocity)</h2>
+            
+            <div class="specificity-card card-auto">
+                <span class="pill auto">🚀 AUTOCATALYSIS</span>
+                
+                <h3>What It Is</h3>
+                <p>In chemistry, autocatalysis is a process where a product of a reaction acts as a catalyst for the reaction itself. In AI, each breakthrough fuels further advancements at an exponential rate. The cycle becomes self-reinforcing.</p>
+
+                <div class="quote-box">
+                    <div class="quote-text">"Every day there's something new. Every day there's a new discovery. There's a new something. Everything just happening so quickly that a lot of times we just feel like constant change and constant churning. And so a mixed communication... very difficult."</div>
+                    <div class="quote-author">— P9, Engineering Lead</div>
+                </div>
+
+                <h3>The Friction It Creates: Knowledge Asymmetry</h3>
+                <p>This technical velocity makes baseline alignment a primary management hurdle. Team members fall behind the current state of the art, and this gap is exacerbated in multicultural teams where communication is already complex.</p>
+
+                <div class="quote-box">
+                    <div class="quote-text">"And I noticed this difference between Brazil that were we were a bit more advanced... is difficult to us to tell that way so directly..."</div>
+                    <div class="quote-author">— P1 and P2, Brazilian Engineers</div>
+                </div>
+
+                <div class="chain-diagram">
+                    <span class="chain-item">🚀 Autocatalysis</span>
+                    <span class="chain-arrow">→</span>
+                    <span class="chain-item">🧠 Knowledge Asymmetry</span>
+                    <span class="chain-arrow">→</span>
+                    <span class="chain-item" style="color: #f59e0b;">TRAIN / INQUIRE</span>
+                </div>
+
+                <h3>Practical Impact</h3>
+                <p>The constant churning means that skills learned six months ago may already be obsolete. Organizations must build continuous learning into their DNA rather than treating training as a one-time event.</p>
+            </div>
+        </div>
+
+        <!-- Lesson 2.4: Process Disruption -->
+        <div class="lesson">
+            <h2>2.4 Process Disruption (Non-Linear Workflows)</h2>
+            
+            <div class="specificity-card card-process">
+                <span class="pill process">🔄 PROCESS DISRUPTION</span>
+                
+                <h3>What It Is</h3>
+                <p>AI development is inherently disruptive to established business processes. It requires a fundamental mindset shift from deterministic to probabilistic solutions, which often triggers systemic resistance within organizations.</p>
+
+                <div class="quote-box">
+                    <div class="quote-text">"That's usually when the resistance gets a bit up and people think, oh, wait, we also need to change some parts of our processes. We don't want that."</div>
+                    <div class="quote-author">— P29, Project Manager</div>
+                </div>
+
+                <div class="quote-box">
+                    <div class="quote-text">"This AI machine learning solution requires a certain degree of collaboration between the sales recruiters. However, the sales recruiters themselves tend to think really competitively. So they're like, yeah, if everyone has this information. There's no reward."</div>
+                    <div class="quote-author">— P29</div>
+                </div>
+
+                <h3>The Friction It Creates: Organizational Resistance</h3>
+                <p>Employees perceive AI implementation as a threat to established processes, job security, or individual incentives. This creates cultural resistance that can derail projects.</p>
+
+                <div class="chain-diagram">
+                    <span class="chain-item">🔄 Process Disruption</span>
+                    <span class="chain-arrow">→</span>
+                    <span class="chain-item">⚔️ Cultural Resistance</span>
+                    <span class="chain-arrow">→</span>
+                    <span class="chain-item" style="color: #ef4444;">ACT (161.2%)</span>
+                    <span class="chain-arrow">+</span>
+                    <span class="chain-item" style="color: #10b981;">STANDARDIZE (116.4%)</span>
+                </div>
+
+                <h3>Most Prevalent Stressor</h3>
+                <p>Process Disruption is the most frequently cited stressor in the dataset, appearing in <strong>29.8% of analytical units</strong>. It requires managers to function as "Cultural Bridges," harmonizing diverse team mentalities while formalizing new workflows.</p>
+            </div>
+        </div>
+
+        <!-- Lesson 2.5: High Customer Expectations -->
+        <div class="lesson">
+            <h2>2.5 High Customer Expectations (The "AI Knows All" Perception)</h2>
+            
+            <div class="specificity-card card-expectations">
+                <span class="pill expectations">🎯 HIGH CUSTOMER EXPECTATIONS</span>
+                
+                <h3>What It Is</h3>
+                <p>AI professionals frequently encounter an "Adversarial Client Gap" where stakeholders project unrealistic dreams onto a technology they perceive as a panacea rather than mathematics.</p>
+
+                <div class="quote-box">
+                    <div class="quote-text">"Uh, first, you know, this is like for developers, for data scientists or researchers, this is like the customer is like the enemy because maybe he has a lot of ideas, a lot of like, the ideas that are in the cloud... and that's something that we need to put all the things on the floor and say OK. We can do this. But we can't do the other things."</div>
+                    <div class="quote-author">— P7, AI Developer</div>
+                </div>
+
+                <div class="quote-box">
+                    <div class="quote-text">"Client would come from his head and be like I need this and then you have to like lower his dreams and be like this is so for us we just use maps and graphs and we use a little bit of research to show that this is what's possible, this is what's not possible."</div>
+                    <div class="quote-author">— P32, AI Engineer</div>
+                </div>
+
+                <h3>The Friction It Creates: Anthropomorphic Projection</h3>
+                <p>Stakeholders perceive AI as an all-knowing entity rather than a probabilistic tool. This creates a Trust-Understanding Gap where stakeholders lack patience for the iterative, non-linear development cycle.</p>
+
+                <div class="chain-diagram">
+                    <span class="chain-item">🎯 High Expectations</span>
+                    <span class="chain-arrow">→</span>
+                    <span class="chain-item">🤖 Anthropomorphic Projection</span>
+                    <span class="chain-arrow">→</span>
+                    <span class="chain-item" style="color: #3b82f6;">INQUIRE (128.0%)</span>
+                </div>
+
+                <h3>Cultural Dimension</h3>
+                <p>This gap is widened by cultural differences in how "value" is defined and how commercial approaches are handled:</p>
+                <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
+                    <li><strong>Minimalism vs. Over-achieving</strong> (P13)</li>
+                    <li><strong>Efficiency vs. Sustainability</strong> (P1, P2)</li>
+                    <li><strong>Compliance vs. Business value</strong> (P40)</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Lesson 2.6: The Causal Chain Model Summary -->
+        <div class="lesson">
+            <h2>2.6 The Causal Chain Model</h2>
+
+            <p>These four specificities don't operate in isolation. They create distinct causal loops that explain why traditional IT governance fails in AI projects.</p>
+
+            <div style="margin: 2rem 0;">
+                <div style="background: #fee2e2; padding: 1.5rem; border-radius: 12px; margin-bottom: 1rem;">
+                    <h3 style="color: #991b1b;">Chain A: The Reactive Loop</h3>
+                    <p><strong>Stochastic Uncertainty</strong> → Baseline Erosion → <strong>ACT (170.8%)</strong></p>
+                    <p style="margin-top: 0.5rem;">Managers trapped in continuous manual intervention, replacing strategy with firefighting.</p>
+                </div>
+
+                <div style="background: #fef3c7; padding: 1.5rem; border-radius: 12px; margin-bottom: 1rem;">
+                    <h3 style="color: #92400e;">Chain B: The Re-education Loop</h3>
+                    <p><strong>High Customer Expectations</strong> → Trust Gap → <strong>INQUIRE (128.0%)</strong></p>
+                    <p style="margin-top: 0.5rem;">Constant stakeholder education to recalibrate unrealistic dreams with technical reality.</p>
+                </div>
+
+                <div style="background: #dbeafe; padding: 1.5rem; border-radius: 12px; margin-bottom: 1rem;">
+                    <h3 style="color: #1e40af;">Chain C: The Governance Loop</h3>
+                    <p><strong>Autocatalysis</strong> → Temporal Misalignment → <strong>STANDARDIZE (104.2%)</strong></p>
+                    <p style="margin-top: 0.5rem;">Attempting to decelerate technical velocity through documentation and phased deployment.</p>
+                </div>
+
+                <div style="background: #d1fae5; padding: 1.5rem; border-radius: 12px;">
+                    <h3 style="color: #065f46;">Chain D: The Integration Loop</h3>
+                    <p><strong>Process Disruption</strong> → Cultural Resistance → <strong>ACT (161.2%) + STANDARDIZE (116.4%)</strong></p>
+                    <p style="margin-top: 0.5rem;">Managers as cultural bridges, mediating between diverse mentalities while formalizing workflows.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lesson 2.7: Resilience Buffers -->
+        <div class="lesson">
+            <h2>2.7 Resilience Buffers: The Circuit Breakers</h2>
+
+            <p>The research identified <strong>279 negative cases</strong> where technical triggers did NOT lead to friction. These reveal two critical resilience mechanisms:</p>
+
+            <div style="margin: 1.5rem 0;">
+                <div style="background: #f8fafc; padding: 1.5rem; border-radius: 12px; margin-bottom: 1rem;">
+                    <h3>🛡️ Professional Insulation</h3>
+                    <p>Strong professional IT norms act as a buffer against Process Disruption. By enforcing strict protocols and "ground rules," managers bypass latent cultural resistance.</p>
+                </div>
+
+                <div style="background: #f8fafc; padding: 1.5rem; border-radius: 12px;">
+                    <h3>🏗️ Architectural Simplicity</h3>
+                    <p>Practitioners neutralize Stochastic Uncertainty through strategic architectural choices (e.g., RAG frameworks). This bounds probabilistic variance within a verifiable environment.</p>
+                </div>
+            </div>
+
+            <div class="quote-box">
+                <div class="quote-text">"We need this responsibility of building the model. So we need us... that's our main concern. We need to remove this kind of biases and these kind of issues."</div>
+                <div class="quote-author">— P2, on ethical responsibility</div>
+            </div>
+        </div>
+
+        <!-- Module Navigation -->
+        <div class="nav-buttons">
+            <a href="course-module-1.html" class="btn btn-secondary">← Previous: Module 1</a>
+            <a href="course-module-3.html" class="btn">Next: Module 3 →</a>
+        </div>
+
+        <!-- Key Takeaways -->
+        <div class="takeaways">
+            <h3>📌 Module 2 Key Takeaways</h3>
+            <ul>
+                <li><strong>Stochastic Uncertainty (170.8% ACT link):</strong> Non-deterministic outputs create baseline erosion, requiring constant firefighting</li>
+                <li><strong>Autocatalysis:</strong> Rapid technical velocity creates knowledge asymmetry across multicultural teams</li>
+                <li><strong>Process Disruption (29.8% prevalence):</strong> The most common stressor, triggering both ACT and STANDARDIZE responses</li>
+                <li><strong>High Customer Expectations (128.0% INQUIRE link):</strong> Anthropomorphic projection requires intensive stakeholder education</li>
+                <li><strong>Resilience Buffers:</strong> Professional norms and architectural simplicity can neutralize these triggers</li>
+            </ul>
+        </div>
+
+        <!-- Connect to Assessment -->
+        <div class="assessment-connect">
+            <h3>🔗 Connect to Your Assessment</h3>
+            <p>Your assessment results will show how your organization responds to these four specificities:</p>
+            <ul style="margin: 1rem 0 1rem 1.5rem;">
+                <li><strong>High ACT with low STANDARDIZE</strong> → You're trapped in Chain A (Reactive Loop)</li>
+                <li><strong>High INQUIRE with low STANDARDIZE</strong> → You're in Chain B (Re-education Loop)</li>
+                <li><strong>Balanced scores across all pillars</strong> → You've built resilience buffers (Level 3)</li>
+            </ul>
+            <a href="assessment.html" style="color: #3b82f6; font-weight: 600; display: inline-block; margin-top: 1rem;">→ Take the assessment to see your profile</a>
+        </div>
+
+        <!-- Reflection Exercise -->
+        <div style="background: white; border-radius: 16px; padding: 2rem; border: 1px solid #e2e8f0;">
+            <h3>✍️ Reflection Exercise</h3>
+            <p>Think of an AI project you've worked on or observed:</p>
+            <ol style="margin: 1rem 0 1rem 1.5rem;">
+                <li>Which of the four specificities caused the most friction?</li>
+                <li>Did you see any of the causal chains in action?</li>
+                <li>What resilience mechanisms (if any) were present?</li>
+            </ol>
+            <p style="margin-top: 1rem; color: #64748b;">Take notes—you'll use these insights in Module 6 when building your action plan.</p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>© 2026 ATIS Framework. Based on research with 48 global AI experts.</p>
+        <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #94a3b8;">Expert quotes anonymized (P1-P48) and used with permission.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATIS Framework | AI Project Management & Cross-Cultural Resilience</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        body {
+            background: #f8fafc;
+            color: #0f172a;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Navigation */
+        .navbar {
+            background: white;
+            border-bottom: 1px solid #e2e8f0;
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(255,255,255,0.95);
+            backdrop-filter: blur(10px);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #0b1e33;
+            text-decoration: none;
+        }
+
+        .logo span {
+            color: #3b82f6;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: #475569;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .nav-links a:hover, .nav-links a.active {
+            color: #3b82f6;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #0b1e33 0%, #1e3a5f 100%);
+            color: white;
+            padding: 5rem 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(59,130,246,0.15) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .hero-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-badge {
+            background: rgba(59,130,246,0.2);
+            color: #93c5fd;
+            padding: 0.5rem 1.5rem;
+            border-radius: 50px;
+            display: inline-block;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            border: 1px solid rgba(59,130,246,0.3);
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+            max-width: 800px;
+        }
+
+        .hero h1 span {
+            color: #3b82f6;
+            background: linear-gradient(135deg, #60a5fa, #3b82f6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            max-width: 600px;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+
+        .hero-stats {
+            display: flex;
+            gap: 3rem;
+            margin: 3rem 0;
+        }
+
+        .hero-stat {
+            text-align: center;
+        }
+
+        .hero-stat-number {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #3b82f6;
+        }
+
+        .hero-stat-label {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background: #3b82f6;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #2563eb;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.2);
+        }
+
+        .btn-secondary {
+            background: rgba(255,255,255,0.1);
+            color: white;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255,255,255,0.2);
+            transform: translateY(-2px);
+        }
+
+        .btn-outline {
+            background: transparent;
+            border: 2px solid #3b82f6;
+            color: #3b82f6;
+        }
+
+        .btn-outline:hover {
+            background: #3b82f6;
+            color: white;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        /* Section Headers */
+        .section-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .section-header h2 {
+            font-size: 2.5rem;
+            color: #0b1e33;
+            margin-bottom: 1rem;
+        }
+
+        .section-header p {
+            font-size: 1.1rem;
+            color: #475569;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .section-badge {
+            background: #dbeafe;
+            color: #1e40af;
+            padding: 0.25rem 1rem;
+            border-radius: 50px;
+            display: inline-block;
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Pillar Grid */
+        .pillar-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .pillar-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 16px;
+            border: 1px solid #e2e8f0;
+            transition: transform 0.2s, box-shadow 0.2s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .pillar-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 20px -8px rgba(0,0,0,0.1);
+        }
+
+        .pillar-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+        }
+
+        .pillar-card.act::before { background: #ef4444; }
+        .pillar-card.train::before { background: #f59e0b; }
+        .pillar-card.inquire::before { background: #3b82f6; }
+        .pillar-card.standardize::before { background: #10b981; }
+
+        .pillar-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .pillar-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .pillar-card.act .pillar-title { color: #991b1b; }
+        .pillar-card.train .pillar-title { color: #92400e; }
+        .pillar-card.inquire .pillar-title { color: #1e40af; }
+        .pillar-card.standardize .pillar-title { color: #065f46; }
+
+        .pillar-desc {
+            color: #475569;
+            margin-bottom: 1.5rem;
+        }
+
+        .pillar-stats {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9rem;
+            color: #64748b;
+            border-top: 1px solid #e2e8f0;
+            padding-top: 1rem;
+        }
+
+        /* Problem Statement */
+        .problem-statement {
+            background: white;
+            border-radius: 24px;
+            padding: 3rem;
+            margin: 4rem 0;
+            border: 1px solid #e2e8f0;
+        }
+
+        .problem-statement h3 {
+            font-size: 1.8rem;
+            color: #0b1e33;
+            margin-bottom: 1.5rem;
+        }
+
+        .gap-highlight {
+            background: #fee2e2;
+            color: #991b1b;
+            padding: 2rem;
+            border-radius: 16px;
+            margin: 2rem 0;
+            text-align: center;
+        }
+
+        .gap-number {
+            font-size: 3rem;
+            font-weight: 700;
+        }
+
+        /* Features Grid */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 16px;
+            border: 1px solid #e2e8f0;
+            text-align: center;
+        }
+
+        .feature-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .feature-card h3 {
+            margin-bottom: 1rem;
+            color: #0b1e33;
+        }
+
+        /* CTA Sections */
+        .cta-section {
+            background: linear-gradient(135deg, #f1f5f9 0%, white 100%);
+            border-radius: 24px;
+            padding: 3rem;
+            margin: 4rem 0;
+            text-align: center;
+            border: 1px solid #e2e8f0;
+        }
+
+        .cta-section h2 {
+            font-size: 2rem;
+            color: #0b1e33;
+            margin-bottom: 1rem;
+        }
+
+        .cta-section p {
+            color: #475569;
+            max-width: 600px;
+            margin: 0 auto 2rem;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+        }
+
+        /* Research Quotes */
+        .quotes-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .quote-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 16px;
+            border: 1px solid #e2e8f0;
+            position: relative;
+        }
+
+        .quote-mark {
+            font-size: 4rem;
+            color: #3b82f6;
+            opacity: 0.2;
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+        }
+
+        .quote-text {
+            font-style: italic;
+            margin-bottom: 1rem;
+            color: #1e293b;
+        }
+
+        .quote-author {
+            font-weight: 600;
+            color: #0b1e33;
+        }
+
+        /* Stats Grid */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 16px;
+            text-align: center;
+            border: 1px solid #e2e8f0;
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #3b82f6;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            color: #475569;
+            font-size: 0.95rem;
+        }
+
+        /* Footer */
+        .footer {
+            background: white;
+            border-top: 1px solid #e2e8f0;
+            padding: 4rem 2rem 2rem;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 3rem;
+            margin-bottom: 3rem;
+        }
+
+        .footer-brand p {
+            color: #64748b;
+            margin: 1rem 0;
+        }
+
+        .footer-links h4 {
+            margin-bottom: 1rem;
+            color: #0b1e33;
+        }
+
+        .footer-links ul {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-links a {
+            color: #64748b;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .footer-links a:hover {
+            color: #3b82f6;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid #e2e8f0;
+            color: #94a3b8;
+            font-size: 0.9rem;
+        }
+
+        .footer-bottom a {
+            color: #3b82f6;
+            text-decoration: none;
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .pillar-grid, .features-grid, .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .footer-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.5rem; }
+            .nav-links { display: none; }
+            .pillar-grid, .features-grid, .stats-grid, .quotes-grid {
+                grid-template-columns: 1fr;
+            }
+            .hero-stats {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            .cta-buttons {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">ATIS <span>Framework</span></a>
+            <div class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="assessment.html">Self-Assessment</a>
+                <a href="course.html">Executive Course</a>
+                <a href="about.html">Research</a>
+                <a href="resources.html">Resources</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-badge">⚡ Based on Research with 48 Global AI Experts</div>
+            <h1>Navigate AI Project <span>Uncertainty</span> Across Cultures</h1>
+            <p>The ATIS Framework helps organizations move from reactive firefighting to strategic resilience in global AI projects.</p>
+            
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <div class="hero-stat-number">48</div>
+                    <div class="hero-stat-label">Expert Interviews</div>
+                </div>
+                <div class="hero-stat">
+                    <div class="hero-stat-number">1,392</div>
+                    <div class="hero-stat-label">Analytical Units</div>
+                </div>
+                <div class="hero-stat">
+                    <div class="hero-stat-number">170.8%</div>
+                    <div class="hero-stat-label">Firefighting Gap</div>
+                </div>
+            </div>
+
+            <div class="hero-buttons">
+                <a href="assessment.html" class="btn btn-primary">Take the Assessment →</a>
+                <a href="course.html" class="btn btn-secondary">Explore the Course</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Problem Statement -->
+        <div class="problem-statement">
+            <div class="section-badge">The Challenge</div>
+            <h3>Why AI Projects Fail Differently</h3>
+            <p>Traditional IT project management assumes deterministic outcomes. AI projects are governed by four inherent specificities that create unique friction when combined with cross-cultural teams.</p>
+            
+            <div class="gap-highlight">
+                <div class="gap-number">170.8%</div>
+                <p>Co-occurrence intensity between technical shocks and reactive management intervention</p>
+            </div>
+
+            <div class="quote-card" style="margin: 2rem 0;">
+                <div class="quote-mark">"</div>
+                <div class="quote-text">"Data science is that like a lot of times, we don't know. It's different. We don't know the answers, right?"</div>
+                <div class="quote-author">— P5, Data Scientist</div>
+            </div>
+        </div>
+
+        <!-- The Four Pillars -->
+        <div class="section-header">
+            <div class="section-badge">The Solution</div>
+            <h2>The ATIS Framework</h2>
+            <p>Four pillars of organizational resilience for AI project success</p>
+        </div>
+
+        <div class="pillar-grid">
+            <!-- ACT Pillar -->
+            <div class="pillar-card act">
+                <div class="pillar-icon">⚡</div>
+                <div class="pillar-title">ACT</div>
+                <div class="pillar-desc">Proactive structural intervention to stabilize process disruption through vision, safe spaces, and feedback channels.</div>
+                <div class="pillar-stats">
+                    <span>464 instances</span>
+                    <span>170.8% link</span>
+                </div>
+            </div>
+
+            <!-- TRAIN Pillar -->
+            <div class="pillar-card train">
+                <div class="pillar-icon">📚</div>
+                <div class="pillar-title">TRAIN</div>
+                <div class="pillar-desc">Continuous upgrading of human infrastructure to match AI autocatalysis through formal and informal learning.</div>
+                <div class="pillar-stats">
+                    <span>233 instances</span>
+                    <span>16.7% utilization</span>
+                </div>
+            </div>
+
+            <!-- INQUIRE Pillar -->
+            <div class="pillar-card inquire">
+                <div class="pillar-icon">🔍</div>
+                <div class="pillar-title">INQUIRE</div>
+                <div class="pillar-desc">Resolving information asymmetry and uncertainty through continuous acquisition of cultural and technical knowledge.</div>
+                <div class="pillar-stats">
+                    <span>339 instances</span>
+                    <span>128.0% link</span>
+                </div>
+            </div>
+
+            <!-- STANDARDIZE Pillar -->
+            <div class="pillar-card standardize">
+                <div class="pillar-icon">⚙️</div>
+                <div class="pillar-title">STANDARDIZE</div>
+                <div class="pillar-desc">Managing predictability in non-deterministic paths through frameworks, documentation, and common language.</div>
+                <div class="pillar-stats">
+                    <span>252 instances</span>
+                    <span>2:1 ACT ratio</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Features -->
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">📊</div>
+                <h3>Self-Assessment</h3>
+                <p>40-question diagnostic that calculates your Pillar Saturation Ratio (PSR) and maturity level.</p>
+                <a href="assessment.html" style="color: #3b82f6; text-decoration: none; font-weight: 600;">Start assessment →</a>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📚</div>
+                <h3>Executive Course</h3>
+                <p>6 modules covering the four specificities, pillars, cross-cultural dynamics, and implementation.</p>
+                <a href="course.html" style="color: #3b82f6; text-decoration: none; font-weight: 600;">Start learning →</a>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📋</div>
+                <h3>Action Planning</h3>
+                <p>Customized recommendations and worksheets to implement changes in your organization.</p>
+                <a href="resources.html" style="color: #3b82f6; text-decoration: none; font-weight: 600;">Get resources →</a>
+            </div>
+        </div>
+
+        <!-- Research Stats -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number">48</div>
+                <div class="stat-label">International AI Experts</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">1,392</div>
+                <div class="stat-label">Analytical Units</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">279</div>
+                <div class="stat-label">Negative Cases (Resilience)</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">3</div>
+                <div class="stat-label">Interview Rounds (2023-2025)</div>
+            </div>
+        </div>
+
+        <!-- Expert Quotes -->
+        <div class="section-header">
+            <h2>From the Research</h2>
+            <p>Insights from 48 global AI practitioners</p>
+        </div>
+
+        <div class="quotes-grid">
+            <div class="quote-card">
+                <div class="quote-mark">"</div>
+                <div class="quote-text">"Every day there's something new. Every day there's a new discovery. Everything just happening so quickly that a lot of times we just feel like constant change."</div>
+                <div class="quote-author">— P9, Engineering Lead</div>
+            </div>
+            <div class="quote-card">
+                <div class="quote-mark">"</div>
+                <div class="quote-text">"When hiring... if it's Kenya, we get Kenyan, so that they actually have that intimate understanding of these different companies."</div>
+                <div class="quote-author">— P33</div>
+            </div>
+            <div class="quote-card">
+                <div class="quote-mark">"</div>
+                <div class="quote-text">"The customer is like the enemy because maybe he has a lot of ideas that are in the cloud... We need to put all the things on the floor."</div>
+                <div class="quote-author">— P7</div>
+            </div>
+            <div class="quote-card">
+                <div class="quote-mark">"</div>
+                <div class="quote-text">"We need this responsibility of building the model. We need to remove this kind of biases."</div>
+                <div class="quote-author">— P2, on ethics</div>
+            </div>
+        </div>
+
+        <!-- Maturity Levels Preview -->
+        <div class="cta-section">
+            <h2>What's Your Organization's Maturity Level?</h2>
+            <p>Take the 40-question assessment to discover your PSR profile and get customized recommendations.</p>
+            
+            <div style="display: flex; justify-content: center; gap: 2rem; margin: 2rem 0;">
+                <div style="text-align: left;">
+                    <div style="display: flex; align-items: center; gap: 0.5rem; margin: 0.5rem 0;">
+                        <span style="color: #ef4444;">⬤</span> <strong>Level 1:</strong> Reactive (Act-Centric)
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 0.5rem; margin: 0.5rem 0;">
+                        <span style="color: #f59e0b;">⬤</span> <strong>Level 2:</strong> Mediated (Inquiry-Balanced)
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 0.5rem; margin: 0.5rem 0;">
+                        <span style="color: #10b981;">⬤</span> <strong>Level 3:</strong> Strategic (Standardized-Resilient)
+                    </div>
+                </div>
+            </div>
+
+            <div class="cta-buttons">
+                <a href="assessment.html" class="btn btn-primary">Take the Assessment</a>
+                <a href="course-module-5.html" class="btn btn-outline">Learn About Maturity Levels</a>
+            </div>
+        </div>
+
+        <!-- Newsletter/Contact CTA -->
+        <div style="background: white; border-radius: 16px; padding: 2rem; text-align: center; border: 1px solid #e2e8f0;">
+            <h3>Stay Updated</h3>
+            <p>Get the latest research and case studies on AI project management.</p>
+            <div style="display: flex; max-width: 500px; margin: 1.5rem auto;">
+                <input type="email" placeholder="Your email" style="flex: 1; padding: 0.75rem; border: 1px solid #e2e8f0; border-radius: 8px 0 0 8px; font-family: inherit;">
+                <button style="background: #3b82f6; color: white; border: none; padding: 0.75rem 1.5rem; border-radius: 0 8px 8px 0; font-weight: 600; cursor: pointer;">Subscribe</button>
+            </div>
+            <p style="font-size: 0.9rem; color: #64748b;">*All expert quotes anonymized (P1-P48) and used with permission.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">ATIS <span>Framework</span></div>
+                    <p>Moving organizations from reactive firefighting to strategic resilience in global AI projects.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="assessment.html">Self-Assessment</a></li>
+                        <li><a href="course.html">Executive Course</a></li>
+                        <li><a href="about.html">Research</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="resources.html">Downloads</a></li>
+                        <li><a href="resources.html#checklist">ATIS Checklist</a></li>
+                        <li><a href="resources.html#case-studies">Case Studies</a></li>
+                        <li><a href="about.html#publications">Publications</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="mailto:contact@atisframework.com">Email</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 ATIS Framework. Based on peer-reviewed research with 48 global AI experts.</p>
+                <p style="margin-top: 0.5rem;">Rennes School of Business • UpGrad • <a href="#">Privacy Policy</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
