@@ -712,13 +712,13 @@
             <a href="#certificate" class="btn btn-success" onclick="showCertificate()">🎓 Complete Course</a>
         </div>
 
-        <!-- Certificate of Completion -->
+        <!-- Certificate of Completion - Updated Section -->
         <div id="certificate" style="display: none;">
             <div class="certificate">
                 <div class="certificate-badge">🏆</div>
                 <h2>Certificate of Completion</h2>
                 <p style="font-size: 1.2rem; margin: 1rem 0;">This certifies that</p>
-                <input type="text" placeholder="Your Name" style="font-size: 1.5rem; text-align: center; border: none; border-bottom: 2px solid #3b82f6; padding: 0.5rem; width: 60%; margin: 1rem auto; display: block;">
+                <input type="text" id="certificateName" placeholder="Your Name" style="font-size: 1.5rem; text-align: center; border: none; border-bottom: 2px solid #3b82f6; padding: 0.5rem; width: 60%; margin: 1rem auto; display: block;">
                 <p style="margin: 1rem 0;">has successfully completed the</p>
                 <h3 style="color: #0b1e33; font-size: 1.5rem;">ATIS Framework Executive Course</h3>
                 <p style="margin: 1rem 0;">6 Modules • 48 Expert Insights • 1,392 Analytical Units</p>
@@ -824,13 +824,74 @@
             window.scrollTo({ top: document.getElementById('certificate').offsetTop, behavior: 'smooth' });
         }
 
-        // Download certificate (placeholder - would generate PDF in production)
+        // Updated certificate download function
         function downloadCertificate() {
-            const name = prompt('Enter your name for the certificate:');
-            if (name) {
-                alert('Certificate download started! (In production, this would generate a PDF)');
-                // In a real implementation, you would generate a PDF here
-            }
+            const name = document.getElementById('certificateName').value || '__________________';
+            const date = document.getElementById('completionDate').textContent;
+            
+            // Create certificate HTML content
+            const certificateHTML = `
+                <!DOCTYPE html>
+                <html>
+                <head>
+                    <title>ATIS Certificate of Completion</title>
+                    <style>
+                        body {
+                            font-family: 'Inter', Arial, sans-serif;
+                            background: white;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            min-height: 100vh;
+                            margin: 0;
+                            padding: 20px;
+                        }
+                        .certificate {
+                            max-width: 800px;
+                            padding: 50px;
+                            border: 20px solid #3b82f6;
+                            border-radius: 20px;
+                            text-align: center;
+                            background: #f8fafc;
+                        }
+                        h1 { color: #0b1e33; font-size: 2.5rem; margin-bottom: 20px; }
+                        .badge { font-size: 4rem; margin: 20px; }
+                        .name { 
+                            font-size: 2rem; 
+                            font-weight: 700; 
+                            color: #3b82f6;
+                            border-bottom: 2px solid #3b82f6;
+                            display: inline-block;
+                            padding: 0 20px 10px;
+                            margin: 20px;
+                        }
+                        .date { color: #64748b; margin-top: 30px; }
+                        .footer { margin-top: 40px; font-size: 0.9rem; color: #94a3b8; }
+                    </style>
+                </head>
+                <body>
+                    <div class="certificate">
+                        <div class="badge">🏆</div>
+                        <h1>Certificate of Completion</h1>
+                        <p style="font-size: 1.2rem;">This certifies that</p>
+                        <div class="name">${name}</div>
+                        <p style="font-size: 1.2rem; margin: 20px;">has successfully completed the</p>
+                        <h2 style="color: #0b1e33; font-size: 2rem;">ATIS Framework Executive Course</h2>
+                        <p style="margin: 20px;">6 Modules • 48 Expert Insights • 1,392 Analytical Units</p>
+                        <div class="date">Completed on: ${date}</div>
+                        <div class="footer">www.atisframework.com</div>
+                    </div>
+                </body>
+                </html>
+            `;
+
+            const blob = new Blob([certificateHTML], { type: 'text/html' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `atis-certificate-${name.replace(/\s+/g, '-')}.html`;
+            a.click();
+            window.URL.revokeObjectURL(url);
         }
     </script>
 </body>

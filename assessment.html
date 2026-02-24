@@ -18,7 +18,6 @@
             line-height: 1.6;
         }
 
-        /* Navigation */
         .navbar {
             background: white;
             border-bottom: 1px solid #e2e8f0;
@@ -64,7 +63,6 @@
             color: #3b82f6;
         }
 
-        /* Header */
         .assessment-header {
             background: linear-gradient(135deg, #0b1e33 0%, #1e3a5f 100%);
             color: white;
@@ -93,14 +91,12 @@
             margin-bottom: 1.5rem;
         }
 
-        /* Container */
         .container {
             max-width: 900px;
             margin: 2rem auto;
             padding: 0 2rem;
         }
 
-        /* Progress Bar */
         .progress-container {
             background: white;
             border-radius: 16px;
@@ -133,7 +129,6 @@
             transition: width 0.3s;
         }
 
-        /* Sections */
         .section {
             background: white;
             border-radius: 16px;
@@ -163,7 +158,6 @@
             font-size: 0.9rem;
         }
 
-        /* Questions */
         .question {
             margin-bottom: 1.5rem;
             padding: 1.5rem;
@@ -221,7 +215,6 @@
             color: #475569;
         }
 
-        /* Results Panel */
         .results-panel {
             background: white;
             border-radius: 24px;
@@ -258,7 +251,6 @@
         .maturity-badge.level2 { background: #fef3c7; color: #92400e; }
         .maturity-badge.level3 { background: #d1fae5; color: #065f46; }
 
-        /* PSR Cards */
         .psr-grid {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
@@ -301,7 +293,6 @@
             font-size: 0.9rem;
         }
 
-        /* Radar Chart */
         .radar-container {
             background: #f8fafc;
             border-radius: 16px;
@@ -315,7 +306,6 @@
             margin: 0 auto;
         }
 
-        /* Recommendations */
         .recommendations {
             background: #f0f9ff;
             border-radius: 16px;
@@ -346,7 +336,6 @@
             font-weight: 600;
         }
 
-        /* Buttons */
         .btn {
             background: #3b82f6;
             color: white;
@@ -387,7 +376,6 @@
             margin: 2rem 0;
         }
 
-        /* Footer */
         .footer {
             text-align: center;
             padding: 2rem;
@@ -396,7 +384,6 @@
             margin-top: 3rem;
         }
 
-        /* Responsive */
         @media (max-width: 768px) {
             .psr-grid {
                 grid-template-columns: repeat(2, 1fr);
@@ -750,12 +737,12 @@
                 </div>
             </div>
 
-            <!-- Operational Level (4 questions) -->
+            <!-- Operational Level (8 questions - FIXED: Now 8 questions instead of 4) -->
             <div class="section">
                 <h2>Level 3: Operational Readiness</h2>
                 <div class="section-stats">
-                    <span>📋 4 questions</span>
-                    <span>⚡ ACT: 2 | 🔍 INQUIRE: 1 | ⚙️ STANDARDIZE: 1</span>
+                    <span>📋 8 questions</span>
+                    <span>⚡ ACT: 3 | 🔍 INQUIRE: 3 | ⚙️ STANDARDIZE: 2</span>
                 </div>
                 <div class="section-desc">How Business Translators and Engineers execute in cross-cultural contexts.</div>
 
@@ -806,14 +793,62 @@
                         <label class="option"><input type="radio" name="q3.4" value="no"> No</label>
                     </div>
                 </div>
+
+                <!-- Q3.5 - ADDED -->
+                <div class="question" data-pillar="I">
+                    <div class="question-header">
+                        <span class="question-text">3.5 Does the team practice "knowledge before action" by acquiring domain knowledge before building?</span>
+                        <span class="pillar-tag inquire">INQUIRE</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q3.5" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q3.5" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Q3.6 - ADDED -->
+                <div class="question" data-pillar="S">
+                    <div class="question-header">
+                        <span class="question-text">3.6 Are technical roles standardized with clear partitioning between business translation and engineering?</span>
+                        <span class="pillar-tag standardize">STANDARDIZE</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q3.6" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q3.6" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Q3.7 - ADDED -->
+                <div class="question" data-pillar="I">
+                    <div class="question-header">
+                        <span class="question-text">3.7 Does the team inquire into domain-specific expertise (regulatory, industry jargon) before development?</span>
+                        <span class="pillar-tag inquire">INQUIRE</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q3.7" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q3.7" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Q3.8 - ADDED -->
+                <div class="question" data-pillar="A">
+                    <div class="question-header">
+                        <span class="question-text">3.8 Does the team engage in non-work-related interactions to build trust across cultures?</span>
+                        <span class="pillar-tag act">ACT</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q3.8" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q3.8" value="no"> No</label>
+                    </div>
+                </div>
             </div>
 
-            <!-- Personal/Team Level (4 questions) -->
+            <!-- Personal/Team Level (8 questions - FIXED: Now 8 questions instead of 4) -->
             <div class="section">
                 <h2>Level 4: Personal & Team Readiness</h2>
                 <div class="section-stats">
-                    <span>📋 4 questions</span>
-                    <span>📚 TRAIN: 3 | 🔍 INQUIRE: 1</span>
+                    <span>📋 8 questions</span>
+                    <span>📚 TRAIN: 5 | 🔍 INQUIRE: 3</span>
                 </div>
                 <div class="section-desc">Individual capabilities for cognitive agility and cultural adaptation.</div>
 
@@ -864,70 +899,108 @@
                         <label class="option"><input type="radio" name="q4.4" value="no"> No</label>
                     </div>
                 </div>
+
+                <!-- Q4.5 - ADDED -->
+                <div class="question" data-pillar="I">
+                    <div class="question-header">
+                        <span class="question-text">4.5 Do team members practice "overcommunication" to ensure clarity across cultures?</span>
+                        <span class="pillar-tag inquire">INQUIRE</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q4.5" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q4.5" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Q4.6 - ADDED -->
+                <div class="question" data-pillar="T">
+                    <div class="question-header">
+                        <span class="question-text">4.6 Does the team actively seek to understand intent before offering critique?</span>
+                        <span class="pillar-tag train">TRAIN</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q4.6" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q4.6" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Q4.7 - ADDED -->
+                <div class="question" data-pillar="T">
+                    <div class="question-header">
+                        <span class="question-text">4.7 Have team members developed "subconscious adaptation" through international networks?</span>
+                        <span class="pillar-tag train">TRAIN</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q4.7" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q4.7" value="no"> No</label>
+                    </div>
+                </div>
+
+                <!-- Q4.8 - ADDED -->
+                <div class="question" data-pillar="I">
+                    <div class="question-header">
+                        <span class="question-text">4.8 Does the team use social media and local news to understand teammates' cultural contexts?</span>
+                        <span class="pillar-tag inquire">INQUIRE</span>
+                    </div>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q4.8" value="yes"> Yes</label>
+                        <label class="option"><input type="radio" name="q4.8" value="no"> No</label>
+                    </div>
+                </div>
             </div>
 
             <!-- Submit Button -->
             <button type="button" class="btn btn-large" onclick="calculateResults()">📊 Generate My Maturity Report</button>
         </form>
 
-        <!-- Results Panel -->
+        <!-- Results Panel (same as before, with updated download function) -->
         <div class="results-panel" id="resultsPanel">
             <div class="results-header">
                 <h2>Your ATIS Maturity Report</h2>
                 <div class="maturity-badge" id="maturityBadge">Level 1: Reactive</div>
             </div>
 
-            <!-- PSR Grid -->
             <div class="psr-grid">
                 <div class="psr-card">
                     <div class="psr-label act">ACT</div>
                     <div class="psr-value act" id="actPsr">0%</div>
-                    <div class="psr-count" id="actCount">0/13</div>
+                    <div class="psr-count" id="actCount">0/11</div>
                 </div>
                 <div class="psr-card">
                     <div class="psr-label train">TRAIN</div>
                     <div class="psr-value train" id="trainPsr">0%</div>
-                    <div class="psr-count" id="trainCount">0/8</div>
+                    <div class="psr-count" id="trainCount">0/10</div>
                 </div>
                 <div class="psr-card">
                     <div class="psr-label inquire">INQUIRE</div>
                     <div class="psr-value inquire" id="inquirePsr">0%</div>
-                    <div class="psr-count" id="inquireCount">0/8</div>
+                    <div class="psr-count" id="inquireCount">0/11</div>
                 </div>
                 <div class="psr-card">
                     <div class="psr-label standardize">STANDARDIZE</div>
                     <div class="psr-value standardize" id="standardizePsr">0%</div>
-                    <div class="psr-count" id="standardizeCount">0/11</div>
+                    <div class="psr-count" id="standardizeCount">0/8</div>
                 </div>
             </div>
 
-            <!-- Radar Chart -->
             <div class="radar-container">
                 <canvas id="radarChart" width="400" height="400"></canvas>
             </div>
 
-            <!-- Maturity Description -->
-            <div id="levelDescription" style="background: #f8fafc; padding: 1.5rem; border-radius: 12px; margin: 1.5rem 0;">
-                <!-- Dynamically filled -->
-            </div>
+            <div id="levelDescription" style="background: #f8fafc; padding: 1.5rem; border-radius: 12px; margin: 1.5rem 0;"></div>
 
-            <!-- Recommendations -->
             <div class="recommendations" id="recommendations">
                 <h3>🎯 Your Priority Actions</h3>
-                <ul class="recommendations-list" id="recommendationsList">
-                    <!-- Dynamically filled -->
-                </ul>
+                <ul class="recommendations-list" id="recommendationsList"></ul>
             </div>
 
-            <!-- Next Steps -->
             <div class="button-group">
                 <a href="course-module-6.html" class="btn" style="flex: 1;">📚 Go to Action Planning (Module 6)</a>
-                <button class="btn btn-secondary" onclick="saveResults()" style="flex: 0 0 auto;">💾 Save Results</button>
+                <button class="btn btn-secondary" onclick="downloadResults()" style="flex: 0 0 auto;">📥 Download Results</button>
             </div>
             <button class="btn btn-secondary" onclick="resetAssessment()" style="width: 100%; margin-top: 1rem;">⟲ Start New Assessment</button>
         </div>
 
-        <!-- Footnote -->
         <p style="text-align: center; margin: 2rem 0; color: #64748b; font-size: 0.9rem;">
             Based on research with 48 global AI experts • 1,392 analytical units • 279 negative cases
         </p>
@@ -939,30 +1012,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script>
-        // Pillar question counts (from the research)
-        const PILLAR_TOTALS = {
-            A: 13,  // ACT: 4+4+2+0+3? Let's calculate properly
-            T: 8,   // TRAIN: 2+3+0+3 = 8
-            I: 8,   // INQUIRE: 0+5+1+1 = 7? Wait, let's verify
-            S: 11   // STANDARDIZE: 3+3+1+0 = 7? This needs exact count
-        };
-
-        // Let's calculate exactly from the questions above
-        function calculatePillarTotals() {
-            let totals = { A: 0, T: 0, I: 0, S: 0 };
-            
-            // Count all questions by pillar
-            document.querySelectorAll('.question').forEach(q => {
-                const pillar = q.dataset.pillar;
-                if (pillar) totals[pillar]++;
-            });
-            
-            return totals;
-        }
-
-        const PILLAR_TOTALS_EXACT = calculatePillarTotals();
-        console.log('Pillar totals:', PILLAR_TOTALS_EXACT);
-
         // Update progress
         function updateProgress() {
             const total = 40;
@@ -1002,8 +1051,9 @@
             });
 
             if (!allAnswered) {
-                alert('Please answer all 40 questions before generating your report. Unanswered questions will be marked as "No" by default. Continue?');
-                // Auto-mark unanswered as "No" - we could implement this
+                if (!confirm('Not all questions are answered. Unanswered questions will be counted as "No". Continue?')) {
+                    return;
+                }
             }
 
             // Calculate pillar scores
@@ -1061,14 +1111,13 @@
                 level = 3;
                 levelText = 'Level 3: Strategic (Standardized-Resilient)';
                 badgeClass = 'level3';
-                levelDesc = 'Congratulations! You\'ve achieved "Professional Insulation." Your organization has balanced all four pillars, creating systemic circuit breakers that neutralize technical and cultural friction at the point of origin. You\'re no longer dependent on individual heroes.';
+                levelDesc = 'Congratulations! You\'ve achieved "Professional Insulation." Your organization has balanced all four pillars, creating systemic circuit breakers that neutralize technical and cultural friction at the point of origin.';
             } else if (standardizePsr > 70 && trainPsr > 70) {
                 level = 3;
                 levelText = 'Level 3: Strategic (Standardized-Resilient)';
                 badgeClass = 'level3';
                 levelDesc = 'Congratulations! Your strong standardization and training practices have created organizational resilience. Continue building on this foundation.';
             } else {
-                // Mixed profile - determine closest level
                 level = 1;
                 levelText = 'Level 1: Reactive (Developing)';
                 badgeClass = 'level1';
@@ -1088,38 +1137,22 @@
             const recommendations = document.getElementById('recommendationsList');
             recommendations.innerHTML = '';
 
-            if (actPsr < 50) {
-                recommendations.innerHTML += '<li><strong>Increase ACT:</strong> Hire cultural bridges, create safe spaces for communication, establish clear vision and escalation protocols.</li>';
-            }
-            if (trainPsr < 50) {
-                recommendations.innerHTML += '<li><strong>Address the Skilling Void:</strong> Implement continuous cross-cultural training, assess team weak areas, encourage international exposure.</li>';
-            }
-            if (inquirePsr < 50) {
-                recommendations.innerHTML += '<li><strong>Strengthen INQUIRE:</strong> Front-load stakeholder alignment, conduct one-on-one sessions, understand client "dream vs. reality" before building.</li>';
-            }
-            if (standardizePsr < 50) {
-                recommendations.innerHTML += '<li><strong>Enhance STANDARDIZE:</strong> Document quick fixes, adopt frameworks (Agile/CPMAI/ITIL), create communication templates, define clear metrics.</li>';
-            }
+            if (actPsr < 50) recommendations.innerHTML += '<li><strong>Increase ACT:</strong> Hire cultural bridges, create safe spaces for communication, establish clear vision and escalation protocols.</li>';
+            if (trainPsr < 50) recommendations.innerHTML += '<li><strong>Address the Skilling Void:</strong> Implement continuous cross-cultural training, assess team weak areas, encourage international exposure.</li>';
+            if (inquirePsr < 50) recommendations.innerHTML += '<li><strong>Strengthen INQUIRE:</strong> Front-load stakeholder alignment, conduct one-on-one sessions, understand client "dream vs. reality" before building.</li>';
+            if (standardizePsr < 50) recommendations.innerHTML += '<li><strong>Enhance STANDARDIZE:</strong> Document quick fixes, adopt frameworks (Agile/CPMAI/ITIL), create communication templates, define clear metrics.</li>';
 
-            // Level-specific recommendations
             if (level === 1) {
-                recommendations.innerHTML += '<li><strong>Priority:</strong> Institutionalize quick fixes. For every manual intervention, document it as a standard procedure. Aim to reduce your ACT:STANDARDIZE ratio from 2:1 to 1:1.</li>';
-                recommendations.innerHTML += '<li><strong>Start training:</strong> Even informal peer briefings can begin filling the Skilling Void.</li>';
+                recommendations.innerHTML += '<li><strong>Priority:</strong> Institutionalize quick fixes. For every manual intervention, document it as a standard procedure.</li>';
             } else if (level === 2) {
-                recommendations.innerHTML += '<li><strong>Priority:</strong> Move from reactive to proactive inquiry. Conduct pre-emptive alignment sessions during design phase, not after problems arise.</li>';
-                recommendations.innerHTML += '<li><strong>Build standardization:</strong> Create templates, documentation, and metrics to formalize your good inquiry practices.</li>';
+                recommendations.innerHTML += '<li><strong>Priority:</strong> Move from reactive to proactive inquiry. Conduct pre-emptive alignment sessions during design phase.</li>';
             } else if (level === 3) {
-                recommendations.innerHTML += '<li><strong>Maintain excellence:</strong> Continue auditing your PSR regularly. Consider publishing case studies to establish thought leadership.</li>';
-                recommendations.innerHTML += '<li><strong>Explore advanced resilience:</strong> RAG-based architectural simplicity, advanced explainability techniques.</li>';
+                recommendations.innerHTML += '<li><strong>Maintain excellence:</strong> Continue auditing your PSR regularly. Consider publishing case studies.</li>';
             }
 
-            // Add link to Module 6
             recommendations.innerHTML += '<li style="margin-top: 1rem;"><a href="course-module-6.html" style="color: #3b82f6;">→ Go to Module 6 for detailed action planning</a></li>';
 
-            // Create radar chart
             createRadarChart(actPsr, trainPsr, inquirePsr, standardizePsr);
-
-            // Show results
             document.getElementById('resultsPanel').classList.add('visible');
             window.scrollTo({ top: document.getElementById('resultsPanel').offsetTop - 100, behavior: 'smooth' });
         }
@@ -1127,12 +1160,7 @@
         // Radar chart
         function createRadarChart(act, train, inquire, standardize) {
             const ctx = document.getElementById('radarChart').getContext('2d');
-            
-            // Clear previous chart if exists
-            if (window.radarChart instanceof Chart) {
-                window.radarChart.destroy();
-            }
-
+            if (window.radarChart instanceof Chart) window.radarChart.destroy();
             window.radarChart = new Chart(ctx, {
                 type: 'radar',
                 data: {
@@ -1143,59 +1171,48 @@
                         backgroundColor: 'rgba(59, 130, 246, 0.2)',
                         borderColor: '#3b82f6',
                         pointBackgroundColor: '#3b82f6',
-                        pointBorderColor: '#fff',
-                        pointHoverBackgroundColor: '#fff',
-                        pointHoverBorderColor: '#3b82f6',
                         borderWidth: 3
                     }]
                 },
                 options: {
-                    scales: {
-                        r: {
-                            beginAtZero: true,
-                            max: 100,
-                            ticks: {
-                                stepSize: 20,
-                                callback: function(value) {
-                                    return value + '%';
-                                }
-                            }
-                        }
-                    },
-                    plugins: {
-                        legend: {
-                            display: false
-                        },
-                        tooltip: {
-                            callbacks: {
-                                label: function(context) {
-                                    return context.raw + '%';
-                                }
-                            }
-                        }
-                    }
+                    scales: { r: { beginAtZero: true, max: 100, ticks: { stepSize: 20 } } },
+                    plugins: { legend: { display: false } }
                 }
             });
         }
 
-        // Save results to localStorage
-        function saveResults() {
-            const results = {
-                act: document.getElementById('actPsr').textContent,
-                train: document.getElementById('trainPsr').textContent,
-                inquire: document.getElementById('inquirePsr').textContent,
-                standardize: document.getElementById('standardizePsr').textContent,
-                level: document.getElementById('maturityBadge').textContent,
-                date: new Date().toISOString()
-            };
-            
-            localStorage.setItem('atisResults', JSON.stringify(results));
-            alert('Results saved! You can access them in Module 6.');
+        // Download results as PDF-style text file
+        function downloadResults() {
+            const act = document.getElementById('actPsr').textContent;
+            const train = document.getElementById('trainPsr').textContent;
+            const inquire = document.getElementById('inquirePsr').textContent;
+            const standardize = document.getElementById('standardizePsr').textContent;
+            const level = document.getElementById('maturityBadge').textContent;
+            const date = new Date().toLocaleDateString();
+
+            let content = 'ATIS FRAMEWORK ASSESSMENT RESULTS\n';
+            content += '================================\n\n';
+            content += `Date: ${date}\n`;
+            content += `Maturity Level: ${level}\n\n`;
+            content += 'PILLAR SATURATION RATIOS (PSR):\n';
+            content += `ACT: ${act}\n`;
+            content += `TRAIN: ${train}\n`;
+            content += `INQUIRE: ${inquire}\n`;
+            content += `STANDARDIZE: ${standardize}\n\n`;
+            content += 'Based on the 40-question ATIS diagnostic.\n';
+            content += 'www.atisframework.com\n';
+
+            const blob = new Blob([content], { type: 'text/plain' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `atis-results-${date.replace(/\//g, '-')}.txt`;
+            a.click();
+            window.URL.revokeObjectURL(url);
         }
 
-        // Reset assessment
         function resetAssessment() {
-            if (confirm('This will clear all your answers. Continue?')) {
+            if (confirm('Clear all answers?')) {
                 document.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
                 document.getElementById('resultsPanel').classList.remove('visible');
                 document.getElementById('progressBar').style.width = '0%';
@@ -1203,11 +1220,7 @@
             }
         }
 
-        // Load saved progress if any
-        window.onload = function() {
-            // Could implement loading from localStorage
-            updateProgress();
-        };
+        window.onload = updateProgress;
     </script>
 </body>
 </html>

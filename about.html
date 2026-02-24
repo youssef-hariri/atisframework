@@ -274,58 +274,58 @@
             border: 1px solid #e2e8f0;
         }
 
+        .publications-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
         .publication-card {
             background: #f8fafc;
             border-radius: 16px;
-            padding: 2rem;
-            margin: 1.5rem 0;
+            padding: 1.5rem;
             border: 1px solid #e2e8f0;
+            transition: transform 0.2s;
+        }
+
+        .publication-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 12px -4px rgba(0,0,0,0.1);
         }
 
         .publication-title {
-            font-size: 1.3rem;
+            font-size: 1.1rem;
             font-weight: 700;
             color: #0b1e33;
             margin-bottom: 0.5rem;
+            line-height: 1.4;
         }
 
-        .publication-authors {
-            color: #475569;
-            margin-bottom: 0.5rem;
-        }
-
-        .publication-journal {
-            color: #3b82f6;
-            font-weight: 600;
+        .publication-meta {
+            font-size: 0.9rem;
+            color: #64748b;
             margin-bottom: 1rem;
         }
 
-        .publication-abstract {
-            color: #334155;
-            margin: 1rem 0;
-            padding: 1rem;
-            background: white;
-            border-radius: 8px;
+        .publication-description {
+            font-size: 0.9rem;
+            color: #475569;
+            margin-bottom: 1.5rem;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
         }
 
-        .quote-box {
-            background: #f0f9ff;
-            border-left: 4px solid #3b82f6;
-            padding: 1.5rem;
-            border-radius: 8px;
-            margin: 1.5rem 0;
-        }
-
-        .quote-text {
-            font-style: italic;
-            font-size: 1.1rem;
-            margin-bottom: 0.5rem;
-            color: #1e293b;
-        }
-
-        .quote-author {
-            font-weight: 600;
-            color: #0b1e33;
+        .doi-badge {
+            display: inline-block;
+            background: #e2e8f0;
+            padding: 0.25rem 0.75rem;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            color: #475569;
+            margin-bottom: 1rem;
         }
 
         .btn {
@@ -349,11 +349,37 @@
             background: transparent;
             border: 2px solid #3b82f6;
             color: #3b82f6;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            display: inline-block;
+            transition: all 0.2s;
         }
 
         .btn-outline:hover {
             background: #3b82f6;
             color: white;
+        }
+
+        .quote-box {
+            background: #f0f9ff;
+            border-left: 4px solid #3b82f6;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+        }
+
+        .quote-text {
+            font-style: italic;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            color: #1e293b;
+        }
+
+        .quote-author {
+            font-weight: 600;
+            color: #0b1e33;
         }
 
         .footer {
@@ -365,7 +391,7 @@
         }
 
         @media (max-width: 768px) {
-            .methodology-grid, .stats-grid, .expert-grid {
+            .methodology-grid, .stats-grid, .expert-grid, .publications-grid {
                 grid-template-columns: 1fr;
             }
             .timeline::before {
@@ -550,6 +576,51 @@
             </div>
         </div>
 
+        <!-- NEW: Related Publications Section -->
+        <div class="section">
+            <h2>📚 Related Publications</h2>
+            <p>Explore additional research on AI, creativity, and cross-cultural dynamics:</p>
+
+            <div class="publications-grid">
+                <!-- Paper 1: LLM-Creativity -->
+                <div class="publication-card">
+                    <div class="publication-title">LLM-Creativity: Measuring and Explaining Creativity in Large Language Models</div>
+                    <div class="publication-meta">October 2025 • Mixed-Methods • N=6,375</div>
+                    <div class="publication-description">
+                        Investigates how theory-driven cultural persona prompts affect creative output in business problem-solving. Reveals criterion-dependent effectiveness and the trade-off between novelty and feasibility.
+                    </div>
+                    <div class="doi-badge">DOI: 10.5281/zenodo.17407392</div>
+                    <a href="https://doi.org/10.5281/zenodo.17407392" class="btn-outline" target="_blank" rel="noopener noreferrer">View on Zenodo →</a>
+                </div>
+
+                <!-- Paper 2: LLM Team Composition Paradox -->
+                <div class="publication-card">
+                    <div class="publication-title">The LLM Team Composition Paradox: Why the Right Team Isn't Always Diverse</div>
+                    <div class="publication-meta">October 2025 • ARC-AGI Benchmark • OODA-Belbin Framework</div>
+                    <div class="publication-description">
+                        Challenges the assumption that architectural complexity guarantees superior performance. Introduces a contingency model showing when single agents, homogeneous teams, or diverse teams perform best.
+                    </div>
+                    <div class="doi-badge">DOI: 10.5281/zenodo.17490945</div>
+                    <a href="https://doi.org/10.5281/zenodo.17490945" class="btn-outline" target="_blank" rel="noopener noreferrer">View on Zenodo →</a>
+                </div>
+
+                <!-- Paper 3: ATIS Framework (Current) -->
+                <div class="publication-card" style="border-left: 4px solid #3b82f6;">
+                    <div class="publication-title">ATIS Framework: AI Project Management in Cross-Cultural Contexts</div>
+                    <div class="publication-meta">February 2026 • 48 Experts • 1,392 Units</div>
+                    <div class="publication-description">
+                        The current research—introducing the ATIS Framework, Causal Chain Model, and Maturity Model for managing AI project friction across cultures.
+                    </div>
+                    <div class="doi-badge">DOI: 10.5281/zenodo.17425216</div>
+                    <a href="https://doi.org/10.5281/zenodo.17425216" class="btn-outline" target="_blank" rel="noopener noreferrer">View on Zenodo →</a>
+                </div>
+            </div>
+
+            <p style="margin-top: 1.5rem; font-size: 0.95rem; color: #475569;">
+                <strong>Research theme:</strong> These three papers form a cohesive body of work on AI, culture, and human-AI collaboration—from understanding cultural prompts in LLMs, to optimizing AI team composition, to managing cross-cultural AI projects.
+            </p>
+        </div>
+
         <!-- Recruitment Channels -->
         <div class="section">
             <h2>📡 Recruitment Channels</h2>
@@ -575,31 +646,6 @@
                     <div class="stat-number">8%</div>
                     <div class="stat-label">Conversion Rate</div>
                 </div>
-            </div>
-        </div>
-
-        <!-- Key Publications -->
-        <div class="section">
-            <h2>📄 Key Publications</h2>
-            
-            <div class="publication-card">
-                <div class="publication-title">The Friction of AI Specificities in Cross-Cultural Projects</div>
-                <div class="publication-authors">Hariri, Y.</div>
-                <div class="publication-journal">Journal of AI Project Management, 2026</div>
-                <div class="publication-abstract">
-                    <strong>Abstract:</strong> This paper presents the ATIS Framework and Causal Chain Model based on 48 expert interviews. Identifies four AI specificities (stochastic uncertainty, autocatalysis, process disruption, high expectations) and their 170.8% co-occurrence with reactive management.
-                </div>
-                <a href="#" class="btn-outline" style="padding: 0.5rem 1rem; font-size: 0.9rem;">View Publication →</a>
-            </div>
-
-            <div class="publication-card">
-                <div class="publication-title">The "Slang Hunter": A Hybrid Computational-Qualitative Methodology</div>
-                <div class="publication-authors">Hariri, Y.</div>
-                <div class="publication-journal">Qualitative Research Methods, 2026</div>
-                <div class="publication-abstract">
-                    <strong>Abstract:</strong> Details the six-phase hybrid methodology using LLMs for latent semantic alignment, Python-based clustering, and analysis of 279 negative cases as resilience buffers.
-                </div>
-                <a href="#" class="btn-outline" style="padding: 0.5rem 1rem; font-size: 0.9rem;">View Publication →</a>
             </div>
         </div>
 
@@ -657,7 +703,7 @@
 
         <!-- Academic Affiliations -->
         <div class="section">
-            <h2>🏛️ Academic Partners</h2>
+            <h2>🏛️ Affiliation</h2>
             <div style="display: flex; gap: 2rem; justify-content: center; align-items: center; flex-wrap: wrap;">
                 <div style="text-align: center;">
                     <div style="font-size: 2rem; font-weight: 700; color: #0b1e33;">Rennes SB</div>
@@ -666,7 +712,7 @@
                 <div style="width: 2px; height: 50px; background: #e2e8f0;"></div>
                 <div style="text-align: center;">
                     <div style="font-size: 2rem; font-weight: 700; color: #0b1e33;">UpGrad</div>
-                    <div style="color: #475569;">Online Education Partner</div>
+                    <div style="color: #475569;">Engineering School</div>
                 </div>
             </div>
         </div>
@@ -675,7 +721,7 @@
         <div style="background: white; border-radius: 24px; padding: 3rem; text-align: center; border: 1px solid #e2e8f0; margin: 3rem 0;">
             <h2 style="margin-bottom: 1rem;">🤝 Collaborate With Us</h2>
             <p style="max-width: 600px; margin: 0 auto 2rem;">Interested in applying the ATIS Framework in your organization or collaborating on research?</p>
-            <div style="display: flex; gap: 1rem; justify-content: center;">
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
                 <a href="mailto:youssef.hariri@rennes-sb.com" class="btn">Contact Principal Researcher</a>
                 <a href="resources.html" class="btn btn-outline">Download Resources</a>
             </div>

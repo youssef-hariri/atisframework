@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resources | ATIS Framework Downloads & Tools</title>
+    <title>Resources | ATIS Framework</title>
     <style>
         * {
             margin: 0;
@@ -92,56 +92,26 @@
         }
 
         .container {
-            max-width: 1200px;
+            max-width: 1000px;
             margin: 0 auto;
             padding: 3rem 2rem;
         }
 
-        /* Resource Categories */
-        .category-tabs {
-            display: flex;
-            gap: 1rem;
-            justify-content: center;
-            margin-bottom: 3rem;
-            flex-wrap: wrap;
-        }
-
-        .tab-btn {
-            padding: 0.75rem 2rem;
-            background: white;
-            border: 1px solid #e2e8f0;
-            border-radius: 50px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.2s;
-            color: #475569;
-        }
-
-        .tab-btn:hover {
-            border-color: #3b82f6;
-            color: #3b82f6;
-        }
-
-        .tab-btn.active {
-            background: #3b82f6;
-            color: white;
-            border-color: #3b82f6;
-        }
-
-        /* Resource Grid */
-        .resource-grid {
+        .resources-grid {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(2, 1fr);
             gap: 2rem;
-            margin: 2rem 0;
+            margin: 3rem 0;
         }
 
         .resource-card {
             background: white;
             border-radius: 16px;
-            overflow: hidden;
+            padding: 2rem;
             border: 1px solid #e2e8f0;
             transition: transform 0.2s, box-shadow 0.2s;
+            display: flex;
+            flex-direction: column;
         }
 
         .resource-card:hover {
@@ -149,78 +119,34 @@
             box-shadow: 0 12px 20px -8px rgba(0,0,0,0.1);
         }
 
-        .resource-header {
-            padding: 1.5rem;
-            border-bottom: 1px solid #e2e8f0;
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-        }
-
         .resource-icon {
-            width: 48px;
-            height: 48px;
-            background: #f1f5f9;
-            border-radius: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.5rem;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
         }
 
         .resource-title {
-            font-size: 1.2rem;
+            font-size: 1.3rem;
             font-weight: 700;
             color: #0b1e33;
-            margin-bottom: 0.25rem;
-        }
-
-        .resource-type {
-            font-size: 0.9rem;
-            color: #64748b;
-        }
-
-        .resource-body {
-            padding: 1.5rem;
+            margin-bottom: 0.5rem;
         }
 
         .resource-description {
             color: #475569;
             margin-bottom: 1.5rem;
-            font-size: 0.95rem;
+            flex: 1;
         }
 
         .resource-meta {
-            display: flex;
-            justify-content: space-between;
             color: #64748b;
             font-size: 0.9rem;
-            margin-bottom: 1rem;
+            margin-bottom: 1.5rem;
             padding-bottom: 1rem;
             border-bottom: 1px solid #e2e8f0;
         }
 
-        .resource-tags {
-            display: flex;
-            gap: 0.5rem;
-            flex-wrap: wrap;
-        }
-
-        .tag {
-            background: #f1f5f9;
-            padding: 0.25rem 0.75rem;
-            border-radius: 50px;
-            font-size: 0.8rem;
-            color: #475569;
-        }
-
-        .tag.act { background: #fee2e2; color: #991b1b; }
-        .tag.train { background: #fef3c7; color: #92400e; }
-        .tag.inquire { background: #dbeafe; color: #1e40af; }
-        .tag.standardize { background: #d1fae5; color: #065f46; }
-
-        .btn-download {
-            display: block;
+        .btn {
+            display: inline-block;
             width: 100%;
             padding: 0.75rem;
             background: #3b82f6;
@@ -230,202 +156,78 @@
             border-radius: 8px;
             font-weight: 600;
             transition: background 0.2s;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
         }
 
-        .btn-download:hover {
+        .btn:hover {
             background: #2563eb;
         }
 
         .btn-outline {
-            display: inline-block;
-            padding: 0.5rem 1rem;
-            border: 1px solid #3b82f6;
-            color: #3b82f6;
-            border-radius: 6px;
-            text-decoration: none;
-            font-size: 0.9rem;
-            font-weight: 500;
-        }
-
-        /* Case Study Cards */
-        .case-study-card {
             background: white;
-            border-radius: 16px;
-            padding: 2rem;
-            margin-bottom: 2rem;
-            border: 1px solid #e2e8f0;
-        }
-
-        .case-study-header {
-            display: flex;
-            gap: 1.5rem;
-            margin-bottom: 1.5rem;
-        }
-
-        .case-flag {
-            font-size: 3rem;
-        }
-
-        .case-title {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: #0b1e33;
-            margin-bottom: 0.25rem;
-        }
-
-        .case-subtitle {
             color: #3b82f6;
-            font-weight: 600;
+            border: 2px solid #3b82f6;
         }
 
-        .case-quote {
-            background: #f0f9ff;
-            border-left: 4px solid #3b82f6;
-            padding: 1.5rem;
-            border-radius: 8px;
-            margin: 1.5rem 0;
-            font-style: italic;
+        .btn-outline:hover {
+            background: #3b82f6;
+            color: white;
         }
 
-        .pillar-icons {
-            display: flex;
-            gap: 0.5rem;
-            margin: 1rem 0;
-        }
-
-        .pillar-icon-small {
+        .doi-badge {
+            display: inline-block;
+            background: #f1f5f9;
             padding: 0.25rem 0.75rem;
             border-radius: 50px;
             font-size: 0.8rem;
-            font-weight: 600;
+            color: #475569;
+            margin-bottom: 1rem;
         }
 
-        .pillar-icon-small.act { background: #fee2e2; color: #991b1b; }
-        .pillar-icon-small.train { background: #fef3c7; color: #92400e; }
-        .pillar-icon-small.inquire { background: #dbeafe; color: #1e40af; }
-        .pillar-icon-small.standardize { background: #d1fae5; color: #065f46; }
-
-        /* Checklist Section */
-        .checklist-preview {
+        .linkedin-section {
             background: white;
             border-radius: 16px;
             padding: 2rem;
-            border: 2px solid #3b82f6;
-            margin: 2rem 0;
-        }
-
-        .checklist-item {
+            border: 1px solid #e2e8f0;
+            margin: 3rem 0;
             display: flex;
             align-items: center;
-            gap: 1rem;
-            padding: 0.75rem;
-            border-bottom: 1px solid #e2e8f0;
-        }
-
-        .checklist-item:last-child {
-            border-bottom: none;
-        }
-
-        .checklist-checkbox {
-            width: 20px;
-            height: 20px;
-            border: 2px solid #3b82f6;
-            border-radius: 4px;
-        }
-
-        /* Tools Section */
-        .tools-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 1.5rem;
-            margin: 2rem 0;
-        }
-
-        .tool-card {
-            background: #f8fafc;
-            padding: 2rem;
-            border-radius: 16px;
-            text-align: center;
-            border: 1px solid #e2e8f0;
-        }
-
-        .tool-icon {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-        }
-
-        .tool-card h3 {
-            margin-bottom: 0.5rem;
-        }
-
-        .tool-card p {
-            color: #475569;
-            margin-bottom: 1.5rem;
-            font-size: 0.95rem;
-        }
-
-        /* Webinars Section */
-        .webinar-card {
-            display: flex;
             gap: 2rem;
-            background: white;
-            border-radius: 16px;
-            padding: 1.5rem;
-            margin-bottom: 1rem;
-            border: 1px solid #e2e8f0;
         }
 
-        .webinar-date {
-            min-width: 80px;
-            text-align: center;
-            padding: 0.5rem;
-            background: #f1f5f9;
-            border-radius: 8px;
-            font-weight: 700;
+        .linkedin-icon {
+            font-size: 3rem;
         }
 
-        .webinar-content {
+        .linkedin-content {
             flex: 1;
         }
 
-        .webinar-title {
+        .linkedin-title {
+            font-size: 1.3rem;
             font-weight: 700;
-            margin-bottom: 0.25rem;
-        }
-
-        .webinar-meta {
-            color: #64748b;
-            font-size: 0.9rem;
-        }
-
-        /* Quick Links */
-        .quick-links {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 1rem;
-            margin: 2rem 0;
-        }
-
-        .quick-link {
-            background: white;
-            padding: 1.5rem;
-            border-radius: 12px;
-            text-align: center;
-            text-decoration: none;
             color: #0b1e33;
-            border: 1px solid #e2e8f0;
-            transition: all 0.2s;
-        }
-
-        .quick-link:hover {
-            border-color: #3b82f6;
-            transform: translateY(-2px);
-        }
-
-        .quick-link span {
-            font-size: 2rem;
-            display: block;
             margin-bottom: 0.5rem;
+        }
+
+        .linkedin-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: #0077b5;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 1rem;
+            transition: background 0.2s;
+        }
+
+        .linkedin-btn:hover {
+            background: #005582;
         }
 
         .footer {
@@ -436,26 +238,13 @@
             margin-top: 3rem;
         }
 
-        @media (max-width: 1024px) {
-            .resource-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-            .quick-links {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-
         @media (max-width: 768px) {
-            .resource-grid, .tools-grid {
+            .resources-grid {
                 grid-template-columns: 1fr;
             }
-            .webinar-card {
+            .linkedin-section {
                 flex-direction: column;
-                gap: 1rem;
-            }
-            .case-study-header {
-                flex-direction: column;
-                gap: 1rem;
+                text-align: center;
             }
         }
     </style>
@@ -475,562 +264,70 @@
     </nav>
 
     <div class="page-header">
-        <div class="badge">📚 Tools & Downloads</div>
+        <div class="badge">📦 Practical Tools</div>
         <h1>ATIS Framework Resources</h1>
-        <p>Templates, checklists, case studies, and tools for implementation</p>
+        <p>Everything you need to implement the ATIS Framework in your organization</p>
     </div>
 
     <div class="container">
-        <!-- Quick Access Navigation -->
-        <div class="quick-links">
-            <a href="#checklists" class="quick-link">
-                <span>📋</span>
-                <div>Checklists</div>
-            </a>
-            <a href="#templates" class="quick-link">
-                <span>📊</span>
-                <div>Templates</div>
-            </a>
-            <a href="#case-studies" class="quick-link">
-                <span>📑</span>
-                <div>Case Studies</div>
-            </a>
-            <a href="#tools" class="quick-link">
-                <span>🛠️</span>
-                <div>Tools</div>
-            </a>
-        </div>
-
-        <!-- Category Tabs -->
-        <div class="category-tabs" id="categoryTabs">
-            <button class="tab-btn active" onclick="filterResources('all')">All Resources</button>
-            <button class="tab-btn" onclick="filterResources('checklist')">Checklists</button>
-            <button class="tab-btn" onclick="filterResources('template')">Templates</button>
-            <button class="tab-btn" onclick="filterResources('case-study')">Case Studies</button>
-            <button class="tab-btn" onclick="filterResources('tool')">Tools</button>
-            <button class="tab-btn" onclick="filterResources('webinar')">Webinars</button>
-        </div>
-
-        <!-- Resource Grid -->
-        <div class="resource-grid" id="resourceGrid">
-            <!-- Full ATIS Checklist (PDF) -->
-            <div class="resource-card" data-category="checklist">
-                <div class="resource-header">
-                    <div class="resource-icon">📋</div>
-                    <div>
-                        <div class="resource-title">ATIS Full Diagnostic Checklist</div>
-                        <div class="resource-type">PDF • 40 questions</div>
-                    </div>
+        <div class="resources-grid">
+            <!-- Resource 1: Full Checklist (PDF) -->
+            <div class="resource-card">
+                <div class="resource-icon">📋</div>
+                <div class="resource-title">ATIS Implementation Checklist</div>
+                <div class="resource-description">
+                    40-item diagnostic checklist based on the research. Perfect for team workshops and offline use.
                 </div>
-                <div class="resource-body">
-                    <div class="resource-description">
-                        Complete 40-item diagnostic tool based on the research. Includes all four levels with pillar tagging.
-                    </div>
-                    <div class="resource-meta">
-                        <span>📄 2 pages</span>
-                        <span>⬇️ 124 KB</span>
-                    </div>
-                    <div class="resource-tags">
-                        <span class="tag act">ACT</span>
-                        <span class="tag train">TRAIN</span>
-                        <span class="tag inquire">INQUIRE</span>
-                        <span class="tag standardize">STANDARDIZE</span>
-                    </div>
-                    <a href="#" class="btn-download" onclick="downloadResource('atis-checklist-full.pdf')">Download PDF</a>
+                <div class="resource-meta">
+                    <span>📄 2 pages • PDF</span>
                 </div>
+                <a href="/downloads/atis-checklist-full.pdf" class="btn" download>⬇️ Download PDF</a>
+                <p style="font-size: 0.85rem; color: #64748b; margin-top: 0.75rem;">
+        
+                </p>
             </div>
 
-            <!-- PSR Calculator (Excel) -->
-            <div class="resource-card" data-category="tool">
-                <div class="resource-header">
-                    <div class="resource-icon">📊</div>
-                    <div>
-                        <div class="resource-title">PSR Calculator</div>
-                        <div class="resource-type">Excel • Automated</div>
-                    </div>
+            <!-- Resource 2: Research Paper (via DOI) -->
+            <div class="resource-card">
+                <div class="resource-icon">📄</div>
+                <div class="resource-title">Full Research Paper</div>
+                <div class="resource-description">
+                    The complete academic paper presenting the ATIS Framework, methodology, and findings from 48 expert interviews.
                 </div>
-                <div class="resource-body">
-                    <div class="resource-description">
-                        Automated Pillar Saturation Ratio calculator. Input your answers and get instant PSR scores and radar charts.
-                    </div>
-                    <div class="resource-meta">
-                        <span>📊 Excel</span>
-                        <span>⬇️ 256 KB</span>
-                    </div>
-                    <div class="resource-tags">
-                        <span class="tag">Calculator</span>
-                        <span class="tag">Automated</span>
-                    </div>
-                    <a href="#" class="btn-download" onclick="downloadResource('atis-psr-calculator.xlsx')">Download Excel</a>
+                <div class="doi-badge">DOI: 10.5281/zenodo.17425216</div>
+                <div class="resource-meta">
+                    <span></span>
                 </div>
-            </div>
-
-            <!-- Action Plan Template -->
-            <div class="resource-card" data-category="template">
-                <div class="resource-header">
-                    <div class="resource-icon">📝</div>
-                    <div>
-                        <div class="resource-title">Action Plan Template</div>
-                        <div class="resource-type">Word • Editable</div>
-                    </div>
-                </div>
-                <div class="resource-body">
-                    <div class="resource-description">
-                        Structured template for creating your ATIS implementation plan based on Module 6 worksheet.
-                    </div>
-                    <div class="resource-meta">
-                        <span>📄 3 pages</span>
-                        <span>⬇️ 89 KB</span>
-                    </div>
-                    <div class="resource-tags">
-                        <span class="tag">Planning</span>
-                        <span class="tag">Worksheet</span>
-                    </div>
-                    <a href="#" class="btn-download" onclick="downloadResource('atis-action-plan.docx')">Download Word</a>
-                </div>
-            </div>
-
-            <!-- Brazil Ethics Case Study -->
-            <div class="resource-card" data-category="case-study">
-                <div class="resource-header">
-                    <div class="resource-icon">🇧🇷</div>
-                    <div>
-                        <div class="resource-title">Brazil: Ethical Autoregulation</div>
-                        <div class="resource-type">Case Study • PDF</div>
-                    </div>
-                </div>
-                <div class="resource-body">
-                    <div class="resource-description">
-                        How Brazilian engineers fixed gender bias in salary models, viewing it as cultural responsibility.
-                    </div>
-                    <div class="resource-meta">
-                        <span>📄 4 pages</span>
-                        <span>⬇️ 156 KB</span>
-                    </div>
-                    <div class="resource-tags">
-                        <span class="tag inquire">INQUIRE</span>
-                        <span class="tag act">ACT</span>
-                        <span class="tag">Ethics</span>
-                    </div>
-                    <a href="#" class="btn-download" onclick="downloadResource('case-study-brazil.pdf')">Download PDF</a>
-                </div>
-            </div>
-
-            <!-- India Agency Paradox -->
-            <div class="resource-card" data-category="case-study">
-                <div class="resource-header">
-                    <div class="resource-icon">🇮🇳</div>
-                    <div>
-                        <div class="resource-title">India: The Agency Paradox</div>
-                        <div class="resource-type">Case Study • PDF</div>
-                    </div>
-                </div>
-                <div class="resource-body">
-                    <div class="resource-description">
-                        When US leaders gave Indian teams autonomy, they rejected it, preferring explicit instruction.
-                    </div>
-                    <div class="resource-meta">
-                        <span>📄 3 pages</span>
-                        <span>⬇️ 142 KB</span>
-                    </div>
-                    <div class="resource-tags">
-                        <span class="tag inquire">INQUIRE</span>
-                        <span class="tag">Leadership</span>
-                    </div>
-                    <a href="#" class="btn-download" onclick="downloadResource('case-study-india.pdf')">Download PDF</a>
-                </div>
-            </div>
-
-            <!-- Kenya-Nigeria Fintech -->
-            <div class="resource-card" data-category="case-study">
-                <div class="resource-header">
-                    <div class="resource-icon">🇰🇪</div>
-                    <div>
-                        <div class="resource-title">Kenya vs. Nigeria: Localization</div>
-                        <div class="resource-type">Case Study • PDF</div>
-                    </div>
-                </div>
-                <div class="resource-body">
-                    <div class="resource-description">
-                        How fintech structures differ across African markets and why one-size-fits-all AI fails.
-                    </div>
-                    <div class="resource-meta">
-                        <span>📄 5 pages</span>
-                        <span>⬇️ 178 KB</span>
-                    </div>
-                    <div class="resource-tags">
-                        <span class="tag act">ACT</span>
-                        <span class="tag">Localization</span>
-                    </div>
-                    <a href="#" class="btn-download" onclick="downloadResource('case-study-kenya-nigeria.pdf')">Download PDF</a>
-                </div>
-            </div>
-
-            <!-- Mexico Tacit Knowledge -->
-            <div class="resource-card" data-category="case-study">
-                <div class="resource-header">
-                    <div class="resource-icon">🇲🇽</div>
-                    <div>
-                        <div class="resource-title">Mexico: Tacit Expectations</div>
-                        <div class="resource-type">Case Study • PDF</div>
-                    </div>
-                </div>
-                <div class="resource-body">
-                    <div class="resource-description">
-                        How high-context expectations led to support breakdowns and the need for explicit documentation.
-                    </div>
-                    <div class="resource-meta">
-                        <span>📄 3 pages</span>
-                        <span>⬇️ 134 KB</span>
-                    </div>
-                    <div class="resource-tags">
-                        <span class="tag standardize">STANDARDIZE</span>
-                        <span class="tag">Documentation</span>
-                    </div>
-                    <a href="#" class="btn-download" onclick="downloadResource('case-study-mexico.pdf')">Download PDF</a>
-                </div>
-            </div>
-
-            <!-- Sweden NDA Case -->
-            <div class="resource-card" data-category="case-study">
-                <div class="resource-header">
-                    <div class="resource-icon">🇸🇪</div>
-                    <div>
-                        <div class="resource-title">Sweden: Legal Trust Boundaries</div>
-                        <div class="resource-type">Case Study • PDF</div>
-                    </div>
-                </div>
-                <div class="resource-body">
-                    <div class="resource-description">
-                        When a Swedish engineer refused an NDA from a Dutch client, halting collaboration entirely.
-                    </div>
-                    <div class="resource-meta">
-                        <span>📄 2 pages</span>
-                        <span>⬇️ 118 KB</span>
-                    </div>
-                    <div class="resource-tags">
-                        <span class="tag standardize">STANDARDIZE</span>
-                        <span class="tag">Legal</span>
-                    </div>
-                    <a href="#" class="btn-download" onclick="downloadResource('case-study-sweden.pdf')">Download PDF</a>
-                </div>
-            </div>
-
-            <!-- Communication Templates -->
-            <div class="resource-card" data-category="template">
-                <div class="resource-header">
-                    <div class="resource-icon">💬</div>
-                    <div>
-                        <div class="resource-title">Cross-Cultural Communication Templates</div>
-                        <div class="resource-type">Word • 5 templates</div>
-                    </div>
-                </div>
-                <div class="resource-body">
-                    <div class="resource-description">
-                        Standardized templates for different audiences: executives, engineers, clients, and cross-cultural teams.
-                    </div>
-                    <div class="resource-meta">
-                        <span>📄 8 pages</span>
-                        <span>⬇️ 245 KB</span>
-                    </div>
-                    <div class="resource-tags">
-                        <span class="tag standardize">STANDARDIZE</span>
-                        <span class="tag">Templates</span>
-                    </div>
-                    <a href="#" class="btn-download" onclick="downloadResource('atis-communication-templates.docx')">Download Word</a>
-                </div>
-            </div>
-
-            <!-- Training Materials -->
-            <div class="resource-card" data-category="template">
-                <div class="resource-header">
-                    <div class="resource-icon">📚</div>
-                    <div>
-                        <div class="resource-title">Cross-Cultural Training Deck</div>
-                        <div class="resource-type">PowerPoint • 45 slides</div>
-                    </div>
-                </div>
-                <div class="resource-body">
-                    <div class="resource-description">
-                        Ready-to-use training materials on cross-cultural dynamics in AI projects. Based on research findings.
-                    </div>
-                    <div class="resource-meta">
-                        <span>📊 45 slides</span>
-                        <span>⬇️ 3.2 MB</span>
-                    </div>
-                    <div class="resource-tags">
-                        <span class="tag train">TRAIN</span>
-                        <span class="tag">Workshop</span>
-                    </div>
-                    <a href="#" class="btn-download" onclick="downloadResource('atis-training-deck.pptx')">Download PPT</a>
-                </div>
-            </div>
-
-            <!-- Workshop Facilitator Guide -->
-            <div class="resource-card" data-category="template">
-                <div class="resource-header">
-                    <div class="resource-icon">👥</div>
-                    <div>
-                        <div class="resource-title">ATIS Workshop Facilitator Guide</div>
-                        <div class="resource-type">PDF • 24 pages</div>
-                    </div>
-                </div>
-                <div class="resource-body">
-                    <div class="resource-description">
-                        Complete guide to running a 2-day ATIS implementation workshop with your team.
-                    </div>
-                    <div class="resource-meta">
-                        <span>📄 24 pages</span>
-                        <span>⬇️ 456 KB</span>
-                    </div>
-                    <div class="resource-tags">
-                        <span class="tag">Workshop</span>
-                        <span class="tag">Facilitation</span>
-                    </div>
-                    <a href="#" class="btn-download" onclick="downloadResource('atis-workshop-guide.pdf')">Download PDF</a>
-                </div>
-            </div>
-
-            <!-- One-Pager Overview -->
-            <div class="resource-card" data-category="tool">
-                <div class="resource-header">
-                    <div class="resource-icon">📄</div>
-                    <div>
-                        <div class="resource-title">ATIS One-Pager Overview</div>
-                        <div class="resource-type">PDF • Summary</div>
-                    </div>
-                </div>
-                <div class="resource-body">
-                    <div class="resource-description">
-                        Quick reference guide to the four pillars, causal chains, and maturity levels.
-                    </div>
-                    <div class="resource-meta">
-                        <span>📄 1 page</span>
-                        <span>⬇️ 89 KB</span>
-                    </div>
-                    <div class="resource-tags">
-                        <span class="tag">Overview</span>
-                    </div>
-                    <a href="#" class="btn-download" onclick="downloadResource('atis-one-pager.pdf')">Download PDF</a>
-                </div>
-            </div>
-
-            <!-- Research Summary -->
-            <div class="resource-card" data-category="tool">
-                <div class="resource-header">
-                    <div class="resource-icon">🔬</div>
-                    <div>
-                        <div class="resource-title">Research Summary</div>
-                        <div class="resource-type">PDF • 12 pages</div>
-                    </div>
-                </div>
-                <div class="resource-body">
-                    <div class="resource-description">
-                        Executive summary of the research methodology, key findings, and implications.
-                    </div>
-                    <div class="resource-meta">
-                        <span>📄 12 pages</span>
-                        <span>⬇️ 345 KB</span>
-                    </div>
-                    <div class="resource-tags">
-                        <span class="tag">Research</span>
-                    </div>
-                    <a href="#" class="btn-download" onclick="downloadResource('atis-research-summary.pdf')">Download PDF</a>
-                </div>
+                <a href="https://doi.org/10.5281/zenodo.17425216" class="btn btn-outline" target="_blank" rel="noopener noreferrer">🔗 Access on Zenodo</a>
             </div>
         </div>
 
-        <!-- Featured Case Studies Section -->
-        <h2 style="margin: 3rem 0 1.5rem;" id="case-studies">📑 Featured Case Studies</h2>
-
-        <div class="case-study-card">
-            <div class="case-study-header">
-                <div class="case-flag">🇧🇷</div>
-                <div>
-                    <div class="case-title">Brazil: Ethical Autoregulation</div>
-                    <div class="case-subtitle">How cultural responsibility drove ethical AI outcomes</div>
-                </div>
-            </div>
-            <div class="pillar-icons">
-                <span class="pillar-icon-small inquire">INQUIRE</span>
-                <span class="pillar-icon-small act">ACT</span>
-            </div>
-            <div class="case-quote">
-                "The guys that work with us were not from data science... they do not know why the model was giving them that answer. We need this responsibility of building the model. We need to remove this kind of biases."
-                <div style="margin-top: 0.5rem; font-weight: 600;">— P2, Group interview, 2023</div>
-            </div>
-            <p><strong>The Challenge:</strong> An AI model for salary optimization showed gender bias, always assigning lower salaries to women with同等 performance.</p>
-            <p><strong>The Response:</strong> Brazilian engineers fixed the issue regardless of their ability to explain the statistics to non-technical HR stakeholders. They viewed ethical responsibility as part of their cultural mindset.</p>
-            <p><strong>ATIS Applied:</strong> INQUIRE to investigate bias, ACT to fix it, TRAIN embedded in cultural values.</p>
-            <a href="#" class="btn-outline" style="margin-top: 1rem;" onclick="downloadResource('case-study-brazil-full.pdf')">Download Full Case Study →</a>
-        </div>
-
-        <div class="case-study-card">
-            <div class="case-study-header">
-                <div class="case-flag">🇮🇳</div>
-                <div>
-                    <div class="case-title">India: The Agency Paradox</div>
-                    <div class="case-subtitle">When autonomy is rejected</div>
-                </div>
-            </div>
-            <div class="pillar-icons">
-                <span class="pillar-icon-small inquire">INQUIRE</span>
-            </div>
-            <div class="case-quote">
-                "I thought I was doing them a favor to give them authority and agency to make design decisions. They didn't. They wanted me to tell them what to do."
-                <div style="margin-top: 0.5rem; font-weight: 600;">— P15, US Team Leader</div>
-            </div>
-            <p><strong>The Challenge:</strong> A US leader gave Indian team members autonomy over design decisions, expecting ownership. The team actively resisted, preferring explicit instructions.</p>
-            <p><strong>The Lesson:</strong> Cultural expectations of hierarchy affect how teams respond to agency. What works in one culture may fail in another.</p>
-            <a href="#" class="btn-outline" style="margin-top: 1rem;" onclick="downloadResource('case-study-india-full.pdf')">Download Full Case Study →</a>
-        </div>
-
-        <!-- Tools Section -->
-        <h2 style="margin: 3rem 0 1.5rem;" id="tools">🛠️ Implementation Tools</h2>
-
-        <div class="tools-grid">
-            <div class="tool-card">
-                <div class="tool-icon">📊</div>
-                <h3>PSR Calculator</h3>
-                <p>Automated Excel tool that calculates your Pillar Saturation Ratio and generates radar charts.</p>
-                <a href="#" class="btn-outline" onclick="downloadResource('atis-psr-calculator.xlsx')">Download Excel</a>
-            </div>
-            <div class="tool-card">
-                <div class="tool-icon">📋</div>
-                <h3>Project Audit Template</h3>
-                <p>Evaluate existing or past projects against the ATIS framework.</p>
-                <a href="#" class="btn-outline" onclick="downloadResource('atis-audit-template.docx')">Download Word</a>
-            </div>
-            <div class="tool-card">
-                <div class="tool-icon">📅</div>
-                <h3>Team Assessment Scorecard</h3>
-                <p>Evaluate individual and team cross-cultural capabilities.</p>
-                <a href="#" class="btn-outline" onclick="downloadResource('atis-team-scorecard.xlsx')">Download Excel</a>
-            </div>
-            <div class="tool-card">
-                <div class="tool-icon">📝</div>
-                <h3>Meeting Feedback Forms</h3>
-                <p>Culturally-sensitive feedback collection templates.</p>
-                <a href="#" class="btn-outline" onclick="downloadResource('atis-feedback-forms.docx')">Download Word</a>
+        <!-- LinkedIn Section -->
+        <div class="linkedin-section">
+            <div class="linkedin-icon">💼</div>
+            <div class="linkedin-content">
+                <div class="linkedin-title">Connect with the Researcher</div>
+                <p style="color: #475569;">Follow Youssef HARIRI on LinkedIn for updates on ATIS research, case studies, and AI project management insights.</p>
+                <a href="https://www.linkedin.com/in/yhariri" target="_blank" rel="noopener noreferrer" class="linkedin-btn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="margin-right: 0.5rem;">
+                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451c.979 0 1.771-.773 1.771-1.729V1.729C24 .774 23.204 0 22.225 0z"/>
+                    </svg>
+                    Connect on LinkedIn
+                </a>
             </div>
         </div>
 
-        <!-- Upcoming Webinars -->
-        <h2 style="margin: 3rem 0 1.5rem;" id="webinars">🎥 Upcoming Webinars</h2>
-
-        <div class="webinar-card">
-            <div class="webinar-date">
-                <div style="font-size: 1.5rem;">MAR</div>
-                <div style="font-size: 1.8rem; font-weight: 700;">25</div>
-                <div>2026</div>
-            </div>
-            <div class="webinar-content">
-                <div class="webinar-title">ATIS Framework Deep Dive: The Four Pillars</div>
-                <div class="webinar-meta">⏱️ 60 min • Live Q&A • Free</div>
-                <p style="margin-top: 0.5rem;">Understanding ACT, TRAIN, INQUIRE, and STANDARDIZE with real-world examples.</p>
-                <a href="#" style="color: #3b82f6; text-decoration: none;">Register →</a>
-            </div>
+        <!-- Citation -->
+        <div style="background: #f8fafc; border-radius: 16px; padding: 1.5rem; margin: 2rem 0; border: 1px solid #e2e8f0;">
+            <p style="font-size: 0.95rem; color: #475569;">
+                <strong>Cite this research:</strong> Hariri, Y. (2026). The Friction of AI Specificities in Cross-Cultural Projects: A Causal Chain Model and the ATIS Maturity Model. <em>Zenodo</em>. https://doi.org/10.5281/zenodo.17425216
+            </p>
         </div>
 
-        <div class="webinar-card">
-            <div class="webinar-date">
-                <div style="font-size: 1.5rem;">APR</div>
-                <div style="font-size: 1.8rem; font-weight: 700;">8</div>
-                <div>2026</div>
-            </div>
-            <div class="webinar-content">
-                <div class="webinar-title">From Firefighting to Resilience: The ATIS Maturity Model</div>
-                <div class="webinar-meta">⏱️ 60 min • Live Q&A • Free</div>
-                <p style="margin-top: 0.5rem;">How to interpret your PSR scores and move from Level 1 to Level 3.</p>
-                <a href="#" style="color: #3b82f6; text-decoration: none;">Register →</a>
-            </div>
-        </div>
-
-        <!-- Recommended Reading -->
-        <div style="background: white; border-radius: 16px; padding: 2rem; margin: 3rem 0; border: 1px solid #e2e8f0;">
-            <h2 style="margin-bottom: 1rem;">📖 Recommended Reading</h2>
-            <ul style="list-style: none;">
-                <li style="margin-bottom: 1rem;">• Hofstede, G. H., Hofstede, G. J., & Minkov, M. (2010). <em>Cultures and Organizations: Software of the Mind</em></li>
-                <li style="margin-bottom: 1rem;">• Project Management Institute. (2021). <em>PMBOK Guide – Seventh Edition</em></li>
-                <li style="margin-bottom: 1rem;">• Ang, S. & Van Dyne, L. (2008). <em>Handbook of Cultural Intelligence</em></li>
-                <li style="margin-bottom: 1rem;">• Davenport, T. H., & Prusak, L. (1998). <em>Working Knowledge</em></li>
-            </ul>
-        </div>
-
-        <!-- Newsletter Signup -->
-        <div style="background: linear-gradient(135deg, #f1f5f9 0%, white 100%); border-radius: 16px; padding: 2rem; text-align: center; border: 1px solid #e2e8f0;">
-            <h2 style="margin-bottom: 1rem;">📬 Stay Updated</h2>
-            <p style="margin-bottom: 2rem;">Get new case studies, tools, and research delivered to your inbox.</p>
-            <div style="display: flex; max-width: 500px; margin: 0 auto;">
-                <input type="email" placeholder="Your email" style="flex: 1; padding: 0.75rem; border: 1px solid #e2e8f0; border-radius: 8px 0 0 8px; font-family: inherit;">
-                <button style="background: #3b82f6; color: white; border: none; padding: 0.75rem 1.5rem; border-radius: 0 8px 8px 0; font-weight: 600; cursor: pointer;">Subscribe</button>
-            </div>
-            <p style="margin-top: 1rem; font-size: 0.9rem; color: #64748b;">We respect your privacy. Unsubscribe anytime.</p>
-        </div>
     </div>
 
     <footer class="footer">
-        <p>© 2026 ATIS Framework. Based on research with 48 global AI experts.</p>
-        <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #94a3b8;">Expert quotes anonymized (P1-P48) and used with permission.</p>
+        <p>© 2026 ATIS Framework. Expert quotes anonymized (P1-P48) and used with permission.</p>
     </footer>
-
-    <script>
-        // Resource filtering
-        function filterResources(category) {
-            const resources = document.querySelectorAll('.resource-card');
-            const tabs = document.querySelectorAll('.tab-btn');
-            
-            // Update active tab
-            tabs.forEach(tab => {
-                if (tab.textContent.toLowerCase().includes(category) || 
-                    (category === 'all' && tab.textContent.includes('All'))) {
-                    tab.classList.add('active');
-                } else {
-                    tab.classList.remove('active');
-                }
-            });
-
-            // Filter resources
-            resources.forEach(resource => {
-                if (category === 'all') {
-                    resource.style.display = 'block';
-                } else {
-                    if (resource.dataset.category === category) {
-                        resource.style.display = 'block';
-                    } else {
-                        resource.style.display = 'none';
-                    }
-                }
-            });
-        }
-
-        // Download function (simulated - in production would serve actual files)
-        function downloadResource(filename) {
-            alert(`In production, this would download: ${filename}\n\nFor demo purposes, this simulates file download.`);
-            // In production, you would redirect to actual file:
-            // window.location.href = '/downloads/' + filename;
-        }
-
-        // Newsletter signup (simulated)
-        document.querySelector('button[onclick*="subscribe"]')?.addEventListener('click', function() {
-            const email = document.querySelector('input[type="email"]').value;
-            if (email) {
-                alert(`Thank you for subscribing! (Demo: ${email})`);
-            } else {
-                alert('Please enter an email address.');
-            }
-        });
-
-        // Quick link smooth scroll
-        document.querySelectorAll('.quick-link').forEach(link => {
-            link.addEventListener('click', function(e) {
-                e.preventDefault();
-                const target = this.getAttribute('href');
-                document.querySelector(target).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-    </script>
 </body>
 </html>
