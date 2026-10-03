@@ -1,7 +1,12 @@
 # ATIS Framework — Empirical Study Package
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17425216.svg)](https://doi.org/10.5281/zenodo.17425216)
+
 Data and code behind the paper *"AI Technical Specificities and the ATIS Maturity Model"*
 (Paper 1). The ATIS self-assessment instrument lives in this same repository (website root).
+
+The final paper PDF is included here: [`AI Specificities and the ATIS Maturity Model.pdf`](./AI%20Specificities%20and%20the%20ATIS%20Maturity%20Model.pdf)
+Archived release: https://doi.org/10.5281/zenodo.17425216
 
 ## Contents
 
@@ -64,5 +69,5 @@ to the consent terms given at interview.
 
 ## Citation
 
-If you use this data or code, please cite the paper and this repository
-(Zenodo DOI: *to be minted on release*).
+If you use this data or code, please cite the paper and this repository:
+https://doi.org/10.5281/zenodo.17425216
