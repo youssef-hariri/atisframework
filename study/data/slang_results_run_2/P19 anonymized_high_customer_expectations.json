@@ -1,0 +1,44 @@
+[
+  {
+    "expert_quote": "Then the funny part is that when we are done with the project after three months, our projects decided. Their model decided now. Just to not approve the loan to all the customers. So the model was not now classified who not to approve and who not to.",
+    "mapped_id": "dreams_vs_reality",
+    "is_negative_case": false,
+    "rationale": "The quote describes the outcome of a real-world AI project (loan approval model) that completely failed its practical function, starkly contrasting with the typical idealized vision of AI providing accurate, actionable classifications. The slang 'funny part' underscores the ironic, disappointing gap between expectation and reality."
+  },
+  {
+    "expert_quote": "The main learning point was that we. Are all intense beginners. And we just went in. Not consulting from those who have experience in the field.",
+    "mapped_id": "trust_understanding_gap",
+    "is_negative_case": false,
+    "rationale": "Person 2 attributes project failure to a lack of foundational understanding and guidance, highlighting how high optimism ('just went in') was undermined by an opaque development process and unsatisfactory results, core to the trust-understanding gap."
+  },
+  {
+    "expert_quote": "But when you are done. Their project was about making some predictions... the supervisor was working with was like it's kind of. As talking. So stalking is not allowed somewhere like trying to get more details about certain person without their permission... So I found that to be like somehow different cultures and how they perceive how you treat the data or information you have... it can be incriminating. For how you use that data set in different cultures.",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": false,
+    "rationale": "The quote describes a project being constrained or viewed as unethical ('stalking') due to cultural perceptions of data privacy and fairness. This perception acts as a barrier to the method's application, aligning with the 'unfairness_barriers' indicator of rejection due to perceived ethical or bias issues."
+  },
+  {
+    "expert_quote": "We can create these. We can come up with a predictions, but it should just stay. Within the machine cannot be used out of the. It should not come out there because if you get out there and get in the wrong hand, there might be a problem.",
+    "mapped_id": "paradoxical_expectations",
+    "is_negative_case": false,
+    "rationale": "This statement captures the simultaneous high hope in AI's predictive capability ('We can create these') and the high perceived risk of its misuse, reflecting the paradoxical nature of expectations where the tool is both powerful and dangerous."
+  },
+  {
+    "expert_quote": "So with the with the culture diversity also we've been able to help, defined with Gallia come also language barrier... most of the tools... are in English... it's somehow not easy to interpret. The usage of a particular tool because of the language barrier... those who have... power are advanced so fluent... Now come and help those who do well require translation.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "Person 2 describes a scenario where a gap in understanding (due to language/tech literacy) requires team members to engage in 're-education labor'—translating and interpreting tool usage—to align the team. This matches the 'feedback_dissonance' friction of labor required to bridge unrealistic understanding gaps."
+  },
+  {
+    "expert_quote": "Feedback is important. There are areas I should adjust... there are certain contexts of these data which I don't know... getting those genuine feedback has been very important... being open. Not like checking it personally when given a feedback...",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": true,
+    "rationale": "Person 2 explicitly frames feedback as a positive, essential mechanism for learning and correcting course, not as a dissonant labor stemming from unrealistic user benchmarks. This contradicts the friction's definition of 're-education labor,' presenting it instead as valued collaborative correction."
+  },
+  {
+    "expert_quote": "And to do this. So they got some of the you should do these and you should do these. These will not work this. So what can you build? Somehow has helped me to grow, getting the feedback being open to those feedback and always asking question.",
+    "mapped_id": "trust_erosion",
+    "is_negative_case": true,
+    "rationale": "Here, Person 2 describes receiving critical, directive feedback ('this will not work') from more experienced teammates. Instead of causing disillusionment or resistance, this feedback is cited as a source of growth and learning, directly contradicting the 'trust_erosion' friction where such experiences lead to resistance and demands for redesign."
+  }
+]

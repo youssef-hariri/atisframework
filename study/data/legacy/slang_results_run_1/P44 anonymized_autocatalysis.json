@@ -1,0 +1,30 @@
+[
+  {
+    "rubric_indicator": "judgment_substitution",
+    "metaphor_mapping": {
+      "feedback_as_weapon": "Person 2 describes structured feedback systems as a potential 'weapon' that can demotivate or encourage a person based on how it is wielded. This metaphor aligns with the reconfiguration of human judgment, where the formalized system (a proxy for AI-driven performance metrics) can supplant nuanced, contextual human understanding and be used to control outcomes rather than foster growth."
+    },
+    "negative_case": "Person 2 consistently advocates for direct, personal human observation and intuition ('I just come and I see... I listen more than I talk') as the primary means to assess people and company culture. This emphasis on irreducible human perceptiveness and the limitations of formal 'proxies' (like interviews or HR systems) presents a negative case against the rubric's assumption that human judgment is being or will be effectively substituted by algorithmic or systematized prediction."
+  },
+  {
+    "rubric_indicator": "skill_obsolescence_pace / continuous_training_demand",
+    "metaphor_mapping": {
+      "onboarding_as_compressed_exposure": "Person 2 describes corporate onboarding as a 'compressed' process involving many courses, of which '50% you forget.' This metaphor highlights the misalignment between the rapid-fire delivery of information (akin to the pace of new AI tool releases) and the human capacity for absorption and retention, pointing directly to the 'continuous training demand' friction."
+    },
+    "negative_case": "While acknowledging formal training exists, Person 2 downplays its effectiveness and memorability. Instead, they posit that the most valuable learning for diverse teams comes from lived experience, travel, and direct interpersonal exposure ('the more you travel, the more you learn... this experience quite often is invaluable'). This suggests that the critical, non-obsolete skills for future work (cultural intuition, adaptability) are acquired through slow, human-centric means, not through modular, just-in-time training modules designed to combat technical obsolescence."
+  },
+  {
+    "rubric_indicator": "temporal_misalignment",
+    "metaphor_mapping": {
+      "probing_and_persistence": "Person 2's recommended approach of initial diplomacy, observation ('probe'), and then calibrated action based on human rhythms ('once you see the people') is a metaphor for navigating the clash between fast-paced project demands ('AI time') and the slow, relational time required to build effective human systems ('organizational time'). The advice to 'have patience' and the critique of endless discussion clubs that 'don't do anything' both highlight points of friction in this temporal alignment."
+    },
+    "negative_case": "Their narrative about a past company failure centers on a personal misjudgment of temporal alignment: 'probably my failure was that... I was trying to close my eyes for some things, for long time... should have... changed the company a little bit earlier.' This reflects a struggle to reconcile the need for rapid project progress with the slower process of accurately assessing and adapting to organizational culture, a core human-speed activity that autocatalytic technical change may disregard."
+  },
+  {
+    "rubric_indicator": "tool_proliferation / gen_AI_acceleration",
+    "metaphor_mapping": {
+      "the_art_not_the_science": "In discussing leadership and team dynamics, Person 2 concludes, 'it's more an art than science.' This metaphor starkly contrasts with the logic of tool proliferation, where new frameworks and AI systems promise scientific optimization and automation. It positions the core management challenge as inherently resistant to being solved by proliferating technical tools."
+    },
+    "negative_case": "While Person 1 enthusiastically describes using GenAI (Gemini/GPT) to accelerate academic research (directly illustrating 'gen_AI_acceleration'), Person 2's entire discourse operates in a parallel universe. Their solutions to complexity—perceptiveness, diplomacy, patience, shared hobbies—are resolutely low-tech and human-scale. This absence of any mention of AI tools to manage the very team and cultural complexities discussed is a potent negative case. It implies that in the realm of human organization, the velocity of generative AI may be irrelevant or even counterproductive to the core tasks of leadership and integration."
+  }
+]

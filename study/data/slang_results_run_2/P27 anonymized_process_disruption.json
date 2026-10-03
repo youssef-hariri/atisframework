@@ -1,0 +1,50 @@
+[
+  {
+    "expert_quote": "Everything was a bit more strict in terms of, you know like... The... You know like... Maybe you have to go to the office during certain times, right? You cannot be late.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "The slang 'strict' and the description of rigid, non-negotiable attendance policies reflect a cultural adherence to traditional, top-down control structures, contrasting with the flexibility needed for adaptive, data-intensive AI workflows."
+  },
+  {
+    "expert_quote": "There's not a lot of appreciation to what you do right. You're expected to work hard, and even if you don't get like, you know, good results. You get the blame, right? But in contrast to that, working in a American company... They do see your hard work, and even if you don't, you know like give like a tangible result. You're still appreciated.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "The participant's contrast between a 'blame' culture and one that appreciates 'hard work' highlights a deep-seated resistance to the experimental, failure-prone nature of AI development, where iterative, non-linear progress is key."
+  },
+  {
+    "expert_quote": "I was working mostly with data from this Financial Institute's right banks and these banks... we went allowed to store any of those data on our side. So we had to go to, you know, like sometimes we had to go to... The bank's IT department to, you know, like to most of our work... And you know, like we had to use their their own protocols that they have, you know, like set up in order to to a lot of stuff. So you know, it was like pretty. Difficult to work with...",
+    "mapped_id": "legacy_inflexibility",
+    "is_negative_case": false,
+    "rationale": "The description of having to physically go to a bank's IT department and conform to their 'own protocols' is a direct, human-floor example of legacy systems and inflexible data governance creating severe friction for data-intensive AI work."
+  },
+  {
+    "expert_quote": "So the credit scoring system... Was to be ultimately used to automate personal loans, right? So... we did introduce a lot of bias from these experts, right? Even though they were like experts, probably they may not have. Had the opportunity to the opportunity to look at the data... I think they're rather making this and based on their own experiences, right?",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "The quote explicitly contrasts 'experts' providing judgments based on 'their own experiences' (tacit, experiential knowledge) with the need to 'look at the data' (data-centric AI knowledge), illustrating the tension that defines this indicator."
+  },
+  {
+    "expert_quote": "I think it's not that different because you know, there's like a standard... There's a there's like a standard for software development. And I think we... I mean we I think we all follow like similar standard practices while doing stuff... So I think it depends on. The type of the company, rather than the culture, I think.",
+    "mapped_id": "integration_friction",
+    "is_negative_case": true,
+    "rationale": "This is a clear negative case. The participant contradicts the theoretical friction, stating that planning differences are due to company type (startup vs. established) and adherence to universal 'standard practices', not cultural factors that would create integration challenges for AI."
+  },
+  {
+    "expert_quote": "I feel like, you know, I suppose maybe you want, like, a holiday, right?... And they would, you know, like ask you, why do you need the holiday, you know?... Maybe you're sick and they're kind of ask you like, you know, like also when, like, bring your doctor's... Like prescription or something like that, right?... It doesn't that the manager doesn't need to know like why I need the holiday right?... A bit more invasive to our personal life.",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "The description of managers requiring justification for time off ('invasive') reflects a traditional, controlling management role focused on oversight of individual activity, in tension with the need for a more trust-based, oversight-focused role in managing autonomous AI systems."
+  },
+  {
+    "expert_quote": "We need data and it was like really hard to explain to like *******, you know, like ******* client. Like, we need access to this data in order for for us to provide you with the right solution for you. But they were like very hesitant about doing that... it was like very difficult to get feedbacks as well. Because I think. Probably I think it was probably because they had very less idea about, you know, like what they actually wanted.",
+    "mapped_id": "silo_breakdown",
+    "is_negative_case": false,
+    "rationale": "The 'hesitant' client and the difficulty in explaining cross-functional data needs ('we need access to this data') underscore the friction when AI projects, which require breaking down data silos, meet stakeholders entrenched in traditional departmental or organizational boundaries and mindsets."
+  },
+  {
+    "expert_quote": "I think you know by in that sense, we did introduce a lot of bias from these experts, right?... they may not have. Had the opportunity to look at the data... they're rather making this and based on their own experiences, right?... Some bias might have been introduced...",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": false,
+    "rationale": "The admission that expert-driven bias was introduced into an automated credit system ('to automate personal loans') directly illustrates the core tension between the goal of predictive automation and the risk of embedding unchecked human judgment (or bias), necessitating ethical oversight."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "rubric_category": "socio_technical_transition",
+    "evidence": "Person 2 hired a 'fresh candidate right out of college for AI only' to bring a 'fresh perspective,' explicitly creating a hybrid team where new, data-centric AI knowledge complements the existing team's business logic and experience.",
+    "strength": "High. A deliberate staffing strategy to initiate the transition.",
+    "metaphor": "\"New blood\" (for the junior AI engineer) signifies an injection of new, adaptive capability into an established system.",
+    "negative_case": "The transition is framed not as a full shift but as a complementary model. The 'existing workforce' is still valued for their business knowledge, suggesting a blended, not replaced, human role."
+  },
+  {
+    "rubric_category": "knowledge_clash",
+    "evidence": "The new AI engineer 'was not understanding the business logic and how the real world works. That was compensated by my [Person 2's] experience.' Conversely, the existing team had an 'under current' of doubt about AI's capabilities.",
+    "strength": "High. Explicitly stated as a core dynamic in the team's first project.",
+    "metaphor": "Experience as a 'compensating' force. The tacit, experience-based knowledge of the business acts as a counterweight to the new, purely technical AI knowledge.",
+    "negative_case": "The clash is presented as productive and manageable through leadership mediation, not as a destructive barrier."
+  },
+  {
+    "rubric_category": "integration_friction",
+    "evidence": "Describes the process of getting different departments (hardware, software, ERP) to test and adopt the AI copilot. The hardware team had a 'more practical' perspective, showing different evaluation criteria emerging.",
+    "strength": "Medium. Shows the challenge of embedding a new tool into varied existing workflows and mindsets.",
+    "metaphor": "Departmental 'perspectives' as different lenses through which the same AI tool is viewed, creating multiple points of friction for integration.",
+    "negative_case": "The friction was ultimately overcome, leading to adoption (e.g., the ERP team started asking the AI engineer for support)."
+  },
+  {
+    "rubric_category": "silo_breakdown",
+    "evidence": "The junior AI engineer's photo classification model was adopted by the 'hardware team' for their ID card process. A tool built in one context (AI development) became a routine part of another team's workflow ('they share it with him... he just makes it fit').",
+    "strength": "Medium. Demonstrates a practical, workflow-level breakdown of functional silos due to a useful AI application.",
+    "metaphor": "The AI model as a 'bridge' between the IT/software silo and the operational/hardware silo.",
+    "negative_case": "This breakdown is described as a success story ('they became... using him in their regular workflow'), not a point of conflict."
+  },
+  {
+    "rubric_category": "cultural_resistance (management_friction)",
+    "evidence": "Notes reluctance to adopt AI/Power BI tools among some senior teachers and specifically 'Arabic teachers.' Attributes this partly to cultural background and gender, e.g., 'gentlemen, we're not always taking that much interest.'",
+    "strength": "High. Directly links resistance to cultural and demographic factors, impeding the data-centric approach.",
+    "metaphor": "Cultural background as a 'lens' or 'filter' that shapes readiness to adopt new technology. Also implies a sense of hierarchical 'superiority' as a cultural barrier.",
+    "negative_case": "Resistance is also attributed to individual 'personality' and 'passion for work,' suggesting culture is not the sole or deterministic factor."
+  },
+  {
+    "rubric_category": "role_reconfiguration",
+    "evidence": "As a leader, Person 2's narrative focuses on managing team dynamics, setting KPIs, having one-on-one conversations to align expectations, and ensuring project continuity (e.g., needing a 'second in command'). This shifts from pure technical oversight to human-system orchestration.",
+    "strength": "High. The entire managerial approach described is about oversight, mediation, and ensuring ethical/procedural alignment within the team.",
+    "metaphor": "Leader as 'orchestrator' and 'mediator'—managing the 'heavyweight' pullers versus those who do the 'minimum,' and facilitating dialogue during cultural misunderstandings.",
+    "negative_case": "The reconfiguration is not framed around AI ethics specifically, but broader management of hybrid team performance and cultural integration."
+  },
+  {
+    "rubric_category": "legacy_inflexibility",
+    "evidence": "The exit interview of the former ERP leader revealed a clash between her expectation of a flat, first-name communication culture and the school's more hierarchical, designation-based 'legacy' culture. This inflexibility in organizational norms contributed to project leadership failure.",
+    "strength": "Medium. Shows how ingrained, traditional organizational culture (legacy) can conflict with the collaborative, agile styles often associated with modern tech projects.",
+    "metaphor": "Hierarchical titles (Sir/Ma'am) as 'rigid structures' that caused friction with a desired 'fluid' communication style.",
+    "negative_case": "Person 2 presents the school's hierarchical culture as the normative, correct standard, not as the inflexible element. The negative case is the *expectation* of change itself."
+  },
+  {
+    "rubric_category": "role_transition_hurdles",
+    "evidence": "The former ERP leader failed because she did not empower her team or 'develop second line leaders,' instead micromanaging tasks. This is a failure in the managerial role transition needed for effective project scaling, which she resisted.",
+    "strength": "Medium. Highlights a specific instance where an individual's inability to transition from a task-doer/controller to an enabler/leader caused project dysfunction and eventual departure.",
+    "metaphor": "Micromanagement as 'hoarding the picture'—keeping the overall project vision and control to oneself, preventing team growth.",
+    "negative_case": "The narrative places the blame on the individual's management style, not on systemic hurdles or a lack of organizational support for reskilling."
+  }
+]

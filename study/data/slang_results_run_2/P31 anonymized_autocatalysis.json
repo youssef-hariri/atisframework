@@ -1,0 +1,44 @@
+[
+  {
+    "expert_quote": "Things need to be adjusted for right and try to understand it and you try to like say. Something like? Yeah, even if we really like each other, we want to continue working together, right? Regardless of that, what do you think about this particular screen? You know, right. Like this this deliverable?... That's that's like something that's a challenge needs to be to be worked on. And you know, sometimes you get the feedback that you're looking for or or the get across the idea or whatever. And sometimes you say, OK, didn't get through this time. Try again. Next time, keep. Keep in mind that this like has not been communicated all the way yet.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "The expert's focus on navigating relational, communicative, and feedback challenges ('things need to be adjusted', 'challenge needs to be worked on') with clients from business backgrounds, prioritizing mutual understanding and iterative communication over pure technical or economic delivery. This reflects a shift in focus from technical output to the human processes of acceptance and collaboration, which the rubric identifies as a symptom of the socio-technical shift driven by AI's velocity."
+  },
+  {
+    "expert_quote": "So it becomes too much. It becomes too much actually, yeah.... It can be because of the complexities of AI. It can sometimes be like a situation is too political. In addition to multicultural. And then things fail, right, et cetera.... So, you want to maybe... decide where to spend your complexity budget.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "The metaphor of a 'complexity budget' to describe the cognitive and organizational load of managing AI complexity, multicultural dynamics, and office politics simultaneously indicates a state of overload. This aligns with the rubric's description of a socio-technical shift where the human and social dimensions (acceptance, communication, cultural navigation) become primary, critical points of friction due to the foundational pressure of technical velocity."
+  },
+  {
+    "expert_quote": "I've often had the feeling that this French educated person right is thinking about things in a more. Mathematical and theoretical perspective, right? Then maybe someone else, right?... And yeah, man, that like gives some in the right context. That is a superpower, right? Which enriches the conversation in a different context. It might make a project a person, right? Let's suitable maybe to a project that you know doesn't care about that so much or isn't as as affected by that, right?",
+    "mapped_id": "skill_obsolescence_pace",
+    "is_negative_case": false,
+    "rationale": "The expert categorizes skill sets ('mathematical and theoretical perspective') as 'superpowers' that are context-dependent, noting a person can become mismatched or 'not suitable' for a project. This reflects the underlying dynamic of skill obsolescence, where the value and relevance of deep technical competencies are not static but fluctuate rapidly with changing project needs, driven by the fast pace of AI innovation."
+  },
+  {
+    "expert_quote": "I never talk to French people about that. That's not even... That's not true, right? And also, even if it were true, right, there's never enough data and it doesn't. It doesn't make sense, right? But talking to people candidly about like the parts that they care about more and the parts they're better at, I think is important right in in navigating this.",
+    "mapped_id": "judgment_substitution",
+    "is_negative_case": false,
+    "rationale": "The expert explicitly rejects relying on stereotypical cultural or skill-based 'data' (a proxy for algorithmic prediction) for judgment. Instead, they advocate for candid, personalized dialogue to understand individual strengths. This demonstrates an active, human-centric process of judgment formation, resisting the substitution by generalized, data-driven categorization, which is core to the 'judgment_substitution' indicator."
+  },
+  {
+    "expert_quote": "I don't think I've had an opportunity where where that came up.",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": true,
+    "rationale": "When asked about direct experience with data privacy/ethics or model bias as cultural points, the expert explicitly states a lack of personal experience. This is a negative case for 'regulatory_lag' as it suggests that, in their specific consulting context, these governance and ethical challenges have not yet manifested as salient, hands-on issues requiring navigation."
+  },
+  {
+    "expert_quote": "One of the things that happened is that when something became. When a new idea maybe became accepted, I tried it on on multiple people. Or whatever, right? There was a feeling like. If it succeeds, then it's surviving multiple filters, right? It like makes sense to people who have different backgrounds also academically right?... But also culturally and then that it comes out stronger because of this.",
+    "mapped_id": "recursive_innovation",
+    "is_negative_case": false,
+    "rationale": "The process of iteratively testing a 'new idea' through 'multiple filters' of diverse cultural and academic perspectives to strengthen it mirrors the recursive, self-improving logic of autocatalysis. The human/social network becomes the accelerator and validation mechanism, paralleling how AI tools are used to accelerate further AI development, but applied here to the refinement of ideas within a heterogeneous team."
+  },
+  {
+    "expert_quote": "So, for example. I need help to finish some proof right. And that guy is the right guy to talk about. Now I need to explain or think. Think about how different stakeholders might read the project. Abstract, right? Maybe he is not the guy to like. Talk about the wording, etcetera, etcetera with extensively, right?... Like I still want his perspective, right? But I know, OK. I got his perspective. And now maybe someone else is better to like. Hash these things out with.",
+    "mapped_id": "integration_debt",
+    "is_negative_case": false,
+    "rationale": "The expert describes a workflow of dynamically routing specific tasks (proofs, stakeholder communication) to individuals based on their niche strengths, acknowledging the incompatibility of a single person's skillset with all project needs. This mirrors 'integration debt,' where legacy or specialized human 'components' (skills, perspectives) must be actively managed and orchestrated because they are not universally compatible or integrated into a seamless whole."
+  }
+]

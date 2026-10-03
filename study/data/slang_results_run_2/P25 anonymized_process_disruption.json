@@ -1,0 +1,26 @@
+[
+  {
+    "expert_quote": "So don't feel like culture influenced much in that sense, because our clients were mostly from us. So we had to think about the US customer.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": true,
+    "rationale": "Explicitly states that cultural background did not influence workflow or decision-making, contradicting the theoretical expectation of cultural resistance as a source of friction when integrating data-centric, AI-driven approaches."
+  },
+  {
+    "expert_quote": "So because this company is basically now tries to target have these solutions for Africa, then every country we go to, we have to understand the system they work with. And so that we can solve for their needs, yeah.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "Highlights the necessity of acquiring local, context-specific ('the system they work with') knowledge to build effective solutions, illustrating a potential tension with standardized, data-centric AI models that may lack this tacit understanding."
+  },
+  {
+    "expert_quote": "And I think no, it would be evident, for instance, how strong willed Nigerians are when they are. They're really passionate about something, and sometimes it actually address our issues better 'cause they will really push a Kenyan. Maybe try to, you know, try to downplay something or just be like. It's such a big deal a Nigerian will not shut up about it. Like. No, no, no, no. This is the worst thing. I'm being undermined.",
+    "mapped_id": "silo_breakdown",
+    "is_negative_case": false,
+    "rationale": "Describes how assertive communication styles from different cultural backgrounds can break down passive consensus ('downplay something'), forcing cross-functional issues to the surface and challenging established team dynamics, aligning with the silo_breakdown indicator."
+  },
+  {
+    "expert_quote": "It's a reality where many models are being trained with content. Excluding black people, excluding like anyone else that is not white male. We've seen these, so it's not wild to think we'll also have the same bias, because even for models, for cars, most times when their training. When they're testing for accident, they mostly use a white man or.",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": false,
+    "rationale": "Directly addresses the core conflict between automated, predictive systems and the need for inclusive human ethical oversight, using the concrete example of biased training data and testing protocols ('use a white man')."
+  }
+]

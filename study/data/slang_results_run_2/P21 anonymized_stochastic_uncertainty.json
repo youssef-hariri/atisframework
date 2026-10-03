@@ -1,0 +1,56 @@
+[
+  {
+    "expert_quote": "the inherent problem of. Just the sheer complexity in a variation of AI. So there's a big mindset shift from deterministic solutions to more stochastic meaning. AI introduces a lot of variations in edge cases that people don't normally understand.",
+    "mapped_id": "non_deterministic_outputs",
+    "is_negative_case": false,
+    "rationale": "The phrase 'a lot of variations in edge cases' and the explicit contrast to 'deterministic solutions' directly describes outputs that are not fixed and can vary, which is the core of non-deterministic outputs."
+  },
+  {
+    "expert_quote": "It's typical for people to think of the positive. Case and assume that it's gonna work like that way, but AI is never like that, right? So. There are always some edge cases that are happening",
+    "mapped_id": "probabilistic_variance",
+    "is_negative_case": false,
+    "rationale": "The statement 'AI is never like that' and the inevitability of 'edge cases' describes the inherent statistical fluctuations and unpredictability in AI predictions, matching the description of probabilistic variance."
+  },
+  {
+    "expert_quote": "And they spent a lot of money only to realize that it was the wrong people.",
+    "mapped_id": "lack_of_reproducibility",
+    "is_negative_case": false,
+    "rationale": "The context is a failed AI implementation where trust and human factors prevented adoption. The inability to replicate the technical success in a new organizational/cultural context points to a fundamental lack of reproducibility in AI-driven outcomes."
+  },
+  {
+    "expert_quote": "the biggest problem is data. Right, so you need. You need an evaluation set. A training set. An evaluation set in most in to properly fine tune the model... And just a question of getting access to real data is a fundamental problem, right?... Because they've been working on a system for 20 years for the old system. To rapidly change things and trust AI, to do part of their work takes away stuff from them.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "The expert identifies data access and quality as the 'fundamental problem' and links legacy system dependency and human trust directly to the challenge of adapting to AI, highlighting the model's high sensitivity to historical data relevance and quality."
+  },
+  {
+    "expert_quote": "So your mental model should be more like it's probabilistic. It's not linear because of nature AI so.",
+    "mapped_id": "non_linear_estimation",
+    "is_negative_case": false,
+    "rationale": "The explicit instruction to adopt a 'probabilistic' and 'not linear' mental model for AI directly contradicts traditional linear project management paths, aligning with the concept of non-linear estimation for costs and schedules."
+  },
+  {
+    "expert_quote": "AI implementations models inherently pre built. And it's 100% black box, right?",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The description of AI models as a '100% black box' is a classic professional slang term for systems whose internal decision-making logic is complex and inaccessible, leading to hard-to-explain outcomes."
+  },
+  {
+    "expert_quote": "I have had a customer. We implemented AI and they they fundamentally told us they need 100% certainty with this AI solution... And they spent a lot of money only to realize that it was the wrong people.",
+    "mapped_id": "baseline_erosion",
+    "is_negative_case": false,
+    "rationale": "The customer's demand for '100% certainty' against the inherent uncertainty of AI, leading to project failure and wasted investment, exemplifies how probabilistic variance forces a breakdown in forecast commitments and project baselines."
+  },
+  {
+    "expert_quote": "And I realized fundamentally it was an issue on trust. Because they've been working on a system for 20 years for the old system. To rapidly change things and trust AI, to do part of their work takes away stuff from them. But fundamentally, it takes away trust. They don't trust it.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": false,
+    "rationale": "The erosion of trust in the AI system, rooted in its opaque nature and the displacement of human roles, creates a scenario where it is difficult to assign clear responsibility for AI-derived decisions and outcomes."
+  },
+  {
+    "expert_quote": "Machine learning is 100% deterministic. There's a degree of confidence and you tie them together.",
+    "mapped_id": "non_deterministic_outputs",
+    "is_negative_case": true,
+    "rationale": "This is a negative case. The expert contrasts deterministic Machine Learning with stochastic AI, explicitly stating that a core component (ML) is '100% deterministic,' which contradicts the inherent non-determinism central to the broader stochastic uncertainty construct."
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "expert_quote": "everyone wants to invest less and get output more.",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": false,
+    "rationale": "The phrase 'invest less and get output more' encapsulates a client expectation of disproportionately high utility from minimal input, directly mapping to the 'utility_mismatch' indicator where AI is assumed to perfectly align with and amplify organizational goals without commensurate effort or investment."
+  },
+  {
+    "expert_quote": "AI will AI have there don't have their own mind. They have only the memory. So you need to lick from his mind like like a like a kid like kid is you need to be with a spoon feeding like to do anything.",
+    "mapped_id": "magic_box_perception",
+    "is_negative_case": true,
+    "rationale": "The metaphor of spoon-feeding a child directly contradicts the 'Magic Box' indicator. It deconstructs the perception of AI as autonomous and infallible, instead framing it as a dependent tool that requires meticulous, step-by-step human instruction and lacks inherent intelligence."
+  },
+  {
+    "expert_quote": "it's totally depend upon the users user like you and me how to use the technology... you are giving the excess... The data is always present there after deleting the chat... your data will like like explore worldwide.",
+    "mapped_id": "trust_understanding_gap",
+    "is_negative_case": false,
+    "rationale": "Person 2 highlights a critical gap between user optimism about AI's utility and the opaque, risky reality of data storage and privacy. The professional concern about data persisting and being exposed 'worldwide' undermines trust and illustrates the 'trust_understanding_gap' where high optimism is compromised by unsatisfactory, opaque system behavior."
+  },
+  {
+    "expert_quote": "I show him where the chat DP is storing his data. I show him he was in shock school of ****. He's storing each and everything.",
+    "mapped_id": "explainability_deficit",
+    "is_negative_case": false,
+    "rationale": "The reaction of shock from an experienced professional upon discovering where and how AI stores data points to a fundamental 'explainability_deficit.' The system's operations were not transparent or interpretable to the user, leading to surprise and concern, which aligns with frustration due to a lack of transparent decision-making processes."
+  },
+  {
+    "expert_quote": "before using any AI. I'm not talking about a copilot... Please go through in deep... Pro Cons and especially the storage part.",
+    "mapped_id": "paradoxical_expectations",
+    "is_negative_case": false,
+    "rationale": "The advice to deeply analyze pros, cons, and storage before use reflects 'paradoxical_expectations.' It acknowledges the high potential (pros) of AI while simultaneously emphasizing the high perceived risk (cons, storage dangers), capturing the coexistence of hope and caution that stakeholders hold."
+  },
+  {
+    "expert_quote": "the all the clients is looking for that. They want the integrations with their current like current software or current. System they want to integrate AI in their current without like a he just they just want to upgradeing. Their system.",
+    "mapped_id": "dreams_vs_reality",
+    "is_negative_case": false,
+    "rationale": "The description of clients wanting to simply 'upgrade' their current system with AI contrasts an idealized, plug-and-play vision ('dreams') with the complex reality of systems integration. This slang points to a gap between the imagined seamless capability and the practical, often messy, work required to make it function."
+  }
+]

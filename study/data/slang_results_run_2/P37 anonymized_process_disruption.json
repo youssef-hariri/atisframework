@@ -1,0 +1,38 @@
+[
+  {
+    "expert_quote": "I would say typically if I speak with potential clients in the like the European Economic Area in the UK... the mindset is around how do we make this safe and privacy concerns, data sovereignty... Whereas if it's... people in the US... we're more focused on how can this enable... our business use cases and the safety and the ethics of the implementation... can be handled down the line once the economic value is proved",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": false,
+    "rationale": "The slang 'handled down the line' reveals a professional friction: the perceived sequential order of proving economic value first versus embedding ethical oversight from the start. This maps directly to the conflict between the drive for predictive automation and the mandated need for human ethical oversight in AI workflows."
+  },
+  {
+    "expert_quote": "You typically need a very opinionated, a very opinionated domain expert that would work with the technology team to help determine... what's the right place to implement AI and what are the right workflows that can be automated",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "The phrase 'very opinionated domain expert' captures the shift from traditional process management to a new role requiring deep subject matter authority. This signals the reconfiguration of project roles toward individuals who can provide the ethical and practical judgment needed for AI system oversight, moving beyond linear task execution."
+  },
+  {
+    "expert_quote": "That person's background can have a massive impact on... which use cases get implemented",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "The emphasis on an individual's 'background' determining project selection highlights the tension between data-centric AI logic and the influence of tacit, experience-based human knowledge. It underscores how personal perspective and 'worldview' become critical, non-linear inputs in AI workflow decisions."
+  },
+  {
+    "expert_quote": "Part of it is cultural, part of it is probably because of the distance... we were selling virtually remotely... I think once I met with them in person... not even a month later, they wanted to have a commercial discussion",
+    "mapped_id": "integration_friction",
+    "is_negative_case": true,
+    "rationale": "Person 2 explicitly attributes a failure more to the 'distance' of 'virtual selling' than to a fundamental cultural clash in work processes. This acts as a negative case for 'integration_friction,' suggesting the friction might be mediated by communication medium rather than an inherent incompatibility of AI workflows with existing methodologies."
+  },
+  {
+    "expert_quote": "They weren't... you might be familiar with this, but English people are some of those that don't speak very directly... and kind of force you to read between the lines and sometimes they even say the exact opposite of what they mean... So for example, if an English person says, oh, that was quite good. Actually, it wasn't good at all. It was actually very bad.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "The description of indirect communication where 'quite good' means 'very bad' is a vivid, human-floor example of tacit, experiential knowledge that directly clashes with the explicit, data-driven logic of AI systems. It illustrates the profound challenge of encoding nuanced human judgment and context into automated workflows."
+  },
+  {
+    "expert_quote": "The people who are in region are much more successful. And to me, one of the possible indicators... is likely that they understand the cultural nuances because they are there as opposed to trying to... sell the same way as you would to somebody here in New York.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "The slang of being 'in region' versus applying a one-size-fits-all ('sell the same way') approach from New York captures the core of cultural resistance. It points to the friction of imposing a standardized, often US-centric, data-centric methodology without adapting to local experiential knowledge and business customs."
+  }
+]

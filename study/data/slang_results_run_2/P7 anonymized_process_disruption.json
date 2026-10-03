@@ -1,0 +1,92 @@
+[
+  {
+    "expert_quote": "We need to have a very good communication environment... we need to have an A standard language just like the English one and also get some notes and that note needs to be like very well done.",
+    "mapped_id": "silo_breakdown",
+    "is_negative_case": false,
+    "rationale": "The quote describes the need for standardized, clear communication and documentation that can be understood by an entire team and external stakeholders. This directly addresses the breakdown of traditional departmental and cultural silos by creating a shared, cross-functional understanding, which is central to the 'silo_breakdown' indicator of undermining traditional boundaries through data-centric collaboration."
+  },
+  {
+    "expert_quote": "Now having technologies just like, I don't know, chat, GPT or devil, it's easier to write something and put that on the documentation. It will be readed by someone I don't know also, but outside the team and understand what we are trying to say.",
+    "mapped_id": "silo_breakdown",
+    "is_negative_case": false,
+    "rationale": "The speaker highlights how AI tools facilitate documentation that must be consumable beyond the immediate team. This reflects the 'silo_breakdown' indicator, as it emphasizes the need for knowledge transparency that transcends traditional team or departmental boundaries, a friction point when integrating data-intensive AI into linear workflows."
+  },
+  {
+    "expert_quote": "This is like for developers, for data scientists or researchers, this is like the the the customer is like the enemy because maybe he has a lot of ideas, a lot of like the ideas that are in the cloud or the the heaven. And that's something that we need to, like put all the things on the floor and and say OK. We we can do this. But we we can't do the other things, and I need that.",
+    "mapped_id": "integration_friction",
+    "is_negative_case": false,
+    "rationale": "This quote describes the classic friction of integrating AI/ML project requirements (which can be vague and 'in the cloud') into a concrete, deliverable plan. The act of translating lofty ideas into feasible technical tasks ('put all the things on the floor') is a direct manifestation of the challenges in 'integration_friction'—embedding adaptive, often ambiguous AI work into structured, phase-based project lifecycles."
+  },
+  {
+    "expert_quote": "It's important to to know how to explain all of that things, because we we, we this is not useful if we are like so technical. We need to put everything and say, OK, we are going to do this and try to explain in the most, umm not easier, but most friendlier way to the customer, yeah.",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "Here, the data scientist describes the necessity of moving beyond pure technical execution to act as a translator or communicator for the customer. This shift from a purely technical role to one involving communication, expectation management, and ethical/business judgment aligns with the 'role_reconfiguration' indicator toward system oversight and stakeholder liaison."
+  },
+  {
+    "expert_quote": "There is a big gap of differences by country... the Mexican people at once to know everything about like they they want. If they don't understand something, they want to know it... the US people is not like that. It's like give me the the most simpler definition and I will take some decisions about that.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "This describes a fundamental tension in knowledge expectations: deep, technical, exhaustive understanding versus simplified, decision-oriented briefs. This 'knowledge_clash' is between data-centric, detailed AI/ML knowledge processes and the tacit, experience-based, or business-oriented knowledge approaches of different stakeholders, creating friction in project communication and requirements gathering."
+  },
+  {
+    "expert_quote": "I don't prepare previously for that. This is like yes, just just we need to be like neutral... I never prepared for like some yeah, like I culture or or kind of people from from a specific country.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "The speaker's explicit non-preparation for cultural differences and reliance on a 'neutral' stance exemplifies 'cultural_resistance'. It shows a default approach that may overlook or distrust the need for culturally adaptive strategies, favoring a one-size-fits-all or purely technical method over engaging with experiential and cultural knowledge differences."
+  },
+  {
+    "expert_quote": "Most on the planning... the team needs to have like a very good environment and the environment includes the communication includes how people interact with the others and also like some technical skills that are not exactly from the software engineer. Just like taking notes, get some like personal planning... I think that each of the phases has each of the phases have very specific points that we need to to to define well, and I consider that the culture is different on each of them.",
+    "mapped_id": "procedural_nonlinearity",
+    "is_negative_case": false,
+    "rationale": "The focus on planning, interpersonal interaction, and non-technical skills like note-taking for definition highlights how AI project success depends on iterative, human-centric processes (communication, planning) that are not strictly linear or phase-gated. This contrasts with traditional sequential methodologies, pointing to 'procedural_nonlinearity' where adaptive, collaborative groundwork conflicts with rigid phase-based models."
+  },
+  {
+    "expert_quote": "I think that first we need to put like the the framework like the the job framework as a standard... If we don't have like a... box... we need to put everything in order... So I consider that everything needs to have an order and that will need. We need to to know that everyone there knows that.",
+    "mapped_id": "workflow_brittleness",
+    "is_negative_case": false,
+    "rationale": "The emphasis on establishing a rigid, standardized 'box' or framework for work order reveals a concern for structure in the face of potential chaos. This speaks to 'workflow_brittleness'—the inherent vulnerability of linear processes when integrating the adaptive, often unstructured nature of AI/ML work. The need for strict order is a compensatory mechanism for this brittleness."
+  },
+  {
+    "expert_quote": "Formalizing things is something important because, umm, we are not going to be able to to escale the project or scale what we are trying to to do.",
+    "mapped_id": "workflow_brittleness",
+    "is_negative_case": false,
+    "rationale": "The link between formalization and scalability underscores the fragility of informal, adaptive AI workflows. The speaker implies that without formal structure (a linear process hallmark), the non-linear AI work cannot be scaled reliably, directly relating to the 'workflow_brittleness' indicator of increased vulnerability in linear processes when integrating adaptive AI."
+  },
+  {
+    "expert_quote": "The coworkers needs to be participative on that, on that face... they they are seeing like hey we we put like 10 points here, 1010 track 10 issues but they didn't know what is more important or what is what what is going to be prioritized.",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "This quote highlights the need for team participation in prioritization, a task that requires moving beyond execution to making judgment calls about value and resource allocation. This shift toward collaborative decision-making and oversight is a key aspect of 'role_reconfiguration', where project contributors take on more strategic, judgment-oriented roles."
+  },
+  {
+    "expert_quote": "This is like a, a, a subject that is not currently developed on Latin America... in the universities we don't have like that subject in our career curricula... it's rare to find someone that knows about ethics in, not in America, yeah.",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": false,
+    "rationale": "The statement identifies a systemic lack of formal ethics education and awareness in certain regional contexts for AI/ML. This directly points to 'ethical_automation_tension'—the conflict between the push for predictive automation and the foundational need for human ethical oversight, which is undermined when such knowledge is absent from the professional ecosystem."
+  },
+  {
+    "expert_quote": "About privacy of the data... that's a problem... some regulation needs to be done, yeah... here are my country. I am living in Peru. There is nothing, uhm, regulating all of that.",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": false,
+    "rationale": "The explicit mention of absent data privacy regulations in the context of AI/ML work highlights a concrete instance of 'ethical_automation_tension'. It underscores the conflict between advancing data-intensive automation and the lack of a governing ethical/legal framework to provide necessary oversight and guardrails, creating a significant project and systemic risk."
+  },
+  {
+    "expert_quote": "For the US... we have like a BPN... we are not able to see the database data... all that sensitive information are not present. So I think it's very different. It's completely different from from my country, yeah.",
+    "mapped_id": "legacy_inflexibility",
+    "is_negative_case": true,
+    "rationale": "This is a NEGATIVE CASE for 'legacy_inflexibility'. The speaker describes a US context with modern, strict data privacy protocols (BPN, anonymized test data) that actively prevent access to sensitive information. This contrasts with the rubric's definition of 'legacy_inflexibility' (dynamic data needs hindered by legacy software for static reporting), showing an environment where systems are adapted to contemporary data ethics needs, not hindered by legacy tech."
+  },
+  {
+    "expert_quote": "They wait for you to understand why what they are trying to say... I think that they need to to bear to be very precise or about the definitions. They are making and that's not the case for the Argentinian people... they put everything very specific on on the on their documents.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "This contrasts implicit, expectation-based knowledge sharing (Mexico) with explicit, documented knowledge sharing (Argentina). This variance in communication and knowledge transfer protocols between cultures creates a 'knowledge_clash', generating friction between tacit, experience-based human understanding and the need for precise, explicit, data-centric specifications in AI workflows."
+  },
+  {
+    "expert_quote": "In my team, everyone knows Spanish... it's like we talk and we know what we are trying to to talk to say... maybe they they don't understand a word, but we can explain them in certain way... I don't know a sarcastic way and they understand that. So maybe that that, that doesn't that won't work in other languages in, in in a multi multi... when we have a lot of countries.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "The speaker notes that shared language and cultural nuance (e.g., sarcasm) work in a mono-lingual/cultural team but break down in a multi-country context. This acknowledgment of limitation, however, is not paired with a strategy to overcome it, reflecting an underlying 'cultural_resistance'—a potential distrust or underestimation of the need to actively manage deep cultural and communicative differences in favor of simpler, homogeneous team structures."
+  }
+]

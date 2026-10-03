@@ -1,0 +1,44 @@
+[
+  {
+    "expert_quote": "The economic and the social standpoint is something that makes a difference in the sector that I'm working in. So for example, if I have clients in India, since India is going towards that world where everything is digital and you know people are trying to get into that space, I think Middle East has just started that if I'm not wrong, they are trying to. They're trying to train people in, you know, AI.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "The quote describes a differential pace of digital transformation and readiness to adopt AI ('just started'), which implies a potential friction where legacy cultural attitudes and pace of change ('economic and social standpoint') may resist rapid, data-centric AI adoption."
+  },
+  {
+    "expert_quote": "The major difference is that it is more of so people in the Middle East, they are more welcoming to the idea that, OK, we might want to train people and we might want to build that workforce. But in India, since there is so much, you know, availability of resources and there are so many people trained, there are so many colleges, people are getting those kind of, you know, skill sets. So I think there is some sort of adversity I would say.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "The term 'adversity' points to friction arising from a saturated, experience-based knowledge ecosystem in India, which may be resistant to or clash with new, external AI training paradigms, contrasting with a more receptive 'welcoming' culture elsewhere."
+  },
+  {
+    "expert_quote": "I try to research a lot about the person that I am meeting and I try to yeah, I try to talk about common topics and generally about the company. What are the pain. So for example, the company has a product, so how can we make it better and just to break the ice also I try to be very human...",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "The emphasis on 'very human' interaction and researching the person contrasts with a purely data-centric AI approach. This highlights the tension between relying on tacit, relational human knowledge and the impersonal, data-driven logic of AI systems."
+  },
+  {
+    "expert_quote": "So humans are with emotions and I have nobody can steal that away from us. What? You know AI is doing is that it can have like a plethora of phrases and questions that they can pose in front of a client. But when it comes to understanding in what state the client is, maybe for example, if I'm talking to you, if I know what your mood is, I would maybe try to have a conversation a particular way, right?",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "The quote directly contrasts AI's 'plethora of phrases' (data-centric, algorithmic knowledge) with human emotional intelligence ('understanding in what state the client is'). This is a core semantic expression of the tension between tacit human experience and codified AI knowledge."
+  },
+  {
+    "expert_quote": "For example, I have people who have worked in Amazon... If you are dealing with, let's say, American people, there are some things that are very personal to them. You cannot speak that way. And there was I think something very it was very new to me. But somebody told me that whenever you are speaking to anyone who is from America, you cannot refer to them as he or she. It's always there.",
+    "mapped_id": "role_transition_hurdles",
+    "is_negative_case": false,
+    "rationale": "The description of needing to learn new communication norms ('very new to me') for different cultural contexts illustrates the reskilling and adaptation hurdles required for roles in international, AI-driven environments, disrupting established communication practices."
+  },
+  {
+    "expert_quote": "With scrums and daily meetings tasks going into backlog and then reworking on it, I think upskilling is also very important because let's say in some parts of the country in India I'm talking about, there are still some people with the notion that AI is working on rudimentary concepts but right now the technology has developed. I think it is on another level right now. So we have to be very fast-paced. We have to understand things quickly and I think for that companies also need to invest in a lot of, you know upskilling projects, they cannot just rely on one person's knowledge or existing knowledge, they have to see how they can, you know amp up their speed and be relevant.",
+    "mapped_id": "role_transition_hurdles",
+    "is_negative_case": false,
+    "rationale": "The professional slang 'upskilling projects' and 'amp up their speed' directly describes the disruptive need for continuous reskilling to keep pace with AI's rapid evolution, which challenges established hierarchies and static knowledge bases ('cannot just rely on one person's knowledge')."
+  },
+  {
+    "expert_quote": "For example, I have people who have worked in Amazon ... they have to be aware. I think if the client is from any particular region, you have to be aware that what is happening you you have to be empathetic. For example if you are talking to somebody from a country who has recently faced a turmoil period. So you have to be empathetic. You have to know what sort of messaging would work.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "The requirement for empathy and contextual awareness ('know what sort of messaging would work') underscores a human-centric, experiential approach that can clash with or be necessary to overcome resistance to standardized, automated, or data-centric AI methodologies in different cultural settings."
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "expert_quote": "Right now we are on in the R&D for for the AI part. So basically we're trying to integrate it in our startup basically, yeah.",
+    "mapped_id": "integration_friction",
+    "is_negative_case": false,
+    "rationale": "The phrase 'trying to integrate it' indicates an ongoing challenge of embedding AI (non-linear) into an existing startup structure (implied linear, phase-gated processes), directly reflecting the definition of integration friction."
+  },
+  {
+    "expert_quote": "We're training [the AI model] on, for example, the challenge we're having now is that how you can bring in. I can understand the Algerian dialect.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "The challenge of understanding a dialect highlights the tension between data-centric AI models (requiring specific, structured data) and tacit, experience-based human linguistic and cultural knowledge that is difficult to codify."
+  },
+  {
+    "expert_quote": "Yeah, it's really skeptical because this is a really a sceptical topic as well, because everyone thinks what matters. For example, things that someone has to know every fingerprint of his data where it's going.",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": false,
+    "rationale": "Expressing skepticism and the need to know the 'fingerprint' of data shows a conflict between the desire for predictive automation and the need for human oversight and ethical control over data usage."
+  },
+  {
+    "expert_quote": "But at the end, you know, we have to come down to what the industry right now is going. We cannot put our own rules like say hey, we can't. Sweet. It's nice, but at the end it it could lead to many effort. It could lead to some. As a startup, you know you have to umm, you have to be a little bit fast at the process.",
+    "mapped_id": "workflow_brittleness",
+    "is_negative_case": false,
+    "rationale": "The pressure to be 'fast' and adapt to industry pace ('what the industry right now is going') highlights the vulnerability and brittleness of traditional, planned startup processes when trying to integrate dynamic, fast-moving AI development."
+  },
+  {
+    "expert_quote": "No, not really, because everyone is focused with the end goal. Actually, everyone is focused on what is the purpose of the I I and that's it. So there is no other question coming up around because it's. And then we dive more into technically about it.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": true,
+    "rationale": "This is a negative case. Person 2 explicitly states that a singular focus on the technical end-goal overrides any distrust of data-centric approaches or preference for experiential knowledge, contradicting the 'cultural_resistance' friction."
+  },
+  {
+    "expert_quote": "So I don't know if this is related to ethic but and counting. This is basically kind of yeah training. The model for using such a data from the Internet. As yeah, we, we, we literally go through every every iteration. We try and also to find what is the bad words? What is the the harm content and then trying to extract them out and then use it to fit the model to train it by this.",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "The description of manually curating data for ethics ('bad words', 'harm content') exemplifies the project manager/team shifting focus from pure development oversight to active ethical judgment and system safeguarding, a core aspect of role reconfiguration."
+  },
+  {
+    "expert_quote": "The practical part was their mentor, so I had to show them how to code. Showed them how to interact in a culture, how to live, even on track with me as being not German.",
+    "mapped_id": "role_transition_hurdles",
+    "is_negative_case": false,
+    "rationale": "The need to mentor in both technical ('how to code') and cultural interaction skills illustrates the reskilling demands and the disruption to established roles and communication hierarchies within a team, a key hurdle in role transition."
+  }
+]

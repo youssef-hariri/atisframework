@@ -1,0 +1,66 @@
+[
+  {
+    "indicator": "trust_understanding_gap",
+    "context": "Describing the different mindsets within the existing IT team towards AI adoption.",
+    "evidence": "They know AI, but still they had that under current they always had that. This AI how it will, what will be their capability. Whether how much I can use this? How this will play out?",
+    "metaphors": ["under current"],
+    "negative_case": false,
+    "note": "Highlights a cautious, questioning optimism from experienced staff, contrasting with the junior engineer's naive embrace."
+  },
+  {
+    "indicator": "anthropomorphic_projection",
+    "context": "Feedback from the junior AI engineer's father testing the Copilot.",
+    "evidence": "He told me that his father liked it... Give me a Python code and it could do that. So in that case he was very happy and proud that he could achieve something.",
+    "metaphors": [],
+    "negative_case": false,
+    "note": "The father's test (requesting code) treats the AI like a human expert, and the son's pride stems from it passing this human-centric test."
+  },
+  {
+    "indicator": "utility_mismatch",
+    "context": "Describing teacher resistance to AI-powered tools for teaching.",
+    "evidence": "Some of them, they were not very. Readily accepting. That they felt that, no, this could not be suitable for my subject... I'm happy where I am. I'm doing this particularly OK.",
+    "metaphors": [],
+    "negative_case": false,
+    "note": "Teachers reject the tool based on a perceived misalignment with their specific subject goals and established teaching identity."
+  },
+  {
+    "indicator": "unfairness_barriers",
+    "context": "Observing lower adoption rates among Arabic teachers, linking it to cultural and linguistic identity.",
+    "evidence": "I found little reluctance in my Arabic teachers... They could have felt that. OK, see this Arabic? My the language of the land. So I'm little superior to these people here, so they were not readily accepted.",
+    "metaphors": [],
+    "negative_case": false,
+    "note": "Suggests resistance may stem from a perception that an AI tool (likely in English or from a non-Arabic context) does not fairly respect or align with their cultural and professional domain."
+  },
+  {
+    "indicator": "trust_understanding_gap",
+    "context": "Comparing adoption willingness between different cultural/national groups within the staff.",
+    "evidence": "I will say SE Asians... they all are ready to adopt, whereas the Arabic teachers we always had... little reluctance... that could be because of the cultural background.",
+    "metaphors": [],
+    "negative_case": false,
+    "note": "Implies a generalized trust/understanding gap correlated with cultural background, affecting initial acceptance."
+  },
+  {
+    "indicator": "NEGATIVE CASE - Pragmatic Integration",
+    "context": "Successful adoption of an AI model for a specific, tangible task.",
+    "evidence": "The young AI engineer, he built an AI model to classify [student photos]... they all liked it. So now it became a norm... they run through his model and he just makes it fit enough for the ID card system he gives.",
+    "metaphors": ["became a norm"],
+    "negative_case": true,
+    "note": "Shows a successful case where AI is not seen as a 'magic box' but as a practical tool solving a clear, bounded problem (photo classification for IDs). Expectations were managed and met, leading to seamless workflow integration."
+  },
+  {
+    "indicator": "NEGATIVE CASE - Complementary Realism",
+    "context": "Describing the complementary strengths in the team building the first Copilot.",
+    "evidence": "The elder one was very eager to know about AI, how that works and all and. The younger one looked up to the elder one to understand how a project can be implemented and how we can be and what could be the issue.",
+    "metaphors": [],
+    "negative_case": true,
+    "note": "Presents a healthy dynamic: curiosity about AI's workings (seeking understanding) paired with respect for practical implementation knowledge (grounding in reality). This bridges the trust-understanding gap."
+  },
+  {
+    "indicator": "explainability_deficit",
+    "context": "Implied in the feedback and adoption challenges among teachers.",
+    "evidence": "Their adoption was not always ready... they had that little reservation for new ways in teaching, learning or new tools.",
+    "metaphors": [],
+    "negative_case": false,
+    "note": "While not explicit, the 'reservation' suggests a lack of transparent reasoning from the AI tools that would convince expert teachers of their utility and fairness in a pedagogical context."
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "indicator": "recursive_innovation",
+    "supporting_quotes": [
+      "Because before deep seek was not there and then now last month I think Open algorithm has been coming in for a humanoid robot also, right? The NVIDIA group model, so you'll have to be really thorough and constantly learn about what's happening in the market."
+    ],
+    "metaphors": ["Keeping up in the same race"],
+    "negative_cases": null,
+    "analysis": "Person 2 explicitly describes the rapid, successive release of new AI models and tools (DeepSeek, OpenAI's humanoid robot algorithm, NVIDIA), necessitating continuous learning. This is a direct example of new AI tools creating the environment and need for the next wave, a core component of recursive innovation. The metaphor of a 'race' underscores the competitive, fast-paced nature of this process."
+  },
+  {
+    "indicator": "skill_obsolescence_pace",
+    "supporting_quotes": [
+      "Even though there are all nationalities... the only difference in the AI is that you'll have to be updated constantly... You'll have to be really aware because your field is like that and it's constantly evolving.",
+      "Last year nobody knew [about] agents... Run in the same race as AI agents."
+    ],
+    "metaphors": ["Constantly evolving field"],
+    "negative_cases": null,
+    "analysis": "Person 2 repeatedly emphasizes the non-negotiable requirement for continuous, self-driven learning to avoid obsolescence. The pace is framed as intrinsic to the field itself ('your field is like that'). This directly maps to the indicator of competencies becoming outdated faster than they can be formally replaced."
+  },
+  {
+    "indicator": "temporal_misalignment",
+    "supporting_quotes": [
+      "Indians will just quickly, makeshift one thing like a small prototype and start building from there... Certain cultures want to do it very properly and you know it has to be 100% perfect and everything, but you'll never get there right?... You'll have to be searching for the OK other than achieving the perfect."
+    ],
+    "metaphors": ["Jugaad (innovative quick fix)", "Searching for the OK vs. the perfect"],
+    "negative_cases": {
+      "description": "Person 2 does not frame this as a debilitating clash, but as a source of productive tension and complementary approaches within a team.",
+      "quote": "So you can see this culturally different different opinions as in building a product or a solution, right?"
+    },
+    "analysis": "Person 2 identifies a clear 'AI time' mindset (rapid prototyping, 'good enough' iteration) embodied by the Indian concept of 'Jugaad'. This is contrasted with a more traditional, sequential 'organizational time' mindset (seeking perfection before release). The metaphor of 'searching for the OK' versus 'the perfect' crystallizes this misalignment. However, she presents it as a manageable diversity of approach rather than a destructive clash."
+  },
+  {
+    "indicator": "regulatory_lag",
+    "supporting_quotes": [
+      "Europeans... they're particularly very concerned about these data loss, compliance, GDPR and everything... these GDPR laws are also ingrained in their sort of the way of doing their business.",
+      "In certain confidential industries like mine... you really can't have a third party app recording these conversations... [but] suppliers... from Kazakhstan, they are a little more chill or relax in these kind of aspects. They just want work to get done efficiently."
+    ],
+    "metaphors": ["Ingrained way of doing business"],
+    "negative_cases": {
+      "description": "Person 2 points to the UAE's proactive 'diversity quota' laws as an example of regulatory action attempting to keep pace with, or even shape, socio-technical reality.",
+      "quote": "A year back, they have passed laws of a diversity quota... HR has taken that seriously... to consciously recruit people from other nationalities."
+    },
+    "analysis": "The interviewee observes stark differences in regulatory maturity and cultural internalization of data ethics (GDPR in Europe vs. a more laissez-faire approach in other regions). This highlights the global patchwork and lag. The negative case of UAE's diversity law shows a regulatory attempt to proactively manage a socio-technical outcome of a globalized tech industry, though it's a governance response to diversity, not directly to AI's technical acceleration."
+  },
+  {
+    "indicator": "socio_technical_shift",
+    "supporting_quotes": [
+      "If I'm planning a solution, say a solution for a hospital... women will... notice... saying hey, this is for women, this is for kids. You're doing computer vision... you need a women to actually say that. But it's very difficult without any women in the meeting.",
+      "The leadership and the empathy that you show towards each culture is really important... it is all about the people, right?... I think that sets the tone."
+    ],
+    "metaphors": ["It is all about the people"],
+    "negative_cases": null,
+    "analysis": "Person 2 shifts the focus from pure technical capability to human-centric concerns: fairness in data (gender representation in training sets) and the paramount importance of empathetic, culturally-aware leadership. This reflects the rubric's definition of a shift from economic/technical benefits to human acceptance and ethics, driven by the need to manage diverse teams and build responsible AI in a fast-moving field."
+  },
+  {
+    "management_friction": "continuous_training_demand",
+    "supporting_quotes": [
+      "We also have a premium HR also given us a LinkedIn learning premium. So we as a company we can use all these resources... you'll have to go show your faces... at conferences... If you don't keep up, then this industry is like that, right?",
+      "You'll have to pick up new things... you'll have to be really aware."
+    ],
+    "metaphors": ["Keeping up", "The industry is like that"],
+    "negative_cases": null,
+    "analysis": "Person 2 details the organizational and personal infrastructure required to meet the upskilling demand: curated knowledge bases (Coursera, LinkedIn Learning), mandatory/encouraged conference attendance, and external networking via hubs and meetups. The burden is framed as an inherent, unavoidable condition of working in AI ('the industry is like that')."
+  }
+]

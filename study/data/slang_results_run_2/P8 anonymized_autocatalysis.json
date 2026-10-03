@@ -1,0 +1,74 @@
+[
+  {
+    "expert_quote": "Right now we are on in the R&D for for the AI part. So basically we're trying to integrate it in our startup basically, yeah.",
+    "mapped_id": "gen_AI_acceleration",
+    "is_negative_case": false,
+    "rationale": "The quote indicates active integration of generative AI into a new product, exemplifying how generative AI is accelerating the foundational innovation process within a startup context."
+  },
+  {
+    "expert_quote": "The challenge we're having now is that how you can bring in. I can understand the Algerian dialect. So because not everyone speaks perfect French, not everyone speaks perfect Arabic, but they always have a mix.",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": false,
+    "rationale": "Describes a technical-ethical challenge (language/dialect integration) that emerges during development, highlighting the absence of predefined frameworks for such nuanced cultural-linguistic issues in AI deployment."
+  },
+  {
+    "expert_quote": "I would say for from the product I'm building now how I counted data privacy is on. Yeah, it's basically making the user like know what the data are going, where the data are used for and especially we try not to use any or like open AI. We try to host our own GPD, for example, to train your own so we own data.",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": false,
+    "rationale": "Shows a proactive, company-level effort to establish privacy and data governance protocols, indicating that formal regulatory or industry-wide standards are lagging, forcing individual organizations to create their own ad-hoc frameworks."
+  },
+  {
+    "expert_quote": "So we have more advantage if you coming now and also as as we shifting to Qatar.",
+    "mapped_id": "tool_proliferation",
+    "is_negative_case": false,
+    "rationale": "Implies a strategic move to a region with less competition, indirectly referencing the overwhelming pace of new AI tool and company creation ('proliferation') in more saturated markets like Europe."
+  },
+  {
+    "expert_quote": "But at the end, you know, we have to come down to what the industry right now is going. We cannot put our own rules like say hey, we can't. Sweet. It's nice, but at the end it it could lead to many effort. It could lead to some. As a startup, you know you have to umm, you have to be a little bit fast at the process.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "Expresses the friction between an ideal, thorough approach to ethics/privacy ('organizational time') and the imperative for speed in a startup to keep pace with the industry ('AI time'), necessitating pragmatic compromises."
+  },
+  {
+    "expert_quote": "So we're building already Persona persona, like which one basically better. So we can direct the product to on to catering and focus well during focus.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "The focus on building cultural and behavioral 'personas' for the Qatari market indicates a shift from pure technical development to incorporating deep human, social, and cultural factors for acceptance and relevance."
+  },
+  {
+    "expert_quote": "So and then a lot of beer just area, lot of BL and then then andreadis it's really different.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "Uses the slang 'and then and then' to describe the fast-paced, sequential yet overwhelming nature of adapting to different languages and cultural contexts, mirroring the relentless, iterative pace of 'AI time' that clashes with structured planning."
+  },
+  {
+    "expert_quote": "I haven't seen negative, but that's why I couldn't see the difference.",
+    "mapped_id": "skill_obsolescence_pace",
+    "is_negative_case": true,
+    "rationale": "Explicitly states that in the context of a culturally diverse AI team, the rapid obsolescence of *collaborative* or *interpersonal* skills has not been a negative issue or a noticeable friction point, contradicting the indicator's premise for this specific domain."
+  },
+  {
+    "expert_quote": "Since speaking the same language as I I part like the same background language like you know you know the technical words. You know what is ALM? You know what is how to train network and so on our network and so on and so on. And since coming to this phase, I didn't see any problem with integration to be honest.",
+    "mapped_id": "skill_obsolescence_pace",
+    "is_negative_case": true,
+    "rationale": "Posits that shared technical language and competencies act as a stable foundation that negates integration problems, contradicting the notion that technical skills become obsolete too quickly to sustain effective collaboration."
+  },
+  {
+    "expert_quote": "But at the end for me, checking the end user for example the end user is not English spoken, so yeah.",
+    "mapped_id": "judgment_substitution",
+    "is_negative_case": false,
+    "rationale": "Highlights a scenario where the default technical judgment (train in English) is being re-evaluated and overridden by a deeper understanding of end-user reality, showing the reconfiguration of technical decisions based on human-centric factors."
+  },
+  {
+    "expert_quote": "Even with dialect, it's not won't be a problem if you have a good data, yeah.",
+    "mapped_id": "tool_proliferation",
+    "is_negative_case": false,
+    "rationale": "Frames the challenge of dialect integration as solvable primarily by data availability, implicitly acknowledging the existence of numerous models/tools ('proliferation'), but identifying data, not the tool itself, as the critical bottleneck for evaluation and integration."
+  },
+  {
+    "expert_quote": "As a startup, you know you have to umm, you have to be a little bit fast at the process.",
+    "mapped_id": "timeline_compression",
+    "is_negative_case": false,
+    "rationale": "Directly references the compressed timelines and need for speed inherent in startup culture, which is exacerbated in AI, forcing constant re-evaluation and rapid decision-making without extensive cycles."
+  }
+]

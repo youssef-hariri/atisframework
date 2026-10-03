@@ -1,0 +1,38 @@
+[
+  {
+    "rubric_element": "temporal_misalignment",
+    "evidence": "Person 2 describes a severe clash between the iterative, rapid development cycle of the AI project ('AI time') and the slower, sequential processes of the distributed organization ('organizational time'). The 12-hour time zone gap and the pressure from senior management to deploy immediately, which forced mid-cycle re-evaluations and ignored the established testing/documentation protocols, exemplify this misalignment.",
+    "metaphor": "The organizational structure is described as a multi-layered 'chain' or 'chain of communication' where problems and pressure are passed down, creating lag and distortion between the technical implementation team and the source of requirements.",
+    "negative_case": "Despite the high-pressure, fast-paced environment, Person 2 enforces a methodical, slow-down-and-document approach (50-page documentation, double-blind testing). This represents a conscious, successful resistance to pure 'AI time' in favor of sustainable engineering practice."
+  },
+  {
+    "rubric_element": "skill_obsolescence_pace",
+    "evidence": "Person 2 implicitly addresses this by creating exhaustive documentation and enforcing strict coding standards (e.g., type hints, exception handling, architecture rules). This acts as a countermeasure to the 'college project' mentality and rapid skill churn, attempting to institutionalize knowledge that outlives individual competency or rapid tool changes.",
+    "metaphor": "The documentation is framed as a 'book' or comprehensive manual, intended to be a persistent knowledge repository that team members can 'read through' to solve problems independently, mitigating the need for constant synchronous knowledge transfer.",
+    "negative_case": "The Indian team's initial refusal to read the documentation and the reliance on calling Person 2 at 4:00 AM is a negative case showing the failure of this institutionalized knowledge transfer, highlighting that skill/process obsolescence can also be a cultural/work-habit issue, not just a technical one."
+  },
+  {
+    "rubric_element": "integration_debt",
+    "evidence": "Person 2 highlights the problem of legacy code creating security vulnerabilities (e.g., accessing server keys through a coding test window). This 'debt' is a direct result of past 'good enough' coding practices and fast timelines, which now requires patching and creates ongoing risk and rework for the current AI team.",
+    "metaphor": "The relationship between the new AI team and the legacy team is described using a construction analogy: the legacy team are the ones 'digging the trenches and laying the pipes,' while the AI team is 'just patching the holes.' This metaphor frames the AI work as reactive maintenance on a flawed, pre-existing foundation.",
+    "negative_case": "The ensemble model strategy (using 64 models in an 8x8 grid) is presented as a proactive architectural solution to model bias. Instead of accruing 'bias debt' from a single model, they build a system designed to manage uncertainty from the start, though it increases complexity."
+  },
+  {
+    "rubric_element": "judgment_substitution",
+    "evidence": "The core project involves automating human judgment in interview monitoring (detecting cheating). The system uses an ensemble of AI models (face tracking, speech diarization, keylog analysis) to flag interviews, reconfiguring the human role from continuous monitor to post-hoc reviewer of AI-generated alerts.",
+    "metaphor": "The system logic is described in mechanical, threshold-based terms: 'if two out of this... flags are triggered... the entire interview is flagged.' Human judgment is not part of the initial detection loop; it is only invoked after the AI system's binary 'strikes' are counted.",
+    "negative_case": "Person 2 emphasizes that in leadership, they prefer a horizontal structure where human judgment and ideas from all team members (even interns) are valued equally over hierarchical authority. This highlights an area (team management) where they actively resist the substitution of AI or top-down judgment for collaborative human deliberation."
+  },
+  {
+    "rubric_element": "recursive_innovation",
+    "evidence": "While not explicitly stated, the project uses AI (object detection from robotics, Fourier transforms for audio, LLMs for text analysis) to build a new AI system that monitors human-AI interaction (candidates potentially using AI to cheat). This creates a meta-layer where AI is used to police the use of AI, a classic recursive pattern.",
+    "metaphor": "None explicitly provided for this element in the transcript.",
+    "negative_case": "The discussion of data privacy and security practices contrasts 'rotating credentials' and 'everything logged' (US) with informal 'pen testing as a game' (India). This shows that the recursive loop of innovation can be severely hampered or made dangerous by non-recursive, lagging cultural/practical standards in security and ethics."
+  },
+  {
+    "rubric_element": "socio_technical_shift",
+    "evidence": "Person 2's narrative is steeped in the tension between technical delivery ('finishing the overall product,' 'happy clients') and socio-technical concerns ('extensive testing,' 'data privacy,' 'model bias'). The primary friction in the story is not building the AI, but managing the human and organizational factors around it (culture, documentation, security, ethics).",
+    "metaphor": "Cultural conflict is described as a potential 'avalanche'—a small trigger can cause a massive, destructive slide. This metaphor underscores that the socio-technical risks (miscommunication, pressure, differing ethics) are existential to project success, not secondary to technical velocity.",
+    "negative_case": "The initial management pressure and the Indian team's work habits focus almost exclusively on the technical deliverable ('deploy it fast'), actively sidelining the socio-technical safeguards (documentation, reading, thorough testing) Person 2 tries to implement."
+  }
+]

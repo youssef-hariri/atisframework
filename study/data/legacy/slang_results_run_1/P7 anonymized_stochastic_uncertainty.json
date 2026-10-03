@@ -1,0 +1,66 @@
+[
+  {
+    "quote": "We need to put everything and say, OK, we are going to do this and try to explain in the most, umm not easier, but most friendlier way to the customer...",
+    "time_stamp": "0:3:54.440 --> 0:4:11.760",
+    "rubric_category": "opaque_outcomes",
+    "explanation": "Person 2 highlights the need to simplify and explain AI project deliverables to customers. This points to the inherent complexity and opacity of AI outcomes (opaque_outcomes), where the technical intricacies of machine learning models are difficult for non-experts to understand, requiring a 'translator' role.",
+    "metaphor": "None",
+    "negative_case": false
+  },
+  {
+    "quote": "There is a big difference... the Mexican people want to know everything about like they they want... instead uh, just the US people... give me the the most simpler definition and I will take some decisions about that.",
+    "time_stamp": "0:4:51.640 --> 0:5:40.390",
+    "rubric_category": "opaque_outcomes",
+    "explanation": "This illustrates how cultural differences in client expectations interact with the opacity of AI systems. Mexican clients seek deep technical understanding to manage their uncertainty about the model's inner workings, while US clients prefer simplified, high-level explanations, trusting the outcome despite its opaqueness.",
+    "metaphor": "None",
+    "negative_case": false
+  },
+  {
+    "quote": "This is like they want to know how is it going. This is more of knowing how is it going not not just to understand the functionality...",
+    "time_stamp": "0:24:15.700 --> 0:24:26.660",
+    "rubric_category": "dynamic_forecast_adjustment",
+    "explanation": "Describes US clients' focus on project status and progress rather than deep functional details. This aligns with 'dynamic_forecast_adjustment,' as stakeholders are constantly seeking updates to monitor progress against potentially shifting baselines caused by the non-deterministic nature of AI development.",
+    "metaphor": "None",
+    "negative_case": false
+  },
+  {
+    "quote": "I find some failures... from the Mexican people they want to know everything but when they give you some definitions... they are not giving you complete definitions. It's like they are like waiting for you to to know.",
+    "time_stamp": "0:26:30.610 --> 0:26:54.300",
+    "rubric_category": "data_dependency",
+    "explanation": "Points to a failure stemming from incomplete information sharing from the client. This relates directly to 'data_dependency'—the quality and completeness of input data and requirements are critical for ML projects. Incomplete definitions from the client introduce significant uncertainty and risk of project failure.",
+    "metaphor": "None",
+    "negative_case": false
+  },
+  {
+    "quote": "We need to prioritize... if we are training a model, a big model, we are not going to be able to try to train the other ones if we have just like a machine.",
+    "time_stamp": "0:13:22.90 --> 0:13:54.520",
+    "rubric_category": "non_linear_estimation",
+    "explanation": "Highlights resource constraints (like compute power for model training) that force prioritization. This touches on 'non_linear_estimation' because the time and cost for training large models do not scale linearly, and resource allocation decisions become complex, adding a layer of uncertainty to project planning and scheduling.",
+    "metaphor": "None",
+    "negative_case": false
+  },
+  {
+    "quote": "In my team, everyone knows Spanish... it's like we talk and we know what we are trying to to talk to say... maybe they they don't understand a word, but we can explain them in certain way... like uh, I don't know a sarcastic way and they understand that.",
+    "time_stamp": "0:30:51.960 --> 0:31:30.90",
+    "rubric_category": "lack_of_reproducibility",
+    "explanation": "While discussing the ease of communication in a shared language, Person 2 inadvertently highlights a risk. Nuances like sarcasm, which might be used to convey context about an experiment's unexpected result or a model's quirky behavior, can be lost in multicultural teams. This miscommunication can contribute to a 'lack_of_reproducibility' if the precise conditions, rationale, or observations about a non-deterministic model run are not unambiguously documented and understood by all.",
+    "metaphor": "None",
+    "negative_case": true
+  },
+  {
+    "quote": "We have like a VPN... we are not able to see the database data... all that sensitive information are not present. So I think it's very different.",
+    "time_stamp": "0:18:58.110 --> 0:19:31.520",
+    "rubric_category": "data_dependency",
+    "explanation": "Compares data access protocols between Peru (full access) and a US project (restricted, anonymized test data). This directly relates to 'data_dependency.' Working with real vs. synthetic/anonymized data introduces different kinds of uncertainty (e.g., about model performance in production) and affects the project's foundational data quality.",
+    "metaphor": "None",
+    "negative_case": false
+  },
+  {
+    "quote": "We need to put like the the framework like the the job framework as a standard... If you have, if you are saving things on the box, we need to put everything in order that instead of just putting all the things disorder.",
+    "time_stamp": "0:9:30.420 --> 0:10:0.220",
+    "rubric_category": "baseline_erosion",
+    "explanation": "Emphasizes the critical need for structured processes and frameworks. This can be seen as a direct response to the management friction of 'baseline_erosion.' A strong, standardized framework for documentation, communication, and workflow is a defense against the constant need to adjust plans and forecasts due to the probabilistic variance and non-deterministic nature of ML outputs.",
+    "metaphor": "Putting things in a box in order vs. in disorder.",
+    "negative_case": false
+  }
+]

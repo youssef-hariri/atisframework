@@ -1,0 +1,53 @@
+[
+  {
+    "indicator": "socio_technical_transition",
+    "evidence": "Person 2 transitions from 8 years in education (human-centric) to data analytics and machine learning (hybrid human-AI domain). They describe being 'fascinated by how statistics [are] used' in business, marking a shift in their professional paradigm.",
+    "metaphor_mapping": "Journey from a known 'road' (teaching) into a new, unmapped 'field' (data analytics). Described as a 'professional idiot' navigating without a clear 'road map,' emphasizing the transitional, exploratory phase.",
+    "negative_case": "No evidence of resistance to this transition; Person 2 exhibits high adaptability and curiosity, framing the shift as a positive learning opportunity rather than a disruptive friction."
+  },
+  {
+    "indicator": "workflow_brittleness",
+    "evidence": "Describes project delays due to 'different interpretation of a specific problem' and 'different understanding of the project requirement' within multicultural teams. The linear project timeline is disrupted by the need for iterative consensus-building on data understanding.",
+    "metaphor_mapping": "Project progress is halted until the team finds a 'common ground'—a metaphorical meeting point that must be constructed through individual 'diving deeper' into the data.",
+    "negative_case": "The team develops an adaptive, non-linear process ('take time... to dive deeper') that successfully manages this brittleness and turns it into a strength for deeper analysis."
+  },
+  {
+    "indicator": "knowledge_clash",
+    "description": "Tension between data-centric AI knowledge and tacit, experience-based human knowledge.",
+    "evidence": "Highlights the value of 'domain knowledge' from team members in finance or healthcare for feature engineering, which improves model accuracy. This contrasts with a purely data-driven approach.",
+    "metaphor_mapping": "Domain knowledge acts as a 'boost' or a guiding 'foundation' that prevents the model from performing on 'natural settings' (i.e., purely statistical, potentially erroneous assumptions).",
+    "negative_case": "The knowledge clash is portrayed as productive, not adversarial. The diversity of knowledge (data science + domain expertise) is identified as the key determinant of a 'good model.'"
+  },
+  {
+    "indicator": "ethical_automation_tension",
+    "evidence": "Cites a project where deeper data analysis was deemed 'unethical' and akin to 'stalking.' In another, the team created a predictive text model for a prominent figure but recognized its potential for creating 'deep fakes,' leading to a conscious decision to contain the model.",
+    "metaphor_mapping": "Data is a tool that can be 'incriminating' if misused. The AI model's output is a potential 'problem' that must not 'get out there' or 'get in the wrong hand,' framing ethics as a necessary containment field.",
+    "negative_case": "The team successfully integrated ethical oversight, self-correcting and establishing boundaries ('should just stay within the machine'). The friction led to proactive risk management."
+  },
+  {
+    "indicator": "procedural_nonlinearity",
+    "evidence": "The failed loan prediction project followed a traditional multi-month lifecycle but produced a useless model. Success required breaking from their linear process to consult externally ('asking some of the professors').",
+    "metaphor_mapping": "The initial project path was a straight line leading to a 'failure.' The solution required a 'correction'—a loop backward to seek expert input, breaking the failed sequential approach.",
+    "negative_case": "Not directly observed. The narrative emphasizes the failure of the linear process rather than a successful alternative nonlinear one."
+  },
+  {
+    "indicator": "silo_breakdown",
+    "description": "Cross-functional data needs undermining traditional departmental boundaries.",
+    "evidence": "Team composition includes members from education, engineering, and IT backgrounds. Success is attributed to leveraging these diverse strengths (e.g., visualization, statistics, domain knowledge) in a collaborative 'we feeling.'",
+    "metaphor_mapping": "The team operates as a 'family' or a single unit ('we feeling'), where individual strengths and weaknesses are known and supported, effectively dissolving professional silos.",
+    "negative_case": "No evidence of silos persisting as a negative force. Person 2 champions the 'togetherness' model as the key to multicultural team success."
+  },
+  {
+    "management_friction": "cultural_resistance",
+    "evidence": "Describes initial hesitation in multicultural teams to give critical feedback due to fear of how it will be received ('Will the person take it like... somebody feels like she doesn't know').",
+    "metaphor_mapping": "Feedback is initially seen as a potential personal affront ('taken personally'). This creates a barrier that must be broken down to achieve open collaboration.",
+    "negative_case": "This resistance is overcome by fostering psychological safety ('we are all learning') and a 'we feeling,' transforming feedback into a valued mechanism for growth."
+  },
+  {
+    "management_friction": "role_transition_hurdles",
+    "description": "Reskilling needs disrupting established hierarchies and decision-making authority.",
+    "evidence": "Person 2's personal journey is defined by the need for a 'road map' in a new field. They seek guidance on the 'correct' path to avoid mistakes and learn fast, highlighting the disorientation of role transition.",
+    "metaphor_mapping": "Transitioning is like being an 'idiot' in a new land without a map. They seek a 'trajectory' to follow, indicating a need for structured reskilling pathways.",
+    "negative_case": "Person 2 does not discuss hierarchy disruption within their project teams. Leadership emerges organically ('who is ready to share'), suggesting a flat, skills-based model rather than a contested one."
+  }
+]

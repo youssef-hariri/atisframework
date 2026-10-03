@@ -1,0 +1,38 @@
+[
+  {
+    "indicator_name": "temporal_misalignment",
+    "negative_case": true,
+    "evidence": "Person 2 contrasts the slow feedback loops and progress in Nepal ('We had to work for like a very long time to come up with like a viable solution') with the quick, actionable feedback in US teams ('the feedbacks are like very a quick. And you know, like way to the point'). This highlights a clash in work pace, but it is attributed to organizational/client culture and communication norms, not to an inherent 'AI time' vs. 'organizational time' conflict driven by technical acceleration.",
+    "metaphor": null
+  },
+  {
+    "indicator_name": "regulatory_lag",
+    "negative_case": true,
+    "evidence": "Person 2 describes strict data privacy protocols in Nepal (e.g., working within bank IT departments, not storing data). This indicates existing, restrictive frameworks ('they had their own protocols'), not a scenario where governance is struggling to catch up with rapid, novel AI deployments.",
+    "metaphor": null
+  },
+  {
+    "indicator_name": "judgment_substitution",
+    "negative_case": false,
+    "evidence": "In describing a credit scoring model, Person 2 notes that expert judgments were incorporated, potentially introducing bias: 'we did introduce a lot of bias from these experts... based on their own experiences.' This aligns with the substitution of data-driven prediction with human expert judgment, a precursor dynamic to full AI judgment substitution.",
+    "metaphor": null
+  },
+  {
+    "indicator_name": "skill_obsolescence_pace",
+    "negative_case": true,
+    "evidence": "Person 2 describes a career progression from data scientist to machine learning engineer focused on computer vision, indicating skill development. However, there is no mention of skills becoming obsolete at an accelerating pace. The focus is on domain interest shifts and job changes, not on being forced to retrain due to rapid tool or paradigm shifts.",
+    "metaphor": null
+  },
+  {
+    "indicator_name": "socio_technical_shift",
+    "negative_case": true,
+    "evidence": "The interview focuses on cultural differences in project management and communication. Person 2 does not mention a shift in project focus from economic benefits to human acceptance or ethics as a consequence of technical velocity. Ethical considerations (bias) are mentioned as a static challenge from a past project, not as an accelerating concern.",
+    "metaphor": null
+  },
+  {
+    "indicator_name": null,
+    "negative_case": true,
+    "evidence": "Person 2's narrative centers on static cultural and process differences (strict vs. flexible management, slow vs. fast feedback) rather than dynamics of acceleration. Key autocatalysis indicators like 'recursive_innovation,' 'tool_proliferation,' 'gen_AI_acceleration,' and management frictions ('timeline_compression,' etc.) are absent from the discussed experiences.",
+    "metaphor": "Work culture is described in terms of 'strictness' vs. 'flexibility' and 'slow' vs. 'quick' feedback loops—metaphors of rigidity and speed, but not of exponential growth or compounding change."
+  }
+]

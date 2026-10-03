@@ -1,0 +1,55 @@
+[
+  {
+    "speaker": "Person 2",
+    "analysis_focus": "stochastic_uncertainty",
+    "evidence": [
+      {
+        "quote": "just scrape people so to say from the Internet. So that recruiters could make a sort of pre selection... you're not going to get as tailored as results as people who already talked had their CVS uploaded.",
+        "rubric_mapping": ["data_dependency", "non_deterministic_outputs"],
+        "explanation": "The AI's input data (scraped, raw online profiles) is inherently noisy and variable compared to a curated database. This introduces fundamental unpredictability in the quality and relevance of its outputs, a core source of stochastic uncertainty."
+      },
+      {
+        "quote": "I noticed that there was... not, really that welcomed by the German and Belgian subdivisions because they wanted their own also independence and liberties... There was also a little bit of contradictory interests there.",
+        "rubric_mapping": ["opaque_outcomes", "accountability_challenges"],
+        "explanation": "The 'black-box' nature of the AI's sourcing and labeling (opaque_outcomes) created skepticism. Different regional teams had conflicting expectations about the system's performance and control, making it difficult to assign clear ownership for the AI's decisions (accountability_challenges)."
+      },
+      {
+        "quote": "They were making a little bit of compare apples with oranges... they were used to only uploading people to their database system, which already had talked to Rec... what our solution did is just scrape people... it's just a different part of the pipeline.",
+        "rubric_mapping": ["probabilistic_variance", "lack_of_reproducibility"],
+        "explanation": "The German team's feedback stemmed from expecting deterministic, high-quality matches (like from a pre-vetted DB). The AI's probabilistic, variance-prone output from a noisier source (scraping) was inherently less reproducible in terms of match quality, leading to a perception of failure."
+      },
+      {
+        "quote": "the sales recruiters themselves tend to think really competitively... if everyone has this information there's no reward... they wanted to also have some metrics like, yeah, but this data set, can we just give it only to our like best performers",
+        "rubric_mapping": ["model_drift", "baseline_erosion"],
+        "explanation": "The intended use case (shared tool for efficiency) clashed with the competitive sales culture. This human-system interaction created a form of 'concept drift' where the model's utility was undermined by behavioral incentives, forcing a re-evaluation of the project's baseline value proposition (baseline_erosion)."
+      },
+      {
+        "quote": "We had to from data team perspective extend the functionality with some more German specified candidate like Black Portal's website",
+        "rubric_mapping": ["dynamic_forecast_adjustment", "data_dependency"],
+        "explanation": "The need to constantly adjust the model (adding new data sources) to appease a specific stakeholder group is an indicator of dynamic_forecast_adjustment, driven by the high sensitivity (data_dependency) to having locally relevant and high-quality input data."
+      },
+      {
+        "quote": "we had a data manager who was really well versed in the topic... that made us... made it really easy for us to know where we had to work towards... we had a 90% like labelling classification accuracy... that helped us also by far exceed that goal.",
+        "rubric_mapping": ["negative_case"],
+        "explanation": "This is a NEGATIVE CASE for stochastic uncertainty. Clear, expert-defined success metrics (accuracy/F1 score) and a deep understanding of the existing process created a stable, measurable baseline. This structure reduced the perceived and operational impact of the model's inherent unpredictability by providing a fixed, agreed-upon benchmark for evaluation."
+      }
+    ],
+    "metaphors": [
+      {
+        "metaphor": "Bridge",
+        "usage": "Used to describe transitioning between roles ('made a bridge to become a data scientist') and facilitating collaboration ('have a bigger bridge with the German team', 'extra glue').",
+        "interpretation": "Suggests viewing cultural and professional gaps as distances to be actively spanned through effort and adaptation, framing uncertainty as a terrain to be crossed rather than a void."
+      },
+      {
+        "metaphor": "Apples and Oranges",
+        "usage": "To describe the German team's flawed comparison between AI-scraped candidates and pre-vetted database candidates.",
+        "interpretation": "Highlights the fundamental category error that arises from stochastic systems (oranges - variable, probabilistic) being judged by the standards of deterministic systems (apples - curated, predictable). A metaphor for mismatched expectations causing friction."
+      },
+      {
+        "metaphor": "Islands",
+        "usage": "Describes the risk in teams where one cultural subgroup is isolated ('you can have the a big opportunity to have islands').",
+        "interpretation": "Frames misalignment and lack of communication as creating isolated pockets of understanding and practice. In the context of AI, this can exacerbate uncertainty, as isolated 'islands' (e.g., the data team, the German business unit) develop conflicting interpretations of the model's behavior and value."
+      }
+    ]
+  }
+]

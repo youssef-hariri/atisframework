@@ -1,0 +1,32 @@
+[
+  {
+    "expert_quote": "We are exploring a lot of lost lot of possibilities of... Data security in the AI domain because... We have faced some recent cyber attacks incidents where data got leaked and all. So now we are exploring to implement our in House... AI servers, AI implementations, so so that we install our local LL, train it in House, fine tune them, and then use and expose that to to the teachers...",
+    "mapped_id": "tool_proliferation",
+    "is_negative_case": false,
+    "rationale": "The speaker describes the immediate, reactive push to deploy new AI infrastructure (local servers, fine-tuning) following a security incident. This 'human-floor' description of rapid, unplanned tool deployment to address emergent crises aligns with the theoretical definition of new frameworks being released faster than they can be systematically evaluated."
+  },
+  {
+    "expert_quote": "We want our AI to be biased actually... we have data only for local students. So, so, so we want our AI to be biased... But yes when it comes to let's say fairness in giving opportunities or in evaluation for the admission criterias... We do not want our AI to be biased in that case.",
+    "mapped_id": "judgment_substitution",
+    "is_negative_case": true,
+    "rationale": "This is a nuanced negative case. The speaker explicitly states that for certain tasks (contextualization to local data), bias is desired, which contradicts the simplistic assumption that AI always substitutes human judgment for fairness. However, for high-stakes judgments (admissions), they reject bias, highlighting the complex, context-dependent reconfiguration of human judgment the indicator describes."
+  },
+  {
+    "expert_quote": "Sometimes... some cultures are not very vocal... they are not taught to be vocal... So it happens that sometimes they would just keep... something to them... because of that, later on in the later stages of the project, we come to know that, OK, this might... This would have not been feasible since day one. So that's the... roadblocks we have faced. And then of course, we go back, retrace our steps. Correct those mistakes...",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The description of teams having to 'go back, retrace our steps' due to late-emerging issues from non-vocal cultures directly illustrates the clash between the fast, iterative logic of technical projects ('AI time') and the slower, sequential pace of organizational communication and consensus-building ('organizational time')."
+  },
+  {
+    "expert_quote": "The definition of privacy might mean different to different people... The cultural angle fits in where... As a society, do we want to take the responsibility of data security or not, right? So for example, if I feel capable... I will put this safeguards in place... But for some cultures... it might be that they don't want to own that responsibility... They just simply don't want to get into the mess of explaining why.",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": false,
+    "rationale": "The speaker's slang—'don't want to get into the mess of explaining why'—encapsulates the lag between technical deployment of AI/data systems and the establishment of coherent, accepted governance and ethical frameworks. The varying cultural appetite to 'own responsibility' shows how foundational governance principles are absent or contested post-deployment."
+  },
+  {
+    "expert_quote": "Some people might be very vocal about... If we are trying to implement something which somebody doesn't feel comfortable with... Americans, Canadians are pretty much more vocal... At the same time, when when it comes to Asian culture... Chinese Hong Konger Japanese... they will also fall in line... Do you want to contradict... your superiors or not... Do you want the status code to be maintained or not?",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "The focus on human factors—vocalness, comfort, hierarchy, and maintaining 'status code'—in the implementation process reflects a shift from purely technical/economic concerns to the critical, velocity-induced challenges of human acceptance, team dynamics, and ethical communication in socio-technical systems."
+  }
+]

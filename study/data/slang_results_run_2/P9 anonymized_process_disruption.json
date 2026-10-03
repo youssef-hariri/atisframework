@@ -1,0 +1,80 @@
+[
+  {
+    "expert_quote": "You can't tell with the workflow if a manager doesn't have good PM training, because then everybody's falling their own kind of workflow, right? So I've been on teams for one person's doing. Come on, one person's doing agile, one person's doing waterfall, and that can create some workflow issues.",
+    "mapped_id": "workflow_brittleness",
+    "is_negative_case": false,
+    "rationale": "The slang 'everybody's falling their own kind of workflow' and 'that can create some workflow issues' directly describes the increased vulnerability of linear processes (agile, waterfall) when adaptive, non-standardized AI work patterns are introduced, leading to brittleness and inefficiency."
+  },
+  {
+    "expert_quote": "I'm a fan of agile and waterfall or even Cuban, but I've had team lead two. We're not so familiar with project management or never had formalized project management training.",
+    "mapped_id": "integration_friction",
+    "is_negative_case": false,
+    "rationale": "The admission of a lack of 'formalized project management training' highlights the fundamental challenge of integrating non-linear AI methods into established, phase-gated project methodologies, causing friction at the point of implementation."
+  },
+  {
+    "expert_quote": "Once everybody understands the workflow, there's a lot of autonomy, so everybody gets what they need to get done when they need to get it done. And then in terms of the communication, we try to make sure that we're communicating daily, but that at least once a week we're having a check in and we're doing any kind of problem solving, any kind of establishing any things where we think we might be delayed or we may have to change course or pivot.",
+    "mapped_id": "procedural_nonlinearity",
+    "is_negative_case": false,
+    "rationale": "The focus on frequent check-ins, problem-solving for delays, and the ability to 'change course or pivot' reflects the iterative, feedback-driven nature of AI work that conflicts with a strict, sequential project plan, indicating procedural nonlinearity."
+  },
+  {
+    "expert_quote": "A lot of it is documentation, it's sometimes just learning to breathe and say, OK, now I'm not doing anything else right now. And it's also continuous learning, right? So. I won't say that it's easy and I won't say that there aren't days where I feel totally overwhelmed. I can only say that you just try to go back to the basics, OK, let me document this. Let me look at it. Let me analyze it. Let me get feedback from others and then you see what happens.",
+    "mapped_id": "procedural_nonlinearity",
+    "is_negative_case": false,
+    "rationale": "The emphasis on 'continuous learning', 'documentation', 'analysis', and iterative feedback loops ('see what happens') is a human-floor description of the non-linear, experimental process of AI development, which disrupts linear project lifecycles."
+  },
+  {
+    "expert_quote": "You establish best practices, right? And then you establish constant communication channels that allows for everybody to contribute and say this is what I've discovered. This is how I'm applying it, and then let's see what happens, right. And then you have to have room for mistakes, right? Rooms for things not to work and say, OK.",
+    "mapped_id": "procedural_nonlinearity",
+    "is_negative_case": false,
+    "rationale": "Phrases like 'let's see what happens', 'room for mistakes', and 'rooms for things not to work' describe an adaptive, trial-and-error workflow that is fundamentally non-linear and contradicts traditional phase-gated project planning with predefined outcomes."
+  },
+  {
+    "expert_quote": "Every day there's something new. Every day there's a new discovery. There's a new something. And so you find a lot of chasing and not enough... runway, right in terms of before the next thing happens, so everything is constantly changing over and over again without any real foundation build.",
+    "mapped_id": "workflow_brittleness",
+    "is_negative_case": false,
+    "rationale": "The metaphor of 'chasing' and lack of 'runway' describes the brittleness of traditional plans when faced with the rapid, constant change inherent in data-intensive AI fields, where new discoveries frequently invalidate previous assumptions and stages."
+  },
+  {
+    "expert_quote": "A structured person in an unstructured environment.",
+    "mapped_id": "workflow_brittleness",
+    "is_negative_case": false,
+    "rationale": "This concise, professional slang captures the core tension of workflow brittleness: individuals trained in structured, linear methodologies ('structured person') are placed into the fluid, unpredictable context of AI development ('unstructured environment'), leading to systemic friction."
+  },
+  {
+    "expert_quote": "I think tech is the great equalizer, right?... So it it's not so much. Whether you're from, let's say like I call you from South Korea or I've had colleagues from different parts of Africa... I I find that that part it's definitely more equal than if it was something that was non tech related.",
+    "mapped_id": "silo_breakdown",
+    "is_negative_case": true,
+    "rationale": "This is a negative case for 'silo_breakdown'. The participant asserts that technology ('tech') acts as a 'great equalizer' that transcends traditional departmental and geographical boundaries, suggesting that in technical AI/ML work, these silos are less of a disruptive force than in other fields."
+  },
+  {
+    "expert_quote": "When we talk about AI specifically and we're looking at Western culture, it's very different than when we talk about AI. We're looking outside of Western culture, say, eastern culture.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "The explicit distinction between Western and Eastern cultural approaches to AI highlights the tension between different knowledge systems—data-centric, monetization-driven views versus potentially more privacy or collectively-oriented views—that clash in multicultural AI projects."
+  },
+  {
+    "expert_quote": "The problem with most facial recognition software or even, you know, my smartwatch is that the sensors were never tested on people of different skin tones. So while the technology is great, it actually doesn't work for a lot of people.",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": false,
+    "rationale": "This real-world example of biased AI outputs ('doesn't work for a lot of people') due to non-diverse testing data illustrates the conflict between the push for predictive automation and the critical, often overlooked, need for human ethical oversight and inclusive design principles."
+  },
+  {
+    "expert_quote": "I've had colleagues who, UM, have been misgendered with it, you know, and that was not OK and I've had to have conversations like we don't misgender people here.",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "The need to personally intervene in ethical and social issues ('had to have conversations') demonstrates how project managers and leaders in AI contexts are forced to shift from pure technical oversight to roles encompassing ethical judgment, social system oversight, and cultural mediation."
+  },
+  {
+    "expert_quote": "There is no formal cross cultural training, especially in the startup world. It's just not something people are formally trained in... there really is no formalized training for cross cultural teamwork.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "The repeated emphasis on the absence of 'formalized training' for multicultural work points to a systemic cultural resistance. Organizations favor experiential knowledge and immediate technical output over investing in the data-centric, interdisciplinary soft skills needed for effective AI teamwork."
+  },
+  {
+    "expert_quote": "It comes down to having good leadership who can set these examples so everyone else can really understand what to do, and so it's pairing up people with no experience with a mentor or with somebody who can show them truly an authentic way... It's not OK to just throw somebody deep first into a situation if they've not had that experience because... most times it ends up being a flaming disaster.",
+    "mapped_id": "role_transition_hurdles",
+    "is_negative_case": false,
+    "rationale": "The vivid description of the need for mentorship and the risk of 'flaming disaster' for untrained staff highlights the significant reskilling hurdles and the disruption to established hierarchies when transitioning roles to support complex, hybrid human-AI collaboration models."
+  }
+]

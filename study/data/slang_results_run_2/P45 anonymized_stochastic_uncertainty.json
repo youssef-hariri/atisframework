@@ -1,0 +1,50 @@
+[
+  {
+    "expert_quote": "We look a lot to the American market and the way that they do business, right. ... So when it comes to processes, when it comes to setting schedules and making sure that we deliver according to all the processes that we put in place, we somehow emulate the best practices from from from both regions.",
+    "mapped_id": "dynamic_forecast_adjustment",
+    "is_negative_case": true,
+    "rationale": "The expert describes a proactive, stable adoption of established external baselines ('best practices'), which contrasts with the reactive, unstable adjustment of forecasts forced by internal probabilistic variance."
+  },
+  {
+    "expert_quote": "I think that if you look at our law of anonymization of data it's it's very similar to to the to the laws that that were put in place in Europe. ... we look at best practices, the Europe market and and we somehow emulate this in our day-to-day business down here.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "The slang 'emulate' best practices indicates a conscious strategy to manage high sensitivity to data quality and relevance by aligning with stringent, pre-defined external standards to mitigate uncertainty."
+  },
+  {
+    "expert_quote": "We're teaming up with with this company coming up with the the with the ML, with the, with the technology, with a solution and we're following their guidelines. So what are the guidelines for you to sell to France, to Spain, UK, etc. ... We're learning with this counterparty.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The act of 'following their guidelines' and 'learning' implies navigating pre-defined external rules to manage the inherent complexity and potential unexplainability of algorithmic solutions in new markets."
+  },
+  {
+    "expert_quote": "Probably more on the commercial aspects like understanding if ... our reading of the situation and our our reading of the counterparty ... sometimes we get lost in translation, sometimes we get lost in different our cultural differences. So yes, this has happened in the past, but it's more on the on the commercial side. Rather than the the product that we have developed.",
+    "mapped_id": "baseline_erosion",
+    "is_negative_case": false,
+    "rationale": "The metaphor of getting 'lost in translation' describes a friction where probabilistic human/cultural interpretations force adjustments in commercial forecasts and commitments, directly linking to the forced adjustment of baselines."
+  },
+  {
+    "expert_quote": "So we'll take note of everything that was said, but we always try to find, you know, more than one person that we can relate to that we can call back later to fill in the the missing details. ... we we we don't leave them out. But this does not take place on a senior meeting. It take place in between the senior meetings.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": false,
+    "rationale": "The described tactic of seeking multiple contacts 'in between' formal meetings is a workaround to clarify responsibility and information flow, addressing the friction of opacity in decision-making and communication chains."
+  },
+  {
+    "expert_quote": "if it's a relationship that's that's important to you and that you won't be able to deliver at that specific time. But it's something that on the long run you'll be able to do something together. Absolutely. You have to be very honest and very straightforward.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The need for explicit honesty ('very straightforward') to correct counterparty expectations is a human-floor response to prevent misunderstandings that could arise from the complexity and potential unexplainability of future AI-driven engagements or timelines."
+  },
+  {
+    "expert_quote": "Well, the role of leadership is it's very important, right? So you do need the right people driving the driving the conversations, and if they have the. And if they have this additional layer of complexity, so much the better. One thing that's very interesting here... is that most of the guys... everybody studies abroad or everybody has some kind of international experience. ... it's very. It's not common for you to meet a person very high level that has no international experience.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": true,
+    "rationale": "The expert frames international experience as a common, pre-emptive solution that equips leaders to manage complexity, suggesting this specific friction (assigning responsibility for opaque outcomes) is mitigated by prior preparation and is not a systemic failure point in their context."
+  },
+  {
+    "expert_quote": "we we we have the ACE with the very senior person. ... but we're always filling the void with the junior people. Also involved in the project.",
+    "mapped_id": "non_deterministic_outputs",
+    "is_negative_case": false,
+    "rationale": "The metaphor of 'filling the void' describes a procedural adaptation to the non-deterministic nature of information flow in cross-cultural meetings, where outputs (decisions, details) are not fixed due to varying participant engagement."
+  }
+]

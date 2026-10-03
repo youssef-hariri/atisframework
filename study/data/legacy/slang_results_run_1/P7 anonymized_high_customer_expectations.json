@@ -1,0 +1,62 @@
+[
+  {
+    "indicator": "dreams_vs_reality",
+    "evidence": "Person 2 describes the customer as 'the enemy' because they have 'a lot of ideas that are in the cloud or the heaven.' They emphasize the need to 'put all the things on the floor' and explain what is and isn't doable.",
+    "metaphor_mapped": "Customer ideas are 'in the cloud or the heaven' (ethereal, unrealistic) vs. needing to be 'on the floor' (practical, grounded).",
+    "is_negative_case": false
+  },
+  {
+    "indicator": "trust_understanding_gap",
+    "evidence": "Discusses failure with Mexican clients who 'want to know everything' but give incomplete definitions, leading the ML team to work with insufficient information and causing project failure.",
+    "metaphor_mapped": "None explicitly mapped in this segment.",
+    "is_negative_case": false
+  },
+  {
+    "indicator": "paradoxical_expectations",
+    "evidence": "While discussing AI/ML projects, Person 2 expresses enthusiasm for the technology but also highlights significant concerns about data privacy ('I think that’s a problem in the entire world') and the lack of ethical frameworks in certain regions.",
+    "metaphor_mapped": "None explicitly mapped in this segment.",
+    "is_negative_case": false
+  },
+  {
+    "indicator": "magic_box_perception",
+    "evidence": "Implied in the need to manage customer expectations and 'explain in the most... friendlier way.' The perception is that clients see the AI project as a solution that will automatically work, requiring the team to demystify and set boundaries.",
+    "metaphor_mapped": "Implied: AI as a 'box' that needs ordered inputs to function correctly (mentioned elsewhere).",
+    "is_negative_case": false
+  },
+  {
+    "indicator": "explainability_deficit",
+    "evidence": "Contrasts communication styles: Mexican clients want deep technical understanding, while US clients want simpler definitions. The frustration lies in tailoring the explanation to bridge the gap between the AI's complexity and the stakeholder's need to understand.",
+    "metaphor_mapped": "None explicitly mapped in this segment.",
+    "is_negative_case": false
+  },
+  {
+    "indicator": "anthropomorphic_projection",
+    "evidence": "Not directly observed. Person 2 focuses on practical communication and process, not attributing human-like qualities to AI.",
+    "metaphor_mapped": "N/A",
+    "is_negative_case": true
+  },
+  {
+    "indicator": "utility_mismatch",
+    "evidence": "Describes project failures occurring when client goals (e.g., what they want from a data scraping project) are not fully or clearly communicated, leading the ML team to build something that doesn't align with the true objective.",
+    "metaphor_mapped": "None explicitly mapped in this segment.",
+    "is_negative_case": false
+  },
+  {
+    "indicator": "unfairness_barriers",
+    "evidence": "Mentions that ethics in AI is a subject 'not currently developed in Latin America' and that privacy regulation is lacking in their country (Peru), creating a barrier to fair and trustworthy AI deployment.",
+    "metaphor_mapped": "None explicitly mapped in this segment.",
+    "is_negative_case": false
+  },
+  {
+    "management_friction": "feedback_dissonance",
+    "evidence": "Notes different cultural approaches to feedback. Some clients (e.g., from Walmart) focus on 'how could we improve the project and how much time... to improve that,' while others focus on time issues or project completion status. This requires interpreting feedback against varying benchmarks.",
+    "metaphor_mapped": "None explicitly mapped in this segment.",
+    "is_negative_case": false
+  },
+  {
+    "management_friction": "trust_erosion",
+    "evidence": "Cites specific failures due to cultural misunderstandings in knowledge sharing (e.g., Mexican clients not providing complete definitions). Such failures in the project phase risk disillusionment and could lead to resistance to scaling or demands for redesign.",
+    "metaphor_mapped": "None explicitly mapped in this segment.",
+    "is_negative_case": false
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "indicator_name": "recursive_innovation",
+    "evidence_from_transcript": "No explicit evidence provided. Person 2 discusses traditional ML (PCA, SVD, logistic regression) and deploying models at scale, but does not mention using AI to build AI.",
+    "strength_of_evidence": "None/Low",
+    "metaphor_used": null
+  },
+  {
+    "indicator_name": "skill_obsolescence_pace",
+    "evidence_from_transcript": "Person 2 describes his career 'evolution' from data science to ML engineering, a 'pivotal' skill shift required to deploy models at scale. This implies a need to constantly acquire new, more operational competencies.",
+    "strength_of_evidence": "Medium",
+    "metaphor_used": "Career 'evolution' and 'pivotal turn'."
+  },
+  {
+    "indicator_name": "judgment_substitution",
+    "evidence_from_transcript": "Person 2 discusses balancing the 'get the job done' approach (potentially AI/automation-focused efficiency) with the need for 'maintainability' and long-term human oversight in software development practices.",
+    "strength_of_evidence": "Low/Medium",
+    "metaphor_used": null
+  },
+  {
+    "indicator_name": "temporal_misalignment",
+    "evidence_from_transcript": "Describes a clash between US 'always-on' work culture ('living to work') and European work-life balance ('working to live'), leading to timeline pressure and US team members compensating with extra hours.",
+    "strength_of_evidence": "High",
+    "metaphor_used": "'Living to work' vs. 'working to live'."
+  },
+  {
+    "indicator_name": "regulatory_lag",
+    "evidence_from_transcript": "Mentions the 'cookie pocalypse' and GDPR compliance as events that required adaptation at Nielsen and Levi Strauss. Highlights differences in data privacy guardrails between US and European contexts, where regulation drives corporate practice.",
+    "strength_of_evidence": "Medium",
+    "metaphor_used": "'Cookie pocalypse'."
+  },
+  {
+    "indicator_name": "tool_proliferation",
+    "evidence_from_transcript": "No direct evidence. Discusses using established frameworks and methods (PCA, Docker, AWS) but not the rapid influx of new tools.",
+    "strength_of_evidence": "None/Low",
+    "metaphor_used": null
+  },
+  {
+    "indicator_name": "socio_technical_shift",
+    "evidence_from_transcript": "Highlights how privacy concerns (GDPR) and cultural work norms become central points of discussion and adjustment in AI-adjacent projects, alongside technical goals.",
+    "strength_of_evidence": "Medium",
+    "metaphor_used": null
+  },
+  {
+    "indicator_name": "gen_AI_acceleration",
+    "evidence_from_transcript": "No mention of generative AI. Discussion centers on traditional data science and ML engineering roles.",
+    "strength_of_evidence": "None",
+    "metaphor_used": null
+  },
+  {
+    "indicator_name": "timeline_compression",
+    "evidence_from_transcript": "Implied through the temporal misalignment. US team pressure to meet deadlines compensates for different work-hour cultures, forcing re-evaluation of workload and pace mid-project.",
+    "strength_of_evidence": "Medium",
+    "metaphor_used": null
+  },
+  {
+    "indicator_name": "continuous_training_demand",
+    "evidence_from_transcript": "Implied in his career pivot and need to understand different cultural and regulatory (GDPR) contexts to manage teams effectively, which is a form of non-technical upskilling.",
+    "strength_of_evidence": "Low/Medium",
+    "metaphor_used": null
+  },
+  {
+    "indicator_name": "integration_debt",
+    "evidence_from_transcript": "Describes at Nielsen working on 'old AWS infrastructure' where methods became obsolete, creating non-future-proof solutions that had to be containerized (Docker) to remain reproducible—a form of managing legacy components.",
+    "strength_of_evidence": "Medium",
+    "metaphor_used": null
+  },
+  {
+    "negative_case": {
+      "explicit_negation": "Person 2 states: 'I would say no. I haven't experienced any failure but I think that's because I've been very focused as an individual to not allow our differences get in the way...'",
+      "context": "When asked directly if cultural differences ever led to project failure, Person 2 negates the premise, attributing success to proactive focus on common goals and working agreements, rather than seeing difference as an inherent obstacle.",
+      "relevant_autocatalysis_friction": "Socio-technical shift and management frictions are present but are portrayed as manageable through deliberate leadership and communication, not as deterministic causes of failure."
+    }
+  },
+  {
+    "metaphor_analysis": [
+      {
+        "metaphor": "Herding the sheep",
+        "source": "Person 2 describing his role as a lead engineer: '...trying to kind of herd the sheep in some way.'",
+        "interpretation": "Portrays leadership in a fast-paced, multicultural environment as managing autonomous, potentially scattered individuals (the sheep) towards a common direction. Suggests a reactive, coordinative role rather than top-down control, aligning with the challenge of 'temporal misalignment' and diverse work styles."
+      },
+      {
+        "metaphor": "Thrown into the mix",
+        "source": "Person 2 on preparation for international work: 'No you're just thrown into the mix and you'll learn who you're working with.'",
+        "interpretation": "Illustrates the lack of systemic onboarding for cross-cultural collaboration. The 'mix' is chaotic and immersive, requiring immediate, ad-hoc adaptation—a metaphor for the unplanned human integration required by rapidly scaling, globalized tech projects."
+      }
+    ]
+  }
+]

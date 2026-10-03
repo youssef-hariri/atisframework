@@ -1,0 +1,32 @@
+[
+  {
+    "expert_quote": "She always ask ask about how how to code, how to make it works like for for the project like the AI end programming stuff.",
+    "mapped_id": "trust_understanding_gap",
+    "is_negative_case": false,
+    "rationale": "The non-technical project manager's persistent questioning about 'how it works' indicates a gap between her optimism/need for the AI system and her opaque understanding of its mechanics, a core element of the trust-understanding gap where high expectations are undermined by lack of comprehension."
+  },
+  {
+    "expert_quote": "She won't use it. 'Cause it's too complicated... But the way she told me... it's not clear enough.",
+    "mapped_id": "explainability_deficit",
+    "is_negative_case": false,
+    "rationale": "The manager's rejection of the AI interface due to its complexity, coupled with her inability to clearly articulate the specific technical reasons, reflects frustration stemming from a lack of transparent and interpretable interaction with the AI system's outputs."
+  },
+  {
+    "expert_quote": "She worried that she cannot make changes in the future.",
+    "mapped_id": "trust_erosion",
+    "is_negative_case": false,
+    "rationale": "The manager's concern about future maintenance reveals a practical disillusionment with the AI tool's usability. This directly leads to resistance to its adoption (she won't use it), which is a core friction of trust erosion during implementation phases."
+  },
+  {
+    "expert_quote": "For some some of our opinions... she accept the the opening but cannot implement it. Because for her it's too complicated.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "The developer's feedback and suggestions are accepted in principle but rejected in practice based on the manager's subjective benchmark of complexity ('too complicated'). This creates a dissonance where expert input is overridden by a non-technical perception of difficulty, requiring re-education or re-work."
+  },
+  {
+    "expert_quote": "I think it's the same cause. Yeah, for. Yeah, for other particular software engineering without AI, we still need to... Tell need to configure with the culture of the user.",
+    "mapped_id": "magic_box_perception",
+    "is_negative_case": true,
+    "rationale": "Person 2 explicitly contradicts the notion of AI as a special, infallible 'Magic Box'. He states that AI projects present the same cultural configuration challenges as non-AI software, indicating he does not perceive AI as autonomously perfect or culturally agnostic."
+  }
+]

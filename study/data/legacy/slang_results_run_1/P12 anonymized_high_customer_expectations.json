@@ -1,0 +1,44 @@
+[
+    {
+      "metaphor": "AI as a Specialized Tool",
+      "description": "Person 2 frames AI not as a general 'Magic Box' but as a purpose-built instrument. They explicitly state the model is built 'only particularly to this use case' and 'can't answer' unrelated questions, countering the infallible, autonomous perception.",
+      "quote": "we just create the model only particularly to this use case... If you ask something else it doesn't know. So it can't answer."
+    },
+    {
+      "metaphor": "Team as a Coordinated Organism",
+      "description": "Implies that project success depends on the harmonious, coordinated functioning of all parts (team members), especially across time zones and cultures. Success is framed as a collective, managed effort.",
+      "quote": "Team coordination is always needed for it... getting to know them really well makes you getting close like getting comfortable with how to talk to those people."
+    },
+    {
+      "metaphor": "Feedback as a Private Nurturing Process",
+      "description": "Contrasts their approach to correcting mistakes (private, constructive) with a negative example of public confrontation ('straight away fight'), framing effective management as a supportive, confidence-building activity.",
+      "quote": "I will just politely inform... I don't like it actually. So yeah, as a team lead, you have to give confidence also and you have to motivate them."
+    }
+  ],
+  "negative_cases_against_high_expectations": [
+    {
+      "rubric_indicator": "magic_box_perception",
+      "case_description": "Person 2 explicitly delineates the boundaries of their AI system, describing it as a narrow, use-case-specific tool that will fail or refuse tasks outside its domain. This demonstrates a practical, non-magical understanding shared by the builder and communicated to clients.",
+      "supporting_evidence": "We just create the model only particularly to this use case... If you ask something else it doesn't know. So it can't answer."
+    },
+    {
+      "rubric_indicator": "trust_understanding_gap / paradoxical_expectations",
+      "case_description": "Client directives around data privacy (e.g., 'don't use this data in any other AI models') are presented as a normal, accepted part of the business process. There is no indication of client disillusionment or resistance stemming from these constraints; they are simply requirements to be technically managed (e.g., via organization-specific access).",
+      "supporting_evidence": "If the client doesn't want to... reveal the data. It would straightaway, he would say that don't use this data... So we make sure that nobody... apart from organization mail should access the sheet or the data."
+    },
+    {
+      "rubric_indicator": "feedback_dissonance",
+      "case_description": "The described feedback loop with clients is structured, regular, and focused on iterative improvement ('they will give insights weekly... we'll be acting upon it'). There is no mention of feedback based on 'unrealistic benchmarks' requiring significant re-education; it is framed as collaborative refinement.",
+      "supporting_evidence": "We weekly once or twice we connect with the client... they will give insights weekly ways. So we'll be acting upon it and we'll see what is the mistake."
+    },
+    {
+      "rubric_indicator": "trust_erosion",
+      "case_description": "Person 2 describes leveraging advancements in external AI models as a purely positive action to improve their own product's insights. There is no narrative of pilot-phase disillusionment, scaling resistance, or demands for redesign. Technological evolution is seen as an opportunity, not a threat to trust.",
+      "supporting_evidence": "We leverage the different advancements in AI models. I would actually, I have to say it was like positive way only we used it. So there was no any negative concern."
+    },
+    {
+      "rubric_indicator": "anthropomorphic_projection / utility_mismatch",
+      "case_description": "The primary cultural challenges discussed are practical, human-to-human issues: time zones, language barriers, and communication styles. The AI itself is not described in anthropomorphic terms, nor is there conflict arising from it misaligning with unstated cultural or personal goals. The challenges and solutions are interpersonal.",
+      "supporting_evidence": "The thing is it was difficult to communicate with them... the time difference also... The language is a good kind of barrier... we manage as a team."
+    }
+  ]

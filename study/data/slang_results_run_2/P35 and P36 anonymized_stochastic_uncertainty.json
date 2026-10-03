@@ -1,0 +1,50 @@
+[
+  {
+    "expert_quote": "It could be just, you know, the different pace of work probably. But... Not like something crucial to adapt to, yeah.",
+    "mapped_id": "dynamic_forecast_adjustment",
+    "is_negative_case": true,
+    "rationale": "The speaker describes a variable 'pace of work' as a mild, non-crucial factor. This contradicts the rubric's concept of underlying system instability forcing constant, critical baseline updates (dynamic_forecast_adjustment)."
+  },
+  {
+    "expert_quote": "Different framework like how they expect the results. Some people are slower that they can take weeks to take decisions... And some people make decisions really fast in a matter of days so.",
+    "mapped_id": "non_deterministic_outputs",
+    "is_negative_case": false,
+    "rationale": "The description of widely varying, client-dependent decision timelines ('weeks' vs. 'days') reflects the inherent unpredictability and non-fixed nature of project input cycles, mapping to non-deterministic processes."
+  },
+  {
+    "expert_quote": "But then? They take a decision, then they stick to it, kind of while the Western... mentality... Is that it's more abrupt the flows so they people. People can take it. Translator two months later and just go ahead with some other idea and kind of, yeah.",
+    "mapped_id": "baseline_erosion",
+    "is_negative_case": false,
+    "rationale": "The metaphor of 'abrupt flows' and changing direction 'two months later' describes a project environment where forecasts and commitments (baselines) are frequently undermined by client volatility, directly matching the management friction."
+  },
+  {
+    "expert_quote": "Our goal is to support him in his decision, so we will switch. Even that it's can be complicated and painful, but... we are ready to. Take his pace.",
+    "mapped_id": "dynamic_forecast_adjustment",
+    "is_negative_case": false,
+    "rationale": "The need to 'switch' based on a client's new direction, accepting the 'complicated and painful' process, is a human-floor description of constantly updating project baselines due to external, unpredictable triggers."
+  },
+  {
+    "expert_quote": "I don't think so. I don't think so.",
+    "mapped_id": "model_drift",
+    "is_negative_case": true,
+    "rationale": "In response to a query about project failures due to culture, the speaker's firm denial contradicts the indicator of performance decay (model_drift) arising from changing interaction patterns in a multicultural AI project environment."
+  },
+  {
+    "expert_quote": "The roadblocks could be because of just our geolocation. We are in Ukraine and there is a war as you know.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "Identifying 'geolocation' and geopolitical instability as a primary roadblock source uses professional slang for a high-sensitivity external factor impacting operations, analogous to a model's critical dependency on specific, stable data inputs."
+  },
+  {
+    "expert_quote": "I wouldn't say it affects our work. Not really.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": true,
+    "rationale": "This statement directly negates the previous point, claiming the identified external, high-sensitivity factor (war/geolocation) does not meaningfully impact work, thus serving as a negative case for data dependency's critical influence."
+  },
+  {
+    "expert_quote": "I think you're in. In general, the modern world is very open to work in Bism multinational teams. And this is great.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": true,
+    "rationale": "The positive framing of multinational collaboration as 'great' and the modern world as 'very open' contradicts the indicator of opaque outcomes arising from the complexities of algorithmic or, by analogy, multicultural decision-making processes."
+  }
+]

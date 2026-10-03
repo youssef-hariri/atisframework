@@ -1,0 +1,38 @@
+[
+  {
+    "expert_quote": "So the feedback are important, then going back, not just checking them as just the only way, but being curious, going to get more into whatever has been given.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The phrase 'being curious, going to get more into whatever has been given' reflects a professional practice of digging beneath surface-level results to understand complex, hard-to-explain algorithmic decisions, which aligns with the indicator 'opaque_outcomes'."
+  },
+  {
+    "expert_quote": "The funny part is that when we are done with the project after three months, our projects decided. Their model decided now. Just to not approve the loan to all the customers. So the model was not now classified who not to approve and who not to.",
+    "mapped_id": "non_deterministic_outputs",
+    "is_negative_case": false,
+    "rationale": "The informal description 'the model decided' to behave in an unexpected, blanket-rejection manner illustrates the core concept of non-deterministic outputs—results that are not fixed and can manifest in unforeseen, variable ways upon deployment."
+  },
+  {
+    "expert_quote": "So after we are done and trying to test on other like unseen data sets, I want to know decided that nobody who comes new people and seen as the ones we have can't be given any loan. So we consider that a failure...",
+    "mapped_id": "lack_of_reproducibility",
+    "is_negative_case": false,
+    "rationale": "The failure to generalize from the training phase to 'unseen data sets' and produce a viable, consistent result is a colloquial description of the inability to replicate AI-driven results, matching 'lack_of_reproducibility'."
+  },
+  {
+    "expert_quote": "We need everything. Apart from the one on the the ethical one that was just sides on with some some of the information you are not finding within the data but on the main project.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "Highlighting the importance of information 'not finding within the data' and the ethical 'sides' points to the high sensitivity of model outcomes to the completeness, quality, and contextual relevance of the underlying data, which is the essence of 'data_dependency'."
+  },
+  {
+    "expert_quote": "The main learning point was that we. Are all intense beginners. And we just went in. Not consulting from those who have experience in the field.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": false,
+    "rationale": "Attributing project failure to a lack of consultation and beginner status is a human-floor description of the difficulty in assigning clear responsibility for AI-derived decisions when expertise is siloed or absent, corresponding to 'accountability_challenges'."
+  },
+  {
+    "expert_quote": "Later on, with consultation and asking some of the professors, we're able to correct some of the mistakes which you made.",
+    "mapped_id": "baseline_erosion",
+    "is_negative_case": true,
+    "rationale": "This statement contradicts the friction. It describes a successful correction of course through expert consultation, implying a path to stabilizing forecasts and commitments rather than being forced into repeated adjustments, thus acting as a negative case for 'baseline_erosion'."
+  }
+]

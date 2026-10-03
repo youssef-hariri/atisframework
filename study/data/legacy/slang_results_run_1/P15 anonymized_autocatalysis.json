@@ -1,0 +1,44 @@
+[
+  {
+    "rubric_indicator": "temporal_misalignment",
+    "evidence": "Person 2 highlights the fundamental scheduling and workflow friction caused by time zone differences when collaborating with teams in India, stating, 'I don't favor working with teams in India, because primarily because of the time difference. It's just not. It just doesn't work.' This exemplifies the clash between the need for rapid, synchronous collaboration ('AI time') and the logistical reality of distributed human teams ('organizational time').",
+    "metaphor_mapping": "**Time Zone as an Immovable Wall.** Person 2 frames the time difference not as a minor inconvenience but as a structural barrier that 'just doesn't work,' preventing seamless integration and forcing suboptimal resourcing decisions (e.g., seeking talent in Latin America).",
+    "is_negative_case": false,
+    "negative_case_explanation": null
+  },
+  {
+    "rubric_indicator": "skill_obsolescence_pace",
+    "evidence": "Person 2 observes the evolution of technical and professional culture over his career, noting specifically about Indian tech workers: 'I think the Indian tech culture has changed... they're American like you know like.' He implies that the skill set and professional norms (e.g., expectation of agency) that were outdated or mismatched 20 years ago have now evolved and converged, suggesting a process of adaptation, albeit over a long timeframe.",
+    "metaphor_mapping": "**Cultural Convergence as Evolution.** Person 2 uses the language of generational change and adaptation ('generations of Americans who have Indian parents', 'the tech culture of Indians has changed') to describe how professional competencies and expectations can evolve to meet new demands.",
+    "is_negative_case": true,
+    "negative_case_explanation": "This is a potential negative case for 'skill_obsolescence_pace.' While the rubric posits skills become outdated faster than they can be replaced, Person 2 provides an example of a cultural/soft skill (expectation of managerial direction) that *did* adapt and converge over a multi-decade span. It suggests adaptation is possible, but at a pace potentially much slower than the current AI acceleration."
+  },
+  {
+    "rubric_indicator": "socio_technical_shift",
+    "evidence": "Person 2 directly compares US and European approaches to AI ethics and regulation: 'The United States has less regulatory laws around AI ethics and AI than Europe does... the US would probably value innovation over ethics in a lot of cases, more so than in Europe.' He identifies the explicit trade-off and the societal choice point where technical velocity forces a focus on ethics and governance.",
+    "metaphor_mapping": "**Regulation as a Speed Bump vs. Guardrail.** The discussion frames stricter EU regulations (like GDPR, cited in the Germany example) as potential barriers to innovation ('why are we creating these barriers?') from one perspective, and as essential protections from another. This mirrors the socio-technical shift from pure technical development to managing its societal impact.",
+    "is_negative_case": false,
+    "negative_case_explanation": null
+  },
+  {
+    "rubric_indicator": "judgment_substitution",
+    "evidence": "In discussing his management philosophy, Person 2 emphasizes human judgment and agency: 'I give them authority and I encourage them to take actions... I trust the people who work for me.' He values 'soft skills almost as much as technical skills' and curates teams based on personality and cultural fit to optimize collaboration. This highlights a model where human judgment in team building, trust, and ethical sense is paramount and not substituted.",
+    "metaphor_mapping": "**Team as a Mosaic.** Person 2 describes constructing teams by fitting individual pieces together based on their skills and personalities: 'I'm thinking about the personalities and how they fit together and how they can benefit each other.' This is a deeply human-centric, judgment-based process of integration.",
+    "is_negative_case": true,
+    "negative_case_explanation": "This is a strong negative case for 'judgment_substitution.' Throughout the transcript, Person 2 underscores the irreplaceable role of human judgment in leadership, hiring, team composition, and ethical oversight. His narrative centers on amplifying and orchestrating human judgment, not substituting it with AI-driven prediction or automation."
+  },
+  {
+    "rubric_indicator": "regulatory_lag",
+    "evidence": "The example of the offensive icon designed by a Slovenian agency for the US market illustrates regulatory (or normative) lag. The cultural meaning and offensiveness of the symbol were not governed by a formal policy ahead of time. The corrective judgment ('you probably need to change that icon') occurred only after the technical deployment (design) was presented.",
+    "metaphor_mapping": "**Cultural Landmines.** Unforeseen offensive content is described as a hidden hazard that only becomes apparent upon deployment in a specific cultural context. The framework for identifying it (cultural knowledge) lags behind the act of creation.",
+    "is_negative_case": false,
+    "negative_case_explanation": null
+  },
+  {
+    "rubric_indicator": "management_frictions.timeline_compression",
+    "evidence": "While not about AI tool obsolescence directly, Person 2's experience during the Babylon bankruptcy provides a stark analogy. The US team's timeline for employment was compressed to zero ('that day that very day... I was out of work'), while the UK team had a legally mandated, slower process. This external shock created an extreme form of timeline compression for planning and delivery, mirroring the pressure managers feel when project viability or tool relevance collapses unexpectedly.",
+    "metaphor_mapping": "**Bankruptcy as a Forced Reset.** The sudden corporate collapse instantly invalidated all prior project timelines and roadmaps, forcing an immediate and unplanned re-evaluation of all work—a violent form of timeline compression driven by external market forces, analogous to a disruptive technical shift.",
+    "is_negative_case": false,
+    "negative_case_explanation": null
+  }
+]

@@ -1,0 +1,84 @@
+[
+  {
+    "speaker": "Person 2",
+    "analysis_focus": "metaphors_and_negative_cases_high_expectations",
+    "findings": [
+      {
+        "rubric_indicator": "dreams_vs_reality",
+        "evidence": "Describes needing to 'lower his dreams' when a client comes with a 'heaven' of an idea in their head. Uses 'maps and graphs' and research to show what is practically possible versus what is not.",
+        "metaphors": [
+          "lower his dreams",
+          "cook up some heaven in that scenario"
+        ],
+        "interpretation": "Person 2 explicitly frames client expectations as idealized ('heaven') and describes their role as bringing them down to a practical, grounded reality. This directly maps to managing the gap between hype and deliverable outputs."
+      },
+      {
+        "rubric_indicator": "trust_understanding_gap",
+        "evidence": "Highlights the importance of honesty with clients: 'you have to be honest... tell them that this is possible... or we cannot do this.' This builds trust to counteract potential disappointment from unmet, opaque promises.",
+        "metaphors": [
+          "explain to me as a 5 year old"
+        ],
+        "interpretation": "The '5-year-old' metaphor signifies a strategy to bridge the understanding gap. By simplifying complex AI limitations, Person 2 preempts the erosion of trust that comes from clients not understanding why an AI system can't perform a requested 'magical' task."
+      },
+      {
+        "rubric_indicator": "paradoxical_expectations",
+        "evidence": "While not detailing client fears, Person 2's approach anticipates this paradox. Their method of building friendship first, then business, and being transparent about limitations ('we can do A and B... give us time [for C]') is designed to manage both high hopes and the perceived risk of failure.",
+        "metaphors": [],
+        "interpretation": "Person 2's entire consultancy strategy—starting from a position of friendship and social proof (meeting in high-end venues)—is a cultural and interpersonal tool to navigate the inherent paradox. It lowers perceived risk and builds a buffer of goodwill before technical limitations are discussed."
+      },
+      {
+        "rubric_indicator": "magic_box_perception",
+        "evidence": "Contrasts problem-solving approaches within his team: the traditional method (Python packages) vs. 'let's get that. Put it in AI. Give it a good prompt. Let's wait and see what comes out.'",
+        "metaphors": [
+          "Put it in AI"
+        ],
+        "interpretation": "The phrase 'put it in AI' frames the LLM as a potential box where you input a problem and await an output, aligning with the 'Magic Box' perception. Person 2 presents this as one valid approach among others, not a guaranteed solution, showing an awareness of the trope within the team's own brainstorming."
+      },
+      {
+        "rubric_indicator": "explainability_deficit",
+        "evidence": "The core of their client management is explanation to overcome this deficit. Uses 'maps and graphs' and the '5-year-old' logic to make AI's capabilities and limits interpretable.",
+        "metaphors": [
+          "explain to me as a 5 year old",
+          "maps and graphs"
+        ],
+        "interpretation": "Person 2 employs clear metaphors and visual aids explicitly to combat the frustration caused by AI's black-box nature. The '5-year-old' logic is a direct tactic to force explainability into the client interaction."
+      },
+      {
+        "rubric_indicator": "utility_mismatch",
+        "evidence": "Client requests are framed as needing to be aligned with what is technically and feasibly possible. The process involves resetting the client's goal (their utility function) to match the AI system's actual utility.",
+        "metaphors": [
+          "lower his dreams"
+        ],
+        "interpretation": "The mismatch is assumed as a default starting point. Person 2's job is to perform this alignment through education and demonstration, moving the client from their ideal utility to a achievable, AI-assisted utility."
+      },
+      {
+        "rubric_indicator": "unfairness_barriers",
+        "evidence": "When directly asked about dealing with model bias and ethics, Person 2 responds: 'Oh, no, no. We don't deal with bias. Genetics. Yeah.'",
+        "metaphors": [],
+        "interpretation": "This is a significant **negative case**. For Person 2's specific projects ('in house data', 'login information'), bias and fairness are not encountered or are not perceived as relevant barriers. This indicates that the 'unfairness_barriers' indicator is not universally active; it depends heavily on the application domain (e.g., they are not building credit or hiring algorithms)."
+      },
+      {
+        "rubric_indicator": "feedback_dissonance",
+        "evidence": "Describes feedback culture in his international job as very direct ('this is ****. Go fix it'), which he accepts as constructive. For clients, feedback is managed through the pre-established friendship and honesty, preventing dissonance based on unrealistic benchmarks.",
+        "metaphors": [],
+        "interpretation": "Person 2's methodology of expectation management from the outset appears to prevent the classic 'feedback_dissonance' where users file bug reports based on magical thinking. By the time feedback is given, the client's benchmarks have already been recalibrated to reality."
+      },
+      {
+        "rubric_indicator": "trust_erosion",
+        "evidence": "Their strategy of starting as friends and delivering small, initial successes builds trust capital. This is designed to prevent disillusionment in pilot phases: 'they can see we are able to deliver... they take it as mature people.'",
+        "metaphors": [],
+        "interpretation": "Person 2's approach is a proactive inoculation against 'trust_erosion'. The trust is built on a human relationship and demonstrated, incremental competence, not on the promise of AI magic, making it more resilient when limitations are encountered."
+      },
+      {
+        "category": "general_metaphor_for_culture_and_expectations",
+        "evidence": "Describes leadership in a multicultural team using a swimming lesson metaphor: 'In Africa we are taught how to swim? You're thrown in the deep end... the instructor will stretch a pole... for you to grab.'",
+        "metaphors": [
+          "thrown in the deep end",
+          "stretch a pole"
+        ],
+        "interpretation": "This metaphor encapsulates Person 2's philosophy for managing high-stakes situations (like AI projects with high expectations). It involves giving autonomy ('thrown in'), allowing for failure, but being ready with support ('the pole'). This can be interpreted as their meta-strategy for managing both team members and client expectations: set clear challenges, allow exploration, but be ready to guide back to feasible shores."
+      }
+    ],
+    "summary_interpretation": "Person 2 demonstrates high practical awareness of the 'Magic Box' perception and actively employs a suite of interpersonal and communication strategies to manage it. Their approach is pre-emptive and relational, focusing on building human trust and setting realistic expectations before technical work begins. A key negative case is the absence of 'unfairness_barriers' in their work, highlighting that this dimension of high expectations is context-dependent. Their metaphors consistently frame AI not as magic, but as a tool with defined edges, requiring clear explanation and managed hope."
+  }
+]

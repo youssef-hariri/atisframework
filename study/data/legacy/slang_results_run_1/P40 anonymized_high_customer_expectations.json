@@ -1,0 +1,89 @@
+[
+  {
+    "rubric_item": "dreams_vs_reality",
+    "connection_strength": "none_direct",
+    "analysis": "No direct evidence of Person 2 discussing idealized visions of AI capabilities. The transcript focuses on team dynamics, work culture, and practical business operations. The project context is assumed to be AI, but expectations about the technology's performance are not discussed.",
+    "supporting_quote": "N/A",
+    "metaphors_mapped": []
+  },
+  {
+    "rubric_item": "trust_understanding_gap",
+    "connection_strength": "indirect_low",
+    "analysis": "Person 2 mentions challenges with data governance ('I didn't have a complete map of where the data was') and basic security practices. This could be a low-level manifestation of a trust/understanding gap, where the practical, messy reality of managing data assets for an AI project undermines a founder's confidence in security and organization, though not specifically trust in the AI's outputs.",
+    "supporting_quote": "as a cofound and I didn't have a complete map of where the data was and sometimes it was super important because maybe I need to access data or I just to make sure that it's safe",
+    "metaphors_mapped": []
+  },
+  {
+    "rubric_item": "paradoxical_expectations",
+    "connection_strength": "none",
+    "analysis": "Person 2 does not express simultaneous high hopes and high perceived risk toward the AI project itself. The discussion centers on team and operational risks (e.g., electricity outages, data location).",
+    "supporting_quote": "N/A",
+    "metaphors_mapped": []
+  },
+  {
+    "rubric_item": "magic_box_perception",
+    "connection_strength": "none",
+    "analysis": "There is no indication that Person 2 or their team viewed their AI product as an infallible, autonomous 'Magic Box.' The narrative is grounded in the hard work of development and business execution.",
+    "supporting_quote": "N/A",
+    "metaphors_mapped": []
+  },
+  {
+    "rubric_item": "explainability_deficit",
+    "connection_strength": "none",
+    "analysis": "No discussion of AI decision-making, interpretability, or user frustration with opaque outputs.",
+    "supporting_quote": "N/A",
+    "metaphors_mapped": []
+  },
+  {
+    "rubric_item": "anthropomorphic_projection",
+    "connection_strength": "none",
+    "analysis": "Person 2 does not attribute human-like reasoning or reliability to the AI system. Interactions described are between human team members.",
+    "supporting_quote": "N/A",
+    "metaphors_mapped": []
+  },
+  {
+    "rubric_item": "utility_mismatch",
+    "connection_strength": "none_direct",
+    "analysis": "While not about AI recommendations, Person 2 touches on a potential utility mismatch in team communication. Team members from Togo would say 'yes' to tasks but sometimes not complete them, indicating a misalignment between stated goals (agreement) and practical execution. This is a human coordination issue, not an AI utility mismatch.",
+    "supporting_quote": "my colleagues were in Togo would be more accepting and saying yes, yes, yes... and sometimes they would not do it",
+    "metaphors_mapped": []
+  },
+  {
+    "rubric_item": "unfairness_barriers",
+    "connection_strength": "none",
+    "analysis": "No mention of AI bias, fairness, or rejection of the technology on those grounds.",
+    "supporting_quote": "N/A",
+    "metaphors_mapped": []
+  },
+  {
+    "rubric_item": "feedback_dissonance",
+    "connection_strength": "partial_analogous",
+    "analysis": "Person 2 describes a cultural communication style that creates a feedback loop problem analogous to 'feedback_dissonance'. Team members provide affirmative feedback ('yes') but do not act on it, creating a disconnect between stated understanding and reality. This requires managerial 're-education' and follow-up labor to bridge the gap, similar to managing user feedback based on unrealistic benchmarks.",
+    "supporting_quote": "they would be more okay, okay, yes, I will do that. And sometimes... they would not do it or it would take a lot of time, but they they don't did not so much say",
+    "metaphors_mapped": []
+  },
+  {
+    "rubric_item": "trust_erosion",
+    "connection_strength": "none_direct",
+    "analysis": "No discussion of pilot phase disillusionment with an AI system leading to scaling resistance. However, Person 2 alludes to potential investor trust issues if data governance is not demonstrably secure ('make sure that the company still has their assets for the investors'), indicating a foundational trust requirement for the business overall.",
+    "supporting_quote": "make sure that it's safe... for the investors",
+    "metaphors_mapped": []
+  },
+  {
+    "negative_case_analysis": "The entire transcript serves as a significant negative case for the rubric 'high_customer_expectations.' The interviewee (Person 2) is a co-founder/manager discussing internal team dynamics, cultural work styles, and operational challenges (data, security, communication). The 'AI project' is merely the context, not the subject of scrutiny. The perceptual gaps described are about human collaboration, time zones, work ethic, and directness in business culture—not about stakeholder perceptions of AI's capabilities as a technology. The core tension of the rubric (the 'Magic Box' expectation) is entirely absent from this operational and managerial narrative.",
+    "key_metaphors_identified": [
+      {
+        "metaphor": "Hardcore (work ethic)",
+        "source_quote": "they're very kind of hardcore on how they work",
+        "interpretation": "Describes intense, unwavering commitment. Used to contrast the work ethic of the Togolese engineers with a perceived (or stereotyped) French approach.",
+        "potential_rubric_link": "Dreams vs. Reality (if 'hardcore' effort is driven by unrealistic project promises, but this link is not made explicit)."
+      },
+      {
+        "metaphor": "Supernatural (business acumen)",
+        "source_quote": "you can feel that they're much more used to doing business... it's supernatural there",
+        "interpretation": "Attributes almost magical or exceptional ability to Americans in a business context. Highlights a perceptual gap about ease of commerce.",
+        "potential_rubric_link": "Magic Box Perception (transposed from technology to cultural business skill)."
+      }
+    ]
+  }
+]

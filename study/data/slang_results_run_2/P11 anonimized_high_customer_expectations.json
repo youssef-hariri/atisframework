@@ -1,0 +1,32 @@
+[
+  {
+    "expert_quote": "the projects we are working on are all using like rag or retrieval augmented generation where. We actually control. The responses of the AI, it's not like open and you know, we have some datasets and we control how it it should respond and we limit some topics you know from being discussed.",
+    "mapped_id": "magic_box_perception",
+    "is_negative_case": true,
+    "rationale": "The speaker explicitly describes a system of control and limitation for AI, directly contradicting the 'Magic Box' perception of AI as an autonomous, infallible black-box solution. The use of 'control' and 'limit' indicates an active rejection of viewing AI as a flawless, self-governing entity."
+  },
+  {
+    "expert_quote": "I think the awareness in this like in Europe for example, because they have the awareness about this, you know, policies because the European Union is always, you know, very it's it's very conscious, very. Say careful about the privacy of. The European individuals. That's why you feel the European people because of that. They have the culture of, you know, privacy.",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": false,
+    "rationale": "The speaker describes how differing regulatory and cultural sensitivities (specifically on privacy) create varying standards of acceptability, which is a latent precursor to the 'unfairness_barriers' indicator. If an AI system is perceived to violate a group's cultural or regulatory norms around privacy or ethics, it creates a barrier to acceptance."
+  },
+  {
+    "expert_quote": "Yeah, that definitely when we talk about the ethics and and definitely it's influenced by the culture itself, because what you see wrong. In country A could be the norm. In country B.",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": false,
+    "rationale": "This statement directly addresses the culturally contingent nature of ethics and fairness. It highlights that an AI's output or underlying logic, if aligned with one cultural norm, may be perceived as unfair or biased by another culture, directly mapping to the 'unfairness_barriers' indicator of rejection due to perceived bias."
+  },
+  {
+    "expert_quote": "The data. That the AI today is is trained on. Is mostly English data. You know, like mostly English mostly. I would say it depends on the model, of course... it will, you know, inherit the the ethics from or inherited the, the, the, the model... what is right and what is wrong? From the data itself.",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": false,
+    "rationale": "The speaker identifies a systemic issue: AI models inherit ethical and normative biases from their training data, which is predominantly from a specific cultural/linguistic context. This is a foundational explanation for why 'unfairness_barriers' arise, as the AI's outputs may not be aligned with the values of stakeholders from other cultural backgrounds."
+  },
+  {
+    "expert_quote": "There wasn't like a conflict. It's just like, you know, different different opinions, like different opinions, different feeling about how things are going or how things should be going like like that only. So there there wasn't like a conflict that that we resolved. It's just that.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": true,
+    "rationale": "The speaker describes a scenario of differing opinions on project execution (e.g., lean vs. perfectionist approaches) but frames it as a non-conflict requiring no formal resolution. This negates the 'feedback_dissonance' friction, which involves the laborious re-education required when users provide feedback based on unrealistic benchmarks. Here, the difference is acknowledged but not escalated into a dissonance requiring management."
+  }
+]

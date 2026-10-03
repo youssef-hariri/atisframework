@@ -1,0 +1,63 @@
+[
+  {
+    "analysis_type": "metaphor_mapping",
+    "metaphors": [
+      {
+        "metaphor": "Overlapping Circles",
+        "description": "Person 2 uses the metaphor of overlapping circles to describe how a strong, shared company culture can subsume individual cultural differences and create a common, predictable framework for interaction.",
+        "context": "Used when discussing how company culture guides (inclusive language, project management) create a 'default' set of principles that everyone agrees on, reducing variance in team behavior."
+      },
+      {
+        "metaphor": "Proxy / No Proxy",
+        "description": "Describes communication styles as either having a 'proxy' (indirect, softened) or having 'no proxy' (direct, unfiltered). This frames communication variance as a cultural filter affecting the clarity and delivery of information.",
+        "context": "Used to contrast feedback styles between UK colleagues (indirect, careful) and Middle Eastern/Turkish colleagues (direct, fast-paced), highlighting a source of potential misinterpretation."
+      },
+      {
+        "metaphor": "Hot Blood vs. Cold Blood",
+        "description": "A biological metaphor attributing communication temperament (more intense/rapid vs. more calm/deliberate) to cultural or environmental factors like climate.",
+        "context": "Used to differentiate the perceived communication energy and sensitivity between team members from Turkey and Malaysia."
+      },
+      {
+        "metaphor": "Default",
+        "description": "Represents the established, predictable norm or baseline (company culture, project methodology) against which individual variance is measured and managed.",
+        "context": "Refers to the shared company culture as a 'default' setting that aligns the team and reduces unpredictable interpersonal friction."
+      },
+      {
+        "metaphor": "Filter / Control",
+        "description": "Implies applying a technical or process-based layer to manage or restrict the inherent properties of a system. Used in the context of controlling AI outputs and team dynamics.",
+        "context_1": "Describes using RAG (Retrieval-Augmented Generation) to 'control the responses of the AI,' limit topics, and make it an 'agent to assist'—directly managing stochastic output variance.",
+        "context_2": "Describes one-on-one calls as a managerial technique to 'filter' and understand individual concerns that don't surface in multicultural group settings, managing interpersonal variance."
+      },
+      {
+        "metaphor": "Lean Startup Mentality",
+        "description": "A product development metaphor (make it work, then good, then great) used to contrast project management philosophies, framing approach variance as a cultural/practical difference.",
+        "context": "Contrasts a 'perfectionist' (deterministic, linear) approach with a more iterative, variance-tolerant approach advocated by an Indian colleague."
+      }
+    ]
+  },
+  {
+    "analysis_type": "negative_case_identification",
+    "negative_cases": [
+      {
+        "rubric_indicator": "non_deterministic_outputs",
+        "contradictory_evidence": "Person 2 explicitly states their AI projects use Retrieval-Augmented Generation (RAG) to 'control the responses of the AI' and 'limit some topics.' This engineering approach is designed to minimize the non-deterministic, generative nature of the base LLM, creating a more deterministic, bounded assistant.",
+        "interpretation": "This represents a negative case where the inherent stochasticity of the AI model is seen as a problem to be engineered away, not an accepted characteristic. Success is measured by reducing output variance."
+      },
+      {
+        "rubric_indicator": "opaque_outcomes",
+        "contradictory_evidence": "While Person 2 acknowledges ethical opacity in general LLMs (e.g., cultural bias in training data), their project work is presented as transparent and controllable. They 'control how it should respond' within a business context, suggesting the outcomes are designed to be explainable and bounded by the retrieved data.",
+        "interpretation": "The project's design philosophy treats opacity as an external, large-model problem that is mitigated through architectural choice (RAG), not a core feature of their deployed system."
+      },
+      {
+        "rubric_indicator": "probabilistic_variance & dynamic_forecast_adjustment",
+        "contradictory_evidence": "Person 2's management strategy for team variance (cultural communication styles) is proactive and structural, not reactive. They institute regular one-on-one calls as a consistent practice to uncover issues early. This seeks to establish a stable feedback baseline and prevent surprises, rather than constantly adjusting to them.",
+        "interpretation": "The managerial response to human 'variance' is to implement a deterministic, repeating process (scheduled 1:1s) designed to gather data and stabilize understanding, countering the notion of constant, reactive adjustment."
+      },
+      {
+        "rubric_indicator": "data_dependency",
+        "contradictory_evidence": "Person 2 separates 'data dependency' into two categories: 1) The problematic, broad dependency of foundation models on vast, unvetted internet data (which they critique), and 2) The controlled, curated dependency of their RAG systems on specific, internal business datasets. The latter is viewed not as a source of uncertainty, but as the source of reliability and relevance.",
+        "interpretation": "This frames data dependency as a switchable risk. Poor, broad dependency leads to ethical drift and variance; good, narrow dependency leads to deterministic, useful outcomes. The inherent uncertainty of data relevance is managed by severely restricting the data domain."
+      }
+    ]
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "expert_quote": "And after, you know, three months of struggle, they say yes for meetings and then they say yes for one or two projects, that's when the cultural thing... raises.",
+    "mapped_id": "probabilistic_variance",
+    "is_negative_case": false,
+    "rationale": "The 'struggle' and 'raises' metaphor describes the unpredictable, fluctuating effort and timeline required to secure client commitment, aligning with the statistical variance inherent in probabilistic processes like client acquisition."
+  },
+  {
+    "expert_quote": "But when it comes to deployment. I think there's a little bit of difference there...",
+    "mapped_id": "non_deterministic_outputs",
+    "is_negative_case": false,
+    "rationale": "The phrase 'a little bit of difference there' acknowledges that despite similar coding skills, deployment outcomes are not fixed and can vary, reflecting the non-deterministic nature of the final model/system performance."
+  },
+  {
+    "expert_quote": "And then it's a dry period... They ping us, we give them a demo and they they give us feedback and it's going to go on like that for a few weeks.",
+    "mapped_id": "dynamic_forecast_adjustment",
+    "is_negative_case": false,
+    "rationale": "The cyclical 'ping...demo...feedback' loop describes an ongoing, iterative process of adjustment driven by client input, mirroring the need to constantly update baselines due to underlying uncertainty in the development path."
+  },
+  {
+    "expert_quote": "He never said he was angry or he. He never said he was upset or things like that... His language or tone was. I wouldn't appreciate it. So I had to deconstruct it and say maybe I shouldn't repeat that process.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": false,
+    "rationale": "The ambiguous feedback ('I wouldn't appreciate it') and the need to 'deconstruct' it highlights the opacity in communication and decision-making rationale, making it difficult to assign clear responsibility or understand the true criteria for success/failure."
+  },
+  {
+    "expert_quote": "So I had to deconstruct it and say maybe I shouldn't repeat that process.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The expert's need to 'deconstruct' a non-explicit signal ('I wouldn't appreciate it') points to decision-making complexities where the reasoning and desired outcomes are not clearly communicated or understood, leading to ambiguous results."
+  },
+  {
+    "expert_quote": "But I would say there are some implementation differences... There are some customers who are open to use a chat GP TS API to get the job done. There are some customers who buy the NVIDIA Jetson machine deploy, you know, open source AI, and they only want stuff from there.",
+    "mapped_id": "probabilistic_variance",
+    "is_negative_case": false,
+    "rationale": "The statement describes significant, client-driven fluctuations ('some...are open...some...only want') in the fundamental technical implementation approach, representing statistical variance in the project's foundational setup and constraints."
+  },
+  {
+    "expert_quote": "So I think there may be a cultural decision could come into play.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "Describing a decision as 'cultural' frames it as a high-sensitivity variable dependent on human factors and business context, analogous to model sensitivity to the 'historical data quality and relevance' of its training environment."
+  },
+  {
+    "expert_quote": "In the first project, you don't listen to them. You just want to execute work. Tell them what to do and get the work done. Once the trust is built, you know we will listen to them...",
+    "mapped_id": "model_drift",
+    "is_negative_case": false,
+    "rationale": "The shift from a rigid 'execute' mode to a collaborative 'listen' mode as trust develops describes a performance evolution over time based on changing relationship patterns, analogous to model performance decay or change due to shifting data/context."
+  },
+  {
+    "expert_quote": "And even if we do it, we would not be having success with it.",
+    "mapped_id": "lack_of_reproducibility",
+    "is_negative_case": false,
+    "rationale": "The statement implies that a specific aggressive sales tactic ('send a contract...give us $50,000') does not reliably yield success, indicating the inability to consistently replicate a specific outcome from a given approach."
+  },
+  {
+    "expert_quote": "What ended up happening was the servers could not handle it because of architectural issues. So. So they weren't happy about it...",
+    "mapped_id": "non_linear_estimation",
+    "is_negative_case": false,
+    "rationale": "The unforeseen 'architectural issues' causing server failure illustrate a complex, non-linear relationship between project components that was not captured in initial, presumably more linear, planning assumptions."
+  },
+  {
+    "expert_quote": "Be truthful. Do the right thing. Be on time. Show up document stuff and keep working and keep communicating.",
+    "mapped_id": "baseline_erosion",
+    "is_negative_case": true,
+    "rationale": "This advice promotes consistent, disciplined processes ('on time', 'document', 'keep communicating') as a universal solution, implicitly contradicting the idea that probabilistic variance inherently forces repeated baseline adjustments. It suggests stability can be achieved through rigor."
+  }
+]

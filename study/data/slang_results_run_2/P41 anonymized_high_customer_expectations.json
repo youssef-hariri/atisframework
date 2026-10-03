@@ -1,0 +1,62 @@
+[
+  {
+    "expert_quote": "machine learning started to make hype and I decided on a give a decision to make a career change",
+    "mapped_id": "magic_box_perception",
+    "is_negative_case": false,
+    "rationale": "The use of 'hype' as a driver for career change implies an attraction to the perceived, transformative potential of the field, aligning with the notion of AI as a compelling, high-potential 'magic box'."
+  },
+  {
+    "expert_quote": "I will not says I'm good at machine learq. I know because I had built so many times so many errors and after so many stacks you learn something.",
+    "mapped_id": "dreams_vs_reality",
+    "is_negative_case": false,
+    "rationale": "The professional slang 'so many errors' and 'so many stacks' directly contrasts idealized visions of flawless AI development with the messy, iterative, and error-prone reality of practical machine learning work."
+  },
+  {
+    "expert_quote": "They are so prone to show. Good results. They are so... they had pressure on them to be best to show best, but it is not best. Always you couldn't do it. But then sometimes we are hearing about they manipulate some results.",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": false,
+    "rationale": "Describes pressure to present 'best' and 'good results', which assumes perfect alignment with stakeholder goals ('utility'). The subsequent admission of result manipulation reveals the practical mismatch and the extreme lengths taken to meet unrealistic expectations."
+  },
+  {
+    "expert_quote": "I faced model bias... I had to choose one algorithm, but it was not. It underestimates some of the classes... Means that I couldn't. I accept to not. Rightly estimate this kind of stars.",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": false,
+    "rationale": "The straightforward statement 'I faced model bias' and the description of systematic underestimation ('unfairness') for certain classes directly reflects a technical barrier arising from perceived algorithmic unfairness."
+  },
+  {
+    "expert_quote": "it was hard to fight and algorithm that all address this question for all fourteen classes... it was not.",
+    "mapped_id": "dreams_vs_reality",
+    "is_negative_case": false,
+    "rationale": "The phrase 'hard to fight an algorithm' and the acknowledgment of failure ('it was not') to create a perfect, universally applicable solution contrasts the idealized dream of a one-size-fits-all AI with complex, imperfect reality."
+  },
+  {
+    "expert_quote": "I was very unhappy before because... I had worked machine learning. I had never stuck such a long time. I know we can step up this last so much.",
+    "mapped_id": "trust_erosion",
+    "is_negative_case": false,
+    "rationale": "Expressing being 'very unhappy' and 'stuck such a long time' on a technical hurdle indicates disillusionment and frustration, which are precursors to erosion of trust in one's own ability and potentially the tools/processes during a project phase."
+  },
+  {
+    "expert_quote": "the problematic leader was. Having closing some different people, but I feel discriminated in this project... the lead does not prefers does do not see me my my side... I felt discriminated by this individual person.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "Describes a leadership failure where feedback and recognition are absent or biased ('does not see me'). This interpersonal dissonance and feeling of being overlooked creates project friction, mirroring the management friction where user/contributor input is mismanaged."
+  },
+  {
+    "expert_quote": "She was not qualified to lead the project.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "A direct assessment of a leader's lack of qualification points to a root cause of management friction, where the person responsible for synthesizing feedback and guiding the project lacks the necessary skills, leading to team discord and project issues."
+  },
+  {
+    "expert_quote": "It is. Work make, say, lies to people. It means to make lies to people. And it's dishonest. I don't want to work in.",
+    "mapped_id": "trust_erosion",
+    "is_negative_case": false,
+    "rationale": "The strong moral language ('lies', 'dishonest') regarding environments that demand perfect results describes a foundational erosion of trust. This disillusionment leads to active resistance ('I don't want to work in') to such cultures or projects."
+  },
+  {
+    "expert_quote": "We lost so many people in that project.",
+    "mapped_id": "trust_erosion",
+    "is_negative_case": false,
+    "rationale": "The simple statement 'lost so many people' is a concrete, human-floor description of the consequence of eroded trust and management friction, directly impacting project scalability and continuity."
+  }
+]

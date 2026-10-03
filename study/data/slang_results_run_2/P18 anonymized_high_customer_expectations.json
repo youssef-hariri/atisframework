@@ -1,0 +1,38 @@
+[
+  {
+    "expert_quote": "I think that it's important to involve more persons in this conceptual part because I don't know, for instance. Me or one of my colleagues, they can lack some aspects... I don't know how to say. Maybe I can... Maybe I miss something very relevant for the final. The final products for the output...",
+    "mapped_id": "dreams_vs_reality",
+    "is_negative_case": false,
+    "rationale": "Person 2 uses the slang of potentially 'lacking aspects' and 'missing something relevant,' describing a practical, risk-averse process (reality) of team involvement to counter the idealized vision of a single expert or small team perfectly defining an AI product's goals (dreams). This maps to the contrast between idealized and practical project definition."
+  },
+  {
+    "expert_quote": "And so our main concern is to not share the data among the different companies... So we want to. We try to keep data as separate as possible and not leak some companies data.",
+    "mapped_id": "trust_understanding_gap",
+    "is_negative_case": true,
+    "rationale": "The statement describes a practical, cautious, and clear approach to data privacy (understanding). There is no mention of high optimism being undermined by opaque behavior; instead, it reflects a grounded, procedural mindset. It therefore serves as a negative case for the indicator where high optimism clashes with unsatisfactory reality."
+  },
+  {
+    "expert_quote": "I found that. I mean foreign people. I collaborated with were more direct than. I mean, my colleagues here in Italy. I mean, I felt that they were very straightforward and I appreciated that from from my personal point of view.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "Person 2 describes the act of giving feedback using the professional slang of being 'direct' and 'straightforward.' This preference for clear communication contrasts with the implicit 'unrealistic benchmark' of expecting indirect or softened feedback. The appreciation for directness suggests it reduces the potential for misinterpretation and re-education labor, a core friction of feedback dissonance."
+  },
+  {
+    "expert_quote": "No, I I didn't place no.",
+    "mapped_id": "trust_erosion",
+    "is_negative_case": true,
+    "rationale": "Person 2 explicitly states they did not experience failure or roadblocks due to culture. This directly contradicts the friction of 'disillusionment in pilot phases leading to resistance to scaling,' serving as a clear negative case for the 'trust_erosion' management friction."
+  },
+  {
+    "expert_quote": "I'm working with multicultural teams can lead to higher success rate. I mean, I really don't know why, but maybe for that thing I was saying that if you have multiple point of view for. Also, culture aspects involved would be very worthwhile. For the project.",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": false,
+    "rationale": "Person 2 uses the phrase 'higher success rate' and 'very worthwhile' as slang for a positive project outcome. The rationale is that diverse cultural viewpoints help mitigate the risk of an AI solution being designed with a narrow, culturally-biased set of goals. This directly addresses the risk of a 'utility_mismatch' where AI outputs don't align with broader or diverse organizational/user goals."
+  },
+  {
+    "expert_quote": "In my experience, I always presented as the same for all my oh, maybe I changed the presentation in Basel. Maybe technical audience or nontechnical audience, but I don't do any differentiation between culture or.",
+    "mapped_id": "explainability_deficit",
+    "is_negative_case": true,
+    "rationale": "The speaker states they do not adapt explanations or presentations based on the cultural background of the audience, only on technical expertise. This is a negative case for 'explainability_deficit,' which involves frustration from lack of transparent decision-making. The speaker's approach suggests they do not perceive a cultural dimension to the challenge of making AI explainable or comprehensible."
+  }
+]

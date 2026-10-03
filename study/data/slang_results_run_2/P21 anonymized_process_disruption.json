@@ -1,0 +1,62 @@
+[
+  {
+    "expert_quote": "The biggest problem with AI is trust. Right. There's a lot of hallucination with generative AI... a lot of intellectual property being stolen.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "The expert's description of 'trust' as the core problem highlights the fundamental tension between the perceived reliability of data-driven AI outputs and the human reliance on experience-based security and intellectual property norms. This is a manifestation of the data-centric vs. tacit knowledge clash."
+  },
+  {
+    "expert_quote": "The big thing is it's a question of, hey, do you wanna trust a vendor or partner or any company or organization or another? With your sacred data, so at the outset. From experience, customers or folks are not willing to share.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "Referring to data as 'sacred' frames it within a realm of experiential and proprietary human knowledge that is in direct tension with the AI's need for access, illustrating the knowledge clash between human-centric, guarded understanding and AI's data-centric requirements."
+  },
+  {
+    "expert_quote": "The inherent problem of. Just the sheer complexity in a variation of AI. So there's a big mindset shift from deterministic solutions to more stochastic meaning. AI introduces a lot of variations in edge cases that people don't normally understand.",
+    "mapped_id": "procedural_nonlinearity",
+    "is_negative_case": false,
+    "rationale": "Describing the shift from 'deterministic' to 'stochastic' captures the core conflict. It underscores how the iterative, probabilistic nature of AI (introducing 'variations and edge cases') directly contradicts and disrupts traditional, linear, predictable project methodologies and mindsets."
+  },
+  {
+    "expert_quote": "Because they've been working on a system for 20 years for the old system. To rapidly change things and trust AI, to do part of their work takes away stuff from them. But fundamentally, it takes away trust. They don't trust it.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "The expert identifies resistance rooted in long-established experiential knowledge ('working on a system for 20 years'). The distrust of the new, data-centric AI approach in favor of the familiar system is a clear indicator of cultural resistance favoring legacy experiential methods over new paradigms."
+  },
+  {
+    "expert_quote": "And they spent a lot of money only to realize that it was the wrong people... they didn't really trust it.",
+    "mapped_id": "integration_friction",
+    "is_negative_case": false,
+    "rationale": "This quote points to a failure in embedding AI into the organizational lifecycle. The project's technical success was undermined by the human factor of trust, indicating a friction in integrating the AI solution within the existing socio-technical system and processes."
+  },
+  {
+    "expert_quote": "The main difference? There's people here in the US if you're a developer, you just stick to your lane. That's it. But people in Romania, you're a developer, but you actually do business analysis. Sometimes you become the project manager. You're you're like a ninja.",
+    "mapped_id": "silo_breakdown",
+    "is_negative_case": false,
+    "rationale": "The expert's comparison contrasts a traditional, siloed role ('stick to your lane') with a hybrid, cross-functional role ('like a ninja'). This highlights how effective AI/tech implementation often requires a breakdown of traditional departmental and role boundaries, which is a core component of the silo_breakdown indicator."
+  },
+  {
+    "expert_quote": "My main job... is... how do you reduce type to value?... They went through an ALS parasys for two months doing nothing. Why? Because of all the risks that I mentioned to you.",
+    "mapped_id": "workflow_brittleness",
+    "is_negative_case": false,
+    "rationale": "The goal of reducing 'time to value' is disrupted by a period of doing 'nothing' due to AI-related risks. This shows the increased vulnerability and potential for stall/friction (brittleness) in linear project workflows when attempting to integrate the adaptive and risk-laden nature of AI."
+  },
+  {
+    "expert_quote": "Prototyping is something easy, quick and dirty. Low fidelity, low production... So prototyping is you want a quick win... Those are the three parameters for prototyping, so full blown engagement is you go through each of the scope and all that stuff and it takes six to eight months to deliver, right?",
+    "mapped_id": "procedural_nonlinearity",
+    "is_negative_case": false,
+    "rationale": "The expert delineates between a quick, iterative, 'dirty' prototyping phase and a long, scope-defined 'full blown engagement.' This acknowledges and attempts to formalize the necessary non-linear, iterative loops (prototyping) that conflict with traditional, lengthy, phase-gated delivery models."
+  },
+  {
+    "expert_quote": "The last thing people think about for any project in AI... reporting is critical.",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "By identifying oversight and transparency ('reporting') as a critical but often overlooked component, the expert highlights the shift in managerial focus from pure execution to system oversight, governance, and ethical/performance accountability, which is central to role reconfiguration."
+  },
+  {
+    "expert_quote": "And that's the problem that I it it's not good, right... because of the Internet. Social media and everything... people now develop, identify. Within regions... As certain tribes.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": true,
+    "rationale": "This quote complicates the 'cultural_resistance' indicator. The expert suggests cultural identity is fracturing into digital 'tribes' rather than aligning with traditional national/experiential silos. This indicates the friction may be evolving beyond a simple clash of data-centric vs. experiential knowledge into more complex, fragmented identity-based resistance."
+  }
+]

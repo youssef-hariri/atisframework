@@ -1,0 +1,44 @@
+[
+  {
+    "expert_quote": "A lot of times it happens to us that we have to keep somebody who understands the local language... And also is technical. So I in my team I have got local people who help me facilitate the discussions where we convert the expectation of our users into technical requirements.",
+    "mapped_id": "dreams_vs_reality",
+    "is_negative_case": false,
+    "rationale": "The need for a translator to 'convert the expectation... into technical requirements' highlights a tangible gap between user expectations (dreams) and the concrete, actionable needs of the project (reality), which requires mediation."
+  },
+  {
+    "expert_quote": "There, the culture of data security was that you basically block all the access. On data... And that's what that's what meant. Data security to them, which may or may not be right.",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": false,
+    "rationale": "Describing an organizational stance as 'block all the access' reveals a simplistic, binary expectation of security utility that clashes with the nuanced, access-requiring reality of operational AI systems, indicating a mismatch between perceived and actual utility."
+  },
+  {
+    "expert_quote": "...we want our AI to be biased actually. And and I I think it's not always the bad bad thing to to to happen.",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": true,
+    "rationale": "This is a direct negative case. Person 2 explicitly contradicts the 'unfairness_barriers' indicator by stating that bias can be a desired, non-problematic feature ('not always the bad thing'), accepting it as a functional characteristic of their localized model rather than a barrier to adoption."
+  },
+  {
+    "expert_quote": "For example, some people might be very vocal about... If we are trying to implement something which somebody doesn't feel comfortable with, they would be very vocal. Some some cultures would be very vocal and some cultures sorry... So it's like basically. Do you want to contradict? You know your superiors or not, or you want to challenge the authorities... That's something that is different across different cultures.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "The description of cultural variance in being 'vocal' or willing to 'contradict... superiors' directly maps to the management friction of 'feedback_dissonance'. It explains the foundational labor required to elicit or manage feedback based on differing cultural communication norms, which can lead to unrealistic expectations or late-stage project issues."
+  },
+  {
+    "expert_quote": "So it happens that sometimes they would just keep. Something to them which they could have spoken earlier to solve a lot of issues later... They keep it to themselves because they don't want to contradict people and because of that, later on in the later stages of the project, we come to know that, OK, this might. This would have not been feasible since day one.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "This quote provides a concrete example of 'feedback_dissonance' in action, describing the 'roadblock' where withheld feedback (due to cultural norms against contradiction) leads to the late discovery of project infeasibility, creating significant rework and management labor."
+  },
+  {
+    "expert_quote": "I'm not saying that, OK, all the local people study in the local universities know, but it's just that it doesn't matter to me if an American goes to Hong Kong and studies in Hong Kong University or a or a Chinese goes to Canada. And studies in University of Toronto. So it's just that basically the the source of education matters to me.",
+    "mapped_id": "magic_box_perception",
+    "is_negative_case": true,
+    "rationale": "This is a nuanced negative case. Person 2 deconstructs the 'magic box' notion of inherent cultural superiority in AI expertise. They argue expertise comes from the 'source of education' (the university), not the nationality or culture of the individual, thereby challenging a simplistic, culturally deterministic view of AI capability."
+  },
+  {
+    "expert_quote": "But but there is always an informal training that happens, right?... he's not gonna tell me what to do, but he can always prepare me. What to expect.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "The mention of 'informal training' to 'prepare me what to expect' is a direct example of the proactive, re-education labor managers undertake to pre-empt 'feedback_dissonance' and other cross-cultural misalignments in expectations and communication."
+  }
+]

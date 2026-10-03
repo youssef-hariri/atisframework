@@ -1,0 +1,47 @@
+[
+  {
+    "rubric_focus": "high_customer_expectations",
+    "analysis_target": "Person 2",
+    "metaphors_identified": [
+      {
+        "metaphor": "Being in a small box",
+        "context": "Describing team members who execute tasks without understanding the bigger project picture.",
+        "quote_ref": "\"...people will be in their box executing a task without a bigger picture...\"",
+        "interpretation": "Metaphor for limited, task-oriented thinking versus holistic, systems thinking. Highlights a key barrier to effective collaboration and shared understanding."
+      },
+      {
+        "metaphor": "Chain / Link in a chain",
+        "context": "Describing project dependencies and how one delay impacts the whole team.",
+        "quote_ref": "\"...if we are all in that chain. Someone will have to pick up.\"",
+        "interpretation": "Metaphor for interconnectedness and dependency within a team. Emphasizes that project success is a collective, interdependent effort, not a series of isolated tasks."
+      },
+      {
+        "metaphor": "Melting Pot",
+        "context": "Describing the cultural diversity of New York City.",
+        "quote_ref": "\"...New York... it's a melting pot.\"",
+        "interpretation": "A common cultural metaphor for assimilation and blending. Person 2 uses it positively to describe an environment where diversity is the norm and interaction is organic."
+      }
+    ],
+    "negative_cases_identified": [
+      {
+        "case_description": "Effective Management of User Feedback",
+        "context": "Person 2 describes a systematic, data-informed process for handling user critiques on subscription-based AI/software features.",
+        "quote_ref": "\"...we would try to adjust... regroup as a team, look into data again... if we can conclude... if the feature needs to be changed...\"",
+        "contradiction_to_rubric": "This contradicts the 'feedback_dissonance' management friction. The process described is not one of re-educating users about unrealistic AI benchmarks, but of collaboratively analyzing feedback against data to iteratively improve the product. It suggests a mature, user-centered development cycle rather than a clash of expectations."
+      },
+      {
+        "case_description": "Transparency and Psychological Safety as Solutions",
+        "context": "Person 2 explains how they solved communication delays by creating a 'safe space' and systematizing transparent updates in stand-ups.",
+        "quote_ref": "\"...to have that freedom to say, hey, we might need two weeks more... we've encouraged to say... I was struggling to do this...\"",
+        "contradiction_to_rubric": "This proactive creation of transparency and psychological safety acts as a preventative measure against the 'trust_erosion' friction. By making struggles and delays visible early, disillusionment is avoided, and trust is built, preventing the resistance to scaling described in the rubric."
+      },
+      {
+        "case_description": "Human-Centric Leadership and Skepticism of AI Supremacy",
+        "context": "Person 2 emphasizes human connection, management, and interaction as irreplaceable and criticizes impersonal, checkbox-style DEI training.",
+        "quote_ref": "\"...the human side... should never be removed... the laptop or machine... can be better than the human to human interaction.\"",
+        "contradiction_to_rubric": "Directly counters the 'magic_box_perception' and 'anthropomorphic_projection' indicators. Person 2 does not view AI (or technology) as an infallible, autonomous solution. Instead, they position human judgment, empathy, and interaction as the superior and essential components for project success and team health."
+      }
+    ],
+    "summary_insight": "Person 2's narrative primarily focuses on the *human and managerial* challenges (communication, culture, psychological safety) within AI/tech teams, not on end-user perceptions of AI as a 'Magic Box.' The negative cases reveal a practitioner perspective where managing team dynamics and process transparency are the primary tools for success, effectively circumventing the high-expectation frictions described in the rubric by fostering resilience and adaptability *within the team itself*. The 'Magic Box' expectation, if it exists, is seen as a management/process problem to be solved through human-centric leadership, not a user education problem."
+  }
+]

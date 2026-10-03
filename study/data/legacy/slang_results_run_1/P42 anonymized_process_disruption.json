@@ -1,0 +1,62 @@
+[
+  {
+    "rubric_element": "socio_technical_transition",
+    "type": "metaphor",
+    "evidence": "Person 2 describes the transition not as a replacement but as an integration, stressing the 'human side' and the need for 'human professional level' communication. Their story contrasts a 'healthy environment' (Haymarket) with less flexible past experiences, framing the shift as one towards more human-centric, collaborative models within technical systems.",
+    "quote": "I think that you know the human side of the work should never be removed. It's what makes us happy... if you want to find happiness in what you do, you have to stay and keep the communication on the human professional level."
+  },
+  {
+    "rubric_element": "workflow_brittleness",
+    "type": "metaphor",
+    "evidence": "Person 2 uses the metaphor of a \"chain\" where one broken link (a delayed task) causes the whole project to be \"late.\" This illustrates the brittleness of linear, phase-gated project plans when a single, uncommunicated dependency fails.",
+    "quote": "And then what I would try to explain, if we are all in that chain. Someone will have to pick up."
+  },
+  {
+    "rubric_element": "role_reconfiguration",
+    "type": "metaphor",
+    "evidence": "Person 2 describes their managerial evolution as moving from a pure taskmaster to a facilitator who creates a \"safe space\" and \"No Fear\" environment. They see their role as enabling team problem-solving and ethical oversight (ensuring well-being), not just enforcing deadlines.",
+    "quote": "So 'cause I was hands on... I would sit down with an engineer and help... A Help conversation. A place with No Fear."
+  },
+  {
+    "rubric_element": "integration_friction",
+    "type": "metaphor",
+    "evidence": "While not about AI specifically, Person 2's experience integrating a geographically dispersed team into a unified workflow mirrors integration friction. They describe a nine-month process to build a \"system\" for communication, highlighting the clash between the need for adaptive, open collaboration and rigid, siloed task execution.",
+    "quote": "So what we did as a team, we regrouped... we said. OK, there has to be some communicational issue... we we wrote a system... it took us nine months. To come to a good point."
+  },
+  {
+    "rubric_element": "knowledge_clash",
+    "type": "negative_case",
+    "evidence": "Person 2's narrative presents a **negative case** to the predicted tension. Instead of a clash, they describe a synthesis. Their engineering logic and data-centric approach (\"I like the numbers\") is used to *understand and accommodate* human, experiential factors (family schedules, cultural backgrounds). Data and tacit knowledge are not in conflict but are combined for better management.",
+    "quote": "And because, you know, they have babies waiting for them home... personal life regardless of what we are taught. But it impacts the way we are producing... making a connection... helps people to relieve themselves a little bit and they be productive."
+  },
+  {
+    "rubric_element": "procedural_nonlinearity",
+    "type": "negative_case",
+    "evidence": "Person 2’s solution to workflow problems presents a **negative case**. Instead of adopting a non-linear, iterative AI-like process, they imposed *more structure* and clearer linear communication protocols (daily stand-ups with specific prompts). Their fix was to make the human-dependent linear process more robust and transparent, not to abandon it for loops.",
+    "quote": "So in our morning stand ups, people started listening to more what everyone is working... So if someone struggles more than five hours... maybe to revisit the solution and change the decision on how to solve."
+  },
+  {
+    "rubric_element": "silo_breakdown",
+    "type": "metaphor",
+    "evidence": "Person 2 criticizes the \"box\" mentality where individuals work on isolated tasks. They advocate for breaking down this silo by giving people \"a bigger picture\" and understanding cross-functional \"dependencies.\" Their DEI committee work is another metaphor for actively breaking down cultural and departmental silos.",
+    "quote": "so they are not ending up in in a small box. Thinking of only what they have to solve because it's it's a in most of the cases it's a part of the bigger picture."
+  },
+  {
+    "rubric_element": "ethical_automation_tension",
+    "type": "metaphor",
+    "evidence": "Person 2 explicitly contrasts \"inhuman\" automated solutions with human judgment. They use the failed DEI training proposal as a metaphor: a pre-packaged laptop course (automation) was chosen over their proposed interactive, human-led sessions (oversight), which they believe is less effective.",
+    "quote": "But they ended up choosing the course, which is you are looking at the laptop... God knows what you are getting from it. So that's where I think. That the the A like completely inhuman world. Just doesn't work well."
+  },
+  {
+    "rubric_element": "cultural_resistance",
+    "type": "negative_case",
+    "evidence": "Person 2's entire philosophy is a **negative case** to cultural resistance. They actively seek cultural understanding, share their own culture, and view diversity as a source of strength and learning (\"I learned about Diwali\"). Resistance is framed as a problem of \"not knowing,\" not an inherent clash.",
+    "quote": "I don't think anyone really has a real... Like something in themselves. It's just like not knowing being in a space of not having an opportunity to, to work with other humans."
+  },
+  {
+    "rubric_element": "role_transition_hurdles",
+    "type": "metaphor",
+    "evidence": "Person 2 describes their own career transitions (civil engineer to coder to manager/consultant) as a journey of continuous learning driven by curiosity. The hurdle isn't reskilling per se, but the organizational failure to support *effective* human-centric training (the DEI course example). The transition is framed as a natural evolution for the curious.",
+    "quote": "I've changed a career completely. I'm I'm now decided to change a career again... and I think if if there are people like I... you have to stay and keep the communication on the on the human professional level."
+  }
+]

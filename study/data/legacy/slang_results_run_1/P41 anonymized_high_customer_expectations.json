@@ -1,0 +1,76 @@
+[
+    {
+      "indicator_name": "dreams_vs_reality",
+      "evidence": [
+        "Mentioned changing career to ML due to 'hype' but immediately contextualized this with the 'tough' reality of learning to code for 'hours and hours' and facing discouragement.",
+        "Explicitly states: 'I will not says I'm good at machine learning. I know because I had built so many times so many errors and after so many stacks you learn something.' This directly contrasts idealized capability with imperfect, iterative learning."
+      ],
+      "strength": "Strong - Provides a clear personal narrative of initial attraction via hype vs. the gritty reality of skill acquisition."
+    },
+    {
+      "indicator_name": "trust_understanding_gap",
+      "evidence": [
+        "Describes facing and diagnosing model bias in an astronomy project: 'it underestimates some of the classes... It is some kind of model bias I guess.' Shows an understanding of imperfect system behavior without expressing shock or eroded trust; it's presented as a technical problem to be understood."
+      ],
+      "strength": "Moderate - Acknowledges unsatisfactory behavior but frames it as a known challenge within the field, not a betrayal of trust."
+    },
+    {
+      "indicator_name": "explainability_deficit",
+      "evidence": [
+        "Discusses model bias not as a black-box frustration, but as a technical characteristic of a chosen algorithm ('I had to choose one algorithm, but it was not...'). The 'deficit' is presented more as a trade-off or limitation than an opaque mystery."
+      ],
+      "strength": "Weak - The focus is on algorithmic choice and performance trade-offs, not on a user's frustration with a lack of interpretable decision-making."
+    },
+    {
+      "indicator_name": "unfairness_barriers",
+      "evidence": [
+        "Describes personal experience with model bias ('underestimates some of the classes'). While this is a technical description of unfair *output*, Person 2 does not express this as a reason to reject the AI/ML field. It is a problem encountered within her work."
+      ],
+      "strength": "Weak - Presents bias as an encountered and accepted technical hurdle within a project, not as a fundamental barrier to adoption or use."
+    }
+  ],
+  "metaphors_identified": [
+    {
+      "metaphor": "Career Path as a Hype-Driven Wave",
+      "quote": "machine learning started to make hype and I decided... to make a career change",
+      "interpretation": "Person 2 metaphorically describes the rise of ML as a force ('hype') that influenced her life direction. This aligns with the external societal perception of AI as a powerful, attractive trend."
+    },
+    {
+      "metaphor": "Learning as Stacking/Accretion",
+      "quote": "after so many stacks you learn something",
+      "interpretation": "Implies knowledge is built incrementally, like layers or stacks, often through failure ('errors'). This counters the 'Magic Box' idea of innate, flawless intelligence."
+    },
+    {
+      "metaphor": "Multicultural Environment as Uplifting Force",
+      "quote": "talking with different country people... was make me feel uplifted",
+      "interpretation": "Diversity is not just a logistical reality but an active, positive force that elevates mood and perspective. This extends beyond AI to team dynamics."
+    },
+    {
+      "metaphor": "Problem-Solving as Being 'Stuck' and 'Unstuck'",
+      "quote": "I was stuck... I stuck summer... help me to overcome this problem",
+      "interpretation": "Describes technical challenges as states of immobilization ('stuck'), with solutions coming from collaborative support to become mobile again ('overcome'). Highlights the non-magical, effortful process of development."
+    }
+  ],
+  "negative_cases_identified": [
+    {
+      "case": "Absence of 'Magic Box' or Anthropomorphic Projection",
+      "description": "Person 2 consistently describes AI/ML in technical, non-magical terms: as algorithms with biases, code with errors, and skills built through practice. There is no indication she expects human-like reasoning or infallibility. Her expectations are shaped by hands-on experience, not hype.",
+      "supporting_quotes": [
+        "\"I had built so many times so many errors.\"",
+        "\"It underestimates some of the classes... It is some kind of model bias.\""
+      ]
+    },
+    {
+      "case": "No Evidence of 'Feedback Dissonance' or 'Trust Erosion'",
+      "description": "While Person 2 discusses project failures and irresponsible leaders, these are attributed to human factors (personal issues, lack of qualification) or technical challenges, not to a gap between unrealistic AI expectations and reality. There is no mention of users filing bug reports based on flawed benchmarks or disillusionment with AI pilots.",
+      "supporting_quotes": [
+        "\"The problem is that [she was] not qualified to lead.\"",
+        "\"This is not cultural... we may have to feel threatened, and this is not cultural.\""
+      ]
+    },
+    {
+      "case": "Utility Mismatch is a Technical, Not Expectational, Problem",
+      "description": "When discussing model bias (where AI output doesn't align with the goal of accurate classification for all classes), Person 2 frames it as a standard research dilemma involving algorithm selection and trade-offs. It is not presented as a surprising failure of AI to read her mind or align with organizational goals.",
+      "supporting_quote": "\"I had to choose one algorithm, but it was not... Rightly estimate this kind of stars.\""
+    }
+  ]

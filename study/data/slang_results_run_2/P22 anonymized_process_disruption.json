@@ -1,0 +1,56 @@
+[
+  {
+    "expert_quote": "So making teams successful, there's one thing, like what actually I expect from everyone in my team is to be very active. Like, I'm not saying to you like go and make a project. No, if I am a technical, I can do as a solo as well, but I want you to just to help me. Like if I am doing and I'm saying I need this link or I need this image, you should go and find that image.",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "The speaker reframes the team's role from executing core tasks to providing active, supportive assistance to the AI/technical lead ('go and find that image'). This reflects a shift toward a hybrid model where non-technical members provide ancillary support to a central technical/AI workflow."
+  },
+  {
+    "expert_quote": "Because this is not a technical or non technical problem. Should be very active and the second very helpful and like to everyone and like the thing which actually I is in that it's like come to the team and reply after 24 hours or maybe one to two days. And this is not a professionalism...",
+    "mapped_id": "procedural_nonlinearity",
+    "is_negative_case": false,
+    "rationale": "The expectation of immediate, continuous engagement ('reply after 24 hours... is not professionalism') contradicts traditional phase-gated project timelines. It highlights the demand for constant, iterative collaboration inherent in fast-paced, AI-driven hackathons, clashing with linear, scheduled methodologies."
+  },
+  {
+    "expert_quote": "Like there are people from the South Africa and the Nigeria. In in that like in that regions, there are technical issues. Like for me, uh technical issues came up like the internet issues as Pakistan, you know that and the Nigeria, uh South Africa, these countries sometimes uh in these countries, uh some technical issue happened, then they will be unactive for one day and they will like Internet was gone electricity was gone. So this is the issue that I had seen.",
+    "mapped_id": "workflow_brittleness",
+    "is_negative_case": false,
+    "rationale": "The speaker identifies 'internet' and 'electricity' issues as direct causes of workflow disruption ('unactive for one day'). This exposes the increased vulnerability (brittleness) of a collaborative, data-intensive process when foundational technical infrastructure, often assumed in linear planning, is unreliable."
+  },
+  {
+    "expert_quote": "Yes, because at the point point of view is that because I am from Pakistan, I know the Pakistani problems. And if the my teammate, I have team from the US. So their point of view is different. For example, I have made one project on the legal legal cases. So he's that that a woman was the legal attorney. She knows better about that criteria of that problem rather than us. A student.",
+    "mapped_id": "silo_breakdown",
+    "is_negative_case": false,
+    "rationale": "The speaker describes leveraging specific, localized knowledge from a US-based legal expert for a project. This demonstrates how solving complex, data/AI-driven problems requires transcending traditional geographical and professional silos to integrate domain-specific expertise ('knows better about that criteria')."
+  },
+  {
+    "expert_quote": "Like, for example, uh if we talk about this uh this yesterday's uh Valentine or a young is it's a different thing. Uh if I'm making something, for example, if I'm making project on the couple kind of things. So if I try to my target audience will be US countries, not Asian countries.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "The speaker highlights a fundamental clash between data-centric project targeting and deep cultural/experiential knowledge. Choosing a target audience ('US countries, not Asian') based on cultural context (Valentine's Day) shows tension between algorithmic/data-driven logic and tacit, culturally-grounded human understanding."
+  },
+  {
+    "expert_quote": "Not really, but uh I have seen one uh project well mostly I saw the technical issues, but when I was like working with them and they actually calm and in the meeting and we are doing that and they will be like, okay, try to explain. Would I explain? But after that I saw that they did not completed that task and did not complete it. Maybe I maybe made a complex for them on the project like I was thinking like maybe I made complex for them to you",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "The speaker attributes task failure to the complexity of the project making it inaccessible ('I made complex for them'). This points to underlying friction where data-intensive, technical workflows may be met with resistance or disengagement from those accustomed to different modes of work or levels of technical familiarity."
+  },
+  {
+    "expert_quote": "Yes. So here's the thing, uh one number one thing that I have done is the communication thing. Most people from Pakistan, like they can't talk flently in English. Okay. They're the thing one. No one. So I tried to say I'm like, first of all, you should go to the Pakistani team members so you can talk in your native language.",
+    "mapped_id": "integration_friction",
+    "is_negative_case": false,
+    "rationale": "The advice to initially seek out native-language teams highlights a fundamental friction in integrating diverse groups into a unified, often English-dominated, collaborative process. This communication barrier is a primary challenge in embedding new, cross-functional workflows."
+  },
+  {
+    "expert_quote": "Not really, like mostly the perspective that like we have to do the encryption description for the passwords and have to save the database. I not really I have seen this difference..",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": true,
+    "rationale": "The speaker explicitly states they have not observed differences in views on data privacy ('Not really... I have seen this difference'). This is a negative case, contradicting the theoretical expectation of friction between predictive automation and varying cultural/ethical standards for human oversight and data handling."
+  },
+  {
+    "expert_quote": "Mostly like there will be like sorry, I was like there are two one is technical issues, mostly all that the technical issues, like they may not understand or maybe they have some internet or electricity issues.",
+    "mapped_id": "legacy_inflexibility",
+    "is_negative_case": false,
+    "rationale": "Repeated attribution of failure to 'technical issues' like internet and electricity frames these infrastructure gaps as primary constraints. This points to how dynamic, data-reliant AI workflows are hindered by legacy infrastructure ('electricity') built for less intensive, static operational environments."
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "expert_quote": "My my approach to working with anybody... is to give them Agency and decisions they make and how they want to work... I thought I was doing them a favor... They didn't. What I learned from that is they didn't want that. They wanted me to tell them what to do.",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "The speaker's expectation of delegating decision-making 'agency' clashes with the team's expectation of top-down instruction, highlighting friction in the reconfiguration of the manager's role from director to enabler in a hybrid or cross-cultural context."
+  },
+  {
+    "expert_quote": "I think it's. Yeah, it's interesting because. I I think they've adapted as they have... I think the tech culture of Indians has changed. But also I think I've kind of adapted to... some kind of subconscious adaptation, you know, of, of understanding the culture better and understanding how to communicate.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": true,
+    "rationale": "The speaker describes a resolution and mutual adaptation over time, explicitly stating the initial cultural resistance and 'disconnect' has been overcome, which contrasts with the persistent friction defined in the rubric."
+  },
+  {
+    "expert_quote": "I don't favor working with. Teams in India, because primarily because of the the time difference... It's just not. It just doesn't work.",
+    "mapped_id": "workflow_brittleness",
+    "is_negative_case": false,
+    "rationale": "The phrase 'just doesn't work' describes the increased vulnerability and failure of a distributed, linear workflow due to the fundamental, non-negotiable constraint of time zones, a classic source of brittleness in global projects."
+  },
+  {
+    "expert_quote": "the English people that I had on my team, they they understand that they have more protections... they have more confidence that their... they'll be protected, whereas in the US we, you know, we don't have those kind of protections. You're just gone... things like that kind of drive, you know, kind of different cultural differences about the workplace.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "The speaker identifies a fundamental clash between two forms of 'knowledge': the US experiential knowledge of 'at-will' employment and ambition versus the European institutional/legal knowledge of worker protections, which creates differing workplace mental models and motivations."
+  },
+  {
+    "expert_quote": "one of the icons they chose. Was in the AmPerson 2 an culture is basically a white supremacist sign... But, but they wouldn't have known, right? Because they don't understand the culture enough.",
+    "mapped_id": "integration_friction",
+    "is_negative_case": false,
+    "rationale": "This incident demonstrates friction in embedding a globally developed component (UI/design) into a specific local context. The disconnect between the development team's cultural knowledge and the deployment market's norms creates a disruptive, corrective workflow loop."
+  },
+  {
+    "expert_quote": "in the United States, there are certain regulations and laws... We also had delivered this product to Europe, including Germany. Germany has a lot more strong. Regulations on privacy. And so we had to make accommodations in the product to comply with those regulations.",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": false,
+    "rationale": "The need to create different product 'accommodations' based on regional ethics and privacy laws illustrates the tension between building a scalable, automated/AI-driven system and the requirement for human oversight and localization to meet ethical-legal standards."
+  },
+  {
+    "expert_quote": "The United States has. Less regulatory. Laws around. You know, AI ethics and AI than Europe does... The US would probably value innovation over ethics in a lot of cases, more so than in Europe, right?",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "The speaker frames differing regulatory approaches as a cultural value clash ('innovation over ethics'), which is a source of resistance and friction when trying to standardize AI development processes across these regions."
+  },
+  {
+    "expert_quote": "I give them. Authority and I and I encourage them to take. Actions... I trust you until I can't, right?... I value the the what? What would you call it? The soft skills almost as much as I value the technical skills, right?",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "The speaker describes their evolved management philosophy, shifting from technical oversight to a focus on trust, agency, and 'soft skills'—this aligns with the reconfiguration of the project manager's role toward human-system oversight and ethical judgment."
+  },
+  {
+    "expert_quote": "Be flexible and try to understand. The everybody has a contribution to make... You have to meet them where they are. So. Don't expect them to meet you where you are... understanding what that contribution is and trying to put them in a situation that they can make the best of that contribution, right?",
+    "mapped_id": "role_transition_hurdles",
+    "is_negative_case": false,
+    "rationale": "The advice to 'be flexible' and 'meet them where they are' acknowledges the active, ongoing effort required from a manager to overcome the hurdles of transitioning their own mindset and approach to leverage diverse team contributions effectively."
+  }
+]

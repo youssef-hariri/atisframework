@@ -1,0 +1,68 @@
+[
+  {
+    "indicator": "socio_technical_transition",
+    "match_strength": "Strong",
+    "evidence": "Describes working with Western (fast, experimental) and Asian (slow, deliberate) clients, highlighting how AI/tech project collaboration requires adapting to hybrid human-cultural-AI workflow models.",
+    "metaphors": ["pace of work", "different framework", "abrupt flows"]
+  },
+  {
+    "indicator": "workflow_brittleness",
+    "match_strength": "Moderate",
+    "evidence": "Mentions clients suddenly changing technical direction (e.g., switching blockchain infrastructure), forcing adaptation despite complexity. This shows how linear service plans are vulnerable to client-driven, non-linear changes.",
+    "metaphors": ["switch", "complicated and painful", "take his pace"]
+  },
+  {
+    "indicator": "role_reconfiguration",
+    "match_strength": "Weak",
+    "evidence": "Briefly mentions having a dedicated project/account manager for client communication, suggesting a specialized role for relationship and needs translation, but does not detail ethical judgment or system oversight shifts.",
+    "metaphors": []
+  },
+  {
+    "indicator": "integration_friction",
+    "match_strength": "Strong",
+    "evidence": "Discusses the challenge of embedding new AI/blockchain offerings into existing client operations and roadmaps. Client indecision or sudden changes create friction in integrating their services smoothly.",
+    "metaphors": ["adapt to fit the client", "support him in his decision"]
+  },
+  {
+    "indicator": "knowledge_clash",
+    "evidence": "Highlights tension between different cultural approaches to decision-making (fast/experimental vs. slow/committed) and communication (direct vs. indirect). This is a form of tacit experiential knowledge clash affecting project flow.",
+    "match_strength": "Strong",
+    "metaphors": ["different mentality", "slight nuances", "not to push"]
+  },
+  {
+    "indicator": "procedural_nonlinearity",
+    "match_strength": "Moderate",
+    "evidence": "Describes client work as non-linear: clients \"take weeks to take decisions\" or change direction \"two months later,\" disrupting planned, sequential service delivery.",
+    "metaphors": ["abrupt the flows", "go ahead with some other idea"]
+  },
+  {
+    "indicator": "silo_breakdown",
+    "match_strength": "Weak",
+    "evidence": "Implied in working with diverse, multinational teams across time zones and functions (DevOps, business, VCs), but not explicitly discussed as a challenge undermining departmental boundaries.",
+    "metaphors": []
+  },
+  {
+    "indicator": "ethical_automation_tension",
+    "match_strength": "Negative Case",
+    "evidence": "No discussion of ethical oversight, bias, or automation conflicts. Focus is on technical delivery and business adaptation.",
+    "metaphors": []
+  },
+  {
+    "friction": "legacy_inflexibility",
+    "match_strength": "Weak",
+    "evidence": "Mentions clients being tied to market conditions and budgets that affect project continuity, hinting at legacy business models, but no direct mention of legacy software hindering dynamic data/AI needs.",
+    "metaphors": ["market goes down", "budget allocated"]
+  },
+  {
+    "friction": "cultural_resistance",
+    "match_strength": "Strong",
+    "evidence": "Explicitly cites client distrust due to the company's Ukrainian location during war, despite infrastructure being elsewhere. This is a non-technical, experiential bias creating a barrier.",
+    "metaphors": ["is it safe?", "surface level worries"]
+  },
+  {
+    "friction": "role_transition_hurdles",
+    "match_strength": "Negative Case",
+    "evidence": "No mention of reskilling, hierarchy changes, or shifts in decision-making authority within their own team. The focus is on external client adaptation.",
+    "metaphors": []
+  }
+]

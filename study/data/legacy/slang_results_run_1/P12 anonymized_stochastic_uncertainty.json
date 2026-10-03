@@ -1,0 +1,51 @@
+[
+  {
+    "category": "Metaphors Identified",
+    "examples": [
+      {
+        "metaphor": "Data Plumbing",
+        "quote": "how we have to process the data data pipeline and how we push the data into the app... data engineering data plumbing.",
+        "interpretation": "This metaphor frames data engineering as a utility infrastructure—predictable, mechanical, and controllable. It downplays the probabilistic nature of the data flowing through these pipelines, which is subject to variance and quality issues ('returns by the technician like the simple rough notes')."
+      },
+      {
+        "metaphor": "Building a Model",
+        "quote": "we are building a model now... we build the model... we just create the model only particularly to this use case.",
+        "interpretation": "The construction metaphor implies a deterministic, final product. It contrasts with the reality of stochastic models that are never 'finished' and require constant updates ('dynamic_forecast_adjustment') and may drift from their original purpose ('model_drift')."
+      },
+      {
+        "metaphor": "Leverage Advancements/Tools",
+        "quote": "we leverage those models to get good insights... we leverage the different advancements in AI models.",
+        "interpretation": "This tool metaphor suggests AI models are stable instruments that can be reliably 'used.' It masks the inherent 'probabilistic_variance' where the same tool (model) can yield different results on different runs ('non_deterministic_outputs')."
+      }
+    ]
+  },
+  {
+    "category": "Negative Cases (Instances where Stochastic Uncertainty is Downplayed or Absent)",
+    "examples": [
+      {
+        "rubric_indicator": "model_drift",
+        "negative_case": "The interviewee does not mention performance decay over time. They describe a closed-loop system of weekly client feedback for updates, which portrays model adjustment as a planned, responsive activity rather than a symptom of underlying instability.",
+        "quote": "we weekly once or twice we connect with the client... they will give insights weekly ways. So we'll be acting upon it..."
+      },
+      {
+        "rubric_indicator": "lack_of_reproducibility",
+        "negative_case": "There is no discussion of the challenge of replicating results. The focus is on the workflow of processing data and generating insights, treating the output as a reliable deliverable rather than a probabilistic estimate.",
+        "quote": "we extract it, we process it, we extract it and we... generate a useful information for insights from it."
+      },
+      {
+        "rubric_indicator": "opaque_outcomes / accountability_challenges",
+        "negative_case": "The interviewee deflects the ethics question to a predefined rule set ('set of rules given by the AI forms') and describes a model with a tightly scoped purpose that 'doesn't know' other answers. This frames opacity as a solved problem via design, not as an inherent friction in AI decision-making.",
+        "quote": "we follow all the like the set of rules... we just create the model only particularly to this use case... it doesn't know the answer... That's how we build the model."
+      },
+      {
+        "rubric_indicator": "management_frictions (general)",
+        "negative_case": "Major project frictions described are attributed to time zones, language, and communication—human coordination issues—not to the inherent unpredictability of the AI systems themselves. The 'baseline_erosion' from model variance is not presented as a management challenge.",
+        "quote": "the time difference also... made... you won't be able to connect... The language is a good kind of barrier... it was kind of little bit difficult to get into that."
+      }
+    ]
+  },
+  {
+    "category": "Implicit Acknowledgement of Stochastic Uncertainty",
+    "note": "While explicit mentions are absent, two practices hint at an underlying, unspoken recognition of uncertainty: 1) The need for constant client validation ('weekly... they will give insights') implies outputs are not trusted as definitively correct. 2) Client-imposed data restrictions ('don't use this data in any other models') reflect a deep-seated concern about unpredictable data reuse and emergent outcomes, aligning with 'data_dependency' and 'opaque_outcomes'."
+  }
+]

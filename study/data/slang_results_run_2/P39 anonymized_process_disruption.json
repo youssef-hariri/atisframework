@@ -1,0 +1,50 @@
+[
+  {
+    "expert_quote": "Experiences does affect well from the cultural perspective. No, I don't. I don't see that. I don't. It doesn't work on me because when you're working with different people. You have to you have to sudden go that you're trying to reach, right?",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": true,
+    "rationale": "Person 2 explicitly states that cultural perspective 'doesn't work on me', indicating an individual-level resistance or immunity to cultural friction, which contradicts the theoretical expectation of systemic cultural resistance to new approaches."
+  },
+  {
+    "expert_quote": "So when you have this sort of meetings, right, that maybe take place in the in the evenings and stuffs like that. It's it's quite a strain on their head. Because you're going into the midnight and you go, you're going into... So it's quite a strange on the end and it reduces, you know, the effect of actually how you contribute",
+    "mapped_id": "integration_friction",
+    "is_negative_case": false,
+    "rationale": "The slang 'strain on their head' and 'reduces the effect' describes the tangible friction of integrating a globally distributed, collaborative AI team into a synchronized, linear meeting schedule, highlighting a clash between dynamic needs and static processes."
+  },
+  {
+    "expert_quote": "You have to push and delay to the next day because you know because of the timeframe.",
+    "mapped_id": "procedural_nonlinearity",
+    "is_negative_case": false,
+    "rationale": "'Push and delay' is a professional metaphor for the iterative, adaptive workflow required in global AI projects, which directly conflicts with a linear, phase-gated project plan that assumes fixed deadlines and sequential tasks."
+  },
+  {
+    "expert_quote": "Of course, the economic factors will keep brought you in to be able to do this in the 1st place, right? Even though you knew that it could be tough, but you still had to leave, right?",
+    "mapped_id": "role_transition_hurdles",
+    "is_negative_case": false,
+    "rationale": "The phrase 'had to leave' alludes to high turnover or attrition. This 'human-floor' description points to the personal and economic pressures (reskilling needs, career risk) that disrupt established roles and hierarchies during the transition to AI-centric work."
+  },
+  {
+    "expert_quote": "It's listed up. It was listed up so trying to build this thing together so we're not really were concerned, but it's just based on internally how we. Did how did I stole data privacy from our own end?",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": true,
+    "rationale": "Person 2 states the team was 'not really concerned' about differing views on data privacy, as it was 'listed up' (pre-decided/standardized). This suggests a negative case where procedural automation (standard protocols) overrode potential ethical debates, minimizing the predicted tension."
+  },
+  {
+    "expert_quote": "It slows the acceptance of. Or I would say slows the acceptance of, you know, the the team members into actually accepting. OK, this is the route we should go through.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "The repeated use of 'slows the acceptance' is a direct, non-academic description of friction. It captures the inertia and delay caused when team members, possibly anchored in experiential or traditional methods, resist a new, data-centric direction mandated by leadership."
+  },
+  {
+    "expert_quote": "You are modeling. Leaning on the side of actually doing getting the tax done just so you could get paid and move ahead with your, with your, with your career.",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "'Getting the tax done just so you could get paid' is a stark, economic metaphor for a fundamental role reconfiguration: the individual's primary motivator shifts from project ownership or ethical judgment to task completion for survival, reflecting a de-skilled or pressured position in the AI workflow."
+  },
+  {
+    "expert_quote": "Either we go full cloud, full cloud century or we go hybrid. Alright. And, you know, guilty was like, OK... Let's go. Full card, but this particular guy was like, you know, these are these are some of the downtimes. These are some of the things you have a cloud. Wesley startup. We don't. We don't make money yet, right? Why not just go vibrate since we have the capability... So that's Kubernetes and Docker dockerization and stuff like that. So you have the the skills to be able to do that. Why not? You know, go hybrid",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "This detailed debate between 'full cloud' and 'hybrid' infrastructure, framed around cost ('don't make money yet') vs. capability ('we have the skills'), exemplifies a 'knowledge clash'. It's a tension between a standardized, possibly vendor-driven (cloud-centric) data approach and a tacit, experience-based understanding of practical constraints and in-house skills."
+  }
+]

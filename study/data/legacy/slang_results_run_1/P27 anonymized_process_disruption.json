@@ -1,0 +1,79 @@
+[
+      {
+        "metaphor": "Feedback loop as a conduit for progress",
+        "source_quote": "the feedback loop was like pretty slow back in Nepal... We had to work for like a very long time to come up with like a viable solution",
+        "process_disruption_link": "Highlights 'workflow_brittleness' and 'integration_friction.' Slow, linear feedback gating contradicts the rapid, iterative cycles needed for AI model refinement and data validation, severely hampering progress.",
+        "rubric_indicators": ["workflow_brittleness", "integration_friction"]
+      },
+      {
+        "metaphor": "Data as a guarded fortress",
+        "source_quote": "we were not allowed to store any of those data on our side. So we had to go to... the bank's IT department... use their own protocols",
+        "process_disruption_link": "Exemplifies 'silo_breakdown' (need for cross-functional access) clashing with 'legacy_inflexibility.' Data-centric AI workflows require fluid access, but are blocked by rigid, siloed legacy security and procedural protocols designed for static reporting, not dynamic model training.",
+        "rubric_indicators": ["silo_breakdown"],
+        "management_frictions": ["legacy_inflexibility"]
+      },
+      {
+        "metaphor": "Expert intuition as a biased oracle",
+        "source_quote": "we did introduce a lot of bias from these experts... they're rather making decisions based on their own experiences, right?",
+        "process_disruption_link": "Directly illustrates 'knowledge_clash' and 'ethical_automation_tension.' The tacit, experience-based knowledge of domain experts (traditional) conflicts with and can inadvertently corrupt the data-centric, empirical foundation of the AI model, introducing ethical risk.",
+        "rubric_indicators": ["knowledge_clash", "ethical_automation_tension"]
+      },
+      {
+        "metaphor": "Management as an invasive overseer vs. a trust-based facilitator",
+        "source_quote": "Nepalese manager... don't give you a lot of personal space... ask you, why do you need the holiday?... invasive to our personal life. [US:] if you want like a holiday, you just shoot out a mail... they don't really care about what you're doing.",
+        "process_disruption_link": "Contrasts management styles affecting 'role_reconfiguration.' The invasive, control-based style stifles the autonomy and creative/exploratory thinking required in AI work. The trust-based US style better supports the shift of managers to ethical/system oversight, freeing technical staff for non-linear problem-solving.",
+        "rubric_indicators": ["role_reconfiguration"],
+        "management_frictions": ["cultural_resistance", "role_transition_hurdles"]
+      }
+    ],
+    "negative_cases_contradicting_disruption": [
+      {
+        "assertion": "Planning methodologies are standardized and not culturally dependent.",
+        "source_quote": "I feel like it's not that different because... there's like a standard for software development... it most depends on the size of the company... rather than the culture, I think.",
+        "interpretation": "Person 2 contradicts the premise that 'procedural_nonlinearity' (AI loops vs. sequential methods) is a primary cultural or universal friction. He suggests formal project management (e.g., Agile, Waterfall) standards are globally adopted, making the *planning container* similar. The disruption may instead occur *within* those standardized phases (e.g., during the 'development' sprint) due to the nature of AI tasks, not the phase-gated structure itself."
+      },
+      {
+        "assertion": "Technical management challenges are universal, not cultural.",
+        "source_quote": "a lot of people in tech, they don't have experience with management, right? I think it's true for both... Western and eastern... I don't think it's got to do anything with the culture background of the manager. I think it's how technical people are wired to think.",
+        "interpretation": "Downplays 'cultural_resistance' and 'role_transition_hurdles' as uniquely cultural issues. Positions the core friction as a universal socio-technical transition challenge: technically-expert individuals (common in AI teams) struggling to adopt the human-centric, facilitative management style required for hybrid teams, regardless of national culture."
+      }
+    ],
+    "process_disruption_indicators_identified": [
+      {
+        "indicator": "knowledge_clash",
+        "evidence": "Bias introduced via expert experience vs. data analysis in credit scoring project.",
+        "supporting_quote": "we did introduce a lot of bias from these experts... they're rather making decisions based on their own experiences, right?"
+      },
+      {
+        "indicator": "workflow_brittleness & integration_friction",
+        "evidence": "Slow feedback loops and difficult data access protocols in Nepal hindered AI project velocity.",
+        "supporting_quote": "the feedback loop was like pretty slow... it was really difficult to get feedbacks... we had to use their own protocols... difficult to work with."
+      },
+      {
+        "indicator": "role_reconfiguration",
+        "evidence": "Implied need for managers to move from micromanagement to trust-based facilitation to support AI work.",
+        "supporting_quote": "Contrast between invasive Nepalese management and hands-off US management; links managerial style to project environment."
+      },
+      {
+        "indicator": "silo_breakdown",
+        "evidence": "Need to work within bank IT departments highlights cross-functional necessity.",
+        "supporting_quote": "we had to go to the bank's IT department to do most of our work."
+      },
+      {
+        "indicator": "ethical_automation_tension",
+        "evidence": "Bias in credit scoring model for automated loans.",
+        "supporting_quote": "credit scoring system was to be ultimately used to automate personal loans... we did introduce a lot of bias."
+      }
+    ],
+    "management_frictions_identified": [
+      {
+        "friction": "legacy_inflexibility",
+        "evidence": "Bank data protocols not designed for external, iterative AI development.",
+        "supporting_quote": "we had to use their own protocols that they have set up."
+      },
+      {
+        "friction": "cultural_resistance",
+        "evidence": "Nepalese management style resistant to autonomy; client hesitation towards data-centric needs.",
+        "supporting_quote": "very hard to explain to client... they were very hesitant... they didn't have a standard for sharing data."
+      }
+    ]

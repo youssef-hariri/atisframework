@@ -1,0 +1,86 @@
+[
+    {
+        "indicator": "recursive_innovation",
+        "passage": "Person 2 2:50 - 'He was trying to help them make those models more useful... What we do is we train that kind of domain knowledge into Language models. Through fine tuning and and other techniques.'",
+        "analysis": "Directly describes using advanced AI techniques (fine-tuning LLMs) to improve the utility of AI models for specific business tasks. This is a core activity of recursive innovation, where AI is used to build and refine more capable AI.",
+        "strength": "Strong, explicit example.",
+        "negative_case": false
+    },
+    {
+        "indicator": "skill_obsolescence_pace",
+        "passage": "Person 2 2:25 - 'I've been keeping up with... the developments in the space. And especially with the large language models, I really started reading a lot just in my spare time.'",
+        "analysis": "Highlights the necessity of continuous, self-driven learning to remain relevant in the AI field, a direct response to the rapid pace of change that renders skills obsolete.",
+        "strength": "Strong, personal testimony.",
+        "negative_case": false
+    },
+    {
+        "indicator": "judgment_substitution",
+        "passage": "Person 2 3:19 - 'So what we do is we train that kind of domain knowledge into Language models. Through fine tuning and and other techniques.'",
+        "analysis": "Describes the process of encoding human expert judgment and domain knowledge into AI systems. This reconfigures the role of the human expert from direct decision-maker to a trainer/validator of the AI system.",
+        "strength": "Strong, core to their business function.",
+        "negative_case": false
+    },
+    {
+        "indicator": "temporal_misalignment",
+        "passage": "Person 2 8:26 - 'In the US... we're more focused on how can this enable our business use cases... the ethics of the implementation can be handled down the line once the economic value is proved right.'",
+        "analysis": "Contrasts 'AI time' (move fast, prove value) with 'organizational/regulatory time' (slow, deliberate, safety-first). This is a clear example of temporal misalignment between technical capability and ethical/organizational integration.",
+        "strength": "Strong, explicit comparison of regional approaches.",
+        "negative_case": false
+    },
+    {
+        "indicator": "regulatory_lag",
+        "passage": "Person 2 7:46 - 'In the European Economic Area... the mindset is around how do we make this safe and privacy concerns, data sovereignty... In the US... the ethics of the implementation you know can be handled down the line once the economic value is proved.'",
+        "analysis": "Directly identifies a geographic disparity in the timing of ethical/regulatory considerations, with the US model exemplifying a 'deploy first, govern later' approach characteristic of regulatory lag. The European model seeks to preempt it.",
+        "strength": "Strong, clear comparative analysis.",
+        "negative_case": false
+    },
+    {
+        "indicator": "socio_technical_shift",
+        "passage": "Person 2 7:46 & 8:26 - Discusses the European focus on safety/privacy/sovereignty vs. US focus on economic value.",
+        "analysis": "Illustrates the ongoing shift in focus from purely technical/economic drivers (US) to socio-technical concerns of safety, privacy, and human acceptance (Europe). Person 2 positions their company at the intersection, helping to make AI 'useful' and acceptable in regulated domains.",
+        "strength": "Strong, defines the core market tension.",
+        "negative_case": false
+    },
+    {
+        "indicator": "gen_AI_acceleration",
+        "passage": "Person 2 2:25 & 2:50 - 'Especially with the large language models, I really started reading a lot...' and 'help teams that are building using large language models...'",
+        "analysis": "Identifies the emergence of generative AI (LLMs) as a distinct, transformative wave that intensified their personal and professional focus, representing a compounding acceleration in the innovation landscape.",
+        "strength": "Strong, marks a pivotal career and industry turning point.",
+        "negative_case": false
+    },
+    {
+        "category": "metaphors",
+        "metaphor": "AI as 'Secret Sauce'",
+        "passage": "Person 2 1:16 - 'So the product, you know the the the secret sauce of the product where the machine learning models...'",
+        "interpretation": "Frames AI as a proprietary, magical, and essential ingredient that defines the product's core value and competitive edge. This metaphor downplays complexity and emphasizes unique, almost alchemical value.",
+        "context": "Business value proposition."
+    },
+    {
+        "category": "metaphors",
+        "metaphor": "Cultural Communication as 'Reading Between the Lines'",
+        "passage": "Person 2 9:50 - 'You have to read between the lines to understand what they're trying to say.'",
+        "interpretation": "Describes cross-cultural interaction as an interpretive act, similar to how one might interpret an AI's output or latent meaning. It positions human communication as a non-deterministic system requiring contextual understanding.",
+        "context": "Managing international teams/clients."
+    },
+    {
+        "category": "metaphors",
+        "metaphor": "Career Journey as Informative 'Ground'",
+        "passage": "Person 2 17:08 - 'I need to understand the entire person's ground... everything I can find out about them.'",
+        "interpretation": "Uses a geological metaphor, viewing a person's background as foundational 'ground' that shapes their perspective. This is analogous to the training data and foundational models that shape an AI's behavior and outputs.",
+        "context": "Sales and relationship strategy."
+    },
+    {
+        "category": "negative_cases",
+        "theme": "Irreducible Human Context & Relationships",
+        "passage": "Person 2 12:46 - 'I think once I met with them in person... not even a month later, they wanted to have a commercial discussion... Part of it might have been just the distance.'",
+        "analysis": "Despite working in a field defined by virtual, scalable AI, Person 2 highlights a situation where technological mediation (virtual selling) failed and success was contingent on in-person, high-context human interaction. This acts as a negative case against the totalizing force of autocatalysis, affirming a domain where 'organizational/human time' and physical presence are non-negotiable.",
+        "strength": "Strong, based on a direct business failure/success story."
+    },
+    {
+        "category": "negative_cases",
+        "theme": "Cognitive Bias as a Human-Scale Friction",
+        "passage": "Person 2 19:32 - 'A lot of people in leadership positions... Believe that they are making the the you know the right decisions... there's still... a certain lack of awareness in terms of cognitive biases...'",
+        "analysis": "Points to a persistent, human-scale organizational friction (unconscious bias in hiring/promotion) that operates on a much slower timescale than AI development. This is a 'management friction' that autocatalytic technical change does not automatically overcome, and may even exacerbate if not consciously managed.",
+        "strength": "Strong, identifies a systemic, non-technical barrier."
+    }
+]

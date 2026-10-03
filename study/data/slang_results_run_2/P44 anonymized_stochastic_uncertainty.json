@@ -1,0 +1,56 @@
+[
+  {
+    "expert_quote": "All of this interviews are just proxies. So which means that you will only be able to see how you work with the person only once you start start working with the person... On very challenging and let's say stressful project, then you see the real person.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "Describes the hiring process as a set of 'proxies' that fail to reveal the true nature of a candidate's performance, highlighting the opacity and unpredictability of human-AI or human-team dynamics in complex, real-world situations. The 'real person' only emerges under stress, analogous to an opaque algorithmic outcome."
+  },
+  {
+    "expert_quote": "...it's not about the people's culture. I would say it's about people's... feature, so to say. Honestly speaking... all of this cultural stories that you hear about people from this place or from that place, mostly they're just like they're not true.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": true,
+    "rationale": "Directly challenges the notion that cultural background is a reliable predictor of behavior, contradicting the indicator of 'data dependency' which posits high sensitivity to historical data quality and relevance. Argues that generalized data (cultural stereotypes) is not a valid dependency for prediction."
+  },
+  {
+    "expert_quote": "...it's like it's a power of politics. So which means that you go like, make friends... they will give you an excellent 360 review, even though as a professional you... Are pretty much zero...",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "Uses the metaphor of 'power of politics' to describe how formal feedback systems can be gamed, leading to outcomes (reviews, promotions) that are disconnected from true performance. This illustrates the complexity and opacity of evaluating contributions in a team setting, mirroring opaque algorithmic decision-making."
+  },
+  {
+    "expert_quote": "So in this specific scenario, what I've done, I've just collected a couple of pieces of feedback from some other people. I looked at the quality of the feedback I saw, like how. Applicable it is to my situation like whether I agree with it or not...",
+    "mapped_id": "lack_of_reproducibility",
+    "is_negative_case": false,
+    "rationale": "Describes an attempt to manually audit and verify the 'quality' and 'applicability' of feedback. This scrutiny stems from an inherent distrust in the consistency and replicability of the feedback system, mirroring the need to check for reproducibility in non-deterministic AI outputs."
+  },
+  {
+    "expert_quote": "feedback from... My perspective it could be... Let's say a weapon as well... you can structure more or less the same situation and give feedback that will encourage people... Or you can totally discourage and demotivate person, right?",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": false,
+    "rationale": "Describes feedback as a 'weapon' that can be wielded subjectively to achieve different outcomes from the same situation. This highlights the difficulty in assigning clear responsibility for decisions (like performance evaluations) derived from a malleable, potentially biased process."
+  },
+  {
+    "expert_quote": "But then what happens is that you know, like both people in the companies they try to... Show probably to describe them better than they actually are. So it's like it's a sales process both way.",
+    "mapped_id": "dynamic_forecast_adjustment",
+    "is_negative_case": false,
+    "rationale": "Uses the metaphor of a 'sales process' to describe the mutual misrepresentation during team formation. This creates an unstable initial 'baseline' (the perceived team/company fit) that is destined to erode as true behaviors emerge, forcing constant reassessment and adjustment of expectations."
+  },
+  {
+    "expert_quote": "I would say that probably my failure was that... I was trying to close my eyes. For some things, for long time... I should have searched for something else a little bit earlier and probably changed the company a little bit earlier.",
+    "mapped_id": "baseline_erosion",
+    "is_negative_case": false,
+    "rationale": "Describes a personal failure as persisting with an initial forecast or commitment (staying at a company) despite accumulating evidence of cultural misfit. This illustrates the management friction of 'baseline erosion,' where one is forced to repeatedly adjust personal forecasts and commitments due to underlying system instability."
+  },
+  {
+    "expert_quote": "...recent boarding processes, they had like many courses... But when you try to get as much information quickly like 50%, you forget you know... some of those courses, they're not very memorable.",
+    "mapped_id": "lack_of_reproducibility",
+    "is_negative_case": false,
+    "rationale": "Points out the inconsistency and poor retention of standardized onboarding training. This implies that the process fails to reliably reproduce the same foundational knowledge or cultural understanding in new hires, akin to a lack of reproducibility in system outputs."
+  },
+  {
+    "expert_quote": "It's more an art than science. Why? Because like, sometimes... they. Endlessly discuss different topics, but they don't do anything, they just discuss.",
+    "mapped_id": "non_linear_estimation",
+    "is_negative_case": false,
+    "rationale": "Contrasts the non-linear, unpredictable 'art' of team facilitation and discussion with a predictable 'science.' The example of endless, unproductive discussion illustrates a complex, non-linear relationship between communication effort and project progress."
+  }
+]

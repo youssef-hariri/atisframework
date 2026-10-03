@@ -1,0 +1,44 @@
+[
+  {
+    "expert_quote": "trying to figure out based on past history, based on current trends, to suggest more preferences also to try and figure out the user persona to be able to perform better in terms of showcasing what the customer might potentially be looking for.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "The phrase 'based on past history, based on current trends' describes a core dependency on the quality and temporal relevance of historical data for the AI model's predictive performance, directly aligning with the indicator's description of sensitivity to data quality."
+  },
+  {
+    "expert_quote": "if a particular deadline was in mind and there was more conflict, you know, that creates problems wherein like, you know, you don't have a choice, right? That there is more conflict and it is pushing your deadlines and, you know, you end up sacrificing certain features which you had promised...",
+    "mapped_id": "baseline_erosion",
+    "is_negative_case": false,
+    "rationale": "The description of conflict 'pushing your deadlines' and forcing the team to 'sacrific[e] certain features' uses the professional slang of feature sacrifice and deadline push to illustrate how interpersonal or procedural issues necessitate repeated adjustments to project forecasts and commitments."
+  },
+  {
+    "expert_quote": "doing some risk management. So you think about what are the potential consequences and then go to the solution at hand at the end and then sort of work backwards from there. So assuming that you have a deadline, just pull back that deadline by a week or two and then start from there because you just assume that things will not work or there will be delays or there are dependencies.",
+    "mapped_id": "dynamic_forecast_adjustment",
+    "is_negative_case": false,
+    "rationale": "The metaphor of 'work[ing] backwards' and the proactive act of 'pull[ing] back that deadline' to account for assumed failures and delays is a 'human-floor' description of constantly updating project baselines as an indicator of inherent system instability and unpredictability."
+  },
+  {
+    "expert_quote": "create intermediate milestones or intermediate checkpoints wherein like you ask people to raise the red flags immediately as soon as they see problems so that way you know either more resources can be allocated...",
+    "mapped_id": "probabilistic_variance",
+    "is_negative_case": false,
+    "rationale": "The practice of creating checkpoints to 'raise the red flags' for problems is a common project management strategy to monitor and respond to the statistical fluctuations and unexpected issues inherent in complex, probabilistic project environments."
+  },
+  {
+    "expert_quote": "people will want to sort of take ownership of particular domains and you know they don't want to relinquish that sort of ownership and it creates bottlenecks along the way wherein and like, you know, taking help from somebody else might not be the way that they want to go about it.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": false,
+    "rationale": "The description of 'ownership' creating 'bottlenecks' and reluctance to collaborate uses the professional slang of territorial behavior to exemplify how opaque team dynamics and siloed responsibility can make it difficult to assign clear accountability for project outcomes."
+  },
+  {
+    "expert_quote": "over communicate, right? don't assume anything, right? Don't assume that people would understand what you're talking about. Simplify the way you're communicating, right? Make it crystal clear...",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The advice to 'over communicate' and 'Simplify the way you're communicating' to avoid assumptions is a direct response to the risk of complex, hard-to-explain outcomes arising from collaborative work, aiming to mitigate the opacity in decision-making processes."
+  },
+  {
+    "expert_quote": "I think it depends how you sort of characterize or define what is a failure or a, you know, at times things not working can be considered as a failure. At times, you know, not meeting a particular... deadline or particular sort of... benchmark, right? If you're not meeting that specific benchmark, then that in itself would be considered a failure.",
+    "mapped_id": "non_deterministic_outputs",
+    "is_negative_case": true,
+    "rationale": "This statement contradicts the indicator by framing project outcomes (success/failure) as dependent on the subjective 'characteriz[ation]' and definition of benchmarks by stakeholders, rather than being an inherent property of non-deterministic, statistically varying model outputs."
+  }
+]

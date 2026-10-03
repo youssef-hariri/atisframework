@@ -1,0 +1,38 @@
+[
+  {
+    "indicator": "trust_understanding_gap",
+    "evidence": "Person 2 describes a 'thought of I'm trying to get this done... I'm not going to focus on doing it quote UNquote... the right way' when discussing working with offshore teams. This highlights a gap where the immediate business pressure ('get it done') overrides the technical understanding and trust-building required for sustainable, high-quality AI systems.",
+    "metaphor": "The 'right way' vs. 'getting it done' is framed as a fundamental tension, implying the 'Magic Box' is expected to deliver value without the foundational, trust-building work of proper engineering.",
+    "negative_case": false
+  },
+  {
+    "indicator": "dreams_vs_reality",
+    "evidence": "Person 2 contrasts elegant, 'future-proof' solutions he would design with the 'ugly' but functional solutions colleagues sometimes delivered that 'worked for the moment.' This illustrates the conflict between idealized, robust AI/system architecture and the pragmatic, often imperfect, deliverables required to meet business deadlines.",
+    "metaphor": "The 'ugly... but it works' solution is a metaphor for the practical, often disappointing reality that falls short of the elegant, 'future-proof' dream of a perfect system.",
+    "negative_case": false
+  },
+  {
+    "indicator": "utility_mismatch",
+    "evidence": "When discussing privacy regulations (GDPR), Person 2 notes that in European-influenced companies, there is a 'very streamlined process' with strict guardrails ('I can't access customer data right now'), whereas in some purely American contexts, 'you can use what you want to use as long as you have approval by legal.' This shows a mismatch between the assumed utility of data access for AI and the legal/organizational constraints that redefine what 'utility' means.",
+    "metaphor": "Data accessibility is portrayed as a spectrum from an 'open field' (certain US contexts) to a 'walled garden' (EU-influenced contexts), challenging the universal 'Magic Box' assumption that all useful data is readily utilizable.",
+    "negative_case": false
+  },
+  {
+    "indicator": "feedback_dissonance",
+    "evidence": "Person 2 details his method for giving feedback: 'commend them first on the things they've done well... ease the conversation... have a very direct comment.' He acknowledges that 'some people took it well, some people may not have took it well.' This management friction stems from aligning different working styles and expectations (e.g., 'get it done' vs. maintainable code), which is a form of re-education labor to bridge expectation gaps.",
+    "metaphor": "Feedback is a 'balancing act' of commendation and direct critique, necessary to herd the team ('herd the sheep') toward a shared understanding, countering the dissonance created by unspoken or mismatched expectations.",
+    "negative_case": false
+  },
+  {
+    "indicator": "NEGATIVE_CASE",
+    "evidence": "Person 2 explicitly states, 'I haven't experienced any failure but I think that's because I've been very focused as an individual. To not allow our differences get in the way of accomplishing the project goals.' He attributes successful collaboration to proactive focus on common goals and working agreements, rather than being derailed by cultural or expectation differences. This directly contrasts with the rubric's assumed frictions like 'trust_erosion' or project failure due to unrealistic expectations.",
+    "metaphor": "Project success is framed as an active, intentional process of 'finding a working agreement' and focusing on 'similarities,' rather than a passive victim of inevitable 'Magic Box' disillusionment.",
+    "negative_case": true
+  },
+  {
+    "indicator": "NEGATIVE_CASE",
+    "evidence": "When asked if cultural issues specific to AI/data science arose, Person 2 answers, 'No not not in my particular experience.' He does not cite examples of stakeholders expressing 'paradoxical_expectations,' 'anthropomorphic_projection,' or 'explainability_deficit' as culturally rooted challenges. The cultural differences he discusses (work hours, directness, privacy laws) are general project management and business practice issues, not uniquely tied to the perceptual gaps around AI's capabilities.",
+    "metaphor": "Cultural difference is portrayed more as a 'collaborative puzzle' to solve (scheduling, communication style) rather than a source of 'Magic Box' mythology or AI-specific disillusionment.",
+    "negative_case": true
+  }
+]

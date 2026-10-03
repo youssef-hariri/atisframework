@@ -1,0 +1,87 @@
+[
+    {
+      "timestamp": "0:6:35.780 --> 0:7:3.360",
+      "quote": "...we are working with... using the AI and machine learning for for detection in telecom operators... each one of us can provide an input of... different characteristics of... patterns of fraud? because there is differences in... in details between countries and between continents.",
+      "rubric_mapping": {
+        "concept": "stochastic_uncertainty",
+        "indicators": [
+          {"name": "data_dependency", "description": "High sensitivity to historical data quality and relevance."},
+          {"name": "non_linear_estimation", "description": "Complex relationships in cost and schedule that do not follow traditional linear paths."}
+        ]
+      },
+      "metaphors": ["Cultural lens as a data filter", "Diverse perspectives as input features"],
+      "interpretation": "Person 2 describes the project's core uncertainty (fraud pattern detection) as inherently dependent on diverse, localized data patterns. The multicultural team provides varied 'inputs' to model this complexity, implicitly acknowledging that a single cultural perspective would yield an incomplete or biased model of the real-world, non-linear problem.",
+      "negative_case": false
+    },
+    {
+      "timestamp": "0:8:24.940 --> 0:9:24.320",
+      "quote": "...the planning and the architecture, in my opinion. I don't... see much differences from... having people from different backgrounds... the technical expertise plays the more important role... during the analysis and planning of the project we apply... some statistical analysis of the data, stuff like this... I don't believe it's multicultural plays a major role in this.",
+      "rubric_mapping": {
+        "concept": "stochastic_uncertainty",
+        "indicators": []
+      },
+      "metaphors": ["Technical process as a culture-neutral zone"],
+      "interpretation": "This is a clear negative case regarding the planning/technical phase. Person 2 frames statistical analysis and technical architecture as objective, rational processes insulated from cultural variance. This contrasts with their earlier point about cultural perspective being crucial for *defining* the problem (business understanding), creating a distinction between the 'certain' technical execution and the 'uncertain' problem definition.",
+      "negative_case": true
+    },
+    {
+      "timestamp": "0:14:9.550 --> 0:17:19.890",
+      "quote": "...we are not dealing with personal information of subscribers... just the phone number... and the usage... we try to comply with... regulations like the GDPR... this... relations is a little bit loose when we are dealing with customers in Asia or United States... we are not exposed to any personal data... the ethical questions. In my case it is not... significant because... no person[al] data.",
+      "rubric_mapping": {
+        "concept": "stochastic_uncertainty",
+        "indicators": [
+          {"name": "data_dependency", "description": "High sensitivity to historical data quality and relevance."}
+        ]
+      },
+      "metaphors": ["Data type as an ethical shield", "Regulation as a mutable boundary"],
+      "interpretation": "Person 2 attempts to bound a major source of project uncertainty (ethics/privacy) by defining their data domain narrowly (non-personal traffic data). However, they immediately introduce variance by noting regulatory compliance is 'loose' in some regions. This highlights an inherent instability: the project's 'certain' ethical stance is contingent on both data type (which could change) and geographically probabilistic regulatory landscapes.",
+      "negative_case": false
+    },
+    {
+      "timestamp": "0:18:32.170 --> 0:19:48.900",
+      "quote": "...in the Middle East... most of the people don't consider the... problem of your online information on the privacy... this question, at least in Western communities, is is very important... it's a lot of public debate about this... so... not you will not find many people aware of... the idea of the privacy... the ethical question of using that. I don't think it's... discussed a lot.",
+      "rubric_mapping": {
+        "concept": "stochastic_uncertainty",
+        "indicators": [
+          {"name": "opaque_outcomes", "description": "Algorithmic decision-making complexities that lead to results that are hard to explain."}
+        ],
+        "management_frictions": [
+          {"name": "accountability_challenges", "description": "Opacity in outcomes making it difficult to assign clear responsibility for AI-derived decisions."}
+        ]
+      },
+      "metaphors": ["Privacy awareness as a cultural weather pattern", "Ethical debate as a regional climate"],
+      "interpretation": "Person 2 frames the core ethical uncertainty of AI not as a fixed technical parameter but as a culturally stochastic variable. The 'opaqueness' of an algorithmic outcome's ethical acceptability depends entirely on the cultural context of the evaluator. This directly leads to accountability challenges: who is responsible for an ethical lapse if the very definition of a 'lapse' varies probabilistically across the project's stakeholder map?",
+      "negative_case": false
+    },
+    {
+      "timestamp": "0:22:33.480 --> 0:23:0.880",
+      "quote": "...in a culture... when they say tomorrow it's tomorrow and in other cultures tomorrow is not exactly tomorrow... it can happen, but I believe it can happen in... AI projects [or] non AI project.",
+      "rubric_mapping": {
+        "concept": "stochastic_uncertainty",
+        "indicators": [
+          {"name": "lack_of_reproducibility", "description": "The inability to consistently replicate AI-driven results."},
+          {"name": "dynamic_forecast_adjustment", "description": "The need to constantly update baselines as an indicator of underlying system instability."}
+        ],
+        "management_frictions": [
+          {"name": "baseline_erosion", "description": "Probabilistic variance forcing project managers to repeatedly adjust forecasts and commitments."}
+        ]
+      },
+      "metaphors": ["'Tomorrow' as a probabilistic variable", "Commitment as a distribution, not a point"],
+      "interpretation": "This is a powerful metaphor for project management under stochastic uncertainty. The meaning of a fundamental project commitment ('tomorrow') is non-deterministic and subject to cultural variance. This forces constant baseline adjustment (when is 'tomorrow' for *this* team member?) and erodes reproducible scheduling. Person 2 correctly notes this is not AI-specific, but in an AI project, this cultural stochasticity layers on top of the technical model's inherent variance, compounding management friction.",
+      "negative_case": false
+    },
+    {
+      "timestamp": "0:25:44.750 --> 0:26:50.240",
+      "quote": "...to be the communication point between my team and the customer... I can act as a bridge... it depends more on your... customer... if your business is working only in Egypt, so having... Europeans maybe... they don't understand the mentality of the customers... they have some kind of standards... that maybe maybe it doesn't work with Egyptians...",
+      "rubric_mapping": {
+        "concept": "stochastic_uncertainty",
+        "indicators": [
+          {"name": "non_deterministic_outputs", "description": "Results that are not fixed and can vary between runs."},
+          {"name": "model_drift", "description": "Performance decay over time due to changing data patterns."}
+        ]
+      },
+      "metaphors": ["Team member as a live calibration node", "Cultural bridge as a feedback loop"],
+      "interpretation": "Person 2 positions themselves as a human-in-the-loop system to manage uncertainty. The 'model' (the team's understanding and output for the customer) is prone to drift if its 'training data' (cultural understanding) is static or homogeneous. A team member who shares the customer's culture acts as a dynamic calibration point, providing real-time feedback to adjust the team's 'model' and prevent performance decay. This acknowledges that project success requires continuous, probabilistic adjustment to cultural signals.",
+      "negative_case": false
+    }
+  ]

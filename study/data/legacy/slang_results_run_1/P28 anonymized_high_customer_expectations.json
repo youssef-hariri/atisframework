@@ -1,0 +1,59 @@
+[
+    {
+      "metaphor": "Empty your cup",
+      "context": "Person 2's advice for someone new to a multicultural team: 'Empty your cup. Like don't. Don't assume like what you know on your past experience is just gonna apply like 1 to one the moment you eat.'",
+      "interpretation": "A metaphor for setting aside preconceptions and prior assumptions to be open to new ways of working and thinking. It advocates for adaptability and learning over the direct application of past experiences."
+    },
+    {
+      "metaphor": "Weasel words",
+      "context": "Used when describing indirect feedback styles: '...maybe it's not... It's not so bad... I think what is the word they say, like weasel words?'",
+      "interpretation": "Metaphor for language that is vague, evasive, or used to avoid making a direct or truthful statement. Contrasted with the valued 'direct to the point' communication."
+    },
+    {
+      "metaphor": "Mechanism",
+      "context": "Repeatedly used to describe company processes for ethics, privacy, and conduct (e.g., 'to put a mechanism in place,' 'it's more of mechanism,' 'they really like to put this mechanism in almost everything').",
+      "interpretation": "A metaphor for formalized, systematic processes and rules designed to remove subjective judgment, ensure consistency, and mitigate risks (like privacy breaches or cultural missteps) in a diverse environment. It represents structure over personal discretion."
+    }
+  ],
+  "negative_cases_for_rubric_indicators": [
+    {
+      "indicator_name": "magic_box_perception",
+      "rationale": "Person 2 describes their role with AI/ML in practical, non-magical terms: 'primarily I don't work like full time with AI... most of the time... play with AWS.' There is no mention of AI as an autonomous, infallible solution. The focus is on AI as a tool among many in a solution architect's toolkit."
+    },
+    {
+      "indicator_name": "dreams_vs_reality",
+      "rationale": "No discussion of idealized AI capabilities versus practical outputs. The 'gaps' discussed are human-centric: communication gaps due to accent/culture, and gaps between personal acclimatization expectations and reality (e.g., finding halal food)."
+    },
+    {
+      "indicator_name": "trust_understanding_gap",
+      "rationale": "No discussion of trust in AI systems. Trust is discussed in an interpersonal context (e.g., trusting colleagues to help when stuck). The opacity mentioned is about human communication ('some words he's using... you don't get it'), not algorithmic opacity."
+    },
+    {
+      "indicator_name": "explainability_deficit",
+      "rationale": "No expression of frustration with AI decision-making processes. The closest related concept is the appreciation for 'mechanisms' and clear guidelines that make *human* systems and decisions more transparent and consistent."
+    },
+    {
+      "indicator_name": "anthropomorphic_projection",
+      "rationale": "No attribution of human-like reasoning or reliability to algorithms. Person 2 discusses human colleagues with different cultural 'thinking' patterns, but AI is not anthropomorphized."
+    },
+    {
+      "indicator_name": "utility_mismatch",
+      "rationale": "No assumption that AI will align perfectly with goals. The mismatch discussed is between personal life/cultural goals (buying a house in different countries) and work expectations, not a mismatch with an AI's output."
+    },
+    {
+      "indicator_name": "unfairness_barriers",
+      "rationale": "No mention of AI bias or fairness. The discussion of fairness is about human systems and cultural equity in the workplace (e.g., training, mechanisms to guide behavior). Rejection is related to personal adaptation stress, not AI."
+    },
+    {
+      "indicator_name": "paradoxical_expectations",
+      "rationale": "No expression of simultaneous high hopes and high perceived risk toward AI. The 'hard work' and risk discussed are related to security and data privacy protocols, framed as necessary and non-negotiable 'mechanisms,' not as a paradoxical feeling about AI's potential."
+    },
+    {
+      "management_friction": "feedback_dissonance",
+      "rationale": "The feedback challenges described are purely human-to-human, involving cultural styles of giving/receiving feedback (blunt vs. indirect). There is no mention of users filing bug reports against AI based on unrealistic benchmarks."
+    },
+    {
+      "management_friction": "trust_erosion",
+      "rationale": "Disillusionment discussed is personal (initial overwhelm when moving countries) or related to past chaotic work environments. No mention of disillusionment in an AI pilot phase leading to resistance to scaling."
+    }
+  ]

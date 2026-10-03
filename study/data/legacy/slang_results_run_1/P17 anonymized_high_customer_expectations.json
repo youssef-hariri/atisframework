@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "Person 2",
+    "analysis_type": "rubric_mapping",
+    "content": "Person 2 describes building a sophisticated, multi-model ensemble (object tracking, speech diarization, LLM-based keylog analysis) to detect cheating in virtual interviews. This technical complexity contrasts with the team's expectation that it should deploy and run flawlessly without engaging with the extensive documentation (50 pages) he created to manage edge cases and deployment scenarios.",
+    "rubric_indicator": "dreams_vs_reality",
+    "evidence": "\"...the whole point of them... is the upper management is pressurizing us... Why things are not working?\" and \"...I got a call at 4:00 AM like hey, code is broken. It's not working... Did you even open the 50 pages of document?... the person said no.\"",
+    "metaphor_mapping": "The AI system is portrayed as a complex machine requiring a detailed 'manual' (documentation), but stakeholders treat it as a simple appliance that should just 'turn on and work.'"
+  },
+  {
+    "speaker": "Person 2",
+    "analysis_type": "rubric_mapping",
+    "content": "There is a clear gap between Person 2's deep technical understanding of the system's architecture and the Indian team's operational trust. The team's high optimism that the model will work is immediately undermined when it doesn't, leading to panic calls instead of consulting the provided troubleshooting guide. This shows trust based on outcome, not understanding.",
+    "rubric_indicator": "trust_understanding_gap",
+    "evidence": "\"...the person said no [they did not read the documentation]. I was like guys... this is going to be a recurring thing... It's inconvenient for me... to pick your calls. Read it.\"",
+    "metaphor_mapping": "The team views the AI as a 'black box' they can call for help on (like tech support) when it fails, rather than a system whose logic and failure modes are documented and learnable."
+  },
+  {
+    "speaker": "Person 2",
+    "analysis_type": "rubric_mapping",
+    "content": "Person 2's development philosophy inherently guards against the 'Magic Box' perception. He advocates for and implements practices like ensemble models, extensive testing, and rigorous coding standards specifically to mitigate bias and error—acknowledging that single models are fallible.",
+    "rubric_indicator": "negative_case_for_magic_box_perception",
+    "evidence": "\"...my codes are deployed, never have one single model. It is always... an ensemble of models... because no, we know that there will be bias in the models.\" and his emphasis on \"extensive testing\" and \"strict rules... on coding practices.\"",
+    "metaphor_mapping": "He treats AI not as a magical oracle, but as a complex, fault-tolerant 'engineered system' requiring redundancy (multiple models) and rigorous quality control (testing, standards)."
+  },
+  {
+    "speaker": "Person 2",
+    "analysis_type": "management_friction",
+    "content": "The predawn support call represents a classic 'feedback_dissonance.' The user's bug report ('code is broken') stems from an unrealistic benchmark—that the system should deploy without the user reading necessary documentation. This forces Person 2 into 're-education labor,' explaining the existence and purpose of the documentation he already created.",
+    "rubric_indicator": "feedback_dissonance",
+    "evidence": "\"I got a call at 4:00 AM... 'code is broken'... 'Did you even open the 50 pages of document?... the person said no.'\"",
+    "metaphor_mapping": "The feedback is like calling a car mechanic because the car won't start, without first checking if there's gas in the tank, despite the fuel gauge being clearly labeled and explained in the manual."
+  },
+  {
+    "speaker": "Person 2",
+    "analysis_type": "rubric_mapping",
+    "content": "The pressure from upper management and the senior C# team to deploy quickly reflects a 'utility_mismatch.' Their organizational goal (rapid deployment) assumes the AI component's integration will be seamless and not require the team's time to understand its operational parameters, which clashes with the practical reality of complex system integration.",
+    "rubric_indicator": "utility_mismatch",
+    "evidence": "\"...the upper management is pressurizing us... Why things are not working?... they were pressuring... 'fix all these issues quickly because we want to deploy it.'\"",
+    "metaphor_mapping": "Management views the AI module as a simple 'plug-and-play' component, while the developers know it's a custom engine requiring careful installation and tuning."
+  },
+  {
+    "speaker": "Person 2",
+    "analysis_type": "cultural_context",
+    "content": "Person 2 highlights a cultural difference in work ethic and adherence to process that indirectly fuels high expectations. The more 'college project' approach in India, with less emphasis on rigorous pipelines and documentation, may contribute to a perception that AI work is more ad-hoc and immediately fixable, rather than a disciplined engineering endeavor with known procedures.",
+    "rubric_indicator": "contextual_fuel_for_expectations",
+    "evidence": "\"It feels like all of them are still doing a college project... rather than doing a professional project where you have a proper board set up...\" and contrasting it with his US university/ internship experience with \"official Git pipelines\" and \"Jira boards.\"",
+    "metaphor_mapping": "The difference is framed as 'professional engineering' vs. 'academic prototyping,' where the latter culture might unintentionally foster the idea that complex systems are more malleable and less bound by formal processes."
+  }
+]

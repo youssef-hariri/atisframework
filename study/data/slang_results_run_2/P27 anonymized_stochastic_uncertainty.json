@@ -1,0 +1,32 @@
+[
+  {
+    "expert_quote": "So it is one of the first things to happen in Nepal. You know some something like similar to that.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The vague description of a pioneering credit scoring model as 'something like similar to that' reflects the complex and hard-to-define nature of a novel algorithmic system, aligning with the indicator of opaque outcomes where decision-making processes are not clearly explainable."
+  },
+  {
+    "expert_quote": "In that sense. Some bias might have been introduced, but it's been like, you know, like more than three years since I left the company.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "Acknowledging that expert-introduced bias might persist in the credit scoring model speaks to the hidden complexities within the algorithm, a characteristic of opaque outcomes where the rationale behind outputs is not transparent."
+  },
+  {
+    "expert_quote": "The feedbacks are like very a quick. And you know, like way to the point and it actually helps us fine-tune our products, right.",
+    "mapped_id": "dynamic_forecast_adjustment",
+    "is_negative_case": true,
+    "rationale": "Person 2 describes efficient, straightforward feedback loops that directly improve the product. This contradicts the indicator of dynamic forecast adjustment, which posits that constant updates signal underlying instability; here, adjustments are described as a positive, smooth part of refinement."
+  },
+  {
+    "expert_quote": "We need data and it was like really hard to explain to like *******, you know, like ******* client. Like, we need access to this data in order for for us to provide you with the right solution for you. But they were like very hesitant about doing that.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "The explicit struggle to access necessary data from a hesitant client highlights the fundamental dependency of the ML model on specific, quality data, directly mapping to the indicator of high sensitivity to historical data quality and relevance."
+  },
+  {
+    "expert_quote": "I think you know by in that sense, we did introduce a lot of bias from these experts, right? Even though they were like experts, probably they may not have. Had the opportunity to the opportunity to look at the data and you know like make this in based on the data, I think they're rather making this and based on their own experiences, right?",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "Describes how expert bias, disconnected from actual data, was introduced into the credit model. This illustrates how non-data-driven human judgment can create complex, unexplained pathways within an algorithmic system, a core aspect of opaque outcomes."
+  }
+]

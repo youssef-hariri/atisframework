@@ -1,0 +1,32 @@
+[
+  {
+    "expert_quote": "it says use when this issue is not useful. So this cluster of issues are useful or something like that. They will give insects weekly ways. So we'll be acting upon it and we'll see what is the mistake",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "The speaker describes a client feedback loop where outputs are judged as 'useful' or 'not useful.' The use of 'mistake' implies the client may be evaluating AI outputs against an implicit, high benchmark, requiring the team to analyze and 'act upon' this feedback, aligning with the labor of re-educating or adjusting based on user expectations."
+  },
+  {
+    "expert_quote": "It say it doesn't know the answer, so that's what only related to related to the data and the free text model it can. It can answer the question.",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": false,
+    "rationale": "The speaker explicitly describes the model's limited scope—it only works for its specific use case. This delineation between what it 'can' and 'cannot' do implicitly addresses a potential stakeholder assumption (utility mismatch) that an AI tool is a general-purpose solution, highlighting a designed constraint to manage expectations."
+  },
+  {
+    "expert_quote": "we follow all the like the set of rules given by the AA forms and all the say for example you you just you should not use any political related queries or like any like like unparliamentary words or something like that.",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": false,
+    "rationale": "The reference to adhering to external 'rules' and filtering out sensitive content (political, unparliamentary words) reflects a proactive, procedural approach to mitigating perceived risks of bias or unfair outputs. This is a direct operational response to the theoretical barrier of 'unfairness_barriers.'"
+  },
+  {
+    "expert_quote": "we are building a model now. So in this case there was no advanced AA models which is a plus. If there is anything then we have to revamp it.",
+    "mapped_id": "trust_erosion",
+    "is_negative_case": true,
+    "rationale": "The speaker states the absence of 'advanced AI models' in their current project is 'a plus,' indicating that sophisticated, potentially opaque models are seen as a complication or risk. This contradicts the 'trust_erosion' friction, as they view simpler, more controllable foundations as advantageous for scaling, not a source of disillusionment."
+  },
+  {
+    "expert_quote": "we just create the model only particularly to this use case. They don't focus on any other general stuff",
+    "mapped_id": "magic_box_perception",
+    "is_negative_case": true,
+    "rationale": "The speaker emphasizes the deliberate narrowness and specificity of their AI model, contrasting directly with the 'Magic Box' perception of AI as a general, infallible solution. This is a negative case where the development philosophy actively works against fostering such a perception by design."
+  }
+]

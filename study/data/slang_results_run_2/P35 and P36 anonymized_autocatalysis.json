@@ -1,0 +1,56 @@
+[
+  {
+    "expert_quote": "you know the industry changes really fast. So what we did three years ago is not the same. What we can do now.",
+    "mapped_id": "recursive_innovation",
+    "is_negative_case": false,
+    "rationale": "The quote describes a rapid, self-perpetuating pace of change where past technical solutions are obsolete, aligning with the definition of AI tools accelerating the development of further AI tools and their supporting infrastructure."
+  },
+  {
+    "expert_quote": "Different framework like how they expect the results. Some people are slower that they can take weeks to take decisions. And some people make decisions really fast in a matter of days... They work fast and we work fast as well, so we kind of match here.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "Person 2 explicitly contrasts different decision-making paces ('weeks' vs. 'days'), directly illustrating the clash between slower organizational time and faster operational/technical time."
+  },
+  {
+    "expert_quote": "people. People can take it. Translator two months later and just go ahead with some other idea and kind of, yeah.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The use of 'translator' (likely meant as 'turnaround') and 'two months later' describes an abrupt, fast-paced change in client direction, reinforcing the friction of misaligned temporal cycles between AI-driven agility and project continuity."
+  },
+  {
+    "expert_quote": "we are ready to. Take his pace.",
+    "mapped_id": "timeline_compression",
+    "is_negative_case": false,
+    "rationale": "The statement about adapting to the client's pace, even when changes are 'complicated and painful,' reflects the management friction of having to re-evaluate and adapt technical architecture mid-cycle due to external, rapid shifts."
+  },
+  {
+    "expert_quote": "What we did three years ago is not the same. What we can do now.",
+    "mapped_id": "skill_obsolescence_pace",
+    "is_negative_case": false,
+    "rationale": "The blunt statement about the irrelevance of three-year-old work implicitly highlights how technical competencies and service offerings must constantly evolve, outpacing traditional learning and development cycles."
+  },
+  {
+    "expert_quote": "We don't. We don't focus on them too much because we did them quite some time ago and you know the industry changes really fast.",
+    "mapped_id": "tool_proliferation",
+    "is_negative_case": false,
+    "rationale": "The dismissal of past case studies due to industry velocity points to new tools and frameworks emerging faster than they can be systematically integrated or maintained as referenceable portfolio pieces."
+  },
+  {
+    "expert_quote": "No, I don't think so. I don't think so.",
+    "mapped_id": "skill_obsolescence_pace",
+    "is_negative_case": true,
+    "rationale": "When asked directly about failures due to culture, Person 2 denies it. This is a negative case for the indicator, suggesting that in their specific context (DevOps/Infrastructure), the pace of skill obsolescence has not yet manifested as a culturally-linked project failure."
+  },
+  {
+    "expert_quote": "it's never based on nationality or. Geolocation, just it can be like OK for example, the team is in Nigeria, they just not exactly our target audience... but not because they're Nigerians just, you know, kind of not our.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": true,
+    "rationale": "Person 2 states client targeting is based on business profile, not on adapting to socio-cultural or ethical dimensions arising from technical velocity. This contradicts the indicator's focus on a shift toward human acceptance and ethics."
+  },
+  {
+    "expert_quote": "We usually don't judge based on cultural or national background.",
+    "mapped_id": "judgment_substitution",
+    "is_negative_case": true,
+    "rationale": "This explicit statement runs counter to the indicator, which describes a reconfiguration of human judgment. Here, Person 2 asserts that human judgment (in client assessment) is not being substituted or overridden by AI-driven categorizations or cultural assumptions."
+  }
+]

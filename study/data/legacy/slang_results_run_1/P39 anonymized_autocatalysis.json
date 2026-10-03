@@ -1,0 +1,55 @@
+[
+  {
+    "category": "Metaphors",
+    "analysis": [
+      {
+        "quote": "bringing them in, giving them a better foot to London",
+        "interpretation": "Metaphor for onboarding and integration; frames organizational adaptation as a journey requiring stable footing."
+      },
+      {
+        "quote": "masked or out... it definitely will have an effect",
+        "interpretation": "Metaphor of feedback effects being hidden (masked) or exaggerated (out); implies social dynamics obscure technical feedback loops."
+      }
+    ]
+  },
+  {
+    "category": "Negative Cases (Evidence Against Autocatalysis Indicators)",
+    "analysis": [
+      {
+        "rubric_indicator": "socio_technical_shift",
+        "negative_evidence": "Interviewee dismisses culture/ethics as primary factors ('I don't see that'), focusing instead on economic pragmatism and task completion. Suggests the 'shift to human acceptance' is not yet dominant in his operational reality.",
+        "quote": "Experiences does affect... No, I don't. I don't see that. I don't. It doesn't work on me... the only place... is domain specific problems."
+      },
+      {
+        "rubric_indicator": "temporal_misalignment",
+        "negative_evidence": "Timezone issues are framed as a human coordination/scheduling problem ('a strain on their head'), not as a fundamental clash between AI and organizational tempos. The solution is managerial (rescheduling), not systemic.",
+        "quote": "It's quite a strain on their head... reduces the effect of actually how you contribute... you have to push and delay to the next day."
+      },
+      {
+        "rubric_indicator": "judgment_substitution",
+        "negative_evidence": "Human judgment (of team leads, architects) is presented as the final, uncontested authority ('team lead is quite keen on the direction'), not as something being reconfigured or substituted by AI predictions.",
+        "quote": "When the team lead is quite keen on on the direction. You might just be sluggish... but you still have to get the job done."
+      }
+    ]
+  },
+  {
+    "category": "Indirect Evidence Aligned with Autocatalysis Frictions",
+    "analysis": [
+      {
+        "rubric_indicator": "management_frictions.timeline_compression",
+        "supporting_evidence": "The rapid pace forces immediate, pragmatic architectural decisions (hybrid vs. cloud) without extensive evaluation, indicating compressed decision cycles.",
+        "quote": "We had to go back, revise the things... So we had a hybrid architecture rather than a full-fledged cloud architecture."
+      },
+      {
+        "rubric_indicator": "management_frictions.continuous_training_demand",
+        "implicit_evidence": "Onboarding requires 'a week to just... get comfortable with the code base,' hinting at the constant need to upskill as systems evolve, though not explicitly tied to AI subtypes.",
+        "quote": "Give them room to look into it... before you can even start assigning task."
+      },
+      {
+        "rubric_indicator": "skill_obsolescence_pace",
+        "implicit_evidence": "Focus on 'experiences' and bringing in new ideas suggests a premium on current, relevant skills, though obsolescence is not directly stated. The economic pressure to 'get the job done' to 'get paid' implies a treadmill where skill currency is vital.",
+        "quote": "You are modeling leaning on the side of actually doing getting the tax done just so you could get paid and move ahead with your career."
+      }
+    ]
+  }
+]

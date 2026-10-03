@@ -1,0 +1,62 @@
+[
+  {
+    "indicator": "socio_technical_transition",
+    "analysis": "Person 2's role as a solution architect enabling others ('helping solution architects be more productive') and interacting with diverse, cross-functional teams reflects a move from isolated work to a hybrid, collaborative model. The focus is on human facilitation within a tech ecosystem, though explicit AI-human collaboration isn't detailed.",
+    "supporting_quotes": [
+      "So yeah, my biggest part is helping solution architects be more productive.",
+      "Is like you tend to work with a lot of people like to get something done. You have to collaborate with different people from different areas."
+    ],
+    "metaphors_mapped": ["Wearing 'many hats' - signifies role fluidity and adaptability in a hybrid environment."],
+    "is_negative_case": false
+  },
+  {
+    "indicator": "knowledge_clash",
+    "analysis": "Person 2 highlights a positive form of knowledge clash, where diverse cultural perspectives on problem-solving lead to better outcomes ('it just adds up'). This contrasts with a purely disruptive tension, showing how experiential knowledge from different backgrounds can be additive rather than conflicting in a collaborative setting.",
+    "supporting_quotes": [
+      "And it may just hit to them like the way I'm thinking of the problem is totally different because of like hours of bringing how I take it as a social... it makes sense to them.",
+      "And I was think how does that work? Again, like I don't get it in my side. I don't get it at all. But if he explained it like, oh, that makes sense, you know."
+    ],
+    "metaphors_mapped": ["N/A"],
+    "is_negative_case": true,
+    "negative_case_explanation": "The transcript presents cultural/perspective diversity as a net positive that enriches problem-solving, not as a friction point hindering a data-centric workflow. The 'clash' is generative."
+  },
+  {
+    "indicator": "role_reconfiguration",
+    "analysis": "Person 2 describes a leadership philosophy where the manager's role is to align individual goals with company objectives and provide support. This hints at a shift from top-down oversight to a facilitative, coaching role focused on the individual within the system.",
+    "supporting_quotes": [
+      "...the read [leader] is responsible for you to see if you are. You are lining your personal goals with the company goals and to help you like get that out.",
+      "It's not. You are responsible for the leader, like you're trying to measure up to what the leader say."
+    ],
+    "metaphors_mapped": ["Leader as a guide for alignment ('lining your personal goals') versus a commander."],
+    "is_negative_case": false
+  },
+  {
+    "indicator": "integration_friction",
+    "analysis": "While not about AI specifically, Person 2 strongly emphasizes the primacy of security and privacy mechanisms. This illustrates a pre-existing, rigid process layer (security protocols) that dictates workflow and can slow progress ('really hard work sometimes to progress'), analogous to friction when integrating new systems into strict legacy frameworks.",
+    "supporting_quotes": [
+      "Security is like. The first priority... it's really hard to to risk security... they don't compromise on security at all.",
+      "It becomes like, I mean, say really hard work sometimes to progress, but it's necessary hard."
+    ],
+    "metaphors_mapped": ["Security as non-negotiable 'priority' and 'hard' work - frames it as a foundational, inflexible constraint."],
+    "is_negative_case": false
+  },
+  {
+    "indicator": "cultural_resistance",
+    "analysis": "Person 2 describes an organizational culture that proactively uses training and mechanisms to standardize interaction, counteracting potential cultural resistance. The system is designed to override individual cultural defaults with a unified company protocol, thus managing this friction.",
+    "supporting_quotes": [
+      "It's like more of mechanism... they really like to put this mechanism in almost everything. It's not very much flexible, true, but it really helps when you have no idea how to act.",
+      "But at first it was mechanism really help, like OK, you're not sure how to conduct a meeting... This is a guidance."
+    ],
+    "metaphors_mapped": ["'Mechanism' as a system overriding individual cultural software."],
+    "is_negative_case": true,
+    "negative_case_explanation": "The organization has implemented formal systems (trainings, mechanisms) to pre-empt and neutralize cultural resistance, turning potential friction into a structured onboarding and operational process."
+  },
+  {
+    "indicator": "workflow_brittleness, procedural_nonlinearity, silo_breakdown, ethical_automation_tension, legacy_inflexibility",
+    "analysis": "The conversation with Person 2 is centered on human collaboration, communication, and cultural adaptation within a large tech organization. There is no direct evidence or discussion of AI project workflows, iterative development loops, cross-functional data needs, ethical dilemmas in automation, or challenges with legacy software. The scope is on the human and organizational layer, not the technical project lifecycle.",
+    "supporting_quotes": [],
+    "metaphors_mapped": [],
+    "is_negative_case": true,
+    "negative_case_explanation": "These indicators are not addressed in the transcript. Person 2's discussion remains at the level of interpersonal and organizational dynamics (communication, feedback, security culture, leadership) without delving into the specifics of AI/ML project execution, its non-linear processes, or technical system integrations."
+  }
+]

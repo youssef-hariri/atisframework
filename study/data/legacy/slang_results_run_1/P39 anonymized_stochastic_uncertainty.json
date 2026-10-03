@@ -1,0 +1,56 @@
+[
+  {
+    "rubric_element": "non_deterministic_outputs",
+    "metaphor": {
+      "quote": "The culture was just multicultural teams and like within a short space of time.",
+      "analysis": "Person 2 uses the metaphor of 'space of time' to frame team dynamics. This subtly links to the non-linear, unpredictable nature of collaboration in multicultural settings, mirroring how AI models produce varied outputs rather than fixed results within a constrained operational 'space'."
+    },
+    "negative_case": {
+      "quote": "I don't see that. It doesn't work on me... you're trying to reach a goal, there's a roadmap.",
+      "analysis": "Person 2 directly contradicts the expected indicator of 'non-deterministic_outputs' in a collaborative context. He asserts that cultural background does not meaningfully affect the *process* towards a defined goal, which he frames as having a clear 'roadmap'. This suggests a belief in a deterministic project path, contrary to the inherent unpredictability of outputs from probabilistic systems or diverse teams."
+    }
+  },
+  {
+    "rubric_element": "dynamic_forecast_adjustment",
+    "metaphor": {
+      "quote": "...you have to push and delay to the next day because you know because of the timeframe.",
+      "analysis": "'Push and delay' is a physical, logistical metaphor for the constant need to adjust schedules and plans. This directly mirrors the 'dynamic_forecast_adjustment' indicator, where project baselines are unstable and must be frequently revised due to external factors (like time zones), analogous to an AI system's need for constant re-calibration."
+    },
+    "negative_case": null
+  },
+  {
+    "rubric_element": "opaque_outcomes / accountability_challenges",
+    "metaphor": {
+      "quote": "Feedback absorption might be masked... It definitely will have an effect.",
+      "analysis": "The term 'masked' is a powerful metaphor for opacity. It suggests that the true reasons behind a team member's reaction (a project outcome) are hidden by socio-economic pressures, making it difficult to assign clear cause or accountability. This mirrors the 'opaque_outcomes' of an AI system, where the rationale for a decision is obscured by complex internal processes."
+    },
+    "negative_case": null
+  },
+  {
+    "rubric_element": "non_linear_estimation",
+    "metaphor": {
+      "quote": "...cultural diversity will play inside how you put in those things.",
+      "analysis": "The phrase 'play inside' frames cultural influence as an active, dynamic, and internal game-like process within the project. This metaphor aligns with 'non-linear_estimation', as it implies complex, interactive, and unpredictable contributions rather than a simple, additive, linear progression of tasks and costs."
+    },
+    "negative_case": null
+  },
+  {
+    "rubric_element": "model_drift",
+    "metaphor": {
+      "quote": "Maybe it slows the acceptance... slows the acceptance of the team members into actually accepting. OK, this is the route we should go through.",
+      "analysis": "Here, cultural difference is metaphorically framed as a force causing 'sluggish' progress and resistance to a new 'route.' This parallels 'model_drift,' where a once-effective model's performance decays because the underlying data/context (the team's unified direction) has changed, requiring effort to re-align."
+    },
+    "negative_case": {
+      "quote": "...but yeah, what? You still have to do, you still have to still have to get the job done.",
+      "analysis": "This statement presents a negative case against the severity of friction implied by 'model_drift' or 'baseline_erosion.' Despite acknowledging slowdowns ('sluggish'), Person 2 asserts the deterministic necessity of task completion ('get the job done'). This minimizes the perceived impact of the drift, suggesting it's an obstacle to be overcome rather than a fundamental system instability."
+    }
+  },
+  {
+    "rubric_element": "data_dependency",
+    "metaphor": {
+      "quote": "You think about the economic part of where you're from... So I think socio-economic factor might affect and how you take feedback.",
+      "analysis": "Person 2 conceptualizes a team member's background (their 'data') as having an 'economic part' that fundamentally shapes their response (the 'model output'). This is a direct metaphor for 'data_dependency,' highlighting that the quality and nature of the input (personal history and context) critically determine the project's behavioral outcomes."
+    },
+    "negative_case": null
+  }
+]

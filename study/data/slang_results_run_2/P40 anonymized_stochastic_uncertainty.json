@@ -1,0 +1,32 @@
+[
+  {
+    "expert_quote": "The biggest difference was between me and my CEO three cofounders... he would never sleep before 48 4 a and work uh very often until 5, uh 5 AM. And so you would ever wake up in the morning. And if we had meeting before uh 11, there was a risk.",
+    "mapped_id": "probabilistic_variance",
+    "is_negative_case": false,
+    "rationale": "Person 2 describes fundamental, unpredictable variance in human 'working rhythms' across the team. This slang for differing personal schedules functions as a metaphor for the inherent, statistical fluctuation in system inputs (team availability), which parallels the probabilistic variance in a model's inputs or environmental conditions."
+  },
+  {
+    "expert_quote": "whether electricity, the, uh the banking services don't make transactions with them because and sometimes they had shut downs or for electricity, so it would not work for a few hours, some we had critical releases and it was a problem that you know...",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "The reference to unreliable infrastructure ('electricity... shut downs') causing problems for 'critical releases' is a 'human-floor' description of external, real-world volatility. This directly maps to the indicator's focus on sensitivity to the quality and stability of the underlying environment/data sources upon which the system depends."
+  },
+  {
+    "expert_quote": "as a cofound and I didn't have a complete map of where the data was... to make sure that it's safe, you know, for make sure that the company uh still has their assets... and they'll have a good data governance, so but like for uh I don't know... we would just basic and and and don't make reporting...",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The admission of lacking a 'complete map' of critical company data and operating with 'just basic' governance is professional slang describing an opaque and poorly documented operational system. This chaos in foundational assets mirrors the complexity and unexplainability of algorithmic outcomes central to the indicator."
+  },
+  {
+    "expert_quote": "I think that my colleagues were in Togo would be more accepting and saying yes, yes, yes... but not complaining... and sometimes uh sometimes they would not do it or it would take a lot of time, but they they don't did not so much say .",
+    "mapped_id": "lack_of_reproducibility",
+    "is_negative_case": false,
+    "rationale": "Person 2 describes a cultural communication pattern where verbal agreement ('yes, yes, yes') does not reliably lead to consistent, timely action ('they would not do it'). This everyday description of unpredictable follow-through analogizes the inability to consistently replicate or depend on a stated output or process."
+  },
+  {
+    "expert_quote": "Sometimes, uh maybe it's links with the what I just told you about they did not say no. So for example, wasn't it likeable for the company like financially speaking also but I don't know if it's so much of because I could do this also.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": true,
+    "rationale": "When prompted to attribute a failure ('fail that') to cultural difference, Person 2 explicitly negates a direct causal link ('I don't know if it's so much of'), stating he could exhibit the same behavior. This contradicts the friction's premise by refusing to assign accountability for a negative outcome to a specific, culturally-influenced AI/human decision-making pattern."
+  }
+]

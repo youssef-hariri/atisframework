@@ -1,0 +1,50 @@
+[
+  {
+    "expert_quote": "Then at the end of the day, how to make an application based system that pulls that data and then the QA team from Ukraine to test that and whatnot.",
+    "mapped_id": "tool_proliferation",
+    "is_negative_case": false,
+    "rationale": "The phrase 'and then the QA team... to test that and whatnot' uses casual, hand-waving language ('and whatnot') to describe the QA process. This slang implies a rapid, almost ad-hoc addition of new components (the application) to a system, where the full testing and integration process is an afterthought, matching the description of new tools/frameworks released faster than they can be systematically evaluated."
+  },
+  {
+    "expert_quote": "A month ago I quit my full time job with Haymarket because there was a huge... Management shift and they are switching more aside from... Fully transformation to AI",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "Person 2 describes a definitive, company-level pivot ('switching', 'Fully transformation') towards AI. The use of 'huge' and the decision to quit frames this as a profound strategic reorientation. This aligns with the indicator's focus on the organizational focus shifting due to the velocity of AI, moving the center of gravity from established operations to a new AI-centric paradigm."
+  },
+  {
+    "expert_quote": "And that is reflecting either a cultural differences... So in our morning stand ups, people started listening to more what everyone is working... So we've encouraged... To say yesterday I worked on this, this and this, but I was struggling to do this.",
+    "mapped_id": "continuous_training_demand",
+    "is_negative_case": false,
+    "rationale": "The solution to a team integration problem is described as implementing new, granular communication rituals ('morning stand ups') focused on sharing specific daily struggles. This everyday language ('struggling to do this') reflects an adaptive, on-the-fly 'training' mechanism to keep the distributed team aligned and competent in a fast-changing project environment, a core demand of continuous training."
+  },
+  {
+    "expert_quote": "I think that you know the human side of the war should never be removed... I think if if there are people like I... you have to stay and keep the communication on the on the human professional level",
+    "mapped_id": "judgment_substitution",
+    "is_negative_case": true,
+    "rationale": "Person 2 explicitly argues against the removal of the human element ('should never be removed'), advocating for persistent human communication as the core of professional work. This directly contradicts the theoretical construct of judgment substitution, which posits a reconfiguration or displacement of human judgment by AI systems."
+  },
+  {
+    "expert_quote": "And that is reflecting either a cultural differences... So we've sit down and we we wrote a system... These are the dependencies. And it has to be a healthier communication.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The response to a communication failure is to create a formal written system to manage task dependencies. The need to explicitly codify and slow down ('sit down and... wrote a system') the workflow to ensure understanding contrasts with the implied 'fast, iterative' pace of development ('AI time'), highlighting a deliberate organizational slowdown to bridge a temporal and cultural gap."
+  },
+  {
+    "expert_quote": "I do have a friend in North Carolina who is trying to figure out how to do some business with... Saudi Arabia... they do invest a lot of money into it",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": false,
+    "rationale": "The phrase 'trying to figure out how to do some business' captures the uncertainty and navigation required when engaging with a new, high-investment AI market (Saudi Arabia). This professional slang implies a landscape where the commercial and potentially regulatory frameworks are not yet clear or settled, forcing actors to 'figure it out' amidst rapid technical investment."
+  },
+  {
+    "expert_quote": "That depends a lot from the climate you receive... I could only have an impact on the personal level for the people... It's how I treat anyone, regardless... Someone else has a different approach.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": true,
+    "rationale": "When asked about leadership's role in managing diversity for AI projects, Person 2 deflects from systemic or technical solutions ('I don't know'), emphasizing individual, personal relationships ('personal level', 'how I treat anyone'). This contradicts the indicator's premise of a large-scale, strategic socio-technical shift, instead grounding success in immutable human-centric practices, not adaptation to AI velocity."
+  },
+  {
+    "expert_quote": "We ended up with our clients at the same time, so I had to start search for a new job which which was just a regular like, no AI at that point.",
+    "mapped_id": "skill_obsolescence_pace",
+    "is_negative_case": false,
+    "rationale": "Person 2 describes a job search for a 'regular... no AI' software engineering role as a point in the past ('at that point'). This temporal framing positions non-AI roles as a historical baseline from which the field has moved, implicitly acknowledging the rapid rise of AI as a new core competency that defines current roles versus obsolete 'regular' ones."
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "expert_quote": "And at the university I work within. An interaction design lab, which is a multidisciplinary lab in which we merge both the data science skills and user experience and interaction design skills. So we are roughly half developers and half interaction designers.",
+    "mapped_id": "socio_technical_transition",
+    "is_negative_case": false,
+    "rationale": "The phrase 'merge both the data science skills and... interaction design skills' and the 50/50 composition describe a hybrid human-AI collaboration model, moving from a purely human-centric or purely technical silo."
+  },
+  {
+    "expert_quote": "Because. I know. I think that it's important to involve more persons in this conceptual part because I don't know, for instance. Me or one of my colleagues, they can lack some aspects... the experience of one of my colleagues come and help.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "The admission that an individual 'can lack some aspects' and the need for diverse colleagues' experience highlights the tension between specialized, possibly data-centric, knowledge and the need for broader, tacit human experience to form a complete vision."
+  },
+  {
+    "expert_quote": "And so our main concern is to not share the data among the different companies. So we maybe develop some algorithms, but. So we want to. We try to keep data as separate as possible and not leak some companies data.",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": false,
+    "rationale": "The focus on segregating data and preventing leaks, even while developing algorithms, points to the inherent conflict between the predictive, data-hungry nature of AI workflows and the imperative for human-imposed ethical and privacy guardrails."
+  },
+  {
+    "expert_quote": "In particularly in maybe. In Italy, we are not so concerned with this aspect of data privacy. Maybe not like in. For instance, in Sweden or. American in the US group I work with, maybe for most students, we are less concerned. About this aspect, I've experienced a little mismatch in these concern.",
+    "mapped_id": "integration_friction",
+    "is_negative_case": false,
+    "rationale": "The 'little mismatch in these concern' about data privacy across cultures directly illustrates a core challenge (friction) in embedding standardized AI/data practices into diverse, pre-existing cultural and procedural environments."
+  },
+  {
+    "expert_quote": "I found that. I mean foreign people. I collaborated with were more direct than. I mean, my colleagues here in Italy. I mean, I felt that they were very straightforward...",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "The observation about differing communication styles ('more direct') in feedback points to an unspoken reconfiguration of team interaction norms and social roles that occurs when integrating diverse collaborators into a project workflow."
+  },
+  {
+    "expert_quote": "No, I I didn't place no.",
+    "mapped_id": "workflow_brittleness",
+    "is_negative_case": true,
+    "rationale": "When asked directly about facing failures or roadblocks due to culture, Person 2 explicitly states they did not. This contradicts the indicator that suggests integrating diverse teams increases process vulnerability."
+  },
+  {
+    "expert_quote": "I 'm working with multicultural teams can lead to higher success rate. I mean, I really don't know why, but maybe for that thing I was saying that if you have multiple point of view...",
+    "mapped_id": "silo_breakdown",
+    "is_negative_case": false,
+    "rationale": "Attributing higher success to 'multiple point of view' inherently values the cross-pollination of ideas and data perspectives, which undermines traditional, bounded departmental or national knowledge silos."
+  },
+  {
+    "expert_quote": "To view different aspect on how, for instance, the energy is managed in the our different countries because I didn't know for instance, I didn't know anything about how Sweden mainland the energy.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "The revelation of not knowing how energy is managed in another country ('I didn't know anything') underscores a fundamental clash between localized, experience-based operational knowledge and the data/model-centric knowledge an AI team might initially possess."
+  },
+  {
+    "expert_quote": "American side I think we didn't. Strong leadership and for that, as I said, the project. Didn't have a follow up. While in the Swedish. The work with the Swedish team. And think very strong. Leadership in the project management. And for that, the project went well and the good follow up.",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "The direct causal link drawn between 'strong leadership' and project success/follow-up emphasizes the critical, redefined role of the project manager in merging and guiding diverse teams, shifting towards oversight and integration."
+  },
+  {
+    "expert_quote": "We felt like we were. We worked alone. I don't know we. I think we weren't very involved. In some aspect of the project and each one of us worked only on. If maybe if. It's all things.",
+    "mapped_id": "silo_breakdown",
+    "is_negative_case": true,
+    "rationale": "This description of working alone and not being involved is a negative case for 'silo_breakdown.' It describes the persistence of silos (isolation) within a project, which was detrimental to collaboration, rather than their productive breakdown."
+  },
+  {
+    "expert_quote": "As you say, I think. That could be very workwide to prepare for people to work with. At foreign groups. That could be very important, in my opinion.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "The admission that the university does *not* prepare teams, coupled with the belief that it 'could be very important,' points to a latent cultural resistance or institutional inertia that fails to address the needs of new, multicultural, data-intensive work models."
+  },
+  {
+    "expert_quote": "Maybe some some country have? Certain type of work ethics. Difference respect others I don't know.",
+    "mapped_id": "role_transition_hurdles",
+    "is_negative_case": false,
+    "rationale": "The speculation about differing 'work ethics' hints at the unspoken norms and expectations that constitute reskilling and adaptation hurdles when teams with established hierarchies and practices must integrate."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "rubric_indicator": "non_deterministic_outputs",
+    "quote": "Some people took it well some people may not have took it. Well you know that's everyone 's. Everyone 's going to be different and that's fine.",
+    "reasoning": "Person 2 explicitly frames team reactions to feedback as non-deterministic. The outcome (acceptance or rejection of critique) is variable and not fixed from one interaction to the next, directly mirroring the statistical variance inherent in probabilistic models.",
+    "negative_case": null
+  },
+  {
+    "rubric_indicator": "probabilistic_variance",
+    "quote": "It ends up being more that sometimes the folks in the United states work harder not just because they're just working to work but also because they feel the need. To compensate for the lack of quote UN quote hours that sometimes folks in the European time don't maybe are not working which is not a negative.",
+    "reasoning": "The workload and output of the team are described as fluctuating based on a probabilistic mix of cultural norms, time zones, and individual responses. The amount of work done is not a constant but a variable subject to these complex, interacting factors.",
+    "negative_case": null
+  },
+  {
+    "rubric_indicator": "lack_of_reproducibility",
+    "quote": "A solution that. Honestly it's ugly and quite honestly I would never want to do it but it works... Now what's the best solution can it. Is it future proof? No but it worked for the moment... we would be able to have at least a reproducible application going forward that would resolve that particular issue.",
+    "reasoning": "Person 2 highlights the tension between a one-off, working solution and a reproducible, maintainable one. The focus on using tools like Docker to 'hard code versions' is a direct attempt to combat the inherent lack of reproducibility in ad-hoc, culturally-influenced development practices.",
+    "negative_case": {
+      "description": "The effort to ensure reproducibility is presented as a corrective action, implying the default state or tendency (especially under pressure or with certain cultural approaches) is toward non-reproducible work. The 'ugly' solution that 'worked for the moment' is the negative case of an output that cannot be reliably replicated or built upon."
+    }
+  },
+  {
+    "rubric_indicator": "data_dependency",
+    "quote": "When it came to the European based companies versus the American based companies where you know for the most part you can use what you want to use as long as you have approval by legal?... But for those that have those extra guard rails most of the time they are European.",
+    "reasoning": "The quality, relevance, and very usability of the 'data' (here, customer/user data for model development) is shown to be highly dependent on external, culturally-rooted regulatory frameworks (e.g., GDPR vs. US norms). The model's potential is constrained by the historical and legal context of the data's origin.",
+    "negative_case": null
+  },
+  {
+    "rubric_indicator": "opaque_outcomes",
+    "quote": "I'm I'm direct. You know I'm direct and so I I I would have a direct comments... Some people took it well some people may not have took it. Well... Once we have an understanding of what those are then we can continue working.",
+    "reasoning": "The 'outcome' of a direct feedback loop is opaque and complex. The same input (direct critique) leads to different, hard-to-predict reactions. Person 2 must engage in additional explanation and negotiation ('have an understanding') to make the decision-making process and its results legible and acceptable to the team, mirroring the need to explain complex model outputs.",
+    "negative_case": null
+  },
+  {
+    "rubric_indicator": "dynamic_forecast_adjustment",
+    "quote": "We have groups of people that always living to work and other people that are working to live and you have that type of difference.",
+    "reasoning": "This fundamental cultural difference is presented as a core, underlying system instability that forces constant adjustments in work planning, deadlines, and expectations ('dynamic forecast adjustment'). The project baseline (expected work hours and pace) is not stable because it's built on this probabilistic mixture of work philosophies.",
+    "negative_case": {
+      "description": "The expectation of a stable, universal baseline is the negative case. Person 2 describes how US managers might have an expectation that 'this has to get done at this specific time,' which clashes with the probabilistic reality of the multicultural team's operating modes, leading to friction and the need for those managers to adjust their forecasts."
+    }
+  },
+  {
+    "rubric_indicator": "management_frictions.baseline_erosion",
+    "quote": "the work gets done but. It ends up being more that sometimes the folks in the United states work harder... to compensate for the lack of... hours...",
+    "reasoning": "This is a direct example of baseline erosion. The original forecast or baseline for workload distribution is eroded by the probabilistic variance in team members' work hours (influenced by culture/labor laws), forcing a compensatory adjustment where some team members take on more work to meet commitments.",
+    "negative_case": null
+  },
+  {
+    "metaphor": "Cultural differences as 'adjacent' systems",
+    "quote": "I understand a lot of caribbeans very very quickly. And even a lot of people from Latin America... I understand there's a lot of things that are not the same but they're they're they're adjacent you know",
+    "interpretation": "Person 2 uses the spatial metaphor of 'adjacent' to describe cultural relationships. This mirrors the concept of stochastic models where different probability distributions (cultures) can exist in a shared parameter space—close enough to have similarities and interactions ('adjacent'), but with distinct properties that cause variance in outcomes. It frames cultural understanding as navigating a landscape of related but distinct probabilistic systems."
+  },
+  {
+    "metaphor": "Flexibility as a navigation tool",
+    "quote": "Be flexible and ask more questions... learning to be more flexible definitely helps because there are some things that will just happen and you have to be able to adapt to that",
+    "interpretation": "Person 2 metaphors the management of uncertainty as navigation requiring 'flexibility.' In stochastic systems, rigid algorithms fail; successful ones incorporate adaptability and continuous learning (asking questions). This advice directly translates to managing the non-deterministic, variable outputs of a multicultural team, treating unforeseen cultural interactions as random variables to be sampled and adapted to, rather than deterministic problems to be solved."
+  }
+]

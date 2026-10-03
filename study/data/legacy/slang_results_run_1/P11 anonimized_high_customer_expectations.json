@@ -1,0 +1,69 @@
+[
+  {
+    "indicator_name": "magic_box_perception",
+    "evidence": "Person 2 acknowledges the general hype ('the idea of having references... we solve 50% of the problem') and frames the core AI model as a foundational but opaque system ('it's a machine, doesn't have any emotion. It just knows... we have this data.'). They contrast this with their practical work using RAG to 'control the responses,' implying the raw model is a powerful but undirected 'box.'",
+    "negative_case_evidence": "Person 2 actively works against the 'Magic Box' perception in their projects by implementing RAG systems to constrain and control AI outputs, showing a practical, non-magical application.",
+    "metaphors_mapped": [
+      "AI as an 'Emotionless Machine' (contrasted with human expectations of reasoning).",
+      "Base Model as 'Raw Material' (to be controlled and directed via RAG)."
+    ]
+  },
+  {
+    "indicator_name": "unfairness_barriers",
+    "evidence": "Directly identifies the link between training data and cultural bias, stating models 'inherit the ethics from... the data itself.' Gives the example of DeepSeek's response on Taiwan, highlighting how geopolitical 'unfairness' or bias is encoded.",
+    "negative_case_evidence": "None strongly present. Person 2 accepts this as a factual, inherent problem ('it's already... too late') rather than expressing personal rejection or frustration, positioning themselves as a pragmatic observer of the barrier.",
+    "metaphors_mapped": [
+      "AI as a 'Cultural Mirror' (reflecting biases and norms of its training data).",
+      "Training as 'Inheritance' (AI inherits the ethics and perspectives of its source data)."
+    ]
+  },
+  {
+    "indicator_name": "trust_understanding_gap",
+    "evidence": "Highlights the opacity of model reasoning and the source of its 'knowledge' ('it just knows... we have this data'). Discusses the copyright/ethics dilemma as a 'big question' with no clear solution, pointing to a fundamental gap between how AI works and societal/legal understanding.",
+    "negative_case_evidence": "Their trust in their own RAG-based systems seems high because they 'control' the knowledge source, effectively bridging the understanding gap for their specific use case.",
+    "metaphors_mapped": [
+      "Public Data as 'Free-for-All' vs. 'Protected Property' (highlighting the trust/legal gap in data sourcing)."
+    ]
+  },
+  {
+    "indicator_name": "feedback_dissonance",
+    "management_friction": true,
+    "evidence": "Describes the need for one-on-one meetings to get honest feedback, as team members (from certain cultures) may not share critical concerns in group settings ('they don't want to cause hard feelings'). This 'proxy' in communication creates a dissonance between public positivity and private, more realistic assessments.",
+    "negative_case_evidence": "Person 2 has developed an active management strategy (one-on-ones) to circumvent this friction, showing adaptation rather than passive suffering.",
+    "metaphors_mapped": [
+      "Group Feedback as a 'Stage' (where people perform or withhold).",
+      "One-on-One as a 'Safe Channel' (for true, unfiltered communication).",
+      "Cultural Communication Style as 'Proxy' (UK) vs. 'Direct' (some Middle Eastern cultures)."
+    ]
+  },
+  {
+    "indicator_name": "anthropomorphic_projection",
+    "evidence": "Briefly but clearly counters this projection by stating the core model is an emotionless machine. However, the discussion about AI ethics inheriting from human data implies an understanding that users might project human-like moral frameworks onto the system.",
+    "negative_case_evidence": "Person 2 explicitly rejects anthropomorphism in their technical description ('doesn't have any emotion'), maintaining a strict mechanistic view.",
+    "metaphors_mapped": []
+  },
+  {
+    "indicator_name": "paradoxical_expectations",
+    "evidence": "Implied in the discussion of copyright and ethics. There is high hope/benefit from using vast public data, coupled with the high perceived risk of legal and ethical repercussions ('it's a big deal... I don't think it has a solution').",
+    "negative_case_evidence": "Person 2's own expectations for their controlled RAG systems are not paradoxical; they are clearly defined and scoped.",
+    "metaphors_mapped": [
+      "AI Training Data as a 'Double-Edged Sword' (source of capability and of risk)."
+    ]
+  },
+  {
+    "indicator_name": "explainability_deficit",
+    "evidence": "Not directly discussed as a user frustration, but inherent in their description of how models work ('it just knows'). The solution of providing references (as OpenAI now does) is noted as a partial fix to this deficit.",
+    "negative_case_evidence": "Again, their RAG approach mitigates this by design, as responses are grounded in controlled source data, making explainability ('this came from document X') more straightforward.",
+    "metaphors_mapped": [
+      "References as a 'Citation' (a tool to build trust and explainability, borrowed from academic practice)."
+    ]
+  },
+  {
+    "indicator_name": "utility_mismatch",
+    "evidence": "Discusses how a model fine-tuned on Middle Eastern data would give different responses than a Western-trained one. This implicitly acknowledges that a generic model's outputs (utility) may not align with the specific goals or cultural contexts of all user groups.",
+    "negative_case_evidence": "Their entire RAG strategy is designed to *prevent* utility mismatch by tightly aligning the AI's knowledge and responses with specific client business contexts.",
+    "metaphors_mapped": [
+      "Fine-Tuning as 'Cultural Calibration' (adjusting the AI's utility to match a specific group's goals/norms)."
+    ]
+  }
+]

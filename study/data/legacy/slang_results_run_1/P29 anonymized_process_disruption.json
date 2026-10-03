@@ -1,0 +1,50 @@
+[
+  {
+    "process_disruption_pattern": "socio_technical_transition",
+    "evidence": "Person 2 describes the core challenge of moving from a human-centric, competitive recruitment process ('sales recruiters themselves tend to think really competitively') to a system intended for standardized, AI-augmented collaboration. The friction emerges when the new hybrid model (AI pre-sourcing + human recruiter) clashes with the entrenched individualistic, performance-based culture.",
+    "metaphor": "The AI solution is described as a potential 'disincentive' in a competitive race, where recruiters feared that leveling the information playing field would remove their 'competitive edge'. This frames the AI not as a tool, but as a rule-changer in a game.",
+    "negative_case": "The project initially succeeded in its technical build phase because it operated in a 'sandbox' with clear metrics from a knowledgeable data manager. This shows that when the socio-technical transition is managed within a contained, aligned team (the data unit), the linear, phase-gated technical workflow can proceed smoothly. The disruption only becomes terminal at the organizational integration stage."
+  },
+  {
+    "process_disruption_pattern": "workflow_brittleness",
+    "evidence": "The German team's feedback highlighted a critical integration flaw: they compared the AI's output (scraped, raw candidate profiles from the internet) to the output of their existing, linear process (pre-filtered candidates from their database). This exposed the brittleness of simply plugging an AI component (non-linear sourcing) into a step in their sequential pipeline without redefining the workflow's upstream and downstream steps.",
+    "metaphor": "The team was 'comparing apples with oranges', a metaphor for a fundamental category error caused by the AI's data source creating a different kind of input, which the existing linear process was not designed to handle.",
+    "negative_case": "N/A - The evidence consistently shows workflow brittleness. A potential negative case would be if the AI output perfectly matched the format and quality of the manual process, causing no friction, but this was not experienced."
+  },
+  {
+    "process_disruption_pattern": "role_reconfiguration",
+    "evidence": "Person 2 implicitly highlights the missing role that could have bridged the gap: a 'data manager' or business liaison who understands both 'what data science can do' and 'how the current process was working'. In the successful project, this role existed and provided a clear 'benchmark'. In the failed dashboard project, the absence of this role—someone to translate data-centric insights into business process value—led to rejection. Person 2's own role as a junior data scientist did not encompass this system oversight/translation duty.",
+    "metaphor": "The data manager is described as a 'nice anchor', a stabilizing force that grounds the abstract, non-linear AI work in the concrete reality of business processes and goals.",
+    "negative_case": "N/A"
+  },
+  {
+    "process_disruption_pattern": "integration_friction",
+    "evidence": "The core narrative of the recruitment project is integration friction. The solution worked technically but failed to be adopted because it required changes to entrenched processes and incentive structures ('they wanted to also have some metrics like... give it only to our... best performers'). Person 2's key lesson learned is to spend 'less time behind the laptop and more times in... teams' to foster acceptance, directly acknowledging the primary friction is not technical but organizational.",
+    "metaphor": "Implementation is described as 'really trying to... give it a place in the organization', likening the AI solution to a new entity seeking a home within a resistant host system.",
+    "negative_case": "The initial technical development phase faced minimal integration friction because it was siloed within the data team, following a clear, phase-gated plan with a defined accuracy goal. The friction was deferred, not absent."
+  },
+  {
+    "process_disruption_pattern": "knowledge_clash",
+    "evidence": "This is evident in two ways: 1) Between the data team and the German business team: The data team's knowledge was based on the model's performance on scraped data, while the German team's experiential knowledge was based on manually pre-vetted candidates. They spoke different 'languages' about candidate quality. 2) In the later dashboard project, Person 2 'knew it was much better' from a data perspective but couldn't map this to the business team's tacit understanding of their own processes, creating a persuasiveness gap.",
+    "metaphor": "Person 2 states it's 'hard to speak the same language', a direct metaphor for the epistemological divide between data-centric and experience-centric knowledge systems.",
+    "negative_case": "Collaboration with the Belgian teams worked well after clear explanation. This suggests the knowledge clash can be bridged through communication when cultural and procedural openness exists, acting as a negative case against the assumption that such clashes are always fatal."
+  },
+  {
+    "process_disruption_pattern": "procedural_nonlinearity",
+    "evidence": "The AI's function—scraping the open web for candidates—is inherently non-linear and exploratory, contrasting with the defined, sequential step of processing applicants from a specific portal. This mismatch created the 'apples and oranges' comparison issue. Furthermore, Person 2's recommended agile approach of keeping stakeholders involved iteratively ('they can also... differ over time') is a non-linear, adaptive project management method proposed to counter the failures of a more linear 'build-then-implement' approach.",
+    "metaphor": "Implied in the contrast between a static 'pipeline' (linear process) and a dynamic 'scraping' operation (non-linear discovery).",
+    "negative_case": "The initial project definition with a clear 90% accuracy target imposed a linear, phase-gated goal (a waterfall-style milestone) on the non-linear AI development work. This provided a false sense of linear security; the project was deemed technically successful on this metric, masking the impending procedural breakdown at integration."
+  },
+  {
+    "process_disruption_pattern": "silo_breakdown",
+    "evidence": "The project's intent was to create a centralized candidate pool to be shared across regions (Netherlands, Belgium, Germany) and among recruiters. This directly attacked existing silos: geographical silos (regional independence), data silos (local databases), and competitive silos between individual sales recruiters. The resistance from German/Belgian subdivisions and the recruiters' desire for exclusive data access are direct manifestations of silo defense mechanisms.",
+    "metaphor": "The centralized solution aimed to break down 'islands' (as Person 2 later calls them in the team context), but instead triggered protective responses from those islands.",
+    "negative_case": "N/A - The project was fundamentally designed to break down silos, and the resistance observed is evidence of the pattern, not a counter-example."
+  },
+  {
+    "process_disruption_pattern": "ethical_automation_tension",
+    "evidence": "While not the primary focus, GDPR compliance is mentioned as a serious concern for all regions, especially Germany. This shows an awareness of the ethical/legal automation tension. The proposed 'solution' by competitive recruiters—to give the tool only to top performers—introduces a *new* ethical tension regarding fairness and access, pitting predictive efficiency (automation for the best) against equitable process design.",
+    "metaphor": "N/A - The ethical dimension is discussed in concrete legal (GDPR) and operational (fair access) terms, not through metaphor.",
+    "negative_case": "Person 2 states all locations were 'very much... on par with' and 'taking [GDPR] seriously'. This indicates that when ethical/regulatory frameworks are clear and universally acknowledged (like GDPR), they can become a point of alignment rather than friction, serving as a negative case for ethical tension as a disruptive force in this instance."
+  }
+]

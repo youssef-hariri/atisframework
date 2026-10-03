@@ -1,0 +1,32 @@
+[
+  {
+    "expert_quote": "That's why I like to diversify always my team from everywhere, not just from one location, because everyone see the things differently and it's cool to have different opinions and then you reflect on them and you think of them.",
+    "mapped_id": "anthropomorphic_projection",
+    "is_negative_case": false,
+    "rationale": "The statement implies an expectation that diverse human perspectives will naturally lead to better reasoning and decision-making. This projects a human-like, collaborative, and 'wise' characteristic onto the AI development process, suggesting the team's collective human intelligence can compensate for or guide the AI, aligning with the expectation of human-like reliability from the system-building process."
+  },
+  {
+    "expert_quote": "But at the end for me, checking the end user for example the end user is not English spoken, so yeah.",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": false,
+    "rationale": "This highlights a pragmatic realization that an AI system trained solely on English will fail to meet the practical needs and goals of non-English speaking end-users. It directly contrasts an initial, perhaps simplistic, technical plan with the complex reality of user requirements, indicating a mismatch between assumed and actual utility."
+  },
+  {
+    "expert_quote": "Yeah, but I as now with the I I advancement you have a good data then we're good to go. ... even with dialect, it's not won't be a problem if you have a good data, yeah.",
+    "mapped_id": "magic_box_perception",
+    "is_negative_case": false,
+    "rationale": "This reflects a belief that with sufficient 'good data,' the AI will autonomously and flawlessly solve complex problems like understanding mixed dialects. It simplifies the immense challenge of language processing into a data-input issue, treating the AI model as an infallible solution once fed the correct resource."
+  },
+  {
+    "expert_quote": "We try to host our own GPD, for example, to train your own so we own data. We have the data and no one has access to data so this is important to clarify to say, Hey user.",
+    "mapped_id": "trust_understanding_gap",
+    "is_negative_case": false,
+    "rationale": "The action of hosting a proprietary model is a direct response to the gap between high user optimism about AI's benefits and underlying opacity/concerns about data privacy. It's an attempt to build trust by offering more control, acknowledging that high-level optimism is undermined by a lack of satisfactory, transparent behavior from standard AI services."
+  },
+  {
+    "expert_quote": "Yeah, it's really skeptical because this is a really a sceptical topic as well, because everyone thinks what matters. For example, things that someone has to know every fingerprint of his data where it's going.",
+    "mapped_id": "paradoxical_expectations",
+    "is_negative_case": false,
+    "rationale": "The speaker describes a team environment with simultaneous high hopes for AI's capabilities and high perceived risk regarding data usage. This tension between excitement for the technology's potential and deep-seated concern about its operations is a classic indicator of paradoxical expectations toward AI systems."
+  }
+]

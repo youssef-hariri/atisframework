@@ -1,0 +1,20 @@
+[
+  {
+    "expert_quote": "the problem with most facial recognition software or even, you know, my smartwatch is that the sensors were never tested on people of different skin tones. So while the technology is great, it actually doesn't work for a lot of people.",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": false,
+    "rationale": "The quote highlights a bias in AI systems (facial recognition) that leads to unfair outcomes for people with darker skin, illustrating a barrier to acceptance due to perceived unfairness."
+  },
+  {
+    "expert_quote": "It's like a baby. It doesn't know what it doesn't know. So it just tells you whatever it thinks you want to hear.",
+    "mapped_id": "dreams_vs_reality",
+    "is_negative_case": false,
+    "rationale": "The metaphor of AI as a 'baby' contrasts the hype and idealized visions of AI capability with the reality of its current immature and unreliable nature, highlighting the gap between dreams and reality."
+  },
+  {
+    "expert_quote": "Access, whether they were plagiarized and as soon as you like. No, no, no. We can show you proof where we actually did the research. And he's like, no, I don't look at that. So I I really think that not only is Chad cheap ET a baby, but the people who are using it are babies who don't really understand how to use it effectively.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "The quote describes a scenario where a user's work is dismissed based on the assumption of plagiarism from ChatGPT, requiring the user to provide proof and re-educate the evaluator, aligning with the friction of users providing feedback based on unrealistic benchmarks and requiring re-education labor."
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "expert_quote": "So I know that the big kind of AI. And mostly when I saw people in the heckathones, some some of them are technical, some of no technical like they are just they have just fuss atathhone and maybe just doing for fun.",
+    "mapped_id": "trust_understanding_gap",
+    "is_negative_case": false,
+    "rationale": "Speaker describes a gap where participants (stakeholders) are attracted to the 'big kind of AI' (high optimism) but are not technical or are just 'doing for fun', indicating a foundational lack of understanding that underpins their engagement."
+  },
+  {
+    "expert_quote": "Like, I'm not saying to you like go and make a project. No, if I am a technical, I can do as a solo as well, but I want you to just to help me. Like if I am doing and I'm saying I need this link or I need this image, you should go and find that image.",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": false,
+    "rationale": "The speaker expects team members to perform simple, specific support tasks ('find that image'), mirroring a stakeholder's expectation that an AI tool will perfectly align with and execute narrow, predefined utility functions without understanding its actual scope or capability limits."
+  },
+  {
+    "expert_quote": "And like the thing which actually I is in that it's like come to the team and reply after 24 hours or maybe one to two days. And this is not a professionalism and you know that as well.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "The frustration with delayed or absent team member responses is analogous to 'feedback dissonance', where user-provided input (like bug reports) is based on unrealistic benchmarks of immediacy and constant availability, creating management friction."
+  },
+  {
+    "expert_quote": "So when I am talking with them they go, they don't know anything like there's a different like this is the thing that I have seen as well.",
+    "mapped_id": "trust_erosion",
+    "is_negative_case": false,
+    "rationale": "The discovery that someone presented as knowledgeable ('fake it until you make it') actually 'don't know anything' leads to immediate disillusionment. This parallels the 'trust erosion' friction when AI's capabilities are oversold in pilots, leading to resistance and demands for redesign."
+  },
+  {
+    "expert_quote": "Not really, like mostly the perspective that like we have to do the encryption description for the passwords and have to save the database. I not really I have seen this difference..",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": true,
+    "rationale": "When asked about differing views on data privacy (a core ethical/fairness concern), the speaker explicitly states they have NOT seen a difference in perspective. This contradicts the indicator where rejection occurs due to 'perceived biases or lack of fairness' (unfairness_barriers)."
+  },
+  {
+    "expert_quote": "Like they will be like, we actually are not knowledgeable at that level as you guys are at actually, they appreciate us as well and they will be like who will be in under like I will be connected with you after the sath as well and will be learning from you.",
+    "mapped_id": "anthropomorphic_projection",
+    "is_negative_case": true,
+    "rationale": "This quote describes a positive, realistic acknowledgment of a knowledge gap and a desire to learn. It contradicts 'anthropomorphic_projection' as there is no expectation of human-like innate expertise or reliability; instead, there is acceptance of a learning process."
+  },
+  {
+    "expert_quote": "Sometimes it is miscommunication not a miscommunication, but the uh because as I told you we as a person we are from Pakistan and they are from other countries. So there is a communication issues... your level of understanding will be very high as compared to explaining to that judge or any other person that is native understand anything..",
+    "mapped_id": "explainability_deficit",
+    "is_negative_case": false,
+    "rationale": "The speaker's struggle to convey a project's value to judges from a different cultural context, resulting in a competition loss, mirrors the 'explainability_deficit'. The frustration stems from an inability to make the decision-making process (of the judges) or the project's merits transparent and interpretable across contexts."
+  }
+]

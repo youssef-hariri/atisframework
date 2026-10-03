@@ -1,0 +1,50 @@
+[
+  {
+    "expert_quote": "I have absolutely no background in machine learning and AI... I'm just getting to know all of the technical details. It has been quite a journey... I asked them like 10 times. Are you sure that you need me with no background in the field... they're... tutoring me on all of the technical stuff.",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "The speaker's entry as a non-technical marketing lead into a core AI function illustrates a shift in traditional project roles, moving from domain-specific expertise toward hybrid roles where learning and collaboration are paramount."
+  },
+  {
+    "expert_quote": "When I talk to clients... what I do... I try to establish like friendly relationship... Chinese people... like to be a lot more straight forward... They're like, what's your point? Just go straight to it.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "Describes a direct cultural clash in communication norms, highlighting experiential resistance to relationship-building workflows common in some cultures, which can hinder the integration of standardized processes."
+  },
+  {
+    "expert_quote": "The [Chinese] main feedback was... criticizing and like offering alternative ways... 'I see what you're doing, but I think it's not going to work...'",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "Contrasts direct, critical, alternative-oriented feedback with positive encouragement, demonstrating tension between data/result-centric critique and supportive, experience-based relationship management."
+  },
+  {
+    "expert_quote": "Data privacy and ethics... is a big challenge for us and it's probably one of the first questions that people and potential clients ask... we have developed like a communication strategy when it comes to that.",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": false,
+    "rationale": "Identifies the recurring, front-line friction between deploying an automated AI/data solution and the paramount need to address human ethical and privacy concerns, necessitating a dedicated 'communication strategy'."
+  },
+  {
+    "expert_quote": "With individual users, it's a bit more chill.",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": true,
+    "rationale": "This is a negative case for the 'ethical_automation_tension' indicator. The speaker explicitly states that the friction is NOT uniformly present, noting less stringent concerns among individual users versus enterprises, contradicting a monolithic view of this tension."
+  },
+  {
+    "expert_quote": "[Planning challenge is] time zones because... We work from three different continents... our founder even developed an app for us to navigate different time zones.",
+    "mapped_id": "workflow_brittleness",
+    "is_negative_case": false,
+    "rationale": "Highlights how the fundamental, linear process of synchronous planning becomes vulnerable ('brittle') in a distributed, data-driven team, requiring a custom technical solution (an app) to patch the workflow."
+  },
+  {
+    "expert_quote": "Our founder is very, very like, chill and nonchalant, and I'm very anxious and I need everything to go like according to plan... I keep texting him... Please respond... Please do this... he's like it's OK. Don't worry if they need it, they will wait.",
+    "mapped_id": "procedural_nonlinearity",
+    "is_negative_case": false,
+    "rationale": "The clash between a linear, phase-gated mindset ('according to plan') and an adaptive, iterative startup mentality ('it's OK... they will wait') exemplifies the friction between traditional project management and agile, AI-driven development loops."
+  },
+  {
+    "expert_quote": "When I meet potential customers from China... I direct them to our founder because his Chinese is excellent and they know that it would be more efficient this way.",
+    "mapped_id": "silo_breakdown",
+    "is_negative_case": false,
+    "rationale": "Describes a practical bypass of formal role silos (marketing vs. founder) based on dynamic data needs (language competency, cultural comfort) to achieve efficiency, demonstrating how cross-functional demands undermine rigid departmental boundaries."
+  }
+]

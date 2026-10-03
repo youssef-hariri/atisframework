@@ -1,0 +1,50 @@
+[
+  {
+    "expert_quote": "And we have to present them the the, the model, the results analysis and... And they they have like a script and some some ground rules that they the model had to... To perform.",
+    "mapped_id": "lack_of_reproducibility",
+    "is_negative_case": true,
+    "rationale": "The speaker describes a scenario where a foreign committee imposes strict rules and a 'script' for model presentation and performance. This suggests a formalized, rule-based process aimed at ensuring consistent, replicable results, which directly contradicts the indicator of an 'inability to consistently replicate AI-driven results.' The emphasis on ground rules implies a management strategy to mitigate non-determinism."
+  },
+  {
+    "expert_quote": "They they were more concerned about maybe the answers or... And a fast... The response affects answered... Yeah, they're they're not concerned about the applied the right techniques for the projects or for the problem, or maybe how this would be a in the future... they were used a more simple technique. But in the in the future we're that's that will not be sustainable.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "The speaker contrasts their team's focus on technical rigor and future sustainability with another team's focus on fast answers. This highlights a 'high sensitivity to historical data quality and relevance' as a point of cultural friction; the other team's approach, prioritizing quick results, implies a potential lack of concern for underlying data quality and the long-term viability of simple models, which is a core component of data dependency risks."
+  },
+  {
+    "expert_quote": "They they were in a uh, in uh... One step behind so... Once one thing that I noticed that was in 2000... 20 maybe yes. And here in Brazil the the... Data science was a bit more... Spread and we we are starting to... To bring guys from from universities with a A... PhD degrees and master degrees and some some guys more as Vincent, so to speak. And there in Chile they were starting the process...",
+    "mapped_id": "model_drift",
+    "is_negative_case": false,
+    "rationale": "The speaker frames the disparity in data science maturity between Brazil and Chile as one team being 'a bit more spread' and another 'starting the process.' This differential in institutional knowledge and practice maturity is a direct antecedent to 'performance decay over time due to changing data patterns' (model drift). Teams with less mature practices are less equipped to monitor and adapt to drift, creating a project risk rooted in cultural/regional development timelines."
+  },
+  {
+    "expert_quote": "I I think that we are in this like the same situation with that Person 2 said that, but maybe Brazil will step behind. So like in Spain, they were like... And they had the committee, they had the ground rules, they result respecting and maybe here in Brazil we can we were at the... Like the same level. So let's discussing discussion is more open.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": true,
+    "rationale": "The speaker identifies a cultural difference in process: a Spanish committee with rigid ground rules versus a more open, discussion-based Brazilian approach. The structured, rule-based ('ground rules') process of the Spanish committee is presented as a method to standardize evaluation and potentially demystify outcomes, which contrasts with the indicator of 'algorithmic decision-making complexities that lead to results that are hard to explain.' The open discussion is framed as a peer-level practice, not as a source of opacity."
+  },
+  {
+    "expert_quote": "When presented the... The guys from over there was like, OK, what's the results?... I I don't. I don't think that's that's right. I don't think that's the way, but they didn't like like... I wondered described that we are trying to lecture and explain they didn't. It's it's more like direct and say, OK, I don't think that's gonna work. And redo your work and get... And try again, you know.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": false,
+    "rationale": "The speaker describes an interaction where a foreign client is focused solely on results ('OK, what's the results?') and issues direct, non-collaborative feedback ('redo your work'). This exemplifies the management friction of 'accountability challenges' where the 'opacity in outcomes making it difficult to assign clear responsibility for AI-derived decisions' is bypassed by the client holding the team unilaterally accountable for the final output, without engaging in the explanatory process. The cultural communication style exacerbates this friction."
+  },
+  {
+    "expert_quote": "The executive level it's more difficult. So I had to adjust the the presentation, the speech and we yet be more directly and don't get in the technical like separate the two talks and... I've I I I feel that that's the the way that I worked around it and so for technical level take the notes the the comments they had go back home through do it again and for its active level simplify the the presentation, the speech it's all about the results and and so on.",
+    "mapped_id": "dynamic_forecast_adjustment",
+    "is_negative_case": false,
+    "rationale": "The speaker describes a constant, reactive need to adjust their communication and presentation strategy ('adjust the presentation, the speech') based on the audience (executive vs. technical). This continual adaptation of the 'baseline' message and approach to meet stakeholder expectations is a manifestation of 'the need to constantly update baselines as an indicator of underlying system instability.' The instability here is the unpredictable variance in stakeholder focus and cultural communication norms."
+  },
+  {
+    "expert_quote": "It took so much time for the model to learn that the person... Yeah. Got out of that poor neighborhood and chained, but and... And gets like a estimator of the salary that was real. It was comfortable to her new life or their new life... But it took so long for them to learn that, and the update the model that didn't make sense for her.",
+    "mapped_id": "model_drift",
+    "is_negative_case": false,
+    "rationale": "The speaker provides a concrete example of a salary estimation model failing to adapt promptly to an individual's changed circumstances ('got out of that poor neighborhood'). The lag in the model's learning and updating process, resulting in an inaccurate estimate, is a direct description of 'performance decay over time due to changing data patterns.' The model's knowledge drifts away from the current reality of the data subject."
+  },
+  {
+    "expert_quote": "So the resistance to change something and to see the impact that is gonna cause in the whole structure, the whole company, it's like a a difficult thing to surpass. You know you, you you you can say the people like hey, I got this example like we should update more and use like new data like.",
+    "mapped_id": "dynamic_forecast_adjustment",
+    "is_negative_case": false,
+    "rationale": "The speaker identifies organizational inertia ('resistance to change') as a barrier to updating a model with new data. This resistance forces a team to operate with potentially outdated baselines and forecasts, highlighting 'the need to constantly update baselines' as a point of friction. The difficulty in implementing necessary adjustments is a key aspect of managing the instability inherent in stochastic systems."
+  }
+]

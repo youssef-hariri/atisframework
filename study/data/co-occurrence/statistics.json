@@ -1,0 +1,200 @@
+{
+  "stressor_prevalence": {
+    "process_disruption": {
+      "count": 415,
+      "percentage": 29.834651329978435
+    },
+    "autocatalysis": {
+      "count": 355,
+      "percentage": 25.521207764198415
+    },
+    "stochastic_uncertainty": {
+      "count": 325,
+      "percentage": 23.364485981308412
+    },
+    "high_customer_expectations": {
+      "count": 296,
+      "percentage": 21.279654924514738
+    }
+  },
+  "pillar_frequency": {
+    "Act": 464,
+    "Inquire": 339,
+    "Standardize": 252,
+    "Train": 233
+  },
+  "co_occurrence_matrix": {
+    "stochastic_uncertainty": {
+      "Act": {
+        "direct_count": 114,
+        "context_count": 441,
+        "total_count": 555,
+        "percentage": 170.77
+      },
+      "Train": {
+        "direct_count": 40,
+        "context_count": 159,
+        "total_count": 199,
+        "percentage": 61.23
+      },
+      "Inquire": {
+        "direct_count": 75,
+        "context_count": 275,
+        "total_count": 350,
+        "percentage": 107.69
+      },
+      "Standardize": {
+        "direct_count": 55,
+        "context_count": 226,
+        "total_count": 281,
+        "percentage": 86.46
+      }
+    },
+    "autocatalysis": {
+      "Act": {
+        "direct_count": 119,
+        "context_count": 452,
+        "total_count": 571,
+        "percentage": 160.85
+      },
+      "Train": {
+        "direct_count": 66,
+        "context_count": 256,
+        "total_count": 322,
+        "percentage": 90.7
+      },
+      "Inquire": {
+        "direct_count": 78,
+        "context_count": 297,
+        "total_count": 375,
+        "percentage": 105.63
+      },
+      "Standardize": {
+        "direct_count": 74,
+        "context_count": 275,
+        "total_count": 349,
+        "percentage": 98.31
+      }
+    },
+    "process_disruption": {
+      "Act": {
+        "direct_count": 140,
+        "context_count": 529,
+        "total_count": 669,
+        "percentage": 161.2
+      },
+      "Train": {
+        "direct_count": 82,
+        "context_count": 290,
+        "total_count": 372,
+        "percentage": 89.64
+      },
+      "Inquire": {
+        "direct_count": 105,
+        "context_count": 402,
+        "total_count": 507,
+        "percentage": 122.17
+      },
+      "Standardize": {
+        "direct_count": 78,
+        "context_count": 294,
+        "total_count": 372,
+        "percentage": 89.64
+      }
+    },
+    "high_customer_expectations": {
+      "Act": {
+        "direct_count": 91,
+        "context_count": 340,
+        "total_count": 431,
+        "percentage": 145.61
+      },
+      "Train": {
+        "direct_count": 45,
+        "context_count": 181,
+        "total_count": 226,
+        "percentage": 76.35
+      },
+      "Inquire": {
+        "direct_count": 81,
+        "context_count": 298,
+        "total_count": 379,
+        "percentage": 128.04
+      },
+      "Standardize": {
+        "direct_count": 45,
+        "context_count": 163,
+        "total_count": 208,
+        "percentage": 70.27
+      }
+    }
+  },
+  "strongest_links": [
+    {
+      "stressor": "stochastic_uncertainty",
+      "pillar": "Act",
+      "strength": 170.77,
+      "total_count": 555
+    },
+    {
+      "stressor": "process_disruption",
+      "pillar": "Act",
+      "strength": 161.2,
+      "total_count": 669
+    },
+    {
+      "stressor": "autocatalysis",
+      "pillar": "Act",
+      "strength": 160.85,
+      "total_count": 571
+    },
+    {
+      "stressor": "high_customer_expectations",
+      "pillar": "Act",
+      "strength": 145.61,
+      "total_count": 431
+    },
+    {
+      "stressor": "high_customer_expectations",
+      "pillar": "Inquire",
+      "strength": 128.04,
+      "total_count": 379
+    },
+    {
+      "stressor": "process_disruption",
+      "pillar": "Inquire",
+      "strength": 122.17,
+      "total_count": 507
+    },
+    {
+      "stressor": "stochastic_uncertainty",
+      "pillar": "Inquire",
+      "strength": 107.69,
+      "total_count": 350
+    },
+    {
+      "stressor": "autocatalysis",
+      "pillar": "Inquire",
+      "strength": 105.63,
+      "total_count": 375
+    },
+    {
+      "stressor": "autocatalysis",
+      "pillar": "Standardize",
+      "strength": 98.31,
+      "total_count": 349
+    },
+    {
+      "stressor": "autocatalysis",
+      "pillar": "Train",
+      "strength": 90.7,
+      "total_count": 322
+    }
+  ],
+  "method_analysis": {
+    "total_quotes": 1391,
+    "llm_quotes": 999,
+    "keyword_quotes": 392,
+    "llm_percentage": 71.8
+  }
+}

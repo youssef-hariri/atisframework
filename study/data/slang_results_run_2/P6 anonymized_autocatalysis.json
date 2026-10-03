@@ -1,0 +1,50 @@
+[
+  {
+    "expert_quote": "Uh, I think so. Country doesn't have any impact as far as your maturity and understanding the technology.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": true,
+    "rationale": "The speaker asserts that cultural background is irrelevant compared to technical maturity, directly countering the indicator's premise of a forced shift towards human/ethical acceptance due to technical velocity. They argue the primary focus remains on technical competency."
+  },
+  {
+    "expert_quote": "Uh, I didn't didn't encounter any such kind of problem.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": true,
+    "rationale": "The speaker explicitly states they have not experienced the described friction, providing a negative case for the clash between 'AI time' and 'organizational time'."
+  },
+  {
+    "expert_quote": "...because the person don't know what is right and what is wrong when they the person is not technological background enough?",
+    "mapped_id": "judgment_substitution",
+    "is_negative_case": false,
+    "rationale": "The speaker describes a scenario where non-technical individuals (e.g., Scrum Masters, top-level persons) lack the foundational knowledge to make correct judgments about tasks, implicitly highlighting the need for—or the current state of—human judgment being dependent on or substituted by technical/AI-specific expertise."
+  },
+  {
+    "expert_quote": "Everything is a very, very, very dynamic field where there is a lots of new things coming. Every month, every week there are lots of research.",
+    "mapped_id": "skill_obsolescence_pace",
+    "is_negative_case": false,
+    "rationale": "The repeated use of 'very dynamic' and the timeframe 'every month, every week' describes an extreme velocity of new research and tools, directly mapping to the indicator of competencies becoming outdated faster than they can be replaced."
+  },
+  {
+    "expert_quote": "The person should have a understanding of things, attitude that we can check this person that the person has a patient has ability to grasp thing. Because uh, you hire someone more experienced person and means it's dynamic, right? So if a person has a interest in learning and delivering...",
+    "mapped_id": "continuous_training_demand",
+    "is_negative_case": false,
+    "rationale": "The speaker frames the required attitude as an 'ability to grasp' new things and an 'interest in learning', framing it as a personal attribute needed to cope with a 'dynamic' field. This reflects the friction of non-stop learning demand, albeit framed as an individual capability rather than an organizational burden."
+  },
+  {
+    "expert_quote": "So best thing is the person should have a understanding of things, attitude that we can check this person that the person has a patient has ability to grasp thing.",
+    "mapped_id": "skill_obsolescence_pace",
+    "is_negative_case": false,
+    "rationale": "The emphasis on hiring for 'ability to grasp thing' (learn quickly) over static experience is a direct human-resource response to the pace of skill obsolescence."
+  },
+  {
+    "expert_quote": "If person is mature in technology he can understand he or she or he understand that any person who can learn fast or has experience or has patient can deliver best result.",
+    "mapped_id": "skill_obsolescence_pace",
+    "is_negative_case": false,
+    "rationale": "The speaker explicitly links maturity with valuing the ability 'to learn fast', again highlighting the critical need for rapid skill adaptation in the field."
+  },
+  {
+    "expert_quote": "These IT and machine learning, AI, mathematics, science is everything is a very, very, very dynamic field where there is a lots of new things coming.",
+    "mapped_id": "tool_proliferation",
+    "is_negative_case": false,
+    "rationale": "The phrase 'lots of new things coming' at a weekly/monthly pace is a plain-language description of the rapid release of new frameworks, models, and research, faster than they can be systematically evaluated."
+  }
+]

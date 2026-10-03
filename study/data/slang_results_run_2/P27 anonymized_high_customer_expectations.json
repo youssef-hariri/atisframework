@@ -1,0 +1,38 @@
+[
+  {
+    "expert_quote": "You know, we're kind of building a machine learning solution, right? And we need data and it was like really hard to explain to like *******, you know, like ******* client. Like, we need access to this data in order for us to provide you with the right solution for you. But they were like very hesitant about doing that. I think it's probably also because they didn't have like a standard for sharing data with us, right?",
+    "mapped_id": "trust_understanding_gap",
+    "is_negative_case": false,
+    "rationale": "The client's hesitancy and difficulty in explaining the data need highlight a gap between high optimism for an AI solution ('right solution') and a foundational lack of understanding/trust regarding its operational requirements, which undermines progress."
+  },
+  {
+    "expert_quote": "I think probably I think it was probably because they had very less idea about, you know, like what they actually wanted. Sometimes you know clients, they don't necessarily know what this, what, what, what kind of thing they want.",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": false,
+    "rationale": "The statement reveals a core assumption mismatch: the stakeholder expects a perfect AI solution but lacks clarity on their own organizational goals, leading to a fundamental disconnect between what is delivered and what is actually needed."
+  },
+  {
+    "expert_quote": "We had to work for like a very long time to come up with like a viable solution? That we could deploy.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "The extended timeline to achieve a 'viable solution' is indicative of the 're-education labor' required when initial stakeholder expectations (implied by the need for a long development cycle) are misaligned with the practical, iterative reality of AI development."
+  },
+  {
+    "expert_quote": "I was working mostly with data from this Financial Institute's right banks and these banks. You know that we had access to a lot of information, but what what the banks need to do was, you know, like we went allowed to store any of those data on our side. So we had to go to, you know, like sometimes we had to go to the bank's IT department to, you know, like to most of our work. And you know, like we had to use their their own protocols that they have, you know, like set up in order to to a lot of stuff.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "The cumbersome, on-premise work protocol enforced by the client (the bank) represents a practical 'unrealistic benchmark' or constraint imposed on the development team, creating significant friction and slowing progress, which aligns with the labor required to manage stakeholder-imposed conditions."
+  },
+  {
+    "expert_quote": "I'm currently working on computer vision models and I think there's not a lot of biased that that could be introduced.",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": true,
+    "rationale": "Person 2 explicitly contradicts the 'unfairness_barriers' indicator by stating that bias is not a significant concern in their current computer vision work, suggesting this specific perceptual gap is not present in this context."
+  },
+  {
+    "expert_quote": "When I was building, you know like models for like a different company that then we tried to build something sort of credit scoring system. I think a lot of biases could be introduced, right? Especially like we did consult with a lot of experts in the field. To get to get insights about, you know, like, what could a contribute to? A person's credit scoring system, right?... I think you know by in that sense, we did introduce a lot of bias from these experts, right? Even though they were like experts, probably they may not have had the opportunity to the opportunity to look at the data and you know like make this in based on the data, I think they're rather making this and based on their own experiences, right?",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": false,
+    "rationale": "The description of integrating expert 'insights' based on personal experience rather than data directly illustrates the introduction of human bias into an algorithmic system, which is a core source of perceived unfairness that can lead to stakeholder rejection of AI."
+  }
+]

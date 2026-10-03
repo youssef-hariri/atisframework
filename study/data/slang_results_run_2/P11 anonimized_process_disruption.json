@@ -1,0 +1,56 @@
+[
+  {
+    "expert_quote": "The projects we are working on are all using like rag or retrieval augmented generation where we actually control the responses of the AI, it's not like open... and we limit some topics you know from being discussed.",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": true,
+    "rationale": "The speaker describes using a technical solution (RAG) to directly control and limit AI outputs, thereby *preventing* the predicted conflict between automated generation and the need for human ethical oversight, which contradicts the core tension in the rubric."
+  },
+  {
+    "expert_quote": "There wasn't like a conflict... I feel like there's a shared theme of being more practical... it's just that they have different opinions, different feeling about how things are going.",
+    "mapped_id": "integration_friction",
+    "is_negative_case": true,
+    "rationale": "The speaker explicitly states there was no conflict, framing differing approaches (perfectionist vs. lean/iterative) as a simple difference of opinion. This directly contradicts the indicator's expectation of challenges embedding AI into existing processes."
+  },
+  {
+    "expert_quote": "It's not like a culture factor. It's more like an individual factor... It's just that if it's a culture thing, it is because the people in these countries are not educated about around data privacy... not because of their culture.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": true,
+    "rationale": "The speaker rejects the premise of 'cultural resistance' to data-centric approaches, attributing differences to individual factors or lack of education/rules, not an inherent cultural distrust that favors experiential knowledge."
+  },
+  {
+    "expert_quote": "It's more of a company culture driven discussions... we have a company culture guide... we try always to to make it... the circles are all overlapping around this main principles... This is a default, right?",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "The use of 'company culture guide' and 'default' principles describes an instituted, top-down framework that prescribes behavior. This aligns with the systematic shift toward a new operational model (human-AI collaboration) requiring new guidelines and oversight roles."
+  },
+  {
+    "expert_quote": "When it comes to giving the team members decision making ability... this is when I think their culture may influence that... if the project manager is from a different culture... their personal culture may influence the way they manage projects.",
+    "mapped_id": "socio_technical_transition",
+    "is_negative_case": false,
+    "rationale": "The speaker identifies 'decision-making ability' as a key point where personal culture influences management. This highlights the human-centric aspect being disrupted during the transition to new collaboration models, where authority and judgment are in flux."
+  },
+  {
+    "expert_quote": "So that's one thing... the way of thinking, the culture will influence... the impression of the team on how things are going.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "The phrase 'the way of thinking' and 'impression of the team' points to differing fundamental perspectives. This maps to the tension between data-centric AI logic and tacit, experience-based human understanding that shapes team perception and progress."
+  },
+  {
+    "expert_quote": "At the end of day... the idea of having references just like in research... This is a great thing... we solve 50% of the problem.",
+    "mapped_id": "legacy_inflexibility",
+    "is_negative_case": false,
+    "rationale": "Framing the solution ('references') in terms of an established, linear academic/research practice ('just like in research') demonstrates how new, dynamic data needs (AI training/copyright) are being forced into a legacy, static procedural framework to find a workable solution."
+  },
+  {
+    "expert_quote": "I notice that when you have a multi culture team, the personal talks are less... they don't have this projections between the teams... about things that are not related to work like more related to their country.",
+    "mapped_id": "silo_breakdown",
+    "is_negative_case": false,
+    "rationale": "Describing 'projections' and talks 'related to their country' as reduced in multicultural teams illustrates how traditional, socially-reinforced departmental or group boundaries ('silos') break down when cross-functional, data-intensive collaboration becomes the focus."
+  },
+  {
+    "expert_quote": "This is a very complicated things that that's why I feel like your study should be done by AI, but there's no data.",
+    "mapped_id": "workflow_brittleness",
+    "is_negative_case": false,
+    "rationale": "The suggestion that the research itself 'should be done by AI' but is impossible due to 'no data' is a meta-commentary on the vulnerability of traditional research workflows when trying to integrate adaptive, data-hungry AI methods to solve complex human problems."
+  }
+]

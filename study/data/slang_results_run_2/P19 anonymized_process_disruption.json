@@ -1,0 +1,56 @@
+[
+  {
+    "expert_quote": "The problem comes where we got different interpretation of a specific problem. So we have these datasets. And like the six of us, find 2 have a different understanding of the project requirement and also sometimes we end up delaying on setting the project and giving the deliverables whatever required understanding and I think these have been due to like currently in us so like have a different mindset or psyche of understanding where business one but the teams are working now.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "The quote describes 'different mindset or psyche' causing delays, directly illustrating the tension between team members' tacit, experience-based knowledge and the objective data-centric approach, which aligns with the 'knowledge_clash' indicator."
+  },
+  {
+    "expert_quote": "We we like we take time and each and every person is given time to go to dive deeper. Don't just look on the whatever... Understand the direct search you're given. The whole data set then try to get the details which are not on the surface. What are some of the details not on the surface?",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": true,
+    "rationale": "This quote describes a proactive, structured process ('given time to dive deeper') to align team understanding. This contradicts the expectation of a disruptive 'clash' by showing a managed, collaborative resolution to differing interpretations."
+  },
+  {
+    "expert_quote": "The main learning point was that we are all intense beginners. And we just went in. Not consulting from those who have experience in the field. And later on, with consultation and asking some of the professors, we're able to correct some of the mistakes which you made.",
+    "mapped_id": "workflow_brittleness",
+    "is_negative_case": false,
+    "rationale": "The admission of being 'intense beginners' and not consulting experienced personnel directly highlights the 'increased vulnerability' of the project workflow, a core aspect of 'workflow_brittleness'. The project's failure demonstrates this brittleness."
+  },
+  {
+    "expert_quote": "The supervisor was working with was like it's kind of... As talking. So stalking is not allowed somewhere like trying to get more details about certain person without their permission. So we get this data. The company's missing. Then we go deeper. Dive deeper. So like it was unethical.",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": false,
+    "rationale": "The quote explicitly frames the action of 'diving deeper' into data as 'unethical' and akin to 'stalking'. This humanizes the ethical concern, directly mapping to the conflict between data-driven automation/exploration and the need for human ethical oversight."
+  },
+  {
+    "expert_quote": "With the with the culture diversity also we've been able to help, defined with Gallia come also language barrier. When doing research and you find that most of the tools, the machine learning tools analysis do you find them... They are in English. So... We have the interpretations. For some of our group members, which you find that it's somehow not easy to interpret. The usage of a particular tool because of the language barrier.",
+    "mapped_id": "integration_friction",
+    "is_negative_case": false,
+    "rationale": "The 'language barrier' described is a concrete, human-centric manifestation of the challenge of embedding technical AI/data tools (designed with an English-centric bias) into a diverse, multicultural team workflow, directly illustrating 'integration_friction'."
+  },
+  {
+    "expert_quote": "With exposure... Able to... Get when doing our analysis... Comes with what do we require?... What some of the features should be engineer when we deal with data from a particular domain you find you come from that. If it is a finance and some coming from healthcare then those from these particular domain they have the domain knowledge. So they like if you create... these if we engineer these... yeah, and use it in our model. Then we're going to enhance. The prediction accuracy as well as the performance of our model.",
+    "mapped_id": "silo_breakdown",
+    "is_negative_case": false,
+    "rationale": "The speaker describes team members leveraging 'domain knowledge' from different fields (finance, healthcare) to collaboratively 'engineer' better model features. This exemplifies the 'silo_breakdown' indicator, where cross-functional knowledge-sharing undermines traditional departmental boundaries to improve the data/AI product."
+  },
+  {
+    "expert_quote": "I consider myself a professional idiot... Coming from a field where I knew my way, I needed when I was teaching, I was a math teacher education. So I knew my way throughout. I need like a road map where I should go where I should not go. So for these are like what are some of the dues for a person who is coming from an infield to a different one? Such a person. What is this person need so that you can just get the trajectory to pick up in these new fields without, you know, without the road map you can diverge?",
+    "mapped_id": "role_transition_hurdles",
+    "is_negative_case": false,
+    "rationale": "The metaphor of being a 'professional idiot' and the plea for a 'road map' vividly captures the disorientation and reskilling challenge when transitioning from a stable role (education) into the fluid, evolving AI/data field, directly mapping to the 'role_transition_hurdles' management friction."
+  },
+  {
+    "expert_quote": "Nobody was willing to point out that mistake and correct. But after being with people, I think what what happens is just just fear and not knowing. Will the person take these like? Yes, you mean he or she doesn't know. But after that we know we like we are all learning. We are all here to learn. Nobody knows everything, so we should be correcting. If you know something, be correct.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "The initial 'fear' to provide critical feedback due to potential personal offense reflects a cultural resistance to the direct, data-centric challenge and critique that is often necessary in technical/AI projects, contrasting with a preference for experiential harmony."
+  },
+  {
+    "expert_quote": "So just to summarize, that's also like for for success of a multicultural team... We should learn to be venerate. Don't fear what people will say, so let the team have the refilling... I might not know it all, but I need the team members to boost me so that I can get. I can now realize my full potential.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": true,
+    "rationale": "This concluding advice advocates for 'togetherness,' openness to being 'boost[ed]' by the team, and overcoming fear of critique. It presents a solution that actively counters the 'distrust' and resistance described in the 'cultural_resistance' friction, making it a negative case."
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "expert_quote": "We are exploring to implement our in House AI servers, AI implementations, so so that we install our local LL, train it in House, fine tune them, and then use and expose that to to the teachers and edtech coaches so that our data remains private.",
+    "mapped_id": "socio_technical_transition",
+    "is_negative_case": false,
+    "rationale": "The shift from using external, cloud-based AI services to developing proprietary, in-house systems signifies a move towards a controlled, hybrid human-AI collaboration model, moving away from a purely human or outsourced technological process."
+  },
+  {
+    "expert_quote": "The cultural angle fits in where... for some cultures, for some organizations, for some group of people, it might be that they don't want to own that responsibility, right?... They just simply don't want to get into the mess of explaining why.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "Describing data security ownership as a 'mess' to avoid reflects a cultural resistance rooted in preferring non-confrontational, experience-based practices over adopting the proactive, data-centric governance required for AI integration."
+  },
+  {
+    "expert_quote": "When we use our on in house AI models we tend to get more biases and I think that's fair because we have data only for local students. So... we want our AI to be biased actually.",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": true,
+    "rationale": "This explicitly contradicts the friction. The speaker sees localized model 'bias' (contextual tuning) as a desirable feature for fairness, not a conflict between automation and ethics, indicating a scenario where ethical oversight is integrated into the automation goal from the start."
+  },
+  {
+    "expert_quote": "Some people are not very vocal or some cultures are not very vocal, they are not taught to be vocal since they since day one, right. So it happens that sometimes they would just keep something to them which they could have spoken earlier... later on in the later stages of the project, we come to know that, OK, this might... have not been feasible since day one.",
+    "mapped_id": "workflow_brittleness",
+    "is_negative_case": false,
+    "rationale": "The description of late-stage feasibility discoveries due to withheld input reveals how a linear project plan ('later stages') becomes vulnerable and brittle when it lacks the iterative, open feedback loops needed for adaptive AI or complex tech projects."
+  },
+  {
+    "expert_quote": "It is my job to foster an environment where people can come to me, approach me and just say that it is not possible. Why are you taking this project in your hand?",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "The speaker frames their managerial duty as creating psychological safety and enabling challenge, shifting from traditional task oversight to a role of system facilitator and ethical/safety valve, which is critical for managing AI project uncertainty."
+  },
+  {
+    "expert_quote": "The biggest challenge that I face day today is when we go and gather the requirements... we have to keep somebody who understands the local language... and also is technical.",
+    "mapped_id": "integration_friction",
+    "is_negative_case": false,
+    "rationale": "The need for a hybrid translator-technician role is a practical, on-the-ground symptom of the friction encountered when trying to embed novel, data-intensive AI requirements into existing phase-based ('gather requirements') project lifecycles with diverse stakeholders."
+  },
+  {
+    "expert_quote": "For some cultures... the culture of data security was that you basically block all the access on data. Right. And that's what that's what meant data security to them, which may or may not be right.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "Contrasting the tacit, experience-based 'culture' of total data blocking with the implied need for nuanced, risk-based access for AI reflects a fundamental tension between legacy operational knowledge and data-centric AI workflows."
+  }
+]

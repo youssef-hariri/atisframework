@@ -1,0 +1,44 @@
+[
+  {
+    "expert_quote": "After the the undergrad... a couple of years later I started to look into AI related themes based on my work requirements so pretty much... I'm AVC portfolio manager. So I deal with AI themes on on a quasi day-to-day basis.",
+    "mapped_id": "gen_AI_acceleration",
+    "is_negative_case": false,
+    "rationale": "The speaker describes a career progression where engagement with AI was necessitated by evolving 'work requirements', indicating a reactive adaptation to a field moving faster than traditional career paths or education cycles. This mirrors the 'compounding rate of change in innovation processes' described in the rubric, as the professional landscape itself is reshaped by AI's advance."
+  },
+  {
+    "expert_quote": "We look a lot to the American market and the way that they do business, right... So we have a culture that's very linked to the best practices that are conducted either in Europe or in the United States... we somehow emulate the best practices from from from both regions.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The practice of 'looking to' and 'emulating' leading markets illustrates a time lag. The organization operates in 'organizational time', sequentially adopting and adapting practices that originate in the faster, iterative 'AI time' of innovation hubs. This creates a follower dynamic and a perpetual state of catch-up."
+  },
+  {
+    "expert_quote": "If you look at our our law of anonymization of data it's it's very similar to to the to the laws that that were put in place in Europe. So we we we look at best practices, the Europe market and and we somehow emulate this in our day-to-day business down here.",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": false,
+    "rationale": "The speaker explicitly states their local governance framework is 'very similar' to established European laws. This demonstrates 'regulatory lag' as a standard, accepted practice: ethical and legal frameworks are not pioneered locally but are adopted only after they have been tested and deployed in other, more advanced technical ecosystems."
+  },
+  {
+    "expert_quote": "We are teaming up with with this company coming up with the the with the ML, with the technology, with a solution and we're following their guidelines. So what are the guidelines for you to sell to France, to Spain, UK, etc... We're learning with this counterparty.",
+    "mapped_id": "continuous_training_demand",
+    "is_negative_case": false,
+    "rationale": "The phrase 'we're learning with this counterparty' describes a real-time, on-the-job, and modular training process. To integrate a new solution and comply with foreign market standards, the team must engage in continuous, context-specific upskilling. This is not a formal course but a direct response to the demands of a new AI-enabled partnership."
+  },
+  {
+    "expert_quote": "One thing that's very interesting here... is that most of the guys, especially if they're in the financial market or or or they're very close to the subject that we're discussing of ML, et cetera, everybody studies abroad or everybody has some kind of international experience... It's not common for you to meet a person very high level that has no international experience.",
+    "mapped_id": "skill_obsolescence_pace",
+    "is_negative_case": false,
+    "rationale": "The speaker normalizes 'international experience' as a prerequisite for high-level work in AI/ML finance, framing it as a de facto new competency. This points to a rapid obsolescence of purely local, insular skill sets. The pace of change (driven by global AI trends) has made a specific type of exposure and adaptability a core, non-negotiable skill for leadership."
+  },
+  {
+    "expert_quote": "When it comes to culture, I think that we are somehow pretty open minded here. So I don't think that there is a culture barrier. There's more of a social economic background that somehow will create barriers here rather than than cultural cultural components on a broader aspect, does it make sense?",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": true,
+    "rationale": "This is a negative case. The speaker explicitly downplays the primacy of 'culture' as a barrier, attributing challenges to socio-economic factors instead. This contradicts the indicator's expectation that 'human acceptance' becomes a primary focus due to technical velocity. Here, the friction is framed as more foundational (economic access) rather than cultural or ethical adaptation."
+  },
+  {
+    "expert_quote": "I think that even the online courses that, that, that we have available is to some extent... we'll, we'll give us some kind of background or provide us with some kind of knowledge and skills that will help us, right.",
+    "mapped_id": "continuous_training_demand",
+    "is_negative_case": false,
+    "rationale": "The tentative language 'to some extent' and 'some kind of' reveals a pragmatic but uncertain reliance on just-in-time, modular online learning to fill skill gaps. This is a direct, human-floor description of the 'non-stop, modular training' required to keep pace, acknowledging its utility while hinting at its potential inadequacy for deeper mastery."
+  }
+]

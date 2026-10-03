@@ -1,0 +1,56 @@
+[
+  {
+    "expert_quote": "We have faced some recent cyber attacks incidents where data got leaked and all. So now we are exploring to implement our in House AI servers, AI implementations, so so that we install our local LL, train it in House, fine tune them, and then use and expose that to to the teachers... so that our data remains private.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "The speaker describes a reactive shift to in-house models due to a security breach, highlighting high sensitivity to and dependency on the security and privacy of historical data as a core driver for their AI strategy."
+  },
+  {
+    "expert_quote": "When we use our on in house AI models we tend to get more biases and I think that's fair because we have data only for local students. So, so, so we want our AI to be biased actually... But yes when it comes to let's say fairness in giving opportunities or in evaluation for the admission criterias and everything... We do not want our AI to be biased in that case.",
+    "mapped_id": "probabilistic_variance",
+    "is_negative_case": false,
+    "rationale": "The speaker contrasts outcomes from different model sources (external vs. internal), explicitly linking fluctuations in model behavior (bias) to the statistical probability of the training data (local vs. global), which is a core aspect of probabilistic variance."
+  },
+  {
+    "expert_quote": "When we use our on in house AI models we tend to get more biases... because we have data only for local students.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "This directly links the specific, non-deterministic output characteristic (bias) to the nature and scope of the training data, demonstrating high sensitivity to data relevance and provenance."
+  },
+  {
+    "expert_quote": "It might not work, that's OK. That's perfectly fine, but you are not bringing it forward. That's a problem to us.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The speaker identifies the act of not surfacing concerns as a core problem, implying that unvoiced complexities in understanding or anticipating algorithmic behavior ('opaque outcomes') lead directly to project roadblocks."
+  },
+  {
+    "expert_quote": "Later on in the later stages of the project, we come to know that, OK, this might... This would have not been feasible since day one. So that's the... kind of roadblocks we have faced.",
+    "mapped_id": "dynamic_forecast_adjustment",
+    "is_negative_case": false,
+    "rationale": "The description of discovering foundational infeasibility late in the project lifecycle necessitates a constant, reactive updating of project baselines and expectations, which is an indicator of underlying system instability in planning."
+  },
+  {
+    "expert_quote": "Later on in the later stages of the project, we come to know that, OK, this might... This would have not been feasible since day one.",
+    "mapped_id": "baseline_erosion",
+    "is_negative_case": false,
+    "rationale": "This scenario forces project managers to 'retrace steps' and adjust commitments and forecasts due to newly uncovered technical realities, exemplifying the friction of baseline erosion caused by latent project complexities."
+  },
+  {
+    "expert_quote": "Of course it's my job to take that person to a meeting room and then ask questions that... If you anticipated this before, why didn't you talk about it?",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": false,
+    "rationale": "The need for a private meeting to assign responsibility for unvoiced technical foresight underscores the difficulty in attributing clear accountability for decisions (or non-decisions) stemming from complex, poorly understood AI project risks."
+  },
+  {
+    "expert_quote": "We have had successes. Not one, many successes. Because of that, I think we achieve only when we just put our point forward, right?",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": true,
+    "rationale": "This is a negative case. The speaker frames vocal communication as a direct solution to overcoming the problem of opaque outcomes, suggesting that with proactive dialogue, the friction caused by algorithmic complexity can be effectively mitigated."
+  },
+  {
+    "expert_quote": "People are smart... they know what... what is expected out of them so. They are responsible. They don't create a lot of issues in general.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": true,
+    "rationale": "This is a negative case. The speaker expresses a foundational trust in team members' individual responsibility, contradicting the notion of inherent accountability challenges by asserting that smart, responsible people generally avoid creating such problematic situations."
+  }
+]

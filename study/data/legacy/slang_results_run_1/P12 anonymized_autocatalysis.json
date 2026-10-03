@@ -1,0 +1,22 @@
+[
+  {
+    "indicator": "tool_proliferation",
+    "evidence": "Person 2 discusses leveraging different AI models and extensions (e.g., OpenAI, 'advanced extensions in deepsee') for specific tasks like LinkedIn lead extraction. This shows a landscape where new tools and model updates are continuously emerging and being evaluated for fit-for-purpose use.",
+    "metaphor": "Tool as a Lever – AI models are depicted as levers to pry open or access valuable insights from secure or complex data sources ('LinkedIn is very secure... we can use some advanced extension')."
+  },
+  {
+    "indicator": "socio_technical_shift",
+    "evidence": "The participant explicitly mentions following ethical guidelines ('set of rules given by the AI forms'), avoiding political or unparliamentary content, and building models focused on a specific, bounded use case to prevent unwanted generalization. Client concerns about data privacy and model openness are also primary considerations.",
+    "metaphor": "Model as a Specialized Tool – The AI is described not as a general intelligence, but as a bespoke instrument crafted for a single job ('we just create the model only particularly to this use case... it doesn't know anything else'), highlighting a shift from pure capability to controlled, ethical application."
+  },
+  {
+    "indicator": "temporal_misalignment",
+    "evidence": "Person 2 describes significant coordination friction due to timezone differences ('I'll be sitting till one or 2:00 to connect with them'), creating a clash between the immediate, iterative needs of data/model work and the sequential, scheduled nature of global human collaboration.",
+    "metaphor": "Workday as a Relay Race – The baton of work is passed across time zones, requiring team members to 'wait patiently' or work unusual hours, introducing latency and personal disruption into the process."
+  },
+  {
+    "indicator": "gen_AI_acceleration",
+    "evidence": "The core use case involves using AI (likely generative NLP) to process 'simple rough notes' from technicians and 'free text' from customer reviews to generate insights. This demonstrates generative AI's role in accelerating the innovation process itself—turning unstructured data into structured business intelligence.",
+    "metaphor": "AI as a Text Refinery – Raw, unstructured text (the 'rough notes') is fed into the AI system to be processed and 'refined' into valuable 'key insights,' accelerating a traditionally manual analytical task."
+  }
+]

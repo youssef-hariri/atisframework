@@ -1,0 +1,51 @@
+[
+    {
+      "rubric_indicator": "socio_technical_transition",
+      "evidence": "Person 2 describes being 'tutored' by technical teammates, highlighting a shift from isolated human expertise to a collaborative, hybrid learning model where non-technical members are integrated into the AI workflow.",
+      "metaphor": "Apprenticeship / Guided Immersion",
+      "negative_case": null
+    },
+    {
+      "rubric_indicator": "role_reconfiguration",
+      "evidence": "As Head of Marketing, Person 2 is the frontline for data privacy and ethics questions from clients. This shows project roles expanding beyond traditional marketing to include ethical communication and system trust-building.",
+      "metaphor": "Ethical Shield / Frontline Ambassador",
+      "negative_case": "Person 2 states 'I'm not experienced enough to give people feedback,' indicating a potential gap or delay in fully embracing the reconfigured oversight/judgment role."
+    },
+    {
+      "rubric_indicator": "integration_friction",
+      "evidence": "Person 2's role requires adapting communication strategies (e.g., tone, directness) for different cultural audiences when explaining the AI product. This shows added layers of complexity when embedding the AI solution into diverse market contexts.",
+      "metaphor": "Cultural Translator / Context Chameleon",
+      "negative_case": null
+    },
+    {
+      "rubric_indicator": "knowledge_clash",
+      "description": "Tension between data-centric AI knowledge and tacit, experience-based human knowledge.",
+      "evidence": "While not a direct clash, Person 2's lack of technical background ('I know absolutely nothing') and reliance on teammates' teaching illustrates the separation between tacit marketing/business development knowledge and the data-centric knowledge required to understand and sell the core product.",
+      "metaphor": "Knowledge Importer",
+      "negative_case": "The team's supportive, tutoring approach has so far prevented this from becoming a disruptive 'clash,' instead framing it as a managed learning process."
+    },
+    {
+      "rubric_indicator": "silo_breakdown",
+      "evidence": "Person 2's work involves 'directing' potential Chinese clients to the founder for language efficiency. This shows cross-functional, role-fluid collaboration based on immediate data/communication needs (language skill as a data channel), overriding strict departmental boundaries.",
+      "metaphor": "Dynamic Re-routing",
+      "negative_case": null
+    },
+    {
+      "rubric_indicator": "ethical_automation_tension",
+      "evidence": "Person 2 identifies data privacy/ethics as 'one of the first questions' from clients, placing them in the position of manually addressing a tension inherent to automated AI systems. They have developed a 'communication strategy' for it.",
+      "metaphor": "Human Firewall / Trust Broker",
+      "negative_case": null
+    },
+    {
+      "rubric_indicator": "management_frictions.cultural_resistance",
+      "evidence": "Person 2 contrasts their current team's 'calm' and 'optimistic' attitude with previous Russian colleagues where 'it always felt like the world is on fire.' This suggests a cultural friction between a stress-driven, linear 'firefighting' methodology and a more iterative, adaptive startup pace.",
+      "metaphor": "Firefighting vs. Sailing",
+      "negative_case": "Within the core AI team itself, Person 2 does not report cultural resistance; the team is described as 'super supportive and open minded,' successfully onboarding a non-technical member."
+    },
+    {
+      "rubric_indicator": "management_frictions.role_transition_hurdles",
+      "evidence": "Person 2's entry into the AI field required explicit permission and reassurance from the team ('Are you sure that you need me?'), highlighting the hurdle of integrating a non-traditional (non-technical) profile into a tech-centric project hierarchy.",
+      "metaphor": "The Permission Gateway",
+      "negative_case": "Once past the initial hurdle, the transition is actively managed through tutoring, suggesting the hurdle was recognized and mitigated."
+    }
+  ]

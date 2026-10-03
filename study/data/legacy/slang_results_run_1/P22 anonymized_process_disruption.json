@@ -1,0 +1,37 @@
+[
+  {
+    "rubric_category": "socio_technical_transition",
+    "analysis": "Person 2 describes a team model that is not purely human-centric nor fully hybrid AI-human, but reveals a transitional tension. They position themselves as the 'technical' AI expert ('grandmaster'), expecting non-technical members to perform supportive, data-gathering tasks ('find that image,' 'need this link'). This reflects a move away from purely technical collaboration but establishes a new, potentially rigid hierarchy centered on the AI expert, rather than a fluid, integrated partnership.",
+    "supporting_evidence": ["'if I am a technical, I can do as a solo as well, but I want you to just to help me... you should go and find that image.'", "'I am a grandmaster as well. So I know that the big kind of AI.'"],
+    "metaphor": "**Captain/Solo Expert vs. Support Crew:** Person 2 uses the metaphor of a 'captain lead' and a 'solo' technical expert who directs a 'crew' for support tasks. This metaphor contradicts the ideal of flat, hybrid collaboration, instead depicting a command-and-control structure adapted for an AI-centric workflow.",
+    "negative_case": "Despite the AI focus, Person 2 does **not** describe a collaborative model where non-technical members contribute to AI model design, ethics, or interpretation. Their role is limited to auxiliary data fetching, suggesting the 'transition' is shallow and the socio-technical model remains expert-dominated, not reconfigured."
+  },
+  {
+    "rubric_category": "knowledge_clash",
+    "analysis": "A clear tension emerges between Person 2's technical, project-based AI knowledge and the experiential, contextual knowledge of teammates from different cultures. Person 2 values this difference for ideation ('their point of view is different') but also frames it as a barrier to seamless execution ('their level of understanding is different'). The knowledge clash is not negative but is a source of both creative friction and operational slowdown.",
+    "supporting_evidence": ["'I know the Pakistani problems... [Teammate from US] knows better about that criteria of that problem.'", "'if I am explaining this to my Pakistani friend... they understand in easy way... but I have explained again to them in a... more explained way.'"],
+    "metaphor": "**Different 'Levels' of Understanding:** Person 2 conceptualizes knowledge as having different 'levels' or tiers, influenced by cultural and technical background. This creates a landscape where explanation must be adapted to 'elevate' others to a necessary baseline, rather than integrating different knowledge types as equally valid.",
+    "negative_case": "Person 2 reports **no fundamental clash** regarding data privacy or model ethics perspectives ('Not really... the general perspective that we follow'). This indicates that in this context, the 'knowledge clash' is more about domain expertise and cultural context for problem-solving, not about foundational principles of data-centric work."
+  },
+  {
+    "rubric_category": "cultural_resistance",
+    "analysis": "Person 2 identifies infrastructure ('technical issues' like internet/electricity) as the primary barrier to engagement from specific regions, not cultural resistance to the AI/data-centric method itself. They explicitly separate this from a lack of willingness ('not like the people who don't want to work'). Resistance is framed as logistical, not ideological.",
+    "supporting_evidence": ["'technical issues came up like the internet issues... they will be unactive for one day... So this is the issue that I had seen. Okay, so it's, but not like the people who don't want to work...'"],
+    "metaphor": "**The Invisible Barrier:** The recurrent 'technical issue' (internet/electricity) acts as a metaphor for a systemic, invisible barrier that disproportionately affects participants from certain regions, creating an unequal playing field that mimics cultural resistance but stems from resource disparity.",
+    "negative_case": "The expected 'distrust of data-centric approaches' is **not observed**. Resistance is to poor infrastructure, not the methodology. Furthermore, teammates with less technical knowledge show appreciation and a desire to learn ('they appreciate us... will be learning from you'), indicating cultural openness, not resistance."
+  },
+  {
+    "rubric_category": "role_transition_hurdles",
+    "analysis": "Person 2's leadership style highlights a hurdle in role transition. As 'captain,' their authority is based on technical AI expertise ('grandmaster'). They manage by direct instruction and express frustration over non-compliance ('I would be angry... you are not a professional'). This shows a leader struggling to transition from a technical expert role to one of facilitating hybrid collaboration, still defaulting to a taskmaster role when processes break down.",
+    "supporting_evidence": ["'whenever you are captain, you are actually opinion really matters... if the person is not doing this, I would be angry.'", "'I as a person explain to them how to do because hackathon is also a kind of learning.'"],
+    "metaphor": "**The Teacher-Taskmaster:** Person 2 oscillates between the metaphors of a 'teacher' (explaining, facilitating learning) and a 'taskmaster' (enforcing timelines, expressing anger). This duality captures the friction in transitioning from a pure technical authority to a leader who must manage learning curves and motivation in a hybrid team.",
+    "negative_case": "The transcript shows **no evidence of established hierarchies or decision-making authority being disrupted**. Person 2's authority as the technical lead/captain is unchallenged. The 'hurdle' is their own adaptation to a more empathetic, facilitative management style, not a challenge to their positional authority."
+  },
+  {
+    "rubric_category": "integration_friction",
+    "analysis": "The hackathon context itself is a microcosm of integration friction. The fast-paced, iterative nature of building an AI project ('when we were about to submit, like the two, three hours left') clashes with the linear expectation of phased teammate contribution. Person 2 experiences this as teammates joining late, leaving abruptly, or failing to deliver after explanations, revealing the brittleness of integrating human collaboration into an intensive, nonlinear AI development sprint.",
+    "supporting_evidence": ["'come to the team and reply after 24 hours... this is not a professionalism.'", "'they did not completed that task... Maybe I made a complex for them on the project.'", "'when we were about to submit, like the two, three hours left.'"],
+    "metaphor": "**The Last-Minute Sprint vs. The Slow Join:** The intense, time-bound 'sprint' of hackathon development is metaphorically opposed to the slower, linear 'onboarding' process expected by some teammates. This creates a zone of friction where the AI workflow's tempo outstrips traditional team coordination rhythms.",
+    "negative_case": null
+  }
+]

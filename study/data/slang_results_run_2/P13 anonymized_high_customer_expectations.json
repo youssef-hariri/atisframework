@@ -1,0 +1,50 @@
+[
+  {
+    "expert_quote": "Previously, it had taken him six months and now we were saying it will take it took him six months and it took him thousands of dollars extra... our first of all, he did not believe the cost because the the kind of amount we were quoting was, let's say, 100 times less than what happened in the past.",
+    "mapped_id": "dreams_vs_reality",
+    "is_negative_case": false,
+    "rationale": "The client's 'shock' at the reduced cost and timeline contrasts their idealized, expensive expectation of AI project delivery with the vendor's practical, efficient reality, directly illustrating the gap between hype-driven expectations and practical execution."
+  },
+  {
+    "expert_quote": "Just gets the job done by itself.",
+    "mapped_id": "magic_box_perception",
+    "is_negative_case": false,
+    "rationale": "Referring to an enterprise ML tool as something that 'gets the job done by itself' employs a casual, professional metaphor that frames AI as an autonomous, infallible solution, aligning with the 'Magic Box' perception."
+  },
+  {
+    "expert_quote": "There's no big difference with ChatGPT and things like that. There's no big difference between 11 year experienced data engineer and a sixyear 6 years experience data engineer. If you ask me when it comes to coding and things like that.",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": true,
+    "rationale": "This statement contradicts the indicator by suggesting AI tools like ChatGPT level the playing field, reducing the perceived unique value of deep expertise. It negates the premise that stakeholders assume AI recommendations will perfectly align with complex organizational goals requiring high expertise."
+  },
+  {
+    "expert_quote": "There are some customers who are open to use a chat GP TS API to get the job done. There are some customers who buy the NVIDIA Jetson machine deploy, you know, open source AI, and they only want stuff from there. So I think there may be a cultural decision could come into play.",
+    "mapped_id": "trust_understanding_gap",
+    "is_negative_case": false,
+    "rationale": "Describing the choice between cloud APIs and on-premises deployment as a 'cultural decision' points to a fundamental gap in trust and understanding. The preference for physical control reflects underlying high optimism about AI's potential being undermined by concerns over opacity and external dependency."
+  },
+  {
+    "expert_quote": "If you recruit a guy for a guy or a girl from India or Bangladesh? They may or may not know this. They just come and they get the job done and then they move on to another project. They wouldn't know that they broke something broke a law or something like that.",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": false,
+    "rationale": "The slang 'get the job done' contrasted with ignorance of data laws highlights a potential root cause for 'unfairness barriers'—AI systems built by teams not primed to consider ethical frameworks, leading to outputs that may be rejected for perceived biases or legal non-compliance."
+  },
+  {
+    "expert_quote": "In my mind, I thought, OK, so he said yes. So that's a win for us... See in my mind I was urgent... I thought it was a yes. And then... he said I wouldn't appreciate it.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "The vendor's urgent interpretation of ambiguous feedback as a 'yes' and the client's subsequent subtle rebuke ('I wouldn't appreciate it') exemplify feedback dissonance. The vendor operated on an unrealistic benchmark of clear agreement, requiring post-hoc 're-education' to understand the client's true, more nuanced position."
+  },
+  {
+    "expert_quote": "So his way of telling it is like that. Let's say if the same person was maybe from a different city and a different backdrop, you know, other people would probably be irate or they would talk in a different way and things like that.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "This reflects on the 'labor' required to manage feedback. The expert must deconstruct subtle, culturally-influenced communication styles ('I wouldn't appreciate it' vs. being 'irate'), which is a core friction of managing expectations where feedback is not based on explicit, universal benchmarks."
+  },
+  {
+    "expert_quote": "the thing about AI from a technical side, if you look into it, it's just a neighbor of data engineering and data warehousing... there's no huge difference.",
+    "mapped_id": "magic_box_perception",
+    "is_negative_case": true,
+    "rationale": "This demystifies AI, framing it as a contiguous technical field rather than a unique, magical solution. It directly contradicts the 'Magic Box' perception by grounding AI in established, understandable engineering practices."
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "expert_quote": "See some people's write. Everybody talk about artificial intelligence. The data science and all but most of the people's when it comes to deployment to development part, they're not. They don't. They don't have a patience, so they're not able to understand that what the dev team under data science team is facing and issues.",
+    "mapped_id": "dreams_vs_reality",
+    "is_negative_case": false,
+    "rationale": "Person 2 uses the slang 'everybody talk about AI' to contrast the hype and idealized vision with the reality of development challenges and the lack of patience/understanding for the technical team's practical issues."
+  },
+  {
+    "expert_quote": "If you are the any spike happen in the data, definitely that model will fail. OK model will breakdown... I explained completely end to end though this is the things this. Is the. This is how we need to do otherwise. Currently you're you're not facing an issue, but in in future if a data center spike or if a data volume increase definitely made a. In this one, OK",
+    "mapped_id": "dreams_vs_reality",
+    "is_negative_case": false,
+    "rationale": "The quote describes the practical, imperfect reality of model failure under data spikes, which contrasts with the stakeholder's current lack of perceived issues, highlighting the gap between idealized, flawless operation and practical constraints."
+  },
+  {
+    "expert_quote": "Their uh. The convincing part is taking more time even while designing end to end... they're looking only in the productionnaising the part, but they're not looking that the development part is not. They're not looking into the cost part.",
+    "mapped_id": "magic_box_perception",
+    "is_negative_case": false,
+    "rationale": "Person 2 describes stakeholders as only focused on the final, 'magical' production output ('productionnaising'), ignoring the complex, costly development process, which aligns with the perception of AI as an autonomous, infallible solution that just appears."
+  },
+  {
+    "expert_quote": "...some peoples it has, without have technical knowledge. They only look into the cost part and all now that for them it is difficult to convince them.",
+    "mapped_id": "trust_understanding_gap",
+    "is_negative_case": false,
+    "rationale": "The statement indicates a gap where high optimism or demand for AI exists (implied by project initiation), but it is undermined by a lack of technical understanding, leading to a singular focus on cost and difficulty in alignment."
+  },
+  {
+    "expert_quote": "And we have told. Multiple sessions I have given to them. See the things and where and all the cost will be reduced. We tried all the things, and if you're not giving a resource. That will be in a great drawback for the team itself and end of the day they want a product or product as well, so that time.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "Person 2 describes the labor of 'multiple sessions' to re-educate stakeholders, framing their resource constraints as 'bug reports' based on unrealistic expectations about cost and output, which matches the management friction of feedback dissonance."
+  },
+  {
+    "expert_quote": "But it's difficult to. What to say? Get approval from the higher management is a difficult, but I felt.",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": false,
+    "rationale": "The difficulty in getting approval for necessary infrastructure suggests a mismatch where management assumes AI outputs can be achieved without aligning resource investments with the technical team's stated goals and requirements."
+  },
+  {
+    "expert_quote": "Till now I haven't faced those kind of issues with the... Issue for breaking failure kind of thing has never happened because of the culture because everybody know that everybody each. Respect each other, OK?... Culture in it field doesn't impact OK?",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": true,
+    "rationale": "Person 2 explicitly contradicts the potential for cultural issues to cause project failure or significant management friction, stating that mutual respect prevents the 'feedback dissonance' or 'trust erosion' that cultural clashes might theoretically cause."
+  },
+  {
+    "expert_quote": "Don't change. Keep on changing those things, OK? Just be the static part. That one... if you want to make any changes in go for phase two. Don't come and say that before the before to two weeks. Our productionization deployment. You can say no. I want the accuracy of this much only.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "This advice directly addresses the friction of 'feedback dissonance,' where users or stakeholders provide changing requirements ('bug reports') based on unrealistic benchmarks close to deployment, creating re-education and stabilization labor for the team."
+  }
+]

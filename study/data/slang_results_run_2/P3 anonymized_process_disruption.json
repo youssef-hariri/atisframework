@@ -1,0 +1,56 @@
+[
+  {
+    "expert_quote": "in during the analysis and planning of the project we apply some statistical analysis of the data, stuff like this... I don't believe multicultural plays a major role in this.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": true,
+    "rationale": "The participant explicitly states that cultural background does not significantly impact the data-centric, statistical planning phase of AI work, contradicting the theoretical tension between data-driven and tacit, experience-based knowledge in this specific context."
+  },
+  {
+    "expert_quote": "related to the business area and business understanding, I think it's multiculturalism plays more important.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "The slang 'business understanding' highlights the area where tacit, culturally-informed human knowledge is critical, directly illustrating the clash with purely statistical or data-centric AI knowledge."
+  },
+  {
+    "expert_quote": "we are not dealing with personal data... the ethical questions... is not very significant.",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": true,
+    "rationale": "The participant describes a specific project context (telecom traffic data) where the core tension between predictive automation and the need for human ethical oversight is negated, as personal data is not involved."
+  },
+  {
+    "expert_quote": "we try to comply with the some regulations like the GDPR... it's a matter of local regulations... my colleagues from EU... they put it on the agenda.",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "The professional language 'put it on the agenda' illustrates team members proactively assuming an oversight and compliance role, aligning with the shift from pure project management to ethical and regulatory system oversight."
+  },
+  {
+    "expert_quote": "if you are customers are all from the same [region], maybe different cultures doesn't help a lot. But if you are facing customers from different countries... you need your team to have different reflect these different cultures somehow.",
+    "mapped_id": "silo_breakdown",
+    "is_negative_case": false,
+    "rationale": "The participant's reasoning advocates for breaking traditional team/departmental boundaries (a 'reflection' of customer diversity) to meet the cross-functional data and communication needs of a global AI product, a core aspect of silo breakdown."
+  },
+  {
+    "expert_quote": "I can act as a communication point because I... can like a bridge between my team and [the customer].",
+    "mapped_id": "socio_technical_transition",
+    "is_negative_case": false,
+    "rationale": "The metaphor of being a 'bridge' describes a practical, human-centric role that emerges in hybrid human-AI collaboration models to facilitate understanding across cultural and technical divides."
+  },
+  {
+    "expert_quote": "when you are hired... you are expected to work with different cultures... one of the criteria of hiring... is your ability to deal with different cultures.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "The statement reveals an organizational-level management friction; the explicit hiring for cultural adaptability indicates a pre-existing need to manage resistance or distrust towards diverse, data-centric teamwork environments."
+  },
+  {
+    "expert_quote": "the technical requisites and needs is very different. But no... team dynamics is quite [similar]. No difference between AI projects and other engineering projects.",
+    "mapped_id": "integration_friction",
+    "is_negative_case": true,
+    "rationale": "The participant directly contradicts the core construct, stating that the challenges of integrating AI into existing workflows and team dynamics are not uniquely disruptive compared to other technical projects."
+  },
+  {
+    "expert_quote": "people assume that it's me who should only adopt... it's mutual. We need to know each other... Adapt to each other.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "This 'human-floor' description of interpersonal adaptation highlights the ongoing friction of integrating diverse perspectives and the need for mutual effort to overcome inherent resistance to changing established social and work patterns."
+  }
+]

@@ -1,0 +1,57 @@
+[
+    {
+      "rubric_indicator": "trust_understanding_gap",
+      "evidence": "Person 2 highlights the gap between technical understanding and business stakeholder optimism. He notes the challenge when talking to clients from a business background whose perspective is 'more related to relationships... and less to this particular project.' This points to a foundational gap where high optimism (trust in AI's potential) is not supported by a shared understanding of the project's technical realities.",
+      "relevance": "High. Directly addresses the disconnect between stakeholder enthusiasm and technical grounding."
+    },
+    {
+      "rubric_indicator": "explainability_deficit",
+      "evidence": "He emphasizes the complexity of communication and interpretation in technical work: 'no experiment... often an experiment doesn't have just one interpretation.' He stresses the importance of explaining intent and reasoning ('explaining your intent right and... allowing places to be reversed'). This reflects the core friction of explainability—the need to translate opaque, statistical outputs into understandable rationale for diverse stakeholders.",
+      "relevance": "High. Focuses on the interpretative labor required to bridge the gap between AI/ML outputs and human understanding."
+    },
+    {
+      "rubric_indicator": "anthropomorphic_projection",
+      "evidence": "Indirectly countered. Person 2's entire approach is mechanistic and systems-based, not anthropomorphic. He discusses AI/ML in terms of experiments, filters, proofs, and 'complexity budgets.' His solution to cultural misunderstanding is to 'change the conditioning' and discuss 'counterfactuals,' using a computational metaphor for human interaction. This frames problems as systemic, not as expecting human-like reasoning from AI.",
+      "relevance": "Medium. Acts as a negative case; his mindset is anti-anthropomorphic, focusing on process and system design."
+    },
+    {
+      "rubric_indicator": "utility_mismatch",
+      "evidence": "Implied in his discussion of stakeholder management. He mentions the need to adjust communication for clients whose primary focus is on relationships and continued collaboration, potentially over the specific technical deliverable. This suggests a frequent mismatch where the AI practitioner's goal (a robust model/solution) is not perfectly aligned with the client's broader organizational or personal goals.",
+      "relevance": "Medium. Illustrated through the challenges of aligning technical project goals with broader business or relational stakeholder goals."
+    },
+    {
+      "rubric_indicator": "feedback_dissonance",
+      "description": "A management friction where users provide bug reports based on unrealistic benchmarks.",
+      "evidence": "Person 2 describes a related, more fundamental friction: the absence of expected critical feedback. 'I've noticed that in some other cultures I am not getting feedback that I would be expecting.' This creates a different kind of dissonance and labor—not re-educating based on unrealistic reports, but proactively seeking and teasing out feedback that may be culturally suppressed, preventing the team from identifying real issues or mismatches in understanding.",
+      "relevance": "High. A direct parallel to the management friction, focusing on the labor of eliciting meaningful feedback in a cross-cultural context."
+    }
+  ],
+  "key_metaphors_identified": [
+    {
+      "metaphor": "AI/Team as a Filtering System",
+      "quote": "If it succeeds, then it's surviving multiple filters... it comes out stronger because of this.",
+      "interpretation": "Positions a diverse, multicultural team as a robust validation mechanism. Ideas are stress-tested through different cultural and academic lenses, strengthening the final output. This contrasts with a 'magic box' view by emphasizing rigorous, collective scrutiny."
+    },
+    {
+      "metaphor": "Complexity Budget",
+      "quote": "We decide where to spend your complexity budget.",
+      "interpretation": "Frames project management as a resource allocation problem. Complexity from AI, multicultural teams, or office politics is a finite resource that must be strategically managed. This directly counters the 'magic box' perception by asserting that AI introduces significant complexity that must be actively balanced."
+    },
+    {
+      "metaphor": "Theoretical Rigor as a Superpower",
+      "quote": "That like gives some in the right context. That is a superpower... in a different context. It might make a person... less suitable maybe to a project.",
+      "interpretation": "Describes a deep technical strength (like mathematical thinking) as a contextual 'superpower.' Its value is not absolute but dependent on the project's needs. This nuanced view opposes the idea of a universally flawless AI solution."
+    }
+  ],
+  "negative_cases": [
+    {
+      "case": "Rejection of 'Magic Box' Thinking",
+      "evidence": "Person 2's entire narrative is grounded in process, communication, and managing limitations. He discusses navigating ambiguity, soliciting feedback, and allocating 'complexity budgets.' There is no indication he subscribes to or encounters a belief in AI as an autonomous, infallible solution. His expertise seems to inoculate him and his immediate clients from this perception.",
+      "implication": "The 'high customer expectations' phenomenon may be most acute for non-technical stakeholders. Technical experts like Person 2 are primarily engaged in managing and mitigating the fallout from this perception, not holding it themselves."
+    },
+    {
+      "case": "Cultural Factors as Amplifiers, Not Core",
+      "evidence": "While discussing cultural differences extensively, he often couches them in uncertainty ('It's hard to deduce any of this from individual instances') and groups them with other factors like professional training ('differences between, for example, a person who's training is technical... and people whose... come from a business background'). Culture is a significant source of 'potential breakdowns in communication' but is framed as one of several interacting variables that complicate the core challenges of AI project delivery (e.g., explainability, goal alignment).",
+      "implication": "For this expert, the rubric's core issue—unrealistic expectations—is a constant. Cultural diversity amplifies the communication and management frictions around it but is not the origin of the expectations themselves."
+    }
+  ]

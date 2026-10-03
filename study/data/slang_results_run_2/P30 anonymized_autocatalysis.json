@@ -1,0 +1,44 @@
+[
+  {
+    "expert_quote": "And my teammates are like, super supportive and open minded, I told them. Like from the start that I know absolutely nothing. I asked them like 10 times. Are you sure that you need me with no background in the field and they're and they were like, yes, we will teach you everything. So they are basically tutoring me on all of the technical stuff.",
+    "mapped_id": "skill_obsolescence_pace",
+    "is_negative_case": true,
+    "rationale": "The quote contradicts the indicator. It describes a proactive, supportive environment where colleagues commit to continuous, personalized training ('we will teach you everything') to onboard someone with no prior skills. This suggests a human capacity to adapt and upskill, directly opposing the idea of skills becoming obsolete faster than they can be replaced."
+  },
+  {
+    "expert_quote": "So yeah, we have developed like a communication strategy when it comes to that. Yeah, but I think it's it's a problem for the majority. Of apps that that use AI and handle data in any way.",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": false,
+    "rationale": "The slang 'it's a problem for the majority' and the proactive development of a 'communication strategy' implicitly acknowledge a widespread industry challenge. This reflects the post-hoc nature of addressing governance ('communication strategy') that emerges only after technical deployment ('apps that use AI'), aligning with the core definition of regulatory lag."
+  },
+  {
+    "expert_quote": "But yeah, we have developed like a communication strategy when it comes to that.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "The act of developing a 'communication strategy' specifically for data privacy/ethics questions indicates an organizational focus shifting from pure technical or economic benefits to managing human acceptance and ethical concerns, a key marker of the socio-technical shift due to technical velocity."
+  },
+  {
+    "expert_quote": "Second of all, there is like a huge channel challenge with with time zones because. We work from three different continents.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The description of a 'huge challenge' with time zones across continents is a human-floor metaphor for the fundamental clash between the need for synchronous, fast-paced collaboration ('AI time') and the physical, sequential constraints of global teamwork ('organizational time')."
+  },
+  {
+    "expert_quote": "Our founder even developed an app for us to navigate different time zones. It made it a bit easier.",
+    "mapped_id": "recursive_innovation",
+    "is_negative_case": false,
+    "rationale": "The founder creating a custom app to solve a workflow problem exemplifies the core of recursive innovation: using technical/development capabilities (presumably AI-adjacent skills in a startup) to build a new tool that accelerates or facilitates the team's own operational capacity."
+  },
+  {
+    "expert_quote": "When it comes to planning, I feel like. We all are very different, like on a personality level. For example, our founder is very, very like, chill and nonchalant, and I'm very anxious and I need everything to go like according to plan.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The contrast between 'chill and nonchalant' versus 'anxious' and needing things 'according to plan' is a human-level description of the tension between adaptable, iterative paces (associated with agile, fast-moving tech development) and rigid, sequential planning processes."
+  },
+  {
+    "expert_quote": "It always felt like the world is on fire and you're trying to manage like all of the tasks at once. But here, even though we have a lot to do every week, I feel like everybody is very calm about it and. It works a lot smoother. I think.",
+    "mapped_id": "skill_obsolescence_pace",
+    "is_negative_case": true,
+    "rationale": "This is a negative case for the associated management friction of 'continuous_training_demand'. The quote describes a contrasting, smoother, and calmer workflow in the current AI startup compared to a past high-pressure environment ('world is on fire'). This suggests effective team adaptation and competency management, not a scenario of overwhelming, non-stop training demands."
+  }
+]

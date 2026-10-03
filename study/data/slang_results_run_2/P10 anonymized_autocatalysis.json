@@ -1,0 +1,38 @@
+[
+  {
+    "expert_quote": "But from what I've read recently, uhm, with all the news that is coming up and all the companies that are typing into artificial intelligence, I can for sure say that it is going to be a very integral part of all the companies. So everybody's trying to develop something or the other.",
+    "mapped_id": "tool_proliferation",
+    "is_negative_case": false,
+    "rationale": "The phrase 'everybody's trying to develop something or the other' depicts a market-level scenario of rapid, uncoordinated creation of new AI tools and frameworks, aligning with the 'proliferation' that outpaces systematic evaluation."
+  },
+  {
+    "expert_quote": "They're trying to train people in, you know, AI... I think 2-3 years back people weren't really technical there, so I think... The major difference is that it is more of so people in the Middle East, they are more welcoming to the idea that, OK, we might want to train people and we might want to build that workforce.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "The speaker highlights that acceptance and workforce building (a human/social factor) is now a primary concern and differentiator in regions beginning AI adoption, shifting focus from pure technical capability to human readiness and openness."
+  },
+  {
+    "expert_quote": "I have to talk a lot and I have to express a lot... I read a lot about communication... I think it is very important how you first conduct yourself, how you end it. I think ending a meeting after the conversation is over. You should know how to end it, right? On a good note.",
+    "mapped_id": "judgment_substitution",
+    "is_negative_case": false,
+    "rationale": "This focus on nuanced human communication skills (conduct, tone, ending meetings positively) implies these are irreplaceable human judgment areas that are being consciously contrasted with AI's potential robotic nature, a reconfiguration in the face of advancing AI capabilities."
+  },
+  {
+    "expert_quote": "I think upskilling is also very important because let's say in some parts of the country in India I'm talking about, there are still some people with the notion that AI is working on rudimentary concepts but right now... The technology has developed. I think it is on another level right now. So we have to be very fast-paced. We have to understand things quickly... companies also need to invest in a lot of, you know upskilling projects, they cannot just rely on one person's knowledge or existing knowledge, they have to see how they can, you know amp up their speed and be relevant.",
+    "mapped_id": "skill_obsolescence_pace",
+    "is_negative_case": false,
+    "rationale": "The speaker explicitly describes the rapid advancement of AI ('on another level right now'), creating a 'fast-paced' environment where 'existing knowledge' is insufficient, forcing continuous 'upskilling' to stay relevant, matching the indicator of competencies becoming outdated faster than they can be replaced."
+  },
+  {
+    "expert_quote": "They have to list down what all problems they want to solve, and then we try to help them. We have experts in our team in different domains. So as per the client requirement we deploy those people... it can be somewhere around a week to a month training. So it also tried to train their team so that in future if the similar problem again pops up, they can pacify that for the time being.",
+    "mapped_id": "continuous_training_demand",
+    "is_negative_case": false,
+    "rationale": "The description of deploying domain experts for client-specific problems and conducting time-bound training cycles reflects the modular, ongoing need for training to address emerging challenges, which is a core management friction of autocatalysis."
+  },
+  {
+    "expert_quote": "So we have to be very fast-paced. We have to understand things quickly and I think for that companies also need to invest in a lot of, you know upskilling projects, they cannot just rely on one person's knowledge or existing knowledge, they have to see how they can, you know amp up their speed and be relevant.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The imperative to 'amp up their speed and be relevant' directly points to the pressure organizations feel to accelerate their internal learning and decision cycles ('organizational time') to match the rapid pace of AI advancement ('AI time')."
+  }
+]

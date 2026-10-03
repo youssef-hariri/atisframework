@@ -1,0 +1,50 @@
+[
+  {
+    "expert_quote": "Yeah, sure. So I've worked at three different companies as a data scientist, as an IC and as a manager and and director. Mostly doing what I would consider sort of product analytics type stuff. So you know looking at how people use products and new features and are they successful and you know forecasting the usage and stuff like that. But I've also done. Some you know, business related machine learning on customer segmentation, customer lifetime value. Modeling add effectiveness modeling so you know machine learning and advanced analytics sort of types of things there.",
+    "mapped_id": "trust_understanding_gap",
+    "is_negative_case": false,
+    "rationale": "The phrase 'stuff like that' and 'sort of types of things' are professional slang indicating a practical, hands-on, and often piecemeal understanding of AI work. This contrasts with a 'Magic Box' perception, grounding expectations in a reality of varied, discrete analytical tasks rather than a singular, flawless intelligence."
+  },
+  {
+    "expert_quote": "I don't think I had anything lead to a failure. I think it definitely led to sometimes things going slower, right for folks that were, you know, either either maybe a bit aggressive and that kind of made people not want to engage and kind of pull back... And so, you know, things might have taken longer. But I personally never had anything really fail because of this.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": true,
+    "rationale": "This is a direct negative case for the 'feedback_dissonance' friction. Person 2 explicitly states cultural communication issues led to slower progress ('things going slower') but not to project failure or the type of 'bug reports based on unrealistic benchmarks' that would require significant 're-education labor' as defined in the rubric."
+  },
+  {
+    "expert_quote": "So you know. The the one you know, very specific instance I have in mind. I knew the person knew some stuff, had some knowledge, had some subject matter expertise on this problem, and I expected them, you know, they were fairly senior data scientists. I expected them to present an idea... You know that might be different or, you know, support an idea that was already out there. And you know when they didn't... You know that that was surprising to me.",
+    "mapped_id": "anthropomorphic_projection",
+    "is_negative_case": false,
+    "rationale": "The terms 'expected them' and 'surprising to me' reveal a projection of human-like social and professional reasoning (e.g., a senior person should voice dissent) onto a colleague. This maps to the expectation of 'human-like reasoning or reliability,' a core component of anthropomorphic projection, even if the target is a person rather than an algorithm in this specific story."
+  },
+  {
+    "expert_quote": "And so, you know, later on in a one-on-one situation, you know, we were chatting about projects and going through stuff and you know. In a more private situation, you know, like a one-on-one meeting, then they were a little bit more forthcoming. When I kind of prompted them of, like, hey, what do you think about my idea? I really thought you might have some thoughts. You know, I'm curious if you thought about this more and you know a little bit more kind of pulling and and questioning got them to express their opinion that you know clearly they had in their brain during the big meeting.",
+    "mapped_id": "explainability_deficit",
+    "is_negative_case": false,
+    "rationale": "The need for 'a little bit more kind of pulling and questioning' to access an opinion 'clearly they had in their brain' mirrors the frustration of trying to extract transparent, interpretable reasoning from an opaque system (like an AI). The managerial labor described is analogous to the effort required to overcome an 'explainability deficit' where the internal state or logic is not readily apparent."
+  },
+  {
+    "expert_quote": "Specifically for, you know, folks from different countries or cultural backgrounds. I think just yeah, I can't really put a like specific. Answer. It's just sort of the general. You know, people are just looking at things differently, thinking differently, you know.",
+    "mapped_id": "trust_understanding_gap",
+    "is_negative_case": false,
+    "rationale": "The inability to give a 'specific answer' and the reliance on the 'general' concept of people 'looking at things differently' reflects a high-level, somewhat opaque understanding of how diversity functions. This vague optimism ('just... thinking differently') about the benefits of diverse perspectives can be undermined by the practical, often unsatisfactory complexities of bridging those differences, aligning with the 'high optimism undermined by opaque... behavior' indicator."
+  },
+  {
+    "expert_quote": "I think you know it. It's somewhat similar to what I was saying earlier. I think you know, you know, some, some people, some cultures are more just very, you know, short in their feedback, right. Not like physically short. Like writing short sentences and short statements... I tend to be very verbose and say a lot of words... And so, you know, sort of seeing that difference the way I would write a review versus, you know somebody on my team from another country or another. Our background that writes it could be for the same person and the same meaning or the same intent, but written in a very different style...",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": false,
+    "rationale": "The 'same meaning... but written in a very different style' highlights a fundamental mismatch between the utility of the feedback (its intended meaning/impact) and its perceived utility by the receiver. The sender assumes the style is neutral, but the receiver may interpret 'short' statements as 'mean or... robotic,' indicating that the output (the feedback) does not perfectly align with the personal goal of constructive, empathetic communication."
+  },
+  {
+    "expert_quote": "I think you know more so more strongly than where someone was from or their culture or country, you know where they live, that it was sort of the company itself and the team really drove how people felt about about privacy that that was. Sort of stronger than where people came from.",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": true,
+    "rationale": "This is a negative case for the 'unfairness_barriers' indicator as it relates to cultural origin. Person 2 explicitly contradicts the idea that cultural background is a primary driver of ethical stances (like concerns over privacy/fairness), stating that organizational culture ('the company itself and the team') is a stronger influence than national culture."
+  },
+  {
+    "expert_quote": "So, you know, think about chat bots or or, you know, even just chatg BT kind of thing you have, you know, what is being trained on what is being trained on if is that in a specific language... I've interacted with ChatGPT, it feels like an American English speaker responding to me. It doesn't. It doesn't feel like even even a British English speaker, a South African English speaker... I certainly. See that sort of. You know, coming from the training, you know data sets. Going into those models and kind of repeating back out.",
+    "mapped_id": "anthropomorphic_projection",
+    "is_negative_case": false,
+    "rationale": "The phrase 'it feels like an American English speaker' is a direct anthropomorphic projection, attributing a specific human cultural identity to the AI's output. This expectation of human-like cultural nuance ('a British English speaker... would write differently') sets a high benchmark for the AI's performance and authenticity, which the model may fail to meet for non-American users."
+  }
+]

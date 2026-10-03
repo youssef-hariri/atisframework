@@ -1,0 +1,20 @@
+[
+  {
+    "expert_quote": "I would say typically if I speak with potential clients in the like the European Economic Area in the UK and that kind of stuff, right, the mindset is around how do we make this safe and privacy concerns, data sovereignty concerns.",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": false,
+    "rationale": "The professional slang 'how do we make this safe' and focus on 'data sovereignty concerns' semantically links to stakeholder concerns about ethical risks and potential biases in AI, which can lead to rejection of the technology—a core element of the 'unfairness_barriers' indicator."
+  },
+  {
+    "expert_quote": "Whereas if it's, if it's people in the US and I guess with a more risk taking mindset, if you will, then we we typically you know those kinds of questions are more of a check the box. Let's make sure that the solution is secure, but we're more focused on how can this enable? You know, our business use cases and the safety and the the ethics of the implementation you know can be handled down the line once the economic value is proved right.",
+    "mapped_id": "paradoxical_expectations",
+    "is_negative_case": false,
+    "rationale": "The description of a 'risk taking mindset' where safety/ethics are 'handled down the line' after proving 'economic value' demonstrates a simultaneous high hope for business enablement and a high, yet deferred, perceived risk—capturing the essence of 'paradoxical_expectations'."
+  },
+  {
+    "expert_quote": "In terms of implementing these systems and and making them successful, you typically need a very opinionated, a very opinionated domain expert that would work with the technology team to help determine you know, what's the right place to implement AI and what are the right workflows that can be automated and which workflows should? They, uh, involved...",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": false,
+    "rationale": "The necessity for a 'very opinionated domain expert' to determine the 'right place' for AI implies that AI's utility is not automatically aligned with organizational goals; it requires significant human curation to avoid a mismatch, directly linking to the 'utility_mismatch' indicator."
+  }
+]

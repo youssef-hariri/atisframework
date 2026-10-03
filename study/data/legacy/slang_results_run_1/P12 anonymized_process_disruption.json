@@ -1,0 +1,51 @@
+[
+  {
+    "rubric_indicator": "socio_technical_transition",
+    "person": "Person 2",
+    "quote": "So I worked as a data analyst and project owner, I was majorly focused on owning the project properly and delivering the proper insights to the client. So I was not too technical into the stuff... what data engineering people were doing?",
+    "analysis": "Describes a distinct separation between the traditional project owner/analyst role (focused on delivery and client insights) and the technical 'data engineering' role responsible for the AI/data pipeline. This highlights a transitional stage towards a hybrid model, but one where roles are still siloed rather than fully integrated.",
+    "metaphor": "None explicitly used in this segment."
+  },
+  {
+    "rubric_indicator": "integration_friction",
+    "person": "Person 2",
+    "quote": "We have a weekly meeting... they will give insights weekly. So we'll be acting upon it... if they want a feature update in the app, they will mention that also and will be on the product design team or the developing team will be working on it side by side. So yeah, if there is anything related to data, our team will be working on it.",
+    "analysis": "Describes a phase-gated, feedback-loop process. Client feedback triggers separate, parallel workstreams for product development and data work. This indicates the AI/data workflow is embedded within a larger, linear product development lifecycle, creating potential friction if AI iterations don't align with the broader sprint/update cycle.",
+    "metaphor": "None explicitly used in this segment."
+  },
+  {
+    "rubric_indicator": "knowledge_clash",
+    "person": "Person 2",
+    "quote": "There was... knowledge level difference, they are more than us because like my role is data and this so I don't have that much visibility in what they're working on. So it was kind of little bit difficult to get into that.",
+    "analysis": "Highlights a tension between Person 2's domain-specific knowledge as a data analyst and the deeper technical knowledge held by the data science/engineering team. This creates a barrier to collaboration, exemplifying the clash between applied, project-based knowledge and specialized, data-centric AI expertise.",
+    "metaphor": "None explicitly used in this segment."
+  },
+  {
+    "rubric_indicator": "silo_breakdown",
+    "person": "Person 2",
+    "quote": "We worked closely with Nike... we used to extract data from the specific client needs.",
+    "analysis": "Implies that serving a major client like Nike required direct data extraction and processing based on their needs. This suggests client demands drive cross-functional data access and processing, potentially bypassing traditional departmental data gatekeeping and breaking down silos.",
+    "metaphor": "None explicitly used in this segment."
+  },
+  {
+    "rubric_indicator": "ethical_automation_tension",
+    "person": "Person 2",
+    "quote": "We follow all the like the set of rules given by the AI forms... you should not use any political related queries or... unparliamentary words... The model also is totally based on [the use case]. If you ask something else it doesn't know.",
+    "analysis": "Describes a deliberate, human-imposed constraint on the AI model's scope and content to adhere to ethical guidelines (e.g., avoiding politics, profanity). This shows an active human effort to govern and restrict the AI's predictive/generative automation for ethical and practical safety reasons.",
+    "metaphor": "None explicitly used in this segment."
+  },
+  {
+    "rubric_indicator": "cultural_resistance",
+    "person": "Person 2",
+    "quote": "People are from different backgrounds. They used to communicate in their own language also... I was not able to follow that... I'll ask them like, please talk in English.",
+    "analysis": "Shows direct cultural and linguistic resistance to a standardized (English) mode of operation required for collaborative technical work. This friction stems from ingrained habits and comfort, creating inefficiency in a data/AI workflow that relies on clear, unambiguous communication.",
+    "metaphor": "None explicitly used in this segment."
+  },
+  {
+    "rubric_indicator": "role_transition_hurdles",
+    "person": "Person 2",
+    "quote": "As a team lead... you have to give confidence also and you have to motivate them also... I will just politely inform... I know some other people... used to go and straight away fight with them in the public channel... they feel very weak and they feel discouraged.",
+    "analysis": "Contrasts two management styles in a technical/AI environment. Person 2 advocates for a supportive, coaching-based approach essential for guiding teams through new technical roles. This highlights the reskilling and motivational challenge that disrupts traditional, hierarchical, and punitive management methods.",
+    "metaphor": "None explicitly used in this segment."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "expert_quote": "And you know when you say background, now you know the a lot of things that influences the background, right? You know things like... Social, cultural you know stuffs happening within your environment.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "The speaker identifies the social and cultural environment as a key influence on team members' backgrounds. This connects to the socio-technical shift indicator, which notes a refocus on human factors (like cultural acceptance) alongside technical development due to the velocity of change."
+  },
+  {
+    "expert_quote": "Currently it's been just envelopes, beauty models, infrastructure management. And you know those those those the sucker on the space, that's mostly what I deal with now.",
+    "mapped_id": "tool_proliferation",
+    "is_negative_case": false,
+    "rationale": "The speaker's use of vague, umbrella terms ('envelopes', 'beauty models', 'the sucker on the space') to describe their MLOps work suggests a rapid proliferation of tools and frameworks that are difficult to name precisely or standardize, matching the description of tool proliferation."
+  },
+  {
+    "expert_quote": "Most of the the model was was based on... Generative AI, so... Using the Gemini and stuff like that. So I think that was that was the core of of the artificial intelligence there because it was a Gen. AI using generative.",
+    "mapped_id": "gen_AI_acceleration",
+    "is_negative_case": false,
+    "rationale": "The explicit identification of Generative AI (Gemini) as the core of the project's AI component directly maps to the 'gen_AI_acceleration' indicator, which focuses on generative AI compounding the rate of innovation change."
+  },
+  {
+    "expert_quote": "It's listed up. It was listed up so trying to build this thing together so we're not really were concerned... So that's the that's the.",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": true,
+    "rationale": "When asked about differing views on data privacy, the speaker deflects to internal technical security ('how secure is this data'), implying that formal ethical or regulatory frameworks ('listed up' concerns) were not a primary operational consideration, suggesting they emerge later."
+  },
+  {
+    "expert_quote": "It's tough. It's tough because. It was a start of again, so you don't have much data. You're still trying to build, so yeah.",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": false,
+    "rationale": "In the context of a question about ethics, the speaker states the challenge is being at the start with little data, still building. This implies formal ethical consideration is secondary to technical build-out, aligning with the 'regulatory_lag' concept where governance frameworks trail deployment."
+  },
+  {
+    "expert_quote": "The continuous training, right? Learning as you go because technology is evolving every day.",
+    "mapped_id": "continuous_training_demand",
+    "is_negative_case": false,
+    "rationale": "This is a direct, verbatim match to the management friction 'continuous_training_demand,' describing the non-stop need for learning due to daily technological evolution."
+  },
+  {
+    "expert_quote": "You have to keep reading. Keep yourself updated.",
+    "mapped_id": "skill_obsolescence_pace",
+    "is_negative_case": false,
+    "rationale": "The imperative to 'keep reading' and 'keep updated' is a direct human-floor description of the pressure to combat the rapid obsolescence of skills, core to the 'skill_obsolescence_pace' indicator."
+  },
+  {
+    "expert_quote": "Everything now... With the whole AI agents coming out, you know you want to rewrite this whole system, but you don't have the time because you have to meet certain deadlines.",
+    "mapped_id": "integration_debt",
+    "is_negative_case": false,
+    "rationale": "The speaker describes a legacy system that needs rewriting due to new AI agents but lacks the time to do so because of deadlines. This perfectly captures 'integration debt'—managing legacy components incompatible with new systems under time pressure."
+  },
+  {
+    "expert_quote": "From the traditional... from the traditional project perspective, you go from step one, step two, step three sequentially. But with AI, now you can go step one, use AI to go to step two, then step two, you're still you you're still on step one, you use AI to go to step three, right? So it's, it's more iterative, more faster... but the organization is still working in the old way.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "This is a clear, metaphorical description contrasting fast, iterative 'AI time' with slow, sequential 'organizational time,' directly illustrating the core tension defined in the 'temporal_misalignment' indicator."
+  },
+  {
+    "expert_quote": "When making architectural decisions... We'll run it through, you know, Co-pilot, chatGPT or... So you get a perspective from, from the LLM right, on, you know, what it thinks, how it thinks you should structure this. So that that also helps in, in taking the decision.",
+    "mapped_id": "judgment_substitution",
+    "is_negative_case": false,
+    "rationale": "The speaker explicitly describes using AI (Copilot, ChatGPT) to get a perspective on how to structure architecture, which is then used to aid decision-making. This illustrates the 'reconfiguration of human judgment' as AI prediction capabilities are integrated into the decision process."
+  }
+]

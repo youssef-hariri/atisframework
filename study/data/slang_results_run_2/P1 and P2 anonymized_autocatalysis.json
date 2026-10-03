@@ -1,0 +1,56 @@
+[
+  {
+    "expert_quote": "They were more concerned about maybe the answers or a fast response.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The speaker describes the client's focus on a 'fast response' and immediate 'answers' versus the Brazilian team's focus on sustainable model-building. This directly illustrates the clash between fast-paced 'AI time' (quick results) and more deliberate 'organizational time' (methodical construction and long-term viability)."
+  },
+  {
+    "expert_quote": "But we never tell them like you need to understand these or you your technique is ohh then you are not doing the the right way.",
+    "mapped_id": "skill_obsolescence_pace",
+    "is_negative_case": false,
+    "rationale": "This explicit description of avoiding direct confrontation about skill gaps ('you are not doing it the right way') points to the interpersonal friction and management challenge of addressing technical competencies becoming outdated. The need for a diplomatic approach signals the sensitive and rapid nature of skill obsolescence."
+  },
+  {
+    "expert_quote": "I think that the the, the, the guys from Spain or the another country... they were really more directly so they didn't... try to explain and get some details of how the model was built.",
+    "mapped_id": "judgment_substitution",
+    "is_negative_case": false,
+    "rationale": "The description of the Spanish committee caring only about results ('OK, what's the results?') and not the model-building process indicates a business-driven reconfiguration of judgment. Human expertise in model construction is being sidelined or substituted in favor of trusting AI's predictive outputs (the results)."
+  },
+  {
+    "expert_quote": "Maybe the the, the, the, the, the main problem you know so do it like a solution faster simple... And show them give to them the solution so they didn't can use it... and then do it again do it again so you know in small.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The advice to build 'faster simple' solutions and iterate ('do it again do it again') is a classic description of agile, fast-paced 'AI time' development cycles. The suggestion implies this iterative speed is necessary to align with stakeholder expectations and avoid the misalignment of slower, sequential organizational processes."
+  },
+  {
+    "expert_quote": "We we do like a process to explain... We made it meetings like uh, we put the the data scientists together with us and we explain how we approach the problem, how we do it, how model, which models can we apply... We try to to to make some some meetings or some lectures to explain them how to do it.",
+    "mapped_id": "continuous_training_demand",
+    "is_negative_case": false,
+    "rationale": "The detailed account of setting up lectures, meetings, and a multi-session training process for the Chilean team is a direct, on-the-ground example of the non-stop, modular training required to bring a team up to speed with current AI/data science practices, a core friction of autocatalysis."
+  },
+  {
+    "expert_quote": "The tools that we use, like Python code, programming languages or even the environment like Google Cloud, Amazon, this kind of stuff. When we reach them, they were like locals, you know, they were using some other tools, some other infrastructures.",
+    "mapped_id": "tool_proliferation",
+    "is_negative_case": false,
+    "rationale": "The mention of divergent tool stacks (Python/Cloud vs. local/other tools) between teams highlights the fragmentation and lack of standardized integration. This is a practical consequence of new frameworks and infrastructures proliferating faster than organizations can evaluate and adopt them uniformly."
+  },
+  {
+    "expert_quote": "So the problem is that here in Brazil will lack data from... a lot of people here in Brazil, don't have bank accounts... Like, how do I estimate the salary of a person that I didn't know anything about?... we found some examples like people that didn't fit that estimator... they changed the the the life they had... it took so much time for the model to learn.",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": false,
+    "rationale": "This narrative describes an ethically and socially fraught model (estimating salary via social connections) being deployed to solve a business problem. The subsequent discovery of harmful biases and the model's failure to adapt to social mobility ('it took so much time for the model to learn') exemplifies governance and ethical frameworks emerging only in reaction to technical deployment and its negative consequences."
+  },
+  {
+    "expert_quote": "Yes, it's all about asking the right questions and it's really hard. It's not. It's not true good. Yeah. Actually, he's training us how to use it, you know.",
+    "mapped_id": "gen_AI_acceleration",
+    "is_negative_case": false,
+    "rationale": "The speaker's reflection on using ChatGPT reveals a key dynamic: the human is being 'trained' by the AI tool on how to interact with it. This role reversal, where the generative AI tool actively shapes human behavior and problem-solving approaches, is indicative of generative AI compounding the rate of change in innovation processes and work practices themselves."
+  },
+  {
+    "expert_quote": "So the resistance to change something and to see the impact that is gonna cause in the whole structure, the whole company, it's like a a difficult thing to surpass.",
+    "mapped_id": "integration_debt",
+    "is_negative_case": false,
+    "rationale": "The description of a core model (salary estimator) creating a network of dependencies ('if I change this model it will impact like model 12345') illustrates 'integration debt.' The legacy AI component becomes entrenched, and the cost and risk of updating it are high due to its deep integration with other systems, creating organizational inertia."
+  }
+]

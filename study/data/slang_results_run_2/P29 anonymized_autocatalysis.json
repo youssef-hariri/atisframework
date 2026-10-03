@@ -1,0 +1,50 @@
+[
+  {
+    "expert_quote": "We had a data manager who was really well versed in the topic so that made us... made it really easy. For us to know where we had to work towards",
+    "mapped_id": "skill_obsolescence_pace",
+    "is_negative_case": true,
+    "rationale": "This is a negative case. The quote describes a scenario where a human manager possesses deep, relevant, and current expertise that effectively guides the AI project. This contradicts the indicator's description of competencies becoming obsolete faster than they can be replaced, instead highlighting a stabilizing counter-example of human skill being perfectly aligned with project needs."
+  },
+  {
+    "expert_quote": "I noticed that the feedback sessions with the Belgian teams worked really well because they they tended to be very sceptical at the start. But once we were there and really explained well who we are, what we do and what the aims were, we had all of them on board.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "Person 2 frames project success as contingent on overcoming human scepticism and gaining 'buy-in' through explanation and dialogue. This demonstrates a practical focus on human acceptance and social integration as a critical project phase, aligning with the indicator's shift in focus from pure technical/economic benefits to social factors like acceptance."
+  },
+  {
+    "expert_quote": "We failed to bring the message across that they were comparing like different steps of their recruitment process... they were used to only uploading people to their database system, which already had talked to Rec... what our solution did is just scrape people so to say from the Internet.",
+    "mapped_id": "judgment_substitution",
+    "is_negative_case": false,
+    "rationale": "The quote highlights friction caused by the introduction of an AI tool (scraping) that operates on a different logic and data source than the established human-mediated process (pre-vetted uploads). This directly illustrates the 'reconfiguration of human judgment' as teams struggle to understand and trust the new AI-driven workflow replacing their familiar one."
+  },
+  {
+    "expert_quote": "Unfortunately, that had to do with the fact that this AI machine learning solution [required] a certain degree of collaboration between the sales recruiters. However, the sales recruiters themselves tend to think really competitively... they wanted to also have some metrics like... can we just give it only to our like like best performers so that they can have even more competitive edge that... was not how we had it in Mind.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "The ultimate project failure is attributed not to technical performance but to a clash between the collaborative nature of the AI tool's design and the entrenched, competitive individualistic culture of the end-users. This is a core example of socio-technical shift, where human social dynamics (incentives, culture) override technical capability, determining adoption."
+  },
+  {
+    "expert_quote": "In the end, I think only the code got saved on that on that storage somewhere, but also not fully implemented unfortunately.",
+    "mapped_id": "integration_debt",
+    "is_negative_case": false,
+    "rationale": "This outcome describes a classic form of integration debt. The AI component (code) is developed but becomes a stranded asset—'saved on storage'—because it fails to be integrated into the live organizational system and processes, likely due to the socio-cultural frictions described earlier."
+  },
+  {
+    "expert_quote": "But with machine learning AI there's this little extra abstraction layer which is just very hard for... non... core data experts to to fully appreciate. So I think that requires even more alignment.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The 'extra abstraction layer' creates a cognitive gap that slows down communication and shared understanding between technical (AI-time) and business (organizational-time) teams. Person 2 identifies this as a primary reason for requiring 'even more alignment,' which is a direct consequence of the clash between the complex, fast-evolving logic of AI and the slower, sequential pace of organizational learning and decision-making."
+  },
+  {
+    "expert_quote": "Spent a little bit less time behind the laptop and more times in in teams and in reality to to really, yeah, keep everyone involved because then the acceptance rate at the end will be much higher although the technical progress will be a little bit slower.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "Here, Person 2 explicitly prescribes a trade-off: sacrificing speed of technical development ('AI time') to invest in slower, human-centric alignment activities ('organizational time') to ensure ultimate adoption. This advice is a direct managerial response to the inherent temporal misalignment between AI development cycles and the human/organizational change cycle."
+  },
+  {
+    "expert_quote": "it was just at the moment of the GDPR law being effective. So in general I think all of the locations were were very much well on par with that and also very. Taking it seriously, I think the of the three, the German ones, even the most. But all of them to a very high degree.",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": true,
+    "rationale": "This is a clear negative case. Person 2 describes a scenario where a major regulatory framework (GDPR) was not only established but was already effectively internalized and uniformly enforced across all international teams at the time of the AI project's deployment. This contradicts the indicator's core premise of governance frameworks emerging 'only after technical deployment.'"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "excerpt": "I was working on some experimental physics... I changed my Ph.D. area to machine learning... I was really [needing to learn] coding. It got hours and hours... She [the supervisor] was always supported me... step by step.",
+    "indicator": "socio_technical_transition",
+    "analysis": "Describes a fundamental career shift from a hypothesis-driven, experimental science domain to a data-intensive, iterative AI/ML domain. Highlights the learning curve and need for support in transitioning to a new technical paradigm.",
+    "metaphor": "step by step (linear progression)",
+    "is_negative_case": false
+  },
+  {
+    "excerpt": "I was working on astronomical time series data... It was hard to find an algorithm that... address this question for all 14 classes... I had to choose one algorithm, but it was not... It underestimates some of the classes... I accept to not rightly estimate this kind of stars.",
+    "indicator": "knowledge_clash",
+    "analysis": "Illustrates the tension between the ideal of a universally accurate model (data-centric AI knowledge) and the practical reality where algorithmic choices force trade-offs, accepting failure on certain classes—a clash with the domain expectation of comprehensive understanding.",
+    "metaphor": null,
+    "is_negative_case": false
+  },
+  {
+    "excerpt": "In my academy in Turkey, I see that they're so bored, they do not want to give me time... At Johns Hopkins... they were treating us equally and whenever I want... time they gave me time.",
+    "indicator": "cultural_resistance",
+    "analysis": "Contrasts a traditional academic environment (described as disengaged/resistant to providing time) with a more supportive, data-science-focused institute. This hints at cultural friction against the collaborative, iterative needs of AI work.",
+    "metaphor": null,
+    "is_negative_case": false
+  },
+  {
+    "excerpt": "I faced model bias... I accept to not rightly estimate this kind of stars.",
+    "indicator": "ethical_automation_tension",
+    "analysis": "Acknowledges a model's failure (bias) against certain data classes. The phrase 'I accept' suggests a pragmatic, automation-driven compromise that inherently conflicts with the ethical ideal of fair and accurate representation for all categories.",
+    "metaphor": null,
+    "is_negative_case": false
+  },
+  {
+    "excerpt": "For open source project... She [a lead] left the project for one month and tried to get turn back without any explanation... The problem is that [she was] not qualified to lead... I felt discriminated... We lost so many people in that project.",
+    "indicator": "workflow_brittleness & role_reconfiguration",
+    "analysis": "Describes project collapse due to leadership failure in an open-source, collaborative AI environment. Highlights how linear project management expectations (consistent leadership) are brittle when applied to dynamic, volunteer-based AI projects. Also touches on the unmet need for competent oversight (reconfigured role).",
+    "metaphor": null,
+    "is_negative_case": false
+  },
+  {
+    "excerpt": "I was stuck... for 3 weeks... just one line [of code]. I couldn't see it... talking with different peoples in different countries... They say Chinese, Germany, India... help me to overcome this problem.",
+    "indicator": "silo_breakdown",
+    "analysis": "Demonstrates a positive instance where a persistent, non-linear technical problem (a 'bug') was solved through cross-cultural, cross-functional collaboration. This breaks down the silo of working alone or within a single team/culture.",
+    "metaphor": "stuck (immobility in a process)",
+    "is_negative_case": true
+  },
+  {
+    "excerpt": "In my culture... I'm seeing like a crazy woman... they find this different... as a woman they do not like to hear about so much from you about coding... I feel so supported in multicultural environments.",
+    "indicator": "cultural_resistance & role_transition_hurdles",
+    "analysis": "Directly contrasts experienced cultural resistance (and gender bias) in a traditional setting against the support found in diverse, international teams. This resistance acts as a hurdle to the role transition into a technical AI contributor.",
+    "metaphor": "crazy woman (metaphor for deviation from expected role)",
+    "is_negative_case": false
+  },
+  {
+    "excerpt": "Incorrect beliefs about different cultures will finish [diminish].",
+    "indicator": "silo_breakdown",
+    "analysis": "Expresses an aspirational view that multicultural collaboration in AI work inherently challenges and breaks down cultural stereotypes and misconceptions, leading to more integrated teams.",
+    "metaphor": null,
+    "is_negative_case": true
+  }
+]

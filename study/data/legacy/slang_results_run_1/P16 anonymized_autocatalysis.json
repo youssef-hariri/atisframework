@@ -1,0 +1,68 @@
+[
+  {
+    "indicator_name": "recursive_innovation",
+    "observed_data": "Person 2 observes that generative AI tools like ChatGPT produce outputs that feel distinctly like an 'American English speaker,' reflecting the cultural bias of their training data.",
+    "metaphor_mapping": "AI as a Cultural Echo Chamber. The tool's output is not a neutral agent but a recursive reflection of its predominantly Western training corpus, reinforcing specific linguistic and cultural norms.",
+    "negative_case": "No discussion of using AI to accelerate AI development (e.g., AI-generated code). The observation is about cultural bias in outputs, not about the tool's role in the innovation cycle itself."
+  },
+  {
+    "indicator_name": "skill_obsolescence_pace",
+    "observed_data": "Person 2 describes the need to constantly adapt management style (e.g., pulling ideas in one-on-ones vs. group settings) to bridge cultural communication gaps within teams.",
+    "metaphor_mapping": "Management as a Real-Time Interpreter. The leader's role shifts from directive to interpretive, requiring rapid, on-the-fly adaptation to communication styles that become 'obsolete' in fast-paced, multicultural project environments.",
+    "negative_case": "The skill discussed is 'soft' managerial competency (communication), not technical AI skill obsolescence (e.g., a new framework). The pace is tied to human diversity, not purely technological change."
+  },
+  {
+    "indicator_name": "judgment_substitution",
+    "observed_data": "Implied in the discussion of AI writing style. The model's 'American' cadence could subtly shape or substitute for a non-native speaker's own unique English writing judgment in professional communications.",
+    "metaphor_mapping": "AI as a Lingua Franca Enforcer. The tool doesn't just assist; it proposes a default, culturally-loaded mode of expression that users may adopt, substituting their own linguistic judgment for the model's normalized output.",
+    "negative_case": "Not explicitly mentioned by Person 2 as a conscious team challenge. It's an inferred risk from the observation of AI's cultural output."
+  },
+  {
+    "indicator_name": "temporal_misalignment",
+    "observed_data": "Person 2 meticulously coordinates meeting times across time zones (CA, Poland, India), demonstrating the 'organizational time' friction of synchronous collaboration.",
+    "metaphor_mapping": "The Global Team as a Precariously Synchronized Clock. Leadership effort is spent on temporal alignment—finding the narrow, respectful windows where 'organizational time' can function across continents, which is inherently slower than 'AI time' of instant iteration.",
+    "negative_case": null
+  },
+  {
+    "indicator_name": "regulatory_lag",
+    "observed_data": "Person 2 states that data privacy and ethics attitudes were driven more by company policy than by individual cultural background.",
+    "metaphor_mapping": "The Company as a Cultural Airgap. Corporate policy acts as a homogenizing layer, temporarily insulating team operations from the wider, divergent, and lagging global regulatory and ethical debates surrounding AI.",
+    "negative_case": "Cultural differences were not a primary factor in ethical debates here. The 'lag' was managed top-down by pre-existing company policy, not experienced as a team-level friction."
+  },
+  {
+    "indicator_name": "tool_proliferation",
+    "observed_data": "While not discussing specific AI dev tools, Person 2's role in evaluating 'new features' and 'product success' occurs in a landscape where the features themselves (potentially AI-powered) are proliferating rapidly.",
+    "metaphor_mapping": "The Product Landscape as a Shifting Desert. The analyst's task is to evaluate dunes (features) that are constantly reshaped by the wind (rapid tool/feature release cycles), making stable assessment difficult.",
+    "negative_case": "The interview focus is on human dynamics, not on the evaluation burden of new AI tools/libraries. Proliferation is a background condition, not a discussed pain point."
+  },
+  {
+    "indicator_name": "socio_technical_shift",
+    "observed_data": "The entire interview focuses on the 'socio'—human acceptance, communication, and empathy—as the critical success factor for AI/tech projects, not the technical details of the models.",
+    "metaphor_mapping": "The Project as a Cultural Vessel. The technical work is the cargo; the multicultural team dynamics and psychological safety are the hull. Without a strong hull (socio), the cargo (technical) won't reach its destination.",
+    "negative_case": null
+  },
+  {
+    "indicator_name": "gen_AI_acceleration",
+    "observed_data": "Person 2's personal experience with ChatGPT provides a concrete example of how generative AI introduces new, culturally-tinged variables (writing style) into the professional environment.",
+    "metaphor_mapping": "GenAI as a Cultural Particulate. It injects fine, often invisible cultural assumptions (like verbosity) into the ecosystem, accelerating not just capability but the complexity of human-AI interaction dynamics.",
+    "negative_case": "The acceleration discussed is in cultural complexity, not in the rate of innovation processes per se."
+  },
+  {
+    "friction_name": "timeline_compression",
+    "observed_data": "Indirectly observed in the need for flexible scheduling and ad-hoc one-on-ones to unblock ideas, suggesting project timelines must accommodate slower, human-centric processes.",
+    "metaphor_mapping": "The Timeline as an Accordion. The need for human synchronization stretches timelines (finding meeting times), while the pressure to deliver compresses them, creating a constant push-pull.",
+    "negative_case": "Not linked to tool obsolescence forcing mid-cycle re-evaluation. The compression/stretching is due to human factors, not technological churn."
+  },
+  {
+    "friction_name": "continuous_training_demand",
+    "observed_data": "Person 2 describes a personal, ongoing 'training' in cross-cultural communication—learning to interpret feedback styles, encourage participation, and understand time zone/personal boundaries.",
+    "metaphor_mapping": "The Manager as a Perpetual Student. Mastery is not a destination but a continuous process of decoding new human 'languages' and contexts, a direct parallel to keeping up with new AI 'subtypes.'",
+    "negative_case": "This training is experiential and social, not formal or modular. It's about human subtypes, not AI subtypes."
+  },
+  {
+    "friction_name": "integration_debt",
+    "observed_data": "The challenge of integrating team members with deeply ingrained, 'legacy' communication styles (e.g., deference to authority) into a culture that values open debate.",
+    "metaphor_mapping": "Cultural Norms as Legacy Systems. These norms function like incompatible software—they work internally but create friction points when trying to integrate with the 'new system' of a collaborative, flat-team ideology.",
+    "negative_case": null
+  }
+]

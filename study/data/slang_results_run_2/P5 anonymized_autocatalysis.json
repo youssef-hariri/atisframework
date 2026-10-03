@@ -1,0 +1,50 @@
+[
+  {
+    "expert_quote": "So I took a lot of online classes, I must say. So there's a lot of those on my own time. So outside, in the evenings or weekends, I took a whole bunch of online classes.",
+    "mapped_id": "continuous_training_demand",
+    "is_negative_case": false,
+    "rationale": "The quote describes the personal, ongoing effort required to acquire new skills ('online classes... evenings or weekends'), directly reflecting the friction of non-stop, modular training needed to keep pace with evolving AI/ML fields."
+  },
+  {
+    "expert_quote": "And more and more, these algorithms or models are publicly available. So the advantage that a company has is just based on the data that they have. And so the focus is increasingly not so much to come up with like an innovative algorithm... the focus is not you know over the years has switched from data science in terms of algorithm design to a large degree for to sort of the engineering aspect of it... It's slowly becoming more engineering heavy.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "The speaker describes a field-wide transition where the core differentiator and focus moves from pure technical innovation ('innovative algorithm') to implementation, data, and engineering rigor. This aligns with the shift in focus due to technical velocity, moving from pure economic/technical benefits to systemic integration and operational concerns."
+  },
+  {
+    "expert_quote": "So that is like the as far as the company is concerned, you know, it's a very diverse company, you know, we have people from all over the world... but still we, I don't think we have, some of the very recent hires maybe like that, who had a bachelor's or a master's in data science, but typically even now, you know, most of the people that we interview are people whose educational background is not necessarily data science.",
+    "mapped_id": "skill_obsolescence_pace",
+    "is_negative_case": false,
+    "rationale": "The mention of hiring individuals from diverse, non-standard educational backgrounds (physics, economics, etc.) even for recent roles implies that formal, dedicated educational pathways cannot produce qualified practitioners fast enough, indicating a pace of change that outruns structured credentialing."
+  },
+  {
+    "expert_quote": "In a sense, our customers are advertising agencies or sort of publishers... So we don't have a direct connection with the user... we don't usually directly connect with the customer.",
+    "mapped_id": "judgment_substitution",
+    "is_negative_case": true,
+    "rationale": "The speaker explicitly describes a workflow where human judgment and direct customer feedback are structurally absent ('we don't have a direct connection'). This contradicts the theoretical indicator, which posits a reconfiguration of human judgment; here, it is described as already excluded or substituted by data and intermediary layers."
+  },
+  {
+    "expert_quote": "So it is you have to be always aware of those, you know, requirements and make sure that you are here using the data, you're basically obeying whatever the laws are... It's more like a law related, right? Yes. Yes.",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": false,
+    "rationale": "The professional slang of having to 'always be aware' of differing legal requirements by country/state depicts a reactive posture where technical work must constantly adapt to an evolving and fragmented governance landscape that emerges post-deployment."
+  },
+  {
+    "expert_quote": "So in that sense, you know, you need to have the data that you use to train a model has to be sufficiently, you know, diverse so that it can capture differences.",
+    "mapped_id": "tool_proliferation",
+    "is_negative_case": true,
+    "rationale": "This quote focuses on a fundamental, enduring requirement for model robustness (diverse training data) rather than on the rapid, overwhelming release of new tools or frameworks. It contradicts the indicator by emphasizing a core, unchanging challenge rather than a problem of evaluative velocity."
+  },
+  {
+    "expert_quote": "So the model has to adapt to that and you have to check if the model is still working correctly or not. Otherwise you have to retrain or build a different model. So there are certain aspects that are different, but on the whole, we are kind of moving more and more towards using the same engineering processes as the regular software development that happens.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": true,
+    "rationale": "The speaker describes a conscious effort to align data science processes ('model has to adapt') with traditional software engineering cadences ('moving more and more towards using the same engineering processes'). This suggests a managed harmonization, contradicting the theoretical 'clash' between fast AI time and slow organizational time."
+  },
+  {
+    "expert_quote": "It's just with the internal processes differences in, and some of those could be cultural as well that we have to, and these are not, I would say, again, these are company cultures rather than, like, that happen because of different company, different, you know, geographical or demographic backgrounds, it's just that different companies, like some companies are more aggressive in how they release, some companies have a more laid back attitude. It's more of the organizational culture than the, you know, the culture. Like the people all around the culture.",
+    "mapped_id": "integration_debt",
+    "is_negative_case": false,
+    "rationale": "The description of friction arising from merging different 'company cultures' (e.g., aggressive vs. laid-back release cycles) after acquisitions is a direct, 'human-floor' example of the managerial challenge of integrating incompatible legacy systems, processes, and standards."
+  }
+]

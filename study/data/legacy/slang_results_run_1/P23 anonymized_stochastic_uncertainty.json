@@ -1,0 +1,57 @@
+[
+    {
+      "metaphor": "'if you're not giving what I want, I can't give what you want'",
+      "interpretation": "This frames the resource negotiation (infrastructure, cost) as a transactional, deterministic contract. It implicitly contrasts with the reality of probabilistic models, where even with sufficient resources, outputs are not guaranteed due to inherent variance.",
+      "link_to_rubric": ["baseline_erosion", "data_dependency"]
+    },
+    {
+      "metaphor": "Describing data volume spikes causing model failure as a 'breakdown' where 'fault tolerance can't do'.",
+      "interpretation": "Portrays the AI model as a mechanical system that 'breaks' under unexpected load. This metaphor underscores a deterministic expectation of system performance, which is violated by the stochastic nature of real-world data, leading to unexpected failures.",
+      "link_to_rubric": ["model_drift", "non_deterministic_outputs", "probabilistic_variance"]
+    },
+    {
+      "metaphor": "Using Proof of Concept (POC) and 'data metrics' as a 'showcase' to get approval.",
+      "interpretation": "Frames the management of uncertainty as a sales or demonstration activity. The POC is an attempt to create a controlled, deterministic preview of a system whose live performance will inherently be probabilistic and variable.",
+      "link_to_rubric": ["opaque_outcomes", "dynamic_forecast_adjustment", "accountability_challenges"]
+    }
+  ],
+  "negative_cases_identified": [
+    {
+      "description": "Person 2 states that cultural differences have *never* led to project failure or significant issues in their career.",
+      "relevance_to_rubric": "This is a negative case against a potential assumption that cultural clash is a primary source of project risk or uncertainty. For Person 2, the core frictions (baseline_erosion, accountability_challenges) arise from technical and resource misalignments, not culture.",
+      "quote": "'Culture in it field doesn't impact... it never impacted in my entire career till now.'"
+    },
+    {
+      "description": "Person 2 emphasizes a highly structured, document-heavy process (e.g., MoMs, requirement docs, data dictionaries) as the primary solution to project challenges.",
+      "relevance_to_rubric": "This represents an attempt to impose deterministic, linear planning and accountability on a process (AI/data project development) that is fundamentally non-linear and probabilistic. It's a managerial response to stochastic uncertainty, trying to reduce it through rigorous documentation.",
+      "link_to_rubric": ["lack_of_reproducibility", "non_linear_estimation", "accountability_challenges"],
+      "quote": "'Documentation is very important... whatever the discussion we have, everything should be documented.'"
+    },
+    {
+      "description": "Person 2 insists on a 'static' requirement set for data science projects, advising against changes close to deployment.",
+      "relevance_to_rubric": "This is a direct strategy to combat 'dynamic_forecast_adjustment' and 'baseline_erosion'. It seeks to freeze the target to manage the uncertainty inherent in the development process itself, acknowledging that moving goals compound probabilistic variance.",
+      "quote": "'Just be the static part... Don't change... before two weeks [to] productionization... I want the accuracy of this much only.'"
+    }
+  ],
+  "implicit_link_to_stochastic_uncertainty_indicators": [
+    {
+      "indicator": "non_linear_estimation",
+      "evidence": "The story about the data migration project scope exploding from 48 to 80+ tables and 20 to 38 dashboards mid-project illustrates the non-linear complexity and difficulty of accurate estimation, a core source of uncertainty.",
+      "quote_ref": "'In that second month itself we got to know they are increasing the number of tables... the complexity... has increased.'"
+    },
+    {
+      "indicator": "data_dependency & model_drift",
+      "evidence": "Concerns about 'data spikes' and increasing data volume causing future model failure directly reference dependency on unpredictable data patterns and potential performance decay.",
+      "quote_ref": "'If you are not giving a resource... in future if a data center spike or if a data volume increase definitely model... will breakdown.'"
+    },
+    {
+      "indicator": "accountability_challenges",
+      "evidence": "The need to use POCs, metrics, and presentations to 'convince' and get 'approval' from non-technical management points to the opacity of AI outcomes and the difficulty in establishing clear, accountable cause-effect relationships for resource asks.",
+      "quote_ref": "'We use the data metrics... we showcase... then they accepted.'"
+    },
+    {
+      "indicator": "dynamic_forecast_adjustment / baseline_erosion",
+      "evidence": "The constant negotiation over infrastructure costs during development versus production, and the need to re-baseline the project timeline and scope mid-flight, are classic symptoms of managing projects with high inherent uncertainty.",
+      "quote_ref": "'They're looking only in the productionising part, but they're not looking that the development part... we can't deliver in the four months...'"
+    }
+  ]

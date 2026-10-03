@@ -1,0 +1,38 @@
+[
+  {
+    "expert_quote": "It had object tracking and detection, live object tracking, detection from from robotics from robotics and classification... if there is another phase being popping up within the interview, it will flag those instances... Another model was something called a speech diarization... it will take all the speech signals... if there are more than one speaker, it will be flat... the last model is based on key logic... an LLM based model runs that takes all the key log... and compares it with. What was going on screen?... if that person is typing to the questions with an AI, it will have a sort of similarity... If if two out of this flags are triggered... the entire interview is flagged for possible manual checking, like a person will then manually check all the... time stems that are being flat",
+    "mapped_id": "magic_box_perception",
+    "is_negative_case": false,
+    "rationale": "The quote describes an AI system designed to autonomously and infallibly detect cheating through multiple, complex technical signals. The reliance on this ensemble to make an initial 'flagging' decision for human review reflects the belief in AI as a comprehensive, near-perfect detection 'box' that can automate a nuanced human judgment task."
+  },
+  {
+    "expert_quote": "I wrote close to 50P... of documentation explaining how what the logic is, how you how you gonna scale the code... all the possible exceptions that I faced and you are going possibly going to face... It's everything was well documented, meaning even if I'm blindly, just give them the code base and here's the document there, you just you have to read through it... I got. I got a call at 4:00 AM like hey, code is broken. It's not working... the person said no. [they hadn't read the documentation]",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "This demonstrates the 're-education labor' required when users (here, development teammates) provide problem reports ('code is broken') based on an unrealistic benchmark—that they can skip foundational understanding and still expect the system to work or be fixable without effort. The expert's extensive documentation is an attempt to bridge this expectation gap."
+  },
+  {
+    "expert_quote": "the biggest biggest... I knew that this was going to be a problem because back when I was doing the full time, I was unfortunately part of this writing good enough code, but not up to the standard for for the clients... I had set ground rules... extensive testing... We are not going to approve the code.",
+    "mapped_id": "trust_erosion",
+    "is_negative_case": false,
+    "rationale": "The speaker's preemptive, strict ground rules stem from past experience where low-quality outputs ('good enough code') led to a loss of trust from clients. This historical disillusionment drives a demand for a complete redesign of the development process ('extensive testing', strict approval) to rebuild trust and ensure quality before scaling."
+  },
+  {
+    "expert_quote": "no, we we know that there will be bias. In the models, so the the best trick according to our infrastructure... was to create an ensemble of same models. Or running multiple models in parallel, different models in parallel.",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": false,
+    "rationale": "The speaker explicitly acknowledges the inherent risk of bias in AI models ('we know there will be bias'). The technical solution of using an ensemble is a direct, practical response to this perceived barrier to fairness, aiming to mitigate the risk of unfair outputs."
+  },
+  {
+    "expert_quote": "it was a startup. They just give you the problem... everybody's working on very fast timelines... solving larger problem was more important than the solving the small problem. Like if it's good enough, let's integrate it. Let's scale it. That's it's more of a more concerned because happy clients in the end",
+    "mapped_id": "dreams_vs_reality",
+    "is_negative_case": false,
+    "rationale": "This contrasts the idealized vision of perfectly fair, bias-free AI (the 'dream') with the practical reality of startup pressures. The operational principle becomes 'good enough' for client satisfaction and fast scaling, explicitly prioritizing delivery over solving the 'small problem' of thorough bias mitigation."
+  },
+  {
+    "expert_quote": "I prefer a leadership in a horizontal rather than a vertical way... I'm on the same level as you... I'm also writing the codes... some of the best ideas. Optimizations where. Where came from at that time, the interns. Meaning technically my junior gave me better ideas",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": true,
+    "rationale": "This quote serves as a negative case for 'feedback_dissonance'. The speaker describes a collaborative, open environment where feedback and ideas from all levels are valued and integrated. This contradicts the friction where user feedback is based on unrealistic benchmarks and creates re-education labor; here, feedback is constructive and expected."
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "expert_quote": "Right now I'm a data engineer... and I want to do a master's in management and artificial intelligence, so I want to become a manager also and grow my career in leading A-Team and becoming somebody who can help other people.",
+    "mapped_id": "socio_technical_transition",
+    "is_negative_case": false,
+    "rationale": "The speaker's career ambition to move from a technical data role into AI management reflects the transition from human-centric to hybrid human-AI collaboration models, using the professional slang of 'leading A-Team'."
+  },
+  {
+    "expert_quote": "Somebody like. Nah, let's get that. Put it in AI. Give it a good prompt. Let's wait and see what comes out.",
+    "mapped_id": "procedural_nonlinearity",
+    "is_negative_case": false,
+    "rationale": "The colloquial suggestion to 'put it in AI' and 'see what comes out' describes an experimental, iterative loop that contradicts a planned, sequential methodology for problem-solving."
+  },
+  {
+    "expert_quote": "If you are a leader and you have people become, take responsibility of projects. So if I give you a project... Break it down for me. So if they break it down, they feel like they own it... they can build it without needing your confirmation all the time.",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "This description of leadership—giving ownership and moving away from constant confirmation—uses the metaphor of delegation ('break it down') to illustrate the manager's shift towards system oversight and away from micromanagement."
+  },
+  {
+    "expert_quote": "You should... just do your work and make friends. That's all I can tell you. Technically... you're technically equipped. So what you need to do is get the people people skills.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": true,
+    "rationale": "The speaker advises focusing on technical skill and social networking ('make friends'), explicitly downplaying the friction of 'cultural resistance.' This contradicts the rubric's expectation of significant distrust towards new collaborative models."
+  },
+  {
+    "expert_quote": "You have to be honest. And you have to like, tell them that this is possible... I can do this or we can do this or we cannot do this. So it's good so that you don't waste their time and they don't waste your time.",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": false,
+    "rationale": "The pragmatic, human-floor description of setting clear boundaries ('we cannot do this') about capabilities highlights the inherent tension between selling automated solutions and maintaining honest, ethical human oversight."
+  },
+  {
+    "expert_quote": "So for us we have things called brainstorming sessions where we sit down and have conversations about different topics... there's the technical guys... Then there's a guy who comes to... say let's get this and fit it into AI.",
+    "mapped_id": "silo_breakdown",
+    "is_negative_case": false,
+    "rationale": "The description of a 'brainstorming session' merging different approaches (technical vs. AI-hack) uses professional meeting slang to illustrate how cross-functional, data-centric problem-solving undermines traditional specialized boundaries."
+  },
+  {
+    "expert_quote": "In Africa, we have the labor, we just don't have people who believe in us... they need to have that belief that you can work, but they raise the labor... In Africa. You'll pay seven people for that amount, and they'll happily take the money.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "The speaker's metaphor of 'belief' versus 'labor' points to a deep-seated cultural and experiential bias ('don't have people who believe in us') that resists a distributed, data-centric operational model in favor of traditional, localized hierarchies."
+  },
+  {
+    "expert_quote": "No, I haven't experienced [failure] because of culture yet. I haven't experienced that yet, but it will be interesting to actually experience that and see.",
+    "mapped_id": "integration_friction",
+    "is_negative_case": true,
+    "rationale": "This is a direct, explicit negative case. The speaker states they have not encountered the friction of embedding AI/teams into existing processes due to cultural differences, contradicting the theoretical indicator."
+  }
+]

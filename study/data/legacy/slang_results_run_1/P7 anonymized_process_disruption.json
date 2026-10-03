@@ -1,0 +1,90 @@
+[
+  {
+    "quote": "Now having technologies just like, I don't know, chat, GPT or devil, it's easier to write something and put that on the documentation.",
+    "time_range": "0:2:9.550 --> 0:2:19.140",
+    "indicator_or_friction": "silo_breakdown",
+    "analysis": "AI tools like ChatGPT break down traditional documentation barriers by making knowledge capture and sharing more fluid and accessible across teams, undermining the strict departmental boundaries of phase-gated processes.",
+    "metaphor": null,
+    "negative_case": null
+  },
+  {
+    "quote": "Well, I work remotely, so I I have this experience of of talk with people from other nationalities. International remote work.",
+    "time_range": "0:1:33.370 --> 0:1:41.720",
+    "indicator_or_friction": "socio_technical_transition",
+    "analysis": "Describes a move away from co-located, human-centric teams toward distributed, hybrid human-AI collaboration models enabled by remote work technology.",
+    "metaphor": null,
+    "negative_case": null
+  },
+  {
+    "quote": "I think that communication, not just for technical things, not just for job things, it's important between between peers just to talk about... my internship... the professor... she she played uh very, very instrument in their tablet.",
+    "time_range": "0:29:15.550 --> 0:29:33.70",
+    "indicator_or_friction": "silo_breakdown",
+    "analysis": "Highlights that effective AI collaboration requires breaking down not just departmental silos, but also personal/cultural ones. Building social bonds is part of the socio-technical transition, where purely technical communication is insufficient.",
+    "metaphor": null,
+    "negative_case": null
+  },
+  {
+    "quote": "Uh, first, you know, this is like for developers, for data scientists or researchers, this is like the the the customer is like the enemy... And that's something that we need to, like put all the things on the floor and and say OK. We we can do this. But we we can't do the other things...",
+    "time_range": "0:3:3.690 --> 0:3:41.600",
+    "indicator_or_friction": "integration_friction",
+    "analysis": "Illustrates a fundamental clash between iterative, experimental AI development (where feasibility is uncertain) and the traditional customer expectation of a fixed, predictable scope delivered via a linear phase-gated process.",
+    "metaphor": "Customer as 'the enemy' metaphor.",
+    "negative_case": null
+  },
+  {
+    "quote": "It will be readed by someone I don't know also, but outside the team and understand what we are trying to say.",
+    "time_range": "0:2:19.190 --> 0:2:28.930",
+    "indicator_or_friction": "workflow_brittleness",
+    "analysis": "AI project outputs (documentation, models) need to be interpretable by diverse, unforeseen stakeholders, adding a layer of complexity and potential brittleness to workflows originally designed for a closed, linear team structure.",
+    "metaphor": null,
+    "negative_case": null
+  },
+  {
+    "quote": "We are going to find a way to have a formalized thing on our project... So I think that formalizing things is something important because, umm, we are not going to be able to to escale the project or scale what we are trying to to do.",
+    "time_range": "0:11:44.710 --> 0:12:9.170",
+    "indicator_or_friction": "legacy_inflexibility",
+    "analysis": "Recognizes the need for formal structure to manage AI complexity and scaling, but this very act of imposing formalization can run into friction against the dynamic, non-linear nature of AI work and the legacy systems not built for it.",
+    "metaphor": "Formalizing as 'a way to have a formalized thing'.",
+    "negative_case": null
+  },
+  {
+    "quote": "Just checking about training models which model is is more needed or which model we take most time... So if we are training a model, a big model, we are not going to be able to try to train the other ones if we have just like like a a machine.",
+    "time_range": "0:13:37.310 --> 0:13:54.520",
+    "indicator_or_friction": "procedural_nonlinearity",
+    "analysis": "Describes a core non-linear, resource-intensive loop in AI workflows (model training, experimentation) that directly conflicts with sequential, predictable resource allocation in traditional project methodologies like waterfall.",
+    "metaphor": null,
+    "negative_case": null
+  },
+  {
+    "quote": "No, not exactly, but maybe this, uh, like in my experience, this is like a, a, a subject that is not currently developed on Latin America... in the universities we don't have like that subject in our career curricula.",
+    "time_range": "0:15:6.490 --> 0:15:43.710",
+    "indicator_or_friction": "knowledge_clash",
+    "analysis": "Highlights a gap where formal, institutional knowledge (e.g., AI ethics curricula) is absent, creating tension when these projects must integrate with global teams or standards that assume such knowledge. The 'clash' is between the data-centric ethics paradigm and a lack of codified experience-based knowledge.",
+    "metaphor": null,
+    "negative_case": null
+  },
+  {
+    "quote": "In my team, everyone knows Spanish... So if we like saying with among teams, maybe they they don't understand a word, but we can explain them in certain way or we are trying to talk in a way in a certain way, like uh, I don't know a sarcastic way and they understand that... So maybe that that, that doesn't that won't work in other languages in, in in a multi multi... Well, when we have a lot of countries...",
+    "time_range": "0:30:59.110 --> 0:31:39.30",
+    "indicator_or_friction": "cultural_resistance",
+    "analysis": "Points to the deep-seated challenge of cultural and linguistic norms. Even shared language can mask communication subtleties (sarcasm). This creates friction when trying to embed data-centric AI workflows into multicultural teams, as experiential, culturally-bound communication styles can be disrupted.",
+    "metaphor": null,
+    "negative_case": "This also serves as a negative case for over-reliance on the 'neutral framework' as a panacea. It shows that even with a shared language and framework, tacit cultural knowledge can still disrupt understanding."
+  },
+  {
+    "quote": "The coworkers needs to be participative on that, on that face.",
+    "time_range": "0:13:58.130 --> 0:14:3.110",
+    "indicator_or_friction": "role_reconfiguration",
+    "analysis": "Implies a shift from hierarchical, top-down task assignment to a more collaborative model where team members (data scientists) are expected to actively participate in project definition and prioritization, a key aspect of the transition toward system oversight roles.",
+    "metaphor": null,
+    "negative_case": null
+  },
+  {
+    "quote": "Yes, there there is a big difference... This is like the Mexican people at once to know everything about like they they want... If they don't understand something. They want to know it... just the US people is not like that. It's like give me the the most simpler definition and I will take some decisions about that.",
+    "time_range": "0:4:37.500 --> 0:5:47.950",
+    "indicator_or_friction": "knowledge_clash",
+    "analysis": "Directly illustrates a 'knowledge clash' between a data-centric, exhaustive understanding sought by some stakeholders (Mexican) versus a business-decision-oriented, simplified summary expected by others (US). This disrupts the standard 'requirements gathering' phase of linear processes.",
+    "metaphor": null,
+    "negative_case": null
+  }
+]

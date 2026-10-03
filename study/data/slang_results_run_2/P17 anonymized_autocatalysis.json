@@ -1,0 +1,62 @@
+[
+  {
+    "expert_quote": "The problems we were given... was to make an algorithm slash model that detects possible attempts of cheating... using... different AI tools in conjunction of their interviews.",
+    "mapped_id": "gen_AI_acceleration",
+    "is_negative_case": false,
+    "rationale": "The problem statement itself is a professional description of an emerging threat *caused* by the proliferation of accessible generative AI tools (e.g., AI writing assistants), indicating Gen AI is forcing the creation of new AI systems to counter its misuse, thus compounding innovation."
+  },
+  {
+    "expert_quote": "So my model works with an ensemble of six models... It had object tracking and detection... speech diarization... an LLM based model runs that takes all the key logs... If if two out of this flags are triggered... the entire interview is flagged.",
+    "mapped_id": "tool_proliferation",
+    "is_negative_case": false,
+    "rationale": "The solution described is a 'Frankenstein' ensemble of disparate, rapidly emerging AI subfields (computer vision, audio processing, LLMs). This is a practical, on-the-ground response to managing a flood of specialized tools by combining them, rather than waiting for a single integrated solution."
+  },
+  {
+    "expert_quote": "I never my my the codes are deployed, never have one single model. It is always... an ensemble of models... or same model trained with different hyperparameters running everything... because no, we we know that there will be bias.",
+    "mapped_id": "tool_proliferation",
+    "is_negative_case": false,
+    "rationale": "This quote explicitly links the rapid availability of multiple models/training variants (proliferation) to a standard operational practice (ensembling) used to hedge against the unreliability and bias of any single, fast-evolving component."
+  },
+  {
+    "expert_quote": "...solving larger problem was more important than the solving the small problem. Like if it's good enough, let's integrate it. Let's scale it. That's it's more of a more concerned because happy clients in the end.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": true,
+    "rationale": "Person 2 contradicts the indicator. He states that in the startup context, the focus remains on economic/technical delivery ('happy clients'), not on pausing for deeper ethical/bias considerations ('solving the small problem'), indicating the socio-technical shift is not a universal reality."
+  },
+  {
+    "expert_quote": "I wrote close to 50P of documentation explaining... how you gonna scale... how we gonna deploy it... all the possible exceptions... you just have to read that book.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "Creating exhaustive, pre-emptive documentation is a classic organizational-time tactic to create stability and bridge the 12-hour communication gap. It's a human attempt to create a slow, sequential reference manual to cope with fast, iterative development and deployment cycles ('AI time')."
+  },
+  {
+    "expert_quote": "Everyone's working on very fast timelines. We have to work on very fast timelines.",
+    "mapped_id": "timeline_compression",
+    "is_negative_case": false,
+    "rationale": "This is a direct, slang description of compressed development cycles, a core management friction. The repetition emphasizes the pervasive pressure of accelerated pace."
+  },
+  {
+    "expert_quote": "This kind of trickles to a lot of legacy code as well. There was a lot of core that was legacy. That was causing issues... the interpreter... had the feature... you can access the internal credentials of the server... we had that issue.",
+    "mapped_id": "integration_debt",
+    "is_negative_case": false,
+    "rationale": "Describes 'legacy code' creating security vulnerabilities in a live product. This is a concrete example of managing old, incompatible AI/system components that create ongoing risk and work, fitting 'integration debt'."
+  },
+  {
+    "expert_quote": "I prefer a leadership in a horizontal rather than a vertical way... I'm on the same level as you. I'm also writing the codes... when I was leading the teams, some of the best ideas... came from... the interns.",
+    "mapped_id": "judgment_substitution",
+    "is_negative_case": false,
+    "rationale": "Advocates for a collaborative, non-hierarchical model where human judgment is pooled and valued ('ideas from interns'). This can be seen as an organizational strategy to preserve and integrate diverse human judgment against the pressure to substitute it with AI-driven decisions."
+  },
+  {
+    "expert_quote": "Things are moving fast... suddenly we have a gap and then the one prior week of work is completely more or less redundant.",
+    "mapped_id": "timeline_compression",
+    "is_negative_case": false,
+    "rationale": "Uses the metaphor of work becoming 'redundant' to describe the waste and rework caused by rapid changes in requirements or direction mid-cycle, a direct consequence of compressed, unstable timelines."
+  },
+  {
+    "expert_quote": "A clear communication, especially in officially on emails, is more matter than verbally... I would definitely prefer return of communication because then it becomes official.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "Insists on slow, formal, asynchronous (email) communication to create an immutable record. This is a deliberate organizational-time practice to counteract the misunderstandings and volatility inherent in fast-moving ('AI time') projects, especially across cultures."
+  }
+]

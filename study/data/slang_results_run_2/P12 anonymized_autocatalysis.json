@@ -1,0 +1,32 @@
+[
+  {
+    "expert_quote": "Once the model keeps on getting updated, we make use of it actually. So we leverage the different advancements in AA models.",
+    "mapped_id": "gen_AI_acceleration",
+    "is_negative_case": false,
+    "rationale": "The colloquial phrasing 'keeps on getting updated' and 'leverage the different advancements' captures the rapid, compounding pace of change in generative AI tools, directly reflecting acceleration in innovation processes themselves."
+  },
+  {
+    "expert_quote": "If there is anything then we have to revamp it.",
+    "mapped_id": "timeline_compression",
+    "is_negative_case": false,
+    "rationale": "The professional slang 'revamp' indicates the necessity to overhaul current development work in response to new AI advancements, exemplifying how rapid tool obsolescence forces mid-cycle re-evaluation of architecture and testing."
+  },
+  {
+    "expert_quote": "we use mostly we use open AI but it it get used to it and it won't give proper sender because LinkedIn is like it's it. Very secure. So in that case we can use some advanced extension in deepsee.",
+    "mapped_id": "tool_proliferation",
+    "is_negative_case": false,
+    "rationale": "The everyday description of switching between OpenAI and DeepSee extensions to address specific task limitations illustrates the proliferation of AI frameworks and tools, released faster than they can be systematically evaluated or integrated."
+  },
+  {
+    "expert_quote": "My first company, they gave some training like for one week, but after that I don't see any training and all.",
+    "mapped_id": "continuous_training_demand",
+    "is_negative_case": false,
+    "rationale": "The phrase 'after that I don't see any training' highlights the absence of ongoing upskilling, pointing to the unmet, non-stop demand for modular training required to keep pace with emerging AI subtypes and technologies."
+  },
+  {
+    "expert_quote": "they have this all set up before itself.",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": true,
+    "rationale": "The statement that data privacy and ethical rules were established 'before itself' contrasts with the typical lag in governance frameworks, indicating a negative case where safeguards are proactively implemented ahead of or during development, not after deployment."
+  }
+]

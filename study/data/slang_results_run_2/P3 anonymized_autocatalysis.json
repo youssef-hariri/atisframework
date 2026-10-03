@@ -1,0 +1,50 @@
+[
+  {
+    "expert_quote": "Ohh so we own. It's not like Google or Facebook for example, where they have a lot of information about each person, but at the same time we comply with the some regulations like the GDPR and European Union.",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": true,
+    "rationale": "The speaker describes complying with established regulations like GDPR, which contradicts the indicator's definition of governance frameworks emerging 'only after technical deployment.' This implies a pre-existing, enforced framework rather than a lag."
+  },
+  {
+    "expert_quote": "Ohh of course this this would relations is a little bit loose when we are dealing with customers in Asia or United States but still.",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": false,
+    "rationale": "The phrase 'a little bit loose' indicates variable or less stringent application of regulations in different regions, aligning with the concept of lag where governance is inconsistent and emerges post-deployment depending on locality."
+  },
+  {
+    "expert_quote": "Answering your question, of course, like for me in Egypt we are not constrained with with these regulations, which we all, but when I'm but my colleagues from you, they are very aware of this and they they put it on the agenda that we need to comply with this because of the regulation. So of course I think having people from different areas give you perspective because it's it's a matter of local regulations between different countries.",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": false,
+    "rationale": "The speaker contrasts local regulatory awareness (or lack thereof) within a global team, highlighting that governance is not uniform and often a reactive item ('put it on the agenda') based on team composition and customer location, reflecting the patchwork and lagging nature of regulation."
+  },
+  {
+    "expert_quote": "But this question, at least in Western communities, is is very important and it's a matter of debate between people and the media. And you know this question is very important and it's a lot of public debate about this, but maybe in the Middle East. People don't care, so I think because we are in our work we are dealing with data so so not you will not find many people aware of of the idea of the privacy.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "The speaker identifies a shift in focus from technical data work to societal and ethical debates ('public debate') about privacy, which varies by culture. This aligns with the shift from economic/technical benefits to human acceptance and ethics driven by the technology's pervasive impact."
+  },
+  {
+    "expert_quote": "In a way I think the planning and the architecture, in my opinion. I don't. I don't see much differences from from from having people from different backgrounds and multicultural forms of perspective, of multicultural. But of course the technical expertise plays the more important role.",
+    "mapped_id": "judgment_substitution",
+    "is_negative_case": true,
+    "rationale": "The speaker asserts that for technical planning and architecture, multicultural perspectives are less critical than technical expertise. This contradicts the indicator of 'judgment_substitution,' which posits a reconfiguration of human (including cultural) judgment as AI capabilities advance. Here, technical logic is prioritized over diverse human judgment in the technical phase."
+  },
+  {
+    "expert_quote": "Defining the problem defining measure differences in in in the patterns related to the business area and business understanding, I think it's it's more multiculturalism plays more important.",
+    "mapped_id": "judgment_substitution",
+    "is_negative_case": false,
+    "rationale": "The speaker states that for problem definition and business understanding, multicultural judgment is crucial. This supports the indicator, as it shows human cultural judgment remains central in framing problems, even as AI handles technical execution, indicating a reconfiguration rather than a complete replacement."
+  },
+  {
+    "expert_quote": "Ohh, the ethical question of using that. I don't think it's discussed a lot. In our com. So yeah, it's.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": true,
+    "rationale": "The speaker states that ethical questions are not widely discussed in their community (Middle East/their work context), which is a negative case against the universal application of the 'socio_technical_shift' indicator. It shows the shift to ethics is not occurring uniformly across all cultural or professional contexts."
+  },
+  {
+    "expert_quote": "Uh, of course. The technical requisites and needs is very different. But no. Looking dynamics is quite the same.",
+    "mapped_id": "gen_AI_acceleration",
+    "is_negative_case": true,
+    "rationale": "When asked if AI projects have specific cultural problems, the speaker states team dynamics are 'quite the same' as non-AI projects. This directly contradicts the 'gen_AI_acceleration' indicator, which posits generative AI compounds the rate of change in innovation processes, suggesting it would create unique, accelerated team dynamics."
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "expert_quote": "Like what typically in a software project, you have known outputs. If you have a given input, you have the same outputs. In the data science model, since your model is dependent on the data and the data can change, you know, like people's behaviors or people's usage can change. So the model has to adapt to that and you have to check if the model is still working correctly or not.",
+    "mapped_id": "non_deterministic_outputs",
+    "is_negative_case": false,
+    "rationale": "The speaker contrasts traditional software's deterministic 'same outputs' with data science models' adaptability to changing data. This 'has to adapt' highlights the inherent non-fixed, varying nature of ML outputs, mapping directly to the indicator of non-deterministic results."
+  },
+  {
+    "expert_quote": "So the model has to adapt to that and you have to check if the model is still working correctly or not. Otherwise you have to retrain or build a different model.",
+    "mapped_id": "model_drift",
+    "is_negative_case": false,
+    "rationale": "The phrases 'has to adapt,' 'check if...still working,' and 'retrain or build a different model' describe the continuous performance monitoring and intervention required due to changing data patterns. This is a practical, operational description of model drift."
+  },
+  {
+    "expert_quote": "In the data science model, since your model is dependent on the data and the data can change...",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "The explicit statement 'model is dependent on the data' and the concern about data changing reflects a core awareness of the high sensitivity of model outputs to the quality and stability of historical data, central to the data_dependency indicator."
+  },
+  {
+    "expert_quote": "But then I took a lot of online classes, I must say. So there's a lot of those on my own time. So outside, in the evenings or weekends, I took a whole bunch of online classes. So yeah, the software background helped make it made it easier. But yeah, I did take a lot of classes online.",
+    "mapped_id": "lack_of_reproducibility",
+    "is_negative_case": true,
+    "rationale": "The quote describes skill acquisition, not project outcomes. The speaker's extensive personal study implies a field where standard, reproducible methods were not yet established, necessitating self-education. This indirectly affirms the theoretical challenge of reproducibility in early-stage, non-standardized practices."
+  },
+  {
+    "expert_quote": "And so the focus is increasingly not so much to you know come up with like an innovative algorithm... the focus is... to sort of the engineering aspect of it, where we figure out the best way to collect data, train the models and deploy the models, make sure we are checking how the models are performing and so on.",
+    "mapped_id": "dynamic_forecast_adjustment",
+    "is_negative_case": false,
+    "rationale": "The shift in focus to continuous processes—'collect data, train... deploy... checking how the models are performing'—reflects an institutional recognition of underlying system instability. This operationalizes the need for constant monitoring and adjustment, which is the essence of dynamic forecast adjustment."
+  },
+  {
+    "expert_quote": "It's slowly becoming more engineering heavy and in that sense, we are now, all of the practices in software engineering are slowly getting applied.",
+    "mapped_id": "baseline_erosion",
+    "is_negative_case": false,
+    "rationale": "The speaker describes the field's evolution toward engineering rigor ('practices... slowly getting applied'). This institutional adaptation implies a prior or ongoing state where standard baselines were difficult to maintain due to the probabilistic nature of ML, directly aligning with the concept of baseline erosion forcing procedural change."
+  },
+  {
+    "expert_quote": "But usually for us, that's not how our products are used. So it's not so much of an issue for us.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": true,
+    "rationale": "The speaker explicitly states that the opacity and potential bias of algorithmic outcomes ('those biases by demographic') are not a significant issue in their specific application domain (advertising back-end). This is a clear negative case where the described management friction is reported as not being actively encountered."
+  },
+  {
+    "expert_quote": "And so if you don't have data from certain parts of the world, it just won't work there.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "The blunt professional slang 'it just won't work there' starkly illustrates the absolute dependency of model functionality on the comprehensiveness and relevance of its training data. This is a direct, practical expression of the theoretical indicator."
+  },
+  {
+    "expert_quote": "...if you're building like a facial recognition algorithm, then it needs to have been trained on wide, wide your face and so on. Right. So otherwise it thinks everybody is the same, right?... there was one movie where it taught everybody was the same, You know, it couldn't distinguish between things.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The example of a model that 'thinks everybody is the same' and 'couldn't distinguish' reveals an opaque, flawed decision-making process stemming from incomplete training data. The outcome is inexplicable and erroneous from a human perspective, matching the indicator's description of complexities leading to hard-to-explain results."
+  }
+]

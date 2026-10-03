@@ -1,0 +1,67 @@
+[
+  {
+    "rubric_facet": "recursive_innovation",
+    "observed_metaphor": "AI as a Toolmaker (Implicit)",
+    "quote": "The projects we are working on are all using like RAG or retrieval augmented generation where we actually control the responses of the AI...",
+    "explanation": "Person 2's work involves using advanced AI (LLMs) to build specific, controlled AI solutions (RAG agents). This exemplifies the core of recursive innovation: AI systems are instrumental in creating the next generation of applied AI tools for business contexts."
+  },
+  {
+    "rubric_facet": "skill_obsolescence_pace",
+    "observed_metaphor": "None explicitly stated.",
+    "quote": "Since like 18 plus years... My last six years or seven years has been focused on Semantic AI Solutions...",
+    "explanation": "While not a direct complaint, the career arc described—shifting from general web development to specialized AI/ML domains—illustrates the necessity of continuous, fundamental reskilling to stay relevant, a tacit response to the pace of obsolescence in the tech field."
+  },
+  {
+    "rubric_facet": "judgment_substitution",
+    "observed_metaphor": "AI as an Inheritor of Human Bias",
+    "quote": "...it will... inherit the ethics from... the data itself. So if you are to retrain... on some data from the Middle East... It will change... you will start to see different responses.",
+    "explanation": "Person 2 explicitly describes how AI judgment (output) is a direct substitute for and reconstitution of the human judgments embedded in its training data. The choice of training data becomes a critical act of configuring the AI's 'judgment' to align with specific cultural or ethical frames."
+  },
+  {
+    "rubric_facet": "temporal_misalignment",
+    "observed_metaphor": "Lean Startup vs. Perfectionist Mentality",
+    "quote": "I remember that experience where this person was pushing back towards... a lean startup kind of mentality, where... 'let's first make it good, then make it great'... the people in the US... were perfectionists... laser focused... and make it perfect.",
+    "explanation": "This clash between iterative, 'good enough' development ('AI time') and sequential, thorough 'perfectionist' development ('organizational time') is a direct example of temporal misalignment. The friction stems from differing mental models about the appropriate pace and polish for a project in a fast-moving field."
+  },
+  {
+    "rubric_facet": "regulatory_lag",
+    "observed_metaphor": "The Horse has Left the Barn",
+    "quote": "I don't think it has a solution at the moment. It's... like it's already... I think too late...",
+    "explanation": "When discussing copyright and data use for AI training, Person 2's sentiment that it's 'too late' perfectly captures the essence of regulatory lag. The technical practice (crawling web data) has become entrenched and scaled long before legal and ethical frameworks (like copyright or attribution) can be established or enforced."
+  },
+  {
+    "rubric_facet": "tool_proliferation",
+    "observed_metaphor": "Frameworks as a Controlled Substance",
+    "quote": "The projects we are working on are all using like RAG... we actually control the responses... we limit some topics...",
+    "explanation": "Person 2's focus on RAG and controlled datasets can be interpreted as a strategic response to tool proliferation. Instead of constantly chasing and integrating every new generative model, they standardize on a specific architectural pattern (RAG) that allows them to manage risk, ensure reliability, and maintain ethical guardrails amidst a sea of new, unevaluated tools."
+  },
+  {
+    "rubric_facet": "socio_technical_shift",
+    "observed_metaphor": "AI as a Business Agent (Not a Philosopher)",
+    "quote": "So we make it... more of an agent to assist with for our clients to assist... doing their business. So it's more in a business context. It doesn't really touch on the [ethical issues]...",
+    "explanation": "This represents a conscious narrowing of scope in response to socio-technical complexity. By strictly bounding AI use to business-process assistance and avoiding open-ended generative tasks, the team sidesteps the most acute human acceptance and ethical dilemmas, focusing on tractable economic benefits instead."
+  },
+  {
+    "rubric_facet": "gen_AI_acceleration",
+    "observed_metaphor": "The Data is Garbage (If Unstructured)",
+    "quote": "I love to think about data as data. You know they say data is like garbage... you better know why you are collecting it... if it's unstructured data... it will be helpful for you to work with AI on the transcript...",
+    "explanation": "Person 2 acknowledges the transformative power of GenAI (e.g., for analyzing interview transcripts) but couples it with a critical, almost dismissive metaphor ('garbage') for unstructured data. This reflects the double-edged nature of GenAI acceleration: it creates powerful new methods for research/innovation while simultaneously raising the stakes for data quality and intentionality, compounding the complexity of the research process itself."
+  },
+  {
+    "negative_case_identification": "tool_proliferation / gen_AI_acceleration",
+    "contradicting_observation": "Stability through Architectural Choice",
+    "quote": "The projects we are working on are all using like RAG or retrieval augmented generation...",
+    "explanation": "While the rubric assumes tool proliferation causes chaos, Person 2 describes a stable, repeatable architectural paradigm (RAG) that their team consistently applies. This suggests that for some organizations, the response to acceleration is not frantic adoption but strategic standardization on a flexible, foundational pattern that can accommodate new models underneath a stable interface."
+  },
+  {
+    "negative_case_identification": "socio_technical_shift / judgment_substitution",
+    "contradicting_observation": "Ethics as a Context-Specific, Not Universal, Problem",
+    "quote": "And this is a great question actually because... what you see wrong in country A could be the norm in country B...",
+    "explanation": "The rubric implies a monolithic 'human acceptance' problem. Person 2 highlights that ethical judgment and acceptance are not global constants but are culturally relative. Therefore, the 'socio-technical shift' isn't just a move from economics to ethics, but a fracturing into *multiple*, context-dependent ethical landscapes that a global AI project must navigate, complicating the idea of a single 'shift.'"
+  },
+  {
+    "negative_case_identification": "management_frictions.timeline_compression",
+    "contradicting_observation": "Mid-Cycle Re-evaluation Not Mentioned",
+    "explanation": "Despite discussing fast-moving AI, Person 2 does not provide an example of a project timeline being violently upended by a new model release or framework. Their described friction is cultural (perfectionism vs. lean) and managerial (feedback styles), not primarily technological. This suggests that in some applied, business-focused AI development (using stable patterns like RAG), the direct impact of raw *technical* timeline compression might be mitigated, transferring the friction to human and process domains instead."
+  }
+]

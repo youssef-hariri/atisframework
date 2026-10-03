@@ -1,0 +1,50 @@
+[
+  {
+    "expert_quote": "And they they have like a script and some some ground rules that they the model had to... To perform.",
+    "mapped_id": "legacy_inflexibility",
+    "is_negative_case": false,
+    "rationale": "The participant describes a predefined 'script' and 'ground rules' that a model must follow. This reflects the rigidity of legacy governance frameworks ('legacy_inflexibility') designed for static, rule-based compliance, which can clash with the dynamic, experimental nature of AI model development."
+  },
+  {
+    "expert_quote": "We were more concerned about the the how, how the the models were built... and there they they were more concerned about maybe the answers or... a fast answer.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "The speaker highlights a fundamental tension between a data-centric, methodological focus on model construction (AI knowledge) and a business-focused demand for immediate results (tacit, experience-based human knowledge). This is a direct manifestation of 'knowledge_clash'."
+  },
+  {
+    "expert_quote": "We try to to... make some some meetings or some lectures to explain them how to do it.",
+    "mapped_id": "role_transition_hurdles",
+    "is_negative_case": false,
+    "rationale": "The need to conduct 'lectures' for colleagues in another country indicates a significant reskilling effort ('role_transition_hurdles'). This disrupts established workflows and requires the speaker to transition into a training and support role to bridge knowledge gaps."
+  },
+  {
+    "expert_quote": "We Brazilians don't... Don't necessarily say that you are wrong. You are stuck behind. But we showed the downsides of the the their models. The upsides of ours, then it's all about the results.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "The participant describes a specific cultural communication style (avoiding direct criticism) used to navigate a situation where a less mature team prefers simpler, faster methods. This is a tactical response to 'cultural resistance'—a distrust of new, data-centric approaches in favor of established, expedient ones."
+  },
+  {
+    "expert_quote": "I had to adjust the the presentation, the speech... separate the two talks... for its active level simplify the the presentation, the speech it's all about the results.",
+    "mapped_id": "integration_friction",
+    "is_negative_case": false,
+    "rationale": "The speaker describes creating two distinct communication tracks (technical vs. executive) to fit a model's explanation into a rigid, phase-gated review process. This is a direct adaptation to 'integration_friction,' where nonlinear AI work must be reformatted to align with linear, stage-based governance."
+  },
+  {
+    "expert_quote": "But the problem is that... they built the model... a lot of other people in the company... Use this model to create new models... So it's network. Like if I change this model it will impact like model 12345... So the resistance to change something... it's like a a difficult thing to surpass.",
+    "mapped_id": "workflow_brittleness",
+    "is_negative_case": false,
+    "rationale": "This quote describes the 'brittleness' of a system where one foundational AI model is deeply embedded into multiple downstream processes. The 'resistance to change' stems from the increased systemic vulnerability and cascading impact of updating a single component, a core aspect of 'workflow_brittleness' when integrating adaptive AI."
+  },
+  {
+    "expert_quote": "we we need this responsibility of building the model. So we need us that that's our main concern... We need to remove this kind of... biases are these kind of issues.",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "The participant explicitly takes on the 'responsibility' for ethical outcomes (removing biases), even when non-technical stakeholders lack the context. This signals a shift from a purely technical role to one encompassing 'ethical judgment and system oversight,' as defined in 'role_reconfiguration'."
+  },
+  {
+    "expert_quote": "I I didn't work with some people from another countries on that subject... But I think they they example is maybe enough.",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": true,
+    "rationale": "This is a negative case. When explicitly asked about multicultural differences in views on ethics, the speaker states they have no direct experience working with people from other countries on this subject, and implies the local Brazilian example is sufficient. This contradicts the expectation of a clear 'ethical_automation_tension' manifesting across cultural lines in their direct experience."
+  }
+]

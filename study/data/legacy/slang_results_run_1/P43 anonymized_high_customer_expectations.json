@@ -1,0 +1,44 @@
+[
+  {
+    "target_specificity": "high_customer_expectations",
+    "subject_analyzed": "Person 2",
+    "metaphors_identified": [
+      {
+        "metaphor": "AI as a 'Black Box' requiring external interfaces.",
+        "source_text": "I created like the admin interface... but she won't use it. 'Cause it's too complicated since we need to create an API for... the admin interface.",
+        "rubric_connection": "magic_box_perception, explainability_deficit. The complexity of the interface and API acts as a barrier, reflecting that the AI's internal workings are opaque and inaccessible to the non-technical manager, breaking the 'magic' illusion.",
+        "analysis": "The need for a separate, complex administrative interface highlights the gap between the perceived 'magic' of AI and the practical, often cumbersome, technical scaffolding required to manage and interact with it. The project manager's refusal to use it underscores a failure in utility and user-friendliness."
+      },
+      {
+        "metaphor": "AI project as a foreign language.",
+        "source_text": "The first thing is the language... She has a quite a different accent of English. So it's quite sometimes it's difficult to understand... For the culture, I think it it didn't have any effect.",
+        "rubric_connection": "trust_understanding_gap, explainability_deficit. Communication barriers mimic the difficulty in 'understanding' AI's logic and outputs.",
+        "analysis": "Person 2 explicitly frames the primary challenge as a language barrier, not a cultural one. This metaphor extends to AI projects: stakeholders (like the German PM) may 'speak a different language' (e.g., business vs. technical), leading to misunderstandings about the AI's capabilities and requirements, similar to how users struggle to interpret an AI's decisions."
+      }
+    ],
+    "negative_cases_identified": [
+      {
+        "rubric_indicator": "dreams_vs_reality",
+        "expectation": "Stakeholders hold idealized visions of AI capability.",
+        "negative_evidence": "Person 2 does not describe the German project manager or themselves as having grandiose or flawless expectations for the AI application. The conflict is purely about implementation complexity and project management, not about the AI failing to meet superhuman expectations.",
+        "source_text": "She worried that she cannot make changes in the future... It's more complicated than the previous version.",
+        "analysis": "The friction arises from practical maintainability and usability concerns, not from a gap between 'dream' and 'reality' of AI's core intelligence. The expectation is practical (a workable tool), not magical."
+      },
+      {
+        "rubric_indicator": "paradoxical_expectations / unfairness_barriers",
+        "expectation": "Simultaneous high hopes/high risk, or rejection due to bias.",
+        "negative_evidence": "There is no discussion of perceived risk, ethical concerns, bias, or fairness regarding the AI itself. The 'risk' mentioned is project management risk (time, complexity), not AI-specific risk.",
+        "source_text": "The entire discussion centers on workflow, communication, and technical debt.",
+        "analysis": "Person 2's narrative is devoid of the typical tensions around AI ethics or reliability. The challenges are framed as standard software engineering and intercultural communication issues, not unique to AI's perceptual 'magic' or inherent risks."
+      },
+      {
+        "rubric_indicator": "anthropomorphic_projection",
+        "expectation": "Expecting human-like reasoning or reliability.",
+        "negative_evidence": "Person 2 treats the AI as a technical system to be built and integrated. No language personifies the AI or attributes human-like failure or understanding to it.",
+        "source_text": "N/A - No such references made.",
+        "analysis": "The perspective is firmly that of a developer/engineer. The system is a set of code and interfaces. There is no indication that anyone involved expected it to 'understand' or 'reason' like a human; the expectations were functional."
+      }
+    ],
+    "summary_analysis": "Person 2's experience primarily illustrates **management_frictions** (`feedback_dissonance`, `trust_erosion`) stemming from a **utility_mismatch** and **explainability_deficit**, but does so in a grounded, non-hyped context. The German project manager's rejection of the complex admin interface represents a user's pragmatic refusal to engage with an AI system that is not transparent or manageable to them, eroding trust in the solution. However, the core of Person 2's narrative challenges the rubric's assumption that 'high customer expectations' are always about AI's *intelligence*. Here, the 'high expectation' is for a **competently managed, usable tool**—a expectation that was unmet due to implementation complexity and communication gaps, not due to AI falling short of a sci-fi ideal. The 'Magic Box' is not seen as *infallible*, but as *inscrutable and cumbersome to operate*."
+  }
+]

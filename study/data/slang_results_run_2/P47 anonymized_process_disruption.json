@@ -1,0 +1,68 @@
+[
+  {
+    "expert_quote": "The existing workforce... they always had that under current they always had that. This AI how it will, what will be their capability. Whether how much I can use this? How this will play out? In the future so that they always had, though they embraced it still they had that some questions.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "The quote illustrates tension ('under current', 'some questions') between the data-centric, forward-looking knowledge associated with AI and the experience-based, cautious human knowledge of the existing team, matching the 'tension between data-centric AI knowledge and tacit, experience-based human knowledge' indicator."
+  },
+  {
+    "expert_quote": "He built an AI model to classify which is good, which is not... So now it became a norm. They take if there is a new admission in the school... they run through his model and he just makes it fit enough... they became. They did. Using him in their regular workflow.",
+    "mapped_id": "silo_breakdown",
+    "is_negative_case": false,
+    "rationale": "The description of the AI engineer's model being adopted by the hardware team for a core administrative process (ID card photos) demonstrates how cross-functional data and tool needs ('run through his model') undermine traditional departmental boundaries, creating a new integrated workflow."
+  },
+  {
+    "expert_quote": "The senior ERP team, the soft, the software team, they started asking this person for support.",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "The software team seeking support from the junior AI engineer indicates a shift in traditional roles and expertise hierarchies, aligning with the 'project managers shifting toward ethical judgment and system oversight' indicator as it shows a reconfiguration of technical authority."
+  },
+  {
+    "expert_quote": "Some of them, they were not very. Readily accepting. That they felt that, no, this could not be suitable for my subject... I'm happy where I am. I'm doing this particularly OK.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "This expresses a 'distrust of data-centric approaches' (AI tools) in favor of established, experiential methods ('I'm happy where I am'), which is a core component of the management friction 'cultural_resistance'."
+  },
+  {
+    "expert_quote": "Definitely the country matters. OK, I I found little reluctance in my Arabic teachers... They could have felt that. OK, see this Arabic? My the language of the land. So I'm little superior to these people here, so they were not readily accepted.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "This explicitly links non-adoption of AI tools to cultural and national identity ('language of the land', 'superior'), providing a clear instance of cultural resistance to new, data-centric workflows and tools."
+  },
+  {
+    "expert_quote": "This on gender also, gentlemen, we're not always. Taking that much interest and effort to learn the AI tools.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "The speaker identifies gender-based cultural norms as a specific barrier to adopting AI tools, which falls under the broader 'cultural_resistance' friction against new technological methods."
+  },
+  {
+    "expert_quote": "But what happens? You ask the question, how does that affect or something? How it is in fact it affects well in a team if I'm... having a project... if somebody is having such mindset, if they if they feel that this is my work, I will do only that much. Definitely that will affect my ERP or AAA project or whatever project it is.",
+    "mapped_id": "role_transition_hurdles",
+    "is_negative_case": false,
+    "rationale": "Describes how an individual's resistant mindset ('I will do only that much') directly disrupts project execution. This aligns with 'role_transition_hurdles' as it highlights how attitudes and established work paradigms (resistance to reskilling or new responsibilities) create management friction."
+  },
+  {
+    "expert_quote": "She felt that OK. And again before her exit interview... she told no, I can't. OK, see. My team should be reporting only to me... I should not be having a team meeting with all of them. Only she will have the meeting. She will just give me a report. I will just sign so like that quoting that she. Left us...",
+    "mapped_id": "role_transition_hurdles",
+    "is_negative_case": false,
+    "rationale": "This is a direct example of 'reskilling needs disrupting established hierarchies and decision-making authority.' The former leader's insistence on a rigid, siloed reporting structure clashed with a potentially more integrated or oversight-focused model, leading to her exit."
+  },
+  {
+    "expert_quote": "One thing she told here the culture is if somebody is superior to me in my in their rank, I have to call them Sir. Ma'am. Whereas whereas I would have preferred to call them. OK. Hi malti. OK. Hi, Youssef. Hi, X. Hi, Y like that.",
+    "mapped_id": "role_transition_hurdles",
+    "is_negative_case": false,
+    "rationale": "Highlights a clash between formal, hierarchical cultural norms and a preferred, more collaborative professional culture. This friction around social hierarchy and address is a specific manifestation of the challenges in transitioning roles and workplace cultures."
+  },
+  {
+    "expert_quote": "So like that, we tell them and they understand. That is how we sort out.",
+    "mapped_id": "role_transition_hurdles",
+    "is_negative_case": true,
+    "rationale": "This statement presents a negative case for 'role_transition_hurdles'. The speaker asserts that direct communication and setting expectations ('we tell them') successfully resolves the friction, contradicting the notion that these hurdles are insurmountable or inherently disruptive in this context."
+  },
+  {
+    "expert_quote": "The new blood was not understanding the business logic and how the real world works. That was compensated by my experience.",
+    "mapped_id": "socio_technical_transition",
+    "is_negative_case": false,
+    "rationale": "Describes a classic hybrid collaboration model: the AI-savvy 'new blood' lacks practical/business knowledge, which is 'compensated' by the experienced human. This directly illustrates the 'moving from human-centric to hybrid human-AI collaboration models' indicator."
+  }
+]

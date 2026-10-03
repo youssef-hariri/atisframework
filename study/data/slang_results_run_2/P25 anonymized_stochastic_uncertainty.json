@@ -1,0 +1,8 @@
+[
+  {
+    "expert_quote": "Yeah, it's it's even the data you're getting where you're getting it from. Who are the people who've done these studies? It people who are biased towards this specific thing.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "The participant's focus on the origin and inherent bias of training data reflects a practical, 'human-floor' concern about data quality and representativeness. This directly aligns with the theoretical indicator 'data_dependency,' which describes the high sensitivity of probabilistic models to the quality and relevance of historical data. The use of slang ('data you're getting') and the critique of biased sources underscore the real-world impact of flawed data on model reliability and outcomes."
+  }
+]

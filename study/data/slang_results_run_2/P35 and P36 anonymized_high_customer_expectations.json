@@ -1,0 +1,38 @@
+[
+  {
+    "expert_quote": "This year we also launched this offering for MLOps... Which means that we can offer... Basically the the maintenance deployment of those CI/CD pipelines for models and stuff like that.",
+    "mapped_id": "magic_box_perception",
+    "is_negative_case": false,
+    "rationale": "The phrase 'models and stuff like that' is a professional, off-hand description of complex AI/ML systems, subtly framing them as a standardized, commoditized service offering. This reflects a provider's viewpoint of the AI 'box' as a product to be deployed and maintained, aligning with the 'Magic Box' perception from a service delivery angle."
+  },
+  {
+    "expert_quote": "We don't focus on them too much because we did them quite some time ago and you know the industry changes really fast... So what we did three years ago is not the same. What we can do now.",
+    "mapped_id": "dreams_vs_reality",
+    "is_negative_case": false,
+    "rationale": "The statement contrasts past AI projects with current rapid industry evolution. This pragmatic acknowledgment of a fast-changing, non-static 'reality' implicitly highlights a gap with any client's idealized or static vision ('dreams') of AI capability."
+  },
+  {
+    "expert_quote": "In terms of feedback, I might not be able to guide you because we have a project manager who is also kind of account manager and he talks to customers. I don't talk to them, so unfortunately I don't have that feedback.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": true,
+    "rationale": "The speaker explicitly states they are insulated from direct customer feedback. This is a direct negative case for the 'feedback_dissonance' friction, as the organizational structure prevents the speaker from experiencing the described re-education labor from unrealistic user benchmarks firsthand."
+  },
+  {
+    "expert_quote": "client is right, customer is right... So if he wants to switch from, I don't know, he was having a cluster in basement, he decided to switch to Solana. Our goal is to support him in his decision, so we will switch. Even that it's can be complicated and painful, but... we are ready to take his pace.",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": false,
+    "rationale": "The 'client is right' principle and the example of a client abruptly changing technical direction (to 'Solana') illustrate a service provider's experience of 'utility_mismatch'. The provider must adapt to the client's shifting, potentially non-optimal goals, even when it causes operational 'pain', indicating the assumed perfect alignment between client goals and provider capabilities is a fallacy."
+  },
+  {
+    "expert_quote": "for some people probably might sound like... Not safe enough, probably... sometimes people have this dark like is it safe to work with the company from Ukraine?... but I wouldn't say it affects our work. Not really.",
+    "mapped_id": "trust_erosion",
+    "is_negative_case": true,
+    "rationale": "The speaker acknowledges a surface-level, geography-based perception of risk ('not safe') that could logically lead to 'trust_erosion' or resistance. However, they immediately negates its impact ('Not really'), marking this as a negative case where a potential source of disillusionment and friction is explicitly stated as not materializing."
+  },
+  {
+    "expert_quote": "I would say for us probably the most difficult ones would be Asians because they're they have a little different mentality... it was really insightful in terms of, like, OK, this they think this way, let's try to adapt their mentality... We are always trying to adapt to fit the client.",
+    "mapped_id": "paradoxical_expectations",
+    "is_negative_case": false,
+    "rationale": "The description of Asian clients as the 'most difficult' due to a 'different mentality' requiring adaptation hints at unstated, complex client expectations. The need for the provider to actively 'adapt to fit' suggests an underlying challenge in aligning perspectives, which can be a manifestation of managing clients' potentially paradoxical mix of high hopes and high perceived caution."
+  }
+]

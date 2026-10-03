@@ -1,0 +1,38 @@
+[
+  {
+    "expert_quote": "AI projects are not that much different in that sense.",
+    "mapped_id": "gen_AI_acceleration",
+    "is_negative_case": true,
+    "rationale": "The speaker uses the phrase 'not that much different' to explicitly downplay the distinct, accelerated nature of generative AI projects. This contradicts the rubric's indicator that generative AI compounds the rate of change in innovation processes themselves."
+  },
+  {
+    "expert_quote": "Onboarding processes, they had like many courses... But when you try to get as much information quickly like 50%, you forget you know, so that's that's it.",
+    "mapped_id": "continuous_training_demand",
+    "is_negative_case": false,
+    "rationale": "The description of a high-volume, forgettable onboarding process ('50% you forget') with 'many courses' maps to the friction of 'non-stop, modular training' needed to keep pace. It highlights the human cognitive limit in absorbing rapid-fire updates."
+  },
+  {
+    "expert_quote": "But special course where you where they bring you to a large room and after they teach you the cultural things like for the specific country. No, not that I recall... your exposure to this kind of topics unfortunately is probably not that. Not that wide, you know, so you just get the basics, only the basics.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "The acknowledgment that deep, human-centric training (on culture/ethics) is absent or superficial ('just the basics') aligns with the indicator that the socio-technical focus is lagging behind technical velocity. The training deficit is in the human acceptance/soft skill domain."
+  },
+  {
+    "expert_quote": "During the interview processes you focus on the, let's say, things that I really needed or the for the job at hand, right? So to be technical, be it like management leadership and then the culture which is a very important topic, but quite often it comes as, let's say, priority #2. Unfortunately so.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "The speaker frames culture as 'priority #2' behind technical skills. This operationalizes the theoretical shift, showing how human/organizational factors (acceptance, ethics) are deprioritized in real-time hiring against pressing technical demands driven by fast-paced innovation."
+  },
+  {
+    "expert_quote": "some of those courses, they're not very memorable. So which means that you don't recall or don't remember many of those things.",
+    "mapped_id": "continuous_training_demand",
+    "is_negative_case": false,
+    "rationale": "The slang 'not very memorable' directly describes the failure of static training modules to counteract skill obsolescence. It evidences the friction that training cannot be absorbed effectively at the required pace, creating a knowledge retention gap."
+  },
+  {
+    "expert_quote": "But now like because, you know, with AI and these tools it's not so hard. Actually, now the hard part is to think about the idea... it makes your life easier. Now the real part is, as you mentioned, is the art of using the tools.",
+    "mapped_id": "judgment_substitution",
+    "is_negative_case": false,
+    "rationale": "The speaker distinguishes between the automated 'easier' tasks (research, planning) and the 'hard part'/'art' of human judgment (idea generation, tool application). This mirrors the reconfiguration of human roles, where core value shifts from execution to oversight and strategic judgment."
+  }
+]

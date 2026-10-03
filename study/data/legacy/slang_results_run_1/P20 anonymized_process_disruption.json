@@ -1,0 +1,56 @@
+[
+  {
+    "indicator": "socio_technical_transition",
+    "evidence": "Describes implementing a chatbot to translate user natural language queries into SQL, enabling non-IT personnel to access data. This represents a move from IT-exclusive data access to a hybrid model where AI bridges the technical knowledge gap.",
+    "metaphor": "AI as a Translator/Bridge",
+    "negative_case": "No explicit mention of friction from transitioning to this hybrid model. The focus is on the solution's utility, not the organizational change required."
+  },
+  {
+    "indicator": "cultural_resistance",
+    "evidence": "Highlights general openness and professionalism in clients, stating people in the 21st century are 'open minded' and 'mindful'. Suggests that in professional settings, cultural clashes leading to failure are rare.",
+    "metaphor": "Professionalism as a Shield",
+    "negative_case": "Directly contradicts the rubric's expectation of 'distrust of data-centric approaches.' Person 2 observes professionalism overrides cultural resistance in business contexts, citing few failures due to culture."
+  },
+  {
+    "indicator": "role_reconfiguration",
+    "evidence": "Emphasizes the leader's need for a 'holistic view', managing client relationships, understanding their culture, and ensuring transparent communication. Aligns with a shift from task management to oversight and ethical/human judgment.",
+    "metaphor": "Leader as Cultural Integrator & Communicator",
+    "negative_case": "None identified; this perspective aligns with the rubric."
+  },
+  {
+    "indicator": "integration_friction",
+    "evidence": "Notes the critical difficulty of gathering and documenting clear, structured requirements from clients, especially when domain knowledge is mismatched. Points to the need for 'multiple iterations' and 'a lot of follow up'.",
+    "metaphor": "Requirements Gathering as a Maze",
+    "negative_case": "None identified; this aligns with challenges of embedding new solutions (like AI chatbots) into established client expectations and processes."
+  },
+  {
+    "indicator": "knowledge_clash",
+    "evidence": "Mentions the challenge of explaining technical processes ('under the hood') to non-technical clients, creating an 'understanding gap'. Stresses the need to translate technical outcomes into business overviews.",
+    "metaphor": "Knowledge as a Foreign Language",
+    "negative_case": "None identified; this highlights the tension between technical/data-centric knowledge and client's business/experiential knowledge."
+  },
+  {
+    "indicator": "silo_breakdown",
+    "evidence": "Work as a data engineer/analyst involves 'gather[ing] data from clients' and streamlin[ing] it for analysis, implying a need to access and integrate data across traditional functional boundaries to serve a chatbot or model.",
+    "metaphor": "Data Flow as a Stream",
+    "negative_case": "Does not discuss internal organizational silos, only the client-company data exchange. The focus is external, not on internal departmental boundaries breaking down."
+  },
+  {
+    "indicator": "ethical_automation_tension",
+    "evidence": "Discusses data privacy/ethics as paramount, driven by domain (e.g., healthcare) and client agreements. States many companies avoid external AI/LLMs due to data security fears, preferring in-house systems.",
+    "metaphor": "Data as a Precious Commodity",
+    "negative_case": "Frames the tension as a compliance and security issue rather than a conflict between predictive automation and human ethical oversight. The human role is to enforce security protocols, not provide ethical judgment on AI outputs."
+  },
+  {
+    "indicator": "role_transition_hurdles",
+    "evidence": "Advises colleagues to deeply 'understand the people' they work with—their work style, communication preferences, and knowledge level. Implies that success requires skills beyond technical execution, focusing on human understanding and adaptation.",
+    "metaphor": "Understanding as a Prerequisite",
+    "negative_case": "While highlighting necessary new skills, does not mention organizational hurdles (reskilling programs, disrupted hierarchies) that enable this transition. The advice is individualized."
+  },
+  {
+    "indicator": "legacy_inflexibility",
+    "evidence": "No direct evidence. The discussion focuses on processes, communication, and client relations, not on legacy software systems hindering data work.",
+    "metaphor": "N/A",
+    "negative_case": "A clear negative case. This potential source of friction is absent from the participant's narrative."
+  }
+]

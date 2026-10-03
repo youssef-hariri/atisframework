@@ -1,0 +1,50 @@
+[
+  {
+    "expert_quote": "In certain places... there's much more of an emphasis on maybe speed or maybe very nice software abstractions... and in other places the emphasis is a little bit more on like the product and what the user thinks... people are starting from different places, so they have different expectations.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "The slang 'different places' and 'different expectations' describes a fundamental tension between differing foundational knowledge bases (e.g., abstract engineering vs. user-centric product thinking), directly aligning with the tension between data-centric and tacit, experience-based knowledge."
+  },
+  {
+    "expert_quote": "You know, you really need to understand how, like. Humans behave and like how? How humans interact with things, and if you only understand how people that look and think and feel like you will treat some system, then you probably will miss a lot of like possible ways. That someone might break your system... Having people from lots of different backgrounds is is really important... the more different perspectives you have, the better you're able to kind of imagine how things can go wrong, yeah.",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": false,
+    "rationale": "The phrase 'imagine how things can go wrong' is a human-floor description of the need for diverse human oversight to anticipate and mitigate the failures of a generalized, automated system, capturing the core conflict between predictive automation and the necessity of human ethical judgment."
+  },
+  {
+    "expert_quote": "And so sometimes there will be like different expectations for for how much information they need to provide in terms of to get help... it can be difficult to like, communicate how much information we need... sometimes there's like, miscommunication about... how quickly something would would get done... they will kind of not mention that it's gonna it's delayed a bit and then only three days later we find out actually there was some big problem happening but they didn't communicate it.",
+    "mapped_id": "integration_friction",
+    "is_negative_case": false,
+    "rationale": "The professional slang 'different expectations,' 'difficult to communicate,' and 'didn't communicate it' reveals fundamental challenges in embedding collaborative, data-intensive AI workflows (which require constant, rich information exchange) into existing team and user communication processes."
+  },
+  {
+    "expert_quote": "But our users are actually very diverse and they come from all over the world, right? And so if we're going to... work with lots of people... then it's a huge advantage that we understand how different people think... that applies both like technically in terms of how we design the product, but also how do we write our documentation... We make sure that it's like comprehensible to people who. English is not their first language... in lots of different ways. I think we benefit from from having a diverse team.",
+    "mapped_id": "silo_breakdown",
+    "is_negative_case": false,
+    "rationale": "The description of applying diverse user understanding 'technically' and to 'documentation' and 'marketing' illustrates how user-centric, data-informed AI development necessitates cross-functional integration (engineering, documentation, marketing) that undermines traditional departmental boundaries focused on a homogeneous user."
+  },
+  {
+    "expert_quote": "So now it's like we're split up into small teams of five or six people and at a certain point, like the leaders of those teams comes comes together and they discuss things... in the end, someone needs to take a decision... we do have like... retrospectives and. Kind of meetings where we talk about like what is failing, what is good, what do we need to change or improve. So. So those are kind of like. Places specifically designed for people to say. You know, we should change something or do something differently.",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "The description of team leads coming together to discuss and someone needing 'to take a decision,' alongside structured forums for systemic feedback, illustrates project managers operating beyond traditional task coordination towards system oversight and facilitating iterative improvement."
+  },
+  {
+    "expert_quote": "I'm not sure about that. I mean, there's maybe a stereotype that they do, but I don't think that's the case, I think... On like technical teams, I think you don't become a software engineer somehow without being trained on, you know, what is data privacy and... I didn't. That wasn't something that we faced and I think maybe for like technical projects, that's less of. A less of an issue.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": true,
+    "rationale": "Person 2 explicitly contradicts the theoretical expectation of cultural resistance related to data practices, stating that standardized technical training overrides potential cultural differences, making this a negative case for the 'cultural_resistance' friction."
+  },
+  {
+    "expert_quote": "Again, for the same reasons. I have. I haven't experienced that as being a big, big difference.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": true,
+    "rationale": "This is a direct, explicit statement that differences in approach to model bias and ethics were not a significant issue, serving as a second negative case against the presence of cultural resistance on this specific ethical dimension."
+  },
+  {
+    "expert_quote": "If you only understand how people that look and think and feel like you will treat some system, then you probably will miss a lot of like possible ways. That someone might break your system... the more different perspectives you have, the better you're able to kind of imagine how things can go wrong, yeah.",
+    "mapped_id": "socio_technical_transition",
+    "is_negative_case": false,
+    "rationale": "The core argument—that diverse human perspectives are critical to understanding system behavior—exemplifies the move from a purely human- or mono-cultural-centric development model to a hybrid human-AI collaboration model where the 'system' (AI) is vetted and understood through pluralistic human insight."
+  }
+]

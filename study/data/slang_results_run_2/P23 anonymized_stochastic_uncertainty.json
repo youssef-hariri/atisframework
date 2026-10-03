@@ -1,0 +1,62 @@
+[
+  {
+    "expert_quote": "If you are not done the proper investigation... if a data spike happen in the data, definitely that model will fail. OK model will breakdown.",
+    "mapped_id": "model_drift",
+    "is_negative_case": false,
+    "rationale": "The participant uses the professional term 'spike' and the consequence 'model will fail' to describe performance decay due to sudden, unforeseen changes in data patterns, directly aligning with the indicator of model performance decay over time."
+  },
+  {
+    "expert_quote": "If you are not done the proper investigation... if a data spike happen in the data, definitely that model will fail.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "The phrase 'spike happen in the data' underscores a high sensitivity to data quality and volume, indicating that model robustness is contingent on stable, historical data patterns."
+  },
+  {
+    "expert_quote": "See suppose it is not easy to transfer the some of the datas into real time speakable language... we need some durations of time and also we need some resources infrastructure... It is costing us this much.",
+    "mapped_id": "probabilistic_variance",
+    "is_negative_case": false,
+    "rationale": "The participant describes unpredictable fluctuations in resource requirements ('time', 'infrastructure', 'cost') for processing variable data (audio files), mirroring the concept of statistical variance in prediction and estimation tasks."
+  },
+  {
+    "expert_quote": "The convincing part is taking more time even while designing end to end. We say that some estimated cost, they'll agree... even in the below the border of the the cost also they're not accepting while development.",
+    "mapped_id": "baseline_erosion",
+    "is_negative_case": false,
+    "rationale": "The slang 'convincing part is taking more time' and the struggle with cost estimates illustrate the management friction of having to repeatedly adjust and justify project forecasts and commitments due to underlying uncertainties."
+  },
+  {
+    "expert_quote": "We use the data metrics... We showcase... this was for them the cost reductions... then they accepted us.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The need to create and 'showcase' data metrics to gain acceptance points to the inherent complexity and difficulty in explaining algorithmic or architectural decisions, requiring additional effort to make outcomes transparent."
+  },
+  {
+    "expert_quote": "We need to buy back some days buffer times and all while designing the times on any project deadlines... we should plan properly.",
+    "mapped_id": "dynamic_forecast_adjustment",
+    "is_negative_case": false,
+    "rationale": "The participant's mention of planning 'buffer times' explicitly describes the need to constantly update project baselines as a proactive measure against instability, a core indicator of dynamic forecast adjustment."
+  },
+  {
+    "expert_quote": "Estimation is one of the biggest challenges... we have only visualized on the higher level... interdependencies... it was because of that wrong wrong calculations.",
+    "mapped_id": "non_linear_estimation",
+    "is_negative_case": false,
+    "rationale": "The admission that 'Estimation is one of the biggest challenges' and the surprise at 'interdependencies' describes the complex, non-linear relationship between project scope, resources, and timeline that defies simple, traditional planning."
+  },
+  {
+    "expert_quote": "The documentation is very important... even if a small changes... it should be recorded... documentation for each single development should be there then only.",
+    "mapped_id": "lack_of_reproducibility",
+    "is_negative_case": false,
+    "rationale": "The strong emphasis on comprehensive 'documentation' as a solution implies that without it, processes and results are not consistently replicable, directly addressing the challenge of reproducing AI-driven work."
+  },
+  {
+    "expert_quote": "Till now I haven't faced those kind of issues... Culture in it field doesn't impact... it never impacted in my entire career till now.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": true,
+    "rationale": "This is a negative case. The participant explicitly contradicts the theoretical friction by stating cultural differences have not led to issues in assigning responsibility or causing project failures, indicating this specific management friction was not present in their experience."
+  },
+  {
+    "expert_quote": "For data privacy part... we not faced any issue.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": true,
+    "rationale": "This is a negative case for this specific aspect. While 'data_dependency' broadly concerns sensitivity to data, the participant explicitly states they have faced no issues with data privacy measures, indicating a managed or non-problematic instance of this dependency in their context."
+  }
+]

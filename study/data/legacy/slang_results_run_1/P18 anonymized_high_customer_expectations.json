@@ -1,0 +1,42 @@
+[
+    {
+      "segment_id": 1,
+      "rubric_indicator": "magic_box_perception",
+      "evidence": "Person 2 describes AI work in technical, developmental terms: 'development of machine learning algorithms,' 'develop computer vision algorithms for diagnostics.' He frames AI as a tool built by multidisciplinary teams ('half developers and half interaction designers'), not an infallible autonomous entity.",
+      "metaphor_mapped": "AI as a 'built tool/product' (contrasts with 'Magic Box').",
+      "is_negative_case": true,
+      "negative_case_explanation": "His language demystifies AI. He focuses on the human-driven development process, directly countering the notion of AI as an opaque, perfect 'Magic Box.'"
+    },
+    {
+      "segment_id": 2,
+      "rubric_indicator": "trust_understanding_gap",
+      "evidence": "He identifies a clear cultural 'mismatch' in data privacy concerns: 'In Italy, we are not so concerned with this aspect of data privacy. Maybe not like in... Sweden or American... I've experienced a little mismatch in these concerns.'",
+      "metaphor_mapped": "Data privacy concern as a 'mismatch' or variable cultural setting.",
+      "is_negative_case": false,
+      "negative_case_explanation": "This aligns with the indicator, showing how a foundational aspect of trust (data handling) is not universally understood or valued, potentially undermining confidence in AI systems."
+    },
+    {
+      "segment_id": 3,
+      "rubric_indicator": "utility_mismatch",
+      "evidence": "He values multicultural teams for generating diverse perspectives that improve the product: 'if you have multiple point of view for... culture aspects involved would be very worthwhile for the project.' He gives the example of learning about Swedish energy management to inform algorithm development.",
+      "metaphor_mapped": "Multicultural input as a lens to correct 'blind spots' in utility.",
+      "is_negative_case": true,
+      "negative_case_explanation": "Person 2 assumes diversity *prevents* utility mismatch by incorporating varied cultural and practical viewpoints from the start, countering the assumption that AI will misalign with user goals."
+    },
+    {
+      "segment_id": 4,
+      "rubric_indicator": "paradoxical_expectations",
+      "evidence": "When asked about ethics, he states: 'I didn't find too much difference in ethics. I think the people I collaborate with were all aligned in the same vision.'",
+      "metaphor_mapped": "Ethical alignment as a shared 'vision' or baseline.",
+      "is_negative_case": true,
+      "negative_case_explanation": "He reports consensus, not tension. This contradicts the indicator of simultaneous high hopes and high perceived risk, at least among his academic and professional collaborators."
+    },
+    {
+      "segment_id": 5,
+      "rubric_indicator": "management_frictions",
+      "evidence": "He contrasts project leadership styles. The US collaboration lacked strong leadership: 'we didn't collaborate enough... we felt like we worked alone.' The Swedish collaboration had 'very strong leadership' leading to good follow-up and integration.",
+      "metaphor_mapped": "Leadership as the 'glue' for collaboration (Swedish) vs. a 'disconnected' workflow (US).",
+      "is_negative_case": false,
+      "negative_case_explanation": "This directly relates to 'feedback_dissonance' and 'trust erosion.' Poor leadership led to siloed work and no follow-up, hindering the feedback loop and likely eroding trust for future collaboration."
+    }
+  ]

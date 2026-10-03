@@ -1,0 +1,40 @@
+[
+  {
+    "type": "metaphor",
+    "quote": "I was stuck in a project... I had never stuck such a long time.",
+    "interpretation": "Uses 'stuck' as a metaphor for encountering a persistent, unpredictable technical barrier that halts progress, analogous to hitting an irreducible uncertainty or model failure point in a stochastic system.",
+    "linked_rubric_indicators": ["non_deterministic_outputs", "opaque_outcomes"]
+  },
+  {
+    "type": "metaphor",
+    "quote": "We lost so many people in that project...",
+    "interpretation": "Metaphor of 'losing people' describes team attrition as a form of unpredictable decay or drift, mirroring 'model drift' where system performance degrades due to changing components (team members).",
+    "linked_rubric_indicators": ["model_drift", "dynamic_forecast_adjustment"]
+  },
+  {
+    "type": "negative_case",
+    "quote": "I faced model bias... It underestimates some of the classes... I accept to not rightly estimate this kind of stars.",
+    "interpretation": "Direct experience of a model's inherent bias leading to unreliable, non-uniform predictions across different data classes. This is a clear negative outcome stemming from probabilistic variance and opaque algorithmic decision-making.",
+    "linked_rubric_indicators": ["probabilistic_variance", "opaque_outcomes", "non_linear_estimation"]
+  },
+  {
+    "type": "negative_case",
+    "quote": "She left the project for one month and tried to get turn back without any explanation... she was feeling threatened... The problem is that not qualified to lead...",
+    "interpretation": "Describes a project leadership failure characterized by unpredictable absence and poor qualification. This created instability (dynamic forecast adjustment), eroded team trust (baseline erosion), and made assigning responsibility difficult (accountability challenges).",
+    "linked_rubric_indicators": ["dynamic_forecast_adjustment", "lack_of_reproducibility"],
+    "linked_management_frictions": ["baseline_erosion", "accountability_challenges"]
+  },
+  {
+    "type": "negative_case",
+    "quote": "They are so prone to show good results... they manipulate some results... it is work make, say, lies to people.",
+    "interpretation": "Describes a cultural pressure to present optimal outcomes, leading to the manipulation of results. This directly creates a lack of reproducibility and opaque outcomes, as the true model/system performance is obscured, undermining accountability.",
+    "linked_rubric_indicators": ["lack_of_reproducibility", "opaque_outcomes"],
+    "linked_management_frictions": ["accountability_challenges"]
+  },
+  {
+    "type": "negative_case",
+    "quote": "We are using open data sets it is not issue for us. But if it would be... difficult if I have a company experience...",
+    "interpretation": "Highlights a conditional negative case: while current work avoids data issues, she acknowledges that proprietary or sensitive data in a company setting would introduce significant challenges related to data dependency and privacy, which are core to stochastic uncertainty.",
+    "linked_rubric_indicators": ["data_dependency"]
+  }
+]

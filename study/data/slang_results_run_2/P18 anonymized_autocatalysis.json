@@ -1,0 +1,44 @@
+[
+  {
+    "expert_quote": "Our main concern is to not share the data among the different companies. So we maybe develop some algorithms, but we want to try to keep data as separate as possible and not leak some companies data.",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": false,
+    "rationale": "The proactive, ad-hoc implementation of data separation by the research lab to mitigate privacy risk describes a micro-level response to a governance gap, illustrating how technical practice emerges ahead of formal, standardized frameworks."
+  },
+  {
+    "expert_quote": "In Italy, we are not so concerned with this aspect of data privacy. Maybe not like in... Sweden or... in the US group... I've experienced a little mismatch in these concern.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "The acknowledgment of a 'mismatch' in privacy concern levels between international collaborators reflects a nascent, ground-level recognition of varying socio-technical contexts and acceptance criteria, a precursor to a formal ethical shift."
+  },
+  {
+    "expert_quote": "Foreign people I collaborated with were more direct than... my colleagues here in Italy... they were very straightforward.",
+    "mapped_id": "judgment_substitution",
+    "is_negative_case": false,
+    "rationale": "The explicit comparison of communication styles ('direct' vs. less direct) describes a real-time, human-level recalibration of interaction protocols, hinting at how human judgment and social dynamics are being reconfigured in collaborative technical work."
+  },
+  {
+    "expert_quote": "I didn't find too much difference in ethics. I think the people I collaborate with were all aligned in the same vision.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": true,
+    "rationale": "The speaker explicitly states no divergence in ethical vision among collaborators, contradicting the indicator's expectation of a shifting focus to ethics driven by technical velocity, at least within their specific project teams."
+  },
+  {
+    "expert_quote": "As in other project strong leadership with a clear vision is very important... The project leader has to be one that merged together the people and has a clear vision for the project.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The emphasis on a leader to 'merge together the people' and provide a 'clear vision' is a human-floor description of a management mechanism attempting to create coherence and directionality, which is a core friction when facing fast, iterative 'AI time'."
+  },
+  {
+    "expert_quote": "On the American side... we didn't have strong leadership and for that... the project didn't have a follow up. While in the Swedish... there was very strong leadership... and for that, the project went well and had good follow up.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The contrasting outcomes attributed directly to the presence or absence of 'strong leadership' provide empirical, anecdotal evidence for leadership as a critical variable in managing the pace and coherence of collaborative projects, a key friction in temporal misalignment."
+  },
+  {
+    "expert_quote": "We felt like we were... not very involved... each one of us worked only on his things... we didn't collaborate enough.",
+    "mapped_id": "integration_debt",
+    "is_negative_case": false,
+    "rationale": "The description of siloed work ('worked only on his things') and insufficient collaboration resulting in a poorly integrated outcome is a human-level manifestation of 'integration debt' within a project team, mirroring the system-level challenge."
+  }
+]

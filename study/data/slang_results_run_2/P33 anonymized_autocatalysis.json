@@ -1,0 +1,44 @@
+[
+  {
+    "expert_quote": "It's such a general purpose technology. It's very you can't test for all possible things. There's many ways that it can go wrong.",
+    "mapped_id": "tool_proliferation",
+    "is_negative_case": false,
+    "rationale": "The slang 'can't test for all possible things' and 'many ways it can go wrong' directly describes the challenge of evaluating and integrating new, powerful, and multifaceted tools (like LLMs) faster than their risks can be systematically understood, a core feature of tool proliferation."
+  },
+  {
+    "expert_quote": "Particularly with the the current kind of projects that people are building with large language models and whatever... The more different perspectives you have, the better you're able to kind of imagine how things can go wrong",
+    "mapped_id": "gen_AI_acceleration",
+    "is_negative_case": false,
+    "rationale": "The explicit callout of 'large language models' as a distinct, current wave of technology requiring diverse perspectives to manage risk indicates an awareness of the unique and compounding rate of change introduced by generative AI, which defines gen_AI_acceleration."
+  },
+  {
+    "expert_quote": "Sometimes there's like, miscommunication about... how quickly something would would get done... They will kind of not mention that it's gonna it's delayed a bit and then only three days later we find out",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The example of project delays being communicated late highlights a clash between the expected pace of work ('AI time' or agile iteration) and the slower, more cautious communication rhythms of some team members ('organizational time'), a hallmark of temporal_misalignment."
+  },
+  {
+    "expert_quote": "We have a lot of documentation and kind of onboarding resources for for people about about like what the expectations are... the main thing where we're thinking about is like, does the way the person works and the way they think like does it mesh with how the company works?",
+    "mapped_id": "skill_obsolescence_pace",
+    "is_negative_case": true,
+    "rationale": "This quote describes proactive, structured onboarding focused on mindset and work-style fit, not frantic upskilling on new technical subtypes. It represents a managed, human-centric approach that contradicts the uncontrolled 'faster than replacement' dynamic of skill_obsolescence_pace."
+  },
+  {
+    "expert_quote": "Obviously certain countries have different rules and laws about data privacy, so that makes a difference.",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": false,
+    "rationale": "The acknowledgment of differing national laws as a 'difference' one must account for implicitly points to the fragmented and reactive nature of governance frameworks that emerge post-deployment, which is the essence of regulatory_lag."
+  },
+  {
+    "expert_quote": "I didn't... That wasn't something that we faced and I think maybe for like technical projects, that's less of... a less of an issue.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": true,
+    "rationale": "Person 2 explicitly states that differences in views on data privacy and ethics were not a significant issue in their technical team, contradicting the theorized shift where technical velocity forces a primary focus on human/ethical acceptance (socio_technical_shift)."
+  },
+  {
+    "expert_quote": "You need some space to... step back and think, like, are we doing this in the best way?... we quite often will change something. We change the team structure, this kind of thing.",
+    "mapped_id": "timeline_compression",
+    "is_negative_case": true,
+    "rationale": "This describes a deliberate, reflective process for organizational change (e.g., team structure), not a reactive, forced re-evaluation of architecture or testing due to rapid tool obsolescence. It shows control over process, contradicting the friction of timeline_compression."
+  }
+]

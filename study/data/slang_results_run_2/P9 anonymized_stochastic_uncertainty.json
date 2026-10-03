@@ -1,0 +1,62 @@
+[
+  {
+    "expert_quote": "I compare AI in many ways to Web 3 because that's where you see a lot of it being integrated and it's still the same thing because it's new because a lot of the people who are in that sphere are fairly, let's say, youngish.",
+    "mapped_id": "non_deterministic_outputs",
+    "is_negative_case": false,
+    "rationale": "The phrase 'still the same thing because it's new' and reference to 'youngish' participants suggests an ecosystem characterized by novelty and inexperience, implying processes and outputs are not yet fixed or mature, aligning with the concept of non-deterministic results."
+  },
+  {
+    "expert_quote": "Everything is constantly changing over and over again without any real foundation build. Whether it's communication, whether it's processes, whether it's learning from the things that are not working, everything just happening so quickly that a lot of times we just feels like constant change and constant churning.",
+    "mapped_id": "dynamic_forecast_adjustment",
+    "is_negative_case": false,
+    "rationale": "The description of 'constant change and constant churning' and a lack of a 'real foundation' directly captures the inherent instability that forces continuous updates to project baselines and forecasts."
+  },
+  {
+    "expert_quote": "I don't use ChatGPT for anything like that. ... I use it for proofreading ... I can't say that I would use it for something else. I I think it's. It's like a baby. It doesn't know what it doesn't know. So it just tells you whatever it thinks you want to hear.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The metaphor of a baby that 'just tells you whatever it thinks you want to hear' describes an algorithmic system whose internal logic and output generation are not transparent or reliably grounded, matching the indicator of opaque outcomes."
+  },
+  {
+    "expert_quote": "And I think the enthusiasm kind of forgets that it's still a baby and babies tell you gibberish and they need time to mature before they stop telling your nonsense.",
+    "mapped_id": "lack_of_reproducibility",
+    "is_negative_case": false,
+    "rationale": "The 'gibberish' and 'nonsense' metaphor applied to AI outputs highlights an inherent unreliability and inconsistency, directly mapping to the inability to consistently replicate AI-driven results."
+  },
+  {
+    "expert_quote": "When we talk about ethics, what would be acceptable in Europe is not necessarily acceptable in the United States. So in the United States is like, say, more liberal in terms of what data can be shared, how that data is looked at and perceived, and how can it be monetized. In Europe, you have the GRPR, which is highly, well, let's say more protected, not perfect, but more protective of privacy.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "The explicit comparison of data-sharing norms and privacy regulations ('GRPR' vs. US approach) underscores the high sensitivity of AI models to the quality, legality, and cultural relevance of the historical data they are trained on."
+  },
+  {
+    "expert_quote": "In the United States, a lot of data, a lot of information is ... out there that can be utilized to improve, whereas when you get to Europe less data is available and so there's less that you can feed into an API so that it can improve, right?",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "The direct statement about differential data availability ('less data is available' in Europe) and its impact on model improvement ('less that you can feed') is a clear, concrete example of the model's performance being dependent on historical data quality and volume."
+  },
+  {
+    "expert_quote": "Leadership is so critical to success, and when you're talk about something that's constantly churning like AI, you do need strong leadership.",
+    "mapped_id": "dynamic_forecast_adjustment",
+    "is_negative_case": false,
+    "rationale": "Identifying AI as 'constantly churning' explicitly names the underlying system instability that necessitates the management activity of strong leadership to guide constant forecast and baseline adjustments."
+  },
+  {
+    "expert_quote": "You establish best practices, right? And then you establish constant communication channels that allows for everybody to contribute and say this is what I've discovered. This is how I'm applying it, and then let's see what happens, right. And then you have to have room for mistakes, right? Rooms for things not to work and say, OK.",
+    "mapped_id": "probabilistic_variance",
+    "is_negative_case": false,
+    "rationale": "The pragmatic approach of 'let's see what happens' and making 'room for mistakes' acknowledges an expectation of fluctuations and outcomes that are not guaranteed, fitting the description of outputs subject to statistical probability."
+  },
+  {
+    "expert_quote": "And it's also continuous learning, right? So. I won't say that it's easy and I won't say that there aren't days where I feel totally overwhelmed. I can only say that you just try to go back to the basics, OK, let me document this. Let me look at it. Let me analyze it. Let me get feedback from others and then you see what happens.",
+    "mapped_id": "baseline_erosion",
+    "is_negative_case": false,
+    "rationale": "The described cycle of documentation, analysis, and feedback in response to feeling 'overwhelmed' by constant change illustrates the ongoing, reactive work required of managers to adjust plans and forecasts due to underlying probabilistic variance."
+  },
+  {
+    "expert_quote": "I find that on the engineering side of it ... I'm not the best communicators. ... the engineering side, especially the deep, deep, deep coding engineering side is really the most difficult to get feedback from.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": false,
+    "rationale": "The difficulty in obtaining feedback from deep technical experts ('the most difficult to get feedback from') points to a communication opacity that complicates understanding and assigning responsibility for AI-derived decisions and outcomes."
+  }
+]

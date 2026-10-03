@@ -1,0 +1,38 @@
+[
+  {
+    "expert_quote": "They know AI, but still they had that under current they always had that. This AI how it will, what will be their capability. Whether how much I can use this? How this will play out? In the future so that they always had, though they embraced it still they had that some questions.",
+    "mapped_id": "trust_understanding_gap",
+    "is_negative_case": false,
+    "rationale": "The phrase 'always had that some questions' and uncertainty about 'how much I can use this' indicates high optimism is undermined by opaque understanding of AI's practical limits and future behavior, matching the indicator's description."
+  },
+  {
+    "expert_quote": "Some of them, they were not very. Readily accepting. That they felt that, no, this could not be suitable for my subject.",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": false,
+    "rationale": "The statement 'could not be suitable for my subject' is a professional description of a user assuming AI's utility will not align with their specific personal or organizational goal (effective subject teaching)."
+  },
+  {
+    "expert_quote": "Their attitude was much, much better than the others. They wanted to learn. They wanted to see what it is they wanted to practice. They wanted to see how it will benefit my students...",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": true,
+    "rationale": "This quote describes a group (senior teachers) whose attitude contradicts the 'utility_mismatch' indicator. They actively sought to understand and align AI's utility with their goal of benefiting students, showing no inherent assumption of misalignment."
+  },
+  {
+    "expert_quote": "The senior ERP team, the soft, the software team, they started asking this person for support.",
+    "mapped_id": "magic_box_perception",
+    "is_negative_case": false,
+    "rationale": "The action of the senior team 'asking for support' from the junior AI engineer implies an initial belief that the AI copilot or its creator is an infallible, autonomous solution-provider for their needs."
+  },
+  {
+    "expert_quote": "And what happened after this? The senior ERP team, the soft, the software team, they started asking this person for support.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "The shift to asking the junior engineer for 'support' suggests users may be generating requests or 'bug reports' based on unrealistic benchmarks of what the AI can do, creating re-education labor for the engineer."
+  },
+  {
+    "expert_quote": "They felt that, no, this could not be suitable for my subject. And why should I do that? I'm happy. I'm happy where I am.",
+    "mapped_id": "trust_erosion",
+    "is_negative_case": false,
+    "rationale": "This reluctance and satisfaction with the status quo ('I'm happy where I am') exemplify disillusionment in early phases (CPD sessions) leading to resistance to adopting and scaling the AI tool."
+  }
+]

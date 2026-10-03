@@ -1,0 +1,58 @@
+{
+    "research_construct": "AI Technical Specificities Semantic Rubric",
+    "version": "1.2_Clean",
+    "specificities": [
+        {
+            "id": "process_disruption",
+            "definition": "Systemic friction emerging when non-linear, data-intensive AI workflows contradict traditional linear, phase-gated processes.",
+            "indicators": [
+                {
+                    "name": "socio_technical_transition",
+                    "description": "Moving from human-centric to hybrid human-AI collaboration models."
+                },
+                {
+                    "name": "workflow_brittleness",
+                    "description": "Increased vulnerability in linear processes when integrating adaptive AI."
+                },
+                {
+                    "name": "role_reconfiguration",
+                    "description": "Project managers shifting toward ethical judgment and system oversight."
+                },
+                {
+                    "name": "integration_friction",
+                    "description": "Challenges embedding AI into existing phase-based lifecycles (planning, execution, closure)."
+                },
+                {
+                    "name": "knowledge_clash",
+                    "description": "Tension between data-centric AI knowledge and tacit, experience-based human knowledge."
+                },
+                {
+                    "name": "procedural_nonlinearity",
+                    "description": "Iterative AI loops conflicting with sequential project methodologies."
+                },
+                {
+                    "name": "silo_breakdown",
+                    "description": "Cross-functional data needs undermining traditional departmental boundaries."
+                },
+                {
+                    "name": "ethical_automation_tension",
+                    "description": "Conflict between predictive automation and the need for human ethical oversight."
+                }
+            ],
+            "management_frictions": [
+                {
+                    "name": "legacy_inflexibility",
+                    "description": "Dynamic data needs hindered by legacy software built for static reporting."
+                },
+                {
+                    "name": "cultural_resistance",
+                    "description": "Distrust of data-centric approaches in favor of experiential knowledge and waterfall methods."
+                },
+                {
+                    "name": "role_transition_hurdles",
+                    "description": "Reskilling needs disrupting established hierarchies and decision-making authority."
+                }
+            ]
+        }
+    ]
+}

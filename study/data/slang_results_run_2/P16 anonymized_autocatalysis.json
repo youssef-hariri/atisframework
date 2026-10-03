@@ -1,0 +1,50 @@
+[
+  {
+    "expert_quote": "I've also done. Some you know, business related machine learning on customer segmentation, customer lifetime value. Modeling add effectiveness modeling so you know machine learning and advanced analytics sort of types of things there.",
+    "mapped_id": "tool_proliferation",
+    "is_negative_case": false,
+    "rationale": "The description of using various ML models (segmentation, CLV, ad effectiveness) for business analytics reflects the proliferation of specialized AI/ML tools being applied faster than a unified methodology can be established, matching the 'tool_proliferation' indicator of new frameworks released rapidly."
+  },
+  {
+    "expert_quote": "I think you know the folks from different backgrounds, different cultures that I've worked with. I think one of the big things that we encounter in tech is, you know, some cultures are a lot more, let's say, argumentative... I want people to push back and and argue, and maybe that's my very. American kind of cowboy idea... I've had people. Just, you know, agree with what I said and not bring up their own ideas, even if they had good ideas or took a long time for me to get them to share those with me, if they were different than my opinion, right?",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "The focus on human interaction styles (argumentative vs. deferential) and the effort required to elicit ideas highlights a shift from purely technical project execution to managing human acceptance, communication, and team dynamics—core to the 'socio_technical_shift' indicator concerning human acceptance due to technical velocity."
+  },
+  {
+    "expert_quote": "I don't think I had anything lead to a failure. I think it definitely led to sometimes things going slower, right for folks that were, you know, either either maybe a bit aggressive and that kind of made people not want to engage and kind of pull back... things might have taken longer. But I personally never had anything really fail because of this.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": true,
+    "rationale": "This is a negative case for the severity implied by the 'socio_technical_shift' indicator. While cultural differences created friction (slowness), the expert explicitly states it did not lead to project failure, contradicting the notion that these shifts are unmanageably disruptive in his experience."
+  },
+  {
+    "expert_quote": "In a more private situation, you know, like a one-on-one meeting, then they were a little bit more forthcoming. When I kind of prompted them of, like, hey, what do you think about my idea?... a little bit more kind of pulling and and questioning got them to express their opinion that you know clearly they had in their brain during the big meeting.",
+    "mapped_id": "judgment_substitution",
+    "is_negative_case": false,
+    "rationale": "The manager's process of 'pulling and questioning' to surface a subordinate's withheld judgment illustrates the active, human-led reconfiguration of decision-making processes (judgment flow) within a team, aligning with the 'judgment_substitution' indicator of reconfiguring human judgment."
+  },
+  {
+    "expert_quote": "I think you know it. It's somewhat similar to what I was saying earlier. I think you know, you know, some, some people, some cultures are more just very, you know, short in their feedback, right... I tend to be very verbose and say a lot of words... the way I would write a review versus, you know somebody on my team from another country... can read very differently, can be constructed very differently.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "The detailed comparison of feedback styles (verbose vs. concise) and their potential for misinterpretation ('mean or robotic') underscores the critical human-factors and communication challenges that become paramount in diverse, fast-paced tech environments, fitting the 'socio_technical_shift' indicator."
+  },
+  {
+    "expert_quote": "I've interacted with ChatGPT, it feels like an American English speaker responding to me... It doesn't feel like even even a British English speaker... I certainly. See that sort of. You know, coming from the training, you know data sets. Going into those models and kind of repeating back out.",
+    "mapped_id": "gen_AI_acceleration",
+    "is_negative_case": false,
+    "rationale": "The firsthand observation that a generative AI model's output is culturally specific ('American English') due to its training data directly illustrates how generative AI propagates and accelerates specific cultural and linguistic patterns, core to the 'gen_AI_acceleration' indicator of compounding change in innovation processes."
+  },
+  {
+    "expert_quote": "I wouldn't schedule a meeting for my team on Friday morning because that's Friday night in Poland and nobody wants to go to a work meeting Friday. 660 clock. You know, in the evening... figuring out what times of the day certain people are working in different countries.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The need to meticulously coordinate schedules across time zones ('Friday morning in California is Friday night in Poland') exemplifies the concrete clash between the seamless, always-on potential of digital work ('AI time') and the rigid, location-bound reality of human organizational life ('organizational time')."
+  },
+  {
+    "expert_quote": "My my team meetings with with Poland was always. To sort of, you know, 8:00 in the morning, California time, which is the very, very beginning of my day, maybe a little earlier than I like personally, but that's OK and never on a Friday.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The expert's personal schedule adjustment ('earlier than I like') to accommodate a global team is a direct manifestation of 'temporal misalignment,' where the pace and rhythm of collaborative work are forced into suboptimal compromises to bridge different human time zones."
+  }
+]

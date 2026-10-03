@@ -1,0 +1,56 @@
+[
+  {
+    "expert_quote": "But then when it comes to really trying to, yeah, give it a place in the organization. That's usually when the resistance gets a bit up and people think, oh, wait, we also need to change some parts of our processes. We don't want that.",
+    "mapped_id": "integration_friction",
+    "is_negative_case": false,
+    "rationale": "The phrase 'give it a place in the organization' and the observed resistance to changing processes are slang descriptions of the friction encountered when embedding (integrating) a non-linear AI system into established, linear organizational workflows."
+  },
+  {
+    "expert_quote": "From the Netherlands, I sense that there was this sort of tendency to also use the AI machine learning project to do some centralization. But I noticed that there was... not, really... welcomed by the German and Belgian subdivisions because they wanted their own also independence and liberties.",
+    "mapped_id": "silo_breakdown",
+    "is_negative_case": false,
+    "rationale": "The AI project's data-driven need for centralization ('do some centralization') directly conflicts with the desire for departmental independence, illustrating how AI workflows undermine traditional functional or geographical boundaries (silos)."
+  },
+  {
+    "expert_quote": "We we failed to bring the message across that they were comparing like different steps of their recruitment process and of course if you just scrape people from the Internet, you're not going to get as tailored as results as people who already talked had their CVS uploaded... because it's just a different part of the pipeline.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "The German team's critique based on their experiential knowledge of the recruitment pipeline ('comparing like different steps') clashes with the data-centric, automated sourcing logic of the AI, representing a tension between tacit human process knowledge and AI's operational paradigm."
+  },
+  {
+    "expert_quote": "In the end it was... not adopted... that had to do with the fact that this AI machine learning solution [required] a certain degree of collaboration between the sales recruiters. However, the sales recruiters themselves tend to think really competitively... they see it a little bit as a disincentive... they wanted to also have some metrics like... can we just give it only to our... best performers.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "The description of recruiters' competitive, individualistic mindset ('think really competitively') and their request for exclusive data access is professional slang for a cultural norm that resists the collaborative, data-sharing principles required for the AI system's success."
+  },
+  {
+    "expert_quote": "What I sense myself mainly is the differences between the the Dutch headquarters and the the German and Belgian... well, also other locations... I sensed a bigger bridge with the German team, because that one tended to be even quite a bit more hierarchical... Less open to feedback externally and and quite quite critical.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "Descriptors like 'more hierarchical' and 'less open to feedback' are human-floor terms for cultural attributes that created resistance to a change initiative (the AI project) driven from a different cultural context (the Dutch HQ)."
+  },
+  {
+    "expert_quote": "But from an explicit point of view, no, we weren't really prepared that well... but thankfully in data I do sense that... if we work internationally within data, the culture differences... tends to be relatively small. It's mainly the business that's having a little bit more outspoken differences.",
+    "mapped_id": "role_transition_hurdles",
+    "is_negative_case": true,
+    "rationale": "This is a negative case. Person 2 explicitly states that cultural differences within the data team ('within data') were not a significant hurdle, contradicting the theoretical expectation of major role transition hurdles stemming from cultural clashes in hybrid teams. The friction is noted as residing in the business units instead."
+  },
+  {
+    "expert_quote": "I think what would really help us at the start of that project was having a data manager on board which... was well versed about what data science can do... So really have a good benchmark... In a later project... I had a little bit of a lack of a benchmark... it was hard to convince the business people about what was actually better about this new solution.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "The need for a 'data manager' to create a 'benchmark' and translate between technical and business domains is slang for a mechanism to bridge the fundamental knowledge clash between data-centric AI outputs and business process understanding."
+  },
+  {
+    "expert_quote": "Spent a little bit less time behind the laptop and more times in in teams and in reality to to really, yeah, keep everyone involved because then the acceptance rate at the end will be much higher although the technical progress will be a little bit slower.",
+    "mapped_id": "integration_friction",
+    "is_negative_case": false,
+    "rationale": "The advice to shift focus from technical work ('behind the laptop') to human collaboration ('in teams') is a practical, slang-based strategy for managing the inherent friction of integrating a complex, abstract AI system into human-centric organizational realities."
+  },
+  {
+    "expert_quote": "With machine learning AI there's this little extra abstraction layer which is just very hard for... non... core data experts to to fully appreciate. So I think that requires even more alignment.",
+    "mapped_id": "socio_technical_transition",
+    "is_negative_case": false,
+    "rationale": "The term 'extra abstraction layer' is a professional metaphor for the novel, non-intuitive nature of AI workflows, highlighting the core challenge in transitioning from purely human-centric processes to ones requiring hybrid human-AI understanding and collaboration."
+  }
+]

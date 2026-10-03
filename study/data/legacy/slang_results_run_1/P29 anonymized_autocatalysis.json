@@ -1,0 +1,51 @@
+[
+  {
+    "speaker": "Person 2",
+    "metaphor": "The AI project as a tool for 'centralization' vs. a threat to 'independence and liberties'.",
+    "description": "Person 2 frames the AI chatbot project not just as a technical tool, but as a political instrument used by the Dutch HQ to centralize control, which is resisted by Belgian and German subsidiaries seeking autonomy.",
+    "autocatalysis_indicator": "socio_technical_shift",
+    "rationale": "This metaphor highlights a shift from viewing AI for pure process efficiency (economic benefit) to recognizing it as a catalyst for power redistribution and organizational change, forcing a focus on human/group acceptance."
+  },
+  {
+    "speaker": "Person 2",
+    "metaphor": "Comparing 'apples with oranges' in the recruitment pipeline.",
+    "description": "Used to describe the German team's critical feedback, which stemmed from comparing raw, scraped candidate data (a new, AI-enabled sourcing step) with pre-filtered, uploaded CVs (a later, human-centric step in the old process).",
+    "autocatalysis_indicator": "temporal_misalignment",
+    "rationale": "The metaphor captures the fundamental clash between the new, fast, AI-driven workflow ('scraping from the internet') and the ingrained understanding of a slower, sequential human process ('uploading to a database'). The teams were evaluating different temporal stages of the workflow."
+  },
+  {
+    "speaker": "Person 2",
+    "metaphor": "AI solution creating 'islands' within a team.",
+    "description": "Person 2 warns that in a team dominated by one culture with a small subgroup from another, there's a risk of forming isolated 'islands'. This metaphor extends to the integration of AI systems that may not align with all subcultures.",
+    "autocatalysis_indicator": "integration_debt",
+    "rationale": "The 'island' metaphor directly relates to integration debt—managing legacy human systems (cultural practices, hierarchies) that are incompatible with new, centrally-driven AI systems, leading to fragmentation and reduced collaboration."
+  },
+  {
+    "speaker": "Person 2",
+    "metaphor": "The 'extra abstraction layer' of AI/ML.",
+    "description": "Person 2 contrasts traditional data projects, where improvements are tangible, with AI/ML projects, which have an opaque 'abstraction layer' that makes the value and mechanics harder for non-experts to appreciate.",
+    "autocatalysis_indicator": "judgment_substitution",
+    "description": "This metaphor points to the core of judgment substitution. The 'abstraction layer' represents the black-box nature of many AI models, where human judgment is being reconfigured to trust or manage an output whose reasoning is not transparent, requiring a different kind of alignment and trust-building."
+  },
+  {
+    "speaker": "Person 2",
+    "negative_case_summary": "Successful Project with Clear, Human-Defined Benchmarks",
+    "description": "Person 2 describes a project that was highly successful because it had a well-versed data manager who established clear, quantitative goals (e.g., 90% classification accuracy) from the start, rooted in a deep understanding of the current business process.",
+    "contradicts_indicator": "temporal_misalignment",
+    "rationale": "This case shows that when AI development is firmly anchored in and paced by existing organizational understanding and clear human-defined metrics ('organizational time'), it can succeed without the friction of misalignment. The AI project's timeline was not compressed or detached from human capacity; it was integrated from the outset."
+  },
+  {
+    "speaker": "Person 2",
+    "negative_case_summary": "Project Failure Due to Incentive Structures, Not Technical Velocity",
+    "description": "The AI recruitment tool ultimately failed not because it became obsolete or was outpaced by a newer tool, but because the sales recruiters' competitive, commission-based culture saw data sharing as a disincentive. They wanted exclusive access to maintain a competitive edge.",
+    "contradicts_indicator": "tool_proliferation / gen_AI_acceleration",
+    "rationale": "The failure was socio-cultural and economic, not technological. The AI tool did not fail because a better one replaced it (tool proliferation) or because the innovation process itself accelerated (gen_AI_acceleration). It failed because human social and incentive systems were fundamentally misaligned with the collaborative logic of the tool."
+  },
+  {
+    "speaker": "Person 2",
+    "negative_case_summary": "Cultural Similarity as a Mitigating 'Glue'",
+    "description": "Person 2 notes that collaboration with the Belgian (Flemish) team was smoother due to shared language and similar cultural norms (direct but slightly softer communication style). This shared context acted as 'glue' that facilitated feedback and adoption.",
+    "contradicts_indicator": "socio_technical_shift",
+    "rationale": "This case illustrates that pre-existing socio-cultural alignment can absorb and mitigate the disruptive force of a new AI system. The technical velocity did not overwhelm the human capacity to adapt because the human systems were already closely aligned, reducing the need for a fundamental shift in acceptance and ethics."
+  }
+]

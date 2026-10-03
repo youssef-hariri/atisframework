@@ -1,0 +1,68 @@
+[
+  {
+    "indicator_name": "socio_technical_transition",
+    "analysis_excerpt": "Person 2 describes their role as a solutions architect in 'AI like Symantec AI Solutions, content engineering, data engineering... Knowledge graph based solutions,' and leads a team. They manage the integration of technical, data-intensive workflows with human teams, highlighting a hybrid model. Their primary focus is on controlled, business-context AI (RAG systems), not open-ended models, which shows a managed transition where AI augments specific business functions rather than replacing human roles wholesale.",
+    "negative_case": false,
+    "metaphor_mapping": "Refers to the team as 'agents,' implying a system where both human and AI components are orchestrated parts of a larger solution architecture. Describes building AI as an 'agent to assist... doing their business,' framing AI as a tool within a human-supervised framework."
+  },
+  {
+    "indicator_name": "workflow_brittleness",
+    "analysis_excerpt": "Person 2 does not explicitly describe process failures. Their focus is on using Retrieval-Augmented Generation (RAG) to 'control the responses of the AI' and 'limit some topics.' This controlled, bounded implementation is designed to avoid the brittleness of open-ended models by tightly coupling AI to specific, vetted datasets and business rules, making the workflow more robust but less adaptive.",
+    "negative_case": true,
+    "metaphor_mapping": "Implies their AI projects are built like a 'walled garden' or a 'guided path,' contrasting with the potential chaos of open, generative systems. This represents a conscious choice to avoid brittleness by not integrating the most nonlinear AI capabilities."
+  },
+  {
+    "indicator_name": "role_reconfiguration",
+    "analysis_excerpt": "As a team leader, Person 2's description of their work centers on technical oversight and team facilitation (e.g., one-on-one calls to understand team members, mediating different 'ways of thinking'). They emphasize aligning the team to 'company culture' and project goals. Their role is less about traditional task management and more about enabling collaboration and ensuring the technical system (the RAG pipeline) functions correctly within ethical and business guardrails.",
+    "negative_case": false,
+    "metaphor_mapping": "Positions themself as a 'bridge' or 'orchestrator'—connecting different cultural perspectives within the team and ensuring the AI system is correctly plugged into the business context. The one-on-one call is a tool for 'reconciling' differing viewpoints."
+  },
+  {
+    "indicator_name": "integration_friction",
+    "analysis_excerpt": "The friction Person 2 identifies is primarily cultural and communicative within the human team (e.g., different feedback styles, decision-making approaches), not technical integration of AI. They note that technical integration is smoothed by using constrained AI (RAG) tailored for specific business tasks, which avoids direct clashes with broader, phase-gated software development lifecycles. The integration challenge is sidestepped by design.",
+    "negative_case": true,
+    "metaphor_mapping": "Describes the AI solution as being in a 'business context' box. This box is then placed into the existing project environment, minimizing direct contact points and thus friction. The real 'integration' work is human-to-human, not system-to-process."
+  },
+  {
+    "indicator_name": "knowledge_clash",
+    "analysis_excerpt": "Person 2 highlights clashes in project approach (e.g., 'perfectionists' vs. 'lean startup mentality') and communication styles (direct vs. indirect 'proxy' feedback), which are forms of tacit, experience-based knowledge clashing. They do not mention clashes between data-centric AI logic and human intuition because their AI systems are not making autonomous judgments; they are retrieval systems. The knowledge clash is interpersonal, not human vs. machine.",
+    "negative_case": true,
+    "metaphor_mapping": "Describes cultural communication styles as having a 'proxy' (indirect) or no 'proxy' (direct). This metaphor for filtering information is analogous to how an AI model might process inputs, but here it's a human-cultural characteristic causing the 'clash.'"
+  },
+  {
+    "indicator_name": "procedural_nonlinearity",
+    "analysis_excerpt": "Person 2 advocates for a practical, iterative approach ('let's first make it good, then make it great') reminiscent of agile or lean methodologies, which they associate with a specific cultural background. This contrasts with a 'perfectionist,' linear, phase-gated approach. However, this nonlinearity is framed as a human project management philosophy, not an inherent requirement of the AI systems they build (which are presented as more deterministic).",
+    "negative_case": false,
+    "metaphor_mapping": "Uses the 'lean startup' metaphor to champion an iterative, build-measure-learn loop. This is a procedural metaphor for development that accommodates uncertainty and adaptation, which is necessary when dealing with complex systems like AI, even if the AI component itself is constrained."
+  },
+  {
+    "indicator_name": "silo_breakdown",
+    "analysis_excerpt": "Person 2 leads a team focused on a cross-functional domain (semantic AI, knowledge graphs). Their work inherently requires blending data engineering, software development, and business understanding. They discuss managing a multicultural team, which is another form of silo (cultural) breakdown. The need for 'one-on-one calls' to gather honest feedback suggests that informal information flows across cultural boundaries are critical, mirroring the cross-data flows needed for AI.",
+    "negative_case": false,
+    "metaphor_mapping": "The one-on-one call is a 'direct data pipeline' for extracting truthful feedback, bypassing the 'noise' and 'filters' of group dynamics and cultural silos. This is a human analogue to building a clean data integration pipeline for AI."
+  },
+  {
+    "indicator_name": "ethical_automation_tension",
+    "analysis_excerpt": "Person 2 acknowledges the massive ethical and copyright issues in foundational AI ('it's a big deal and... I don't think it has a solution'). However, they explicitly state their projects avoid this tension by using RAG: 'we actually control the responses... we limit some topics.' The ethical oversight is designed into the system architecture from the start, removing the need for real-time human judgment during operation. The tension is outsourced to the system designers.",
+    "negative_case": true,
+    "metaphor_mapping": "Describes their approach as building a 'fenced playground' for the AI. The fence represents the ethical and copyright guardrails (controlled data, limited topics). The automation happens inside the fence, so the tension with external ethical oversight is minimized."
+  },
+  {
+    "indicator_name": "legacy_inflexibility",
+    "analysis_excerpt": "Not discussed. Person 2's narrative is forward-looking on AI implementation and team management. There is no mention of legacy systems hindering their data-intensive workflows.",
+    "negative_case": true,
+    "metaphor_mapping": "N/A"
+  },
+  {
+    "indicator_name": "cultural_resistance",
+    "analysis_excerpt": "Person 2 describes cultural differences influencing work style (perfectionism vs. practicality) and communication (direct vs. indirect feedback). They manage this through active facilitation (one-on-ones) and alignment on overarching 'company culture.' The resistance is not to AI per se, but to different working and communication styles. Their solution is cultural integration, not technical.",
+    "negative_case": false,
+    "metaphor_mapping": "Describes company culture as the 'overlapping circles' where all team members find common ground. This is a centripetal force to counteract the centrifugal force of diverse individual cultural backgrounds. Different feedback styles are described as being with or without a 'proxy' (filter)."
+  },
+  {
+    "indicator_name": "role_transition_hurdles",
+    "analysis_excerpt": "Person 2's main challenge is managing a transition in communication and collaboration styles within a multicultural team, not a technical reskilling for AI. The 'hurdle' is fostering psychological safety and effective dialogue across cultural boundaries to enable the team to function. The authority (Person 2 as manager) uses their position to facilitate this transition through structured communication.",
+    "negative_case": true,
+    "metaphor_mapping": "The manager acts as a 'translator' or 'interpreter' between different cultural 'languages' and communication protocols within the team. This is a social form of system integration."
+  }
+]

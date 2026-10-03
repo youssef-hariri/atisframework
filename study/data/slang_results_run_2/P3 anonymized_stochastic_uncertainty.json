@@ -1,0 +1,80 @@
+[
+  {
+    "expert_quote": "Uh, mostly, of course. There is other nationalities, but at least in my teams is all the nationalities that I'm dealing with.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": true,
+    "rationale": "The interviewee describes team composition as a fixed, deterministic factor (certain nationalities) rather than a source of variance or sensitivity to input data, contrasting with the stochastic dependency on variable data inputs."
+  },
+  {
+    "expert_quote": "Uh, the planning and the architecture, in my opinion. I don't. I don't see much differences from from from having people from different backgrounds and multicultural forms of perspective, of multicultural. But of course the technical expertise plays the more important role.",
+    "mapped_id": "non_linear_estimation",
+    "is_negative_case": true,
+    "rationale": "The speaker asserts that cultural diversity does not significantly complicate the planning/architecture phase, implying that this phase is not subject to complex, non-linear interactions that cultural differences might otherwise introduce as a variable."
+  },
+  {
+    "expert_quote": "Ohm, the some statistical analysis of the data, stuff like this and.",
+    "mapped_id": "probabilistic_variance",
+    "is_negative_case": false,
+    "rationale": "The casual reference to 'statistical analysis' points to the foundational use of probability and statistics in their work, which is the core mechanism that introduces variance and fluctuations in model predictions."
+  },
+  {
+    "expert_quote": "In my opinion, I don't believe it's multicultural plays a major role in this.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": true,
+    "rationale": "The speaker directly states that cultural diversity is not a primary factor in the analytical phase, contradicting the idea that team diversity (a potential source of varied interpretation) contributes to the complexity or opacity of algorithmic outcomes."
+  },
+  {
+    "expert_quote": "However, like It was describing, maybe the defining the problem defining measure differences in in in the patterns.",
+    "mapped_id": "probabilistic_variance",
+    "is_negative_case": false,
+    "rationale": "The phrase 'differences in the patterns' acknowledges inherent variability in the data (fraud patterns across regions), which is the raw material for statistical modeling and a direct source of probabilistic variance in model outputs."
+  },
+  {
+    "expert_quote": "Uh. Related to the business area and business understanding, I think it's it's more multiculturalism plays more important.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "The statement links cultural perspective to business understanding, which is a factor in defining the problem scope and interpreting data relevance. This highlights a dependency on contextual, often qualitative, input that affects model goals and data selection."
+  },
+  {
+    "expert_quote": "Of course, like for me in Egypt we are not constrained with with these regulations, which we all, but when I'm but my colleagues from you, they are very aware of this and they they put it on the agenda that we need to comply with this because of the regulation.",
+    "mapped_id": "dynamic_forecast_adjustment",
+    "is_negative_case": false,
+    "rationale": "The need to adjust project processes ('put it on the agenda') based on differing regional regulations demonstrates a requirement for dynamic adaptation of project baselines (compliance frameworks) due to external, variable factors."
+  },
+  {
+    "expert_quote": "Uh, so the point of view regulation is a very important port, important related and basically it's related to the locality of data. So for example, in some situations we can work on the data, but on the service of the telecom operator itself, sometimes we it's OK to get a copy of the data to at least to do some local experiments. So this regulations play an important role.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "Explicitly ties data access and experimentation methods to local regulations ('locality of data'). This shows a high sensitivity and dependency of the AI workflow on external, geographically variable constraints affecting data quality and availability."
+  },
+  {
+    "expert_quote": "And the ethical questions. In my case it is not. This is not very significant because like I said, no person on that.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": true,
+    "rationale": "The speaker dismisses ethical questions as insignificant in their specific domain due to the data type (non-personal). This negates the presence of a friction where algorithmic opacity would lead to ethical accountability challenges in their current projects."
+  },
+  {
+    "expert_quote": "Not most of the people don't consider the the the problem of your online information on the privacy and how the companies of use like Facebook and Google are using your data. But this question, at least in Western communities, is is very important and it's a matter of debate... but maybe in the Middle East people don't care, so I think because we are in our work we are dealing with data so so not you will not find many people aware of of the idea of the privacy.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": false,
+    "rationale": "Describes a stark cultural variance in awareness and concern for data privacy. This difference in perspective among team members and stakeholders can directly challenge the establishment of clear, unified accountability for how data is used and how AI outcomes are governed."
+  },
+  {
+    "expert_quote": "In my experience, no.",
+    "mapped_id": "non_deterministic_outputs",
+    "is_negative_case": true,
+    "rationale": "When asked if there are specific cultural problems only for AI projects, the speaker's definitive 'no' suggests they do not perceive AI projects as introducing a uniquely different category of issues (like non-deterministic outputs causing cultural friction) compared to traditional software projects."
+  },
+  {
+    "expert_quote": "Yes, yes. Looking dynamics is quite the same.",
+    "mapped_id": "model_drift",
+    "is_negative_case": true,
+    "rationale": "Asserts that team dynamics are similar between AI and non-AI projects. This implies that the long-term performance decay or behavioral shifts specific to AI systems ('model drift') are not perceived as creating uniquely different interpersonal or management dynamics."
+  },
+  {
+    "expert_quote": "Let's say in a culture, if some cultures, when they all say when they say tomorrow it's tomorrow and in other cultures tomorrow is not exactly tomorrow and.",
+    "mapped_id": "baseline_erosion",
+    "is_negative_case": false,
+    "rationale": "Uses the metaphor of 'tomorrow' to illustrate fundamental differences in time perception and commitment. This cultural variability in interpreting deadlines and promises can force constant readjustment of project schedules and commitments, mirroring the erosion of baselines due to probabilistic variance."
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "expert_quote": "at the start, when there's an idea, usually everyone is very enthusiastic and thinks their lives will get easier.",
+    "mapped_id": "dreams_vs_reality",
+    "is_negative_case": false,
+    "rationale": "The phrase 'thinks their lives will get easier' is a human-floor description of an idealized, frictionless outcome, capturing the 'dream' aspect that precedes practical implementation challenges."
+  },
+  {
+    "expert_quote": "But then when it comes to really trying to, yeah, give it a place in the organization. That's usually when the resistance gets a bit up and people think, oh, wait, we also need to change some parts of our processes.",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": false,
+    "rationale": "The participant describes a moment of realization where the AI solution's utility is perceived as conflicting with established personal/organizational workflows ('change our processes'), indicating a mismatch between expected and actual operational alignment."
+  },
+  {
+    "expert_quote": "From the Netherlands, I sense that there was this sort of tendency to also use the AI machine learning project to do some centralization. But I noticed that there was not, really. That welcomed by the German and Belgian subdivisions because they wanted their own also independence and liberties.",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": false,
+    "rationale": "The project's intended utility (centralized efficiency) is directly in conflict with the local teams' goals ('independence and liberties'), a clear mismatch between the AI's proposed function and the stakeholders' operational desires."
+  },
+  {
+    "expert_quote": "they were making a little bit of compare apples with oranges because they were used to only uploading people to their database system, which already had talked to Rec... but what our solution did is just scrape people so to say from the Internet.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "The German team's feedback is based on an 'unrealistic benchmark' (manually pre-filtered candidates vs. raw scraped data). Their critique stems from a misunderstanding of the AI's function within the pipeline, creating dissonance that requires re-education."
+  },
+  {
+    "expert_quote": "they're like, yeah, if everyone has this information. There's no reward... they see the little bit as a disincentive to to be the best performer.",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": false,
+    "rationale": "The AI tool's utility is rejected because it misaligns with the personal, competitive goals of the sales recruiters. They expected it to support, not undermine, their individual performance incentives."
+  },
+  {
+    "expert_quote": "in the end it was I think still. Thanked. Unfortunately, that had to do with the fact that this AI machine learning solution a certain degree of collaboration... However, the sales recruiters themselves tend to think really competitively.",
+    "mapped_id": "trust_erosion",
+    "is_negative_case": false,
+    "rationale": "The participant describes 'disillusionment in pilot phases' leading directly to non-adoption. The mismatch between the AI's collaborative utility and the competitive culture eroded trust and led to the solution being 'thanked' (rejected)."
+  },
+  {
+    "expert_quote": "in a later projects... there I I had a little bit of a lack of a benchmark... it was hard to convince the business people about what was actually better about this new solution.",
+    "mapped_id": "explainability_deficit",
+    "is_negative_case": false,
+    "rationale": "The inability to provide a clear, transparent comparison ('lack of a benchmark') leads directly to frustration and resistance to adoption, a core aspect of explainability deficit where opaque AI value is not trusted."
+  },
+  {
+    "expert_quote": "with machine learning AI there's this little extra abstraction layer which is just very hard for yeah non. Yeah, core data experts to to fully appreciate.",
+    "mapped_id": "trust_understanding_gap",
+    "is_negative_case": false,
+    "rationale": "The participant explicitly names the 'extra abstraction layer' as the source of difficulty for business stakeholders, perfectly describing the gap between high-level optimism and the opaque, hard-to-understand mechanics of AI."
+  },
+  {
+    "expert_quote": "all of them to a very high degree. But all of them to a very high degree. But all of them to a very high degree.",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": true,
+    "rationale": "This is a strong negative case. When asked about data privacy/ethics (a proxy for fairness concerns), Person 2 states all locations were aligned and compliant, explicitly noting the German team was 'the most' serious. This contradicts the indicator of AI rejection due to perceived bias or unfairness."
+  }
+]

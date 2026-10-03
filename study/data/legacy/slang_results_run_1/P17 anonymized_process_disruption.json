@@ -1,0 +1,71 @@
+[
+  {
+    "indicator": "socio_technical_transition",
+    "evidence": "I was working with in conjunction with the US and Indian Time zone... So technically my work day starts past midnight.",
+    "metaphor": "none",
+    "negative_case": false
+  },
+  {
+    "indicator": "workflow_brittleness",
+    "evidence": "I had set ground rules before even start projects... strict rules were set on coding practices. Second thing was extensive testing... extensive documentation.",
+    "metaphor": "Ground rules (construction metaphor)",
+    "negative_case": true,
+    "explanation": "Person 2 proactively established structured protocols (ground rules, testing, documentation) to prevent brittleness in the distributed AI workflow, showing adaptation rather than disruption."
+  },
+  {
+    "indicator": "role_reconfiguration",
+    "evidence": "I am my leader. Title is just in the title... I prefer to be in the same level when it comes to work... I will be the point of contact when things goes down.",
+    "metaphor": "Horizontal vs. vertical leadership (spatial/organizational metaphor)",
+    "negative_case": false
+  },
+  {
+    "indicator": "integration_friction",
+    "evidence": "The problem was the team I was collaborating with was in India... the biggest time [zone difference]... 12 hour communication gap... I'm not reachable all the time.",
+    "metaphor": "Communication gap (spatial/barrier metaphor)",
+    "negative_case": false
+  },
+  {
+    "indicator": "knowledge_clash",
+    "evidence": "There is this very drastic difference when it comes to college work culture... the quality of the code... is not that up to the standard what US people expect... It feels like all of them are still doing a college project... rather than a professional project.",
+    "metaphor": "College project vs. professional project (developmental/academic vs. professional metaphor)",
+    "negative_case": false
+  },
+  {
+    "indicator": "procedural_nonlinearity",
+    "evidence": "The whole point of this extensive me stretching myself to create all this documentation is to because I know that I won't be there all the time.",
+    "metaphor": "Stretching myself (physical strain metaphor)",
+    "negative_case": true,
+    "explanation": "Person 2 created comprehensive, linear documentation (50 pages) to manage the nonlinear, asynchronous demands of the AI project, attempting to impose a linear, phase-gated support structure on an iterative, real-time process."
+  },
+  {
+    "indicator": "silo_breakdown",
+    "evidence": "There was this one main team... they were the main team directing my team what to do... they were pressuring... fix all these issues quickly because we want to deploy it.",
+    "metaphor": "Digging trenches and laying pipes vs. patching holes (construction/maintenance metaphor)",
+    "negative_case": false
+  },
+  {
+    "indicator": "ethical_automation_tension",
+    "evidence": "If two out of this flags are triggered... the entire interview is flagged for possible manual checking, like a person will then manually check.",
+    "metaphor": "Strikes (sports/legal metaphor)",
+    "negative_case": false
+  },
+  {
+    "indicator": "legacy_inflexibility",
+    "evidence": "There was a lot of code that was legacy. That was causing issues... you can access the internal credentials of the server through that coding window... security holes were there.",
+    "metaphor": "Security holes (physical infrastructure metaphor)",
+    "negative_case": false
+  },
+  {
+    "indicator": "cultural_resistance",
+    "evidence": "People are allergic to reading... I got a call at 4:00 AM... Did you even open the 50 pages of document?... the person said no.",
+    "metaphor": "Allergic to reading (medical/aversion metaphor)",
+    "negative_case": false
+  },
+  {
+    "indicator": "role_transition_hurdles",
+    "evidence": "When I was given leadership role I was just six months out of my undergrad... I faced problems. I was criticized. Failed and I learned.",
+    "metaphor": "none",
+    "negative_case": true,
+    "explanation": "Person 2 successfully navigated a rapid role transition from junior to leader through experiential learning and acceptance of failure, overcoming the typical hurdles of disrupted hierarchy and authority."
+  }
+]

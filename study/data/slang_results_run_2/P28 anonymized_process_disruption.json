@@ -1,0 +1,50 @@
+[
+  {
+    "expert_quote": "But is to help. You know solution architect... So yeah, my biggest part is helping solution architects be more productive.",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "The quote frames the expert's role as a supporter and enabler for architects' productivity, aligning with the theoretical shift from traditional execution to oversight and support roles in hybrid teams."
+  },
+  {
+    "expert_quote": "Is like you tend to work with a lot of people like to get something done. You have to collaborate with different people from different areas... And sometimes you may need to call people from us. You may need to call people from Dubai.",
+    "mapped_id": "silo_breakdown",
+    "is_negative_case": false,
+    "rationale": "The description of compulsory, cross-functional and cross-geographical collaboration to 'get something done' illustrates the erosion of traditional departmental and geographical boundaries in data/AI projects."
+  },
+  {
+    "expert_quote": "Security is like. The first priority in my role and my current company... It becomes really, really hard to like. If I may say, you know, we tend to say sometimes when you need to ship something, maybe you need to sacrifice this part. And just like ship it and replacei or something, but it's really hard to to risk security... It's like everyone's responsibility.",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": false,
+    "rationale": "The quote describes an inherent friction between the goal of 'shipping' (automating/delivering) and the non-negotiable requirement for security/privacy oversight, which creates a 'hard' and mandatory governance step in the workflow."
+  },
+  {
+    "expert_quote": "But the good thing I think of when a business or any team to do, it's like what we are currently doing like to put a mechanism in place... It's not about you making a decision, so if. The system is not followed then. You know you have a people problem. It's not. It's not a system problem. Now it's a people problem.",
+    "mapped_id": "legacy_inflexibility",
+    "is_negative_case": true,
+    "rationale": "Person 2 presents established 'mechanisms' and 'systems' as effective solutions that mitigate friction, not as sources of inflexibility. This contradicts the 'legacy_inflexibility' indicator, which posits such systems as hindrances to dynamic AI/data needs."
+  },
+  {
+    "expert_quote": "As far as I remember, I don't remember yet. Culture to be like hindrance, like a failure.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": true,
+    "rationale": "This is a direct negative case. Person 2 explicitly states they have not experienced cultural factors as a cause of failure or hindrance, contradicting the 'cultural_resistance' friction's premise of distrust and preference for traditional methods."
+  },
+  {
+    "expert_quote": "And I find it like could be a little bit. Fleeing. Yeah. You know, like you, you tend to feel like if there's no blank feedback coming back here, then I'm doing OK.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "The speaker describes an emotional adjustment ('fleeing') to a blunt, fact-based feedback culture versus a more indirect, relationship-preserving approach. This captures the tension between explicit, data/result-centric communication and tacit, experience-based social knowledge systems."
+  },
+  {
+    "expert_quote": "There is a lot of training just to keep you like. Ready for that?... It's like, as I told you, it's like more of mechanism... It's not very much flexible, true, but it really helps when you have no idea how to act... But at first it was mechanism really help",
+    "mapped_id": "role_transition_hurdles",
+    "is_negative_case": false,
+    "rationale": "The mention of mandatory training and rigid mechanisms as a primary tool for onboarding and role transition highlights the structured, sometimes inflexible, corporate response to the reskilling and behavioral adaptation hurdles presented by multicultural, hybrid environments."
+  },
+  {
+    "expert_quote": "It's more like a a leader is responsible for you... to see if you are. You are lining your personal goals with the company goals and to help you like get that out... Because of the how they are bringing up. I mean, how's their culture is?... It becomes like really inconsistent to a leader... It's like a new puzzle every day.",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "This quote vividly describes the leader's role reconfiguring from taskmaster to a coach focused on personal alignment amid wildly diverse ('inconsistent,' 'new puzzle') individual motivations shaped by culture. This aligns with the shift toward human-centric oversight and ethical/support judgment."
+  }
+]

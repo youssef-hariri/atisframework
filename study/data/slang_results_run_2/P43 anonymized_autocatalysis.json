@@ -1,0 +1,38 @@
+[
+  {
+    "expert_quote": "For the culture. I think it it didn't have any effect. To the successful of the project.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": true,
+    "rationale": "Person 2 explicitly negates the theoretical premise that rapid technical change shifts focus to human/ethical acceptance, stating cultural difference had no impact on project success."
+  },
+  {
+    "expert_quote": "Yeah, she she doesn't have a computer science program, so she worried that she cannot make changes in the future.",
+    "mapped_id": "skill_obsolescence_pace",
+    "is_negative_case": false,
+    "rationale": "The project manager's non-technical background creates anxiety about managing future technical iterations, a direct reflection of competencies becoming outdated relative to system evolution."
+  },
+  {
+    "expert_quote": "A strict work life balance like yeah. Weekends is free and then after working hours is free. But for for me and my friends, like we like work life balance as well. But if we need to, to. To push 'cause, it's like in the deadline. Yeah, we, we will do it...",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The participant describes a clash between a rigid, sequential 'organizational time' (German manager's schedule) and a more fluid, iterative 'AI/project time' willingness to work extra to meet deadlines, mirroring the temporal friction."
+  },
+  {
+    "expert_quote": "she accept the the opening but cannot implement it. Because for her it's too complicated.",
+    "mapped_id": "judgment_substitution",
+    "is_negative_case": false,
+    "rationale": "The manager's acceptance but inability to implement a technical suggestion indicates a reconfiguration of human managerial judgment; her decision-making is constrained by the system's complexity rather than pure technical feasibility."
+  },
+  {
+    "expert_quote": "when I created the new version like I need to create the a new API in the server... It's more complicated than the previous fashion.",
+    "mapped_id": "tool_proliferation",
+    "is_negative_case": false,
+    "rationale": "The creation of a new, more complex system version that the manager cannot handle exemplifies new technical iterations emerging faster than they can be practically integrated or managed by the existing team structure."
+  },
+  {
+    "expert_quote": "She told us that you can tell me anything if you cannot working on the task for today. You please just tell. Tell me. Tell her. Her like we we didn't. We don't need to hide something from each other...",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "The emphasis on radical transparency and psychological safety as a foundational rule for collaboration reflects a managerial focus on human factors and acceptance, which the theory posits becomes critical due to the velocity of technical work."
+  }
+]

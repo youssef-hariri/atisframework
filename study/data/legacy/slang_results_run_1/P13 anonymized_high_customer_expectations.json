@@ -1,0 +1,44 @@
+[
+  {
+    "indicator_or_friction": "dreams_vs_reality",
+    "quote": "The head of partnerships from that company asked us... he basically mentioned, see, we don't want this project to go on for six months... I responded stating that see, this would not take six months, but this would not take four weeks. But this would take less than two months... he was actually shocked. Previously, it had taken him six months and now we were saying it will take... thousands of dollars extra.",
+    "metaphor": "Timeline and cost shock as reality check",
+    "negative_case": false,
+    "reason": "Shows client's inflated expectations about AI project duration/cost contrasted with vendor's realistic timeline"
+  },
+  {
+    "indicator_or_friction": "utility_mismatch",
+    "quote": "He never agreed on the budget. In the initially he never agreed on the budget. But in my mind, I'm thinking he already agreed... And when I went back with the final product, he said... I don't appreciate it.",
+    "metaphor": "Unspoken expectations as communication gap",
+    "negative_case": false,
+    "reason": "Client assumed AI deliverables would align with their unstated budget constraints, leading to mismatch"
+  },
+  {
+    "indicator_or_friction": "unfairness_barriers",
+    "quote": "If you recruit someone from Europe... the security, safety and GDPR, I think by default it comes to them... But if you recruit a guy or a girl from India or Bangladesh? They may or may not know this... They just come and they get the job done... Nobody's intention is to get a data set and then try to break laws.",
+    "metaphor": "Cultural compliance gradient",
+    "negative_case": false,
+    "reason": "Shows varying cultural perceptions of data ethics affecting AI implementation"
+  },
+  {
+    "indicator_or_friction": "magic_box_perception",
+    "quote": "There's no big difference with ChatGPT and things like that. There's no big difference between 11 year experienced data engineer and a 6-year experience data engineer. If you ask me when it comes to coding and things like that.",
+    "metaphor": "AI as leveled playing field",
+    "negative_case": true,
+    "reason": "Person 2 actively demystifies AI, contradicting 'magic box' perception by emphasizing skill continuity"
+  },
+  {
+    "indicator_or_friction": "trust_erosion",
+    "quote": "They expect something to happen and we build something and then what ended up happening was the servers could not handle it because of architectural issues. So they weren't happy about it and they let us know.",
+    "metaphor": "Infrastructure as expectation gap",
+    "negative_case": false,
+    "reason": "Technical limitations undermine client trust in AI system delivery"
+  },
+  {
+    "indicator_or_friction": "feedback_dissonance",
+    "quote": "In my mind I was urgent because the guy who I had in contract was leaving to Taiwan in a few days... I thought it was a yes. And then the guy did what he had to do. And when I came back for review... he said I wouldn't appreciate it.",
+    "metaphor": "Assumed consent as communication failure",
+    "negative_case": false,
+    "reason": "Vendor misinterprets client feedback due to urgency, requiring relationship repair"
+  }
+]

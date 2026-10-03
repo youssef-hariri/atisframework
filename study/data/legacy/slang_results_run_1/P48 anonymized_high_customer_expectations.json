@@ -1,0 +1,61 @@
+[
+  {
+    "metaphors": [
+      {
+        "metaphor": "Magic Box / Black Box",
+        "quote": "…you have a product based on AI to offer… the business manager saying, OK, if I introduce this technology in my company, my jobs are the risk.",
+        "indicator": "magic_box_perception",
+        "interpretation": "AI is perceived as an autonomous, opaque force that can independently make decisions (like pricing) that jeopardize human roles, reflecting a view of AI as an infallible external agent rather than a tool."
+      },
+      {
+        "metaphor": "Press the Button",
+        "quote": "Just press the button and and make it happen. Automatically, but the managerial team says no, I won't touch the button… I must manage to value his job.",
+        "indicator": "dreams_vs_reality",
+        "interpretation": "The 'button' metaphor encapsulates the idealized vision of seamless, perfect automation. The managerial resistance highlights the reality gap where human judgment, job security, and control are prioritized over presumed AI perfection."
+      },
+      {
+        "metaphor": "Doing everything as a human",
+        "quote": "I haven't seen situations that AI is doing everything always as a human to guarantee that the output is applicable… is even consistent…",
+        "indicator": "anthropomorphic_projection",
+        "interpretation": "This contrasts the expectation that AI can fully replicate human reliability and contextual understanding with the reality that it requires human oversight to ensure quality and appropriateness."
+      }
+    ],
+    "negative_cases": [
+      {
+        "case_description": "Pricing Tool Rejection Due to Managerial Job Security",
+        "quote": "Some of the managerial teams says OK, like it, but these features, I don't want to put here. Because… they individually, they have a better solution… I must manage to value his job.",
+        "primary_indicators": ["utility_mismatch", "trust_understanding_gap"],
+        "management_friction": "trust_erosion",
+        "analysis": "A clear negative case where a technically effective AI solution is rejected because managers perceive it as misaligned with their personal goal of job preservation, not the organizational goal of optimization. The 'magic box' is distrusted not for its output, but for its perceived threat to human utility and control."
+      },
+      {
+        "case_description": "High-Cost AI CRM Failure",
+        "quote": "The cost that I… was having with Amazon was about $100,000 monthly… retailer said, OK, my margin's very low. The professional who's doing this manually is doing a very bad job. It's cheaper and I cannot afford your services.",
+        "primary_indicators": ["dreams_vs_reality"],
+        "management_friction": "feedback_dissonance",
+        "analysis": "This demonstrates a failure rooted in unrealistic expectations about AI's economic utility. The AI performed powerfully ('billions of coupons in seconds'), fulfilling a technical dream. However, the reality of prohibitive operational costs and the client's low-margin reality created a fatal utility mismatch. The feedback was a rejection based on cost, not capability."
+      },
+      {
+        "case_description": "Generative AI Producing Offensive Marketing Content",
+        "quote": "AI in a culture… can produce offensive piece of marketing… This is a training for AI. Much more so. The thing is, who is operating in the context of AI?",
+        "primary_indicators": ["explainability_deficit", "anthropomorphic_projection"],
+        "management_friction": null,
+        "analysis": "A negative outcome arising from the expectation that AI (like a human) understands cultural nuance and context. Its lack of explainable, reliable reasoning (prone to 'hallucination') leads to outputs that are technically generated but culturally inappropriate, forcing human intervention and 'training'—highlighting the gap between expected human-like understanding and actual algorithmic operation."
+      },
+      {
+        "case_description": "Leadership's Ethical Blind Spot with Data",
+        "quote": "The leadership… had no ethical problem of this information. That's private… In Brazil, we have a law… But you have to create a context for AI to use correctly the information.",
+        "primary_indicators": ["unfairness_barriers", "paradoxical_expectations"],
+        "management_friction": null,
+        "analysis": "This reveals a paradoxical expectation: leaders are excited by the power of AI and vast datasets (high hopes) but are blind to the compliance and ethical risks (high perceived risk), viewing data as a free resource rather than a potential source of unfairness or legal breach. This 'magic box' perception overlooks the necessity of building fairness and privacy into the system."
+      },
+      {
+        "case_description": "Cultural Feedback Loops Blocking Improvement",
+        "quote": "Here in Brazil… I don't have the culture of feedback… People don't call for feedback. Some of them do… it's a culture here… they don't give you feedbacks.",
+        "primary_indicators": ["trust_understanding_gap"],
+        "management_friction": "feedback_dissonance",
+        "analysis": "This is a meta-negative case about managing expectations itself. The lack of transparent, iterative feedback prevents the correction of mismatches between user expectations and AI performance. Users may reject a service based on an initial, possibly unrealistic, expectation without providing the detailed bug reports or critiques needed for the provider to educate or adapt the system, leading to sudden failure."
+      }
+    ]
+  }
+]

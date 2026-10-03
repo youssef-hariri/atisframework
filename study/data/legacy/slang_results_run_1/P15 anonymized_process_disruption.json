@@ -1,0 +1,72 @@
+[
+  {
+    "indicator_name": "socio_technical_transition",
+    "evidence": "Person 2 describes working with consultants in India at Sun Microsystems, expecting them to take design agency, but they wanted explicit instruction. Later, he notes the tech culture of Indian professionals has changed, becoming more 'American-like' in their approach.",
+    "interpretation": "Shows a transition from a hierarchical, instruction-driven collaboration model (human-centric) to a more autonomous, hybrid model where cultural and professional practices evolve toward shared agency. The expectation of agency reflects a move toward hybrid human-AI like collaboration, where initiative is valued.",
+    "metaphor_mapping": "\"Give them agency\" – framing autonomy as a gift or empowerment, contrasting with 'instruction' as a constraint.",
+    "negative_case": "The initial failure suggests the transition is not automatic or universal; it requires cultural and communicative adaptation over time."
+  },
+  {
+    "indicator_name": "workflow_brittleness",
+    "evidence": "The project with the India team required a redesign and rewrite. Person 2's assumption of a flexible, agency-based workflow clashed with the team's expectation for linear, specific instructions, leading to a suboptimal outcome ('they came back with the same thing').",
+    "interpretation": "Illustrates how a linear, phase-gated process (give task, check weekly) becomes brittle when integrating teams expecting different workflows. The lack of adaptive communication protocols caused the process to fail to produce innovation.",
+    "metaphor_mapping": "None explicitly used for workflow.",
+    "negative_case": "Not directly observed; the brittleness led to a failed iteration, not a systemic breakdown."
+  },
+  {
+    "indicator_name": "role_reconfiguration",
+    "evidence": "Person 2 emphasizes his leadership philosophy: 'I trust you until I can't,' values 'soft skills almost as much as... technical skills,' and focuses on 'understanding people and understanding how they fit together' when building teams.",
+    "interpretation": "His role as a manager is reconfigured from pure technical oversight to a focus on ethical judgment (trust), values alignment, and system (team) orchestration. This aligns with managing the human complexities in data-intensive environments.",
+    "metaphor_mapping": "\"Meet them where they are\" – leadership as a journey or navigation, not a command post.",
+    "negative_case": "None; his approach is consistent and presented as successful."
+  },
+  {
+    "indicator_name": "integration_friction",
+    "evidence": "Discusses the challenge of a European-designed UI icon being a white supremacist symbol in the US, and the need to comply with different privacy laws (e.g., GDPR in Germany vs. HIPAA in the US) when deploying products globally.",
+    "interpretation": "Highlights friction in integrating a unified product or AI system into diverse cultural and regulatory landscapes (phase-based deployment). Data privacy and ethical norms are not global, causing integration overhead and design rework.",
+    "metaphor_mapping": "None explicitly used for integration.",
+    "negative_case": "None; these are presented as standard, expected challenges."
+  },
+  {
+    "indicator_name": "knowledge_clash",
+    "evidence": "1) The UI icon incident: Eastern European designers lacked the tacit cultural knowledge of its meaning in the US. 2) Early experience with Indian team: Person 2's knowledge of 'good management' (giving agency) clashed with the team's experiential knowledge of expected hierarchical direction.",
+    "interpretation": "Demonstrates tension between data-centric/universal design principles and localized, tacit cultural knowledge. Also shows clash between different 'schools' of managerial knowledge.",
+    "metaphor_mapping": "None explicitly used for knowledge.",
+    "negative_case": "The icon issue was caught and corrected, showing clash but not catastrophic failure."
+  },
+  {
+    "indicator_name": "procedural_nonlinearity",
+    "evidence": "While not explicitly about AI loops, Person 2's description of the hiring process values ongoing assessment of 'soft skills' and 'values' alongside technical tests, and team construction based on dynamic 'fit.' This contrasts with a linear 'hire for skill, deploy to task' model.",
+    "interpretation": "Suggests an adaptive, iterative approach to team building and management that is necessary for complex projects, mirroring the non-linearity needed in AI development. The focus is on continuous human-system integration.",
+    "metaphor_mapping": "None explicitly used for process.",
+    "negative_case": "None directly observed."
+  },
+  {
+    "indicator_name": "silo_breakdown",
+    "evidence": "Led teams with members in Hungary, London, Austin, and worked with consultants across the US, India, and Eastern Europe. Success required coordination across these geographic and cultural 'silos.'",
+    "interpretation": "The global nature of tech work inherently breaks down silos. Effective management requires integrating cross-functional, cross-cultural data and perspectives, undermining traditional single-location, department-centric boundaries.",
+    "metaphor_mapping": "None explicitly used for silos.",
+    "negative_case": "The time zone difference with India is cited as a persistent, pragmatic silo that is hard to break down."
+  },
+  {
+    "indicator_name": "ethical_automation_tension",
+    "evidence": "Discusses the divergence between US (innovation-focused) and European (ethics/regulation-focused) approaches to AI. Cites the argument that over-regulation might hinder innovation.",
+    "interpretation": "Directly highlights the core tension between the drive for predictive automation/AI advancement and the imperative for human ethical oversight, framed as a cultural and regulatory divide.",
+    "metaphor_mapping": "\"Barriers around AI\" – regulation as a wall or impediment to progress.",
+    "negative_case": "None; this tension is presented as a fundamental, ongoing debate."
+  },
+  {
+    "management_friction_name": "cultural_resistance",
+    "evidence": "The early experience with the Indian team is a form of cultural resistance to the 'agency' model. Person 2 also contrasts the 'ambitious and driven' US culture with the more protected, less frantic UK work culture.",
+    "interpretation": "Shows resistance to data-centric, agile, or empowered workflows in favor of experiential, hierarchical, or stability-oriented methods. This resistance is rooted in deep-seated cultural norms about work and authority.",
+    "metaphor_mapping": "None explicitly used for resistance.",
+    "negative_case": "Person 2 notes this resistance has diminished over time ('tech culture of Indians has changed'), suggesting it can be overcome."
+  },
+  {
+    "management_friction_name": "role_transition_hurdles",
+    "evidence": "Person 2's initial misstep with the Indian team required him to learn 'better how to communicate.' He describes this as a 'subconscious adaptation' over time.",
+    "interpretation": "Moving from a one-size-fits-all management style to a culturally intelligent one is a reskilling hurdle. It disrupts the established authority model ('I tell, you do') and requires developing new communicative and empathic skills.",
+    "metaphor_mapping": "\"Subconscious adaptation\" – learning as an organic, almost unnoticed process, not a formal training.",
+    "negative_case": "He successfully made this transition, viewing it as part of professional growth."
+  }
+]

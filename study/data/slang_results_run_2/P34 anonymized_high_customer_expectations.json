@@ -1,0 +1,26 @@
+[
+  {
+    "expert_quote": "Some people are more like people from certain cultures might be more direct, so they'll say like oh, this isn't working. This needs to be fixed. Or or. I don't like this, whereas if you're from a culture where you kind of you don't say things to people's face as often. Then you might say something like you might start even with pricing and say, oh, this is really good. Just say everything's fine. Everything's working. It's such an amazing product. I really like it. And then and then sort of towards the end you might you had to like really. Start pulling at some thread there might. There might be a hesitation.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "Person 2 describes user feedback mechanisms that can lead to dissonance. Direct users file reports ('this isn't working') which may stem from unrealistic benchmarks of perfection. Indirect users, to avoid being 'rude', offer initial praise but later reveal a 'massive problem', forcing the developer to 'pull at some thread'. This exemplifies the labor of 're-education' needed to parse feedback based on unrealistic expectations or communication styles, rather than on the technology's actual performance parameters."
+  },
+  {
+    "expert_quote": "Everyone has a sort of baseline understanding of. And appreciation of. The impact of what we do on other people and I think I think that is to me that is a that is a deal breaker. Like if you if you don't have that just basic understanding that OK if I do this thing it will impact another person... There's no clash like no one's going. Oh yeah, we should sell this data to to to this company because we can make some money. It doesn't. That doesn't really enter into it.",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": true,
+    "rationale": "This is a clear negative case. Person 2 explicitly states that his team shares a foundational ethical stance regarding data privacy and harm prevention ('a deal breaker'). He directly contradicts the indicator by stating that exploitative or unfair actions ('sell this data') are not even considered, indicating that in his context, perceived bias or unfairness is not a driver for rejecting AI systems, but rather a shared value that prevents such barriers from arising."
+  },
+  {
+    "expert_quote": "If you work with someone from Germany for example. They will be very serious about data security and they will be very concerned with implementation here, not sort of ethics, but more. They're very specific about it. So where is the data stored?... You're like, oh, it's slow. And then I but where? Yeah, it's in Europe. Yeah, but where in Europe?",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": false,
+    "rationale": "Person 2 describes a stakeholder (from Germany) whose requirements for AI/system utility are highly specific and context-driven by historical-cultural factors ('Cold War' surveillance). This granular, non-negotiable demand ('where in Europe?') illustrates a 'utility mismatch'—the AI provider's assumed or standard offering (data in 'Europe') does not perfectly align with the user's deeply rooted organizational/personal goals and risk profile, creating a friction point in adoption or satisfaction."
+  },
+  {
+    "expert_quote": "Be prepared to be uncomfortable, but don't take being uncomfortable as being as failing or doing something wrong.",
+    "mapped_id": "trust_erosion",
+    "is_negative_case": false,
+    "rationale": "While speaking about multicultural teamwork, Person 2's advice encapsulates a key mitigation strategy for 'trust erosion'. He frames 'discomfort'—a potential symptom of disillusionment when systems (or collaborations) don't meet initial, perhaps idealized, expectations—as a natural phase, not a failure. This mindset of normalizing and persisting through initial friction is precisely what's required to prevent early disillusionment in AI pilot phases from leading to resistance to scaling and demands for redesign."
+  }
+]

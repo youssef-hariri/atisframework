@@ -1,0 +1,50 @@
+[
+  {
+    "expert_quote": "And at the university I work within... we merge both the data science skills and user experience and interaction design skills... we develop AI products for some companies we collaborate with... my main research fields are energy management and healthcare.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The description of merging disparate disciplines (data science, UX, design) to build complex AI products is a 'human-floor' description of the multi-faceted, interdisciplinary nature that contributes to algorithmic decision-making complexity and hard-to-explain results."
+  },
+  {
+    "expert_quote": "Our main concern is to not share the data among the different companies... we try to keep data as separate as possible and not leak some companies data.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "The focus on data segregation and preventing leaks is professional slang for the high sensitivity to data provenance, quality control, and relevance, which are core to the 'data_dependency' indicator concerning model inputs."
+  },
+  {
+    "expert_quote": "In Italy, we are not so concerned with this aspect of data privacy. Maybe not like in... Sweden or American in the US group I work with, maybe for most students, we are less concerned. About this aspect, I've experienced a little mismatch in these concern.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "The 'mismatch in concern' about data privacy across cultures is an everyday description of how foundational assumptions about data (its handling, sensitivity, value) vary, directly impacting the quality and governance of the historical data on which models depend."
+  },
+  {
+    "expert_quote": "The one with the Swedish... after the project was ended, we we also shared some feedback also after months... we kept some contacts... to inform others how the project went so.",
+    "mapped_id": "dynamic_forecast_adjustment",
+    "is_negative_case": false,
+    "rationale": "The practice of sharing feedback 'after months' and keeping contacts to inform on project outcomes is a professional description of an ongoing, post-hoc adjustment and learning loop, mirroring the need for constant baseline updates due to underlying system or outcome instability."
+  },
+  {
+    "expert_quote": "On the American side I think we didn't. Strong leadership and for that, as I said, the project. Didn't have a follow up.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": false,
+    "rationale": "Linking the absence of strong leadership directly to a lack of project follow-up is a human-level description of how unclear governance (a form of opacity) makes it difficult to assign responsibility for maintaining momentum and oversight on AI-derived initiatives."
+  },
+  {
+    "expert_quote": "We felt like we were. We worked alone. I don't know we. I think we weren't very involved. In some aspect of the project and each one of us worked only on.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The feeling of working in isolation and not being involved in all aspects describes a siloed workflow, which is a common contributor to opaque outcomes as team members lack full context for how algorithmic components integrate and produce final results."
+  },
+  {
+    "expert_quote": "No, in this aspect I didn't find too much difference in ethics. I think the people I collaborate with were all aligned in the same vision.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": true,
+    "rationale": "This is a clear negative case. The expert explicitly states no cultural difference in ethical views, contradicting the potential for ethical opacity to create accountability challenges. He reports alignment, simplifying the attribution of responsibility for ethical decisions."
+  },
+  {
+    "expert_quote": "No, I I didn't place no. (In response to facing failures/roadblocks because of culture)",
+    "mapped_id": "baseline_erosion",
+    "is_negative_case": true,
+    "rationale": "This is a direct negative case. The expert explicitly denies experiencing project failures or roadblocks due to culture, which contradicts the narrative that cultural factors (which could influence data interpretation or model acceptance) force managers to repeatedly adjust forecasts and commitments."
+  }
+]

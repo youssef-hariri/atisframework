@@ -1,0 +1,38 @@
+[
+  {
+    "expert_quote": "Take, for example, fluid dynamics. That's. That's the kind of stuff that is. That is always been based on statistics, and that's where AI shines. Compared to traditional solvers and that that kind of stuff.",
+    "mapped_id": "probabilistic_variance",
+    "is_negative_case": false,
+    "rationale": "The expert uses the domain of 'fluid dynamics' as a professional metaphor to explain AI's strength in handling systems inherently governed by statistical/probabilistic relationships, contrasting it with deterministic 'traditional solvers'. This directly aligns with the indicator of 'probabilistic variance' where models manage fluctuations based on statistical probability."
+  },
+  {
+    "expert_quote": "As soon as you start something new, then it's almost like, yeah, all the assumptions that you have that you have from your old teams. They're all bound with rang. You have to do that again because because if you work together for for four years, then then people over there know about us and vice versa... But with new people, yeah... You have to teach them again.",
+    "mapped_id": "model_drift",
+    "is_negative_case": false,
+    "rationale": "The expert describes the need to constantly re-calibrate team understanding and assumptions with 'new people' and 'something new' as a foundational condition of work. This is a human-system metaphor for the theoretical 'model drift', where performance and understanding decay as the underlying conditions (team composition, project phase) change, necessitating a reset or re-training."
+  },
+  {
+    "expert_quote": "If if you take Asian countries versus. European countries. Asian countries are way higher on the masculinity index and that that means that hierarchy is is is very important there as well... It's it's hard for people to to provide a critique. I mean that they are typically dealing with well, if he's saying it, then it's probably true. Let's let's let's work with it. And even if they know well, he's making a mistake there. They're not speaking up...",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The expert uses the cultural concept of 'hierarchy' and the 'masculinity index' as professional slang to describe a system where the rationale behind decisions becomes opaque. If team members do not critique or question decisions due to cultural norms, the decision-making process and its outcomes become non-transparent and hard to explain, matching the indicator 'opaque_outcomes'."
+  },
+  {
+    "expert_quote": "In in Europe, and especially in in in the Netherlands, we expect people to to speak up. So if you're not aware of that one... The you have to know that you're human and you have to give the people the level of trust that they start speaking up and that that that's something that takes time.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": false,
+    "rationale": "The expert frames the cultural expectation to 'speak up' as a prerequisite for clear accountability. The absence of this behavior (in other cultures) implicitly creates a 'friction' where it is difficult to assign responsibility for decisions or outcomes derived from collaborative (or AI-augmented) work, directly linking to the 'accountability_challenges' management friction."
+  },
+  {
+    "expert_quote": "You also have to be aware of. Well, it's it's not like we are in the West and we know best... You also have to have that situational awareness.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "The expert's advice against assuming 'we know best' serves as a metaphor for the theoretical concept of 'data dependency'. Just as AI models are highly sensitive to the specific data (context, quality, relevance) they are trained on, project success is dependent on understanding and adapting to the local situational and cultural 'data', rather than applying a one-size-fits-all Western approach."
+  },
+  {
+    "expert_quote": "But as soon as you start something new, then it's almost like, yeah, all the assumptions that you have... are all bound with rang. You have to do that again... You have to teach them again.",
+    "mapped_id": "dynamic_forecast_adjustment",
+    "is_negative_case": false,
+    "rationale": "The repeated need to rebuild understanding and 'teach them again' for every new team or project phase is described as a fundamental, recurring task. This human-process metaphor aligns with 'dynamic_forecast_adjustment', where underlying system instability (here, team and knowledge churn) forces a constant recalibration of plans and shared baselines."
+  }
+]

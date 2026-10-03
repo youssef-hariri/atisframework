@@ -1,0 +1,38 @@
+[
+  {
+    "indicator_name": "dreams_vs_reality",
+    "evidence": "Person 2 describes the initial project handoff to the Indian consulting team at Sun Microsystems: 'I thought I was doing them a favor to give them authority and agency to make design decisions... They didn't want that. They wanted me to tell them what to do.' This illustrates an idealized vision (delegating for innovation) clashing with the practical reality of the team's expectation for explicit, hierarchical instruction.",
+    "metaphors_mapped": ["'Agency' as a gift or favor", "Design decisions as a form of empowerment vs. a burden of uncertainty"],
+    "negative_case": false
+  },
+  {
+    "indicator_name": "trust_understanding_gap",
+    "evidence": "In the same Sun Microsystems example, Person 2 states: 'I assume I was making assumptions. That they understood my direction... I think there was this possibly a disconnect between what I was asking, what they understood...' This shows high initial optimism (trust in the team's understanding) being undermined by a fundamental misalignment in communication and expectation, leading to an unsatisfactory outcome.",
+    "metaphors_mapped": ["Direction as a clear path vs. a vague concept", "Understanding as alignment vs. assumption"],
+    "negative_case": false
+  },
+  {
+    "indicator_name": "utility_mismatch",
+    "evidence": "Person 2 recounts an incident with a UI/UX consulting team in Eastern Europe: '...one of the icons they chose was in the American culture is basically a white supremacist sign... they wouldn't have known, right? Because they don't understand the culture enough.' This highlights a mismatch where the AI/tech team's output (the icon) was functionally designed but did not align with the cultural goals and sensitivities of the American end-user, assuming a universal utility.",
+    "metaphors_mapped": ["Cultural understanding as a 'blind spot'", "Icons as neutral symbols vs. culturally loaded signs"],
+    "negative_case": false
+  },
+  {
+    "indicator_name": "unfairness_barriers",
+    "evidence": "Person 2 discusses regulatory differences affecting AI/data projects: '...in the United States, there are certain regulations... We also had delivered this product to Europe, including Germany. Germany has a lot more strong regulations on privacy.' He later connects this to AI ethics: '...ethics are playing a part in AI in Europe in a way that they're not playing a part in the United States... The US would probably value innovation over ethics...' This points to perceived (and legal) barriers to AI adoption/scaling based on differing cultural and legal standards of fairness and privacy.",
+    "metaphors_mapped": ["Regulations as 'barriers' vs. 'protections'", "Innovation and ethics as a trade-off or scale"],
+    "negative_case": false
+  },
+  {
+    "indicator_name": "feedback_dissonance",
+    "evidence": "Implicit in the Sun Microsystems story is a feedback loop failure. Person 2 expected innovative redesign proposals ('dreams'), but received incremental changes ('reality'). The required 're-education labor' is described in his adaptation: 'I've probably learned better how to communicate with them.' The feedback (the delivered code) was dissonant with his benchmark for success, necessitating a change in his management approach.",
+    "metaphors_mapped": ["Communication as a learned skill for bridging gaps", "Project output as feedback on process understanding"],
+    "negative_case": false
+  },
+  {
+    "indicator_name": "NEGATIVE CASE: Lack of 'Magic Box' Perception",
+    "evidence": "Throughout the transcript, Person 2 discusses AI and technology in highly practical, process-oriented, and human-dependent terms. He focuses on team dynamics, communication, regulation, and cultural context. There is no expression of belief in AI as an autonomous, infallible solution. His examples (privacy compliance, UI icon selection, team management) consistently frame success as dependent on human oversight, interpretation, and adaptation.",
+    "metaphors_mapped": ["Technology as a tool shaped by culture and law", "Success as a product of team composition and understanding"],
+    "negative_case": true
+  }
+]

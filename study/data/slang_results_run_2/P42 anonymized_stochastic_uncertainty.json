@@ -1,0 +1,44 @@
+[
+  {
+    "expert_quote": "I would have problem with people coming up front. Saying there might be a delay with this. And then once I did end up with project being late because we didn't identify. We didn't identify them. We will be late so.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "Person 2 describes a situation where the cause of a critical project delay was not visible or identifiable to the team in advance. This 'inability to see ahead' metaphorically parallels the theoretical definition of 'opaque outcomes,' where algorithmic complexities make results hard to predict and explain."
+  },
+  {
+    "expert_quote": "So what we did as a team, we regrouped... we said. OK, there has to be some communicational issue... we we wrote a system... we've encouraged... to say yesterday I worked on this, this and this, but I was struggling to do this. So if someone struggles more than five hours, either they need to, you know, help, or maybe to revisit the solution and change the decision on how to solve.",
+    "mapped_id": "dynamic_forecast_adjustment",
+    "is_negative_case": false,
+    "rationale": "The creation of a new communication 'system' with rules for reporting struggle and revisiting solutions represents a procedural mechanism for constant, real-time baseline adjustment. This is a 'human-floor' description of managing underlying task instability, which aligns with the indicator of needing to constantly update baselines due to system unpredictability."
+  },
+  {
+    "expert_quote": "It took us nine months. To come to a good point where we've had people coming up front and saying this is like encouraging free opinion decision, giving them more freedom as well.",
+    "mapped_id": "baseline_erosion",
+    "is_negative_case": false,
+    "rationale": "The nine-month timeframe to establish reliable reporting indicates a prolonged period of instability where forecasts and commitments (baselines) could not be reliably set. The effort to 'come to a good point' directly maps to the friction of managers having to repeatedly adjust forecasts due to unpredictable variance in task completion and communication."
+  },
+  {
+    "expert_quote": "In the past, yes... That depends a lot from the climate you receive. From what I could do, and I think I I that's what I was talking about. I could only have an impact on the personal level for the people, but at the end of the day, that's how I treat people. It's how I treat anyone, regardless of if I and that's my individual culture... Someone else has a different approach.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": true,
+    "rationale": "Person 2 explicitly frames accountability ('impact on the personal level') as a function of individual managerial style and personal culture ('how I treat people'), rather than an inherent challenge stemming from a complex, opaque system. This contradicts the rubric's definition, which posits opacity as the root cause of accountability challenges, not individual manager differences."
+  },
+  {
+    "expert_quote": "So I did have someone who worked. I I was in. So I think I've actually a very good. I had a very good experience because I have experience with. I was the one who was outsourced when I was in Bosnia. I was an outsse theme, right? While now in in United States I have an opportunity to be in. You know more of a management working with outsourced team, so.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "Person 2's professional identity is framed through the lens of being 'outsourced' data (human capital) from one context (Bosnia) and later managing 'outsourced' data (teams) from other contexts (India, Ukraine). This lived experience of being a data point sensitive to geopolitical and economic contexts serves as a profound human metaphor for the theoretical indicator of 'high sensitivity to historical data quality and relevance.'"
+  },
+  {
+    "expert_quote": "So in in terms of giving the freedom to an engineering position level to think about not just, hey, give me a task and I will execute it. No, this is a project. These are the tasks. You will work here. Someone will work here. These are the dependencies. And it has to be a healthier communication.",
+    "mapped_id": "non_linear_estimation",
+    "is_negative_case": false,
+    "rationale": "The shift from simple task execution to understanding 'dependencies' and the 'bigger picture' of a project is a professional slang description of moving from a linear, sequential view of work to a complex, interdependent one. This mirrors the 'non-linear estimation' indicator, which describes complex relationships that do not follow traditional linear paths."
+  },
+  {
+    "expert_quote": "I don't think like the the laptop or machine at the end of the day that human made can be better than the human to human interaction.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The explicit statement that human-made machines cannot surpass human interaction is a value judgment rooted in the perceived incomprehensibility or inadequacy of machine outputs. This directly supports the indicator of 'opaque outcomes,' where algorithmic decision-making is seen as inferior because its processes and rationales are 'hard to explain' compared to human reasoning."
+  }
+]

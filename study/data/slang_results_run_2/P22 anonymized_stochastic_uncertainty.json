@@ -1,0 +1,56 @@
+[
+  {
+    "expert_quote": "So making teams successful, there's one thing, like what actually I expect from everyone in my team is to be very active.",
+    "mapped_id": "non_deterministic_outputs",
+    "is_negative_case": false,
+    "rationale": "The speaker identifies 'activity' as a variable input to project success, analogous to a non-deterministic model where team performance (output) is not fixed but depends on fluctuating human factors."
+  },
+  {
+    "expert_quote": "Like there are people from the South Africa and the Nigeria. In in that like in that regions, there are technical issues... then they will be unactive for one day and they will like Internet was gone electricity was gone.",
+    "mapped_id": "probabilistic_variance",
+    "is_negative_case": false,
+    "rationale": "The quote describes fluctuations in team member activity based on external, statistically probable events (internet/power outages), mirroring the probabilistic variance in model outputs based on external data or conditions."
+  },
+  {
+    "expert_quote": "So it's, but not like the people who don't want to work or don't want to work hard enough. One Actually, mostly we were making a over like, I will and this is, but that when we were about tomit, like the two, three hours left.",
+    "mapped_id": "dynamic_forecast_adjustment",
+    "is_negative_case": false,
+    "rationale": "The speaker describes a scenario where the project scope or effort ('over like') is adjusted close to a deadline, indicating an underlying instability requiring constant baseline updates, akin to dynamic forecast adjustment in an unstable system."
+  },
+  {
+    "expert_quote": "He came, I explained the idea, complete idea, complete project. And they're like, okay, you should you should guys do that I will leave the team after three days.",
+    "mapped_id": "model_drift",
+    "is_negative_case": false,
+    "rationale": "A team member's understanding and commitment decay over time ('after three days'), leading to their exit. This mirrors model drift where performance decays as underlying conditions (here, human engagement and comprehension) change."
+  },
+  {
+    "expert_quote": "Not really, like mostly the perspective that like we have to do the encryption description for the passwords and have to save the database. I not really I have seen this difference.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": true,
+    "rationale": "This is a negative case. The speaker explicitly states they have *not* seen differences in views on data privacy. This contradicts the indicator that AI system behavior (or project approach) is highly sensitive to varying input perspectives (data quality/relevance)."
+  },
+  {
+    "expert_quote": "Like their perspective is different, like here, mostly, we saw the arrs, but node in the countries and you know that better.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The speaker notes a fundamental difference in cultural perspective that affects project targeting and understanding. This highlights the complexity of algorithmic (or project) decision-making when inputs (cultural contexts) are varied and not fully transparent to all parties, leading to potentially hard-to-explain outcomes."
+  },
+  {
+    "expert_quote": "Maybe I maybe made a complex for them on the project like I was thinking like maybe I made complex for them... Mostly like this happened, mostly as aain, then I try to replace myself, I okay, I will do.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": false,
+    "rationale": "The speaker assumes personal accountability ('I made complex for them', 'I will do') when a collaborative task fails due to misunderstanding. This illustrates the friction of assigning clear responsibility in a complex system where outcomes are opaque and dependent on variable human comprehension."
+  },
+  {
+    "expert_quote": "Mostly like there will be like sorry, I was like there are two one is technical issues, mostly all that the technical issues, like they may not understand or maybe they have some internet or electricity issues.",
+    "mapped_id": "lack_of_reproducibility",
+    "is_negative_case": false,
+    "rationale": "The speaker lists variable excuses ('technical issues', 'may not understand') for unreproducible team member performance. This mirrors the inability to consistently replicate AI-driven results when underlying contributing factors are unstable or not fully controlled."
+  },
+  {
+    "expert_quote": "...but when I pick at the feedback because we were actually top six and or top five, but we didn't uh go to the top three that like point two, three position that had actually want to just because of the judging criteria.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The speaker attributes a project's final ranking to 'judging criteria' which is presented as a somewhat opaque or external factor determining success. This reflects the complexity and potential inexplicability of outcomes from a decision-making system (the judges' evaluation)."
+  }
+]

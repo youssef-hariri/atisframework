@@ -1,0 +1,66 @@
+[
+  {
+    "section": "metaphors",
+    "items": [
+      {
+        "metaphor": "Climbing a Tree (Cedar vs. Coconut)",
+        "transcript_excerpt": "So my mental model is like climbing a tree... The best way to climb a tree... is the cedar tree... The most difficult tree to climb... is the coconut... You can't climb the freaking tree by going all the way up.",
+        "mapped_indicator": "non-linear_estimation",
+        "explanation": "Person 2 uses this metaphor to illustrate the need for incremental, step-by-step validation in AI projects (cedar tree with branches) versus attempting a direct, high-risk 'all-or-nothing' approach (smooth coconut tree) that fails due to AI's inherent unpredictability. It emphasizes that progress must be built on empirically validated, stable 'branches' due to non-linear estimation challenges."
+      },
+      {
+        "metaphor": "Commando, Army, Police Mindsets",
+        "transcript_excerpt": "The first mindset is a commando. People who are very good with uncertain things... The other is the army... The third thing is the police... You need all three.",
+        "mapped_management_friction": "accountability_challenges",
+        "explanation": "This metaphorical framework categorizes team members by their approach to uncertainty. The 'commando' thrives on it, the 'army' needs rules to scale, and the 'police' demands strict, written procedures. The friction arises in aligning these different mindsets (and the cultural tendencies behind them) toward a shared, accountable approach for managing a stochastic AI project."
+      },
+      {
+        "metaphor": "Dinosaur vs. Validated Expert",
+        "transcript_excerpt": "You have the dinosaurs... Then you have the theoretical people... The best quadrant is a balance of both... which is what I call validated expertise.",
+        "mapped_indicator": "data_dependency & opaque_outcomes",
+        "explanation": "Person 2 maps expertise on axes of 'theory' and 'practical experience.' 'Dinosaurs' have deep domain experience but no AI theory, struggling with AI's data dependency and opaque logic. Pure theorists lack practical validation. The ideal 'validated expert' metaphorically occupies the quadrant that balances understanding theoretical stochastic principles with practical, empirical validation—essential for navigating AI's uncertainty."
+      }
+    ]
+  },
+  {
+    "section": "negative_cases",
+    "items": [
+      {
+        "contradictory_practice": "Demanding 100% Certainty from an AI System",
+        "transcript_excerpt": "I have had a customer. We implemented AI and they they fundamentally told us they need 100% certainty with this AI solution... that never exists... they spent a lot of money only to realize that it was the wrong people.",
+        "mapped_rubric_element": {
+          "type": "indicator",
+          "name": "non_deterministic_outputs"
+        },
+        "explanation": "This is a direct contradiction of the core nature of stochastic uncertainty. The customer's requirement assumes deterministic outputs, ignoring the inherent variability and statistical nature of AI models. The project's failure stems from this fundamental mismatch between stakeholder expectation (certainty) and system reality (non-determinism)."
+      },
+      {
+        "contradictory_practice": "Assuming Linear Workflows for AI Problem-Solving",
+        "transcript_excerpt": "There's a big mindset shift from deterministic solutions to more stochastic... It's typical for people to think of the positive case and assume that it's gonna work like that way, but AI is never like that, right?",
+        "mapped_rubric_element": {
+          "type": "indicator",
+          "name": "non-linear_estimation"
+        },
+        "explanation": "Person 2 identifies a common negative case where teams apply traditional, linear project management thinking (assume a clear path to a known positive outcome) to AI projects. This fails because AI development is non-linear, involving iterative testing, edge case discovery, and constant recalibration, which the 'positive case' mindset does not accommodate."
+      },
+      {
+        "contradictory_practice": "Treating AI Implementation as a Pure Technology/Methodology Problem",
+        "transcript_excerpt": "But if you start with the methodology, I think what people tend to do with AI projects, they focus on methodology, assuming people understand but they they realize they have not. They're not aligned with their mental approach.",
+        "mapped_rubric_element": {
+          "type": "management_friction",
+          "name": "accountability_challenges"
+        },
+        "explanation": "This highlights a negative case where project leaders bypass the critical human and cultural alignment phases (mental models, incentives) and jump directly to technical methodology. This neglects the foundational work needed to establish shared understanding and accountability for stochastic outcomes, leading to project drift and failure as team members are not prepared for the inherent uncertainty."
+      },
+      {
+        "contradictory_practice": "Offshore Data Labeling Without Business Context",
+        "transcript_excerpt": "We did a lot of implementation before for machine learning... labeling was done in Romania. And it was bad. The accuracy level was really low... part of its cultural part. It is just not understanding the business context.",
+        "mapped_rubric_element": {
+          "type": "indicator",
+          "name": "data_dependency"
+        },
+        "explanation": "This case shows a failure to manage the data dependency of AI models. The practice of outsourcing a critical, context-dependent task (labeling) without transferring the necessary business and cultural context leads to poor-quality training data. This directly introduces error and bias into the model, exacerbating its stochastic uncertainty because its foundational data is flawed."
+      }
+    ]
+  }
+]

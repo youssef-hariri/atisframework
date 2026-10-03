@@ -1,0 +1,44 @@
+[
+  {
+    "expert_quote": "After a while, nobody cares about the technology. OK, to be honest. The customer will be only concerned if their application is working or not. He doesn't care.",
+    "mapped_id": "magic_box_perception",
+    "is_negative_case": true,
+    "rationale": "The statement contradicts the 'magic box' notion by asserting that customers are indifferent to the underlying AI technology, focusing solely on functional utility ('working or not'), thereby negating the expectation of AI as a special, infallible solution."
+  },
+  {
+    "expert_quote": "They really don't care if underneath it is being powered by AI or Gen. AI. Nothing.",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": true,
+    "rationale": "The quote indicates a pragmatic focus on end-results rather than a presupposition that AI recommendations will perfectly align with organizational goals. The customer's primary concern is utility ('application working'), not a mismatch between AI's output and a preconceived ideal."
+  },
+  {
+    "expert_quote": "But in certain confidential industries like mine, right when you're dealing with governments and everything, yous really can't have a third party app recording these convers... And taking notes.",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": false,
+    "rationale": "The professional slang 'you really can't have a third party app' points to a rejection or barrier to AI tool adoption due to perceived risks (data confidentiality, compliance), aligning with the indicator of barriers arising from concerns over fairness, security, and ethical compliance."
+  },
+  {
+    "expert_quote": "Europeans in the join in they're particularly very concerned about these data loss, compliance, GDP and everything. They're pretty more... Aware and because they are as a culture, I think these GDPR laws are also ingrained in their sort of the way of doing their business.",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": false,
+    "rationale": "The description of Europeans being 'very concerned' and laws being 'ingrained' highlights a cultural driver for heightened sensitivity to data ethics and regulatory fairness, which can act as a barrier to AI adoption if not addressed, matching the 'unfairness_barriers' indicator."
+  },
+  {
+    "expert_quote": "So then Indians will. Just quickly, makeshift one thing like a small prototype and start building from there... Certain countries, people will be better... Germans in their team, right... Want to do it very properly and you know it has to be 100% perfect and everything, but you'll never get there right?",
+    "mapped_id": "dreams_vs_reality",
+    "is_negative_case": false,
+    "rationale": "The contrast between the pragmatic, iterative approach ('makeshift one thing', 'small prototype') and the pursuit of unattainable perfection ('100% perfect', 'you'll never get there') illustrates a core tension between idealized visions of a flawless solution and the practical, imperfect process of building AI projects."
+  },
+  {
+    "expert_quote": "I've seen a bunch of... Right now, I wouldn't say failure due to just because of culture because of... People's personalities and egos, yes, but not because of culture.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": true,
+    "rationale": "This quote explicitly contradicts the management friction 'feedback_dissonance' by attributing project issues to personal factors ('personalities and egos') rather than to cultural misunderstandings or unrealistic expectations that would require re-education labor."
+  },
+  {
+    "expert_quote": "Not really actually. But it we face some load blocks but it was more of the political roadblocks say because of tax laws in different countries and you know, customs laws... It's very political roadblocks and not really cultural roadblocks per SE.",
+    "mapped_id": "trust_erosion",
+    "is_negative_case": true,
+    "rationale": "The speaker explicitly differentiates external, political/compliance barriers from internal, culturally-driven disillusionment ('trust_erosion'). This negates the friction, stating that project roadblocks are not due to team or client disillusionment with the AI itself."
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "expert_quote": "And text to voice to text conversions and all. I've worked on that part now. See some people's write. Everybody talk about artificial intelligence. The data science and all but most of the people's when it comes to deployment to development part, they're not. They don't. They don't have a patience, so they're not able to understand that what the dev team under data science team is facing and issues.",
+    "mapped_id": "integration_friction",
+    "is_negative_case": false,
+    "rationale": "The expert describes a 'patience' deficit and lack of understanding from stakeholders regarding development and deployment phases, pointing to friction in embedding AI workflows into established project lifecycles due to mismatched expectations and timelines."
+  },
+  {
+    "expert_quote": "See suppose it is not easy to transfer the some of the datas into real time speakable language... we need some durations of time and also we need some resources infrastructure for those things, OK. Those things always talks about the cost, but OK. No, no, no. You don't do go with that much of AGPU and all utilization. It is costing us this much.",
+    "mapped_id": "legacy_inflexibility",
+    "is_negative_case": false,
+    "rationale": "The expert highlights a conflict between the dynamic, resource-intensive computational needs of AI (e.g., GPUs for audio processing) and the static, cost-centric budgeting mindsets of management. This reflects inflexibility in legacy financial or procurement systems not built for AI's adaptive requirements."
+  },
+  {
+    "expert_quote": "The convincing part is taking more time even while designing end to end... they're looking only in the productionnaising the part, but they're not looking that the development part is not. They're not looking into the cost part. Also, they have to consider that part as well.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "The stakeholder focus is solely on production costs and outputs, ignoring the iterative, experimental development phase critical to AI. This reflects a cultural preference for linear, outcome-focused (waterfall-like) thinking over the data-centric, iterative process of AI development."
+  },
+  {
+    "expert_quote": "If you are the any spike happen in the data, definitely that model will fail. OK model will breakdown fault. Toler can't do so we have as a being an architect. I explained completely end to end... if you're not giving what I want, I can't give what you want.",
+    "mapped_id": "workflow_brittleness",
+    "is_negative_case": false,
+    "rationale": "The expert explains how unpredictable data ('spike') can cause model failure, highlighting the increased vulnerability of an AI-integrated system. The phrase 'if you're not giving what I want, I can't give what you want' underscores the brittle dependency of the AI workflow on proper, foresighted resourcing."
+  },
+  {
+    "expert_quote": "Based on the business requirement under based on if you are working with ecommerce site ecommerce company, you have to follow the different ethics. So, like with the customer's details and all the and if you are working for us and up Europe countries, he has to you use a GDPR and all that takes part and all. But if you are using for other countries like we don't need to so so. The different, different policies standards we need to use.",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "The expert details the need to adapt data handling and ethical policies (like GDPR) based on client location, a task requiring judgment and oversight. This exemplifies how project roles have expanded to include managing complex, region-specific ethical and compliance landscapes, beyond just technical delivery."
+  },
+  {
+    "expert_quote": "See, this is the data. If you use this one this one, this is things are happening. This is the core set and this part this complete data. Complete data engineer architecture which we developed for POC. Then with the data metric they accepted.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "The expert uses objective 'data metrics' from a Proof of Concept (POC) to convince stakeholders. This act of showcasing quantitative evidence represents an effort to bridge the tension between data-centric validation and stakeholders' potentially subjective or experience-based ('we've always done it this way') decision-making processes."
+  },
+  {
+    "expert_quote": "I haven't faced those kind of issues with the... Issue for breaking failure kind of thing has never happened because of the culture because everybody know that everybody each. Respect each other, OK? Culture in it field doesn't impact OK? Even even if you are being a different religions.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": true,
+    "rationale": "This is a direct negative case. The expert explicitly states that national culture or religion has not led to project issues or failures, directly contradicting the 'cultural_resistance' friction which anticipates distrust or preference for traditional methods based on cultural or experiential background."
+  }
+]

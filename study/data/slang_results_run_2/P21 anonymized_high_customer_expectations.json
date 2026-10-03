@@ -1,0 +1,62 @@
+[
+  {
+    "expert_quote": "The biggest problem with AI is trust. Right. There's a lot of hallucination with generative AI, a lot of lawsuits, a lot of intellectual property being stolen.",
+    "mapped_id": "trust_understanding_gap",
+    "is_negative_case": false,
+    "rationale": "The statement contrasts the high expectation of a reliable AI tool with the practical realities of flaws (hallucinations) and risks (lawsuits, IP theft), indicating a gap between trust based on hype and understanding of problematic behavior."
+  },
+  {
+    "expert_quote": "I have had a customer. We implemented AI and they they fundamentally told us they need 100% certainty with this AI solution... they want 100%. Like a certain thing, but that never exists because that project was not good.",
+    "mapped_id": "dreams_vs_reality",
+    "is_negative_case": false,
+    "rationale": "The quote directly contrasts a customer's idealized, deterministic expectation of flawless AI ('100% certainty') with the inherent stochastic nature of AI ('that never exists'), perfectly illustrating the gap between dreams and practical outputs."
+  },
+  {
+    "expert_quote": "They've been working on a system for 20 years for the old system. To rapidly change things and trust AI, to do part of their work takes away stuff from them. But fundamentally, it takes away trust. They don't trust it.",
+    "mapped_id": "trust_erosion",
+    "is_negative_case": false,
+    "rationale": "Describes disillusionment (trust erosion) during the implementation phase, where a lack of trust in the new AI system leads to user resistance, which maps directly to the 'resistance to scaling' and 'demands for redesign' described in the management friction."
+  },
+  {
+    "expert_quote": "So the big thing is it's a question of, hey, do you wanna trust a vendor or partner or any company or organization or another? With your sacred data... customers or folks are not willing to share.",
+    "mapped_id": "paradoxical_expectations",
+    "is_negative_case": false,
+    "rationale": "Highlights the simultaneous high hope for AI's value (driving them to engage a vendor) and the high perceived risk (distrust, unwillingness to share 'sacred' data), demonstrating a core tension within stakeholder expectations."
+  },
+  {
+    "expert_quote": "The big problem is the product is not get ready but they want to implement it...",
+    "mapped_id": "magic_box_perception",
+    "is_negative_case": false,
+    "rationale": "Reveals an expectation (driven by sales/promises) that the AI product is a ready-made, infallible 'magic box' capable of immediate implementation, despite it not being 'ready,' which aligns with the perception of AI as an autonomous solution."
+  },
+  {
+    "expert_quote": "...the big questions there is how do you actually know it's lying or not lying? It's hard.",
+    "mapped_id": "explainability_deficit",
+    "is_negative_case": false,
+    "rationale": "Uses the colloquial term 'lying' to describe the core issue of AI opacity. The statement expresses a practical, human-level frustration with the inability to interpret or verify the AI's outputs, a direct sign of an explainability deficit."
+  },
+  {
+    "expert_quote": "I'm doing a chatbot that does sales information and it queries sales and the big questions there is how do you actually know it's lying or not lying? It's hard.",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": false,
+    "rationale": "Implies an underlying expectation that the chatbot's purpose is to provide reliable, goal-aligned sales information. The focus on discerning truth highlights the mismatch when the AI's outputs cannot be trusted to serve that fundamental goal effectively."
+  },
+  {
+    "expert_quote": "And you know the nature of AI #1. Question of bias? Any system or AI has a built in bias based on the training data... sometimes fairness is not considered because it's not part of the original data set.",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": false,
+    "rationale": "Explicitly names bias and lack of fairness as inherent problems ('built in bias') and potential points of rejection for AI systems. This directly reflects the 'unfairness_barriers' indicator where perceived bias creates resistance."
+  },
+  {
+    "expert_quote": "There are always some edge cases that are happening, so their degrees to failure I would say. Because certain folks are not aware of the things that people normally interpret.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "Describes a source of user feedback ('degrees to failure') based on a lack of awareness of AI's inherent probabilistic nature and edge cases. This sets the stage for feedback based on unrealistic benchmarks about perfect performance, which the implementer must then manage or re-educate around."
+  },
+  {
+    "expert_quote": "Prototyping is something easy, quick and dirty. Low fidelity, low production, depending on your comfort level... it's throwaway code.",
+    "mapped_id": "dreams_vs_reality",
+    "is_negative_case": true,
+    "rationale": "This quote serves as a negative case for the idealized 'dreams' aspect. The expert pragmatically defines prototyping as 'quick and dirty' and 'throwaway code,' which is a realistic, grounded view that actively contradicts any idealized, perfectionist vision of the AI development process."
+  }
+]

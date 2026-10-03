@@ -1,0 +1,79 @@
+[
+  {
+    "rubric_indicator": "recursive_innovation",
+    "relevant_quote": null,
+    "metaphor": null,
+    "negative_case": true,
+    "analysis": "Person 2 does not describe AI tools being used to accelerate the development of further AI tools. The focus is on team processes and human collaboration, not on recursive technical acceleration."
+  },
+  {
+    "rubric_indicator": "skill_obsolescence_pace",
+    "relevant_quote": null,
+    "metaphor": null,
+    "negative_case": true,
+    "analysis": "No mention of technical skills becoming obsolete. The discussion on 'starting from different places' and 'different expectations' refers to cultural or industry maturity differences, not the velocity of AI skill decay."
+  },
+  {
+    "rubric_indicator": "judgment_substitution",
+    "relevant_quote": null,
+    "metaphor": null,
+    "negative_case": true,
+    "analysis": "Human judgment and decision-making ('someone needs to take a decision') are central to Person 2's narrative. There is no indication of AI prediction systems reconfiguring or substituting for this human role."
+  },
+  {
+    "rubric_indicator": "temporal_misalignment",
+    "relevant_quote": "Some colleagues... only three days later we find out actually there was some big problem happening but they didn't communicate it.",
+    "metaphor": null,
+    "negative_case": false,
+    "analysis": "This directly illustrates a clash in tempo: the expectation for rapid, transparent communication ('AI time') versus a delayed, withholding communication style ('organizational/human time'). It's framed as a cultural communication pattern."
+  },
+  {
+    "rubric_indicator": "regulatory_lag",
+    "relevant_quote": null,
+    "metaphor": null,
+    "negative_case": true,
+    "analysis": "No discussion of governance, ethics, or regulatory frameworks emerging too slowly. Person 2 notes that on technical teams, data privacy and ethics are generally understood baseline competencies, not areas of lagging policy."
+  },
+  {
+    "rubric_indicator": "tool_proliferation",
+    "relevant_quote": "In the world of tech... you get these strange ecosystems developing... you get these differences growing.",
+    "metaphor": "Strange ecosystems",
+    "negative_case": false,
+    "analysis": "Person 2 observes the fragmentation of software tool choices across different regions/teams. This metaphor of 'ecosystems' points to a proliferation of tools and approaches that are not systematically evaluated or integrated on a global scale."
+  },
+  {
+    "rubric_indicator": "socio_technical_shift",
+    "relevant_quote": "The more different perspectives you have, the better you're able to kind of imagine how things can go wrong.",
+    "metaphor": null,
+    "negative_case": false,
+    "analysis": "While not a shift from economic to ethical focus, this statement underscores a socio-technical priority: diverse human perspectives are critical for anticipating failure modes in AI systems. Success is linked to human acceptance and robust design, not just technical capability."
+  },
+  {
+    "rubric_indicator": "gen_AI_acceleration",
+    "relevant_quote": null,
+    "metaphor": null,
+    "negative_case": true,
+    "analysis": "No mention of generative AI or its compound effect on innovation processes. The discussion centers on building a framework for AI and team dynamics, not on the accelerating pace of innovation itself."
+  },
+  {
+    "rubric_management_friction": "timeline_compression",
+    "relevant_quote": null,
+    "metaphor": null,
+    "negative_case": true,
+    "analysis": "No discussion of rapid tool obsolescence forcing mid-cycle re-evaluations. Project planning is described through team discussions and retrospectives, not reactive shifts due to external technical acceleration."
+  },
+  {
+    "rubric_management_friction": "continuous_training_demand",
+    "relevant_quote": null,
+    "metaphor": null,
+    "negative_case": true,
+    "analysis": "The need for continuous training to keep up with AI subtypes is not mentioned. Training discussed is cultural onboarding and understanding company expectations, not technical upskilling against an accelerating field."
+  },
+  {
+    "rubric_management_friction": "integration_debt",
+    "relevant_quote": null,
+    "metaphor": null,
+    "negative_case": true,
+    "analysis": "No mention of managing legacy AI components or compatibility issues. The focus is on integrating diverse human perspectives, not technical systems."
+  }
+]

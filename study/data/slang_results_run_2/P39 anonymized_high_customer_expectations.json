@@ -1,0 +1,38 @@
+[
+  {
+    "expert_quote": "So currently it's been just envelopes, beauty models, infrastructure management.",
+    "mapped_id": "magic_box_perception",
+    "is_negative_case": true,
+    "rationale": "The speaker uses the industry slang 'beauty models,' contrasting the idealized term with the mundane reality of managing 'infrastructure.' This subtly undermines the 'magic box' perception by framing AI models as operational artifacts requiring maintenance, not infallible outputs."
+  },
+  {
+    "expert_quote": "And again, just getting to meet interesting people... you get to experience in a different culture... that's a beautiful thing.",
+    "mapped_id": "trust_understanding_gap",
+    "is_negative_case": true,
+    "rationale": "The focus on interpersonal and cultural connection as the primary 'beautiful' outcome of AI projects acts as a negative case. It deflects from discussing the AI's performance or opacity, suggesting trust is built on human relationships, not on understanding or validating the AI's behavior."
+  },
+  {
+    "expert_quote": "Most of the the models are working with in this particular case... was was based on Artificial generation there, right? Generative AI... So I think that was that was the core... because it was a Gen. AI using generative. But in terms of... this thing so yeah. It's tough. It's tough because. It was a start of again, so you don't have much data. You're still trying to build, so yeah.",
+    "mapped_id": "dreams_vs_reality",
+    "is_negative_case": false,
+    "rationale": "The hesitant, repetitive language ('it's tough... it's tough') and the admission of scarce data ('you don't have much data') starkly contrasts with the powerful, data-hungry ideal of generative AI. This directly captures the friction between the 'dream' of GenAI and the 'reality' of early-stage, resource-constrained implementation."
+  },
+  {
+    "expert_quote": "And in terms of the the architecture of... of a particular model... the office was. Either we go full cloud, full cloud century or we go hybrid... Let's go. Full card, but this particular guy was like, you know, these are these are some of the downtimes. These are some of the things you have a cloud. Wesley startup. We don't. We don't make money yet, right? Why not just go vibrate since we have the capability... So we had a hybrid architecture rather than a full-fledged cloud architecture.",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": false,
+    "rationale": "The debate over 'full cloud' versus 'hybrid' reveals a 'utility mismatch.' The initial assumption ('Let's go full cloud') assumed AI infrastructure would perfectly align with an idealized, scalable goal. The challenge highlighted a misalignment with the practical organizational constraints ('startup... don't make money yet'), forcing a pragmatic, less 'magical' solution."
+  },
+  {
+    "expert_quote": "I think most of the the, the the models are working with in this particular case I can I would say in this particular case because most of the the model was was based on. Artificial generation there, right?... So yeah. It's tough. It's tough because. It was a start of again, so you don't have much data. You're still trying to build...",
+    "mapped_id": "explainability_deficit",
+    "is_negative_case": true,
+    "rationale": "This serves as a negative case for 'explainability_deficit.' The speaker identifies 'not much data' and being at a 'start' phase as the core challenge. The frustration is attributed to a lack of foundational resources, not to the opacity or lack of interpretability of a complex model's decisions. The 'black box' issue is not raised as a primary pain point."
+  },
+  {
+    "expert_quote": "One of the difficulties we had was bringing on you guys into the into the team. And when when someone comes in the tax list quite much, right, the tax lenders quite much for you to be able to... To achieve so. Someone comes in within five months, six months. You know their house because the load is quite much so. You look at that situation and say. Of course, the economic factors will keep brought you in to be able to do this in the 1st place, right? Even though you knew that it could be tough, but you still had to leave, right?",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "The description of high turnover ('comes in within five months, six months... still had to leave') due to excessive workload ('the load is quite much') links to 'feedback_dissonance.' It implies a 're-education labor' burden on management: constantly onboarding new team members because the reality of the project's demands ('tax list quite much') clashes with initial expectations, leading to attrition rather than productive feedback on the AI system itself."
+  }
+]

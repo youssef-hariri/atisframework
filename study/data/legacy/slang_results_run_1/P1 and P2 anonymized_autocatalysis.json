@@ -1,0 +1,46 @@
+[
+    {
+      "quote": "And there in Chile they were starting the process to to bring data science to to the institutions and and that stuff so. ... I don't know how, how can I say we were more? ... We're more concerned about the the how, how the the models were built and there and there they they were more concerned about maybe the answers or ... a fast the response affects answered.",
+      "indicator": "temporal_misalignment",
+      "explanation": "Describes a clash between the fast-paced demand for immediate results (Chilean team's 'fast answer' focus) and the slower, more deliberate Brazilian approach focused on sustainable model architecture—mirroring the friction between 'AI time' and 'organizational time'."
+    },
+    {
+      "quote": "It's basically trained so we. We we do like a process to explain. ... We made it meetings like uh, we put the the data scientists together with us and we explain how we approach the problem, how we do it, how model, which models can we apply and and that stuff, right.",
+      "indicator": "continuous_training_demand",
+      "explanation": "Illustrates the non-stop, modular training required to bring an international team up to speed on evolving methods and tools, reflecting the relentless need for upskilling driven by accelerating AI capabilities."
+    },
+    {
+      "quote": "Another thing is stacked like. The tools that we use, like Python code, programming languages or even the environment like Google Cloud, Amazon, this kind of stuff. When we reach them, they were like locals, you know, they were using some other tools, some other.",
+      "indicator": "tool_proliferation",
+      "explanation": "Highlights the fragmentation and rapid proliferation of tools/frameworks across regions, creating integration challenges and making systematic evaluation difficult—a core symptom of autocatalytic tool sprawl."
+    },
+    {
+      "quote": "I I feel that the the problems they were concerned and was. ... Like like it, it makes sense in Brazilian culture, but I I don't know about ratio. ... And like this type of biases apply to to Brazil, I I I think that. But I think that what is it's a general like concern...",
+      "indicator": "socio_technical_shift",
+      "explanation": "Shows a growing focus on ethical biases and human acceptance in model deployment, shifting from purely technical/economic concerns—a sign of socio-technical realignment due to accelerating technical capabilities."
+    },
+    {
+      "quote": "And and we said about the the people that built this model. But the problem is that. ... And they're they're they built as the model for estimate the salary. ... So it's network. Like if I change this model it will impact like model 12345 you know like any models?",
+      "indicator": "integration_debt",
+      "explanation": "Describes legacy model dependencies creating systemic inertia, where updating one component risks cascading failures—a classic case of integration debt from rapidly evolving, incompatible systems."
+    },
+    {
+      "quote": "I I think there is. That's really important and we as we are going more to towards mochi cultural and motion, nationality, workspace and in person. ... Yes. And I guess that groups are all remote. They are working like a broad from their countries or.",
+      "indicator": "gen_AI_acceleration",
+      "explanation": "Implies that generative AI and remote collaboration tools are compounding the complexity of multicultural teamwork, accelerating the rate of change in innovation processes themselves."
+    }
+  ],
+  "negative_cases": [
+    {
+      "quote": "It's pretty nice but but it's like Person 2 said that kind of meeting was just with the staff. So it was just with data scientists or you know. ... And they had that, the technical questions on how can I use it, how long it would take me to train it, can I use in my infrastructure infrastructure, what's the difference between the concept of your model and our model and they're asking, asking, asking...",
+      "explanation": "Shows successful, iterative knowledge transfer and adaptation where a team actively bridges skill gaps through structured dialogue—countering the skill obsolescence and temporal misalignment of autocatalysis."
+    },
+    {
+      "quote": "We we do not. You know you, we we do not want to to the model to represent that bias. So we also show them that that's good because we kind of. ... Saying why your model is not so good and why our model is not is not giving the right answer, you know.",
+      "explanation": "Demonstrates proactive ethical judgment and human oversight in model development, resisting the substitution of judgment by AI predictions—a counterpoint to unchecked autocatalytic drift."
+    },
+    {
+      "quote": "I think that's the the the, the the mostly the the the main problem you know so do it like a solution faster simple. And show them give to them the solution so they didn't can use it, didn't get they can point the the the main mistakes or how we can improve the solution and then do it again do it again so you know in small.",
+      "explanation": "Advocates for agile, human-in-the-loop iteration and stakeholder feedback, effectively managing timeline compression and maintaining alignment between technical and organizational tempos."
+    }
+  ]

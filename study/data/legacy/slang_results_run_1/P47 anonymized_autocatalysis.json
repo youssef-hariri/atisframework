@@ -1,0 +1,66 @@
+[
+      {
+        "indicator_name": "skill_obsolescence_pace",
+        "description": "Technical and managerial competencies becoming outdated faster than they can be replaced.",
+        "evidence_from_transcript": [
+          "Person 2 discusses senior teachers and existing IT staff who have reservations about AI, noting their skills and mindsets are becoming misaligned with new tools. The hiring of a 'fresh candidate right out of college for AI only' is a direct response to this obsolescence in the existing team.",
+          "Mentions that 'existing employees... they know AI, but still they had that under current they always had that... some questions,' indicating a gap between their foundational knowledge and the evolving AI landscape."
+        ],
+        "related_metaphors": [
+          "**'New blood' vs. 'existing workforce':** Contrasts the fresh perspective and skill set of the new hire with the potentially outdated or hesitant approach of experienced staff.",
+          "**'Embrace' vs. 'questions':** Metaphorically frames adoption as an act of embracing (the junior engineer) versus holding back with questions and reservations (the senior team)."
+        ],
+        "negative_cases": [
+          "**Positive Counter-Adoption:** Person 2 highlights that some senior teachers about to retire showed a better attitude and willingness to learn than younger colleagues, challenging the direct correlation between age/experience and skill obsolescence.",
+          "**Complementarity, Not Replacement:** The success came from combining the new engineer's AI skills with the existing team's business logic knowledge ('the new entrant was little better... But of course workforce they complemented...'), suggesting obsolescence can be mitigated through integration, not just replacement."
+        ]
+      },
+      {
+        "indicator_name": "judgment_substitution",
+        "description": "The reconfiguration of human judgment as AI prediction capabilities improve.",
+        "evidence_from_transcript": [
+          "Describes the AI model built to classify student photos for ID cards: 'he built an AI model to classify which is good, which is not, which is to augment and all.' This substitutes human judgment on photo quality with an automated, predictive system.",
+          "The Copilot for the school website represents an AI system substituting for or augmenting human judgment in generating responses and code."
+        ],
+        "related_metaphors": [
+          "**'Augment':** Used explicitly to describe the AI's role in the photo classification task, framing AI as a tool that enhances but also begins to take over a specific judgmental function.",
+          "**'Run through his model':** The process of submitting photos to the AI model becomes a standardized procedure, metaphorically depicting human workflow being rerouted through an AI filter."
+        ],
+        "negative_cases": [
+          "**Persistent Need for Human Oversight:** The initial testing phase involved diverse human teams (hardware, software, even the engineer's father) to evaluate the Copilot, indicating that final judgment and contextual understanding still reside with humans.",
+          "**Resistance to Substitution:** Person 2 notes resistance from some teachers who felt AI 'could not be suitable for my subject,' indicating pockets where human professional judgment actively resists substitution."
+        ]
+      },
+      {
+        "indicator_name": "tool_proliferation",
+        "description": "New frameworks released faster than they can be systematically evaluated or integrated.",
+        "evidence_from_transcript": [
+          "Person 2 lists multiple tools and initiatives introduced in a short span: Copilot Studio, AI model for photos, Power BI with AI components (Q&A), and general 'AI tools' presented in CPDs. This represents a rapid influx of new technologies.",
+          "The need for 'department wise training,' 'whole school training,' and 'need based' handholding sessions underscores the challenge of rolling out and integrating these proliferating tools systematically."
+        ],
+        "related_metaphors": [
+          "**'Onboarded everybody':** This term, used in the context of deploying MS Teams/Zoom during COVID, metaphorically treats each new tool as a vessel that the entire organization must be brought onto, a repeated and labor-intensive process.",
+          "**'Another thing':** Senior teachers' sentiment ('oh, there is another thing') metaphorically frames new AI tools as an incessant series of additional burdens rather than a cohesive progression."
+        ],
+        "negative_cases": [
+          "**Successful Integration into Workflow:** The photo-classification AI successfully became a norm in the admission process ('now it became a norm... they run through his model'). This shows that some tools, when they solve a clear pain point, can be integrated despite proliferation.",
+          "**Structured Roll-Out Mitigates Chaos:** Person 2's layered training approach (whole school > department > need-based) is a managerial response that attempts to impose order and systematic evaluation onto the chaotic process of tool proliferation."
+        ]
+      },
+      {
+        "indicator_name": "socio_technical_shift",
+        "description": "Focus moving from economic benefits to human acceptance and ethics due to technical velocity.",
+        "evidence_from_transcript": [
+          "The core of Person 2's narrative shifts from the technical build of the Copilot to the human factors of adoption: resistance from Arabic teachers, gender differences in interest, personality types, and the critical role of leadership in fostering inclusion.",
+          "The detailed discussion on managing cultural norms (greetings, gift-giving, prayer times, Ramadan) highlights that the primary challenge post-development is socio-cultural acceptance, not technical feasibility."
+        ],
+        "related_metaphors": [
+          "**'Pulling the heavyweight' / 'Getting away with that':** These metaphors describe social dynamics and equity within the team, shifting focus from technical output to the human morale and fairness issues exacerbated by rapid change.",
+          "**'Hidden benefits' vs. 'natural for them':** The analysis of Emirati gift-giving culture versus Indian interpretations is a pure socio-cultural analysis, far removed from technical discussion, showing where the focus must lie."
+        ],
+        "negative_cases": [
+          "**Technical Problem-Solving as Entry Point:** The initial driver for AI projects remains practical, economic, or efficiency benefits (automating ID card photo processing, building a website copilot). The socio-technical challenges arise *because of* these technical initiatives, not instead of them.",
+          "**Personality Overrides Culture:** Person 2 states that adoption differences are 'more on personality... not on how that person approaches life itself,' suggesting that individual disposition can be a more significant factor than broad cultural or socio-technical trends in acceptance."
+        ]
+      }
+    ]

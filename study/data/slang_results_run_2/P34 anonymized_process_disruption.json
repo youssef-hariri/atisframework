@@ -1,0 +1,38 @@
+[
+  {
+    "expert_quote": "But the past two years I've been building. Gen. AI applications. And. And so I'm wonder. I'm very much on the application side. I'm not on the model training kind of... And one one is on the kind of how to build or run an LLM... the applic. Sites have you use it... Companies like cursor or lovable.",
+    "mapped_id": "socio_technical_transition",
+    "is_negative_case": false,
+    "rationale": "The speaker delineates a new, specialized 'application side' of AI work, moving away from pure infrastructure or model training, which semantically aligns with the transition toward hybrid human-AI application development models."
+  },
+  {
+    "expert_quote": "And so if those two people in the same meeting that they might find the other party really annoying, right? One points the other one really slow, and one finds the other one really pushing, and it's like they're just if they had that heads up, that's like OK... It'll be OK, you know.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "Describes a friction point where a direct, fast-paced communication style clashes with a slower, relationship-building one. This human-floor description of conflict mirrors the 'distrust' and preference for traditional (here, communication) methods over new, potentially disruptive approaches."
+  },
+  {
+    "expert_quote": "Where I I think that where we are. Aligned on things like like data privacy and data security because we understand that this is other people's data and in the wrong hands it could be... could be used for, for. To harm those individuals. And so we appreciate... There's no clash like no one's going. Oh yeah, we should sell this data... It doesn't. That doesn't really enter into it.",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": true,
+    "rationale": "This is a negative case. The speaker explicitly states there is 'no clash' on core ethical issues like data privacy within their team, contradicting the theoretical expectation of tension between automation and ethical oversight in AI workflows."
+  },
+  {
+    "expert_quote": "I guess the only thing is that the implementation and the sort of appreciation for the sort of the consequences if you work with someone from Germany for example. They will be very serious about data security and they will be very concerned with implementation here... So where is the data stored?... because culturally from the Cold War... they were collecting huge amounts of data back then... And so they're sort of a cultural, I think. Heritage there that I think. Apart from Germany, no one else has.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "Highlights a specific, culturally-rooted 'heritage' of data caution (tacit, experience-based knowledge) that creates a unique and heightened set of implementation concerns, illustrating a tension with more universal or standard data-centric approaches."
+  },
+  {
+    "expert_quote": "That person was requiring me to sign basically a contract. Tired to even discussing the ideas... And culturally, to me that is very strange, right to approach a collaboration... whereas from the other person's perspective, that was completely normal... So we had a sort of clash there. Like I I thought this is not. They're living in a different world for me.",
+    "mapped_id": "integration_friction",
+    "is_negative_case": false,
+    "rationale": "The metaphor of 'living in a different world' and the procedural clash over signing agreements before idea-sharing exemplifies friction in embedding new collaborative (potentially AI-driven) workflows into established, phase-gated business processes."
+  },
+  {
+    "expert_quote": "So so when you when you're in multicultural teams, you have to increase communication and you have to be more thoughtful with your communication. And you have to spend more of your energy on that... It does come with that overhead, but I think the. The outcome is even better as a result of that.",
+    "mapped_id": "silo_breakdown",
+    "is_negative_case": false,
+    "rationale": "Describes the necessity and 'overhead' of increased, thoughtful cross-functional communication to achieve better outcomes. This aligns with the breakdown of traditional silos, requiring new forms of interaction to manage diverse perspectives and data needs."
+  }
+]

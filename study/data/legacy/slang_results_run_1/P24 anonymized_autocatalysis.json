@@ -1,0 +1,38 @@
+[
+  {
+    "indicator": "skill_obsolescence_pace",
+    "evidence": "Person 2 discusses the need for 'mentoring,' 'training sessions,' 'brainstorming,' and 'exchanging knowledge' about new AI tools (e.g., Gamma AI, Flex). They frame continuous learning as an opportunity ('upgrading... the team'), not as a frantic race to keep up, indicating they perceive the pace as manageable through structured, communal effort.",
+    "metaphor": "Knowledge is depicted as a communal resource to be 'exchanged' and 'shared' on a 'platform,' like a marketplace or library, rather than a perishable commodity. This frames skill development as collaborative enrichment, not a defensive scramble.",
+    "negative_case": "The discussion of skill updates is proactive and integrated into regular team activities ('time to time'), suggesting organizational processes can keep pace. There is no expressed anxiety about skills becoming obsolete faster than they can be acquired."
+  },
+  {
+    "indicator": "judgment_substitution",
+    "evidence": "Person 2 explicitly positions human judgment as the ultimate authority in project management. They state, 'as a leader, we need to be have a soft corner... but yes, we have to be a hard corner also,' and describe a process where they first listen, then decide, and ultimately use their authority to resolve conflicts or reassign team members. They also state, 'AI will AI have there don't have their own mind. They have only the memory,' clearly delineating human reasoning from AI processing.",
+    "metaphor": "AI is described as a 'kid' that needs 'spoon feeding,' a tool that executes instructions without independent reasoning. Human leadership is framed as having 'soft' and 'hard' corners, suggesting a balanced, judgment-based authority that AI lacks.",
+    "negative_case": "The transcript strongly argues *against* judgment substitution. Person 2's entire management philosophy and their final point ('human is created... AI cannot create by the self') assert the irreplaceable role of human oversight, decision-making, and ethical responsibility."
+  },
+  {
+    "indicator": "temporal_misalignment",
+    "evidence": "Person 2 identifies time zone differences as a primary logistical challenge ('time zone is different'), causing missed meetings and coordination difficulties. They describe a solution involving flexible, asynchronous communication ('upgrading their task... at their time') and finding overlapping windows for syncs.",
+    "metaphor": "Time is treated as a logistical puzzle to be solved ('find a particular platform,' 'connect in a particular way'), not as an uncontrollable force. The solution is described in terms of mutual understanding and flexibility, framing the misalignment as a human coordination problem, not a fundamental clash of systemic velocities.",
+    "negative_case": "The 'misalignment' is resolved through human-centric scheduling, communication tools (Google Meet, Zoom), and mutual team accommodation. It is not presented as an insurmountable conflict between AI's iterative speed and organizational slowness, but as a manageable aspect of global teamwork."
+  },
+  {
+    "indicator": "regulatory_lag",
+    "evidence": "Person 2 acknowledges differing international data privacy laws ('India have their data privacy ethics is different. Us have different.'). Their solution is procedural and human-driven: 'we already exchanged the data privacy... concern by the Conda paper documentation... we sign the document.'",
+    "metaphor": "Regulatory complexity is managed via a 'contract' ('Conda paper documentation'), a formal, pre-emptive human agreement that bridges the gap between disparate legal systems. It is a shield created ahead of time.",
+    "negative_case": "The approach is anticipatory and contractual, not reactive. They do not describe being caught off-guard by new regulations post-deployment. The focus is on establishing agreed-upon rules ('we always exchange each and everything') before work begins, suggesting governance can be proactively aligned."
+  },
+  {
+    "indicator": "tool_proliferation",
+    "evidence": "Person 2 mentions using 'Google meet,' 'Zoom,' 'Chat GPT,' 'Gamma AI,' 'Flexibility AI,' and live transcription/CC tools. They note the value of introducing new AIs to the team ('I introduce new AI').",
+    "metaphor": "AI tools are likened to entries in a shared toolkit or 'platform' that the team can draw from. Introducing a new tool is framed as 'exchanging knowledge' to 'help' others, not as adding unvetted complexity.",
+    "negative_case": "Proliferation is seen as a net positive ('help those peoples... to do the task early'). The evaluation is informal and based on immediate utility ('if they are stuck... they can help from the AI'). There is no mention of systematic evaluation burden, integration challenges, or overwhelming choice."
+  },
+  {
+    "indicator": "socio_technical_shift",
+    "evidence": "The conversation concludes with a strong emphasis on the human role in controlling technology. Person 2 debunks the myth that 'AI will replace the human,' stresses that 'human need to be learned... how to like handle the AI,' and details the importance of user prompting and data privacy settings. The focus is on human responsibility, ethics ('it's totally upon the users'), and control.",
+    "metaphor": "The human-AI relationship is framed as a master-apprentice dynamic, where the human ('created' the AI) must 'learn' to control and 'track' it. Technology is a dependent, not a peer or superior.",
+    "negative_case": "The shift is acknowledged but its trajectory is reversed. Instead of society struggling to adapt to AI's advance, Person 2 insists that humans must and will remain in the dominant, controlling position, learning to manage the technology they created. The 'shift' is towards reasserting human primacy."
+  }
+]

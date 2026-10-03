@@ -1,0 +1,14 @@
+[
+  {
+    "expert_quote": "Actually I don't have any bad experience.",
+    "mapped_id": "trust_erosion",
+    "is_negative_case": true,
+    "rationale": "Person 2 explicitly states they have not experienced disillusionment in project phases, which directly contradicts the management friction of trust erosion where pilot phases lead to resistance and demands for redesign."
+  },
+  {
+    "expert_quote": "there are some miscommunication or there are some misjudgment when Scrum Monster don't have enough knowledge about technology and he's tried to ask you for task he or she can't judge because they those people don't have understanding of.",
+    "mapped_id": "explainability_deficit",
+    "is_negative_case": false,
+    "rationale": "This quote uses the professional slang of 'miscommunication' and 'don't have understanding' to describe how non-technical roles struggle to assess AI/tech tasks. This directly mirrors the 'explainability_deficit' indicator, where frustration arises from a lack of transparent, interpretable decision-making processes in AI systems."
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "expert_quote": "So as part of gathering information, there are a few aspects of it. One of the things is that, We are trying to collect metrics on different user-based interactions. It could be clicks, it could be navigation, it could be hovering, it could be trying to progress along the set of directed paths. So, collecting all that information to generate insight, that's one part. The other aspect is with respect to estimate what people are trying to search for, trying to understand, you know, based on availability, what kind of products can be suggested, or what kind of brands can be suggested, based on, you know, relevant user information that we have. So, yeah, I mean, basically, it involves trying to figure out based on past history, based on current trends, to suggest more preferences also to try and figure out the user persona to be able to perform better in terms of showcasing what the customer might potentially be looking for.",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": true,
+    "rationale": "The quote describes a pragmatic, data-driven system focused on predicting user behavior from observed metrics. There is no indication of a 'perceptual gap' or an assumption that AI recommendations will perfectly align with user goals. Instead, it's framed as an effort to 'perform better' and understand what customers 'might potentially' want, acknowledging inherent uncertainty."
+  },
+  {
+    "expert_quote": "I feel like people here are more paranoid. People are more worried about their personal information being accessed by a third party without their permission. I feel like back in countries where there is a communist regime, I don't think that's an option. You don't have the luxury of saying, 'Hey, this is my data, you're not allowed to steal it.' Or if you come from a very big economy like India, I think people are less worried about who is using my information and more worried about survival and trying to figure out how to sort of make ends meet from that standpoint and you know people who come from you know poorer economy right wherein like you know basic necessities aren't being met they care less about you know personal privacy",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": false,
+    "rationale": "The speaker describes how perceptions of AI/data ethics are shaped by economic context, using the slang 'paranoid' to describe one viewpoint. This directly maps to the 'unfairness_barriers' indicator, which includes rejection due to perceived lack of fairness or ethical concerns. The explanation of varying cultural/economic priorities provides a latent reason why some user groups might inherently distrust or reject AI systems based on privacy fears, constituting a barrier rooted in perceived unfairness."
+  },
+  {
+    "expert_quote": "At times, you know, not meeting a particular, I don't know, not meeting a particular, what was that, deadline or particular sort of, yeah. So, you know, meeting that benchmark, right? If you're not meeting that specific benchmark, then that in itself would be considered a failure.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": true,
+    "rationale": "The speaker defines failure in concrete, project-management terms (deadlines, benchmarks). This contradicts the 'feedback_dissonance' friction, which describes user feedback based on 'unrealistic benchmarks' requiring re-education. Here, the benchmarks are presented as objective and agreed-upon ('that specific benchmark'), not as a perceptual gap stemming from hype or misunderstood AI capabilities."
+  },
+  {
+    "expert_quote": "I think one thing that we try to focus on is to not make the same mistakes again. You know, it's not about like not failing again. It's more about to fail differently. Right.",
+    "mapped_id": "trust_erosion",
+    "is_negative_case": true,
+    "rationale": "This quote describes a post-failure culture of iterative experimentation ('fail differently'). It directly contradicts the 'trust_erosion' friction, which posits that disillusionment in pilots leads to resistance to scaling. Here, failure is framed as a learning tool within an agile process, suggesting a team culture that manages expectations and maintains momentum rather than one where trust is irreparably damaged."
+  },
+  {
+    "expert_quote": "The other way is also to sort of create you know intermediate milestones or intermediate checkpoints wherein like you ask people to raise the red flags immediately as soon as they see problems so that way you know either more resources can be allocated or you know you know the whatever the potential client can be informed that you you know, given these circumstances, you know, we want to sort of change certain things. So that way, you know, people are better informed along off the progress that is being made. And that will help ease the burden in its own way.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": true,
+    "rationale": "The described process of 'raising red flags' and keeping clients 'better informed' is a proactive management strategy to align expectations with reality. This contradicts the 'feedback_dissonance' friction, which is characterized by reactive 're-education labor' needed after users provide feedback based on unrealistic expectations. The speaker's approach is about preventing that dissonance through transparency and early communication."
+  }
+]

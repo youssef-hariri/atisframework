@@ -1,0 +1,68 @@
+[
+  {
+    "expert_quote": "And there in Chile they were starting the process to to bring data science to to the institutions and and that stuff so... And I I noticed this this difference between Brazil that were we were a bit more... conservative. Yeah, yeah, yeah. But maybe the the, the there were more. Uh... I don't know how, how can I say we were more?... No, we were more. Yeah. Yeah. Thank you. We're more concerned about the the how, how the the models were built and there and there they they were more concerned about maybe the answers or... and a fast... the response affects answered.",
+    "mapped_id": "magic_box_perception",
+    "is_negative_case": false,
+    "rationale": "The quote contrasts two different stakeholder mentalities: a mature (Brazilian) focus on model construction and sustainability vs. a less mature (Chilean) focus on fast, answer-oriented results. This latter view aligns with the 'magic box' perception, where the internal mechanics are less important than the immediate, flawless output."
+  },
+  {
+    "expert_quote": "So there were starting the process and then they they do not have the knowledge or techniques or do not know the right answer or how to do it. So they are more flexible about how they could apply the models or machine learning into the their concepts or the context. Right.",
+    "mapped_id": "magic_box_perception",
+    "is_negative_case": false,
+    "rationale": "Person 2 describes a stakeholder group (in Chile) with limited technical knowledge, leading to a more 'flexible' (i.e., less technically rigorous) application of models. This flexibility suggests a belief in AI as a tool that can be simply 'applied' without deep understanding of its proper function or limits."
+  },
+  {
+    "expert_quote": "And then presenting the committee, they were all all they care was multi results so... So they were really more directly so they didn't... Maybe try to explain and get some details of how the model was built.",
+    "mapped_id": "explainability_deficit",
+    "is_negative_case": false,
+    "rationale": "Person 2 describes a Spanish committee that cares only about results ('multi results') and does not engage with or seek details on how the model was built. This reflects the 'explainability deficit' indicator, where stakeholder frustration or disinterest stems from a lack of transparent, interpretable decision-making processes being provided or valued."
+  },
+  {
+    "expert_quote": "When presented the... The guys from over there was like, OK, what's the results? I I... I don't. I don't think that's that's right. I don't think that's the way, but they didn't like like... I wondered described that we are trying to lecture and explain they didn't. It's it's more like direct and say, OK, I don't think that's gonna work. And redo your work and get... And try again, you know.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "Person 2 recounts a scenario where Spanish stakeholders provided feedback ('redo your work') based on a simplistic benchmark ('what's the results?') without engaging with the technical explanation. This aligns with 'feedback_dissonance,' where user feedback is based on unrealistic or non-technical benchmarks, requiring the team to redo work rather than fostering mutual understanding."
+  },
+  {
+    "expert_quote": "Yeah, I think it improved it a lot seeing where... So the results and OK.",
+    "mapped_id": "magic_box_perception",
+    "is_negative_case": false,
+    "rationale": "Person 2 states that simplifying the presentation to focus solely on results was more successful with executives. This adaptation reinforces the stakeholders' 'magic box' expectation, where the value is derived entirely from the output, not the process or technical nuance."
+  },
+  {
+    "expert_quote": "But but but I don't know about other countries you know... Uh, that's some... Uh. Basic level that usually... The Asian countries are more flexible about data.",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": true,
+    "rationale": "Person 2 speculates, based on second-hand knowledge, that some cultures (Asian countries) are 'more flexible about data,' which could imply a lower perceived risk of unfairness or privacy issues. This is a negative case against the 'unfairness_barriers' indicator, as it suggests that in some contexts, concerns about bias or fairness are not a primary barrier to AI adoption."
+  },
+  {
+    "expert_quote": "Like I know some projects that a friend of mine is doing that's not with the machine learning that's also with engineering projects like this. But I know that in China they are really flexible. So they basically change data for data. There's no agreements or no contracts about how you can use it this stuff.",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": true,
+    "rationale": "This anecdote about data exchange practices in China, presented as 'really flexible' with 'no agreements,' further supports a negative case for 'unfairness_barriers.' It describes an environment where data privacy and usage concerns (which can lead to perceptions of unfairness) are not prominent cultural or operational barriers."
+  },
+  {
+    "expert_quote": "And I I feel that the the problems they were concerned and was... Like like it, it makes sense in Brazilian culture, but I I don't know about ratio... Uh, and sex?... And like this type of biases apply to to Brazil, I I I think that. But I think that what is it's a general like concern and I think it would apply like for Spanish culture as well... And I don't. I don't feel that was oriented in a Brazilian... Resilient concern or Spanish concern, but like a more general and global... And biases and problems.",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": false,
+    "rationale": "When discussing bias concerns raised by a Spanish committee, Person 2 interprets them not as culturally specific but as a 'general and global' concern. This acknowledges the 'unfairness_barriers' indicator—the rejection of AI due to perceived biases—as a universal issue transcending the specific multicultural context of the project."
+  },
+  {
+    "expert_quote": "But they do not know why the model was giving them that answer. So that's really a a mindset, you know, a cultural or we we need this responsibility of building the model. So we need us that that's our main concern and that's about us. We need to remove this kind of... biases are these kind of issues, you know.",
+    "mapped_id": "trust_understanding_gap",
+    "is_negative_case": false,
+    "rationale": "Person 2 describes a scenario where HR stakeholders (the 'users') lack the statistical background to understand model outputs, creating a gap between their need for an answer and their understanding of it. This aligns with 'trust_understanding_gap,' where high optimism about a solution is undermined by opaque or unsatisfactory behavior because the underlying logic is not accessible."
+  },
+  {
+    "expert_quote": "So I think the example that Person 2 brings it, it's kind of the, the, the, the main problem you know we we need to start... Uh, and do it faster, mostly because we we need to know... If the the stakeholders of people who are using our solution... Like the solution or see that the solution fits the problem you know and that's something really difficult to catch. Just doing it and not testing with the stakeholders, not showing them not bring the solution to them to so that they can use it. You know.",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": false,
+    "rationale": "Person 2 critiques a common data scientist tendency to focus on the solution without early and frequent stakeholder validation. This highlights the risk of 'utility_mismatch'—the assumption that an AI solution will perfectly align with stakeholder goals without iterative testing and feedback to ensure it actually fits the problem context."
+  },
+  {
+    "expert_quote": "Yes, yes, it's all about asking the right questions and it's really hard. It's not. It's not true good. Yeah. Actually, he's training us how to use it, you know.",
+    "mapped_id": "dreams_vs_reality",
+    "is_negative_case": false,
+    "rationale": "In discussing ChatGPT, Person 2 highlights the difficulty of prompt engineering ('asking the right questions') and notes the AI is 'training us.' This contrasts the idealized vision of AI as an autonomous problem-solver with the practical reality that its utility is highly dependent on human skill, illustrating the 'dreams_vs_reality' indicator."
+  }
+]

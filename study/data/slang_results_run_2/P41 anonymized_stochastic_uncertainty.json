@@ -1,0 +1,38 @@
+[
+  {
+    "expert_quote": "I know because I had built so many times so many errors and after so many stacks you learn something.",
+    "mapped_id": "non_deterministic_outputs",
+    "is_negative_case": false,
+    "rationale": "The phrase 'so many errors' and 'so many stacks' (likely meaning 'attempts') is professional slang describing the repeated trial-and-error process inherent to models that do not produce fixed, deterministic outputs on the first try."
+  },
+  {
+    "expert_quote": "It underestimates some of the classes choosing these algorithms. Means that I couldn't. I accept to not. Rightly estimate this kind of stars.",
+    "mapped_id": "probabilistic_variance",
+    "is_negative_case": false,
+    "rationale": "The description of the algorithm 'underestimating' certain classes of stars is a human-floor metaphor for the statistical variance and unequal performance across different data sub-populations, a core aspect of probabilistic variance."
+  },
+  {
+    "expert_quote": "We are using open data sets... But if it would be... Difficult if I if I have a company experience... because our company is not share their data I guess.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "The speaker contrasts the controlled environment of open data with the hypothetical difficulty of real company data, highlighting the high sensitivity and practical challenge of model performance being dependent on proprietary or inaccessible data."
+  },
+  {
+    "expert_quote": "It was hard to fight and algorithm that all address this question for all fourteen classes... I had to choose one algorithm, but it was not.",
+    "mapped_id": "non_linear_estimation",
+    "is_negative_case": false,
+    "rationale": "The struggle to find an algorithm that works for 'all fourteen classes' describes a real-world scenario with complex, non-uniform relationships in the data that a single model cannot linearly or simply address."
+  },
+  {
+    "expert_quote": "I accept to not. Rightly estimate this kind of stars. It is some kind of model bias I guess.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The speaker identifies a 'model bias' as the reason for poor performance on certain classes. This is a slang/simplified expression for algorithmic decision-making complexities leading to unexplained and unfair outcomes for specific data groups."
+  },
+  {
+    "expert_quote": "Since we are using open data sets it is not issue for us.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": true,
+    "rationale": "This is a negative case where the speaker explicitly states that, in the context of their academic work with open data, the friction of data sensitivity and accessibility (a key component of data dependency) is not present."
+  }
+]

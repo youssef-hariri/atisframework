@@ -1,0 +1,30 @@
+[
+  {
+    "rubric_indicator": "dreams_vs_reality",
+    "evidence": "Person 2 contrasts the idealized, universal capability of AI (like ChatGPT) with the reality that its output is shaped by specific, non-universal training data, leading to culturally and linguistically biased outputs.",
+    "metaphor": "AI as a 'Cultural Mirror' or 'Echo Chamber' - The model doesn't create universal truth but reflects and amplifies the specific cultural and linguistic patterns of its training data.",
+    "supporting_quote": "\"when I've interacted with ChatGPT, it feels like an American English speaker responding to me... It doesn't feel like even a British English speaker... let alone someone from another country... I certainly see that sort of coming from the training data sets going into those models and kind of repeating back out.\"",
+    "negative_case": "Person 2 does **not** describe a project failure due to this mismatch, but identifies it as a fundamental characteristic and limitation of current GenAI models that practitioners must be aware of, rather than a source of direct stakeholder conflict in their projects."
+  },
+  {
+    "rubric_indicator": "magic_box_perception",
+    "evidence": "While Person 2 does not describe stakeholders holding this view, their analysis deconstructs it. They explain AI output not as 'magic' but as a direct, understandable consequence of its training data composition, demystifying the 'black box' at a cultural level.",
+    "metaphor": "AI as a 'Parrot' or 'Linguistic Sponge' - It absorbs and reproduces patterns from its environment without the understanding or universality implied by the 'magic box' perception.",
+    "supporting_quote": "\"what is being trained on? Is that in a specific language? Is it a specific language in a specific country? It's gonna pick up... the lengths of these sentences... So I certainly see that sort of coming from the training data sets.\"",
+    "negative_case": "The transcript contains **no evidence** of Person 2 having to manage this specific stakeholder perception ('Magic Box') directly. Their commentary is an expert observation of the system's inherent limitation, not a report of managing misguided client or user expectations."
+  },
+  {
+    "rubric_indicator": "anthropomorphic_projection",
+    "evidence": "Person 2 identifies how users naturally anthropomorphize AI based on its linguistic style, noting that ChatGPT 'feels like' a specific type of person (an American English speaker). This projection is, however, revealed to be a superficial artifact of data, not genuine reasoning.",
+    "metaphor": "AI as a 'Ventriloquist's Dummy' - It gives the appearance of a specific persona (American, verbose, etc.), but the 'voice' and character are imposed by its creators/training data, not an emergent property of the system itself.",
+    "supporting_quote": "\"it feels like an American English speaker responding to me... someone from another country who... is still fluent, they would write in a different way.\"",
+    "negative_case": "Person 2 does **not** report this anthropomorphism causing operational problems (e.g., misplaced trust, incorrect use). It is presented as a natural, almost inevitable user perception that experts must understand, not necessarily a friction point requiring active management in their described experiences."
+  },
+  {
+    "rubric_indicator": "utility_mismatch",
+    "evidence": "Implied in Person 2's discussion of AI's cultural/linguistic bias. An AI trained predominantly on one cultural corpus may not align with the goals or communication needs of users from a different background, creating a utility mismatch at a fundamental interaction level.",
+    "metaphor": "AI as a 'One-Size-Fits-All Garment' - It is tailored to a dominant pattern (e.g., American English) and may fit poorly or feel alien to those from different 'shapes' or cultural contexts, reducing its perceived utility.",
+    "supporting_quote": "\"It doesn't feel like even a British English speaker, a South African English speaker I know, would write differently... let alone someone from another country...\"",
+    "negative_case": "Again, this is framed as a **systemic design insight** rather than a specific project friction Person 2 had to mitigate. They point out the potential for mismatch, not an instance where it derailed a project or required significant re-education labor."
+  }
+]

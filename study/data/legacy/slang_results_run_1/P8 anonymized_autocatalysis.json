@@ -1,0 +1,104 @@
+[
+  {
+    "excerpt": "But I think the we have some kind of infinite issue, it's lagging are announced back perhaps because of the recording, OK.",
+    "start_time": "0:0:9.330",
+    "end_time": "0:0:18.950",
+    "rubric_applicability": [],
+    "notes": "Metaphor of 'infinite issue' loosely mirrors the recursive, self-reinforcing nature of autocatalysis, but applied to a technical glitch, not AI development."
+  },
+  {
+    "excerpt": "Basically, we will focused mainly on I I, but I will give you a short explanation about my company... Basically what we do is we do a C2CB2C ecommerce platform that really centered on I you have an agent which can message for you which can upload a product for you which can respond to people, which also can basically search for you by text...",
+    "start_time": "1:11.230",
+    "end_time": "1:40.630",
+    "rubric_applicability": [
+      {
+        "indicator_name": "gen_AI_acceleration",
+        "description": "Generative AI compounding the rate of change in innovation processes themselves.",
+        "relevance": "Describes building a new company/product centered on generative AI agents, indicating participation in the current wave of AI-driven innovation."
+      }
+    ],
+    "notes": "Negative Case: Describes using AI as a tool for a business application (ecommerce), not explicitly using AI to *develop further AI tools* (recursive_innovation)."
+  },
+  {
+    "excerpt": "Right now we are on in the R&D for for the AI part. So basically we're trying to integrate it in our startup basically, yeah.",
+    "start_time": "2:25.310",
+    "end_time": "2:30.620",
+    "rubric_applicability": [
+      {
+        "indicator_name": "tool_proliferation",
+        "description": "New frameworks released faster than they can be systematically evaluated or integrated.",
+        "relevance": "The team is in the R&D phase, actively trying to integrate AI, which implies navigating a landscape of many tools and frameworks."
+      }
+    ],
+    "notes": "Implies an ongoing, iterative integration process characteristic of a fast-moving field."
+  },
+  {
+    "excerpt": "We're training [the AI model] on, for example, the challenge we're having now is that how you can bring in... I can understand the Algerian dialect... So because not everyone speaks perfect French, not everyone speaks perfect Arabic, but they always have a mix... we want every user to use it... you have to make sure...",
+    "start_time": "15:12.300",
+    "end_time": "16:19.160",
+    "rubric_applicability": [
+      {
+        "indicator_name": "socio_technical_shift",
+        "description": "Focus moving from economic benefits to human acceptance and ethics due to technical velocity.",
+        "relevance": "Highlights the challenge of making AI inclusive and functional for diverse, real-world users (different languages, dialects, literacy levels), moving beyond pure technical capability to human-centric design and ethics."
+      }
+    ],
+    "notes": "The complexity of language (dialects, spoken vs. written) represents a socio-technical friction that the AI development must address."
+  },
+  {
+    "excerpt": "Yeah, but I as now with the I I advancement you have a good data then we're good to go... I mean, even with dialect, it's not won't be a problem if you have a good data, yeah.",
+    "start_time": "18:28.940",
+    "end_time": "18:42.260",
+    "rubric_applicability": [
+      {
+        "indicator_name": "gen_AI_acceleration",
+        "description": "Generative AI compounding the rate of change in innovation processes themselves.",
+        "relevance": "Expresses confidence that recent AI advancements (implying modern LLMs/GenAI) will solve previously hard problems (like dialect understanding) if data is available, showing faith in the accelerating capability curve."
+      }
+    ],
+    "notes": "Metaphor of being 'good to go' with good data simplifies the complex challenge, potentially understating the ongoing effort required (integration, testing, adaptation)."
+  },
+  {
+    "excerpt": "Yeah, it's basically making the user like know what the data are going, where the data are used for and especially we try not to use any or like open AI. We try to host our own GPD, for example, to train your own so we own data.",
+    "start_time": "19:4.730",
+    "end_time": "19:20.140",
+    "rubric_applicability": [
+      {
+        "indicator_name": "regulatory_lag",
+        "description": "Governance and ethical frameworks emerging only after technical deployment.",
+        "relevance": "Proactive approach to data privacy and ownership (hosting own model) can be seen as an individual/company-level response to the absence of strong, clear, or trusted regulatory frameworks for data use with third-party AI services."
+      },
+      {
+        "management_friction_name": "integration_debt",
+        "description": "Managing legacy AI components that are incompatible with new systems or standards.",
+        "relevance": "Choosing to host and train a proprietary model, while offering control, creates a future integration debt if industry standards shift or if interoperability with other (potentially more advanced) models is needed."
+      }
+    ],
+    "notes": "This is a strategic decision to avoid external dependencies, reflecting a distrust of existing ecosystems and a willingness to bear higher initial complexity."
+  },
+  {
+    "excerpt": "But but at the end, you know, we have to come down to what the industry right now is going... We cannot put our own rules like say hey, we can't... It's nice, but at the end it it could lead to many effort... As a startup, you know you have to umm, you have to be a little bit fast at the process.",
+    "start_time": "21:13.50",
+    "end_time": "21:33.30",
+    "rubric_applicability": [
+      {
+        "indicator_name": "temporal_misalignment",
+        "description": "The clash between 'AI time' (fast, iterative) and 'organizational time' (slow, sequential).",
+        "relevance": "Explicitly states the tension between ideal practices (strong privacy rules) and the need for startup speed ('AI time'). Acknowledges the pressure to conform to industry pace rather than build perfect, slow systems."
+      },
+      {
+        "management_friction_name": "timeline_compression",
+        "description": "Rapid tool obsolescence forcing architecture and testing re-evaluations mid-cycle.",
+        "relevance": "The need for speed ('fast at the process') is driven by market competition and the fear of falling behind due to rapid changes, which can force compromises in architecture and thorough testing."
+      }
+    ],
+    "notes": "Clear articulation of the pragmatic compromise between ethics/ideals and the velocity demanded by the market."
+  },
+  {
+    "excerpt": "No, not really, because everyone is focused with the end goal... Actually, everyone is focused on what is the purpose of the I I and that's it... And then we dive more into technically about it.",
+    "start_time": "23:42.910",
+    "end_time": "23:59.410",
+    "rubric_applicability": [],
+    "notes": "Negative Case: Suggests that in the technical implementation phase, shared goals and technical focus override cultural differences and potentially other frictions. This contrasts with rubric indicators like 'judgment_substitution' or 'socio_technical_shift', which imply more profound reconfigurations during development."
+  }
+]

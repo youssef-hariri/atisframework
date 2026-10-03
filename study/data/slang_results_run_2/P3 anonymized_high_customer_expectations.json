@@ -1,0 +1,32 @@
+[
+  {
+    "expert_quote": "because the the business domains that we are working on, we are not the we are dealing with that within a telecom operator and basically this data. Related we are we are not dealing with the typically you are not dealing with personal information of subscribers... Ohh. It's not like Google or Facebook for example, where they have a lot of information about each person...",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": true,
+    "rationale": "Person 2 explicitly describes their work as not involving sensitive personal data (only phone numbers and usage), distancing their AI application from the types of systems (e.g., Google, Facebook) where users commonly perceive bias and unfairness. This contradicts the indicator that high expectations are undermined by perceived biases."
+  },
+  {
+    "expert_quote": "Answering your question, of course, like for me in Egypt we are not constrained with with these regulations, which we all, but when I'm but my colleagues from you, they are very aware of this and they they put it on the agenda that we need to comply with this because of the regulation.",
+    "mapped_id": "paradoxical_expectations",
+    "is_negative_case": true,
+    "rationale": "The speaker highlights differing regional perspectives on regulation (awareness vs. lack of constraint), but frames the activation of privacy/ethical concerns as a procedural, compliance-driven action ('put it on the agenda...because of the regulation'), not as an organic expression of high hopes or perceived risk from stakeholders. This suggests the 'paradoxical' tension is absent or mitigated by clear external rules."
+  },
+  {
+    "expert_quote": "...because the telecom domain as a business is highly regulated. Uh, so the point of view regulation is a very important port, important related and basically it's related to the locality of data. So for example, in some situations we can work on the data, but on the service of the telecom operator itself, sometimes we it's OK to get a copy of the data to at least to do some local experiments. So this regulations play an important role.",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": true,
+    "rationale": "Person 2 describes how strict regulations (GDPR, locality rules) concretely govern data access and experimentation. This external, non-negotiable framework preempts any potential stakeholder assumption that AI development or usage can be perfectly aligned with their personal or organizational goals if those goals conflict with regulation. The friction is managed by law, not perception."
+  },
+  {
+    "expert_quote": "And the ethical questions. In my case it is not. This is not very Significant because like I said, no person on that.",
+    "mapped_id": "explainability_deficit",
+    "is_negative_case": true,
+    "rationale": "The speaker explicitly states that ethical questions—which are often intertwined with demands for explainability and transparency—are 'not very significant' in their specific domain. This negates the presence of stakeholder frustration due to a lack of interpretable decision-making, as the data type itself (non-personal) seemingly precludes these concerns."
+  },
+  {
+    "expert_quote": "Not as good. Yes, it it it happens, but not specifically to to AI project. But yeah, we have. I saw issues happened between team members and sometimes with the customer and the as A would cause you can. Uh, you can say different of cultures, some because it's sometimes different people from different cultures when communicated with each other, they can face problems of communication sometimes. Let's say in a culture, if some cultures, when they all say when they say tomorrow it's tomorrow and in other cultures tomorrow is not exactly tomorrow... So yeah, it can happen, but I believe it can happen in. AI projects on non AI project.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": true,
+    "rationale": "Person 2 acknowledges intercultural communication issues (e.g., differing interpretations of 'tomorrow') as a general project risk, but explicitly states these are 'not specific to AI project.' This contradicts the friction where unrealistic expectations of AI ('Magic Box' benchmarks) lead to feedback that requires re-education labor. The cited issue is generic project management, not AI-specific expectation management."
+  }
+]

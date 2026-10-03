@@ -1,0 +1,37 @@
+[
+  {
+    "type": "indicator",
+    "name": "skill_obsolescence_pace",
+    "evidence": "Person 2 states: 'The technology has developed. I think it is on another level right now. So we have to be very fast-paced. We have to understand things quickly... companies also need to invest in a lot of, you know upskilling projects, they cannot just rely on one person's knowledge or existing knowledge, they have to see how they can, you know amp up their speed and be relevant.'",
+    "line_reference": "0:19:16.280 --> 0:19:46.420",
+    "metaphor": "Amp up their speed"
+  },
+  {
+    "type": "indicator",
+    "name": "socio_technical_shift",
+    "evidence": "Person 2 emphasizes human empathy, communication, and cultural adaptation as critical in AI service delivery, contrasting with AI's robotic nature: 'humans are with emotions... what AI is doing is that it can have like a plethora of phrases and questions that they can pose in front of a client. But when it comes to understanding in what state the client is... I would maybe try to have a conversation a particular way.'",
+    "line_reference": "0:6:53.580 --> 0:7:21.970",
+    "metaphor": "AI is very robotic (implied contrast to human emotion)"
+  },
+  {
+    "type": "management_friction",
+    "name": "continuous_training_demand",
+    "evidence": "Person 2 highlights the need for ongoing training: 'companies also need to invest in a lot of, you know upskilling projects... they have to see how they can, you know amp up their speed and be relevant.' Also notes that cultural training is required for international clients.",
+    "line_reference": "0:19:16.280 --> 0:19:46.420 and 0:13:16.720 --> 0:13:48.390",
+    "metaphor": "Amp up their speed"
+  },
+  {
+    "type": "negative_case",
+    "name": "judgment_substitution",
+    "evidence": "Person 2 asserts the irreplaceable value of human judgment and empathy in client interactions, explicitly contrasting AI capabilities: 'But when it comes to understanding in what state the client is... I would maybe try to have a conversation a particular way, right? So that is what I do.' This contradicts the idea of AI substituting human judgment in this context.",
+    "line_reference": "0:6:53.580 --> 0:7:21.970",
+    "metaphor": null
+  },
+  {
+    "type": "negative_case",
+    "name": "temporal_misalignment",
+    "evidence": "While Person 2 acknowledges the fast pace of AI ('very fast-paced'), they describe organizational adaptation as a deliberate, research-driven process ('I am a very research oriented person. So I would say research a lot before speaking...') and frame upskilling as a planned investment. This suggests a managed alignment rather than a stark clash between AI time and organizational time.",
+    "line_reference": "0:14:48.380 --> 0:15:8.970 and 0:19:16.280 --> 0:19:46.420",
+    "metaphor": null
+  }
+]

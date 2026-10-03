@@ -1,0 +1,42 @@
+[
+  {
+    "rubric_category": "indicators",
+    "specific_concept": "temporal_misalignment",
+    "evidence_from_transcript": "Person 2 describes the nine-month process of reforming team communication and establishing psychological safety ('It took us nine months. To come to a good point...').",
+    "analysis": "This illustrates the core friction of 'organizational time' (slow, sequential culture-building and process reform) required to address a problem that likely originated in the fast-paced, iterative 'AI time' of development cycles. The solution was human/organizational, not technical.",
+    "metaphor_mapping": "The 'nine-month' period is a metaphor for a human gestation or maturation cycle, starkly contrasting with the expected rapid iteration cycles in software/AI development.",
+    "negative_case": "No. The evidence strongly supports the indicator. The prolonged timeline to fix a communication issue is a direct example of organizational adaptation lagging behind technical operational tempo."
+  },
+  {
+    "rubric_category": "indicators",
+    "specific_concept": "socio_technical_shift",
+    "evidence_from_transcript": "Person 2 emphasizes human-centric management, psychological safety, and cultural inclusion as critical to project success ('...the human side...should never be removed,' 'It's about a team,' 'Just be human.'). They critique impersonal, compliance-based DEI training ('...looking at the laptop...God knows what you are getting from it').",
+    "analysis": "The focus is squarely on human and social systems (acceptance, communication, ethics of interaction) as the primary challenge and enabler, not on the technical or economic specifics of the AI tools themselves. The success factor shifted from technical execution to fostering a healthy human ecosystem.",
+    "metaphor_mapping": "The 'human side' and 'box' are key metaphors. The 'human side' is portrayed as the essential core that must be preserved. People in a 'box' are those executing narrow technical tasks without human connection or understanding of the bigger picture, which is framed as a failure state.",
+    "negative_case": "No. The entire narrative arc supports this shift. Person 2's primary lessons and advice are socio-cultural, not technical."
+  },
+  {
+    "rubric_category": "management_frictions",
+    "specific_concept": "continuous_training_demand",
+    "evidence_from_transcript": "Person 2 attended a data science boot camp to pivot into machine learning and states, '...with the world going towards where it's going, I think for myself there's still a lot to learn in the AI world...'",
+    "analysis": "This shows an individual-level response to the friction of skill obsolescence. The training is not a one-time event but a recognized continuous need ('still a lot to learn') to remain relevant in a field perceived as rapidly evolving.",
+    "metaphor_mapping": "The 'world going towards where it's going' is a metaphor for the inexorable and somewhat opaque force of technological change, to which the individual must perpetually adapt through learning.",
+    "negative_case": "Partial/Indirect. While the demand is acknowledged, the transcript does not show this as an organizational burden or a systematic friction within their described projects. It is presented more as a personal career strategy."
+  },
+  {
+    "rubric_category": "management_frictions",
+    "specific_concept": "integration_debt",
+    "evidence_from_transcript": "Person 2 discusses a project involving 'different content management systems that needed...a focal centralized data point, how to pull the data...' and the need to build an application to unify it.",
+    "analysis": "This describes a classic pre-AI 'integration debt' scenario: managing legacy systems (CMS platforms) and making them compatible for a new data-driven purpose (recommendation system). It's a foundational technical friction that enables or hampers subsequent AI/ML work.",
+    "metaphor_mapping": "The 'focal centralized data point' is a metaphor for creating order and unity from disparate, legacy sources—a common architectural challenge preceding analytics.",
+    "negative_case": "No. This is a clear example of integration challenges, though it is framed as a data engineering prerequisite to AI, not a consequence of AI tool churn."
+  },
+  {
+    "rubric_category": "indicators",
+    "specific_concept": "judgment_substitution",
+    "evidence_from_transcript": "Person 2 highlights the critical importance of human judgment in management: encouraging engineers to flag problems, revisiting solutions, and the value of human-to-human interaction ('...the laptop or machine...can be better than the human to human interaction.').",
+    "analysis": "This presents a strong counter-narrative to 'judgment substitution.' The speaker argues for the irreplaceability of human judgment, empathy, and communication in managing the process, especially within complex socio-technical systems and multicultural teams. The judgment being emphasized is managerial and interpersonal, not predictive.",
+    "metaphor_mapping": "The 'laptop or machine' is metaphorically positioned as inferior to the 'human to human interaction,' explicitly rejecting the substitution of algorithmic or detached processes for human relational judgment.",
+    "negative_case": "YES. This is a significant negative case for this indicator. The speaker's experience and philosophy actively resist the reconfiguration of (managerial/human) judgment by AI, advocating for its central and enhanced role."
+  }
+]

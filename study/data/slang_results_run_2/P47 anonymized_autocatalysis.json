@@ -1,0 +1,62 @@
+[
+  {
+    "expert_quote": "Recently I took one fresh candidate right out of college for AI only. Junior AI engineer the purpose is the appointment is purely for this purpose. The existing task force. They may be experienced, but I wanted actually a fresh perspective. That is a reason I brought in. A freshha into the team, yeah.",
+    "mapped_id": "skill_obsolescence_pace",
+    "is_negative_case": false,
+    "rationale": "The hiring of a recent graduate for an AI role to bring in new skills directly addresses the need to refresh competencies that may be lagging behind the rapid pace of AI development, as the existing workforce's experience was complemented but not sufficient for the new technical demands."
+  },
+  {
+    "expert_quote": "Based on this knowledge and the background and the skill set, I felt the new entrant was little better than the existing workforce. But of course workforce they complemented because the new blood was not understanding the business logic and how the real world works.",
+    "mapped_id": "skill_obsolescence_pace",
+    "is_negative_case": false,
+    "rationale": "This highlights a skill gap where new AI expertise is superior technically, but lacks organizational/business context, illustrating how specific competencies become outdated faster than holistic, experience-based knowledge can be replaced."
+  },
+  {
+    "expert_quote": "They know AI, but still they had that under current they always had that. This AI how it will, what will be their capability. Whether how much I can use this? How this will play out? In the future so that they always had, though they embraced it still they had that some questions.",
+    "mapped_id": "judgment_substitution",
+    "is_negative_case": false,
+    "rationale": "The expressed uncertainty about AI's capabilities and appropriate use cases reflects the ongoing reconfiguration of human judgment as predictive tools are integrated, questioning the extent and boundaries of reliance on AI."
+  },
+  {
+    "expert_quote": "Even COVID time when we did Ms. teams. This is what we did. Zoom and Ms. teams it took just in one day we onboarded everybody. The whole school we did.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The description of rapid, whole-scale onboarding of a new technology platform in 'just one day' exemplifies the clash between fast, crisis-driven 'AI time' and the typically slower, more sequential pace of organizational change and training."
+  },
+  {
+    "expert_quote": "Not everybody is readily welcoming that because of course any help is welcome for anybody. Some of them, they were not very. Readily accepting. That they felt that, no, this could not be suitable for my subject. And why should I do that? I'm happy. I'm happy where I am.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "The resistance to adopting AI tools, rooted in personal satisfaction and subject-specific skepticism, signals a shift in focus from the technical/economic benefits of AI to challenges of human acceptance, adaptation, and perceived relevance."
+  },
+  {
+    "expert_quote": "We did a power BI training to all of our teachers. Power BI 2 for data analysis. There is also an AA component there. Qna. Yeah. So that adoption, the training, OK, see the senior teachers always felt that, oh, there is another thing. I'm very much into that teaching learning. I don't want to change my ways.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "The reluctance of experienced staff to adopt new data/AI tools, preferring established methods, underscores the human and cultural friction that arises as technical velocity forces changes in long-standing professional practices and identities."
+  },
+  {
+    "expert_quote": "Such cases anyway. End of any session we take a feedback, OK. And that feedback we have realized that it is not all are selfreported. So obviously they are not going to be the real truth. They know what the organization is looking for. They are going to feed me that information only.",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": false,
+    "rationale": "The skepticism about the authenticity of post-training feedback points to a gap in governance and ethical oversight. Effective frameworks for honest evaluation and safe dissent are lagging behind the technical deployment of AI tools, leading to potentially misleading data."
+  },
+  {
+    "expert_quote": "But otherwise what we do, we do department wise training other we always conduct a whole school training. Then we will do IT department wise small group. We will do that. Somebody needs special hand holding. Need based. Also we conduct like that. We take the multiple sessions so that we everybody is on.",
+    "mapped_id": "continuous_training_demand",
+    "is_negative_case": false,
+    "rationale": "The description of multi-layered, repeated, and need-based training sessions is a direct response to the non-stop demand for upskilling created by the continuous emergence of new AI tools and applications, aligning with the friction of 'continuous_training_demand'."
+  },
+  {
+    "expert_quote": "Because the ERP he was part of the founding members of that ERP. So we recruited for our school. So you are the one who knows the architecture fully, so though you are not dealing with a transport module, still you have to be present there.",
+    "mapped_id": "integration_debt",
+    "is_negative_case": false,
+    "rationale": "The reliance on a single individual for deep architectural knowledge of a legacy system (ERP) creates a critical dependency and 'debt', illustrating the challenge of managing older, incompatible components within a landscape that is rapidly advancing with new AI standards and systems."
+  },
+  {
+    "expert_quote": "I did have a middleleer for ERP that ERP leader was handling complete ERP projects... When I told that OK, when I told that. It was not taken in the right way. So that's AI won't say it is a cultural difference. OK. Maybe I my work culture was different from her work culture.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The clash over management style (micromanagement vs. empowerment) and subsequent exit, framed as a 'work culture' difference, can be interpreted as a friction arising from misaligned tempos: a slower, controlled, sequential project management approach conflicting with the need for agile, distributed responsibility in a faster-paced tech environment."
+  }
+]

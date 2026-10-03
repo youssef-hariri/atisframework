@@ -1,0 +1,38 @@
+[
+  {
+    "expert_quote": "And now with this you know theme becomes like every time you just play with it. It's like it's not much of A.",
+    "mapped_id": "tool_proliferation",
+    "is_negative_case": false,
+    "rationale": "The phrase 'every time you just play with it' and the unfinished thought 'not much of A' imply a constant influx of new tools or themes, making it difficult to deeply engage with or master any single one, aligning with the concept of tools being released faster than they can be systematically evaluated."
+  },
+  {
+    "expert_quote": "There is there is to some point of degree like you expect... So there's there is a lot of training just to keep you like. Ready for that... So it's like, as I told you, it's like more of mechanism... It's not very much flexible, true, but it really helps when you have no idea how to act... at first it was mechanism really help... This is a guidance.",
+    "mapped_id": "continuous_training_demand",
+    "is_negative_case": false,
+    "rationale": "The emphasis on ongoing, structured training and 'mechanism' as a necessary guide for adapting to new multicultural and professional contexts mirrors the need for non-stop, modular training to keep pace with emerging systems and standards in an autocatalytic environment."
+  },
+  {
+    "expert_quote": "Security is like. The first priority in my current company... So it becomes like, I mean, say really hard work sometimes to progress, but it's necessary hard. Of course it's like if you don't... I mean when you're starting. Yeah, we know. Like next, you're gonna have to like a lot to. A lot of pictures to fill up at the, so yeah... The privacy thing. So it's really like it's it's #1 priority for everyone.",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": true,
+    "rationale": "This quote describes a pre-emptive, rigorous, and non-negotiable governance framework for security and privacy that is integrated from the start ('first priority'), directly contradicting the indicator of governance frameworks emerging only after technical deployment."
+  },
+  {
+    "expert_quote": "But the good thing I think of when a business or any team to do, it's like what we are currently doing like to put a mechanism in place... It's like here's a mechanism. Here is like how we gonna do it. This is the system. It's not about you making a decision... Now it's a people problem.",
+    "mapped_id": "judgment_substitution",
+    "is_negative_case": false,
+    "rationale": "The establishment of a mechanistic system that removes individual decision-making ('It's not about you making a decision') illustrates the reconfiguration of human judgment, substituting it with predefined rules and processes."
+  },
+  {
+    "expert_quote": "It becomes really, really hard to like. If I may say, you know, we tend to say sometimes when you need to ship something, maybe you need to sacrifice this part. And just like ship it and replacei or something, but it's really hard to to risk security... It's like everyone's responsibility. Everybody will be looking at you like, oh, why did you do that?",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The participant contrasts the common pressure to 'ship' quickly (implying fast, iterative 'AI time') with an organizational culture that enforces a slower, more deliberate process for security, highlighting the friction between different temporal logics."
+  },
+  {
+    "expert_quote": "So, like if the people are OK and still things are not going well, then is a system problem.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "This framing prioritizes systemic and process-oriented solutions over individual performance, reflecting a shift in focus from pure technical output to the human and ethical systems needed to manage technology effectively."
+  }
+]

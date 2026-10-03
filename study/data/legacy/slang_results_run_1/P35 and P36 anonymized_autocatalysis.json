@@ -1,0 +1,92 @@
+[
+  {
+    "statement": "We've been working in web three, particularly for the last 7 plus years. Our main expertise I would say, lies in DevOps, particularly in Web 3, but we also can do Web 2. So it's like intersection of different industries. And this year we also launched this offering for... the maintenance deployment of those CI/CD pipelines for models and stuff like that. Everything related to models, so that's a new offering for us.",
+    "time": "0:32",
+    "indicator": "recursive_innovation",
+    "management_friction": null,
+    "metaphor": "Intersection of different industries",
+    "negative_case": false,
+    "rationale": "Expanding DevOps expertise to support AI/ML model pipelines indicates the recursive use of existing tech infrastructure to accelerate AI development."
+  },
+  {
+    "statement": "We don't focus on them too much because we did them quite some time ago and you know the industry changes really fast. So what we did three years ago is not the same. What we can do now.",
+    "time": "2:10",
+    "indicator": "skill_obsolescence_pace",
+    "management_friction": "continuous_training_demand",
+    "metaphor": null,
+    "negative_case": false,
+    "rationale": "Explicitly states that technical capabilities and case studies become outdated within a few years due to rapid industry change, forcing continuous adaptation."
+  },
+  {
+    "statement": "Mostly our clients are Western companies... They work fast and we work fast as well, so we kind of match here.",
+    "time": "4:54",
+    "indicator": "temporal_misalignment",
+    "management_friction": "timeline_compression",
+    "metaphor": "Match here (synchronization of pace)",
+    "negative_case": false,
+    "rationale": "Highlights alignment with a fast-paced 'AI time' work culture, which is a core driver of autocatalysis, though it's presented as a positive alignment rather than a friction in this context."
+  },
+  {
+    "statement": "Asian countries, they kind of take time to consider different things and then... They take a decision, then they stick to it, kind of while the Western mentality... is that it's more abrupt the flows so they people... can take it two months later and just go ahead with some other idea.",
+    "time": "5:25-5:54",
+    "indicator": "temporal_misalignment",
+    "management_friction": "timeline_compression",
+    "metaphor": "Abrupt the flows",
+    "negative_case": true,
+    "rationale": "Describes a negative case where some cultures (Asian) operate on a slower, more deliberate 'organizational time,' which acts as a buffer against the rapid, abrupt changes ('AI time') seen in Western clients. This slower pace mitigates some effects of autocatalysis like constant pivoting."
+  },
+  {
+    "statement": "We try to adapt... So if he wants to switch from... he was having a cluster in basement, he decided to switch to Solana. Our goal is to support him in his decision, so we will switch. Even that it's can be complicated and painful, but... we are ready to. Take his pace.",
+    "time": "6:39-7:05",
+    "indicator": "temporal_misalignment",
+    "management_friction": "timeline_compression, integration_debt",
+    "metaphor": "Take his pace",
+    "negative_case": false,
+    "rationale": "Illustrates the management friction of timeline compression and potential integration debt, as the service provider must painfully adapt infrastructure to keep up with a client's rapid, unilateral decisions driven by fast-moving tech trends."
+  },
+  {
+    "statement": "The modern world is very open to work in... multinational teams... people have access to Internet all over the place and they all in tune with the updates with everything. What's happening in the world. So that's just amazing.",
+    "time": "9:37-10:21",
+    "indicator": "tool_proliferation",
+    "management_friction": null,
+    "metaphor": "In tune with the updates",
+    "negative_case": true,
+    "rationale": "Presents a positive, unifying view of global connectivity enabling rapid knowledge sharing. This contrasts with the negative 'tool_proliferation' indicator, suggesting that for this participant, the pace of information flow is manageable and beneficial, not overwhelming."
+  },
+  {
+    "statement": "We usually don't judge based on cultural or national background. We just analyze their profile... we try to prepare... in terms of bring them the most efficient stack that they would love to see.",
+    "time": "11:36-12:03",
+    "indicator": "socio_technical_shift",
+    "management_friction": null,
+    "metaphor": null,
+    "negative_case": false,
+    "rationale": "Demonstrates a shift in focus from purely technical delivery to understanding and adapting to the client's specific needs and context—a move towards human-centric service that aligns with the socio-technical shift indicator."
+  },
+  {
+    "statement": "For us probably the most difficult ones would be Asians because they're they have a little different mentality... We are always trying to adapt to fit. The client.",
+    "time": "13:05-13:37",
+    "indicator": "judgment_substitution, socio_technical_shift",
+    "management_friction": null,
+    "metaphor": "Fit the client",
+    "negative_case": false,
+    "rationale": "Shows that human judgment and social adaptability are still paramount in client relations, even as technical solutions proliferate. The need to 'fit the client' emphasizes human factors over purely technical ones."
+  },
+  {
+    "statement": "It's very situational. It depends on the market as well... They try things. The market goes down. They cancel things... it's not affected by their geolocation.",
+    "time": "16:34-17:44",
+    "indicator": "temporal_misalignment",
+    "management_friction": null,
+    "metaphor": null,
+    "negative_case": true,
+    "rationale": "Identifies market volatility, not cultural pace or autocatalysis, as the primary driver of project instability and client churn. This reframes a potential autocatalysis symptom (rapid tool/strategy abandonment) as a standard business cycle issue."
+  },
+  {
+    "statement": "We have a partner... they tend to say something like, OK, I'm gonna go eat and then... we will talk about what we are going to do later... For us... it's not in our mindset that we would write something like this to workchat... Scandinavians are also quite interesting... They are in that kind of mode. Of some personal comfort, I would say being really valued high, which is not the case for Eastern Europe. Like us, we don't value our comfort.",
+    "time": "21:28-22:32",
+    "indicator": "temporal_misalignment",
+    "management_friction": null,
+    "metaphor": "Mode of personal comfort",
+    "negative_case": true,
+    "rationale": "Provides a strong negative case. Describes cultural work norms (Mediterranean, Scandinavian) that intentionally prioritize personal comfort and deliberate pacing over relentless, fast-paced execution ('AI time'). This cultural friction actively resists the temporal misalignment of autocatalysis."
+  }
+]

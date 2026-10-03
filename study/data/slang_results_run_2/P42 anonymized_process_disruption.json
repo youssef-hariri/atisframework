@@ -1,0 +1,56 @@
+[
+  {
+    "expert_quote": "And then after that I'm not sure. To be honest, I'm not in a search of anything permanent at this point... with the world going towards where it's going, I think for myself there's still a lot to learn in the AI world, so it might not be a bad thing later on to to search for a full time job where I may can work a little bit... With AI. Extensively not, not at the moment. It's a combination of the IoT devices collecting the data and then making machine learning models.",
+    "mapped_id": "socio_technical_transition",
+    "is_negative_case": false,
+    "rationale": "The speaker describes a personal career pivot towards AI and machine learning roles, framing it as an inevitable global shift ('the world going towards where it's going'). This reflects the movement from purely human-centric roles (software engineer) towards a planned hybrid human-AI collaboration model, which is the core of the socio-technical transition indicator."
+  },
+  {
+    "expert_quote": "I would always struggle with our Indian based team... where we have something like that is laid or behind. I would have problem with people coming up front. Saying there might be a delay with this. And then once I did end up with project being late because we didn't identify. We didn't identify them. We will be late so.",
+    "mapped_id": "workflow_brittleness",
+    "is_negative_case": false,
+    "rationale": "The quote highlights a 'struggle' with communication leading to unidentified delays and a late project. This demonstrates increased vulnerability ('brittleness') in a linear project plan when team integration (a precursor to integrating adaptive systems) fails, directly aligning with the workflow_brittleness description."
+  },
+  {
+    "expert_quote": "So what we did as a team, we regrouped... and we said. OK, there has to be some communicational issue... we we wrote a system... in our morning stand ups, people started listening to more what everyone is working. So we've encouraged... to say yesterday I worked on this, this and this, but I was struggling to do this... So if someone struggles more than five hours, either they need to, you know, help, or maybe to revisit the solution and change the decision on how to solve... Forward.",
+    "mapped_id": "procedural_nonlinearity",
+    "is_negative_case": false,
+    "rationale": "The speaker describes implementing a system of daily check-ins and adaptive problem-solving ('revisit the solution and change the decision'). This is an iterative, feedback-driven process ('struggling... help... change') that conflicts with a rigid, sequential 'task and execute' methodology, embodying procedural_nonlinearity."
+  },
+  {
+    "expert_quote": "So mainly anything that was data related was managed by the office that you know to which data was related to like only certain like you you've had a role in the policies on the architectural level... Who can have an access? What can they do with the data?",
+    "mapped_id": "silo_breakdown",
+    "is_negative_case": false,
+    "rationale": "The quote describes data access and management being restricted by geographical office and strict architectural roles. This illustrates the traditional 'siloed' approach that the indicator describes as being undermined by cross-functional AI/data needs. The need for such rigid controls hints at the friction caused when these silos are challenged."
+  },
+  {
+    "expert_quote": "I I think that you know the human side of the war should never be removed... I think if if there are people like I... if you want to find happiness in what you do, you have to stay and keep the communication on the on the human professional level... I. I don't think like the the laptop or machine at the end of the day that human made can be better than the human to human interaction.",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": false,
+    "rationale": "The speaker prioritizes the 'human side' and 'human to human interaction' over what machines can do. This explicitly frames a conflict between the potential for predictive automation and the irreplaceable need for human judgment, connection, and oversight, which is the core of ethical_automation_tension."
+  },
+  {
+    "expert_quote": "Because the project. He's about a team. It's about a team and each single task is a part of the project. Therefore, the success of a project is a individual success... I was lucky I had that startup. I've had, like another perspective from when I was young and now with Haymarket. I think I was really lucky. To see that there are companies allowing you to create a healthy, a healthier working space.",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "The speaker's philosophy emphasizes team success, individual contribution to the bigger picture, and creating a healthy workspace. This reflects a shift from a traditional task-execution manager role to one focused on system oversight, team health, and ethical cultural leadership—key aspects of role_reconfiguration towards judgment and oversight."
+  },
+  {
+    "expert_quote": "So we did. We did have a lot of feedback. We would try to adjust either to incorporate or regroup as a team, look into data again. See, you know to to potentially, if we can conclude in average is that a regular user behavior, if the feature needs to be changed and so on.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "The process described involves taking user feedback ('human' input) and then cross-referencing it with data ('look into data again') to make a conclusion. This exemplifies the interplay and potential tension between tacit, experiential knowledge (user complaints) and data-centric, analytical knowledge (user behavior averages)."
+  },
+  {
+    "expert_quote": "But they ended up choosing the course, which is you are looking at the laptop looking at the course and God knows what you are getting from it. So that's where I think. That the the A like completely inhuman world. Just doesn't work well.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "The speaker criticizes an impersonal, automated training course ('looking at the laptop') as ineffective ('inhuman world... doesn't work well'). This shows distrust of a purely procedural, data-centric solution in favor of more experiential, human-led methods, which is the essence of cultural_resistance."
+  },
+  {
+    "expert_quote": "I did find that, like culturally. That the way that the Americans think and look hi in Boston... at Haymarket Media, we really had a freedom cause. Most of the projects were in house projects... so there was not really that pressure where you couldn't say, hey, I don't know something. Or I I need help with this... you could potentially move a deadline if you wanted to.",
+    "mapped_id": "workflow_brittleness",
+    "is_negative_case": true,
+    "rationale": "This is a negative case. The speaker describes an environment with 'freedom,' lack of pressure, and the ability to move deadlines. This context suggests workflow was *not* brittle but was instead adaptable and resilient, explicitly contradicting the indicator's premise of increased vulnerability in linear processes."
+  }
+]

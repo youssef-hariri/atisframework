@@ -1,0 +1,37 @@
+[
+  {
+    "type": "negative_case",
+    "quote": "I don't use ChatGPT for anything like that... I think it's like a baby. It doesn't know what it doesn't know. So it just tells you whatever it thinks you want to hear.",
+    "explanation": "Directly contradicts 'magic_box_perception' by describing AI as fundamentally limited, fallible, and immature, rather than an infallible solution."
+  },
+  {
+    "type": "metaphor",
+    "quote": "I compare AI in many ways to Web 3... it's still the same thing because it's new because a lot of the people who are in that sphere are fairly, let's say, youngish.",
+    "explanation": "Maps to 'dreams_vs_reality' and 'utility_mismatch'. The 'Wild West' and 'youngish' metaphors contrast the hype and frontier mentality with the practical immaturity, lack of structure, and scalability challenges in real projects."
+  },
+  {
+    "type": "metaphor",
+    "quote": "I think the enthusiasm kind of forgets that it's still a baby and babies tell you gibberish and they need time to mature before they stop telling your nonsense.",
+    "explanation": "Directly maps to 'anthropomorphic_projection' (treating AI as a child) and 'trust_understanding_gap'. Highlights the mismatch between user enthusiasm and the system's current, unreliable developmental stage."
+  },
+  {
+    "type": "negative_case",
+    "quote": "The problem with most facial recognition software... is that the sensors were never tested on people of different skin tones. So while the technology is great, it actually doesn't work for a lot of people.",
+    "explanation": "Contradicts 'magic_box_perception' and directly evidences 'unfairness_barriers'. Provides a concrete, real-world example of AI's fallibility and systemic bias, grounding expectations in practical failure."
+  },
+  {
+    "type": "metaphor",
+    "quote": "A lot of it is constant change and constant churning... effective communication is very difficult.",
+    "explanation": "Maps to 'dreams_vs_reality' and 'utility_mismatch'. The 'churning' metaphor illustrates the chaotic, unstable reality of AI work, which clashes with the idealized vision of a seamless, autonomous technology that perfectly aligns with goals."
+  },
+  {
+    "type": "negative_case",
+    "quote": "He decided that he wanted to do this project... But no one could explain to him that, you know, maybe this is not the right time to pursue this.",
+    "explanation": "Contradicts 'utility_mismatch' and highlights 'feedback_dissonance'. Shows that the barrier is not AI failing to align with goals, but leadership failing to accept rational, experience-based feedback about AI's limitations and appropriate context—a human/organizational failure, not a technical one."
+  },
+  {
+    "type": "negative_case",
+    "quote": "We had to have a lot of conversations about... the politics cannot happen... But you're also denying... it's not an easy question to answer.",
+    "explanation": "Contradicts the simplicity implied by 'magic_box_perception'. Highlights that deploying AI in multicultural contexts involves complex, non-technical human and ethical dilemmas (like geopolitical tensions) that an autonomous 'box' cannot resolve."
+  }
+]

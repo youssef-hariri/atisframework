@@ -1,0 +1,56 @@
+[
+  {
+    "expert_quote": "What we do is we work predominantly in the data warehousing space with the advent of AI, what we do is we build a rag applications mostly in Python And using tools like Lang Chain... we've used open source tools like R or Python packages to build some machine learning stuff, and we've deployed it on Amazon Cloud. We've also used the enterprise level tools like SaaS enterprise minor...",
+    "mapped_id": "socio_technical_transition",
+    "is_negative_case": false,
+    "rationale": "The quote describes the firm's evolution from traditional data warehousing to building AI-driven RAG applications, exemplifying the shift from human-centric data management to hybrid human-AI collaborative technical workflows."
+  },
+  {
+    "expert_quote": "Previously, it had taken him six months and now we were saying it will take... it took him six months and it took him thousands of dollars extra... There's no big difference between 11 year experienced data engineer and a sixyear 6 years experience data engineer. If you ask me when it comes to coding and things like that. But when it comes to... Deployment. I think there's a little bit of difference there...",
+    "mapped_id": "workflow_brittleness",
+    "is_negative_case": false,
+    "rationale": "The speaker contrasts the traditional, lengthy, costly linear development process with a new, faster AI-aided approach. He highlights a new point of vulnerability ('difference') in deployment, indicating the increased brittleness of the traditional linear workflow when integrating adaptive AI components."
+  },
+  {
+    "expert_quote": "In my mind I was urgent... I thought it was a yes... And then the guy did what he had to do. And when I came back for review, the the founder CEO, he said I wouldn't appreciate it. He never said he was angry... So I had to deconstruct it and say maybe I shouldn't repeat that. Process.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "The incident illustrates a tension between the data-centric, execution-driven 'crunch' mindset of the AI/tech team and the tacit, experience-based communication norms and approval processes of the client's leadership, leading to a misunderstanding."
+  },
+  {
+    "expert_quote": "That's when their team comes into play. Our team comes into play and this. Cultural thing goes up and people start talking about geography, timelines and things like that, and we go to deployment and then we move on to maintenance.",
+    "mapped_id": "integration_friction",
+    "is_negative_case": false,
+    "rationale": "Describes the peak of 'cultural' and logistical challenges ('geography, timelines') specifically during the deployment phase, highlighting the friction of embedding the completed AI product into the client's existing operational lifecycle and teams."
+  },
+  {
+    "expert_quote": "No matter what we ask. And how legit the request was. The bus route says cybersecurity violation, this that and, you know, stop the entire project. So we've had that case happened and we had to escalate it to the CTO... And then there was a huge delay.",
+    "mapped_id": "silo_breakdown",
+    "is_negative_case": false,
+    "rationale": "The cybersecurity officer's rigid, siloed enforcement of policy 'stop[s] the entire project,' demonstrating how the cross-functional data and access needs of an AI project are undermined by traditional, rigid departmental boundaries and authority."
+  },
+  {
+    "expert_quote": "If you go to people in Europe. OK and. They're more inclined to have physical servers than using a cloud platform. OK, so similarly, they're open to hosting their own AI on their own servers versus using... A. Another person's API key...",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": false,
+    "rationale": "The speaker attributes a preference for on-premise AI deployment in Europe to a cultural inclination toward control and security, framing it as a tension between the convenience of predictive cloud automation and the perceived ethical/safety need for direct human and institutional oversight of data and systems."
+  },
+  {
+    "expert_quote": "There are some customers who are open to use a chat GP TS API to get the job done. There are some customers who buy the NVIDIA Jetson machine deploy, you know, open source AI, and they only want stuff from there.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "Describes a fundamental divergence in technical approach (external API vs. controlled, on-premise deployment) driven by client culture and trust levels, representing a form of resistance to or cautious acceptance of different data-centric, automated workflows."
+  },
+  {
+    "expert_quote": "The thing about AI from a technical side, if you look into it, it's just a neighbor of data engineering and data warehousing... So there's no huge difference. But I would say there are some implementation differences...",
+    "mapped_id": "socio_technical_transition",
+    "is_negative_case": true,
+    "rationale": "This is a negative case. The speaker explicitly downplays the disruptive nature of AI, framing it as a natural, non-disruptive extension ('just a neighbor') of existing data workflows, contradicting the rubric's definition of a systemic friction emerging from non-linear AI contradicting linear processes."
+  },
+  {
+    "expert_quote": "Regardless of which country or culture they are from, step one is making them comfortable. OK, making them comfortable... Step 2 is listening to them OK and asking probing questions. And the next step is to build trust... If if we have all these things put in place, regardless of culture, I think it'll be a win, win situation.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": true,
+    "rationale": "This is a negative case. The speaker asserts that universal professional practices (comfort, listening, trust-building) can override specific cultural resistances, suggesting cultural friction is not an insurmountable barrier and can be managed with standard soft skills, contrary to the rubric's focus on deep-seated resistance."
+  }
+]

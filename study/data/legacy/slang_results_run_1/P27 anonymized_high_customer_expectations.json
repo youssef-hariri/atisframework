@@ -1,0 +1,41 @@
+[
+  {
+    "indicator": "unfairness_barriers",
+    "evidence": "Discusses building a credit scoring model in Nepal where biases were introduced because experts contributed insights based on personal experience rather than data analysis: 'we did introduce a lot of bias from these experts... they're rather making this and based on their own experiences, right?'",
+    "metaphor_mapped": "Experts as 'oracles' – Implies a belief that human expert intuition is a flawless, translatable input for an AI system, leading to a 'garbage in, gospel out' scenario where biased human judgment is codified as algorithmic truth."
+  },
+  {
+    "indicator": "trust_understanding_gap",
+    "evidence": "Describes clients in Nepal being 'very hesitant' to share necessary data for the ML solution, creating a major hindrance: 'it was like really hard to explain... we need access to this data... But they were like very hesitant...'. Contrasts this with US clients who provide quick, to-the-point feedback that helps refine the product.",
+    "metaphor_mapped": "Data as a 'treasure hoard' – The client perceives their data as a valuable secret to be guarded, not as fuel for a collaborative solution. This creates a wall between the perceived 'Magic Box' (the AI) and the reality that it cannot function without being fed."
+  },
+  {
+    "indicator": "feedback_dissonance",
+    "evidence": "Highlights the 'pretty slow' feedback loop in Nepal as a hindrance to progress, attributing it partly to clients who 'don't necessarily know what... they want.' This required the team to work 'a very long time to come up with a viable solution.'",
+    "metaphor_mapped": "Development as a 'blind journey' – The team is tasked with building a destination (AI solution) for stakeholders who cannot describe the map. The slow, unclear feedback represents the labor-intensive 're-education' required to align vague, high expectations with practical development milestones."
+  },
+  {
+    "indicator": "explainability_deficit",
+    "evidence": "Implied in the difficulty of communicating with Nepalese clients about data needs. The core challenge was explaining the fundamental link between data input and solution output, a basic explainability gap regarding how ML works.",
+    "metaphor_mapped": "The 'Black Box' Lock – The clients' reluctance stems from not seeing or understanding the mechanism inside the box. The failure to explain the basic necessity of data keeps the box locked, preventing the project from even starting, demonstrating that explainability deficits occur at the most foundational levels."
+  },
+  {
+    "indicator": "magic_box_perception",
+    "evidence": "The client's hesitancy to provide data suggests an expectation that the AI solution should work independently or with minimal input, a hallmark of the 'Magic Box' belief. The need for extensive, sensitive data broke this perception.",
+    "metaphor_mapped": "AI as a 'Sorcerer's Apprentice' – The client may have expected the AI (the sorcerer) to perform miracles with a wave of a wand (a simple request), not realizing it requires the meticulous preparation of ingredients (cleaned, relevant data) by the apprentices (the data scientists)."
+  },
+  {
+    "negative_case": {
+      "indicator_tested": "unfairness_barriers",
+      "evidence": "Explicitly states that in his current computer vision work, 'there's not a lot of bias[es] that could be introduced.'",
+      "interpretation": "The participant delineates between high-stakes, socio-economic domains (credit scoring) where fairness is a critical, visible barrier, and other technical domains (CV for IoT) where the perceived risk of unfairness is low. This shows the barrier is context-dependent, not a universal feature of all AI projects."
+    }
+  },
+  {
+    "negative_case": {
+      "indicator_tested": "paradoxical_expectations / trust_erosion",
+      "evidence": "Describes a successful feedback dynamic with US clients: 'feedbacks are like very a quick. And... way to the point and it actually helps us finetune our products.' No mention of disillusionment or resistance to scaling.",
+      "interpretation": "Contradicts the 'trust_erosion' friction. In this US context, clear communication and aligned expectations led to a productive, iterative cycle that built utility and trust, preventing the disillusionment often seen in pilot phases with high, mismatched expectations."
+    }
+  }
+]

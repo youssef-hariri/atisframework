@@ -1,0 +1,72 @@
+[
+  {
+    "indicator_name": "non_deterministic_outputs",
+    "transcript_evidence": "Person 2 discusses how AI systems can be used in 'strange ways' or 'go wrong' in many unforeseen ways, especially with general-purpose technologies like LLMs. This highlights that system outputs are not fixed and are subject to user interpretation and interaction.",
+    "analysis": "While Person 2 frames this as a challenge of user behavior and perspective, it aligns with the inherent unpredictability of AI system outputs. The output is not solely a function of the model's code but of the dynamic, complex interaction between the model and a diverse user base with different mental models.",
+    "is_negative_case": false
+  },
+  {
+    "indicator_name": "probabilistic_variance",
+    "transcript_evidence": "Person 2 does not explicitly discuss statistical variance in model predictions. Their focus is on variance in human understanding, communication, and project execution.",
+    "analysis": "This is a strong negative case. Person 2's discussion of uncertainty is centered on human and process factors (e.g., communication delays, differing expectations), not on the statistical variance inherent to probabilistic ML models. The uncertainty they describe is epistemic (due to a lack of knowledge/communication) rather than aleatoric (inherent randomness).",
+    "is_negative_case": true
+  },
+  {
+    "indicator_name": "model_drift",
+    "transcript_evidence": "Person 2 does not mention model performance decaying over time due to changing data.",
+    "analysis": "This topic is absent from the conversation. The discussion about change is focused on team growth and process adaptation, not on the AI models themselves degrading or becoming misaligned with a shifting environment.",
+    "is_negative_case": true
+  },
+  {
+    "indicator_name": "lack_of_reproducibility",
+    "transcript_evidence": "Person 2 does not discuss replicating AI-driven results.",
+    "analysis": "The concept of technical reproducibility is not raised. The focus is on replicating processes and understanding within the team, not on replicating specific model outputs or experiments.",
+    "is_negative_case": true
+  },
+  {
+    "indicator_name": "data_dependency",
+    "transcript_evidence": "Person 2 states: 'AI projects are so... very connected to... the data... you really need to understand how... humans behave.' They emphasize that diverse team perspectives are critical to imagine 'how things can go wrong' with AI systems, implying that the system's behavior is highly dependent on the data (and human context) it's designed for.",
+    "analysis": "This implicitly supports the data dependency indicator. Person 2 highlights that the quality and breadth of a team's understanding of human behavior (a form of contextual data) directly impacts the ability to foresee and mitigate AI system failures. A narrow, homogenous perspective creates a brittle understanding of the data domain.",
+    "is_negative_case": false
+  },
+  {
+    "indicator_name": "non_linear_estimation",
+    "transcript_evidence": "Person 2 describes a pattern where 'some colleagues... won't say that... this project is not gonna get done in time... they will kind of not mention that it's gonna it's delayed a bit and then only three days later we find out actually there was some big problem happening.'",
+    "analysis": "This points to a non-linear progression of project issues. Small, uncommunicated problems lead to sudden, significant delays. The project timeline does not degrade in a predictable, linear fashion but experiences abrupt adjustments due to hidden complexities surfacing late, a hallmark of non-linear estimation challenges.",
+    "is_negative_case": false
+  },
+  {
+    "indicator_name": "opaque_outcomes",
+    "transcript_evidence": "Person 2 explains the value of diversity: 'Having people from lots of different backgrounds is... really important because... it's very you can't test for all possible things. There's many ways that it can go wrong.'",
+    "analysis": "This directly addresses algorithmic opacity. Person 2 acknowledges that AI systems, especially general-purpose ones, have too many potential failure modes to fully anticipate or test. The 'outcomes' (including failure states) are opaque. They argue that diverse perspectives are a necessary heuristic to peer into this opacity and anticipate more of the possible negative outcomes.",
+    "is_negative_case": false
+  },
+  {
+    "indicator_name": "dynamic_forecast_adjustment",
+    "transcript_evidence": "The same evidence about delayed communication of project problems leads to unplanned adjustments: 'only three days later we find out actually there was some big problem.' This forces a sudden re-forecast.",
+    "analysis": "This is a clear example of dynamic forecast adjustment driven by underlying instability. The instability here is not in the AI model's output, but in the socio-technical system of the project team—specifically, the communication flow regarding impediments. This friction forces managers to constantly update timelines and plans.",
+    "is_negative_case": false
+  },
+  {
+    "management_friction_name": "baseline_erosion",
+    "transcript_evidence": "Linked to 'dynamic_forecast_adjustment,' the pattern of late-communicated problems forces the team to repeatedly adjust their commitments and timelines.",
+    "analysis": "This is a direct manifestation of baseline erosion. The initial project plan (the baseline) is not stable. Probabilistic variance in task completion (due to hidden complexities and communication variance) forces project managers to continuously revise forecasts, eroding confidence in any fixed plan or deadline.",
+    "is_negative_case": false
+  },
+  {
+    "management_friction_name": "accountability_challenges",
+    "transcript_evidence": "Person 2 does not discuss scenarios where an AI model's decision leads to a problem where blame is unclear.",
+    "analysis": "Accountability in this transcript is framed in human terms: who communicated what and when. There is no discussion of opaque algorithmic outcomes creating ambiguity over who or what is responsible for a result. The accountability challenge, if any, is cultural (reluctance to give upward feedback) not algorithmic.",
+    "is_negative_case": true
+  },
+  {
+    "metaphor_identified": "Physical Manipulation Metaphor for Collaboration",
+    "transcript_evidence": "'...everyone comes together and they're holding this idea in their hands and they're trying to like, manipulate it and talk about it from different sides...'",
+    "interpretation": "This metaphor conceptualizes an abstract 'idea' as a tangible, shared object that can be physically held and examined from multiple angles. It frames collaborative understanding as a collective, tactile process of exploration and refinement, making the intangible process of alignment feel more concrete and actionable."
+  },
+  {
+    "metaphor_identified": "Spatial Metaphor for Perspective-Taking",
+    "transcript_evidence": "'If you step step back, then you can see oh, actually the... criticism was fine.'",
+    "interpretation": "This uses physical distance ('step back') to represent gaining psychological or emotional distance. It suggests that a defensive or frustrated initial reaction to feedback is a 'close-up' view, and that clarity and objectivity are found by creating mental space. It's a common metaphor for gaining a broader, more balanced perspective."
+  }
+]

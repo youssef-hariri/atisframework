@@ -1,0 +1,68 @@
+[
+  {
+    "expert_quote": "It's not about the technology, it's about the culture atmosphere and we update like we can update ourselves by using this virtual meeting and all these things.",
+    "mapped_id": "socio_technical_transition",
+    "is_negative_case": false,
+    "rationale": "The phrase 'update ourselves by using this virtual meeting' describes the transition from purely human interaction to hybrid collaboration enabled by technology, aligning with the shift to human-AI collaboration models."
+  },
+  {
+    "expert_quote": "There's some miscommunication because of the time because just this like. I have ist here somewhere is cet? Is there somewhere GMT? Is there so time zone is different?",
+    "mapped_id": "workflow_brittleness",
+    "is_negative_case": false,
+    "rationale": "The description of miscommunication due to time zones highlights a specific vulnerability introduced into a distributed, collaborative workflow, indicative of brittleness when integrating across adaptive systems."
+  },
+  {
+    "expert_quote": "I listen to everyone and I give them time to resolve their problems. If not, then I'll decide it... It's my authority.",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "The speaker frames their managerial role as a facilitator and final ethical/judgment arbiter ('I'll decide'), moving from pure task management to oversight and conflict resolution."
+  },
+  {
+    "expert_quote": "all the clients is looking for that. They want the integrations with their current like current software or current system... they just want to upgrade their system.",
+    "mapped_id": "integration_friction",
+    "is_negative_case": false,
+    "rationale": "The emphasis on integrating AI into 'current software/system' directly points to the challenge of embedding new technology into established organizational lifecycles."
+  },
+  {
+    "expert_quote": "If we exchange the knowledge, it's very good... when you exchange your knowledge, you increase your knowledge.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": true,
+    "rationale": "This advocates for open knowledge sharing and synthesis. It contradicts the indicator's definition of a 'tension' between data-centric and tacit knowledge, instead promoting a solution to such clashes."
+  },
+  {
+    "expert_quote": "we make a group where everyone is upgrading their task if they have any query... We connect with each other... It's not about the manager, it's a mutually understanding...",
+    "mapped_id": "procedural_nonlinearity",
+    "is_negative_case": false,
+    "rationale": "Describing a fluid, group-based update and query system reliant on mutual understanding contrasts with a strict, sequential, phase-gated methodology, indicating a non-linear, collaborative loop."
+  },
+  {
+    "expert_quote": "I was working in the data modeling project... team members, more than 800, more than 100... with different different time zones. It's very typical to me to handle that 100 tree members in a particular time...",
+    "mapped_id": "silo_breakdown",
+    "is_negative_case": false,
+    "rationale": "Managing a large, globally dispersed team for a 'data modeling project' inherently requires cross-functional, cross-departmental coordination, undermining traditional siloed and co-located team structures."
+  },
+  {
+    "expert_quote": "AI will AI have there don't have their own mind... you need to be with a spoon feeding... before using any AI... Please go through in deep... Pro Cons and especially the storage part.",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": false,
+    "rationale": "The 'spoon feeding' metaphor and emphasis on deep user analysis and data storage caution illustrate a critical awareness of AI's limitations, highlighting the necessary human oversight for safe and ethical implementation."
+  },
+  {
+    "expert_quote": "They want the integrations with their current like current software or current system.",
+    "mapped_id": "legacy_inflexibility",
+    "is_negative_case": false,
+    "rationale": "Client demand to integrate with 'current software/system' directly references the challenge posed by pre-existing (legacy) systems that were not built for dynamic AI/data needs."
+  },
+  {
+    "expert_quote": "It's a mutually understanding actually, when you work together, if you understand and it will be work out better.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": true,
+    "rationale": "This statement posits that mutual understanding can overcome collaborative hurdles, directly contradicting the notion of a fixed 'distrust' or resistance to new data-centric or collaborative methods."
+  },
+  {
+    "expert_quote": "As a leader, we need to be have a soft corner. But yes, we have to be a hard corner also because after all, I don't want to compromise my work.",
+    "mapped_id": "role_transition_hurdles",
+    "is_negative_case": false,
+    "rationale": "Describing the need to balance a 'soft corner' with a 'hard corner' captures the tension and reskilling needed for managers transitioning from traditional authority figures to hybrid leaders focused on both empathy and systemic oversight."
+  }
+]

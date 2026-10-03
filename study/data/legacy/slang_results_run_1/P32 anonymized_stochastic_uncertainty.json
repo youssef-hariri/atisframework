@@ -1,0 +1,74 @@
+[
+  {
+    "indicator": "non_deterministic_outputs",
+    "quote": "So for example something like text similarities and stuff like that. So you can do the normal using the Python packages to just do the similarities... Somebody like. Nah, let's get that. Put it in AI. Give it a good prompt. Let's wait and see what comes out.",
+    "significance": "Illustrates a core operational choice where outputs from a deterministic Python package are contrasted with the variable, prompt-dependent results from an AI model, acknowledging inherent non-determinism.",
+    "metaphor_mapping": "No explicit metaphor used for this point."
+  },
+  {
+    "indicator": "probabilistic_variance",
+    "quote": "We if they want something A, B and C. We're like, OK. We can do A and B, but let's give us some time. We read about C and we'll tell you how it goes.",
+    "significance": "Shows project scopes and capability estimates are not fixed but are probabilistic forecasts based on the team's future learning and experimentation, leading to variance in deliverables.",
+    "metaphor_mapping": "No explicit metaphor used for this point."
+  },
+  {
+    "indicator": "lack_of_reproducibility",
+    "quote": "Somebody like. Nah, let's get that. Put it in AI. Give it a good prompt. Let's wait and see what comes out.",
+    "significance": "Implies that the AI-driven approach to a task (like text similarity) may yield different results on different runs based on the prompt and model state, contrasting with the reproducible output of a standard Python script.",
+    "metaphor_mapping": "No explicit metaphor used for this point."
+  },
+  {
+    "indicator": "data_dependency",
+    "quote": "I have that in mind like when I'm building the databases... I have to make sure that everything is stored perfectly well... Information, emails and all that are hashed... Backups are made perfect too well in AWS.",
+    "significance": "Highlights a proactive, engineering-focused management of data dependency. Quality, security, and integrity are seen as prerequisites to prevent downstream model or system failure, acknowledging the foundational role of data.",
+    "metaphor_mapping": "No explicit metaphor used for this point."
+  },
+  {
+    "indicator": "opaque_outcomes",
+    "quote": "Put it in AI. Give it a good prompt. Let's wait and see what comes out.",
+    "significance": "The phrase 'wait and see' regarding AI output implies an acceptance of opacity; the internal decision-making of the model that produces the result is not interrogated, only the final output is evaluated.",
+    "metaphor_mapping": "No explicit metaphor used for this point."
+  },
+  {
+    "indicator": "dynamic_forecast_adjustment",
+    "quote": "We if they want something A, B and C... We can do A and B... We read about C and we'll tell you how it goes.",
+    "significance": "Project baselines (scope, capability) are not static. They are explicitly set to be adjusted based on new learning ('we read about'), demonstrating a dynamic and adaptive planning process driven by technical exploration.",
+    "metaphor_mapping": "No explicit metaphor used for this point."
+  },
+  {
+    "management_friction": "baseline_erosion",
+    "quote": "We can do A and B, but let's give us some time. We read about C and we'll tell you how it goes.",
+    "significance": "Directly exemplifies this friction. Client commitments (the baseline) are immediately conditional and subject to change based on the team's learning curve, requiring clients to accept flexible, non-fixed deliverables.",
+    "metaphor_mapping": "No explicit metaphor used for this point."
+  },
+  {
+    "negative_case": {
+      "indicator": "model_bias_and_ethics",
+      "quote": "Oh, no, no. We don't deal with bias. Ethics. Yeah.",
+      "explanation": "Person 2 explicitly disengages from the uncertainty domain of model bias and ethics. This is a clear negative case where a significant area of AI-related stochastic uncertainty (bias in outputs) is stated as outside their operational purview, simplifying their risk landscape."
+    }
+  },
+  {
+    "negative_case": {
+      "indicator": "cultural_determinism",
+      "quote": "It's not a matter of how it's delivered, it's how it's received in my opinion... If it's constructive, then you take it home and change your approach. If it's not constructive, then you just listen and do nothing.",
+      "explanation": "While discussing multicultural feedback, Person 2 frames the outcome as a deterministic function of individual reception and judgment ('how it's received'), not as a probabilistically uncertain event influenced by cultural nuance. This reduces interpersonal interaction to a more predictable, binary evaluation."
+    }
+  },
+  {
+    "metaphor_analysis": {
+      "metaphor": "Thrown in the deep end",
+      "context": "Describing leadership and learning approaches in Africa.",
+      "significance": "Maps to experiential, trial-by-fire learning and management. It reflects an acceptance of initial uncertainty and potential failure ('you start drowning') with a safety net ('pole to grab'). This metaphor embodies a management philosophy that accommodates non-linear progression and dynamic adjustment in skill development.",
+      "link_to_uncertainty": "Aligns with **dynamic_forecast_adjustment** and managing **non-linear estimation** in project timelines and skill acquisition."
+    }
+  },
+  {
+    "metaphor_analysis": {
+      "metaphor": "Breaking the ice with black jokes",
+      "context": "Advice for integrating into a multicultural team.",
+      "significance": "Maps to using self-deprecating, culturally-specific humor as a deliberate tool to reduce social uncertainty and opacity. It's a strategy to make implicit cultural norms explicit and to build predictable, friendly rapport, thereby mitigating the 'opaque outcomes' of initial intercultural interactions.",
+      "link_to_uncertainty": "A strategy to manage the **opaque_outcomes** of social and professional dynamics in a diverse team."
+    }
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "expert_quote": "So I don't feel like. Even when there was that culture of not specially respecting time like work time lens. But I don't think it served us because we were in very different time zones. So it's really because we had someone from Ukraine... So sometimes you'll have a query, send it, and then have to work on something else. That's because you can't keep waiting for that one message. You need to continue working on something else.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The participant describes the practical misalignment between the fast, on-demand pace of collaborative technical work ('AI time') and the slower, sequential, time-zone dependent pace of human communication and response ('organizational time'), which is a core friction of temporal_misalignment."
+  },
+  {
+    "expert_quote": "So because of that your this one was a 20 year old. But yeah, because of that, you're constantly getting these complaints. It's mostly support, so these are the these issues happened. This is not working like this and your role is to understand what the issue is. Manage expectations for the client. Get to know when we can give them a response and then update them when that happens, or even when something goes wrong.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The quote illustrates the ongoing, fast-paced pressure of managing client issues in real-time ('constantly getting these complaints'), highlighting the clash between the rapid iteration cycle of tech support and the slower, expectation-based rhythm of client management."
+  },
+  {
+    "expert_quote": "So yes, for GDPR not to think about it, yeah.",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": false,
+    "rationale": "The participant's offhand comment about GDPR highlights it as an external, non-negotiable compliance framework that had to be accounted for 'around the time' it was introduced, reflecting the concept of regulatory frameworks emerging and necessitating post-hoc integration into existing technical projects."
+  },
+  {
+    "expert_quote": "I don't believe so. I don't believe it made a big difference. But it was especially when it worked as a data engineer. It was like my first years working, so I don't think I thought much about all these influences.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": true,
+    "rationale": "Person 2 explicitly contradicts the indicator by stating that cultural differences ('socio-' aspects) did not have a significant impact on their data engineering work, suggesting that at that point in their career, the primary focus remained on technical execution rather than human/ethical acceptance factors."
+  },
+  {
+    "expert_quote": "Or, but I'm also glad I said this because there was also this woman who was saying she's leaving her company and she's going to talk about Rei is really. Like trained by male people for male people, blah blah blah. And as much as they don't feel that as my experience when using ChatGPT specifically. Is a reality where many models are being trained with content. Excluding black people, excluding like anyone else that is not white male. We've seen these, so it's not wild to think we'll also have the same bias... Yeah, it's it's even the data you're getting where you're getting it from. Who are the people who've done these studies? It people who are biased towards this specific thing.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "This extended quote directly addresses the shift from pure technical capability to urgent human-centric concerns of bias, ethics, and representation in AI. Person 2 articulates the reality that technical velocity has outpaced inclusive design, forcing a necessary focus on the 'human side' and ethical flaws of AI systems, which is the essence of the socio_technical_shift indicator."
+  }
+]

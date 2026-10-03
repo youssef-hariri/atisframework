@@ -1,0 +1,56 @@
+[
+  {
+    "expert_quote": "I changed my pH. D area... It was tough because I I was really need to coding. It got hours and hours, but I had to do and also I was. Hearing some discomfort in says that in my school they were saying that I couldn't make it.",
+    "mapped_id": "role_transition_hurdles",
+    "is_negative_case": false,
+    "rationale": "The quote describes personal reskilling challenges and institutional discouragement, reflecting the disruption of established career hierarchies and decision-making authority during the transition into AI."
+  },
+  {
+    "expert_quote": "In this database we are working on open data sets. OK, since we are using open data sets it is not issue for us.",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": true,
+    "rationale": "The speaker indicates data privacy is not a concern due to using open datasets, contradicting the potential friction between predictive automation and ethical oversight regarding sensitive data."
+  },
+  {
+    "expert_quote": "I faced model bears... I was working. Astronomical time series dating... it was hard to fight and algorithm that all address this question for all fourteen classes... I had to choose one algorithm, but it was not. It underestimates some of the classes... It is some kind of model bias I guess.",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": false,
+    "rationale": "The quote highlights model bias in an AI project, illustrating the tension between automated algorithmic choices and the need for ethical fairness across diverse data classes."
+  },
+  {
+    "expert_quote": "In my Academy in Turkey, I I see that they're so bored, they do not want to give my give us time... In one years I had, they were treating us equally... I know that will be very well people also in Turkey, but. I see that the saw boards maybe this this might be about political environment... they had to give lectures besides making research. And in Turkey, this is some kind of different the times of the lectures are so large and making research make them very tirades...",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "The quote depicts an academic culture where heavy teaching loads and political factors limit support for data-intensive research, aligning with distrust of data-centric approaches in favor of traditional methods."
+  },
+  {
+    "expert_quote": "But I had an individual. Person in which was a lead for an open source project. But as generally we talked that she was irresponsible. We have irresponsible behaviors. She left the project for one month and tried to get turn back and without any explanation. But it was tough to we talk with her and she was feeling threatened... I felt discriminated by this individual person...",
+    "mapped_id": "workflow_brittleness",
+    "is_negative_case": false,
+    "rationale": "The irresponsible behavior of a project lead caused disruption and vulnerability in the project workflow, exemplifying how linear processes become brittle when leadership is unstable in collaborative AI environments."
+  },
+  {
+    "expert_quote": "Actually I I last project I. Saw I was stuck in Daesh in some point. It was 3 weeks. I stuck summer so just one line course. I couldn't see it. But they do not show that alliance. They do not show me, but talking with different peoples in different countries... They say Chinese, Germany, India. Taking their. Support help me to overcome this problem...",
+    "mapped_id": "silo_breakdown",
+    "is_negative_case": true,
+    "rationale": "The speaker successfully overcame a technical barrier through cross-cultural collaboration, indicating that silo breakdown (cultural and knowledge boundaries) can be a positive enabler rather than a friction in AI workflows."
+  },
+  {
+    "expert_quote": "Appealing my concert. They couldn't hear me, I because I I did feel like that. I I'm seeing like a crazy woman saying. And when I was talking about I'm so that I'm working. So I'm so. Enthusi and they find this different I guess, than they funny. And but in another cultures in different cultures, I don't feel something like that.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "The speaker experiences resistance in her own culture as an enthusiastic woman in machine learning, reflecting distrust of data-centric approaches and a clash with traditional gender and professional norms."
+  },
+  {
+    "expert_quote": "I both hurt. Both see one individual can't in some specific country. They are so prone to show. Good results. They are so I don't want to give. Want to give they because I feel that they had pressure on them to be best to show best, but it is not best. Always you couldn't do it. But then sometimes we are hearing about they manipulate some results.",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": false,
+    "rationale": "The quote describes cultural pressure to display optimal results, leading to potential data manipulation, which creates tension between automated performance reporting and the need for ethical honesty in AI projects."
+  },
+  {
+    "expert_quote": "It is so important because... For as I mentioned, the problematic leader was. Having closing some different people, but I feel discriminated in this project.",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "The speaker emphasizes the critical role of leadership in diverse teams and shares a negative experience where the leader's failure to adapt to ethical oversight and system management roles led to discrimination and project disruption."
+  }
+]

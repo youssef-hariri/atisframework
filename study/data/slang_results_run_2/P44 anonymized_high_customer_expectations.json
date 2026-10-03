@@ -1,0 +1,38 @@
+[
+  {
+    "expert_quote": "But if you have to assemble a new team, that's a totally different story. So and it's not a game applicable to the eye, it's applicable to everything.",
+    "mapped_id": "dreams_vs_reality",
+    "is_negative_case": true,
+    "rationale": "Speaker dismisses AI projects as inherently special or uniquely difficult, explicitly contrasting them ('not that much different') with the idealized belief that AI work is a distinct 'game'. This negates the 'dreams vs. reality' indicator where AI is seen as exceptionally challenging or different."
+  },
+  {
+    "expert_quote": "I worked with many nice people from China, from India, from... Pakistan excellent people and sometimes you cannot work with people from your own country because they're just simply horrible. They're arrogant. They are aggressive.",
+    "mapped_id": "anthropomorphic_projection",
+    "is_negative_case": true,
+    "rationale": "Speaker explicitly rejects the rubric's indicator of projecting human-like cultural stereotypes onto groups ('anthropomorphic_projection'), stating such stories are 'not true'. The friction is attributed to individual personality flaws, not cultural archetypes."
+  },
+  {
+    "expert_quote": "this company... they try to collect their feedback, so to say behind your back. They have, like some, some kind of system. They collect the feedback behind your back and quite often they don't even share this feedback with you. Like, oh, what's this called? Word for word?... It's not actionable, and quite often it's it's incorrect.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "Describes a system where feedback is opaque, non-actionable, and incorrect, leading to a gap between the expected utility of a formal feedback process and its flawed reality. This aligns with 'feedback_dissonance' where user inputs are based on unrealistic benchmarks of system fairness/transparency."
+  },
+  {
+    "expert_quote": "feedback from my perspective it could be. Let's say a weapon as well. So why? Because if you. Want to?... you can structure more or less the same situation and give feedback that will encourage people... Or you can totally discourage and demotivate person, right?",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "Uses the professional slang 'weapon' to describe feedback, highlighting its potential for misuse and the gap between its idealized purpose as a developmental tool and its reality as a political instrument. This matches the 'feedback_dissonance' friction of labor required to manage unrealistic expectations about system neutrality."
+  },
+  {
+    "expert_quote": "I just left the company because I thought that like I don't like it and that's not going according to my principal... that's one of the failures... the culture is, they don't respond to each other, you know, like probably shouldn't do and start.",
+    "mapped_id": "trust_erosion",
+    "is_negative_case": false,
+    "rationale": "Describes disillusionment with a company's culture during a 'pilot phase' of employment, leading to the decision to leave ('resistance to scaling'). This aligns with the 'trust_erosion' friction where initial high hopes are dashed, resulting in withdrawal and perceived project/relationship failure."
+  },
+  {
+    "expert_quote": "some of those courses, they're not very memorable... you don't recall or don't remember many of those things. Because normally recent boarding processes, they had like many courses... when you try to get as much information quickly like 50%, you forget you know",
+    "mapped_id": "trust_understanding_gap",
+    "is_negative_case": false,
+    "rationale": "Describes standard onboarding as an opaque, overwhelming, and ultimately forgettable process ('not very memorable'), creating a gap between the company's promise of preparation and the employee's unsatisfactory understanding. This mirrors the 'trust_understanding_gap' where high optimism is undermined by opaque processes."
+  }
+]

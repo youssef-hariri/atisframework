@@ -1,0 +1,44 @@
+[
+  {
+    "expert_quote": "We're building a multi agent type of tool and we needed to make some serious implementations that... we're just learning as we go. So what you learn is what you implement...",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The phrase 'learning as we go' and 'what you learn is what you implement' describes a development process where algorithmic decision-making and outcomes are emergent, complex, and not fully predetermined or easily explained upfront, matching the description of 'Algorithmic decision-making complexities that lead to results that are hard to explain.'"
+  },
+  {
+    "expert_quote": "We can do A and B, but let's give us some time. We read about C and we'll tell you how it goes.",
+    "mapped_id": "dynamic_forecast_adjustment",
+    "is_negative_case": false,
+    "rationale": "The statement indicates a need to defer commitment and update project scope ('tell you how it goes') based on future learning. This reflects the need for constant baseline updates due to underlying technical uncertainty and learning, aligning with 'The need to constantly update baselines as an indicator of underlying system instability.'"
+  },
+  {
+    "expert_quote": "We don't deal with bias. Yeah.",
+    "mapped_id": "probabilistic_variance",
+    "is_negative_case": true,
+    "rationale": "This is a negative case where the speaker explicitly states they do not engage with the issue of model bias. Since bias is a primary source of statistical variance and skewed probabilistic outputs in AI, its absence as a concern contradicts the expected presence of 'Fluctuations in predictions and estimates based on statistical probability.'"
+  },
+  {
+    "expert_quote": "Then there's a guy who comes with the shortcut... 'let's get this and fit it into AI, and AI can give us the outputs easily.'",
+    "mapped_id": "non_deterministic_outputs",
+    "is_negative_case": false,
+    "rationale": "The casual description of 'fitting something into AI' to 'get outputs easily' implies a reliance on a system whose internal workings are not specified. The expectation of an 'easy' output glosses over the inherent non-determinism of AI models, where the same input can lead to different outputs across runs or contexts."
+  },
+  {
+    "expert_quote": "No, I haven't experienced that [a big block because of culture] yet.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": true,
+    "rationale": "This is a negative case. The speaker states they have not experienced a major failure due to cultural factors. Since cultural misunderstandings can exacerbate the opacity of AI outcomes and blur decision-making responsibility, the absence of such a block contradicts the expected friction of 'Opacity in outcomes making it difficult to assign clear responsibility for AI-derived decisions.'"
+  },
+  {
+    "expert_quote": "We... treat all of them [clients] the same... It's all confidence. If I know my stuff, I'm honest, I'm confident... I do my work cleanly, doesn't matter where you're from.",
+    "mapped_id": "baseline_erosion",
+    "is_negative_case": true,
+    "rationale": "This is a negative case. The speaker describes a stable, principle-based approach ('honest', 'confident', 'cleanly') applied uniformly to all clients. This contradicts the management friction where probabilistic variance forces repeated adjustments to forecasts and commitments ('baseline erosion'), suggesting their current process is perceived as resistant to such instability."
+  },
+  {
+    "expert_quote": "So you can do the normal using the Python packages... Somebody [says] like. Nah, let's get that. Put it in AI. Give it a good prompt. Let's wait and see what comes out.",
+    "mapped_id": "lack_of_reproducibility",
+    "is_negative_case": false,
+    "rationale": "The phrase 'Let's wait and see what comes out' describes an acceptance of variable, prompt-dependent results from an AI, as opposed to a deterministic Python script. This directly matches the indicator of 'The inability to consistently replicate AI-driven results' from a single method or prompt."
+  }
+]

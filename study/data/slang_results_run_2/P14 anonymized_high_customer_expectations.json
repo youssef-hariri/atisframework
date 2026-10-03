@@ -1,0 +1,44 @@
+[
+  {
+    "expert_quote": "It was just more of a matter of style guide maintainability proper documentation and tests and everything that you can imagine from a software development life cycle. Point of view. Those are the things I was trying to accomplish just because it'll make it easier for everyone in the US to see and understand what's happening long term.",
+    "mapped_id": "dreams_vs_reality",
+    "is_negative_case": false,
+    "rationale": "The quote contrasts the idealized vision of 'getting the job done' (dream) with the practical, detailed requirements for long-term maintainability and understanding (reality), which is a core friction in AI/ML project expectations between different stakeholder groups."
+  },
+  {
+    "expert_quote": "Because some of our colleagues are in the Eastern European time zone... It ends up being more that sometimes the folks in the United states work harder not just because they're just working to work but also because they feel the need. To compensate for the lack of quote UN quote hours that sometimes folks in the European time don't maybe are not working...",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "Describes a management friction where differing cultural/work-life expectations (the benchmark of 'hours worked') create an implicit demand for compensatory labor from one group, mirroring the re-education or adjustment labor required when user expectations are misaligned."
+  },
+  {
+    "expert_quote": "Why are we doing things where we're doing things? Is it only because to get the job done or is it there's a way to make things maintainable long term?",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "This question represents the core of expectation misalignment. The speaker is identifying a gap between a stakeholder's short-term, task-completion goal and his own long-term, quality-oriented engineering standard, which requires alignment (re-education) efforts."
+  },
+  {
+    "expert_quote": "And you know they actually decide to take the effort to expand the effort to make it work. Now what's the best solution can it. Is it future proof? No but it worked for the moment...",
+    "mapped_id": "dreams_vs_reality",
+    "is_negative_case": false,
+    "rationale": "Highlights a pragmatic, 'ugly but works' solution that meets an immediate functional need (the delivered 'output') but falls short of the ideal engineering standards of elegance and future-proofing (the 'dream' or expectation of quality)."
+  },
+  {
+    "expert_quote": "The one thing that was new for me was at least with my Indian colleagues was again the the the thought of I'm trying to get this done. I'm not going to focus on doing it quote UN quote. You know the right way you know...",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": false,
+    "rationale": "Indicates a mismatch in perceived project goals ('utility'). One party's goal is rapid completion, while the speaker's implied goal includes methodological correctness and sustainability. This is a foundational source of expectation friction."
+  },
+  {
+    "expert_quote": "So not stress not in that critique what I'm trying to do too but it's more. Let's collaborate in such a way that we could. Essentially accomplish our goals together without contention.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "Describes the management labor of reframing direct critique into a collaborative goal-accomplishment framework. This is the active work of managing stakeholder expectations and feedback to prevent friction."
+  },
+  {
+    "expert_quote": "I haven't experienced any failure but I think that's because I've been very focused as an individual. To not allow our differences get in the way of accomplishing the the project goals.",
+    "mapped_id": "trust_erosion",
+    "is_negative_case": true,
+    "rationale": "This is a direct negative case for the 'trust_erosion' friction. The speaker explicitly states that cultural differences did not lead to project failure or disillusionment, attributing success to proactive goal-focused management, contradicting the theoretical expectation of friction leading to resistance."
+  }
+]

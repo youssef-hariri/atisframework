@@ -1,0 +1,38 @@
+[
+  {
+    "expert_quote": "So basically you will enter your your details and then you will it would be able to pull out the data from the from the database based on the query which you have mentioned and then it will give you based it will give you the the data in... The the wordings statement in natural language. So basically everyone would be able to understand...",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": true,
+    "rationale": "The expert describes the chatbot's function as a straightforward translator from query to natural language output. This framing positions the system as deterministic and transparent ('everyone would be able to understand'), which directly contradicts the 'opaque_outcomes' indicator concerning algorithmic complexity leading to unexplainable results."
+  },
+  {
+    "expert_quote": "So basically there are a lot of business trending. It's just it just it. Just the fact that you know that they do accept it... I have seen you know the projects where you know I have to make few iterations... Multiple iterations in the same project OK.",
+    "mapped_id": "baseline_erosion",
+    "is_negative_case": false,
+    "rationale": "The slang 'a lot of business trending' and the need for 'multiple iterations' describe a project environment where requirements and understanding are not static. This forces repeated adjustments ('iterations') to the project's trajectory and deliverables, aligning with the friction of baseline erosion where probabilistic variance necessitates constant forecast adjustments."
+  },
+  {
+    "expert_quote": "We we are having an like explicitly statement that or an agreement that you know like our data should not be exposed in any way... most of the companies are not even using LLM. Sorry AI, just because of this. They want to make sure that or they want to run their own systems... because they might not show that. You know that their data could be stealed...",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "The expert's description of strict data agreements and companies avoiding external AI/LLMs due to data theft risks highlights an extreme 'human-floor' awareness of sensitivity to data quality and security. This directly maps to the indicator's focus on 'high sensitivity to historical data quality and relevance', framed here as a paramount concern for integrity and control."
+  },
+  {
+    "expert_quote": "One of the, you know, very critical thing nowadays is to understand the human. See, I may get the information from you, but I don't know how you work. OK, understanding of people is is very, very crucial.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": false,
+    "rationale": "The phrase 'I may get the information from you, but I don't know how you work' is a metaphorical description of the gap between receiving input (data/requirements) and understanding the underlying process or rationale of a client. This opacity in human decision-making and expectation-setting creates a foundational friction for cleanly assigning responsibility for outcomes, mirroring the accountability challenges posed by opaque AI outcomes."
+  },
+  {
+    "expert_quote": "So suppose you have a project OK... You want to build something, OK, and then which are not properly structured, OK. And then getting the requirements which are not properly accepted... And then I'm gonna have to document them because I'm gonna have to create them and. OK. And then and to structure it properly. That is one of the most critical thing.",
+    "mapped_id": "dynamic_forecast_adjustment",
+    "is_negative_case": false,
+    "rationale": "The expert describes the foundational stage of a project where requirements are 'not properly structured' or 'accepted,' necessitating the work to 'structure it properly.' This initial instability and need to construct a coherent baseline from ambiguity is a precursor to the ongoing 'dynamic_forecast_adjustment' friction, indicating the system (project definition) is unstable from the outset."
+  },
+  {
+    "expert_quote": "See, I think in today's world, OK, in 21st century, people are really, really to open minded, OK. They are very mindful... It's not like that... People barely conflict.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": true,
+    "rationale": "The expert makes a broad, positive assertion about modern professional environments being 'open minded' and 'mindful,' leading to minimal conflict ('People barely conflict'). This directly contradicts the premise of 'accountability_challenges,' which assumes opacity and unclear decision-making lead to significant managerial friction in assigning responsibility."
+  }
+]

@@ -1,0 +1,54 @@
+{
+    "research_construct": "AI Technical Specificities Semantic Rubric",
+    "version": "1.2_Clean",
+    "specificities": [
+        {
+            "id": "stochastic_uncertainty",
+            "definition": "Inherent and irreducible unpredictability introduced by probabilistic machine learning models, whose outputs are non-deterministic and subject to statistical variance.",
+            "indicators": [
+                {
+                    "name": "non_deterministic_outputs",
+                    "description": "Results that are not fixed and can vary between runs."
+                },
+                {
+                    "name": "probabilistic_variance",
+                    "description": "Fluctuations in predictions and estimates based on statistical probability."
+                },
+                {
+                    "name": "model_drift",
+                    "description": "Performance decay over time due to changing data patterns."
+                },
+                {
+                    "name": "lack_of_reproducibility",
+                    "description": "The inability to consistently replicate AI-driven results."
+                },
+                {
+                    "name": "data_dependency",
+                    "description": "High sensitivity to historical data quality and relevance."
+                },
+                {
+                    "name": "non_linear_estimation",
+                    "description": "Complex relationships in cost and schedule that do not follow traditional linear paths."
+                },
+                {
+                    "name": "opaque_outcomes",
+                    "description": "Algorithmic decision-making complexities that lead to results that are hard to explain."
+                },
+                {
+                    "name": "dynamic_forecast_adjustment",
+                    "description": "The need to constantly update baselines as an indicator of underlying system instability."
+                }
+            ],
+            "management_frictions": [
+                {
+                    "name": "baseline_erosion",
+                    "description": "Probabilistic variance forcing project managers to repeatedly adjust forecasts and commitments."
+                },
+                {
+                    "name": "accountability_challenges",
+                    "description": "Opacity in outcomes making it difficult to assign clear responsibility for AI-derived decisions."
+                }
+            ]
+        }
+    ]
+}

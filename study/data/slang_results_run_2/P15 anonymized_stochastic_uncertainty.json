@@ -1,0 +1,56 @@
+[
+  {
+    "expert_quote": "My my approach to working with anybody... is to give them agency and decisions they make and how they want to work. ... I was under the impression that... I want to have agency to make decisions and build it the way that I want to build it. And basically these guys came back with the same thing. Only only a little different. ... I thought I was doing them a favor to give them authority and agency... They didn't. What I learned from that is they didn't want that. They wanted me to tell them what to do.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": false,
+    "rationale": "Person 2 describes a cultural disconnect where delegation of authority—intended to empower—leads to an ambiguous outcome ('the same thing, only a little different') and confusion over who is responsible for design decisions. This illustrates the friction where opacity in decision-making authority (even if human-led, analogous to an AI's opaque process) creates difficulty in assigning clear responsibility for the final output."
+  },
+  {
+    "expert_quote": "I assume I was making assumptions. That they understood my direction and how I wanted them to proceed. And I think there was this possibly a disconnect between... What I was asking, what they understood, what I was asking and what I assumed that they understood.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The phrase 'disconnect' and the focus on mismatched assumptions about understanding describe an outcome that is 'hard to explain' from Person 2's perspective. The process and its result became opaque due to unspoken cultural and communication variables, mirroring the complexity that leads to algorithmic outcomes being hard to explain."
+  },
+  {
+    "expert_quote": "I trust the people who work for me... I trust you until I can't, right? ... I feel like, man, if you don't have the right people on your team, it's gonna cause a problem like and it only takes one person...",
+    "mapped_id": "lack_of_reproducibility",
+    "is_negative_case": false,
+    "rationale": "Person 2's management philosophy hinges on personal trust in individuals ('I trust you until I can't'). This highlights that project outcomes and reliability are dependent on specific, variable human elements, making consistent replication of results vulnerable to changes in team composition or individual performance—analogous to the inability to consistently replicate AI-driven results."
+  },
+  {
+    "expert_quote": "In the United States, there are certain regulations and laws that... You're required to comply with... We also had delivered this product to Europe, including Germany. Germany has a lot more strong. Regulations on privacy. And so we had to make accommodations in the product to comply with those regulations.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "The core output of the product (its features, data handling) is directly and sensitively dependent on the 'quality and relevance' of the legal and regulatory environment ('historical data' in a broad sense) in each jurisdiction. Changing these foundational rules forces significant model/product adjustments."
+  },
+  {
+    "expert_quote": "The people in London still had like months of... The people that worked in London. They had months of. Of work, they still were employed. ... In the UK they have this system where the people that are declared redundant gather together and they basically negotiate with the business about how to save people's jobs. And so just because you're put on that list doesn't mean that you're going to lose your job...",
+    "mapped_id": "baseline_erosion",
+    "is_negative_case": false,
+    "rationale": "Person 2 contrasts the stable, predictable (but extended) UK redundancy process with the abrupt US process. The UK's negotiated, variable timeline represents a 'dynamic forecast adjustment' where headcount and project capacity baselines are not fixed but subject to ongoing negotiation, forcing managers to operate with shifting resource forecasts."
+  },
+  {
+    "expert_quote": "Whereas in the US we, you know, we don't have those kind of protections. You're just gone, you know, like. ... we had that day. You know that afternoon.",
+    "mapped_id": "dynamic_forecast_adjustment",
+    "is_negative_case": false,
+    "rationale": "The phrase 'you're just gone... that afternoon' epitomizes a sudden, forced adjustment to project baselines (team size, deliverables). This is an indicator of underlying system (here, labor law) instability that necessitates constant, unplanned updates to project forecasts and commitments."
+  },
+  {
+    "expert_quote": "The United States has. Less regulatory. Laws around. You know, AI ethics and AI than Europe does. ... The US would probably value innovation over ethics in a lot of cases, more so than in Europe, right?",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "Person 2 frames differing ethical regulations as a cultural value judgment ('innovation over ethics'). This directly contributes to 'algorithmic decision-making complexities'—the same AI model or project must navigate different ethical guardrails, making its rationale and permissible outcomes less transparent and consistent across regions."
+  },
+  {
+    "expert_quote": "I personally when I deal with my teams, I give them. Authority and I and I encourage them to take. Actions... I trust you until I can't, right?",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": true,
+    "rationale": "This is a negative case for the 'accountability_challenges' friction. Person 2 explicitly states his default management style delegates authority and trusts individuals, which is his method for preemptively avoiding the friction of opaque accountability. He positions this as a solution, not an experience of the problem itself."
+  },
+  {
+    "expert_quote": "And a large part of that is, you know, their kind of cultural background and trying to make sure that people will be productive in that situation, right?",
+    "mapped_id": "dynamic_forecast_adjustment",
+    "is_negative_case": false,
+    "rationale": "Person 2 describes actively and constantly adjusting team composition and dynamics based on cultural background to ensure productivity. This 'constant updating' of the human system to maintain performance is an indicator of the underlying instability (cultural variance) that requires dynamic adjustment, analogous to updating a model baseline."
+  }
+]

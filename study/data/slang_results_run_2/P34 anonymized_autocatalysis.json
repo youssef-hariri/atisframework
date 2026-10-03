@@ -1,0 +1,32 @@
+[
+  {
+    "expert_quote": "But the past two years I've been building Gen. AI applications.",
+    "mapped_id": "gen_AI_acceleration",
+    "is_negative_case": false,
+    "rationale": "The speaker's primary role shift into building Generative AI applications is a direct manifestation of the field's rapid expansion and the compounding innovation rate it represents, a core element of the indicator."
+  },
+  {
+    "expert_quote": "So because I'm so, I was born, raised in Sweden, but I... Spent most of my career in the UK, but I've also... Lived in in various places in China.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "The speaker's multinational background and emphasis on cultural communication styles signals a foundational focus on human factors and social adaptation, which the rubric posits becomes the central challenge due to the velocity of technical change."
+  },
+  {
+    "expert_quote": "And so, so I think so. Where I I think that where we are. Aligned on things like like data privacy and data security because we understand that this is other people's data... I think everyone appreciates the responsibility... this doesn't. There's no clash like no one's going. Oh yeah, we should sell this data... It doesn't. That doesn't really enter into it.",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": true,
+    "rationale": "The speaker describes a shared, proactive ethical consensus on data privacy within their team, explicitly stating there is 'no clash.' This contradicts the indicator's expectation of governance and ethical frameworks emerging only reactively after technical deployment."
+  },
+  {
+    "expert_quote": "It does come with that overhead, but I think the. The outcome is even better as a result of that. I think it's worth. That because you you get. OK, I'm to get new new perspectives and things.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The acknowledgment of communication 'overhead' and the need to 'spend more energy' in multicultural teams is a direct metaphor for the friction caused by the clash between fast-paced collaboration ('AI time') and the slower, more deliberate processes needed for mutual understanding ('organizational time')."
+  },
+  {
+    "expert_quote": "You need to be patient with yourself through that. Can't expect to be comfortable from day one.",
+    "mapped_id": "continuous_training_demand",
+    "is_negative_case": false,
+    "rationale": "The advice to be patient and accept a period of discomfort when joining a new multicultural environment is a human-resource parallel to the non-stop, modular training required to keep pace with rapidly emerging new AI technologies and work paradigms."
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "expert_quote": "I personally never had anything really fail because of this.",
+    "mapped_id": "lack_of_reproducibility",
+    "is_negative_case": true,
+    "rationale": "Person 2 contradicts the theoretical indicator by explicitly stating that the inability to replicate results or process failures was not a direct outcome in their experience, suggesting a possible disconnect between the theoretical friction and their observed project reality."
+  },
+  {
+    "expert_quote": "I think it definitely led to sometimes things going slower, right... things might have taken longer.",
+    "mapped_id": "baseline_erosion",
+    "is_negative_case": false,
+    "rationale": "The phrase 'things going slower' and 'taken longer' is a professional-floor description of project timeline variance and the need for adjustment, mapping to the friction of baseline erosion caused by interpersonal dynamics affecting workflow."
+  },
+  {
+    "expert_quote": "I think you know one place that I saw a lot of it was... Figuring out timelines. How long things are gonna take?",
+    "mapped_id": "non_linear_estimation",
+    "is_negative_case": false,
+    "rationale": "The emphasis on the difficulty of 'figuring out timelines' reflects the challenge of non-linear estimation, where human and process complexities make standard, predictable scheduling unreliable."
+  },
+  {
+    "expert_quote": "It took time to kind of bring them back in or on the other side... it took longer to get that idea out and discussed.",
+    "mapped_id": "dynamic_forecast_adjustment",
+    "is_negative_case": false,
+    "rationale": "The iterative process of 'bringing them back in' and the extended time to surface ideas describes a system requiring constant, reactive adjustment to its human elements, indicating underlying instability in the project flow."
+  },
+  {
+    "expert_quote": "In a more private situation... then they were a little bit more forthcoming. When I kind of prompted them... a little bit more kind of pulling and and questioning got them to express their opinion that you know clearly they had in their brain during the big meeting.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The need for 'pulling and questioning' in a private setting to surface a withheld idea points to opaque decision-making processes where the true rationale or valuable input is not transparently available to the team."
+  },
+  {
+    "expert_quote": "I had some thoughts that it might be, you know, cultural personality, that kind of, you know, thing behind behind the scenes.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "Describing the cause as 'behind the scenes' implicitly frames the influencing factors on project contribution as hidden or not easily discernible, aligning with the opacity of certain project dynamics."
+  }
+]

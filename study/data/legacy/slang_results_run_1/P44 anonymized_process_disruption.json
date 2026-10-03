@@ -1,0 +1,44 @@
+[
+  {
+    "rubric_indicator": "knowledge_clash",
+    "evidence": "To be honest with you, like I worked in many countries... It's not about the people's culture. I would say it's about people's... let's say feature, so to say... all of this cultural stories that you hear... mostly they're just like they're not true.",
+    "analysis": "Person 2 explicitly downplays the role of national or cultural background in shaping professional interaction and knowledge, emphasizing individual personality instead. This contradicts the 'knowledge_clash' indicator's premise of tension between data-centric AI knowledge and tacit, experience-based human knowledge, which often manifests across cultural lines. This is a strong negative case, suggesting that for this participant, the foundational 'clash' is not a primary source of disruption; interpersonal dynamics are seen as more individual than systemic or culturally patterned.",
+    "metaphor_mapping": ["Culture as a 'Story' (implying it's a narrative, not a concrete reality)"],
+    "type": "negative_case"
+  },
+  {
+    "rubric_indicator": "socio_technical_transition",
+    "evidence": "I think that's applicable to not only AI projects, but to all the projects. AI projects are not that much different in that sense... it's not a game applicable to the eye, it's applicable to everything.",
+    "analysis": "Person 2 resists the notion that AI projects present unique socio-technical challenges for team assembly and collaboration compared to other complex projects. This perspective minimizes the specific disruptions outlined in the rubric (e.g., hybrid human-AI collaboration models, procedural nonlinearity), framing the challenges as general management and human relational issues rather than stemming from the distinct nature of AI work. This serves as a qualifying negative case against overstating AI's unique impact on team dynamics.",
+    "metaphor_mapping": ["AI Projects as 'Not a Game' (implying they are serious but not a special category)"],
+    "type": "negative_case"
+  },
+  {
+    "rubric_indicator": "role_reconfiguration",
+    "evidence": "don't lead by talking, just lead by example... Try to put clear criteria for promotions... Try to grow people as well... the most important thing is to listen, listen and to try to help people.",
+    "analysis": "While not explicitly about AI, Person 2's description of leadership aligns closely with the 'role_reconfiguration' indicator towards ethical judgment, system oversight, and people growth. The emphasis is on facilitating, setting clear ethical/professional boundaries ('clear criteria'), and supporting development rather than purely directive, phase-gated management. This can be seen as the evolved management style required in environments (potentially including AI-driven ones) that value autonomy and iterative learning.",
+    "metaphor_mapping": ["Leader as a 'Example-Setter' and 'Listener' (contrasted with a 'talker')"],
+    "type": "supportive_evidence"
+  },
+  {
+    "rubric_indicator": "ethical_automation_tension",
+    "evidence": "feedback from my perspective it could be... a weapon as well... you can structure more or less the same situation and give feedback that will encourage people... Or you can totally discourage and demotivate person... in this specific company... they collect the feedback behind your back... it's not actionable, and quite often it's it's incorrect.",
+    "analysis": "Person 2 describes a formalized, system-driven process (feedback collection) that, due to its design and lack of transparency, creates conflict and undermines trust. This mirrors the 'ethical_automation_tension' where a process intended for efficiency/prediction (automated or system-managed feedback) clashes with the need for human ethical oversight, contextual judgment, and fairness. The system becomes a 'weapon,' demonstrating how automated or rigidly procedural systems can disrupt human morale and agency.",
+    "metaphor_mapping": ["Feedback System as a 'Weapon'"],
+    "type": "supportive_evidence"
+  },
+  {
+    "rubric_indicator": "cultural_resistance",
+    "evidence": "some companies they try to collect their feedback, so to say behind your back... they have, like some, some kind of system... When you read this kind of feedback, it's like you read it and then. It's not actionable, and quite often it's it's incorrect... I just left the company because I thought that like I don't like it and that's not going according to my principal.",
+    "analysis": "Person 2's personal exit from a company over its feedback system exemplifies 'cultural_resistance.' They distrusted the opaque, data-centric ('system') approach in favor of a more transparent, experience-based, and principled ('my principal') method of evaluation. This highlights friction where an individual's values (aligning with experiential knowledge) directly conflict with an implemented data/system-centric procedural change, leading to disengagement.",
+    "metaphor_mapping": ["Opaque Process as 'Behind Your Back'"],
+    "type": "supportive_evidence"
+  },
+  {
+    "rubric_indicator": "silo_breakdown",
+    "evidence": "when you work with different people and in different cultures... the exposure that you get and the experience you get is like it's unbelievable... you build your intuition. So which means that you really can assess people more. You can really like understand different kind of companies and cultures... It's the same as traveling... you learn directly and indirectly about the world.",
+    "analysis": "Person 2 champions the value of cross-cultural and cross-functional exposure, arguing it builds superior intuition and understanding. This aligns with 'silo_breakdown' by advocating for the dissolution of insular (cultural, corporate) boundaries to create more adaptable, perceptive professionals. The benefit is framed not just in social terms but as a critical professional competency ('assess people,' 'understand companies'), which is essential for managing the integrated, cross-functional demands of modern, data-intensive projects.",
+    "metaphor_mapping": ["Diverse Experience as 'Traveling'", "Intuition as a 'Built' competency"],
+    "type": "supportive_evidence"
+  }
+]

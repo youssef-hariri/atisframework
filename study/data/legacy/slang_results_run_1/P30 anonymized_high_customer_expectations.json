@@ -1,0 +1,37 @@
+[
+  {
+    "indicator": "magic_box_perception",
+    "evidence": "Person 2 states, 'I have absolutely no background in machine learning and AI... they were like, yes, we will teach you everything.' This indicates an entry-level view where AI expertise is seen as something that can be fully transferred, hinting at a foundational perception of AI as a complex but ultimately learnable 'black box' whose internal workings are not initially questioned.",
+    "metaphor": "AI as a 'Tutored Subject' – Person 2 frames AI not as a tool she operates, but as a field of knowledge her teammates 'tutor' her in. The complexity is acknowledged but positioned as learnable curriculum, not an opaque, autonomous force.",
+    "negative_case": "A strong negative case for 'magic_box_perception' is present. Person 2 demonstrates a pragmatic, learning-oriented approach rather than a belief in infallibility. Her focus is on acquiring knowledge ('they will teach you everything') and practical business development, not on expecting flawless, autonomous AI outputs. This contrasts with the 'Magic Box' stereotype.",
+    "management_friction": null
+  },
+  {
+    "indicator": "trust_understanding_gap",
+    "evidence": "Person 2 identifies data privacy/ethics as 'a big challenge for us and it's probably one of the first questions that people and potential clients ask.' This shows that high interest/optimism in the AI solution is immediately tested by concerns about its behavior and data handling, creating a gap between initial appeal and the need for trust-building.",
+    "metaphor": "AI as a 'Suspicious Guest' – The AI solution's value is welcomed, but it enters every conversation under immediate scrutiny regarding its conduct (data handling), requiring formal 'communication strategy' to vouch for its behavior.",
+    "negative_case": null,
+    "management_friction": "feedback_dissonance"
+  },
+  {
+    "indicator": "unfairness_barriers",
+    "evidence": "Person 2 recounts an experience where potential contacts from Nigeria stopped communication after seeing her profile picture, commenting 'dude, you look like a woman.' This reflects a rejection based on perceived biases (gender), which, while not about the AI's algorithm, directly mirrors the societal 'unfairness barriers' that AI systems are often criticized for. It shows how pre-existing human biases in the market can be a barrier to engagement.",
+    "metaphor": "The Marketer as a 'Proxy for Bias' – In this interaction, Person 2 herself becomes the subject of a fairness evaluation, mirroring the scrutiny AI faces. The barrier is not the product's utility but an identity-based judgement.",
+    "negative_case": null,
+    "management_friction": null
+  },
+  {
+    "indicator": "utility_mismatch",
+    "evidence": "Person 2 discusses feedback from a Chinese investor: 'I see what you're doing, but I think it's not going to work, especially here especially there... Maybe you should try to go in another direction.' This highlights a potential mismatch between the startup's assumed AI application/market fit and the investor's localized view of organizational or market goals.",
+    "metaphor": "AI Solution as a 'Square Peg' – The feedback frames the AI product as something that may not fit the round hole of a specific market context ('especially here'), suggesting a disconnect between the technology's intended utility and local pragmatic goals.",
+    "negative_case": null,
+    "management_friction": "trust_erosion"
+  },
+  {
+    "indicator": "explainability_deficit",
+    "evidence": "While not about AI's internal reasoning, Person 2 touches on a core communication challenge: adapting her messaging tone based on cryptic online signals (e.g., 'if somebody is responding to my long messages with like 1 words... I'm trying to also scale down'). This mirrors the 'explainability deficit'—frustration arises from not being able to clearly interpret the user's/internal stakeholder's 'decision-making' (their intent and background), requiring adaptive guesswork.",
+    "metaphor": "Communication as 'Reading the Opaque Room' – Person 2 describes the challenge of interpreting limited, non-transparent signals ('pee pee pop 96') to tailor explanations, directly analogous to the struggle of explaining AI decisions without clear user context.",
+    "negative_case": null,
+    "management_friction": null
+  }
+]

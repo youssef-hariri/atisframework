@@ -1,0 +1,65 @@
+[
+  {
+    "theme": "magic_box_perception",
+    "signal_strength": "absent",
+    "excerpt": "So I think that was that was the that was the core of of the artificial intelligence there because it was a Gen. AI using generative.",
+    "explanation": "Person 2 describes the AI model matter-of-factly as a 'Gen. AI using generative' technology. There is no language suggesting awe, mystery, or an expectation of infallibility. The focus is on its technical classification and application.",
+    "metaphor": "None. The technology is described in functional, not metaphorical, terms."
+  },
+  {
+    "theme": "explainability_deficit",
+    "signal_strength": "absent",
+    "excerpt": "So I think that was that was the that was the core of of the artificial intelligence there because it was a Gen. AI using generative.",
+    "explanation": "The response does not express any frustration or even consideration about the model's internal decision-making being opaque. The model's nature (Generative AI) is stated as a simple fact, not a point of confusion or concern.",
+    "metaphor": "None. The AI is presented as a tool with a known function."
+  },
+  {
+    "theme": "anthropomorphic_projection",
+    "signal_strength": "absent",
+    "excerpt": "You know, for example, the the team lead says. This is the route we should go.",
+    "explanation": "All agency, decision-making, and direction-setting are attributed to human team members (the team lead, colleagues). The AI is not described as having intentions, reasoning, or autonomy; it is a component to be deployed and managed.",
+    "metaphor": "None. AI is not personified."
+  },
+  {
+    "theme": "utility_mismatch",
+    "signal_strength": "low_potential",
+    "excerpt": "...one of the difficulties we had was bringing on you guys into the into the team... the load is quite much... You might now get to wonder. OK, you stay in that six months is because of the money or what...",
+    "explanation": "While not about AI outputs, this reveals a core pragmatic tension: individuals have personal/economic goals (keeping a job, getting paid) that may not align with the project's or organization's goals (high workload, team cohesion). This *pattern* of misaligned incentives could theoretically extend to trust in AI recommendations if they conflict with personal stakes.",
+    "metaphor": "Work as an economic transaction. The project/task is a 'load' to be borne for financial survival."
+  },
+  {
+    "theme": "unfairness_barriers",
+    "signal_strength": "absent",
+    "excerpt": "It's tough. It's tough because. It was a start of again, so you don't have much data. You're still trying to build, so yeah.",
+    "explanation": "When asked about ethics and model bias, Person 2 deflects to the practical challenge of limited data in a startup context. There is no mention of societal fairness, bias in outputs, or ethical scrutiny as a barrier to acceptance. The challenge is technical (data scarcity), not ethical.",
+    "metaphor": "Building a model is like construction with scarce materials ('don't have much data, you're still trying to build')."
+  },
+  {
+    "theme": "trust_erosion",
+    "signal_strength": "absent",
+    "excerpt": "So we had a hybrid architecture rather than a full-fledged cloud architecture. So that is one of the cases...",
+    "explanation": "The example given is one of successful technical debate and course-correction. A colleague's challenge led to a better architectural decision (hybrid vs. full cloud). This is framed as a success of diverse perspectives improving outcomes, not as disillusionment or erosion of trust requiring a project redesign.",
+    "metaphor": "Technical decision-making as a debate with a 'route' that can be revised. Infrastructure is an 'architecture' to be designed."
+  },
+  {
+    "theme": "feedback_dissonance",
+    "signal_strength": "absent",
+    "excerpt": "In terms of the the absorption of the feedback?... Yeah, yeah, I think I will... I think Shishu economic factor might affect and how you take feedback...",
+    "explanation": "The discussion on feedback is entirely about human-to-human dynamics, filtered through economic and power structures ('I need the cash'). There is no indication of users filing bug reports against AI based on unrealistic expectations. Feedback is a human social and economic phenomenon.",
+    "metaphor": "Feedback as something to 'swallow,' implying it can be difficult to digest but necessary for sustenance (economic survival)."
+  },
+  {
+    "theme": "NEGATIVE_CASE_CULTURAL_IMPACT",
+    "signal_strength": "explicit_negation",
+    "excerpt": "No, I don't. I don't see that. I don't. It doesn't work on me because when you're working with different people. You have to you have to sudden go that you're trying to reach, right?... I can, to be honest, I can't. That was just an example I gave you...",
+    "explanation": "Person 2 explicitly states they do not see a strong effect of culture on collaboration, initially attributing differences to 'experiences.' When asked for a concrete example of culture affecting a domain-specific AI project, they admit they cannot recall one, suggesting their prior mention was hypothetical. This directly contradicts the interviewer's assumed premise.",
+    "metaphor": "Collaboration is a shared journey toward a 'goal' or destination with a 'road map.' Differences are obstacles on this common path, not fundamentally cultural in origin."
+  },
+  {
+    "theme": "NEGATIVE_CASE_AI_CENTRALITY",
+    "signal_strength": "contextual_negation",
+    "excerpt": "Entire Transcript Context",
+    "explanation": "The interview is framed around 'AI projects,' yet Person 2's detailed narratives focus almost exclusively on human factors: time zones, economic pressure, workload, team bonding, code review, and infrastructure debates. The AI model itself is mentioned only in passing as the type of technology used ('Gen AI'). The 'project' is discussed as a management, logistics, and social challenge, not a technological marvel. The high-expectation themes from the rubric are irrelevant because the conversation never engages with user or stakeholder perceptions of the AI's capabilities.",
+    "metaphor": "The AI project as a human endeavor. The team is a unit navigating 'time zones,' 'economic factors,' and 'workload' to deliver a product. The AI is a component, not the protagonist."
+  }
+]

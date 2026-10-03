@@ -1,0 +1,38 @@
+[
+  {
+    "quote": "But can it be maintainable for the rest of us long term... the concept of you know? Why are we doing things where we're doing things? Is it only because to get the job done or is it there's a way to make things maintainable long term?",
+    "rubric_term": "knowledge_clash",
+    "analysis": "Edward highlights a fundamental tension between two types of knowledge: the data-centric, engineering-focused knowledge that prioritizes maintainability, documentation, and the long-term system health of an AI/ML pipeline, versus a more immediate, task-oriented knowledge focused on delivering a functional output. This is a direct clash between the tacit, experience-based 'get it done' mindset and the formalized, process-oriented knowledge required for sustainable AI systems."
+  },
+  {
+    "quote": "The folks in the United states work harder... to compensate for the lack of quote UN quote hours that sometimes folks in the European time don't maybe are not working... it becomes a reality of where we have groups of people that always living to work and other people that are working to live.",
+    "rubric_term": "cultural_resistance",
+    "analysis": "Edward identifies a cultural and procedural friction. The U.S.'s 'live to work' culture, often expecting continuous iteration and availability, directly conflicts with the European 'work to live' model with stricter boundaries. This creates an implicit pressure and uneven workload distribution, showcasing resistance to the always-on, adaptive nature of AI workflows when embedded into teams with divergent cultural norms around work phases and timelines."
+  },
+  {
+    "quote": "It ends up being more... the folks in the United states work harder not just because they're just working to work but also because they feel the need to compensate...",
+    "rubric_term": "workflow_brittleness",
+    "analysis": "This demonstrates workflow brittleness. The linear, phase-gated expectation of progress (deadlines, specific delivery times) is disrupted by the non-linear reality of a globally distributed team with different work rhythms. The U.S. team members feel compelled to create a 'workaround' (working extra hours) to make the brittle, time-bound process appear functional, masking the underlying systemic friction."
+  },
+  {
+    "quote": "I'll have Microsoft Teams on my phone... I'm tied in but I'm not responding... I will do this when the weekend is over... I am unfortunately still tied in I'm not active. It's more... passively working past my work hours rather actively working.",
+    "rubric_term": "ethical_automation_tension",
+    "analysis": "Edward describes a personal negotiation of the tension between predictive automation (the always-on notification systems, the expectation of continuous connectivity for rapid iteration) and the need for human oversight of well-being and ethical boundaries. His strategy of 'passive' connection without active engagement is a micro-level adaptation to a system designed for constant availability, highlighting the conflict between system demands and sustainable human practice."
+  },
+  {
+    "quote": "It was more of a matter of style guide maintainability proper documentation and tests and everything that you can imagine from a software development life cycle point of view.",
+    "rubric_term": "integration_friction",
+    "rubric_term_secondary": "legacy_inflexibility",
+    "analysis": "Edward is explicitly trying to integrate rigorous, phase-based Software Development Lifecycle (SDLC) practices—a traditional project management methodology—into an AI/data science workflow. The friction arises because the legacy mindset (and potentially legacy tools) of his offshore colleagues is optimized for a different, more ad-hoc 'get it done' lifecycle, resisting the structured integration needed for scalable, maintainable AI systems."
+  },
+  {
+    "quote": "I've been very focused as an individual. To not allow our differences get in the way of accomplishing the the project goals... let's try to find a working agreement.",
+    "rubric_term": "role_reconfiguration",
+    "analysis": "Edward is not just acting as a technical lead; he is consciously adopting the role of a mediator and systems orchestrator. His focus is on creating 'working agreements'—a form of new, hybrid process—to navigate the cultural and procedural differences. This reflects the reconfiguration from a pure project manager/taskmaster to a role focused on ethical judgment (of team dynamics), system oversight, and fostering collaboration across disparate practices."
+  },
+  {
+    "quote": "A solution that. Honestly it's ugly and quite honestly I would never want to do it but it works... it worked for the moment... we would be able to have at least a reproducible application... This wasn't future proof.",
+    "rubric_term": "procedural_nonlinearity",
+    "analysis": "This is a clear example of procedural nonlinearity. The 'ugly but works' solution represents a rapid, iterative AI development loop that delivers immediate value. However, it exists in tension with the linear, future-proofing goals of the SDLC ('maintainability', 'future proof'). The project temporarily embraces the non-linear loop to achieve a short-term goal, knowingly accepting a future integration debt, which is a hallmark of AI workflow disruption."
+  }
+]

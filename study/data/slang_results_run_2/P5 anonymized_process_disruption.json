@@ -1,0 +1,74 @@
+[
+  {
+    "expert_quote": "And in data science. It's not that much. You are sort of have at least some layer you didn't directly",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "The phrase 'at least some layer you didn't directly' (a colloquial description of buffered interaction) describes a reconfiguration from the direct customer-facing role common in traditional engineering to a more removed, system-centric position within the data science workflow."
+  },
+  {
+    "expert_quote": "Whereas in data science, at least when I started, most people who were coming into data science were coming in from different fields... we had on our team people from physics like me, there was people from economics, from neuroscience, from political science.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "The listing of diverse academic backgrounds ('physics', 'economics', 'neuroscience') signifies the introduction of varied, often formal/scientific knowledge systems into a project space, which inherently creates tension with established, domain-specific tacit knowledge and traditional IT/engineering epistemologies."
+  },
+  {
+    "expert_quote": "A lot of times for us is we have to basically you know start asking questions about the data try to understand why we are seeing certain behavior and then come up with like a hypothesis or run experiments, try to validate that hypothesis.",
+    "mapped_id": "procedural_nonlinearity",
+    "is_negative_case": false,
+    "rationale": "The description of the work as 'asking questions', forming 'hypothesis', and running 'experiments' constitutes a non-linear, exploratory loop. This is a 'human-floor' depiction of an iterative scientific method clashing with a linear, requirements-to-implementation engineering process."
+  },
+  {
+    "expert_quote": "So it's you have to bring in sort of new ideas and new thinking... the diversity in terms of the culture and points of you is helpful.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "The emphasis on 'new ideas and new thinking' from diverse perspectives directly supports the theoretical indicator of a 'knowledge clash', where heterogeneous viewpoints are necessary to challenge assumptions and interpret complex, non-deterministic data patterns."
+  },
+  {
+    "expert_quote": "But our customers are essentially these advertising agencies or the publishers... So we don't have a direct connection with the user, but our customers are essentially these advertising agencies... In a sense that-- but a lot of times, we have to-- the most of the information comes from the data that we have and it's kind of trying to use the data to understand behaviors.",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "This clarifies the role shift: the data scientist's primary 'connection' is not to the human end-user for requirements, but to the data stream ('the most of the information comes from the data'). The human customer is an indirect entity, with data acting as the primary interlocutor."
+  },
+  {
+    "expert_quote": "For us, it's not so much like, in a sense, our products, like I said, are not directly used by the customer... then you have to make sure that your algorithms don't have any of those biases... But usually for us, that's not how our products are used. So it's not so much of an issue for us.",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": true,
+    "rationale": "This is an explicit negative case. The participant states that because their AI product (advertising models) is not a 'direct' consumer-facing decision system (like credit rating), the tension between predictive automation and the need for human ethical oversight ('biases by demographic') is mitigated ('not so much of an issue')."
+  },
+  {
+    "expert_quote": "But more and more, these algorithms or models are publicly available. So the advantage that a company has is just based on the data that they have. And so the focus is increasingly... to sort of the engineering aspect of it, where we figure out the best way to collect data, train the models and deploy the models, make sure we are checking how the models are performing and so on.",
+    "mapped_id": "integration_friction",
+    "is_negative_case": false,
+    "rationale": "The shift in focus from unique 'algorithm design' to the 'engineering aspect' of the data pipeline ('collect... train... deploy... check') is a professional slang description of the challenge of embedding standardized, repeatable engineering processes (DevOps, MLOps) into the adaptive, data-centric AI lifecycle."
+  },
+  {
+    "expert_quote": "But we're like in general, we're trying to bring in the same rigor that an engineering project has in terms of designing software.",
+    "mapped_id": "integration_friction",
+    "is_negative_case": false,
+    "rationale": "The phrase 'trying to bring in the same rigor' explicitly names the effort to integrate AI workflows into established engineering methodologies, which is the core of the 'integration_friction' indicator."
+  },
+  {
+    "expert_quote": "In the data science model, since your model is dependent on the data and the data can change... you have to check if the model is still working correctly or not. Otherwise you have to retrain or build a different model.",
+    "mapped_id": "workflow_brittleness",
+    "is_negative_case": false,
+    "rationale": "The description of models being 'dependent on data [that] can change' and the consequent need for constant checking and potential retraining highlights the inherent vulnerability and lack of stability in a linear project plan when integrating adaptive AI components."
+  },
+  {
+    "expert_quote": "it just depends on the kind of products that you're building that use data that you need to have a diverse data set, you know, so that the model... if you don't have data from certain parts of the world, it just won't work there.",
+    "mapped_id": "silo_breakdown",
+    "is_negative_case": false,
+    "rationale": "The statement that a model 'just won't work' without globally diverse data underscores a fundamental, data-driven need that transcends traditional departmental or geographical boundaries ('silos'), forcing cross-functional and often global data collection and governance strategies."
+  },
+  {
+    "expert_quote": "some of those could be cultural as well... these are not, I would say, again, these are company cultures rather than, like, that happen because of different company, different, you know, geographical or demographic backgrounds, it's just that different companies... It's more of the organizational culture than the, you know, the culture. Like the people all around the culture.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": true,
+    "rationale": "This is a negative case for 'cultural_resistance' as defined by the rubric ('Distrust of data-centric approaches in favor of experiential knowledge and waterfall methods'). The participant reframes observed friction as stemming from 'organizational' or 'company culture' (e.g., release aggressiveness) rather than from resistance to data-centricity or specific methodologies tied to demographic culture."
+  },
+  {
+    "expert_quote": "Yeah, so it's just to be, you know, aware of the cultural differences... my attitude would be to kind of, you know, be like, yeah, try to get the exposure as you can to different cultures and just be open-minded and experience the differences in the culture.",
+    "mapped_id": "role_transition_hurdles",
+    "is_negative_case": false,
+    "rationale": "The advice for a manager to 'be aware', 'get exposure', and be 'open-minded' directly addresses the human and social challenges of managing through the 'role_transition_hurdles' created by integrating diverse, hybrid teams and new workflows, emphasizing adaptive leadership over hierarchical authority."
+  }
+]

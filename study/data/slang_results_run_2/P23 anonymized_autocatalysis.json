@@ -1,0 +1,56 @@
+[
+  {
+    "expert_quote": "See some people's write. Everybody talk about artificial intelligence. The data science and all but most of the people's when it comes to deployment to development part, they're not. They don't. They don't have a patience, so they're not able to understand that what the dev team under data science team is facing and issues.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The speaker describes a fundamental disconnect in pace and understanding: organizational stakeholders lack the patience for the time-intensive, iterative process of AI development ('AI time'), expecting faster results that align with traditional project timelines ('organizational time')."
+  },
+  {
+    "expert_quote": "And also the team individual also if you have a team members, we have to set up weekly 1 to one connect with them. What? How they're doing, how they're feeling, those kind of things. Uh will help the team. Team bonding will improve.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "The speaker highlights a shift in management focus towards human factors (well-being, team bonding, acceptance) as a critical component for project success, which aligns with the indicator's focus on moving from pure technical/economic benefits to human-centric considerations."
+  },
+  {
+    "expert_quote": "Based on the business requirement under based on if you are working with ecommerce site ecommerce company, you have to follow the different ethics. So, like with the customer's details and all the and if you are working for us and up Europe countries, he has to you use a GDPR and all that takes part and all. But if you are using for other countries like we don't need to so so. The different, different policies standards we need to use.",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": false,
+    "rationale": "The quote illustrates reactive adaptation to governance. The team must apply different ethical and legal standards (like GDPR) post-deployment based on the client's region, indicating that comprehensive, proactive frameworks are not in place ahead of technical work."
+  },
+  {
+    "expert_quote": "Issue for breaking failure kind of thing has never happened because of the culture because everybody know that everybody each. Respect each other, OK? Culture in it field doesn't impact OK? Even even if you are being a different religions. Also, it won't impact it never impacted in my entire career till now.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": true,
+    "rationale": "This is a direct negative case. The speaker explicitly states that cultural diversity (a key human factor in socio-technical systems) has not caused project failures or significant issues in their experience, contradicting the premise that rapid technical change exacerbates human-centric adaptation challenges."
+  },
+  {
+    "expert_quote": "OK, for conversion of audio data to. Text data. It will take time, OK and also is not one file OK per day. Uh, the marketing team is having a call with multiple customers. OK, those all the records will be coming. And we are reading and converting that time we need infrastructure is a good infrastructure, OK.",
+    "mapped_id": "tool_proliferation",
+    "is_negative_case": false,
+    "rationale": "The speaker points to the resource-intensive nature of implementing a specific AI capability (voice-to-text). This underscores the challenge of operationalizing new AI tools, which are proliferating faster than organizations can provision the necessary infrastructure for systematic evaluation and integration."
+  },
+  {
+    "expert_quote": "Only time zone is the difference, OK? Other than that, uh, some uh meetings schedule will change that thing. Uh. Other than that, we haven't faced any issue with any other peoples.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The speaker identifies time zone coordination as the primary challenge in international collaboration. This is a concrete, logistical manifestation of 'temporal misalignment,' where the seamless, always-on potential of digital work ('AI time') clashes with the geographical and human realities of 'organizational time.'"
+  },
+  {
+    "expert_quote": "And we the same thing has to communicate it to the client as well before, and we need to buy back some days buffer times and all while designing the times on any project deadlines and all we need to get the buffer time for us.",
+    "mapped_id": "timeline_compression",
+    "is_negative_case": false,
+    "rationale": "The speaker's strategy of explicitly building 'buffer time' into project plans is a direct managerial response to the risk of rapid obsolescence and mid-cycle re-evaluation. It is an attempt to create slack in the system to absorb unforeseen technical challenges or changes, a core friction of timeline compression."
+  },
+  {
+    "expert_quote": "And also the categorizing the things, OK, which categories? Because some people's because it's not of lack of knowledge, some the people who worked in that organization for owning those. Those components he left the organization OK. KT was not a properly transferred to sign even. OK that time. Nobody aware of that? What is a cat components? What is a dependency center?",
+    "mapped_id": "integration_debt",
+    "is_negative_case": false,
+    "rationale": "This describes 'integration debt' in human and knowledge terms. When personnel leave, critical knowledge of legacy components and their dependencies is lost, creating a debt that hinders the integration of new systems or the understanding of the existing architecture."
+  },
+  {
+    "expert_quote": "And don't change. Keep on changing those things, OK? Just be the static part. That one. So that only helps her fun development if you want to make any changes in go for phase two. Don't come and say that before the before to two weeks. Our productionization deployment. You can say no. I want the accuracy of this much only.",
+    "mapped_id": "judgment_substitution",
+    "is_negative_case": false,
+    "rationale": "The speaker pleads for static, upfront requirements (e.g., target accuracy) to prevent late-stage changes. This reflects the friction of 'judgment substitution'—as AI capabilities allow for easy tweaking of parameters, human stakeholders are tempted to continually revise goals based on new predictions, destabilizing the development lifecycle."
+  }
+]

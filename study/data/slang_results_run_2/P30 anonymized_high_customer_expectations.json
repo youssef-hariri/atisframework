@@ -1,0 +1,44 @@
+[
+  {
+    "expert_quote": "Actually, I have absolutely no background in machine learning and AI I am... A master student in a new media program... I work on AI start up as... A head of marketing. So yeah, and I'm just getting to know all of the technical details. It has been quite a journey.",
+    "mapped_id": "trust_understanding_gap",
+    "is_negative_case": false,
+    "rationale": "Person 2's admission of 'no background' and being in a 'journey' to learn technical details illustrates a gap between high-level marketing optimism and a foundational lack of technical understanding, a core indicator of the trust-understanding gap."
+  },
+  {
+    "expert_quote": "And yeah, we have developed like a communication strategy when it comes to that. Yeah, but I think it's it's a problem for the majority. Of apps that that use AI and handle data in any way.",
+    "mapped_id": "trust_understanding_gap",
+    "is_negative_case": false,
+    "rationale": "The need for a pre-emptive 'communication strategy' specifically for data privacy questions reveals an underlying skepticism and trust deficit that must be managed, aligning with the trust gap where optimism is undermined by opaque behavior."
+  },
+  {
+    "expert_quote": "Well, it is a big challenge for us and it's probably one of the first questions that people and potential clients ask... I have talked to people from... South America from Europe. From China. And Russia as well. And have they all are very strict when it comes when it comes to this, especially if it's like. Big companies or enterprises?",
+    "mapped_id": "trust_erosion",
+    "is_negative_case": false,
+    "rationale": "Describing data privacy as a 'big challenge' and a universal first question from global clients indicates a pervasive barrier to trust that could lead to client resistance and demands for redesign, fitting the 'trust_erosion' management friction."
+  },
+  {
+    "expert_quote": "When I have talked to a couple of people from Nigeria. They were, like, very skeptical about me being in tech and being a woman. I've heard that the the feminist agenda agenda is very. Not very developed there yet. And yeah, they basically just start responding to my messages as soon as we connect it on LinkedIn and they saw my like picture profile.",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": false,
+    "rationale": "The direct experience of rejection based on gender ('you look like a woman') is a clear, human-floor description of a perceived bias and unfairness, leading to a communication breakdown, which maps directly to the 'unfairness_barriers' indicator."
+  },
+  {
+    "expert_quote": "And with all of the guys from London. We just had such nice conversations, like from discussing their projects to like just talking about. Where they live in London. And what kind of beer they like and stuff like that. And when I was talking to. Chinese people, we were just exchanging business cards...",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": false,
+    "rationale": "The contrasting communication styles (relationship-building vs. transactional) highlight a mismatch in how different cultures perceive the utility and goals of an interaction, which can extend to how they perceive the utility of an AI product's recommendations or value proposition."
+  },
+  {
+    "expert_quote": "With Xiao Han, I think. She gives a lot of materials to like. How do? How do you see this? Food for thought. That's how how we see it like in Russian little.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": true,
+    "rationale": "This describes feedback that is critical and offers alternative directions ('food for thought'), which is constructive and reality-based. It contradicts the 'feedback_dissonance' friction, which involves bug reports based on unrealistic 'magic box' benchmarks requiring re-education."
+  },
+  {
+    "expert_quote": "And yeah, they're both very experienced in the tech field... when I talk to Eric, to the European guy. He is very. He's really friendly and like talkative guy and all of the feedback that I got from him was very like encouraging and positive and. Just I I think I've never heard anything. Bad from him.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": true,
+    "rationale": "This quote explicitly states feedback was only 'encouraging and positive' with 'never... anything bad,' indicating an absence of the critical, dissonant feedback based on unrealistic expectations that defines the 'feedback_dissonance' management friction."
+  }
+]

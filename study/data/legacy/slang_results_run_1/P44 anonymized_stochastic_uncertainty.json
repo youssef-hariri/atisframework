@@ -1,0 +1,38 @@
+[
+    {
+      "rubric_indicator": "non_deterministic_outputs",
+      "person_2_insight": "Person 2 highlights that interview processes and initial assessments are 'just proxies.' The true compatibility and performance of a team member are only revealed 'once you start working... especially on very challenging and let's say stressful project, then you see the real person.' This underscores that human and team outputs (like performance) are not fixed and can vary significantly from initial predictions.",
+      "metaphor_mapping": ["Proxy (as an imperfect predictor)", "Seeing the real person (as an emergent, non-deterministic outcome)"],
+      "negative_case": "Person 2 states, 'I wouldn't say it's like country touch.' This pushes back against the idea that cultural background is a deterministic predictor of behavior or performance, suggesting that individual variance outweighs categorical determinism."
+    },
+    {
+      "rubric_indicator": "opaque_outcomes",
+      "person_2_insight": "Person 2 describes feedback systems that collect information 'behind your back,' resulting in feedback that is 'not actionable' and 'quite often it's incorrect.' They refer to feedback as a potential 'weapon' that can be structured to manipulate outcomes. This mirrors the opacity and potential for unexplained or biased outcomes in complex algorithmic systems.",
+      "metaphor_mapping": ["Feedback as a weapon (an opaque tool with unpredictable/biased impact)", "Evidence not responding to feedback (a disconnect between input and opaque outcome)"],
+      "negative_case": "None explicitly stated that contradicts this indicator. Person 2's entire anecdote reinforces the concept of opaque outcomes in human systems."
+    },
+    {
+      "rubric_indicator": "lack_of_reproducibility",
+      "person_2_insight": "Person 2's core advice for joining a new team is to 'probe, to see and try to be extremely diplomatic in the beginning.' This implies that successful integration is not a reproducible formula but a bespoke process of experimentation ('probe') and adjustment based on observed reactions, which will differ in every new context.",
+      "metaphor_mapping": ["Probe (as an experimental, non-reproducible test)", "See (as gathering unique, situational data)"],
+      "negative_case": "None strongly identified. The emphasis on observation and adaptation inherently acknowledges a lack of a one-size-fits-all, reproducible method."
+    },
+    {
+      "rubric_indicator": "data_dependency",
+      "person_2_insight": "Person 2 emphasizes the critical importance of gathering high-quality, firsthand 'data' about a team or company culture. They advocate to 'listen more than I talk' and 'see what people talk about' because this observational data is crucial for accurate assessment, much like an AI model depends on its training data. Relying on secondhand information (company reputation) or poor-quality data (vague feedback) leads to poor judgments.",
+      "metaphor_mapping": ["Listen/See (as data collection)", "Eyes of the people showing despair or fear (as a raw data signal)"],
+      "negative_case": "While advocating for good data, Person 2 also notes that even with extensive data (multiple interviews), it's still a 'proxy,' implying a fundamental limit to data's predictive power, aligning with stochastic uncertainty's 'inherent and irreducible' nature."
+    },
+    {
+      "rubric_indicator": "dynamic_forecast_adjustment / baseline_erosion",
+      "person_2_insight": "Person 2 describes the need to constantly reassess one's position within a team. 'You try to from the start to get the people in your team who will not do things that are not acceptable... But then, like, once they start behaving this in this kind of way... you just talk to the people one-on-one and you understand what's happening.' This reflects the management friction of 'baseline erosion,' where initial expectations (the baseline) must be dynamically adjusted based on new performance data and behaviors.",
+      "metaphor_mapping": ["Persist... for some time (as maintaining a forecast before adjustment)", "Go (as a final forecast adjustment—leaving the project/company)"],
+      "negative_case": "None identified. The narrative of joining, observing, adjusting, and potentially leaving is a direct example of dynamic adjustment."
+    },
+    {
+      "rubric_indicator": "accountability_challenges",
+      "person_2_insight": "When discussing poor feedback systems, Person 2 points out the difficulty in assigning responsibility. If feedback is anonymous, non-actionable, and collected opaquely, it becomes impossible to address its source or validity. This creates a system where 'accountability' for the feedback is diffused, protecting the feedback giver and confusing the receiver, similar to challenges in explaining AI-driven decisions.",
+      "metaphor_mapping": ["Behind your back (as an opaque, unaccountable process)"],
+      "negative_case": "None identified. The described system is a clear example of accountability challenges."
+    }
+  ]

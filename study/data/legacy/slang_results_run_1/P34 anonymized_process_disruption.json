@@ -1,0 +1,98 @@
+[
+  {
+    "rubric_element": "definition",
+    "alignment": "Partial (Contextual)",
+    "evidence": "The interviewee's focus is on interpersonal and cross-cultural collaboration frictions, not on the systemic clash between AI workflows and traditional processes. The 'process disruption' discussed is cultural misalignment in communication and collaboration, not technical or methodological.",
+    "direct_quote": "And so if those two people in the same meeting that they might find the other party really annoying, right? One points the other one really slow, and one finds the other one really pushing...",
+    "metaphors_mapped": ["Roll with the punches", "Assume positive intent (as a 'mantra')"],
+    "negative_case": "The core definition of AI-induced process disruption is not addressed. The discussion remains at the human interaction layer, not the socio-technical system layer where AI workflows disrupt phase-gated methodologies."
+  },
+  {
+    "rubric_element": "socio_technical_transition",
+    "alignment": "Indirect",
+    "evidence": "Discusses the necessity of moving from individual-centric to collaborative, communicative team models, which mirrors the transition from solo human work to hybrid collaboration but is not AI-specific.",
+    "direct_quote": "When you're in multicultural teams, you have to increase communication and you have to be more thoughtful with your communication... The outcome is even better as a result of that.",
+    "metaphors_mapped": ["Dial up the communication"],
+    "negative_case": "No mention of transitioning to human-AI collaboration. The 'hybrid' model described is purely human-to-human across cultures."
+  },
+  {
+    "rubric_element": "workflow_brittleness",
+    "alignment": "None",
+    "evidence": "No discussion of processes becoming vulnerable or breaking down due to integration of new systems or adaptive components.",
+    "direct_quote": null,
+    "metaphors_mapped": [],
+    "negative_case": "The concept of increased systemic vulnerability from integrating adaptive technology is absent. The only 'failure' cited is interpersonal (NDA disagreement), not procedural."
+  },
+  {
+    "rubric_element": "role_reconfiguration",
+    "alignment": "Partial",
+    "evidence": "Briefly touches on leadership needing heightened awareness, sensitivity, and open communication—qualities akin to ethical judgment and oversight—but does not frame it as a shift caused by AI.",
+    "direct_quote": "You have to be in a way... sensitive... You're open to more impressions... I think you have to dial up the communication.",
+    "metaphors_mapped": [],
+    "negative_case": "No explicit link to project managers shifting roles due to AI. The reconfiguration described is due to multiculturalism, not technology."
+  },
+  {
+    "rubric_element": "integration_friction",
+    "alignment": "Analogous",
+    "evidence": "The story about the NDA halting collaboration exemplifies a fundamental clash in process (legal-first vs. trust-first) that prevented integration, mirroring the friction when new systems meet established protocols.",
+    "direct_quote": "It halted because that person was requiring me to sign basically a contract... culturally, to me that is very strange... we had a sort of clash there.",
+    "metaphors_mapped": ["Living in a different world"],
+    "negative_case": "The friction is about legal/collaborative norms, not about embedding AI into phase-based lifecycles (e.g., Agile vs. Waterfall)."
+  },
+  {
+    "rubric_element": "knowledge_clash",
+    "alignment": "Strong",
+    "evidence": "Directly addresses the tension between explicit, procedural knowledge (contracts, direct communication) and tacit, relational knowledge (trust, indirect communication, reading context).",
+    "direct_quote": "If you're from a culture where you don't say things to people's face as often... you might have to like really start pulling at some thread... There might be a hesitation.",
+    "metaphors_mapped": ["Pulling at a thread"],
+    "negative_case": "The knowledge clash is cultural (direct vs. indirect communication), not between data-centric AI outputs and experience-based human judgment."
+  },
+  {
+    "rubric_element": "procedural_nonlinearity",
+    "alignment": "None",
+    "evidence": "No discussion of iterative loops, prototyping, or non-sequential processes conflicting with linear plans.",
+    "direct_quote": null,
+    "metaphors_mapped": [],
+    "negative_case": "The entire concept of nonlinear AI development conflicting with gated processes is missing from the interview."
+  },
+  {
+    "rubric_element": "silo_breakdown",
+    "alignment": "Indirect",
+    "evidence": "Advocates for the benefits of blending perspectives and ideas from diverse backgrounds, which aligns with the value of breaking down informational silos.",
+    "direct_quote": "So much of any success [is due to] the blending of perspectives and ideas... they might view something from a completely different angle.",
+    "metaphors_mapped": [],
+    "negative_case": "Not discussed in the context of cross-functional data needs or departmental boundaries being undermined."
+  },
+  {
+    "rubric_element": "ethical_automation_tension",
+    "alignment": "Counter-Case",
+    "evidence": "Describes data privacy and ethics as a universal baseline of shared understanding and care, not as a point of tension or conflict between automation and human oversight.",
+    "direct_quote": "Everyone has a sort of baseline understanding of and appreciation of the impact of what we do on other people... There's no clash.",
+    "metaphors_mapped": [],
+    "negative_case": "Presents ethics as an area of alignment and common ground, directly contradicting the rubric's premise of inherent tension."
+  },
+  {
+    "rubric_element": "management_frictions: legacy_inflexibility",
+    "alignment": "None",
+    "evidence": "No mention of legacy systems, software, or static reporting structures hindering work.",
+    "direct_quote": null,
+    "metaphors_mapped": [],
+    "negative_case": "Complete absence of this technical/bureaucratic friction."
+  },
+  {
+    "rubric_element": "management_frictions: cultural_resistance",
+    "alignment": "Strong (Analogous)",
+    "evidence": "Central theme of the interview. Discusses distrust and friction arising when data/process-centric approaches (e.g., requiring an NDA before speaking) clash with relational, experience-based approaches.",
+    "direct_quote": "Culturally, to me that is very strange... They're living in a different world for me.",
+    "metaphors_mapped": ["Living in a different world"],
+    "negative_case": "The resistance is to different *human* cultural norms, not specifically to data-centric AI methodologies over experiential knowledge."
+  },
+  {
+    "rubric_element": "management_frictions: role_transition_hurdles",
+    "alignment": "Partial",
+    "evidence": "Discusses the personal discomfort, need for patience, and reskilling (in communication, listening) required when joining a new multicultural environment, which parallels the reskilling needs in shifting roles.",
+    "direct_quote": "Be prepared to be uncomfortable... It will take some time... you need to be patient with yourself through that.",
+    "metaphors_mapped": ["Roll with the punches"],
+    "negative_case": "The transition is about adapting to cultural diversity, not about reskilling for AI oversight or disruption to established technical hierarchies."
+  }
+]

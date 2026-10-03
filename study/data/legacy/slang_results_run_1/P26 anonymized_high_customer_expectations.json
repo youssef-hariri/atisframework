@@ -1,0 +1,42 @@
+[
+  {
+    "quote": "The work that I do comprises a lot of applications of AI day-to-day... AI in education is is such a hard thing... We are exploring to implement our in House AI servers, AI implementations, so so that we install our local LL, train it in House, fine tune them, and then use and expose that to to the teachers... so that our data remains private.",
+    "indicator": "utility_mismatch",
+    "analysis": "This statement reveals a pragmatic, grounded view of AI that contrasts with the 'Magic Box' perception. Person 2 sees AI not as a flawless external service, but as a complex tool requiring significant in-house effort (training, fine-tuning, local deployment) to align with the specific, non-negotiable organizational goal of data privacy. The 'hard thing' comment acknowledges the practical reality, not an idealized vision.",
+    "metaphor": "AI as a 'Localized Tool/Utility' rather than a 'Cloud-Based Magic Service'. This frames AI as something to be built, controlled, and secured internally.",
+    "negative_case": true,
+    "negative_case_explanation": "This is a strong counter-narrative to 'magic_box_perception'. Person 2 explicitly rejects the off-the-shelf, 'plug-and-play' AI model, showing a deep understanding of the technical and governance work required. Their expectation is not of effortless capability, but of controllable, secure utility."
+  },
+  {
+    "quote": "...when we use external AI like I don't know, maybe charge BT or Gemini or something... we tend to get less biases, but when we use our on in house AI models we tend to get more biases and I think that's fair because we have data only for local students. So we want our AI to be biased actually. And and I I think it's not always the bad bad thing to to to happen.",
+    "indicator": "unfairness_barriers",
+    "analysis": "Person 2 demonstrates a nuanced, context-dependent view of fairness and bias. They distinguish between undesirable societal bias and a purposeful, localized 'bias' that serves their specific educational context. This pragmatic acceptance of tailored model behavior shows an understanding that AI fairness is not a universal absolute but must be evaluated against specific goals.",
+    "metaphor": "AI Bias as a 'Tunable Parameter' or 'Contextual Lens'. Bias is not inherently good or evil; it's a characteristic that can be aligned (or misaligned) with purpose.",
+    "negative_case": true,
+    "negative_case_explanation": "This directly counters a simplistic rejection of AI due to 'perceived biases.' Person 2 engages with the complexity of bias, accepting it as a functional aspect of model training when it serves a legitimate, defined purpose (e.g., reflecting local student demographics), thus navigating rather than being blocked by 'unfairness barriers'."
+  },
+  {
+    "quote": "A lot of times it happens to us that we have to keep somebody who understands the local language... we convert the expectation of our users into technical requirements. So we understand the technology, but the language plays a very big role.",
+    "indicator": "trust_understanding_gap",
+    "analysis": "This highlights a foundational gap before the AI even runs: the gap between user expectations and technical feasibility. The need for a translator/bridge role implies that users' initial visions ('what kind of... what is their expectation?') are often not in a technical language, creating fertile ground for misaligned expectations and later trust issues if those unarticulated visions are not met.",
+    "metaphor": "The 'Requirement Translator' as a critical bridge. This role is necessary because the user's 'dream' and the engineer's 'reality' exist in different conceptual languages.",
+    "negative_case": false,
+    "negative_case_explanation": "This aligns with the indicator. It identifies a pre-technical source of the trust gap—the difficulty of articulating needs—which can lead to high optimism being undermined by a solution that doesn't match the unspoken or poorly translated vision."
+  },
+  {
+    "quote": "...some people are not very vocal... it happens that sometimes they would just keep something to them which they could have spoken earlier to solve a lot of issues later... later on in the later stages of the project, we come to know that, OK, this might... this would have not been feasible since day one.",
+    "indicator": "feedback_dissonance",
+    "analysis": "This describes a core 'management friction' rooted in cultural communication norms. The silence of team members (due to non-confrontational cultural tendencies) leads to the late surfacing of feasibility problems. This creates 're-education labor' for the project lead, who must retroactively trace problems back to initial assumptions and manage the fallout of delayed feedback.",
+    "metaphor": "Silence as a 'Project Debt'. Unspoken concerns or knowledge accumulate silently, incurring a high cost of rework and schedule disruption when they must finally be addressed.",
+    "negative_case": false,
+    "negative_case_explanation": "This is a direct example of feedback dissonance. The feedback loop is broken not by technology, but by culture, forcing the manager to expend labor to uncover the real issues behind unrealistic initial project trajectories."
+  },
+  {
+    "quote": "First, the most the the most basic thing that I would say is that. At least read about their holidays... It is very important for us to respect somebody else's... beliefs... it's good to associate with people.",
+    "indicator": "N/A (Management Insight)",
+    "analysis": "While not a direct rubric indicator, this advice is a profound insight into mitigating cultural frictions that underpin many AI project issues (like the feedback dissonance above). Person 2 identifies proactive cultural curiosity and respect as a foundational practice for building the psychological safety necessary for open communication, realistic expectation-setting, and collaborative problem-solving—all essential for managing the 'high expectations' lifecycle.",
+    "metaphor": "Cultural Calendar as a 'Team Operating Manual'. Understanding cultural touchstones (holidays) is framed as basic operational knowledge for effective collaboration.",
+    "negative_case": false,
+    "negative_case_explanation": "This does not contradict the rubric but offers a meta-skill for managing the human environment in which high AI expectations and cultural differences play out. It's a preventative strategy for the frictions described."
+  }
+]

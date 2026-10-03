@@ -1,0 +1,82 @@
+[
+  {
+    "rubric_category": "indicators",
+    "specific_indicator": "socio_technical_transition",
+    "observation": "Person 2 highlights the critical need for establishing 'reliable communications' in multicultural, interdisciplinary AI teams, moving from a purely human-centric process to a hybrid model where understanding intent and perspective is paramount for collaboration.",
+    "quote": "I think it matters the most in establishing. Reliable communications... It's important to establish... Compatible expectations about what things, what things mean and what we intend by them.",
+    "metaphor_mapping": "Communication as a foundation for collaboration; establishing 'compatible expectations' is likened to aligning system protocols.",
+    "negative_case": false
+  },
+  {
+    "rubric_category": "indicators",
+    "specific_indicator": "knowledge_clash",
+    "observation": "Person 2 explicitly describes the tension between data-centric, experimental evidence and subjective human interpretation, which is central to AI development. Different cultural and academic backgrounds lead to divergent readings of the same results.",
+    "quote": "The result of this experiment that we just did implies this, right?... And someone else might look at the same results and think that it implies something else, right?... Because no experiment... often an experiment doesn't have just one interpretation.",
+    "metaphor_mapping": "Experiments as texts with multiple possible interpretations; analysis as a subjective act of reading.",
+    "negative_case": false
+  },
+  {
+    "rubric_category": "indicators",
+    "specific_indicator": "role_reconfiguration",
+    "observation": "Person 2 describes their role as needing to navigate ambiguous, subjective feedback and interpersonal dynamics, which goes beyond technical delivery. This aligns with a shift from pure project management to ethical and interpersonal system oversight.",
+    "quote": "So I think that for example... It's not just across, you know. Cultures... it's also differences between, for example. A person who's training is technical... with clients... who's... come from a business background... Things need to be adjusted for.",
+    "metaphor_mapping": "The consultant/technologist as a 'translator' or 'mediator' between different 'languages' (technical vs. business).",
+    "negative_case": false
+  },
+  {
+    "rubric_category": "indicators",
+    "specific_indicator": "integration_friction",
+    "observation": "Person 2 discusses the recurring challenge of embedding technical AI work into client relationships and business contexts. The need to repeatedly adjust communication and 'try again' points to persistent friction in integrating AI's data-centric outputs into broader, often relationship-focused, business processes.",
+    "quote": "And sometimes you say, OK, didn't get through this time. Try again. Next time, keep. Keep in mind that this like has not been communicated all the way yet.",
+    "metaphor_mapping": "Communication as an iterative 'transmission' process that can fail and require retries.",
+    "negative_case": false
+  },
+  {
+    "rubric_category": "indicators",
+    "specific_indicator": "procedural_nonlinearity",
+    "observation": "Implicitly, Person 2's approach to resolving misunderstandings—using hypotheticals, counterfactuals, and iterative conversations—contrasts with a linear, phase-gated process. It suggests an adaptive, loop-based method for alignment.",
+    "quote": "I would maybe try to express it as trying to change change the conditioning right?... talk about hypotheticals, talk about like counterfactuals right to explain your intent...",
+    "metaphor_mapping": "Problem-solving as 'changing the conditioning' of a system, implying feedback loops and adaptation.",
+    "negative_case": false
+  },
+  {
+    "rubric_category": "management_frictions",
+    "specific_indicator": "cultural_resistance",
+    "observation": "Person 2 recounts a failure where a superior was not open to ideas and insisted on a superficial 'happy face,' prioritizing harmony over substantive technical discussion. This reflects a cultural or institutional resistance to the open, critical debate often required in AI experimentation and problem-solving.",
+    "quote": "It felt like. Whatever I do right, everything has to have a happy face on it... in a way that I feel... Doesn't make sense, right?... the change that we're making doesn't make any sense.",
+    "metaphor_mapping": "Organizational culture as a force demanding a 'happy face,' masking substantive friction.",
+    "negative_case": false
+  },
+  {
+    "rubric_category": "management_frictions",
+    "specific_indicator": "role_transition_hurdles",
+    "observation": "Person 2 emphasizes that a leader's power should be used to help people 'find their place and feel comfortable' in complex multicultural/technical environments, rather than to dictate solutions. This highlights the reskilling and mindset shift needed for leadership in hybrid AI teams.",
+    "quote": "If they're in a leadership role right then the most important thing is to use the power that they have right to. Help... help people find their place and feel comfortable, right? And effective... as opposed to using their power to, you know, just get their way.",
+    "metaphor_mapping": "Leadership power as a tool for 'navigation' and creating 'place' rather than a blunt instrument of command.",
+    "negative_case": false
+  },
+  {
+    "rubric_category": "negative_cases",
+    "specific_indicator": "silo_breakdown",
+    "observation": "While Person 2 discusses cross-functional communication (technical vs. business), there is no explicit mention of traditional departmental silos (e.g., engineering, marketing, legal) breaking down due to shared data needs. The focus is more on interpersonal and cultural bridges than structural or process-driven integration.",
+    "quote": null,
+    "metaphor_mapping": null,
+    "negative_case": true
+  },
+  {
+    "rubric_category": "negative_cases",
+    "specific_indicator": "workflow_brittleness",
+    "observation": "Person 2 does not describe a specific instance where a linear process (e.g., a waterfall development cycle) became vulnerable or broke due to the integration of an adaptive AI component. The discussed 'breakdowns' are primarily in communication and interpretation, not in a formal project lifecycle.",
+    "quote": null,
+    "metaphor_mapping": null,
+    "negative_case": true
+  },
+  {
+    "rubric_category": "negative_cases",
+    "specific_indicator": "ethical_automation_tension",
+    "observation": "Person 2 mentions model bias as an observed phenomenon (e.g., Chinese models) but does not provide a firsthand account of a conflict between pursuing predictive automation and requiring human ethical oversight within a project. The ethical dimension is noted but not experienced as a source of project friction.",
+    "quote": "I don't think I have personal experience with that, right? I've seen for example reports where...",
+    "metaphor_mapping": null,
+    "negative_case": true
+  }
+]

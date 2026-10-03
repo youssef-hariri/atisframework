@@ -1,0 +1,102 @@
+[
+  {
+    "excerpt": "So my model works with an ensemble of six models... It had object tracking and detection... Another model was something called a speech diarization... And in the last model is based on key logic... if two out of this flags are triggered... the entire interview is flagged for possible manual checking...",
+    "rubric_indicators": [
+      {
+        "name": "probabilistic_variance",
+        "description": "Fluctuations in predictions and estimates based on statistical probability."
+      },
+      {
+        "name": "opaque_outcomes",
+        "description": "Algorithmic decision-making complexities that lead to results that are hard to explain."
+      }
+    ],
+    "analysis": "The speaker describes an ensemble model system where outputs are contingent on the agreement of multiple, varied probabilistic sub-models (object detection, speech diarization, key-log analysis). The final decision is based on a threshold ('two out of three flags'), inherently involving statistical variance. The complexity of combining these models, especially with an LLM analyzing keystrokes, introduces opacity, as the exact reason for a flag (beyond the threshold) is not trivially explainable, requiring manual review.",
+    "metaphors": [
+      {
+        "metaphor": "Ensemble as a Jury",
+        "description": "The system of six models working together and requiring a consensus ('two out of three flags') is framed as a deliberative body, introducing human-like judgment into an automated process."
+      }
+    ],
+    "negative_cases": [
+      {
+        "description": "The speaker explicitly states that the model's probabilistic flagging leads to a concrete, non-probabilistic action: manual review by a human. This creates a deterministic checkpoint that mitigates the final impact of the model's inherent uncertainty.",
+        "supporting_excerpt": "At least two out of three strikes are... the entire interview is flagged for possible manual checking, like a person will then manually check"
+      }
+    ]
+  },
+  {
+    "excerpt": "That's the whole reason why when I'm always working, I never... have one single model. It is always... an ensemble of models... or same model trained with different hyperparameters running... if there's a classification... there are like four to five models classifying the same thing... there is a... router model... choosing the best output.",
+    "rubric_indicators": [
+      {
+        "name": "non_deterministic_outputs",
+        "description": "Results that are not fixed and can vary between runs."
+      },
+      {
+        "name": "probabilistic_variance",
+        "description": "Fluctuations in predictions and estimates based on statistical probability."
+      },
+      {
+        "name": "model_drift",
+        "description": "Performance decay over time due to changing data patterns."
+      },
+      {
+        "name": "lack_of_reproducibility",
+        "description": "The inability to consistently replicate AI-driven results."
+      }
+    ],
+    "analysis": "This is a direct management strategy for stochastic uncertainty. The speaker explicitly rejects single-model deployments due to their inherent variance and potential for bias or drift. By deploying ensembles and multi-hyperparameter models, they acknowledge that outputs are non-deterministic and that any single run is subject to variance. The 'router model' is an attempt to stabilize this variance, but it also adds another layer of complexity. This architecture is a direct response to the risks of lack of reproducibility and model drift, as the ensemble's aggregate judgment is more robust than any single component.",
+    "metaphors": [
+      {
+        "metaphor": "Model as a Committee",
+        "description": "Reinforces the 'jury' metaphor, where diverse 'expert' models (different architectures or configurations) debate to reach a more reliable verdict than any individual could."
+      }
+    ],
+    "negative_cases": [
+      {
+        "description": "The speaker's technical strategy frames stochastic uncertainty not as an unmanageable flaw, but as a design parameter to be engineered around. The 'problem' of variance is leveraged into a 'solution' (ensembles) for better performance.",
+        "supporting_excerpt": "because no, we we know that there will be bias. In the models, so the the best trick according to our infrastructure... was to create an ensemble"
+      }
+    ]
+  },
+  {
+    "excerpt": "They were using a basically a grid of 8 by 8 grid of models, meaning they were running the problems... on 64 models... and then they were choosing... the best out of them because... we know that there will be bias.",
+    "rubric_indicators": [
+      {
+        "name": "model_drift",
+        "description": "Performance decay over time due to changing data patterns."
+      },
+      {
+        "name": "probabilistic_variance",
+        "description": "Fluctuations in predictions and estimates based on statistical probability."
+      }
+    ],
+    "analysis": "The 'grid of models' is an extreme, computationally intensive manifestation of the ensemble strategy. It operationalizes the understanding that model bias (a source of variance and potential drift) is a certainty. The solution is brute-force probabilistic sampling across a vast parameter space, explicitly trading computational cost for reduced reliance on any single, potentially flawed or biased, deterministic path.",
+    "metaphors": [],
+    "negative_cases": []
+  },
+  {
+    "excerpt": "In the end, we had to at least comply to the requirement. But whatever we implement will... just... they are asking for an API endpoint... We'll give them API endpoint... But how we implement the API? How we scale the API how we deploy the API? That's our problem.",
+    "rubric_indicators": [
+      {
+        "name": "dynamic_forecast_adjustment",
+        "description": "The need to constantly update baselines as an indicator of underlying system instability."
+      }
+    ],
+    "analysis": "While not about model outputs directly, this speaks to project management under conditions of technical uncertainty. The clear separation between the immutable 'requirement' (the API endpoint) and the mutable 'implementation' (scaling, deployment) creates a zone where technical challenges—like optimizing an unstable ensemble model—force continuous adjustment of work plans ('how we implement'), mirroring dynamic forecast adjustment.",
+    "metaphors": [],
+    "negative_cases": []
+  },
+  {
+    "excerpt": "There was this back and forth gap wagon... The gap increased to the point where are we on the same page when it comes to requirements?... A clear communication, especially in officially on emails, is more matter than verbally.",
+    "rubric_indicators": [
+      {
+        "name": "accountability_challenges",
+        "description": "Opacity in outcomes making it difficult to assign clear responsibility for AI-derived decisions."
+      }
+    ],
+    "analysis": "This highlights a management friction arising from the project environment. The 'back and forth gap' on requirements, exacerbated by time zones and culture, creates ambiguity. This ambiguity can later translate into accountability challenges if the complex, opaque AI system fails or behaves unexpectedly. The insistence on written communication is a strategy to create an auditable trail, attempting to anchor accountability in the face of potential uncertainty about who decided what.",
+    "metaphors": [],
+    "negative_cases": []
+  }
+]

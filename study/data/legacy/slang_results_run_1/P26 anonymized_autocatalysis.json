@@ -1,0 +1,44 @@
+[
+    {
+      "metaphor": "Roadblocks",
+      "context": "Describing unforeseen obstacles in AI projects due to communication gaps across cultures.",
+      "connection_to_autocatalysis": "Illustrates how human communication inefficiencies (a socio-technical friction) create obstacles in projects, even when technical velocity is high."
+    },
+    {
+      "metaphor": "Suck it up",
+      "context": "Describing the need to accept setbacks and move forward when projects hit problems due to unvoiced concerns.",
+      "connection_to_autocatalysis": "Suggests a pressure to maintain pace and absorb failures—a potential coping mechanism for timeline compression and the relentless pace of change."
+    },
+    {
+      "metaphor": "Fostering an environment",
+      "context": "Describing the leader's role in creating psychological safety for team members to voice concerns.",
+      "connection_to_autocatalysis": "Highlights a human-centric management approach to counter the socio-technical shift, attempting to slow down 'AI time' by ensuring thorough human deliberation."
+    },
+    {
+      "metaphor": "Alienating ourself",
+      "context": "Describing the consequence of not participating in team members' cultural celebrations.",
+      "connection_to_autocatalysis": "Metaphor for the risk of humans becoming misaligned or disconnected from the team/process, a friction that can be exacerbated by the focus on rapid technical execution over social cohesion."
+    }
+  ],
+  "negative_cases": [
+    {
+      "absent_indicator": "tool_proliferation",
+      "context": "The organization is moving to in-house, locally hosted and trained AI models specifically to avoid the risks and chaos of external tool proliferation.",
+      "counter_narrative": "This represents a deliberate, controlled, and slower approach to AI integration, prioritizing security and privacy over adopting the latest external tools. It is a strategic deceleration, counter to the autocatalytic trend of rapid, uncontrollable tool adoption."
+    },
+    {
+      "absent_indicator": "skill_obsolescence_pace",
+      "context": "While discussing the importance of university education as a source of skills, the speaker does not mention that these skills are becoming obsolete. Instead, the focus is on the foundational quality and cultural source of education.",
+      "counter_narrative": "This viewpoint treats AI skills as more static and rooted in traditional, geographically-bound educational systems. It does not reflect a reality where core competencies must be updated continuously at a breakneck pace due to recursive innovation."
+    },
+    {
+      "absent_indicator": "judgment_substitution (in a negative sense)",
+      "context": "The speaker notes that for in-house models, they *want* the AI to be biased (trained on local student data) to better serve their context.",
+      "counter_narrative": "This is an example of *deliberate, context-aware judgment configuration*, not a passive or problematic substitution. Human judgment is actively designing the AI's "bias" for a specific purpose, showing control over the socio-technical system rather than being overrun by it."
+    },
+    {
+      "absent_management_friction": "timeline_compression",
+      "context": "When roadblocks occur due to unvoiced concerns, the described response is to 'go back, retrace our steps, correct those mistakes.'",
+      "counter_narrative": "This describes a traditional, sequential, and reflective project management approach. There is no mention of being forced to abandon thorough correction due to a compressed timeline or the imminent obsolescence of the tools being used."
+    }
+  ]

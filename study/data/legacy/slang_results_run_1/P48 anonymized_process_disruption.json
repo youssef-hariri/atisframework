@@ -1,0 +1,75 @@
+[
+  {
+    "rubric_element": "socio_technical_transition",
+    "evidence": "The participant describes the core challenge of moving from human-centric decision-making to hybrid models. He states, '...some of the managerial teams says... I must manage to value his job' when an AI tool could execute pricing strategy automatically. This highlights the friction in transitioning to a model where AI handles tactical execution.",
+    "metaphors": ["'Press the button and make it happen automatically' - Metaphor for the idealized, seamless automation that clashes with human managerial identity."],
+    "negative_cases": null
+  },
+  {
+    "rubric_element": "workflow_brittleness",
+    "evidence": "The participant's example of his failed CRM AI company illustrates brittleness. The technical process ('processing billions of coupons in seconds') was powerful, but the business workflow could not bear its cost ('The cost... was about $100,000 monthly... retailer said... it's cheaper [to do it manually]'). The AI workflow broke under the weight of the existing economic model.",
+    "metaphors": null,
+    "negative_cases": null
+  },
+  {
+    "rubric_element": "role_reconfiguration",
+    "evidence": "The participant explicitly notes the shift from execution to ethical and strategic oversight. He contrasts leaders who are 'very aware' of data privacy complexities ('anonymize information') with 'old school' managers who adopt AI for branding without understanding its organizational or compliance impact. This shows the emerging role of the leader as an ethical and systems overseer.",
+    "metaphors": ["'Avant-garde people' vs. 'Old school managers' - Metaphor for the cultural and cognitive divide in leadership facing AI-driven reconfiguration."],
+    "negative_cases": null
+  },
+  {
+    "rubric_element": "integration_friction",
+    "evidence": "The participant details how global SaaS models fail in Brazil, creating 'Jabuticaba' solutions—products that only work locally. He explains that legacy issues (like unreliable barcode data) and local regulations force the creation of custom, complex AI solutions that cannot be integrated into a global, linear product lifecycle. This is a direct clash between adaptive AI development and standardized phase-gated processes.",
+    "metaphors": ["'Jabuticaba' - A Brazilian fruit that doesn't exist elsewhere. Metaphor for hyper-localized, non-scalable AI solutions born from integration friction."],
+    "negative_cases": null
+  },
+  {
+    "rubric_element": "knowledge_clash",
+    "description": "Tension between data-centric AI knowledge and tacit, experience-based human knowledge.",
+    "evidence": "The pricing tool example is a prime case: managers reject AI suggestions because 'they individually... have a better solution for determining which price level,' privileging their experiential, tacit knowledge over the data-driven output of the AI.",
+    "metaphors": null,
+    "negative_cases": null
+  },
+  {
+    "rubric_element": "procedural_nonlinearity",
+    "evidence": "The participant contrasts European 'planning' with Latin American agility, noting that Agile methodology 'worked very nice' in Brazil because it established 'very narrow objectives for a short term.' This suggests that the iterative, nonlinear nature of Agile (and by extension, AI development) aligns better with certain cultural work styles than traditional long-term, linear 'complex future projects,' which often fail.",
+    "metaphors": null,
+    "negative_cases": {
+      "description": "Success with Agile suggests that when procedural nonlinearity is culturally accepted (e.g., in 'virile,' fast-moving environments), it can be an advantage rather than a friction point for AI-adjacent work.",
+      "evidence": "'...agile methodology for Brazil very worked. Very nice...'"
+    }
+  },
+  {
+    "rubric_element": "silo_breakdown",
+    "evidence": "The participant's experience with the CRM AI company required processing 'billions of coupons' from retailers. This inherently required breaking down data silos between transaction systems, customer databases, and promotional platforms to create a unified consumer profile, a task traditional departments would struggle with.",
+    "metaphors": null,
+    "negative_cases": null
+  },
+  {
+    "rubric_element": "ethical_automation_tension",
+    "evidence": "This is a major theme. The participant discusses holding sensitive data for 11 million people and the ethical dilemma of using it. He notes that some leaders 'had no ethical problem' with this private information, while others are constrained by laws like GDPR and Brazil's LGPD. He also warns about AI 'hallucination' producing offensive marketing content, highlighting the tension between automated output and the need for human ethical and contextual judgment.",
+    "metaphors": ["'...in the hands of the people who are using it' - Metaphor for AI as a powerful, amoral tool whose ethical impact depends entirely on human guidance."],
+    "negative_cases": null
+  },
+  {
+    "rubric_element": "legacy_inflexibility",
+    "evidence": "The 'Jabuticaba' case is driven by legacy inflexibility. The core problem—unreliable barcode data—is a legacy infrastructure issue that a standard, linear software solution cannot solve, forcing the creation of a bespoke, image-processing AI solution.",
+    "metaphors": null,
+    "negative_cases": null
+  },
+  {
+    "rubric_element": "cultural_resistance",
+    "evidence": "This is the most developed theme. The participant draws a clear cultural map: European 'result-oriented' managers adopt AI to improve their profile, while Latin American 'relationship-oriented' managers resist it due to job security fears ('jeopardized jobs') and a preference for loyalty/relationship over objective results. This resistance is a primary commercial barrier.",
+    "metaphors": ["'...valued by loyalty... valued by doing what the boss says' - Metaphor for a relationship-based authority system that results-based AI disrupts."],
+    "negative_cases": {
+      "description": "The participant identifies a subgroup within the culture that is more receptive, suggesting resistance is not monolithic.",
+      "evidence": "'Some of them [in Latin America] are result [oriented]...'"
+    }
+  },
+  {
+    "rubric_element": "role_transition_hurdles",
+    "evidence": "The fear that AI will 'jeopardize... managerial jobs' is explicitly cited as a key barrier to adoption. This fear disrupts the established hierarchy and decision-making authority, as managers cling to their judgment-based roles to 'value his job' rather than ceding execution to AI.",
+    "metaphors": null,
+    "negative_cases": null
+  }
+]

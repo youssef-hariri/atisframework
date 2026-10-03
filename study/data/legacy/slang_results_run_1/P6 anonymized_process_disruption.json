@@ -1,0 +1,72 @@
+[
+  {
+    "time_range": "0:0:4.800 --> 0:0:17.670",
+    "indicator": "silo_breakdown",
+    "evidence": "So there is no much problem. Yeah, communicating the different teams from different people from different countries. And main thing is the only the time difference. Sometimes you have to adjust the time.",
+    "metaphor": "Communication as a minor adjustment (like adjusting a clock)",
+    "negative_case": true
+  },
+  {
+    "time_range": "1:22.520 --> 1:29.900",
+    "indicator": "knowledge_clash",
+    "evidence": "I think so. Country doesn't have any impact as far as your maturity and understanding the technology.",
+    "metaphor": "Maturity as a universal solvent (dissolves cultural/geographic barriers)",
+    "negative_case": true
+  },
+  {
+    "time_range": "5:5.440 --> 5:35.480",
+    "indicator": "role_reconfiguration",
+    "evidence": "And there are Scrum Masters, but they they don't have technical domain, right? The scrum master only set the meeting and he asked for task update, right? So there are some miscommunication or there are some misjudgment when Scrum Monster don't have enough knowledge about technology and he's tried to ask you for task he or she can't judge because they those people don't have understanding of.",
+    "metaphor": "Scrum Master as a meeting scheduler (reduced, non-technical role)",
+    "negative_case": false
+  },
+  {
+    "time_range": "6:8.110 --> 6:25.160",
+    "indicator": "procedural_nonlinearity",
+    "evidence": "Every month, every week there are lots of research. So best thing is the person should have a understanding of things, attitude that we can check this person that the person has a patient has ability to grasp thing.",
+    "metaphor": "AI field as a dynamic, fast-flowing river (constant new research)",
+    "negative_case": false
+  },
+  {
+    "time_range": "6:25.840 --> 6:56.750",
+    "indicator": "cultural_resistance",
+    "evidence": "Because uh, you hire someone more experienced person and means it's dynamic, right? So if a person has a interest in learning and delivering, then there is no issue in any kind of or there is, if any, any cultural conflict. I think there is no culture from if person is mature everything is depend on maturity of person.",
+    "metaphor": "Maturity as a shield (protects against cultural conflict)",
+    "negative_case": true
+  },
+  {
+    "time_range": "7:53.500 --> 8:24.170",
+    "indicator": "integration_friction",
+    "evidence": "Uh Scrum Master has some tasks to complete in certain time, then that time we have to discuss that this is not deliverable in week or not deliverable in two week or it can be delivered early. So we have to make explain what is the exact thing and there should be some overview kind of thing on technically perspective because the person who is dealing from master if they if the person doesn't have a thorough understanding of technology we can explain on the high level.",
+    "metaphor": "Explanation as a bridge (between technical and non-technical roles)",
+    "negative_case": false
+  },
+  {
+    "time_range": "9:8.840 --> 9:35.520",
+    "indicator": "workflow_brittleness",
+    "evidence": "Ohh how to follow up and I also choose the person base if there is any requirement to choosing the person. I also dig into that how person is dealing with work so there is no failure right now any but it may be possible sometime delivery take 2-3 days more so which is OK because we know that there may be a troubles. There may be a finding research and development.",
+    "metaphor": "Project timeline as a flexible path (allows for delays due to R&D)",
+    "negative_case": false
+  },
+  {
+    "time_range": "10:23.940 --> 10:51.500",
+    "indicator": "cultural_resistance",
+    "evidence": "Because there are good and bad people everywhere, right? There are some people who who believes that. Let's pressurize and take the work some believes. Let discuss and find the way. Some thing that some follows the blindly dates and try to pressurize without knowing technology. And what is the outcome? So it depends on the maturity.",
+    "metaphor": "Management approaches as a spectrum (from pressure to discussion)",
+    "negative_case": false
+  },
+  {
+    "time_range": "11:46.630 --> 12:16.760",
+    "indicator": "role_reconfiguration",
+    "evidence": "It's a very good role of team lead to understand and hire the person because team lead is one who knows the all technology and he has understanding where we need person and where. The person's role and how can be a result can we get because it's a dynamic thing, right? Every IT domain is a dynamic where you have two constraints only learn new things, so it required that person should have understanding of almost.",
+    "metaphor": "Team lead as a technical architect (builds the team with understanding)",
+    "negative_case": false
+  },
+  {
+    "time_range": "29:3.370 --> 29:33.760",
+    "indicator": "silo_breakdown",
+    "evidence": "I think there is no difference when project is concerned. The person should have understanding of almost required technology. For example, if you hire some person for cloud technology, person should have knowledge of network. Person should have knowledge of security, person should have a knowledge of web application. Person should have a knowledge of.",
+    "metaphor": "Knowledge as an interconnected web (multiple domains required for one role)",
+    "negative_case": false
+  }
+]

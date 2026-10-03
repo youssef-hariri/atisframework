@@ -1,0 +1,67 @@
+[
+  {
+    "speaker": "Person 2",
+    "analysis_focus": "Metaphor Mapping & Negative Cases",
+    "findings": [
+      {
+        "rubric_indicator": "dreams_vs_reality",
+        "evidence": "Describes stakeholder impatience and lack of understanding during deployment. They expect flawless, real-time audio-to-text and sentiment analysis without appreciating the required infrastructure, time, and cost for development and handling data spikes.",
+        "metaphors": [
+          "AI as a 'straight-through processor': Stakeholders expect input (audio/video) to go in and perfect output (text/insight) to come out seamlessly, like a simple mechanical process.",
+          "Development as a 'black box of cost': Stakeholders only see the high cost output of the development phase, not the complex, resource-intensive work inside that justifies it."
+        ],
+        "negative_case": null
+      },
+      {
+        "rubric_indicator": "trust_understanding_gap",
+        "evidence": "High optimism about AI capabilities (customer insights, sentiment) is undermined when stakeholders encounter the opaque, resource-heavy, and time-consuming reality of model development and productionization. Trust is conditional on cost control.",
+        "metaphors": [
+          "Convincing as 'translating engineering': Person 2's role involves translating technical constraints (infrastructure, data volume) into business language (cost, risk) to bridge the understanding gap."
+        ],
+        "negative_case": null
+      },
+      {
+        "rubric_indicator": "utility_mismatch",
+        "evidence": "Stakeholders assume AI project goals (get insights) will align perfectly with organizational priorities (minimize cost). This creates friction when the technical team requires significant resources to achieve those goals reliably.",
+        "metaphors": [
+          "'If you're not giving what I want, I can't give what you want': Framed as a direct transaction, highlighting the mismatch between stakeholder desire for output and willingness to provide necessary input."
+        ],
+        "negative_case": null
+      },
+      {
+        "rubric_indicator": "feedback_dissonance (Management Friction)",
+        "evidence": "Implied need for 're-education labor.' Person 2 holds multiple sessions to explain where costs come from and the consequences of under-resourcing, treating stakeholder pushback as a lack of understanding rather than valid critique.",
+        "metaphors": [
+          "Education as 'showcasing': Uses POCs, data matrices, and comparison sheets to *show* the reality, moving beyond just telling."
+        ],
+        "negative_case": null
+      },
+      {
+        "rubric_indicator": "magic_box_perception",
+        "evidence": "Stakeholders focus on the 'productionizing' output magic, disregarding the development 'magic' needed to create the box. They expect autonomy and infallibility without investing in the foundation.",
+        "metaphors": [
+          "Approval as 'belief without evidence': Higher management's difficulty in approving resources reflects a reluctance to believe in the unseen, complex work required to make the 'magic box' function."
+        ],
+        "negative_case": null
+      },
+      {
+        "rubric_indicator": "N/A - Negative Case on Culture",
+        "evidence": "When explicitly asked about cultural clashes leading to failure, Person 2 firmly states it has 'never happened.' He attributes success to mutual respect, professionalism, and a focus on work delivery, divorcing project dynamics from national culture.",
+        "metaphors": [
+          "Culture as 'neutral background noise': In IT projects, culture is present but not an active agent of failure; it's overshadowed by universal professional standards.",
+          "Team as 'modular units': Individuals from different cultures are interchangeable parts in a well-oiled machine, as long as the process (documentation, clear goals) is sound."
+        ],
+        "negative_case": "This directly contradicts a potential hypothesis that high expectations are exacerbated by cultural differences in communication or work style. Person 2's experience shows that with clear processes (documentation, 1:1s, data-driven presentations), cultural background does not amplify expectation gaps."
+      },
+      {
+        "rubric_indicator": "N/A - Negative Case on Explainability & Fairness",
+        "evidence": "Person 2 discusses data privacy and ethics procedurally (encryption, GDPR, role-based access) but does not mention stakeholder frustration with AI explainability or concerns about algorithmic bias/unfairness as barriers.",
+        "metaphors": [
+          "Ethics as 'compliance checklist': A set of external, region-specific rules (GDPR) to be followed, not a source of intrinsic stakeholder anxiety about the AI's reasoning."
+        ],
+        "negative_case": "The high expectations described are primarily about **cost, capability, and speed**, not about the **internal logic or equity** of the AI models. The 'explainability_deficit' and 'unfairness_barriers' indicators from the rubric are not activated in this narrative."
+      }
+    ],
+    "summary_insight": "Person 2's narrative centers on a **resource and expectation gap**, not a cultural or ethical one. The high expectations are manifested as a demand for 'magic' output with minimal investment in the technical substrate. The primary management friction is **financial and temporal skepticism** from stakeholders, which he counteracts with **data-driven translation** (POCs, metrics) and **rigorous process** (documentation). Cultural diversity is presented as a logistical detail (time zones) rather than a source of conflict, and ethical concerns are framed as regulatory compliance, not core stakeholder anxiety."
+  }
+]

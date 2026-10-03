@@ -1,0 +1,32 @@
+[
+  {
+    "expert_quote": "No, so far, no, not the projects we are working on are not.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": true,
+    "rationale": "The speaker explicitly negates encountering opacity in AI decision-making in their current projects, which directly refutes the friction where opacity leads to challenges in assigning responsibility."
+  },
+  {
+    "expert_quote": "There's no need for that in the projects we are working on because it's all the projects we are working on are all using like rag or retrieval augmented generation where. We actually control. The responses of the AI, it's not like open and you know, we have some datasets and we control how it it should respond and we limit some topics you know from being discussed.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": true,
+    "rationale": "The use of RAG and controlled datasets is presented as a method to prevent opaque and uncontrolled outcomes, indicating a deliberate mitigation against algorithmic unpredictability and inexplicability."
+  },
+  {
+    "expert_quote": "Because again, it's a machine, doesn't have any emotion. It just, it just knows. Like, OK, we have this data.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "Describing the AI as a machine that 'just knows' based on data is a slang description of algorithmic complexity, where outcomes are derived from data patterns in a way that is inherently difficult for humans to intuitively explain or trace."
+  },
+  {
+    "expert_quote": "So if you are to retrain, let's say the the GPT. Of GPT for example, for on, make it more on on some data from the Middle East, let's say. And you fine tune it this way. It will. It will change. You know, things like you know you will start to see different responses.",
+    "mapped_id": "non_deterministic_outputs",
+    "is_negative_case": false,
+    "rationale": "The statement 'it will change' and 'you will start to see different responses' directly describes non-fixed, variable outputs that depend on the specific data used for fine-tuning, aligning with the core concept of non-deterministic results."
+  },
+  {
+    "expert_quote": "And this is a great question actually because. The data. That the AI today is is trained on. Is mostly English data... and it will, you know, inherit the the ethics from or inherited the... We inherited this. Like what is right and what is wrong? From the data itself.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "The phrase 'inherit... from the data itself' uses a metaphor of inheritance to describe the model's high sensitivity and dependency on the quality and specific content of its historical training data."
+  }
+]

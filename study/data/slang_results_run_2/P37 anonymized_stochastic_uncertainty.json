@@ -1,0 +1,56 @@
+[
+  {
+    "expert_quote": "So the product, you know the the the secret sauce of the product where the machine learning models that they developed to actually do that rating system.",
+    "mapped_id": "probabilistic_variance",
+    "is_negative_case": false,
+    "rationale": "The phrase 'secret sauce' colloquially refers to the core, complex algorithm whose outputs are not perfectly deterministic but rely on statistical patterns in public data, directly aligning with the definition of outputs subject to statistical variance."
+  },
+  {
+    "expert_quote": "Because your your background, your, your, your cultural background. And and your and I guess the you know where you were brought up? Makes a big difference in terms of the way you see the world. And by you, I mean, you know one and and and obviously that impacts. Almost everything from you know from solution design, but even before you get to solution design, you know asking questions, right? So what questions to ask and what to focus on?",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The participant describes how foundational worldview, shaped by culture, influences problem framing and solution design. This human factor introduces complexity and subjectivity into the decision-making process of AI projects, making the rationale behind certain project choices ('outcomes') harder to trace and explain objectively."
+  },
+  {
+    "expert_quote": "...the mindset is around how do we make this safe and privacy concerns, data sovereignty... Whereas if it's, if it's people in the US and I guess with a more risk taking mindset, if you will, then we we typically you know those kinds of questions are more of a check the box. Let's make sure that the solution is secure, but we're more focused. On. How can this enable? You know, our business use cases and the safety? And the the ethics of the implementation you know can be handled down the line once the economic value is proved...",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "The participant highlights a fundamental cultural variance in how data (its privacy, sovereignty, ethics) is perceived as a constraint or an enabler. This directly points to the 'high sensitivity to historical data quality and relevance,' as the very definition of 'quality and relevance' is culturally contingent, affecting model design and deployment strategy."
+  },
+  {
+    "expert_quote": "I've kind of adopted this way of adjusting my feedback. So for example I would you know if it was somebody that doesn't give direct feedback. In my experience, it comes across rude if you tell them very direct feedback... I think I have unconsciously developed this filter of being able to figure out what kind of person is this. How do they give feedback and how will they receive feedback?",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": false,
+    "rationale": "The need to adapt communication style based on cultural norms to avoid giving offense illustrates the friction in establishing clear, unambiguous lines of responsibility and critique. When feedback on project direction or outcomes must be heavily mediated, it complicates the direct assignment of accountability for decisions or results."
+  },
+  {
+    "expert_quote": "...English people are some of those that don't speak very directly and and and kind of force you to read between the lines and sometimes they even say the exact opposite of what they mean. So for example, if an English person says, oh, that was quite good. Actually, it wasn't good at all. It was actually very bad.",
+    "mapped_id": "lack_of_reproducibility",
+    "is_negative_case": false,
+    "rationale": "The described communication style, where explicit statements do not match true intent, creates a scenario where the 'requirements' or 'signals' from a client are not consistently interpretable. This ambiguity in input directly threatens the ability to consistently replicate or understand the conditions for a successful business or project outcome."
+  },
+  {
+    "expert_quote": "And I've observed that. The people who are in region are much more successful... to me, one of the possible indicators of that is likely that they understand the cultural nuances because they are there as opposed to trying to say, you know, sell the same way as you would to somebody here. In New York.",
+    "mapped_id": "model_drift",
+    "is_negative_case": false,
+    "rationale": "The participant observes that a static approach (the 'New York' sales model) fails when applied to a new region ('Europe'), implying performance decay. Success requires localized adaptation, analogous to a model needing retraining or adjustment when faced with changing data patterns (cultural contexts) to maintain effectiveness."
+  },
+  {
+    "expert_quote": "So one of the first things that I look at is, you know, where are they from and where did they come from? Where did they study and what? It's also especially important for me as a salesperson is to understand their career journey... in order for me to sell effectively, I need to understand the entire person's. Ground... I try to to make to make myself to set myself for success in terms of delivering the right pitch.",
+    "mapped_id": "dynamic_forecast_adjustment",
+    "is_negative_case": false,
+    "rationale": "The participant describes a mandatory, personalized calibration process for each interaction. This constant need to adjust the foundational approach ('the pitch') based on individual background signals an inherent instability in the system; a one-size-fits-all forecast or strategy is insufficient, requiring continuous bespoke updates."
+  },
+  {
+    "expert_quote": "And and I think there's still to this day a certain lack of awareness in terms of cognitive biases that people. May have. Around. Well, why didn't this person get selected for, you know, the the initial phone conversation?",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The mention of unconscious 'cognitive biases' in hiring or team formation points to algorithmic-like decision-making by humans that is not transparent or easily explained. These biases can lead to team composition choices (an 'outcome') that are suboptimal and whose rationale is not clearly accountable."
+  },
+  {
+    "expert_quote": "So I would say the the most important thing is to understand. Those cultures perspective. So that you have an understanding of. How the the difference between your cultures and how you might be saying one thing and they might be hearing another? And so how do you and so by understanding how they might hear it, you would change how you might say something?",
+    "mapped_id": "baseline_erosion",
+    "is_negative_case": false,
+    "rationale": "This statement encapsulates the core management friction. To be effective, communication and plans (the 'baseline') cannot be static; they must be perpetually adjusted ('you would change how you might say something') based on the receiver's cultural perspective. This constant need for recalibration erodes a fixed, predictable plan."
+  }
+]

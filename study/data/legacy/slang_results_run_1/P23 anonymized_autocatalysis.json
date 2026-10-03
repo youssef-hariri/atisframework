@@ -1,0 +1,60 @@
+[
+      {
+        "indicator_name": "temporal_misalignment",
+        "evidence": "Person 2 describes a fundamental clash between the technical team's understanding of development time/cost and management's focus on production costs. He states: 'they're looking only in the productionnaising the part, but they're not looking that the development part... they're not looking into the cost part.' This highlights the 'AI time' (needing robust infrastructure for development, handling data spikes) vs. 'organizational time' (budget cycles, cost-focused approvals).",
+        "strength": "Strong. A core theme of the discussion is the friction between technical requirements and business/management timelines and priorities."
+      },
+      {
+        "indicator_name": "tool_proliferation",
+        "evidence": "Person 2 discusses evaluating and choosing between different tools (Spark vs. Dataflow for streaming, GCP services). The process of running POCs, comparing data metrics (cost, performance) before selecting a tool indicates an environment with multiple, rapidly evolving options that require systematic evaluation. 'We tested in both approach and we come up with the data matrix... then we showcase the data.'",
+        "strength": "Moderate. Shows awareness of multiple tools and the need for evaluation, but framed as a managed process rather than an overwhelming flood."
+      }
+    ],
+    "negative_cases_absences": [
+      {
+        "indicator_name": "recursive_innovation",
+        "reason_for_absence": "Person 2's narrative is centered on applying AI/ML to business problems (sentiment analysis, audio-to-text) and the associated data engineering. There is no mention of using AI tools to develop *new* AI tools or models. The focus is on project delivery, not on the self-accelerating cycle of AI research and development."
+      },
+      {
+        "indicator_name": "judgment_substitution",
+        "reason_for_absence": "Person 2 emphasizes the critical, irreplaceable role of human judgment and process. He stresses the need for clear, static requirements ('don't change... be the static part'), thorough documentation, and human-led governance (role-based access, data privacy policies). The narrative positions human oversight and planning as the bulwark against project failure, not something being reconfigured by AI capabilities.",
+        "supporting_quote": "'Just prepare a proper documentations. Understand the business knowledge... That will really help you... It will avoid so much of replicated work.'"
+      },
+      {
+        "indicator_name": "gen_AI_acceleration",
+        "reason_for_absence": "The projects described (sentiment analysis, audio conversion, data migration) appear to involve more traditional data pipelines and ML models. There is no discussion of generative AI (e.g., LLMs, image generators) or its impact on accelerating innovation processes. The 'AI' discussed is treated as a suite of tools for specific predictive/analytical tasks."
+      },
+      {
+        "management_friction_name": "continuous_training_demand",
+        "reason_for_absence": "While Person 2 values domain knowledge and documentation, he does not describe a frantic need for continuous, modular training to keep up with new AI subtypes. The skill emphasis is on core data engineering, architecture, and business understanding, not on chasing the latest model architectures or frameworks."
+      }
+    ],
+    "implicit_resonances": [
+      {
+        "concept": "skill_obsolescence_pace (indirect)",
+        "explanation": "The difficulty in 'convincing' management and clients with non-technical backgrounds hints at a widening gap. The competencies needed to understand the technical realities (infrastructure scaling, data complexity) may be becoming obsolete faster in the business stakeholder community than they are being acquired, leading to communication and prioritization frictions."
+      },
+      {
+        "concept": "integration_debt (implied)",
+        "explanation": "The detailed account of the data migration and governance project (discovering hidden dependencies, undocumented legacy components) is a classic example of managing 'integration debt.' While not explicitly about AI components, the principles of undocumented systems, knowledge loss when employees leave, and the challenge of migrating/interfacing complex systems directly parallel the management of legacy AI components in a fast-moving field.",
+        "supporting_quote": "'...the people who worked in that organization for owning those components he left the organization. KT was not a properly transferred... Nobody aware of that? What is a cat components? What is a dependency?'"
+      }
+    ],
+    "metaphors_used_by_person_2": [
+      {
+        "metaphor": "Architecture/Construction Metaphor",
+        "example": "'end to end design,' 'data pipeline design,' 'architectural design.' Presents AI/data projects as structural engineering tasks requiring blueprints (documentation) and solid foundations (infrastructure)."
+      },
+      {
+        "metaphor": "Negotiation/Transaction Metaphor",
+        "example": "'if you're not giving what I want, I can't give what you want.' Frames the relationship with management/clients as a transactional exchange of resources (infrastructure) for outcomes (product)."
+      },
+      {
+        "metaphor": "Buffer as Shock Absorber",
+        "example": "'we need to buy back some days buffer times.' Introduces the concept of 'buffer time' as a mechanical/political cushion to absorb the shocks of unexpected complexity or delays, a direct response to timeline pressures."
+      },
+      {
+        "metaphor": "Health/Organism Metaphor",
+        "example": "'maintain the good healthy environment,' 'team bonding.' Describes team and project dynamics in biological terms, emphasizing care, growth, and prevention of sickness (failure, conflict)."
+      }
+    ]

@@ -1,0 +1,44 @@
+[
+  {
+    "expert_quote": "The more things are subjective and complicated... The more complexity there is in establishing communication. For example, I think the result of this experiment that we just did implies this, right? And someone else might look at the same results and think that it implies something else, right? Because no experiment... often an experiment doesn't have just one interpretation, right?",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The expert describes ambiguous, non-deterministic interpretations of the same data or experimental results. This directly maps to the 'opaque outcomes' indicator, where algorithmic or analytical decision-making leads to results that are complex and hard to explain definitively."
+  },
+  {
+    "expert_quote": "One of the issues is you don't necessarily know whether you're not getting feedback because of a cultural... thing or something else, right? That's like a disconnect back and forth.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The expert highlights the inherent uncertainty in diagnosing the cause of a communication breakdown (cultural vs. other factors). This opacity in understanding root causes mirrors the 'opaque outcomes' indicator, where the 'why' behind a result or situation is non-obvious."
+  },
+  {
+    "expert_quote": "I've often had the feeling that a French educated person... is thinking about things in a more mathematical and theoretical perspective, right? Then maybe someone else... Some countries are biased in a more in this direction in that direction.",
+    "mapped_id": "non_linear_estimation",
+    "is_negative_case": false,
+    "rationale": "The expert describes foundational differences in how people from different educational/cultural backgrounds approach problems. This diversity in thinking styles and mental models is a key source of the 'non-linear estimation' indicator, where complex relationships (e.g., in project planning) are not approached via a single, standard, linear path."
+  },
+  {
+    "expert_quote": "It felt like whatever I do right, everything has to have a happy face on it, right?... the change that we're making doesn't make any sense.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": false,
+    "rationale": "The expert describes a situation where a superficial, conflict-avoidant communication culture ('happy face') obscures the rationale for decisions. This creates friction in assigning clear responsibility for those decisions, which maps directly to the 'accountability challenges' management friction stemming from opaque processes."
+  },
+  {
+    "expert_quote": "If it succeeds, then it's surviving multiple filters, right? It like makes sense to people who have different backgrounds also academically... But also culturally and then that it comes out stronger because of this.",
+    "mapped_id": "dynamic_forecast_adjustment",
+    "is_negative_case": false,
+    "rationale": "The expert uses the metaphor of 'surviving multiple filters' to describe how ideas are constantly validated and adapted through diverse perspectives. This iterative process of testing and adjustment against varied criteria parallels the 'dynamic forecast adjustment' indicator, where baselines and plans are updated based on new inputs, signaling a robust but non-static system."
+  },
+  {
+    "expert_quote": "I don't think I have personal experience with that, right? I've seen for example reports where... Some machine learning models coming out of China... have been trained not to talk about subjects that are taboo there... But I don't know if that's what you mean.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": true,
+    "rationale": "When asked about model bias and data ethics, the expert deflects to a second-hand, high-level example, stating a lack of direct personal experience. This contradicts the theoretical expectation of 'data dependency' as a commonly experienced source of stochastic uncertainty and project risk that practitioners would routinely encounter and manage."
+  },
+  {
+    "expert_quote": "You have different potential sources of complexity and if you... have too many of them, then things can fail, right? It can be because of the complexities of AI. It can sometimes be like a situation is too political. In addition to multicultural.",
+    "mapped_id": "baseline_erosion",
+    "is_negative_case": false,
+    "rationale": "The expert explicitly links AI complexity with other forms of complexity (cultural, political), stating they are additive and can lead to failure. This admission of compounding, unstable factors forcing repeated adjustments to plans and expectations aligns with the 'baseline erosion' management friction."
+  }
+]

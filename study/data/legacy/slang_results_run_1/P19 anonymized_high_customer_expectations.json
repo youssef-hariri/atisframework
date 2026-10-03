@@ -1,0 +1,56 @@
+[
+  {
+    "target_specificity": "high_customer_expectations",
+    "rubric_indicator": "dreams_vs_reality",
+    "observation": "Person 2 describes initial fascination with how statistics and AI can solve business problems, but then recounts a concrete project failure where a loan prediction model rejected all applicants after months of work.",
+    "metaphor_mapping": "The journey from fascination to a failed model represents the 'dream' of a powerful solution crashing into the 'reality' of flawed implementation and unexpected outcomes.",
+    "supporting_quote": "\"The funny part is that when we are done with the project after three months, our projects decided... to not approve the loan to all the customers. So the model was not now classified... So we consider that a failure...\"",
+    "negative_case_identified": true,
+    "negative_case_description": "The failure serves as a direct negative case to the 'dream' of flawless AI. Person 2 explicitly labels it a failure, grounding expectations in a practical, imperfect outcome rather than an idealized vision."
+  },
+  {
+    "target_specificity": "high_customer_expectations",
+    "rubric_indicator": "trust_understanding_gap",
+    "observation": "Person 2's trust in the project's goal (predicting loans) was undermined by the model's opaque and unsatisfactory behavior (rejecting everyone), leading to a project failure that required external consultation to understand.",
+    "metaphor_mapping": "The model is implicitly framed as a 'black box' whose internal decision-making was not understood by the team until after it produced a universally bad output, breaking initial trust.",
+    "supporting_quote": "\"The main learning point was that we... just went in. Not consulting from those who have experience in the field. And later on, with consultation... we're able to correct some of the mistakes.\"",
+    "negative_case_identified": false,
+    "negative_case_description": null
+  },
+  {
+    "target_specificity": "high_customer_expectations",
+    "rubric_indicator": "magic_box_perception",
+    "observation": "The team's approach to the loan project suggests they expected the ML process to autonomously deliver a useful classification solution. The failure revealed this perception was flawed; the 'box' was not magical but required expert guidance and correct foundational setup.",
+    "metaphor_mapping": "The project timeline and investment (\"three months, four months and a lot of investment\") imply an expectation of the model as a solution-generating entity. Its failure dispels this magic.",
+    "supporting_quote": "\"It was a failure, but we learned from it. The main learning point was that we... just went in. Not consulting from those who have experience in the field.\"",
+    "negative_case_identified": true,
+    "negative_case_description": "The post-failure realization—that expert consultation was needed—directly counters the 'magic box' perception. It highlights that AI is a tool requiring skilled orchestration, not an autonomous oracle."
+  },
+  {
+    "target_specificity": "high_customer_expectations",
+    "rubric_indicator": "utility_mismatch",
+    "observation": "The team assumed the AI model's goal (loan approval prediction) aligned perfectly with the business goal. The output (0% approval) was a complete mismatch, rendering the model useless for its intended purpose.",
+    "metaphor_mapping": "The model's output is framed as a broken compass, pointing uniformly to 'no' regardless of the terrain, thus failing its core utility of navigation (discrimination).",
+    "supporting_quote": "\"The model decided... to not approve the loan to all the customers. So the model was not now classified who not to approve and who not to... So we consider that a failure...\"",
+    "negative_case_identified": false,
+    "negative_case_description": null
+  },
+  {
+    "target_specificity": "high_customer_expectations",
+    "rubric_indicator": "unfairness_barriers",
+    "observation": "Person 2 mentions an ethical side-constraint in another project (text analysis of a prominent person), where the potential to create misleading or 'deep fake' content was identified as a reason to limit or contain the model's use, showing awareness of fairness and misuse risks.",
+    "metaphor_mapping": "The AI model is framed as a potential 'weapon' that must be kept 'within the machine' to prevent it from falling into 'the wrong hand[s]' and causing harm.",
+    "supporting_quote": "\"We can create these... but it should just stay within the machine cannot be used out of the... It should not come out there because if you get out there and get in the wrong hand, there might be a problem.\"",
+    "negative_case_identified": false,
+    "negative_case_description": null
+  },
+  {
+    "target_specificity": "high_customer_expectations",
+    "rubric_indicator": "feedback_dissonance",
+    "observation": "While not about end-user feedback, Person 2 describes a team dynamic where early fear of giving corrective feedback allowed errors to propagate, leading to project failure. This mirrors the 're-education labor' friction, where unrealistic self-assessment (or fear) had to be overcome to enable productive correction.",
+    "metaphor_mapping": "Unspoken critiques are described as silent observers watching \"somebody making a mistake there on the screen, but nobody's coming out to correct.\" Breaking this silence is framed as essential for progress.",
+    "supporting_quote": "\"Later on, we'll say by by then this one, this one. We did it wrong after we got the feedback of our results, but we let the problem go through so the person was hearing. Nobody was willing to point out that mistake and correct.\"",
+    "negative_case_identified": false,
+    "negative_case_description": null
+  }
+]

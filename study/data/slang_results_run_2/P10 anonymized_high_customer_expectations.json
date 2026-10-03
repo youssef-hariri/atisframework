@@ -1,0 +1,38 @@
+[
+  {
+    "expert_quote": "everybody wants something to be aligned with artificial intelligence.",
+    "mapped_id": "magic_box_perception",
+    "is_negative_case": false,
+    "rationale": "The phrase 'everybody wants something to be aligned with artificial intelligence' suggests a pervasive belief in AI as a necessary, transformative solution, aligning with the 'magic box' perception of AI as a universally desired, autonomous fix."
+  },
+  {
+    "expert_quote": "there are still some people with the notion that AI is working on rudimentary concepts but right now... The technology has developed. I think it is on another level right now.",
+    "mapped_id": "dreams_vs_reality",
+    "is_negative_case": false,
+    "rationale": "This statement contrasts outdated or simplistic public perceptions ('rudimentary concepts') with the advanced, fast-paced reality of current AI development, highlighting the gap between idealized, static visions and the practical, evolving state of the technology."
+  },
+  {
+    "expert_quote": "it has to be in a very linear fashion. It has to follow a very agile way... With scrums and daily meetings tasks going into backlog and then reworking on it... it is on another level right now. So we have to be very fast-paced.",
+    "mapped_id": "dreams_vs_reality",
+    "is_negative_case": false,
+    "rationale": "Person 2 describes the practical, iterative, and uncertain work process ('agile', 'backlog', 'reworking') required for modern AI, which contrasts with a simplistic or 'magic box' expectation of a straightforward, guaranteed output."
+  },
+  {
+    "expert_quote": "people do not like to give feedbacks... when it comes to written feedback, people hesitate a bit... people do not generally do that.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": true,
+    "rationale": "This is a negative case for 'feedback_dissonance'. The friction described is not about users providing feedback based on unrealistic benchmarks, but rather a cultural or personal reluctance to give *any* formal feedback, requiring a different kind of management (probing, simplified questionnaires)."
+  },
+  {
+    "expert_quote": "we always try to... get those answered and even after one month we follow up with the client... 'Do you think it was successful? Is there a behavioral change in your team? Is there a technical skill shift in your team?' So that is how you can map it?",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "The proactive, structured follow-up with specific, success-oriented questions ('behavioral change', 'technical skill shift') demonstrates a managed process to elicit actionable, reality-grounded feedback, countering potential dissonance from vague or unrealistic expectations."
+  },
+  {
+    "expert_quote": "we have to be very fast-paced. We have to understand things quickly... companies also need to invest in a lot of, you know upskilling projects, they cannot just rely on one person's knowledge or existing knowledge, they have to see how they can, you know amp up their speed and be relevant.",
+    "mapped_id": "trust_erosion",
+    "is_negative_case": false,
+    "rationale": "The emphasis on constant upskilling and speed to 'be relevant' implicitly addresses the risk of disillusionment ('trust_erosion'). It highlights the proactive labor required to maintain client trust and project viability in the face of rapidly evolving technology, preventing resistance to scaling due to skill obsolescence."
+  }
+]

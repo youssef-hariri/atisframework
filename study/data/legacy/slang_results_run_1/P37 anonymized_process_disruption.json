@@ -1,0 +1,59 @@
+[
+    {
+      "indicator_name": "socio_technical_transition",
+      "evidence": "Person 2 discusses the need for 'a very opinionated domain expert that would work with the technology team' to implement AI systems, explicitly highlighting the move from purely human or purely technical workflows to a hybrid collaboration model.",
+      "supporting_quote": "\"...you typically need a very opinionated, a very opinionated domain expert that would work with the technology team to help determine... what are the right workflows that can be automated...\""
+    },
+    {
+      "indicator_name": "integration_friction",
+      "evidence": "The interviewee identifies a key challenge in embedding AI into existing business processes, noting that the domain expert's cultural and experiential background heavily influences which AI use cases are selected and how workflows are designed. This shows friction in integrating a new, data-centric technology into established practices.",
+      "supporting_quote": "\"I think that person's background can have a massive impact on... which projects get selected. Which use cases get implemented and so on.\""
+    },
+    {
+      "indicator_name": "knowledge_clash",
+      "evidence": "Person 2 highlights the tension between codified, data-driven AI knowledge and the tacit, experience-based knowledge of domain experts from different cultural and professional backgrounds. The 'right' AI solution is not objective but filtered through human perspective.",
+      "supporting_quote": "\"What questions to ask and what to focus on? Can be impacted, in my mind a lot by by culture... Their first instinct may be to help you know people from their community. Use AI in ways that would make it useful.\""
+    },
+    {
+      "indicator_name": "ethical_automation_tension",
+      "evidence": "A clear divergence is presented between US and European (EEA/UK) approaches to AI ethics and safety. This illustrates the conflict between the drive for automation/business enablement and the imperative for ethical oversight, with cultural context determining which priority comes first.",
+      "supporting_quote": "\"...the mindset is around how do we make this safe and privacy concerns... Whereas if it's people in the US... those kinds of questions are more of a check the box... the ethics... can be handled down the line once the economic value is proved...\""
+    },
+    {
+      "indicator_name": "cultural_resistance",
+      "evidence": "Person 2 describes how different regional communication styles (direct vs. indirect) and foundational mindsets (safety-first vs. risk-taking) create inherent resistance or friction when trying to implement a standardized AI project or sales process across cultures.",
+      "supporting_quote": "\"...folks from like the Northern European countries... are quite direct... versus some places in... southern European countries... they say things without specifically saying things... It comes across rude if you tell them very direct feedback.\""
+    },
+    {
+      "indicator_name": "role_transition_hurdles",
+      "evidence": "The interviewee points out that success in international AI projects often requires a personal and professional adaptation, a form of reskilling. One must learn to 'read between the lines' and adjust communication and pitching style based on the recipient's cultural background, which disrupts established, uniform ways of working.",
+      "supporting_quote": "\"I've kind of adopted this way of adjusting my feedback... I have unconsciously developed this filter of being able to figure out what kind of person is this. How do they give feedback and how will they receive feedback?\""
+    }
+  ],
+  "metaphors": [
+    {
+      "metaphor": "Secret Sauce",
+      "meaning": "Represents the core, proprietary AI/ML models. Implies a hidden, complex, and valuable recipe that powers the product, contrasting with more transparent, linear traditional software components.",
+      "quote": "\"...the secret sauce of the product [were] the machine learning models...\""
+    },
+    {
+      "metaphor": "Reading Between the Lines",
+      "meaning": "Describes the non-linear, interpretive work required to understand indirect communication common in some cultures. This contrasts with a linear, phase-gated process that assumes explicit, documented requirements and feedback.",
+      "quote": "\"...you have to read between the lines to understand what they're trying to say.\""
+    },
+    {
+      "metaphor": "Check the Box",
+      "meaning": "Metaphor for a procedural, compliance-oriented approach to ethics and safety (ascribed to some US perspectives). It implies these concerns are treated as a linear, gated step to complete rather than a continuous, integrated part of the iterative AI development lifecycle.",
+      "quote": "\"...those kinds of questions are more of a check the box.\""
+    }
+  ],
+  "negative_cases": [
+    {
+      "description": "Cultural difference was not the sole or primary cause of a failure. Person 2 attributes a stalled deal with a UK client partly to the challenges of 'remote selling' and distance, not exclusively to cultural misunderstanding. The issue was resolved through an in-person meeting, suggesting that some process frictions attributed to culture might be mitigated or are intertwined with other collaboration factors.",
+      "quote": "\"It's hard for me to say if it's because of culture or if it's because of just the distance... Part of it might have been just the distance. It's through virtual selling.\""
+    },
+    {
+      "description": "Cultural awareness and adaptation are presented as a learnable skill that can successfully *overcome* process disruption. Person 2 describes consciously developing a 'filter' to adjust communication style, implying that the friction is not an insurmountable systemic block but a manageable variable. This suggests that while the *clash* exists, it does not always lead to outright failure if managed.",
+      "quote": "\"I've kind of adopted this way of adjusting my feedback... I have unconsciously developed this filter...\""
+    }
+  ]

@@ -1,0 +1,99 @@
+[
+  {
+    "section": "Metaphorical Language Analysis",
+    "analysis": [
+      {
+        "quote": "maybe this is the very conceptual part because... it's more technical",
+        "metaphor": "Phased Progression (Conceptual -> Technical)",
+        "interpretation": "Implies a linear, stage-gated workflow where 'culture' is relevant only in the early, fuzzy front-end, contrasting with the non-linear, iterative reality of AI development where data and ethics re-emerge constantly."
+      },
+      {
+        "quote": "we try to keep data as separate as possible and not leak",
+        "metaphor": "Data as a Contained Substance",
+        "interpretation": "Treats data as a physical commodity that can be 'leaked' or kept in separate silos. This contradicts AI's need for integrated, fluid data streams for training and validation, highlighting a procedural mindset clashing with data-centric needs."
+      },
+      {
+        "quote": "we felt like we were... we worked alone... we didn't collaborate enough",
+        "metaphor": "Project as a Collection of Solos",
+        "interpretation": "Describes a failed collaboration as individuals working in isolation, pointing to a breakdown in the integrated, cross-functional teamwork essential for managing AI's iterative loops and shared data responsibility."
+      },
+      {
+        "quote": "the project leader has to be one that merged together the people",
+        "metaphor": "Leader as Unifying Force / Glue",
+        "interpretation": "Highlights the need for a role that actively integrates disparate elements—a crucial function when AI workflows break down traditional departmental and expertise silos, necessitating role reconfiguration."
+      }
+    ]
+  },
+  {
+    "section": "Negative Case Identification",
+    "analysis": [
+      {
+        "case": "US Collaboration Failure",
+        "evidence": [
+          "we didn't have any follow up after the project was finished",
+          "we felt like we were... we worked alone",
+          "we didn't collaborate enough",
+          "I think we weren't very involved in some aspect of the project"
+        ],
+        "interpretation": "This exemplifies **workflow_brittleness** and **integration_friction**. The linear, hands-off, phase-gated approach (bi-weekly meetings, no follow-up) failed to create the tight, iterative feedback loops and sustained cross-functional integration required for successful AI development. The lack of strong leadership (**role_reconfiguration**) to facilitate this integration led to siloed work and project drift."
+      },
+      {
+        "case": "Mismatched Data Privacy Concerns",
+        "evidence": [
+          "In Italy, we are not so concerned with this aspect of data privacy... I've experienced a little mismatch in these concern [compared to Sweden/US]"
+        ],
+        "interpretation": "A clear **knowledge_clash** between a more relaxed, perhaps experience-based or pragmatic local attitude and a more formal, compliance-driven data-centric culture. This creates **integration_friction** when building systems that must adhere to stricter global or partner standards, and hints at **ethical_automation tension** where ethical oversight norms vary."
+      },
+      {
+        "case": "Absence of Cultural Preparation",
+        "evidence": [
+          "No, actually they didn't... I think they don't do anything... That could be very [worthwhile] to prepare people to work with foreign groups"
+        ],
+        "interpretation": "Highlights **cultural_resistance** and **role_transition_hurdles** at an institutional level. The university operates on a legacy model where technical skill is paramount, failing to systematically address the socio-technical and intercultural competencies needed for modern, hybrid human-AI projects in global teams."
+      },
+      {
+        "case": "Impersonal vs. Relational Project Management",
+        "evidence": {
+          "US Model": "bi-weekly meetings, no follow-up",
+          "Swedish Model": "more intense collaboration... we also shared some feedback also after months... we kept some contacts"
+        },
+        "interpretation": "Contrasts a transactional, linear process (**procedural_nonlinearity** conflict) with a relational, iterative one. The successful Swedish model embraced ongoing connection and feedback, aligning better with AI's non-linear, learning-intensive nature which requires continuous dialogue and adjustment (**socio_technical_transition**)."
+      }
+    ]
+  },
+  {
+    "section": "Connection to Provided Rubric",
+    "analysis": [
+      {
+        "rubric_concept": "socio_technical_transition",
+        "supporting_evidence": "Person 2's lab is 'multidisciplinary' (devs + designers), and successful collaboration required merging different cultural 'points of view.' The failed US project shows what happens when this transition to integrated teamwork doesn't occur.",
+        "strength": "Moderate. Implicit in structure of lab and value of diversity."
+      },
+      {
+        "rubric_concept": "workflow_brittleness",
+        "supporting_evidence": "The US collaboration's linear meeting schedule and lack of integration caused the workflow to break down ('worked alone'). The fixed process couldn't adapt to the need for deeper, continuous collaboration.",
+        "strength": "Strong. Direct example of failure."
+      },
+      {
+        "rubric_concept": "role_reconfiguration",
+        "supporting_evidence": "Identifies 'strong leadership with a clear vision' as critical for success, specifically to 'merge together the people.' This points to the project manager's evolving role toward integrator and facilitator in hybrid teams.",
+        "strength": "Moderate. Directly addresses leadership need."
+      },
+      {
+        "rubric_concept": "integration_friction",
+        "supporting_evidence": "Evident in the data privacy mismatch and the difficulty of integrating the Italian team's work rhythm with the Swedish/American teams' expectations and oversight styles.",
+        "strength": "Strong. Multiple explicit points."
+      },
+      {
+        "rubric_concept": "knowledge_clash",
+        "supporting_evidence": "The differing levels of concern over data privacy between Italian and Swedish/American colleagues show tension between local, tacit practices and formal, data-governance knowledge.",
+        "strength": "Strong. Explicitly stated mismatch."
+      },
+      {
+        "rubric_concept": "cultural_resistance",
+        "supporting_evidence": "The university provides no preparation for multicultural work, indicating an institutional culture that undervalues this aspect in favor of purely technical training.",
+        "strength": "Moderate. Identified as a lack/gap."
+      }
+    ]
+  }
+]

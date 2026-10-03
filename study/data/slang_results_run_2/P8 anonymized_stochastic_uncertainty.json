@@ -1,0 +1,26 @@
+[
+  {
+    "expert_quote": "Right now we are on in the R&D for for the AI part. So basically we're trying to integrate it in our startup basically, yeah.",
+    "mapped_id": "non_linear_estimation",
+    "is_negative_case": false,
+    "rationale": "The phrase 'R&D' and 'trying to integrate it' indicates the exploratory, non-linear, and uncertain path of incorporating a novel AI capability into an existing product, which aligns with complex relationships that do not follow traditional linear paths."
+  },
+  {
+    "expert_quote": "We're training [the AI model] on, for example, the challenge we're having now is that how you can bring in.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "Highlighting a current 'challenge' in the training phase directly points to a high sensitivity to the availability, format, and quality of specific input data (dialects), which is central to the model's performance."
+  },
+  {
+    "expert_quote": "I mean, even with dialect, it's not won't be a problem if you have a good data, yeah.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "The statement directly conditions a solution ('not a problem') on possessing 'good data,' explicitly framing model success as fundamentally reliant on historical data quality and relevance."
+  },
+  {
+    "expert_quote": "What it means to have an AI in a product and as these are complex topics right now, and are also, uh, popular topics, I would say, but we we didn't face the issue so far, to be honest.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": true,
+    "rationale": "The speaker explicitly states they have not encountered issues with the inherent complexities of AI ('these are complex topics'), serving as a negative case against the expected presence of hard-to-explain algorithmic decision-making in their project experience."
+  }
+]

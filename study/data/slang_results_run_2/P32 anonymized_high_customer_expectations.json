@@ -1,0 +1,38 @@
+[
+  {
+    "expert_quote": "Client would come with my cook up some heaven in that scenario from his head and come to you and be like I need this and then you have to like lower his dreams and be like this is so for us we just we use maps and graphs and... We use a little bit of research to show that this is what's possible. This is what's not possible.",
+    "mapped_id": "dreams_vs_reality",
+    "is_negative_case": false,
+    "rationale": "The phrases 'cook up some heaven' and 'lower his dreams' are vivid professional slang describing a client's idealized, flawless vision of an AI solution, which the practitioner must contrast with practical, research-backed limitations."
+  },
+  {
+    "expert_quote": "We're building a multi agent type of tool and we needed to make some serious implementations that... Some could work others could work because also we're not that good at it. We're just learning as we go. So what you learn is what you implement and you tell them, yeah... We can do A and B, but let's give us some time. We read about C and we'll tell you how it goes.",
+    "mapped_id": "dreams_vs_reality",
+    "is_negative_case": false,
+    "rationale": "The admission of being 'just learning as we go' and the conditional 'some could work' directly frames AI development as an imperfect, iterative process of discovery, contrasting with a client's potential expectation of a complete, infallible solution from the outset."
+  },
+  {
+    "expert_quote": "You have to explain to them. Why it's not correct. First of all, and you have to be very, you have to. So I use an. They explain to me as a 5 year old.",
+    "mapped_id": "explainability_deficit",
+    "is_negative_case": false,
+    "rationale": "The need to explain technical infeasibility 'as a 5 year old' indicates an inherent frustration or gap in the client's understanding of AI's decision-making or limitations, necessitating a simplified, transparent breakdown."
+  },
+  {
+    "expert_quote": "We don't deal with bias. Genetics. Yeah.",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": true,
+    "rationale": "Person 2 explicitly states their work does not involve dealing with model bias. This is a negative case, directly contradicting the indicator where clients reject AI due to perceived biases or fairness issues."
+  },
+  {
+    "expert_quote": "If it's constructive, then you take it home and change your approach. If it's not constructive, then you just listen and do nothing.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": true,
+    "rationale": "Person 2 describes a pragmatic, binary approach to feedback. They filter out 'non-constructive' feedback, suggesting they do not experience the 're-education labor' of managing bug reports based on unrealistic AI benchmarks."
+  },
+  {
+    "expert_quote": "So they're like, yeah, these guys are good people. They wouldn't lie to us or they wouldn't do this. And we have delivered already some. So they can see we are able to deliver. So if you tell them it's all possible then. Yes, if we didn't come from the business angle. We came from the friendship angle into the business.",
+    "mapped_id": "trust_erosion",
+    "is_negative_case": true,
+    "rationale": "Person 2 describes a relationship built on prior delivery and personal trust ('friendship angle'), which preempts disillusionment. This contradicts the friction where early disappointment in a pilot leads to resistance and demands for redesign."
+  }
+]

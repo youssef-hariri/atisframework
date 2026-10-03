@@ -1,0 +1,71 @@
+[
+    {
+      "rubric_indicator": "socio_technical_transition",
+      "evidence": "Person 2 highlights a clear distinction between his computer science background and the German project manager's industrial management background. This creates a knowledge gap where the PM 'always ask about how to code, how to make it works,' indicating a transition point from purely human-led management to a hybrid model requiring technical-AI literacy.",
+      "metaphor": "Backgrounds as 'different languages' within the same project.",
+      "negative_case": false
+    },
+    {
+      "rubric_indicator": "workflow_brittleness",
+      "evidence": "The introduction of a new, more technically complex admin interface (requiring new APIs) caused the entire feature to be rejected by the PM. The linear plan (build new feature) broke down because the PM, responsible for future maintenance, could not handle the increased technical complexity. 'It's more complicated than the previous fashion... she cannot handle it.'",
+      "metaphor": "The new feature as a 'brittle addition' that cracked the existing workflow.",
+      "negative_case": false
+    },
+    {
+      "rubric_indicator": "role_reconfiguration",
+      "evidence": "The German PM explicitly shifted her role from a detailed technical overseer to an ethical/well-being manager, telling Person 2, 'I don't want to take your time to doing this project' after his internship ended. She also emphasized system oversight through radical transparency: 'you can tell me anything... we don't need to hide something.'",
+      "metaphor": "Project manager as a 'gatekeeper of ethics and well-being' rather than a technical director.",
+      "negative_case": false
+    },
+    {
+      "rubric_indicator": "integration_friction",
+      "evidence": "Direct example of friction when trying to integrate a new AI/software component (admin interface) into the existing system. The PM's rejection ('it's too complicated') stems from the challenge of embedding a more complex, data-intensive module into a legacy workflow she must manage post-internship.",
+      "metaphor": "New tech as a 'square peg' for an existing 'round hole' process.",
+      "negative_case": false
+    },
+    {
+      "rubric_indicator": "knowledge_clash",
+      "description": "Person 2 does not explicitly describe a clash between data-centric and tacit knowledge. The friction is more about technical vs. non-technical backgrounds and explicit vs. withheld communication.",
+      "evidence": null,
+      "metaphor": null,
+      "negative_case": true
+    },
+    {
+      "rubric_indicator": "procedural_nonlinearity",
+      "evidence": "Person 2's work extended over a month past his official internship deadline ('I still working on it in the 3rd of March') to complete the feature. This iterative, extended timeline conflicted with the PM's linear, phase-gated expectation of work concluding with the internship contract, leading to her intervention to stop the work.",
+      "metaphor": "The project timeline as a 'spillover' beyond its predefined container.",
+      "negative_case": false
+    },
+    {
+      "rubric_indicator": "silo_breakdown",
+      "description": "The project was small and cross-functional by nature (Indonesian developers, German PM). Person 2 does not describe traditional departmental silos being a problem. The primary barriers were geographical and linguistic, not organizational.",
+      "evidence": null,
+      "metaphor": null,
+      "negative_case": true
+    },
+    {
+      "rubric_indicator": "ethical_automation_tension",
+      "evidence": "Manifested as a tension between the drive to automate/create (the new admin interface) and the human oversight for sustainability and ethical labor practices. The PM halted automation not on a technical fault, but on ethical/practical grounds: unpaid labor and future maintainability concerns ('she worried that she cannot make changes in the future').",
+      "metaphor": "Automation drive hitting a 'wall of ethical and practical oversight.'",
+      "negative_case": false
+    },
+    {
+      "management_friction": "cultural_resistance",
+      "evidence": "Person 2 contrasts the German PM's culture of radical honesty and strict work-life balance with his Indonesian supervisor's culture of indirect communication ('he hides some things he should tell us'). He associates the German approach directly with better project management, implicitly noting resistance to that transparent, bounded style in other contexts.",
+      "metaphor": "Communication styles as either 'clear glass' (German) or 'frosted glass' (Indonesian supervisor).",
+      "negative_case": false
+    },
+    {
+      "management_friction": "role_transition_hurdles",
+      "evidence": "The German PM had to navigate her own role transition from potentially more hands-on management to a overseer reliant on developers' technical expertise. Her statement 'it's too complicated' and her ultimate rejection of the feature indicate the hurdle of reskilling/trusting the new technical workflow, ceding direct control to the developers.",
+      "metaphor": "PM navigating a 'bridge' from direct control to delegated technical trust.",
+      "negative_case": false
+    },
+    {
+      "management_friction": "legacy_inflexibility",
+      "description": "While a legacy system (previous website version) is mentioned, the friction is not about its inability to handle data, but about the human PM's inability to manage the updated version. The inflexibility is in the human-in-the-loop, not the software itself.",
+      "evidence": "The 'previous version' is noted, but the core problem is the PM's comfort and skill with the new version.",
+      "metaphor": null,
+      "negative_case": true
+    }
+  ]

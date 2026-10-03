@@ -1,0 +1,112 @@
+[
+  {
+    "segment": "0:2:24.60 --> 0:2:55.50",
+    "speaker": "Person 2",
+    "quote": "You can't tell with the workflow if a manager doesn't have good PM training, because then everybody's falling their own kind of workflow, right? So I've been on teams for one person's doing. Come on, one person's doing agile, one person's doing waterfall, and that can create some workflow issues.",
+    "process_disruption": {
+      "indicator": "workflow_brittleness",
+      "analysis": "Describes vulnerability when team members operate with mismatched methodologies (agile vs. waterfall), showing how linear processes break down without a unified, adaptive framework."
+    },
+    "metaphor": null,
+    "negative_case": false
+  },
+  {
+    "segment": "0:29:25.390 --> 0:29:26.210",
+    "speaker": "Person 2",
+    "quote": "AI project because of their churning, need strong leaders to manage the project.",
+    "process_disruption": {
+      "indicator": "role_reconfiguration",
+      "analysis": "Highlights the shift in leadership needs—from traditional oversight to managing constant change and complexity in AI workflows."
+    },
+    "metaphor": null,
+    "negative_case": false
+  },
+  {
+    "segment": "0:7:3.190 --> 0:7:34.580",
+    "speaker": "Person 2",
+    "quote": "The problem with most facial recognition software or even, you know, my smartwatch is that the sensors were never tested on people of different skin tones... Which at somebody decided to have a more diverse group. Maybe that would have worked better.",
+    "process_disruption": {
+      "indicator": "ethical_automation_tension",
+      "analysis": "Illustrates the conflict between deploying automated systems and the need for human ethical oversight, emphasizing the necessity of diverse teams to uncover biases."
+    },
+    "metaphor": null,
+    "negative_case": false
+  },
+  {
+    "segment": "0:19:10.320 --> 0:19:12.920",
+    "speaker": "Person 2",
+    "quote": "Everything is constantly changing over and over again without any real foundation build. Whether it's communication, whether it's processes, whether it's learning from the things that are not working, everything just happening so quickly that a lot of times we just feels like constant change and constant churning.",
+    "process_disruption": {
+      "indicator": "procedural_nonlinearity",
+      "analysis": "Describes the disruptive, iterative nature of AI work that conflicts with sequential, stable project methodologies, leading to communication and process instability."
+    },
+    "metaphor": "Constant churning",
+    "negative_case": false
+  },
+  {
+    "segment": "0:22:38.230 --> 0:22:42.710",
+    "speaker": "Person 2",
+    "quote": "I think tech is the great equalizer, right?",
+    "process_disruption": {
+      "indicator": "knowledge_clash",
+      "analysis": "Suggests that technical language can temporarily bridge cultural and experiential knowledge gaps, though this may oversimplify deeper tacit knowledge differences."
+    },
+    "metaphor": "Tech as the great equalizer",
+    "negative_case": true
+  },
+  {
+    "segment": "0:39:45.930 --> 0:40:0.210",
+    "speaker": "Person 2",
+    "quote": "I can't say that I would use it for something else. I I think it's. It's like a baby. It doesn't know what it doesn't know. So it just tells you whatever it thinks you want to hear... And I think the enthusiasm kind of forgets that it's still a baby and babies tell you gibberish and they need time to mature before they stop telling your nonsense.",
+    "process_disruption": {
+      "indicator": "socio_technical_transition",
+      "analysis": "Uses metaphor to critique the immature integration of AI into human workflows, highlighting the friction in transitioning to hybrid collaboration models."
+    },
+    "metaphor": "AI as a baby",
+    "negative_case": false
+  },
+  {
+    "segment": "0:16:8.570 --> 0:16:39.500",
+    "speaker": "Person 2",
+    "quote": "And then when there's a shift in the market you see the collapse and you see a lot of that happening in crypto you see that happening. Like with we work because the foundation of truly creating a culture that is truly integrated. It's just simply not there.",
+    "process_disruption": {
+      "indicator": "cultural_resistance",
+      "analysis": "Points to failure due to a lack of foundational, integrated culture, indicating resistance to adopting data-centric, adaptive practices in favor of traditional, experience-based models."
+    },
+    "metaphor": null,
+    "negative_case": false
+  },
+  {
+    "segment": "0:30:45.840 --> 0:31:11.260",
+    "speaker": "Person 2",
+    "quote": "That's where you can use tools like click up or I I do not love notion... Either confluence if, Gerard, there's all these different tools you can use, but you do need a tool that everybody can utilize as their base to kind of document to kind of go back and see where everything is happening.",
+    "process_disruption": {
+      "indicator": "legacy_inflexibility",
+      "analysis": "Acknowledges the need for modern, collaborative tools to manage AI workflows, implying that legacy systems are insufficient for dynamic, data-intensive processes."
+    },
+    "metaphor": null,
+    "negative_case": false
+  },
+  {
+    "segment": "0:17:54.260 --> 0:18:8.820",
+    "speaker": "Person 2",
+    "quote": "It is necessary for an individual who will work within a multicultural team to have had exposure to cross-cultural contexts in addition to relevant business skills.",
+    "process_disruption": {
+      "indicator": "role_transition_hurdles",
+      "analysis": "Highlights the reskilling and experiential requirements for effective participation in hybrid teams, pointing to disruptions in traditional role preparation and hierarchy."
+    },
+    "metaphor": null,
+    "negative_case": false
+  },
+  {
+    "segment": "0:24:0.300 --> 0:24:1.270",
+    "speaker": "Person 2",
+    "quote": "Ignoring or discounting once cultural differences is not the same as equality. It's just pretending like there aren't differences.",
+    "process_disruption": {
+      "indicator": "integration_friction",
+      "analysis": "Critiques superficial integration efforts, emphasizing the persistent challenges in genuinely embedding diverse perspectives into unified workflows."
+    },
+    "metaphor": null,
+    "negative_case": false
+  }
+]

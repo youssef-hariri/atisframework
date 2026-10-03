@@ -1,0 +1,44 @@
+[
+  {
+    "expert_quote": "The result of this experiment that we just did implies this, right? And someone else might look at the same results and think that it implies something else, right? Because no experiment... Or often an experiment doesn't have just one interpretation, right?",
+    "mapped_id": "trust_understanding_gap",
+    "is_negative_case": false,
+    "rationale": "Quote describes the fundamental opacity of technical/AI outputs ('experiment results'), leading to divergent interpretations. This semantic gap between output and understanding underpins the 'high optimism undermined by opaque or unsatisfactory behavior' indicator."
+  },
+  {
+    "expert_quote": "I've seen for example reports where some machine learning models coming out of China right have... been trained not to talk about subjects that are taboo there, right, but are widely reported... elsewhere in the world, right. So that's an example of how cultural differences can... Clearly leak into AI... Into how decisions might be reasoned about.",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": false,
+    "rationale": "Describes an AI system's failure to align with diverse user values (a form of 'lack of fairness'), which can lead to rejection. The 'cultural taboos' shaping the model create a barrier for users with different cultural expectations."
+  },
+  {
+    "expert_quote": "In different cultures, feedback is more or less acceptable, right? Especially of the type, I think you're wrong or something like that, right?",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "Describes a core communication friction where the act of giving critical feedback ('you're wrong') about a system's output or analysis is culturally mediated. This is a source of the 're-education labor' described in the management friction."
+  },
+  {
+    "expert_quote": "I've noticed that in some other cultures I am not getting feedback that I would be expecting right.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "Directly states an absence of expected feedback, which prevents the identification and correction of issues (e.g., bugs or model flaws). This lack of communication requires the expert to probe and interpret, constituting a labor of re-education."
+  },
+  {
+    "expert_quote": "One one example I think was... Where I had a bus... Who was?... I think... It felt like they're not very open to my ideas or becoming less open to my ideas, right?... And. It felt like. Whatever I do right, everything has to have a happy face on it, right? And even if I try to open a conversation right, there's nothing wrong with what I'm doing... but we're not doing that anymore. Now let's do that right and in a way that I feel. Doesn't make sense, right? Like the the change that we're making doesn't make any sense.",
+    "mapped_id": "trust_erosion",
+    "is_negative_case": false,
+    "rationale": "Describes disillusionment ('doesn't make any sense') and a breakdown in communication ('not very open to my ideas') during a project. The expert's technical rationale is overridden by non-technical factors ('happy face'), leading to resistance and an ineffective change of course—a clear erosion of trust in the collaborative process."
+  },
+  {
+    "expert_quote": "If a new idea maybe became accepted... There was a feeling like. If it succeeds, then it's surviving multiple filters, right? It like makes sense to people who have different backgrounds also academically right?... But also culturally and then that it comes out stronger because of this.",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": true,
+    "rationale": "This is a negative case. It describes a scenario where diverse perspectives *strengthen* the alignment of an idea or solution (potentially AI-driven) with broader goals by exposing it to 'multiple filters.' It contradicts the 'utility_mismatch' indicator, which posits an assumption of perfect alignment that is not tested."
+  },
+  {
+    "expert_quote": "It's like you have different potential sources of complexity and if you over if you have too much of too many of them, then things can fail, right?... It can be because of the complexities of AI. It can sometimes be like a situation is too political. In addition to multicultural.",
+    "mapped_id": "trust_erosion",
+    "is_negative_case": false,
+    "rationale": "Explicitly links the inherent 'complexities of AI' with other social complexities (cultural, political) as co-causes of project failure. This aligns with the friction where disillusionment in complex pilot phases ('complexities of AI') is compounded by other factors, leading to failure or resistance to scaling."
+  }
+]

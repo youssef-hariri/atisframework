@@ -1,0 +1,116 @@
+[
+    {
+        "quote": "And we have to present them the the, the model, the results analysis and. And they they have like a script and some some ground rules that they the model had to. To perform.",
+        "indicator": "procedural_nonlinearity",
+        "metaphor": "script and ground rules for the model (implies a rigid, pre-defined process)",
+        "negative_case": false
+    },
+    {
+        "quote": "I noticed from the guys in Latin America, excluding Brazil of course, but... They they were in a uh, in uh. One step behind so... And I I noticed this this difference between Brazil that were we were a bit more... Advanced making. Ohh OK.",
+        "indicator": "knowledge_clash",
+        "metaphor": "one step behind (implies a linear progression of knowledge and maturity)",
+        "negative_case": false
+    },
+    {
+        "quote": "We were more concerned about the the how, how the the models were built and there and there they they were more concerned about maybe the answers or. And a fast. The response affects answered.",
+        "indicator": "knowledge_clash",
+        "metaphor": null,
+        "negative_case": false
+    },
+    {
+        "quote": "They're not concerned about the applied the right techniques for the projects or for the problem, or maybe how this would be a in the future. Maybe we they were used a more simple technique. But in the in the future we're that's that will not be sustainable.",
+        "indicator": "workflow_brittleness",
+        "metaphor": "not sustainable (implies a linear process that breaks under future conditions)",
+        "negative_case": false
+    },
+    {
+        "quote": "I I don't know that that was a difference and then that's not because of the the the country or the the culture. But I would say that's because of the how data science was. For how long data size will was in the company?",
+        "indicator": "socio_technical_transition",
+        "metaphor": null,
+        "negative_case": true
+    },
+    {
+        "quote": "We we do like a process to explain. It's it's like you. You were in the lecture, right? So we. We made it meetings like uh, we put the the data scientists together with us and we explain how we approach the problem, how we do it, how model, which models can we apply and and that stuff, right.",
+        "indicator": "role_reconfiguration",
+        "metaphor": "lecture (implies a shift from doing to teaching/oversight)",
+        "negative_case": false
+    },
+    {
+        "quote": "Another thing is stacked like. The tools that we use, like Python code, programming languages or even the environment like Google Cloud, Amazon, this kind of stuff. When we reach them, they were like locals, you know, they were using some other tools, some other. Uh infrastructures in in that stuff, so.",
+        "indicator": "legacy_inflexibility",
+        "metaphor": "locals (implies being tied to a specific, perhaps outdated, local infrastructure)",
+        "negative_case": false
+    },
+    {
+        "quote": "I found more easier to explain when you, you know you get some data for them you make like an example model, some small work so to speak and then we show them you know so you have these answer this is my model it's the that's the the performance of the model and that's how I do it and that's how you can apply to your problem and so on and so on.",
+        "indicator": "procedural_nonlinearity",
+        "metaphor": "example model (demonstrates an iterative, proof-of-concept approach vs. a linear plan)",
+        "negative_case": false
+    },
+    {
+        "quote": "We Brazilians don't. Don't necessarily say that you are wrong. You are stuck behind. But we showed the downsides of the the their models. The upsides of ours, then it's all about the results.",
+        "indicator": "cultural_resistance",
+        "metaphor": "stuck behind (implies resistance to changing established methods)",
+        "negative_case": false
+    },
+    {
+        "quote": "When presented the. The guys from over there was like, OK, what's the results? I I. I don't. I don't think that's that's right. I don't think that's the way, but they didn't like like. I wondered described that we are trying to lecture and explain they didn't. It's it's more like direct and say, OK, I don't think that's gonna work. And redo your work and get. And try again, you know.",
+        "indicator": "integration_friction",
+        "metaphor": "redo your work (implies a linear, phase-gated review and rejection process)",
+        "negative_case": false
+    },
+    {
+        "quote": "The executive level it's more difficult. So I had to adjust the the presentation, the speech and we yet be more directly and don't get in the technical like separate the two talks.",
+        "indicator": "role_reconfiguration",
+        "metaphor": "separate the two talks (compartmentalizing technical iterative work from linear business reporting)",
+        "negative_case": false
+    },
+    {
+        "quote": "More about the data, data science. And yeah, in general like you have to direct your speech for your audience and. That is primarily the executive talk was more was more. Uh, successful. When you simplify your show, the results you show don't get into technical, so let the technical for the the other talk.",
+        "indicator": "role_reconfiguration",
+        "metaphor": null,
+        "negative_case": false
+    },
+    {
+        "quote": "I think like if inside the same company there this different levels of concern from like for one country to another, it's gonna be like that too so.",
+        "indicator": "silo_breakdown",
+        "metaphor": null,
+        "negative_case": false
+    },
+    {
+        "quote": "They were more concerned about biases. And in the data that you use, but not about privacy itself like cause it was only we are going operates in this the the corporate cloud not going to have any. I have concerns about privacy.",
+        "indicator": "ethical_automation_tension",
+        "metaphor": null,
+        "negative_case": false
+    },
+    {
+        "quote": "We do not. You know you, we we do not want to to the model to represent that bias. So we also show them that that's good because we kind of. Saying why your model is not so good and why our model is not is not giving the right answer, you know.",
+        "indicator": "ethical_automation_tension",
+        "metaphor": "right answer (implies a tension between a technically correct output and an ethically correct one)",
+        "negative_case": false
+    },
+    {
+        "quote": "Bigger the company, more things are built in the in in over some models some process, some something. And to map these things and to coordinate everyone. Change something and change all the things that are gonna impact. It's really difficult.",
+        "indicator": "legacy_inflexibility",
+        "metaphor": "built over some models (implies a brittle, interconnected legacy system)",
+        "negative_case": false
+    },
+    {
+        "quote": "We we data scientists in general. You know we like the solutions. Maybe more than we like the the problem you know. So one thing that I I noticed that it's it's a real problem. You know we almost every time it starts to the solution. The first. You know, then we know the problem. So when we have some solution in in done. We we noticed that the solution does not fit the problem very well, you know.",
+        "indicator": "procedural_nonlinearity",
+        "metaphor": null,
+        "negative_case": false
+    },
+    {
+        "quote": "We we need to start. Uh, and do it faster, mostly because we we need to know. If the the stakeholders of people who are using our solution. Like the solution or see that the solution fits the problem you know and that's something really difficult to catch. Just doing it and not testing with the stakeholders, not showing them not bring the solution to them to so that they can use it.",
+        "indicator": "integration_friction",
+        "metaphor": null,
+        "negative_case": false
+    },
+    {
+        "quote": "Do it like a solution faster simple. And show them give to them the solution so they didn't can use it, didn't get they can point the the the main mistakes or how we can improve the solution and then do it again do it again so you know in small.",
+        "indicator": "procedural_nonlinearity",
+        "metaphor": "do it again (embraces an iterative, non-linear development cycle)",
+        "negative_case": true
+    }
+]

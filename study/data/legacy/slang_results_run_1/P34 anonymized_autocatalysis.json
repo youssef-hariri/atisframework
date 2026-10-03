@@ -1,0 +1,79 @@
+[
+  {
+    "indicator_name": "socio_technical_shift",
+    "relevance": "Partial",
+    "evidence": "Person 2's entire discussion focuses on human factors—communication styles, empathy ('assume positive intent'), ethics, and team dynamics—as the central challenge. The technical velocity of AI is a background condition enabling their work ('building Gen AI applications'), but the narrative emphasis is squarely on human adaptation, acceptance, and collaboration.",
+    "metaphors": [
+      {
+        "metaphor": "Communication styles as cultural 'manifestation'",
+        "interpretation": "Culture is framed not as a static trait but as an active, observable process in interactions. This implies the 'technical' tool (AI) operates within these pre-existing and complex human systems."
+      },
+      {
+        "metaphor": "'Assume positive intent' as a 'mantra'",
+        "interpretation": "Presents a human-centric heuristic (a repeated principle) as the necessary filter for collaboration, positioning trust and interpretation as critical, non-automatable components in a high-tech environment."
+      }
+    ],
+    "negative_case": "The conversation centers on the socio-technical shift *caused by* autocatalysis but does not describe the autocatalytic technical process itself. The 'shift' is the dominant theme, while the engine of the shift (runaway AI innovation) is treated as a given, almost passive, backdrop."
+  },
+  {
+    "indicator_name": "temporal_misalignment",
+    "relevance": "High (as a root cause of discussed frictions)",
+    "evidence": "Person 2 describes fundamental clashes in pace and process: British vs. Hong Kong communication styles (slow, relational build-up vs. fast, direct decision-making), and the failed collaboration due to mismatched expectations on legal/speed trade-offs ('sign this NDA just to talk' vs. 'this is ludicrous'). These are manifestations of different cultural 'clocks' which mirror the 'AI time' vs. 'organizational/human time' misalignment.",
+    "metaphors": [
+      {
+        "metaphor": "British meeting style as a slow 'wrapping up'",
+        "interpretation": "Implies time is used for social calibration before action, a temporal architecture that conflicts with linearly efficient, task-oriented time."
+      },
+      {
+        "metaphor": "Being 'thrown into an environment' and the need to 'roll with the punches'",
+        "interpretation": "Suggests the individual is subjected to a new, faster, or unpredictable temporal reality (like 'AI time') and must adapt their personal rhythm, acknowledging discomfort and lag."
+      }
+    ],
+    "negative_case": "While the effects of temporal misalignment are richly described in human terms, there is no explicit link made to the accelerating pace of AI tools as the specific driver of this disorientation. The temporal conflict is framed culturally, not technologically."
+  },
+  {
+    "indicator_name": "skill_obsolescence_pace / continuous_training_demand",
+    "relevance": "Metaphorical / Indirect",
+    "evidence": "Person 2 does not discuss technical skill obsolescence. However, the entire interview is a treatise on the non-stop need to acquire and hone *intercultural competence*: 'being really receptive and patient,' learning new 'markers and queues,' and the 'overhead' of increased communication. This mirrors the 'continuous training demand' rubric item, but transposed from the technical to the socio-cultural domain.",
+    "metaphors": [
+      {
+        "metaphor": "'Productive complexity'",
+        "interpretation": "The increased effort required for multicultural communication is not framed as debt or friction, but as a valuable investment. This reframes the 'training demand' from a defensive necessity into a strategic advantage."
+      },
+      {
+        "metaphor": "Finding your 'own sort of conference time or level of comfort'",
+        "interpretation": "Suggests a personal, modular approach to adaptation—you cannot learn everything at once, you must curate your own 'training curriculum' for a constantly changing environment."
+      }
+    ],
+    "negative_case": "A direct negative case. The specific skill in focus is human-centric (cultural fluency), not technical AI competency. The 'obsolescence' discussed is of assumptions and social scripts, not programming languages or frameworks."
+  },
+  {
+    "indicator_name": "judgment_substitution",
+    "relevance": "Negative Case (Emphasized Opposite)",
+    "evidence": "Person 2 consistently elevates irreducible human judgment as the critical component: judging intent, interpreting subtle feedback ('pulling at some thread'), and navigating unspoken cultural norms. The failure example revolves around a human judgment call on legal risk versus collaboration potential. AI or automated judgment is absent from the narrative.",
+    "metaphors": [
+        "metaphor": "'Listen more than you talk'",
+        "interpretation": "A prescriptive rule that prioritizes human sensing, interpretation, and judgment over automated or pre-programmed responses. It positions judgment as an active, empathetic process."
+    ],
+    "negative_case": "The transcript provides strong evidence *against* the reconfiguration or substitution of human judgment in this context. Judgment is presented as the core, non-automatable skill for success in a complex, autocatalytic environment."
+  },
+  {
+    "indicator_name": "tool_proliferation",
+    "relevance": "Implied Backdrop",
+    "evidence": "Person 2's work ('building Gen AI applications') and mention of tools like 'cursor or lovable' presupposes a landscape of proliferating tools and frameworks. The choice to focus on the application side implies a selection and integration challenge among many options.",
+    "metaphors": [],
+    "negative_case": "No direct discussion of the pace of new tool releases, evaluation fatigue, or integration challenges. The 'proliferation' is a silent condition of their work, not an active topic of management concern in this conversation."
+  },
+  {
+    "indicator_name": "regulatory_lag",
+    "relevance": "Tangential",
+    "evidence": "Briefly touched upon in the discussion of German attitudes towards data privacy, rooted in historical (Cold War) context. This highlights how formal and informal regulatory frameworks (cultural norms as informal regulation) emerge from specific histories and lag behind the universalizing deployment of technology.",
+    "metaphors": [
+      {
+        "metaphor": "Cultural heritage as a regulatory framework",
+        "interpretation": "The German historical experience is framed as an internalized, enduring 'regulation' that dictates specific technical requirements ('where in Europe?'). This is a form of non-legal, culturally-embedded governance that interacts with technical systems."
+      }
+    ],
+    "negative_case": "Not about formal AI policy or governance lag. It's about enduring cultural-ethical frameworks that pre-date and interact with current technology, almost the inverse of 'lag'—they are pre-existing conditions."
+  }
+]

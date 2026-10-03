@@ -1,0 +1,44 @@
+[
+  {
+    "expert_quote": "Particularly with the... current kind of projects that people are building with large language models and whatever... Their... It's such a general purpose technology. It's very you can't test for all possible things. There's many ways that it can go wrong.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The speaker uses the professional slang of a system having 'many ways that it can go wrong' and being impossible to test exhaustively. This directly maps to the theoretical concept of 'opaque outcomes' where algorithmic decision-making complexities lead to hard-to-explain, unpredictable failure modes."
+  },
+  {
+    "expert_quote": "You know, you really need to understand how, like. Humans behave and like how? How humans interact with things, and if you only understand how people that look and think and feel like you will treat some system, then you probably will miss a lot of like possible ways. That someone might break your system or not use it in. Use it in a strange way...",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "The speaker frames the problem as a high sensitivity to the relevance and representativeness of behavioral data. The metaphor of 'missing possible ways' someone might break the system highlights the inherent unpredictability (variance) stemming from non-representative or incomplete training data, which is core to 'data_dependency'."
+  },
+  {
+    "expert_quote": "So the more different perspectives you have, the better you're able to kind of imagine how things can go wrong, yeah.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The 'human-floor' description of 'imagining how things can go wrong' is a direct, non-academic articulation of mitigating opaque outcomes. It acknowledges the inherent complexity and unpredictability of AI systems, where diverse perspectives are needed to foresee potential failures that are not linearly predictable."
+  },
+  {
+    "expert_quote": "Some colleagues they weren't. They won't say that. Like oh, this project is not gonna get done in time or or something. They will kind of not mention that it's gonna it's delayed a bit and then only three days later we find out actually there was some big problem happening but they didn't communicate it.",
+    "mapped_id": "dynamic_forecast_adjustment",
+    "is_negative_case": false,
+    "rationale": "The scenario describes a sudden, late revelation of a 'big problem' causing a delay. This is a practical, human-level example of the 'need to constantly update baselines,' which is the rubric's indicator for underlying system instability and non-linear progress forcing dynamic forecast adjustments."
+  },
+  {
+    "expert_quote": "I don't know if it's a failure... sometimes there's like, miscommunication about... About like how quickly something would would get done...",
+    "mapped_id": "baseline_erosion",
+    "is_negative_case": false,
+    "rationale": "The mention of recurring 'miscommunication about... how quickly something would get done' is professional slang for the friction of 'baseline_erosion.' It illustrates how unpredictable outcomes (in timelines) force repeated adjustments to forecasts and commitments, eroding a stable project baseline."
+  },
+  {
+    "expert_quote": "I'm not sure about that. I mean, there's maybe a stereotype that they do, but I don't think that's the case, I think... On like technical teams, I think you don't become a software engineer somehow without being trained on, you know, what is data privacy and... I haven't experienced that as being a big, big difference.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": true,
+    "rationale": "This is a clear negative case. The speaker explicitly contradicts the indicator 'data_dependency' as it relates to cultural views impacting data practices. They state that on technical teams, training homogenizes views on data privacy, implying that the model's sensitivity to cultural differences in data relevance/quality is not a significant issue in their experience."
+  },
+  {
+    "expert_quote": "Again, for the same reasons. I have. I haven't experienced that as being a big, big difference.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": true,
+    "rationale": "When asked about differing cultural approaches to model bias and ethics, the speaker states they have not experienced this as a big difference. This negates the indicator 'opaque_outcomes' which suggests algorithmic complexities leading to hard-to-explain results might be interpreted differently across cultures; the expert's experience does not support this facet of the theory."
+  }
+]

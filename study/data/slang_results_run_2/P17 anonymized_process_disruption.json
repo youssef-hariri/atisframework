@@ -1,0 +1,62 @@
+[
+  {
+    "expert_quote": "And the proper story points you get of that official e-mail from that software that, hey, this is your story point... everything offered while I was working with Americans. My current present expenses working with university, but even in university projects we had official Git pipelines... We had defined structure just like how startup work.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": true,
+    "rationale": "Person 2 frames the Indian team's informal, university-project-like workflow as a negative contrast to the structured, tool-driven (Git, story points) process they experienced in US contexts. This directly highlights the distrust of or resistance to formal, data-centric methodologies in favor of a more informal, experiential approach."
+  },
+  {
+    "expert_quote": "You because in Python what? Code base was in Python, Python. What happens? You can practically dump anything into variables. And then you have very unoptimized copy because people are dumb... Like when you want to access a database user. Generally I have the credentials of the database. Sometimes people just don't literal database into variables and then see why the code is slow... so the strict rules were set on coding practices.",
+    "mapped_id": "legacy_inflexibility",
+    "is_negative_case": false,
+    "rationale": "The slang 'dumb' and the metaphor of dumping a database into a variable describe a chaotic, non-standardized data-handling practice. This creates 'very unoptimized' systems that hinder dynamic AI/data needs, exemplifying how legacy (or foundational) coding inflexibility creates friction for integrating robust AI workflows."
+  },
+  {
+    "expert_quote": "But then you debug it and you find out they're at. They're not passing the credentials of the database, they're passing the literally the data database file, the multigigabytes. The variable is about a multiple gigabytes of size...",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "This vivid, 'human-floor' description of a fundamental error reveals a tension between data-centric technical knowledge (credentials as pointers) and an experiential, perhaps 'just get it working' tacit knowledge (passing the whole file). This clash creates inefficiencies and vulnerabilities in the system."
+  },
+  {
+    "expert_quote": "I have to stretch myself for a couple of hours this week. That's it. It's it's better than just like, feeling. Even more pressure from from management than senior team than our team... I'll just bite the bullet and do it.",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "The metaphors 'stretch myself' and 'bite the bullet' describe the project manager's role shifting from pure oversight to absorbing systemic friction and ethical/coordination labor ('pressure from management... senior team') to keep the project moving, a key aspect of role reconfiguration toward system oversight."
+  },
+  {
+    "expert_quote": "The whole point of them... Dev explain me the whole point. We are calling you at... 4:00 AM... the only reason is calling you is the upper management is giving pressurizing us... So technically they were pressuring I think, hey, fix all these issues quickly because we want to deploy it. It has to be pushed with the main production deployment...",
+    "mapped_id": "procedural_nonlinearity",
+    "is_negative_case": false,
+    "rationale": "The pressure to 'fix all these issues quickly' for a production deployment, triggered by a 4 AM call, illustrates the conflict between the iterative, debugging-heavy nature of AI integration (fixing issues as they arise) and the rigid, phase-gated schedule of a traditional 'production deployment.'"
+  },
+  {
+    "expert_quote": "There was this one main team or they were all C# engineers, which they made the entire like... they were the main team directing my team what to do... they were the one who was were digging the trenches and laying the pipes. We are the one just patching the holes.",
+    "mapped_id": "silo_breakdown",
+    "is_negative_case": false,
+    "rationale": "The trench/pipes vs. patching holes metaphor illustrates traditional departmental silos (core C# product team) being forced to interface with and direct a specialized AI/data team ('patching' new AI features). This shows cross-functional needs (AI integration) undermining traditional boundaries and creating a hierarchy of 'main' vs. 'patching' teams."
+  },
+  {
+    "expert_quote": "I never my my the codes are deployed, never have one single model. It is always if there's a machine learning or there's always either an ensemble of models... because we know that there will be bias.",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": false,
+    "rationale": "The professional practice of deploying ensembles 'because we know that there will be bias' explicitly demonstrates the conflict between the desire for predictive automation and the proactive, human-driven need to build in ethical oversight and mitigation for inherent model bias."
+  },
+  {
+    "expert_quote": "I prefer a leadership in a horizontal rather than a vertical way... I prefer to be in the same level when it comes to work... when I was leading the teams, some of the best ideas. Optimizations where. Where came from at that time, the interns.",
+    "mapped_id": "role_transition_hurdles",
+    "is_negative_case": true,
+    "rationale": "Person 2 explicitly advocates for a flat, collaborative structure that values ideas from juniors/interns. This contradicts the expected 'hurdle' of reskilling disrupting hierarchies, instead presenting a model that seeks to avoid such hierarchical friction by design, making it a negative case for that specific management friction."
+  },
+  {
+    "expert_quote": "Back when I was working full time with them... we challenged each other. Let's who who will hack and bring the private keys of the server first? So we actually did little pan testing like as a challenge...",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "This anecdote of treating security penetration as a 'challenge' or game reveals a cultural attitude that trivializes data privacy and security protocols. This deep-seated cultural norm directly creates resistance to implementing the rigorous, process-oriented security standards required for responsible AI/data systems."
+  },
+  {
+    "expert_quote": "This is this kind of trickles to a lot of legacy code as well... their way of practicing code practices and data privacy. Like imagine you are taking hacker and test and somehow you could. Manage cut keys. Internal keys of actual hacker and server just from their coding test window.",
+    "mapped_id": "workflow_brittleness",
+    "is_negative_case": false,
+    "rationale": "The phrase 'trickles to a lot of legacy code' and the example of a security hole in a coding test window show how integrating new AI features (or any new feature) into an existing linear product exposes and exacerbates deep vulnerabilities ('brittleness') in the legacy system's workflow and security posture."
+  }
+]

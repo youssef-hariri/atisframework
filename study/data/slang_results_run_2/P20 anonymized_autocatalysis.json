@@ -1,0 +1,38 @@
+[
+  {
+    "expert_quote": "So basically you will enter your your details and then you will it would be able to pull out the data from the from the database based on the query which you have mentioned and then it will give you based it will give you the the data in...The wordings statement in natural language.",
+    "mapped_id": "tool_proliferation",
+    "is_negative_case": false,
+    "rationale": "The description of implementing a natural language chatbot for database querying exemplifies the rapid deployment and adoption of new AI-powered tools ('tool_proliferation') within an organization's workflow, before systematic, large-scale evaluation of their broader impact is possible."
+  },
+  {
+    "expert_quote": "Most of the companies in today's world highly concerned about their data...most of the companies are not even using LLM...just because of this. They want to make sure that...they want to run their own systems...because they might not show that...their data could be stealed.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "The quote highlights a primary organizational focus shifting from the economic benefit of using advanced AI (LLMs) to concerns over data security, privacy, and ethical control. This matches the shift from pure technical/economic drivers to human-centric factors like trust and security due to the velocity of AI capabilities."
+  },
+  {
+    "expert_quote": "You gonna have to have a very good communication...you gonna have to have a very good English...Only then you would be able to convert convert a message.",
+    "mapped_id": "skill_obsolescence_pace",
+    "is_negative_case": false,
+    "rationale": "The emphasis on the necessity of 'very good English' as a non-negotiable skill for interacting with foreign clients in an AI/data context points to a rapidly evolving skill set. It implies that traditional technical competencies alone are insufficient, illustrating the pressure of skill obsolescence and the continuous demand for new, complementary human capabilities."
+  },
+  {
+    "expert_quote": "In today's world, OK, in 21st century, people are really, really to open minded...they are very mindful...people were narrow minded...But but in today time. OK, things have changed drastically...It's not like that [that people fight over culture].",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": true,
+    "rationale": "Person 2 explicitly contradicts the notion of a 'clash' due to cultural or temporal misalignment. They argue that modern professional environments have evolved to minimize such frictions, presenting a negative case against the theoretical indicator of 'temporal_misalignment' caused by the fast pace of AI-driven change."
+  },
+  {
+    "expert_quote": "It depends not on the culture as well as based on the company you're working with or the client you're working with and the domain...if someone is working for a client of a healthcare, OK...the IT compliance data won't be as important. Won't be as important as the healthcare would be.",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": false,
+    "rationale": "The speaker identifies that data privacy and ethical concerns are not uniformly applied but are domain-specific (e.g., healthcare vs. IT). This reflects a landscape where formal, universal governance frameworks ('regulatory_lag') have not yet caught up, leaving organizations to develop ad-hoc, context-dependent ethical and security postures based on perceived risk."
+  },
+  {
+    "expert_quote": "You will gotta learn a lot of lot of skills. OK, lot of things which you may not learn. In your surrounding...you will see a lot of learning, OK, a lot of learning curve if you are having a communication with having. Foreign friends.",
+    "mapped_id": "continuous_training_demand",
+    "is_negative_case": false,
+    "rationale": "The description of a constant, steep 'learning curve' and the need to acquire new skills from diverse international interactions mirrors the management friction of 'continuous_training_demand.' It is framed not as a formal training program but as an ongoing, modular necessity to keep pace with new ways of working and thinking in a global, tech-driven environment."
+  }
+]

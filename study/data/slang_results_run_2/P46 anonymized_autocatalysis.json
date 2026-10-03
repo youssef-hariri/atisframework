@@ -1,0 +1,50 @@
+[
+  {
+    "expert_quote": "The only difference that you should see here is... you'll have to be updated constantly. Right. You don't know what engine in the next two months. So before deep seek was not there and then now last month I think Open algorithm has been coming in for a humanoid robot also, right?... you'll have to be really thorough and constantly learn about what's happening in the market.",
+    "mapped_id": "skill_obsolescence_pace",
+    "is_negative_case": false,
+    "rationale": "The description of needing 'constant' updates, not knowing what will emerge in 'two months', and listing rapid tool releases (DeepSeek, humanoid robot algos) directly matches the indicator's description of competencies becoming outdated faster than they can be replaced."
+  },
+  {
+    "expert_quote": "You'll have to pick up means last year nobody knew... you'll have to be really aware because your field is like that and it's constantly evolving.",
+    "mapped_id": "gen_AI_acceleration",
+    "is_negative_case": false,
+    "rationale": "The statement that last year a tool/process 'nobody knew' and the emphasis on the field 'constantly evolving' captures the generative AI-driven compounding rate of change in the innovation process itself."
+  },
+  {
+    "expert_quote": "Every time. Especially all the tech companies, they'll have one booth there... Every month or every two months, there's always one conference happening... So you'll have to go show your faces... you'll eventually end up networking and making connections and learning what is happening in the industry. If you don't keep up, then this industry is like that, right?",
+    "mapped_id": "tool_proliferation",
+    "is_negative_case": false,
+    "rationale": "The depiction of a relentless, near-monthly cycle of conferences and showcases for new AI tools/frameworks mirrors the indicator's focus on new releases outpacing systematic evaluation or integration."
+  },
+  {
+    "expert_quote": "Nobody cares about the technology. OK, to be honest. The customer will be only concerned if their application is working or not. He doesn't care... They really don't care if underneath it is being powered by AI or Gen. AI. Nothing. They just want the application working. That's it. So even while delivering projects, it's really to do with the people, right?",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "This quote signals a shift in focus from the technical novelty ('AI or Gen AI') to user acceptance and practical outcomes ('application working'), reflecting the move from pure economic/technical benefits to human-centric concerns due to the underlying technical velocity becoming a baseline expectation."
+  },
+  {
+    "expert_quote": "after a while. Nobody cares about the technology... They just want the application working.",
+    "mapped_id": "judgment_substitution",
+    "is_negative_case": false,
+    "rationale": "The phrase 'nobody cares about the technology' implies that AI's predictive/operational capability has become so reliable and embedded that human judgment is reconfigured towards overseeing outcomes and integration, rather than questioning the core AI capability itself."
+  },
+  {
+    "expert_quote": "I haven't seen any barriers per SE, because like I told you, everybody's worked in a multicultural environment... It's nothing new... It's very nowadays. I think it's very global like that... I don't even have any comparison... I actually have no choice. I am put into such multicultural right? I just have to go on like this.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": true,
+    "rationale": "This is a negative case. Person 2 explicitly states that the fast-paced, 'global' multicultural environment is the normalized baseline ('no choice'), contradicting the rubric's concept of a 'clash' between fast AI time and slow organizational time. For this speaker, the fast pace is the organizational reality, not a point of friction."
+  },
+  {
+    "expert_quote": "you have to work with cross functional teams all the time because I have to to submit a bid. I have to work with solutions, team commercials, team. I have to work with delivery team. I have to work with legal... I have to work with a lot of teams...",
+    "mapped_id": "integration_debt",
+    "is_negative_case": false,
+    "rationale": "The repeated 'I have to work with' across disparate functions (solutions, commercial, delivery, legal) highlights the ongoing managerial friction of coordinating and integrating diverse, potentially legacy or incompatible components (teams, processes, contracts) within a fast-moving project cycle."
+  },
+  {
+    "expert_quote": "this extra special quality. Has to be with all the AI professionals, be it regardless of their nationality. I think that is the one... you'll have to be really aware because your field is like that and it's constantly evolving.",
+    "mapped_id": "continuous_training_demand",
+    "is_negative_case": false,
+    "rationale": "Framing constant awareness and learning as an 'extra special quality' required for 'all AI professionals' directly corresponds to the management friction of needing non-stop, inherent upskilling to keep pace with the field's evolution."
+  }
+]

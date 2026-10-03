@@ -1,0 +1,68 @@
+[
+  {
+    "expert_quote": "So, you know, I think, you know, Americans have a way of sort of communicating. They want to be more polite, you know, they want to sort of have a smoother working relationship. They don't, you know, tell you things negatively in a personal working relationship, right? But, you know, whereas when you take the Asian economies, it's like the way of sort of interacting is different. Where in like, you know, people will tell you things the way they are, right? They don't get that they don't sort of hold back.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "The speaker describes cultural communication norms ('polite' vs. 'direct') as a source of friction, indicating a shift in focus from pure technical problem-solving to managing human interaction and acceptance challenges."
+  },
+  {
+    "expert_quote": "The other thing is like it's also to do with some kind of politics as well. I mean like you see that people will want to sort of take ownership of particular domains and you know they don't want to relinquish that sort of ownership and it creates bottlenecks along the way... They want to sort of think of how they want to solve the problem and, you know, pursue it in that particular way.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "Describes the 'politics' of territorial ownership creating bottlenecks, which manifests as a clash between an individual's preferred method/timeline ('their particular way') and the needs of the team or project speed."
+  },
+  {
+    "expert_quote": "I think culture is just one aspect of the problem... The other thing is also to do with the company's sort of approach in terms of resources. If you have a small team, then I feel like people function in a more agile way, where in like, there is less time focused on planning and more time spent on getting to the solution... Because you don't have the time and the resources to sort of sit and figure out what could be a potential solution.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "Contrasts 'agile' (fast, iterative) problem-solving under resource constraints with slower, formal planning cycles. This is a practical description of the tension between fast-paced technical work and slower organizational processes."
+  },
+  {
+    "expert_quote": "And related to privacy and ethics, did you feel that cultural background makes a difference? It does actually because I feel like people here are more paranoid... I feel like back in countries where there is a communist regime, I don't think that's an option. You don't have the luxury of saying, 'Hey, this is my data, you're not allowed to steal it.' Or if you come from a very big economy like India, I think people are less worried about who is using my information and more worried about survival...",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": false,
+    "rationale": "Describes divergent ethical and privacy standards rooted in economic and political context, not a unified framework. This exemplifies how governance/ethical norms emerge inconsistently and lag behind the universal deployment of data/AI technologies."
+  },
+  {
+    "expert_quote": "you know, people who come from economies which are pretty stable or like you know, where people are more self-sufficient, they have the luxury of the time to sort of ponder on where it is that, you know, the information is being used, how to democratize the use of the information, how to incentivize the use of the information and you know how can you know the wrongdoers be held accountable...",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "Frames ethical considerations (democratization, accountability) as a 'luxury' enabled by stability, highlighting a shift in focus from utility to ethics, driven by the context of the user/team member."
+  },
+  {
+    "expert_quote": "So, on the other hand, yes, there are cases where, you know, if a particular deadline was in mind and there was more conflict, you know, that creates problems wherein like, you know, you don't have a choice, right? That there is more conflict and it is pushing your deadlines and, you know, you end up sacrificing certain features which you had promised, but, you know, you tend to increase is your time to complete a particular project at hand.",
+    "mapped_id": "timeline_compression",
+    "is_negative_case": false,
+    "rationale": "Directly describes conflict leading to missed deadlines and feature sacrifice ('scope creep' in reverse), which is the core consequence of timeline compression caused by human frictions in a fast-paced project."
+  },
+  {
+    "expert_quote": "One thing that can be done to sort of reduce, you know, the impact of the problem, problem that will be faced in the eventuality is doing some risk management. So you think about what are the potential consequences and then go to the solution at hand at the end and then sort of work backwards from there. So assuming that you have a deadline, just pull back that deadline by a week or two and then start from there because you just assume that things will not work or there will be delays or there are dependencies.",
+    "mapped_id": "timeline_compression",
+    "is_negative_case": false,
+    "rationale": "Describes a reactive management strategy ('pull back that deadline') to buffer against inevitable delays and dependencies, which is a direct response to the friction of compressed and unreliable timelines."
+  },
+  {
+    "expert_quote": "The other way is also to sort of create you know intermediate milestones or intermediate checkpoints wherein like you ask people to raise the red flags immediately as soon as they see problems so that way you know either more resources can be allocated or you know you know the whatever the potential client can be informed...",
+    "mapped_id": "continuous_training_demand",
+    "is_negative_case": false,
+    "rationale": "Advocates for constant vigilance ('red flags immediately') and reallocation, which is a procedural response akin to modular, just-in-time adjustments needed to keep pace with emerging project issues and shifting requirements."
+  },
+  {
+    "expert_quote": "Where in like over communicate, right? don't assume anything, right? Don't assume that people would understand what you're talking about. Simplify the way you're communicating, right? Make it crystal clear on what is that you're asking and double check if people understood what you're trying to ask, right?",
+    "mapped_id": "continuous_training_demand",
+    "is_negative_case": false,
+    "rationale": "The prescription for 'over communication' and simplifying messages reflects the ongoing effort required to align understanding in a complex, diverse environment, mirroring the need for continuous alignment in a rapidly changing technical landscape."
+  },
+  {
+    "expert_quote": "Make it crystal clear on what is that you're asking and double check if people understood what you're trying to ask, right? That is one thing. So the other thing is like make sure everybody is trying to work on the same problem. Get an understanding of where people are heading towards, where people are moving and get more insight into what is it that they consider as a solution...",
+    "mapped_id": "judgment_substitution",
+    "is_negative_case": true,
+    "rationale": "This emphasizes reinforcing and aligning human judgment and understanding ('make sure everybody...same problem', 'get more insight'), directly countering the rubric's definition of human judgment being *reconfigured* or *substituted* by AI. The advice is to bolster, not replace, collective human sense-making."
+  },
+  {
+    "expert_quote": "I think it depends how you sort of characterize or define what is a failure or a, you know, at times things not working can be considered as a failure. At times, you know, not meeting a particular... deadline or particular sort of... benchmark, right? If you're not meeting that specific benchmark, then that in itself would be considered a failure.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": true,
+    "rationale": "The speaker contextualizes and relativizes the concept of failure (missing deadlines/benchmarks), suggesting a flexible, negotiated understanding of project timelines. This contradicts the rigid 'clash' implied by 'temporal_misalignment,' showing an adaptive, not purely conflictual, relationship with time."
+  }
+]

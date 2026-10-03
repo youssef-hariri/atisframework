@@ -1,0 +1,86 @@
+[
+  {
+    "expert_quote": "It's important to to know how to explain all of that things, because we we, we this is not useful if we are like so technical.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The phrase 'not useful if we are like so technical' highlights the friction caused by the inherent complexity (opacity) of algorithmic work, necessitating translation for stakeholders who may not understand the non-deterministic, statistical nature of the outputs."
+  },
+  {
+    "expert_quote": "It's important to to know how to explain all of that things, because we we, we this is not useful if we are like so technical.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": false,
+    "rationale": "The need for non-technical explanation underscores the challenge of assigning clear responsibility for decisions derived from complex, opaque AI systems, as the rationale must be translated out of its native technical domain."
+  },
+  {
+    "expert_quote": "We need to put everything and say, OK, we are going to do this and try to explain in the most, umm not easier, but most friendlier way to the customer...",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The emphasis on a 'friendlier way' to explain signals that standard technical communication fails due to the complex, non-intuitive nature (opacity) of probabilistic model outputs and their implications."
+  },
+  {
+    "expert_quote": "This is like the Mexican people at once to know everything about like they they want. If they don't understand something. They want to know it...",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "The client's demand to 'know everything' reflects a heightened sensitivity to the quality and provenance of the historical data upon which probabilistic models depend, stemming from an awareness of data-dependent variance in outcomes."
+  },
+  {
+    "expert_quote": "...just the US people is not like that. It's like give me the the most simpler definition and I will take some decisions about that... they don't need some the the some definitions about what we are doing exactly.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The contrasting expectation for a 'simpler definition' implies an acceptance of or need to manage the inherent opacity of the AI system's inner workings, focusing on actionable output rather than probabilistic rationale."
+  },
+  {
+    "expert_quote": "And also I work on some other like projects in in my industry experience. Just like, uh, some financial ones and and like recommendation systems also, yeah.",
+    "mapped_id": "model_drift",
+    "is_negative_case": false,
+    "rationale": "Mentioning 'financial' and 'recommendation systems' invokes domains where model performance is highly sensitive to changing user behavior and market patterns, a core context for performance decay over time."
+  },
+  {
+    "expert_quote": "Yeah, I I found I find I found some some failures and also from the Mexican people they they are they want to know everything but when they give you some definitions umm they are not they are not giving you complete definitions.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "The failure linked to receiving incomplete definitions from the client directly ties to the 'data dependency' indicator. Poor quality or incomplete input specifications (a form of requirement data) lead to flawed model development and unreliable outputs."
+  },
+  {
+    "expert_quote": "I think that they need to to be very precise or about the definitions.",
+    "mapped_id": "lack_of_reproducibility",
+    "is_negative_case": false,
+    "rationale": "The call for 'very precise' definitions is a practical mitigation against the inability to consistently replicate results, as ambiguous requirements lead to varying interpretations and implementations by the data science team."
+  },
+  {
+    "expert_quote": "Umm, they put everything very specific on on the on their documents.",
+    "mapped_id": "lack_of_reproducibility",
+    "is_negative_case": false,
+    "rationale": "Praising clients who document 'everything very specific' highlights a best-practice response to the risk of non-reproducible work, ensuring that the process and requirements are traceable and repeatable."
+  },
+  {
+    "expert_quote": "...here we are not able to see the database data. We just have the taste test, the test data that are like an image of the other, but it's like this is not like the same data...",
+    "mapped_id": "lack_of_reproducibility",
+    "is_negative_case": false,
+    "rationale": "Working only with synthetic or anonymized test data ('an image of the other') fundamentally challenges the ability to reproduce results obtained on the original, sensitive production data, creating a reproducibility gap."
+  },
+  {
+    "expert_quote": "If we are training a model, a big model, we are not going to be able to try to train the other ones if we have just like like a a machine. So yeah, I think that we need to prioritize.",
+    "mapped_id": "non_linear_estimation",
+    "is_negative_case": false,
+    "rationale": "The statement about resource contention for training 'a big model' illustrates non-linear estimation. The cost (time, compute) of one model task is not independent; it blocks other tasks, creating complex, non-linear trade-offs in project scheduling and resource allocation."
+  },
+  {
+    "expert_quote": "I don't prepare previously for that. This is like yes, just just we need to be like neutral.",
+    "mapped_id": "baseline_erosion",
+    "is_negative_case": true,
+    "rationale": "This is a negative case for 'baseline_erosion'. The expert states they do *not* engage in proactive, culturally-specific preparation or adjustment of their working approach ('I don't prepare'), suggesting that in their experience, stochastic uncertainty does not *force* such repeated baseline adjustments at the individual communication level."
+  },
+  {
+    "expert_quote": "I think that most on the planning because... the team needs to have like a very good environment and the environment includes the communication includes how people interact...",
+    "mapped_id": "baseline_erosion",
+    "is_negative_case": false,
+    "rationale": "Identifying the planning phase as critical for communication and interaction hints at the foundational work needed to establish a shared baseline that can withstand the interpretive variances introduced by a multicultural team working on unpredictable systems."
+  },
+  {
+    "expert_quote": "I think that formalizing things is something important because, umm, we are not going to be able to to escale the project or scale what we are trying to to do.",
+    "mapped_id": "baseline_erosion",
+    "is_negative_case": false,
+    "rationale": "The drive to 'formalize things' to enable scaling is a direct response to the risk of baseline erosion. Formal structures (frameworks, documentation) are instituted to create stability and repeatability in the face of probabilistic variance and diverse team interpretations."
+  }
+]

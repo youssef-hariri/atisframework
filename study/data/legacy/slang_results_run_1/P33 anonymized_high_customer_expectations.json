@@ -1,0 +1,63 @@
+[
+  {
+    "indicator_name": "magic_box_perception",
+    "negative_case_evidence": "Person 2 explicitly counters the 'magic box' narrative by emphasizing AI's fallibility and the necessity of diverse perspectives to anticipate failure. They state: 'Particularly with the... current kind of projects... with large language models... It's such a general purpose technology. It's very you can't test for all possible things. There's many ways that it can go wrong.' This frames AI not as an infallible solution, but as a complex system requiring extensive, diverse human oversight to manage its inherent risks.",
+    "supporting_quotes": [
+      "the more different perspectives you have, the better you're able to kind of imagine how things can go wrong"
+    ],
+    "metaphors_identified": [
+      {
+        "metaphor": "AI as a General-Purpose Technology with Blind Spots",
+        "interpretation": "Implies AI is a powerful but non-specialized tool with unpredictable failure modes, contrasting with the 'magic box' idea of targeted, flawless performance."
+      }
+    ]
+  },
+  {
+    "indicator_name": "unfairness_barriers",
+    "negative_case_evidence": "When asked directly about differing views on model bias and AI ethics, Person 2 does not describe them as significant points of contention or barriers within their team. They suggest a shared technical baseline overrides potential cultural differences in this domain: 'for the same reasons... I haven't experienced that as being a big, big difference... I think maybe for like technical projects, that's less of... an issue.' This indicates that within their technical team context, concerns about unfairness are managed through professional norms rather than being a source of cultural clash or project rejection.",
+    "supporting_quotes": [
+      "I haven't experienced that as being a big, big difference",
+      "for like technical projects, that's less of... an issue"
+    ],
+    "metaphors_identified": []
+  },
+  {
+    "indicator_name": "anthropomorphic_projection",
+    "negative_case_evidence": "Person 2's discussion of AI is consistently systemic and technical, not anthropomorphic. They focus on data, user interaction patterns, and system design. They state the value of diversity is to understand 'how humans behave and... interact with things,' positioning AI as a system that must be designed for human variability, not as a human-like agent itself. The need is framed as understanding the user, not expecting human-like reasoning from the AI.",
+    "supporting_quotes": [
+      "you really need to understand how, like. Humans behave and like how? How humans interact with things"
+    ],
+    "metaphors_identified": [
+      {
+        "metaphor": "AI System as a Mirror for Human Behavior",
+        "interpretation": "Suggests the value of AI projects lies in their reflection and interaction with diverse human behaviors, not in possessing human-like internal qualities."
+      }
+    ]
+  },
+  {
+    "indicator_name": "trust_understanding_gap",
+    "negative_case_evidence": "Person 2 describes a proactive, process-oriented approach to building shared understanding that preempts a trust gap. They emphasize creating 'a shared point' through documentation and conversation, and cultivating a culture where feedback is 'just information.' This structured transparency is designed to align team understanding and maintain trust, rather than reacting to a gap caused by opaque AI behavior. The challenge they note is with external users providing insufficient debug information, which is a communication issue, not a trust erosion due to AI's opacity.",
+    "supporting_quotes": [
+      "there needs to be a a shared a shared point where these differences are... visualized or made made clear",
+      "we value direct feedback... it's it's just it's just like neutral information"
+    ],
+    "metaphors_identified": [
+      {
+        "metaphor": "Holding an Idea in Their Hands",
+        "interpretation": "Evokes a tangible, collaborative process of examining a concept ('the idea') from all angles to achieve a common, manipulable understanding, building trust through shared exploration."
+      },
+      {
+        "metaphor": "The Pulse",
+        "interpretation": "Refers to anonymous weekly surveys. Conceptualizes team morale and health as a vital sign that can be monitored and addressed, institutionalizing trust and feedback mechanisms."
+      }
+    ]
+  },
+  {
+    "indicator_name": "management_frictions.feedback_dissonance",
+    "negative_case_evidence": "The management friction described involves user communication, not user disillusionment with AI's capabilities. Person 2 notes difficulty in 'communicat[ing] how much information we need' from users to debug problems. This is a classic support channel issue, not users filing 'bug reports based on unrealistic benchmarks' about AI performance. The team's internal feedback system is portrayed as effective and culturally integrated, avoiding the re-education labor mentioned in the rubric.",
+    "supporting_quotes": [
+      "sometimes it's difficult to... communicate how much information we need and to have that conversation go smoothly"
+    ],
+    "metaphors_identified": []
+  }
+]

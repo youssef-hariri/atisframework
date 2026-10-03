@@ -1,0 +1,38 @@
+[
+  {
+    "rubric_indicator": "integration_friction",
+    "evidence": "Explains requirement-gathering necessitates a technical translator who understands local language and culture, indicating a procedural mismatch between the fluid, data-driven needs of AI and traditional, linear requirement documentation.",
+    "speaker_metaphor": "Bridging the Expectation Gap - 'We have to keep somebody who understands the local language... and also is technical.'",
+    "negative_case": "The presence of team members who can bridge the gap (technical translators) is presented as a solution, not a friction point. This suggests the friction is recognized and actively managed, not inherently catastrophic."
+  },
+  {
+    "rubric_indicator": "knowledge_clash",
+    "evidence": "Contrasts a previous organization's 'block all access' data security culture with the more nuanced approach needed for functional AI (balancing access with safeguards). This highlights tension between a restrictive, rule-based (tacit) security mindset and a data-needs-driven AI workflow.",
+    "speaker_metaphor": "Security as a Wall vs. Security as a Filter - '...the culture of data security was that you basically block all the access on data... [vs.] I will also... allow... access to data as and when needed.'",
+    "negative_case": "Person 2 frames the more open, nuanced approach as superior and 'capable,' implying the 'block all' culture is a limitation to be overcome, not a valid alternative viewpoint."
+  },
+  {
+    "rubric_indicator": "ethical_automation_tension",
+    "evidence": "Acknowledges that in-house models are intentionally 'biased' towards local student data for relevance, but draws a hard line against bias in high-stakes areas like admissions and fairness. This shows a conscious, context-dependent tension between automated personalization and ethical, human-centric fairness principles.",
+    "speaker_metaphor": "The Good Bias vs. The Bad Bias - '...we want our AI to be biased actually... [But] when it comes to... fairness... we do not want our AI to be biased.'",
+    "negative_case": "The participant does not see this as an unresolved tension but as a manageable design choice, suggesting clear (though culturally informed) boundaries can be set."
+  },
+  {
+    "rubric_indicator": "cultural_resistance",
+    "evidence": "Describes how cultural norms around hierarchy and vocalizing dissent create project 'roadblocks.' Team members from certain cultures may withhold critical technical feasibility concerns to avoid contradiction, disrupting the iterative, transparent communication needed for AI projects.",
+    "speaker_metaphor": "The Silent Roadblock - '...they would just keep something to them which they could have spoken earlier... later on... we come to know that... this would have not been feasible since day one.'",
+    "negative_case": "Person 2 frames this as a leadership challenge to 'foster an environment,' not an immutable cultural barrier. Success is achieved when vocal cultures 'put their point forward,' showing resistance can be mitigated."
+  },
+  {
+    "rubric_indicator": "role_reconfiguration",
+    "evidence": "Highlights the leader's/project manager's duty to create a psychologically safe environment for open feedback and to retrospectively analyze communication failures ('take that person to a meeting room and then ask questions'). This shifts the manager's role from pure taskmaster to facilitator of hybrid human-AI dialogue and ethical oversight of process.",
+    "speaker_metaphor": "Leader as Culture Gardener - '...it is my job to foster an environment where people can come to me... and just say that it is not possible.'",
+    "negative_case": null
+  },
+  {
+    "rubric_indicator": "silo_breakdown",
+    "evidence": "The need for 'technical translators' who sit between user departments (teachers, curriculum designers) and the technology team inherently breaks down traditional departmental silos. It creates a hybrid role demanding cross-functional understanding of both pedagogical needs and technical AI capabilities.",
+    "speaker_metaphor": "The Human API - The role of the technical translator acts as an interface ('API') between non-technical user domains and the technical AI development domain.",
+    "negative_case": null
+  }
+]

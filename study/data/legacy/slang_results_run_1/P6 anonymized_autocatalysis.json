@@ -1,0 +1,47 @@
+[
+  {
+    "excerpt": "IT and machine learning, AI, mathematics, science is everything is a very, very, very dynamic field where there is a lots of new things coming. Every month, every week there are lots of research.",
+    "rubric_concept": "tool_proliferation",
+    "explanation": "Describes the overwhelming pace of new research and frameworks in AI and related fields, making systematic evaluation and integration a challenge."
+  },
+  {
+    "excerpt": "So best thing is the person should have a understanding of things, attitude that we can check this person that the person has a patient has ability to grasp thing.",
+    "rubric_concept": "skill_obsolescence_pace",
+    "explanation": "Implies that the primary requirement is a foundational ability to learn quickly (patience, grasp) because specific technical competencies become outdated rapidly."
+  },
+  {
+    "excerpt": "The person should have understanding of almost related all domains on which the project is going to work... And ability and industry interest to learn new things consistently.",
+    "rubric_concept": "continuous_training_demand",
+    "explanation": "Highlights the non-stop need for broad, modular learning to stay relevant across multiple, evolving AI domains and project requirements."
+  },
+  {
+    "excerpt": "There are some miscommunication or there are some misjudgment when Scrum Monster don't have enough knowledge about technology and he's tried to ask you for task he or she can't judge because they those people don't have understanding of what is the actual meaning of task and where can we have trouble?",
+    "rubric_concept": "judgment_substitution",
+    "explanation": "Illustrates a friction point where non-technical managers (e.g., Scrum Masters) lack the context to make accurate project judgments, hinting at a potential future reconfiguration of such roles as AI systems improve predictive and managerial capabilities."
+  },
+  {
+    "excerpt": "I didn't have any failure in that way actually... The because I what task I'll take I I dedicated it and I thoroughly go and when I assigned the task someone I also understand what is the capability and how to guide that person.",
+    "rubric_concept": "Negative Case for timeline_compression",
+    "explanation": "Person 2 reports no direct experience of project failure or mid-cycle re-evaluation due to rapid tool obsolescence. They attribute success to thorough individual dedication and careful task assignment/guidance, suggesting a personal or team-level mitigation strategy that has so far buffered against this specific friction."
+  },
+  {
+    "excerpt": "Experience is not 100% required if you are quite capable of handling your yourself. You did some projects... If you have a patient and you are belongs to any background, but you have passion. You develop something new, you have an idea you can deliver best and that is the only experience actually... But in conventional way, if you consider average people, people are from 5 to 9 years are considered mature.",
+    "rubric_concept": "Metaphor: 'Passion as the New Experience'",
+    "explanation": "Uses a metaphor contrasting traditional, time-bound 'experience' (5-9 years) with 'passion' and the ability to 'develop something new' as the true currency of capability. This reflects the autocatalytic environment where the rate of change (skill_obsolescence_pace) can devalue traditional experience metrics, placing a premium on innate curiosity and rapid creation."
+  },
+  {
+    "excerpt": "I don't think any cultural bias is there. If person is passionate. If person is thinking with respect to or mature enough in technology, I don't think any issue is there.",
+    "rubric_concept": "Negative Case for socio_technical_shift",
+    "explanation": "Person 2 downplays the rising socio-technical challenges (like cultural bias or human acceptance) in favor of a purely technocratic view. They assert that maturity and passion in technology supersede cultural or ethical issues, which contrasts with the rubric's indicator that technical velocity is forcing a greater focus on human factors."
+  },
+  {
+    "excerpt": "Every IT domain is a dynamic where you have two constraints only learn new things, so it required that person should have understanding of almost... And the deep understanding and deep knowledge of the role which the person is going to do in team.",
+    "rubric_concept": "skill_obsolescence_pace",
+    "explanation": "Explicitly frames the AI/IT field as having a core constraint: the imperative to constantly learn. This directly addresses the pace at which competencies must be updated to remain effective."
+  },
+  {
+    "excerpt": "it's a dynamic thing, right? Every IT domain is a dynamic where you have two constraints only learn new things",
+    "rubric_concept": "Metaphor: 'Dynamic Field as a Learning Constraint'",
+    "explanation": "Metaphorically describes the AI/IT domain not just as changing, but as imposing a 'constraint'—a fundamental rule that the only viable response is continuous learning. This captures the coercive, pace-setting nature of autocatalysis on human behavior."
+  }
+]

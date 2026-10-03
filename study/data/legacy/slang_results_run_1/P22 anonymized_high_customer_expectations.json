@@ -1,0 +1,88 @@
+[
+  {
+    "speaker": "Person 2",
+    "relevant_segment": "So about that team successfully, like I I think 10 or 11, I got one I as a captain lead, and because like from as I am a grandmaster as well. So I know that the big kind of AI. And mostly when I saw people in the hackathons, some some of them are technical, some of no technical like they are just they have just fuss atathhone and maybe just doing for fun.",
+    "analysis": {
+      "metaphor_mapping": [
+        {
+          "metaphor": "The 'Grandmaster'",
+          "interpretation": "Person 2 positions themselves as an experienced expert ('grandmaster') in AI and hackathons. This creates an implicit hierarchy and sets a benchmark for what 'knowing AI' entails, potentially contributing to a perception gap where others may not meet this expert standard.",
+          "rubric_link": "magic_box_perception (indirectly): The self-identification as an expert who 'knows the big kind of AI' contrasts with the portrayal of others as merely 'for fun', reinforcing a divide between perceived true understanding and superficial engagement."
+        },
+        {
+          "metaphor": "AI as a 'Big Kind' of Thing",
+          "interpretation": "Describing AI as the 'big kind of AI' frames it as a significant, perhaps monolithic or complex domain. This language can elevate AI's perceived stature, aligning with idealized or overwhelming expectations.",
+          "rubric_link": "magic_box_perception: Contributes to viewing AI as a singular, formidable entity rather than a set of tools with specific, limited applications."
+        }
+      ],
+      "negative_cases": [
+        {
+          "description": "Person 2 acknowledges that not everyone in a hackathon has technical skills or serious intent; some participate 'just for fun'. This is a negative case against the indicator 'anthropomorphic_projection' or 'utility_mismatch' because it shows a realistic, grounded understanding that not all stakeholders have high, project-aligned expectations of AI or the event itself.",
+          "rubric_link": "Contradicts the assumption that all users/stakeholders hold uniformly high, unrealistic expectations. Some engagement is casual."
+        }
+      ]
+    }
+  },
+  {
+    "speaker": "Person 2",
+    "relevant_segment": "Not really, like mostly the perspective that like we have to do the encryption description for the passwords and have to save the database. I not really I have seen this difference... But according to the ethics, uh, this is something like, uh, we can say that the spamming thing some people I have saw like uh I use this quotation for them actually fake it until you make it... Like in there, they look like they are very good. So when I am talking with them they go, they don't know anything like there's a different like this is the thing that I have seen as well.",
+    "analysis": {
+      "metaphor_mapping": [
+        {
+          "metaphor": "Ethics as 'Spamming' and 'Fake it until you make it'",
+          "interpretation": "Person 2 reduces a complex ethical consideration (potentially around data use or model claims) to 'spamming' and links it to a culture of deception ('fake it until you make it'). This metaphor simplifies ethics into a problem of dishonest presentation rather than a deeper issue of design, bias, or fairness.",
+          "rubric_link": "unfairness_barriers, explainability_deficit: Points to a superficial engagement with ethics, where the concern is about false appearances ('look very good') rather than substantive fairness or transparency, which can lead to rejection or distrust later."
+        },
+        {
+          "metaphor": "Knowledge as a Revealed Truth",
+          "interpretation": "The phrase 'they don't know anything' upon deeper interaction suggests an expectation that true capability should be immediately apparent and match the initial presentation. There is a gap between the marketed or perceived skill ('look very good') and the revealed reality.",
+          "rubric_link": "dreams_vs_reality, trust_understanding_gap: Highlights the disillusionment when the 'magic box' of a person's or team's claimed AI expertise is opened and found lacking."
+        }
+      ],
+      "negative_cases": [
+        {
+          "description": "Person 2 states they have not seen major differences in perspectives on data privacy ('I not really I have seen this difference'). This is a significant negative case against several indicators (e.g., paradoxical_expectations, utility_mismatch) as it suggests that, in this context, a potentially high-expectation area like data privacy did not generate culturally divergent or conflict-driven high expectations.",
+          "rubric_link": "Suggests that high or mismatched expectations are not universally present across all AI-adjacent topics (like data security) in multicultural teams."
+        }
+      ]
+    }
+  },
+  {
+    "speaker": "Person 2",
+    "relevant_segment": "Like, for example, uh if we talk about this uh this yesterday's uh Valentine or a young is it's a different thing. Uh if I'm making something, for example, if I'm making project on the couple kind of things. So if I try to my target audience will be US countries, not Asian countries. So there is the thing like the latest thing will happen and also the there is some educations and these kind of things as well. There it's different and it is different as well. Like their perspective is different, like here, mostly, we saw the arrs, but node in the countries and you know that better.",
+    "analysis": {
+      "metaphor_mapping": [
+        {
+          "metaphor": "Culture as a 'Target Audience' Filter",
+          "interpretation": "Person 2 uses the concept of a 'target audience' to navigate cultural differences. This is a pragmatic, product-development metaphor that treats cultural norms (e.g., Valentine's Day) as market segments. It implies that AI solutions are not universal 'magic boxes' but must be deliberately tailored, acknowledging that utility is culturally dependent.",
+          "rubric_link": "utility_mismatch, paradoxical_expectations: Directly addresses the risk of mismatch by advocating for cultural segmentation, showing an awareness that an AI system's 'utility' is not intrinsic but context-dependent."
+        }
+      ],
+      "negative_cases": []
+    }
+  },
+  {
+    "speaker": "Person 2",
+    "relevant_segment": "Uh, like, I saw that uh in some of like objects, like if they are from like different countries and I have a different culture, their level of understanding is different actually. I think like, uh like sometimes they are known technical as well, like they have a not much technical issue, uh knowledge, but sometimes I saw that they're like, if I am explaining this to my Pakani friend, uh their their level of understanding is different. Maybe they understand in easy way in just one or two minutes, but I have explained again to them in a in a like more explan where you can say that try to explain in a more explained way so they can understand... But after that I saw that they did not completed that task and did not complete it. Maybe I maybe made a complex for them on the project like I was thinking like maybe I made complex for them to you Mostly like this happened, mostly as aain, then I try to replace myself, I okay, I will do.",
+    "analysis": {
+      "metaphor_mapping": [
+        {
+          "metaphor": "Understanding as a 'Level'",
+          "interpretation": "Framing comprehension as a 'level' (e.g., 'level of understanding is different') creates a hierarchical and potentially deficit-based view. The solution is to 'explain in a more explained way', suggesting a linear model where more explanation bridges the gap. This overlooks non-linear, collaborative, or fundamentally different ways of knowing.",
+          "rubric_link": "explainability_deficit, anthropomorphic_projection: Reflects frustration with communication gaps and an implicit expectation that with sufficient 'explanation', understanding should converge uniformly (like programming a human), which is an anthropomorphic and often unrealistic expectation."
+        },
+        {
+          "metaphor": "Task Complexity as a Personal Fault ('I made complex')",
+          "interpretation": "Person 2 internalizes the failure of task completion as their own fault for making the project 'complex'. This metaphor places the burden of successful translation and simplification on the explainer/expert, mirroring the pressure on AI developers to make opaque systems intelligible to all users.",
+          "rubric_link": "feedback_dissonance, trust_erosion: Aligns with management friction where the expert (or AI system) must absorb the labor of re-education and simplification to prevent disillusionment and task failure."
+        }
+      ],
+      "negative_cases": [
+        {
+          "description": "When teammates lacked knowledge, Person 2 describes them as appreciative and willing to learn ('they appreciate us... will be learning from you'). This contradicts the 'trust_erosion' or 'feedback_dissonance' friction, showing that gaps in knowledge or performance do not always lead to resistance or disillusionment but can foster positive, mentor-learner dynamics.",
+          "rubric_link": "Suggests that not all expectation gaps result in negative management frictions; some are managed through supportive, educational interactions."
+        }
+      ]
+    }
+  }
+]

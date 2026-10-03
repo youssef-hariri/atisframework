@@ -1,0 +1,56 @@
+[
+  {
+    "expert_quote": "I know that the big kind of AI. And mostly when I saw people in the heckathones, some some of them are technical, some of no technical like they are just they have just fuss atathhone and maybe just doing for fun.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "The quote describes participants in hackathons who lack technical expertise but are participating out of curiosity or for fun. This reflects a shift in the socio-technical landscape where AI (and interest in it) is proliferating beyond specialized technical circles, moving towards broader human acceptance and diverse engagement, aligning with the indicator's focus on a shift due to technical velocity."
+  },
+  {
+    "expert_quote": "I as a person, because I was not like aware of that but I totally like I tried to help so I said, okay, uh, okay, first of all, you should download this and then and I actually explain and try to like should do this this this and actually understand. So I as a person explain to them how to do because there is one thingathon is also a kind of learning.",
+    "mapped_id": "continuous_training_demand",
+    "is_negative_case": false,
+    "rationale": "The speaker describes the need to provide on-the-spot, just-in-time training to team members who lack specific knowledge required for the hackathon task. This mirrors the friction of 'continuous training demand,' where the rapid emergence of new AI tools and techniques ('emerging AI subtypes' in a broader sense) necessitates ongoing, modular, and immediate upskilling, even within a short project cycle."
+  },
+  {
+    "expert_quote": "Like for me, uh technical issues came up like the internet issues as Pakistan, you know that and the Nigeria, uh South Africa, these countries sometimes uh in these countries, uh some technical issue happened, then they will be unactive for one day and they will like Internet was gone electricity was gone.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The speaker points out physical infrastructure failures (internet/electricity) that cause team members from certain regions to become inactive. This creates a direct clash between the expected fast-paced, synchronous 'AI time' of a hackathon and the slower, interrupted 'organizational/human time' dictated by local constraints, which is the core of the 'temporal_misalignment' indicator."
+  },
+  {
+    "expert_quote": "the thing which actually I is in that it's like come to the team and reply after 24 hours or maybe one to two days. And this is not a professionalism...",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The speaker explicitly labels a 24-48 hour response time as 'not professional' in the context of a hackathon. This highlights the expectation for rapid, near-instantaneous communication and iteration ('AI time'), which conflicts with more traditional or individual-paced work rhythms ('organizational time')."
+  },
+  {
+    "expert_quote": "but that when we were about tomit, like the two, three hours left.",
+    "mapped_id": "timeline_compression",
+    "is_negative_case": false,
+    "rationale": "The speaker describes the high-pressure scenario of being close to a project submission deadline ('two, three hours left'). While not directly about tool obsolescence, this captures the essence of 'timeline compression'—the intense time pressure and shortened cycles that are characteristic of fast-paced AI/tech development environments like hackathons, forcing rapid re-evaluations and final pushes."
+  },
+  {
+    "expert_quote": "Not really, like mostly the perspective that like we have to do the encryption description for the passwords and have to save the database. I not really I have seen this difference..",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": true,
+    "rationale": "When asked about differing views on data privacy across cultures, the speaker states they have not seen a difference, implying a shared, basic technical understanding (encryption, secure storage). This is a negative case for 'regulatory_lag' as it suggests, in this specific micro-context, that a common-sense ethical/technical framework ('save the database') is already implicitly in place and adopted, not lagging behind deployment."
+  },
+  {
+    "expert_quote": "But according to the ethics, uh, this is something like, uh, we can say that the spamming thing some people I have saw like uh I use this quotation for them actually fake it until you make it... Like in there, they look like they are very good. So when I am talking with them they go, they don't know anything...",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "The speaker identifies an ethical concern ('spamming', 'fake it until you make it') related to AI/tech project presentations. This points to the 'socio_technical_shift' where the focus is moving beyond pure technical capability to include human factors like ethics, authenticity, and trust, which become salient issues due to the velocity and pressure of the environment."
+  },
+  {
+    "expert_quote": "it's also a technical knowledge they have a knowledge and I don't that like because you have led many...",
+    "mapped_id": "skill_obsolescence_pace",
+    "is_negative_case": false,
+    "rationale": "The speaker differentiates team members based on their current 'technical knowledge.' While not explicitly about obsolescence, the underlying theme is the varying and critical distribution of competencies needed to function in a fast-paced tech environment. The mismatch in knowledge levels hints at the broader challenge of skills becoming outdated or uneven faster than they can be standardized across a team."
+  },
+  {
+    "expert_quote": "if the person is not doing this, I would be angry angry on that like, you know, you are not a professional.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The speaker's frustration with a teammate not adhering to a timeline frames professionalism as synonymous with synchronicity with fast-paced project cycles. This reinforces the clash between the slow, variable pace of individual human action and the rigid, accelerated tempo demanded by the project ('AI time')."
+  }
+]

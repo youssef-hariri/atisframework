@@ -1,0 +1,50 @@
+[
+  {
+    "expert_quote": "I'm gonna tell the the strategy for the prices. And I'm gonna to say OK, change the price, but the machine can do that better than him.",
+    "mapped_id": "non_deterministic_outputs",
+    "is_negative_case": false,
+    "rationale": "The quote contrasts human-devised price-setting strategies ('I'm gonna tell') with machine capability, implying the AI's output is a superior, yet potentially different and non-fixed, solution for the same problem, aligning with the concept of variable, non-deterministic outputs."
+  },
+  {
+    "expert_quote": "The managerial team says no, I won't touch the button doing this. Randomly or by itself, I must manage to value his job.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The manager's reluctance to let the system operate ('by itself') and characterization of its action as 'randomly' stems from an inability to foresee or explain the AI's decision logic, reflecting the opacity of algorithmic outcomes as a barrier to trust and adoption."
+  },
+  {
+    "expert_quote": "If I provide the best for the company, I'm gonna be better, better paid. And then, and I'm gonna be better in this position here or anywhere, because I have the authority to go anywhere, any other place I value for what I build I value for.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": true,
+    "rationale": "The speaker describes a European management culture where personal value and accountability are directly tied to objective results. This stands in explicit contrast to the theoretical friction where AI's opaque outcomes make assigning clear responsibility difficult, indicating a context where such a challenge may be mitigated by cultural norms."
+  },
+  {
+    "expert_quote": "AI in a culture. Can... can be offensive. This is a problem... So if I have a team of marketing using AI and the EEAI doesn't know the context he's producing the the his job, he can produce offensive piece of marketing.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "The quote highlights AI's high sensitivity to the cultural 'context' embedded in its training and operational data. The risk of generating 'offensive' content directly stems from the model's dependency on data that lacks relevant cultural nuance, demonstrating a critical aspect of data dependency."
+  },
+  {
+    "expert_quote": "I had a data leak with more than with more information for 11 people million, 11 million people... I knew the consume. I knew how many times this person was going to the grocery. Individually I had this, this, this, this type of data I had on on my hands.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "The emphasis on possessing vast, granular individual-level data ('individually I had this') underscores the foundational role of data quality, scale, and relevance ('the consume', 'going to the grocery') for the AI's function, directly illustrating the core principle of high data dependency."
+  },
+  {
+    "expert_quote": "The cost that I I was having with Amazon was about $100,000 monthly... by the time I put a price on it, it's not a huge margin. So quite low margin, retailer said, OK, my margin's very low. The professional who's doing this manually is doing a very bad job. It's cheaper and I cannot afford your services.",
+    "mapped_id": "non_linear_estimation",
+    "is_negative_case": false,
+    "rationale": "The failure of a technically powerful AI solution is attributed to its unexpectedly high operational costs and the non-linear relationship between technical capability and business value (profit margin). The AI's superiority did not translate into a viable cost-benefit path, aligning with the indicator of complex, non-linear estimation challenges."
+  },
+  {
+    "expert_quote": "The leadership, some of them know all this complexity in the in the powers that they have in their hands and the same time you have. I'm gonna call old school, OK? Adopted... But let me see if it works. I don't know really understand what it is.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "This describes a leadership archetype that adopts AI without 'really understand[ing] what it is', highlighting that the complexity and opacity of AI outcomes allow for superficial adoption driven by trends rather than comprehension, directly linking to the 'opaque_outcomes' indicator."
+  },
+  {
+    "expert_quote": "I have to choose the application and choose... Since then I always looking how much money is in on the table. How much money the the company can save for it? Who is the profile? How many companies can can afford this type of technology? How much they can afford it so changes my this bad experience.",
+    "mapped_id": "dynamic_forecast_adjustment",
+    "is_negative_case": false,
+    "rationale": "The speaker describes a fundamental shift in project evaluation and scoping ('always looking how much money is in on the table') prompted by a prior failure. This represents a forced, post-hoc adjustment to the business model and viability forecast, indicative of the instability and need for constant baseline adjustment described by this indicator."
+  }
+]

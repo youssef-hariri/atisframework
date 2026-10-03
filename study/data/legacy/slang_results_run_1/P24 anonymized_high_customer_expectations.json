@@ -1,0 +1,62 @@
+[
+  {
+    "indicator_name": "dreams_vs_reality",
+    "evidence": "Person 2 describes AI as requiring 'spoon feeding like a kid' and states 'AI will not replace human... AI is created by human'. This contrasts the 'magic box' vision with a practical, limited tool that is entirely dependent on human instruction and has no autonomous mind.",
+    "metaphor_mapped": "AI as a child requiring spoon-feeding; AI as a created tool, not a creator.",
+    "negative_case": "No evidence of Person 2 holding idealized views. They consistently frame AI as a limited, user-dependent technology."
+  },
+  {
+    "indicator_name": "trust_understanding_gap",
+    "evidence": "Discusses data storage and privacy risks explicitly: 'I show him where the chat GPT is storing his data... he was in shock... If you disable it, that prompting will be between you and the chat GPT. But if that enable it, that prompt will go every user.' High optimism for utility is directly undermined by knowledge of opaque, risky data practices.",
+    "metaphor_mapped": "AI as a data vault with unclear access controls.",
+    "negative_case": "None. Person 2 demonstrates the gap by being the one who educates others about the risks, showing their understanding erodes naive trust."
+  },
+  {
+    "indicator_name": "paradoxical_expectations",
+    "evidence": "Expresses strong belief in AI's utility ('using 10 to 15 AI together') while simultaneously highlighting significant perceived risks regarding data privacy and security ('your data will... explore worldwide').",
+    "metaphor_mapped": "AI as a powerful but double-edged tool.",
+    "negative_case": "None. The paradox is central to their narrative."
+  },
+  {
+    "indicator_name": "magic_box_perception",
+    "evidence": "Directly counters the 'Magic Box' notion: 'AI always follow the instructions... AI don't have their own mind. They have only the memory.' Positions AI as a deterministic executor, not an infallible oracle.",
+    "metaphor_mapped": "AI as a command-following machine with memory, not a 'box' with magic.",
+    "negative_case": "This is a strong negative case *against* the 'magic_box_perception'. Person 2 explicitly deconstructs it."
+  },
+  {
+    "indicator_name": "explainability_deficit",
+    "evidence": "Does not cite frustration with AI's reasoning opacity. Their focus is on user control ('totally depend upon the users how you prompt') and system settings ('go read... go with the settings'), not on the AI's internal decision logic being unexplainable.",
+    "metaphor_mapped": "None explicitly stated.",
+    "negative_case": "Person 2 does not express this specific frustration. Their concerns are about data governance and user responsibility, not interpretability of AI outputs."
+  },
+  {
+    "indicator_name": "anthropomorphic_projection",
+    "evidence": "Uses the metaphor 'spoon feeding like a kid' which could imply a child-like entity, but clarifies it is to highlight dependency and lack of independent reasoning, not to attribute human-like cognition. States 'AI don't have their own mind.'",
+    "metaphor_mapped": "AI as a child (for dependency, not intelligence).",
+    "negative_case": "Actively rejects anthropomorphism of reasoning ('no own mind'). The child metaphor is used to denote limitation, not human-like capability."
+  },
+  {
+    "indicator_name": "utility_mismatch",
+    "evidence": "Assumes AI's utility is perfectly aligned with the user's skill: 'It's totally depend upon the users how you prompt your AI.' Implies mismatch is a user error, not an AI failure. Focus is on user adaptation ('human need to be learned... how to handle the AI').",
+    "metaphor_mapped": "AI as a tool whose effectiveness depends on the craftsman's skill.",
+    "negative_case": "Person 2 does not express surprise or frustration that AI goals misalign with user goals. They frame success as a function of user expertise."
+  },
+  {
+    "indicator_name": "unfairness_barriers",
+    "evidence": "No discussion of algorithmic bias or fairness. Barriers mentioned are related to user knowledge and data privacy, not sociotechnical unfairness in AI outputs.",
+    "metaphor_mapped": "None.",
+    "negative_case": "This indicator is not addressed or evidenced in Person 2's statements."
+  },
+  {
+    "management_friction_name": "feedback_dissonance",
+    "evidence": "While not describing a specific project incident, Person 2's entire educational stance ('I show him he was in shock') reflects the need for 're-education labor' to align user understanding (e.g., about data storage) with AI's reality, which is a precursor to managing feedback based on unrealistic benchmarks.",
+    "metaphor_mapped": "None directly, but the role is that of an educator correcting misconceptions.",
+    "negative_case": "None. Their behavior aligns with managing this friction."
+  },
+  {
+    "management_friction_name": "trust_erosion",
+    "evidence": "Describes a moment of 'shock' and disillusionment when a colleague learned how AI stores data. This firsthand account illustrates how discovery of opaque practices can erode trust. Person 2's proactive advice ('before using any AI... go through in deep... especially the storage part') is a direct countermeasure to prevent this erosion and subsequent resistance.",
+    "metaphor_mapped": "None directly.",
+    "negative_case": "None. Person 2 both witnesses and actively works to prevent trust erosion."
+  }
+]

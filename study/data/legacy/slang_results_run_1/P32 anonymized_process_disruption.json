@@ -1,0 +1,68 @@
+[
+    {
+        "rubric_item": "socio_technical_transition",
+        "evidence": "Person 2 describes a hybrid workflow in his side projects where traditional coding approaches (Python packages for text similarity) are contrasted with AI-centric approaches ('let's get that. Put it in AI. Give it a good prompt'). He also leads a fully remote, international team, necessitating a shift from in-office, human-centric coordination to hybrid digital-human collaboration.",
+        "metaphors": ["Thrown in the deep end to swim (for learning/leading)", "Building friendship as a foundation for business trust"],
+        "negative_case": "The transition is presented as a natural, unproblematic evolution in his small team ('you just have a conversation'), not as a disruptive systemic friction. The focus is on pragmatic problem-solving rather than a documented shift in collaboration models."
+    },
+    {
+        "rubric_item": "knowledge_clash",
+        "evidence": "In brainstorming sessions, Person 2 identifies distinct approaches: 'the technical guys' who advocate for traditional coding methods versus others who propose shortcutting the process by 'fit[ting] it into AI'. This directly illustrates tension between experience-based technical knowledge and emergent, prompt-based AI knowledge.",
+        "metaphors": ["Thinking 'outside the box'"],
+        "negative_case": "He frames this clash positively as a source of diverse perspectives that 'helps' solve problems, rather than as a point of conflict or process failure."
+    },
+    {
+        "rubric_item": "procedural_nonlinearity",
+        "evidence": "Person 2 describes an iterative, learning-based approach to client projects in his consultancy: 'We're just learning as we go. So what you learn is what you implement.' He negotiates project scope dynamically, promising A and B while researching C, rather than following a fixed, phase-gated project plan.",
+        "metaphors": [],
+        "negative_case": "This nonlinearity is not presented as conflicting with a formal methodology. It is the de facto methodology for his small, agile operation, suggesting the friction is absent or irrelevant at this scale."
+    },
+    {
+        "rubric_item": "integration_friction",
+        "evidence": "Minimal direct evidence. His main role as a data engineer involves using standard tools (Docker, Python, SQL). The integration of AI (OpenAI for QA) is mentioned as a fact, not a challenge.",
+        "metaphors": [],
+        "negative_case": "Person 2 does not describe significant challenges embedding AI into existing workflows. The integration appears ad-hoc and personally managed, avoiding large-scale systemic integration issues."
+    },
+    {
+        "rubric_item": "role_reconfiguration",
+        "evidence": "Person 2 aspires to move from data engineer to a manager who can 'help other people' and lead a team. He emphasizes leadership qualities like empathy, understanding individual circumstances (power/internet issues), and delegating ownership ('they feel like they own it').",
+        "metaphors": ["Swimming instructor with a pole (leader providing safety while letting team members struggle)"],
+        "negative_case": "The reconfiguration is a personal career goal, not an observed disruption in his current projects. He does not mention project managers grappling with new ethical or oversight duties due to AI."
+    },
+    {
+        "rubric_item": "workflow_brittleness",
+        "evidence": "Implied in his discussion of managing an African team member with potential power outages. The linear expectation of continuous work is vulnerable to these external disruptions, requiring adaptive management ('I'll put in the work from this time to this time').",
+        "metaphors": [],
+        "negative_case": "The brittleness is attributed to infrastructure and geography, not specifically to the introduction of adaptive AI systems into a linear process."
+    },
+    {
+        "rubric_item": "silo_breakdown",
+        "evidence": "Person 2's consultancy and his main job are inherently cross-functional and international, operating across time zones and cultures. Data needs are central, but boundaries are already fluid due to the remote, project-based nature of the work.",
+        "metaphors": ["Networks to expand"],
+        "negative_case": "He does not describe traditional departmental silos breaking down; his work environment seems to have been born without them, or they are irrelevant to his narrative."
+    },
+    {
+        "rubric_item": "ethical_automation_tension",
+        "evidence": "When asked directly about model bias and ethics, Person 2 replies, 'Oh, no, no. We don't deal with bias.'",
+        "metaphors": [],
+        "negative_case": "A clear negative case. Ethical considerations are explicitly stated as outside his current scope of work, showing no observed tension between automation and ethics in his projects."
+    },
+    {
+        "rubric_item": "cultural_resistance",
+        "evidence": "Person 2 notes that 'people across the world don't look at it like that' when discussing the cost-effectiveness of African talent, indicating a potential resistance to trusting data-centric work from certain regions. Also mentions initial formal settings where clients' guards are 'high and mighty'.",
+        "metaphors": ["Beach boy stereotype (cultural suspicion in business contexts)"],
+        "negative_case": "He actively and successfully circumvents this resistance through personal relationship-building ('friendship angle'), treating it as a business challenge to overcome, not an immovable organizational friction."
+    },
+    {
+        "rubric_item": "legacy_inflexibility",
+        "evidence": "Briefly mentioned in the context of his main job: 'legacy software built for static reporting.'",
+        "metaphors": [],
+        "negative_case": "He does not elaborate on this being a hindrance to dynamic AI/data needs. His side business operates on modern, flexible tools, avoiding this friction entirely."
+    },
+    {
+        "rubric_item": "role_transition_hurdles",
+        "evidence": "Person 2 identifies the need for 'people skills' and 'confidence' alongside technical skill when joining a multicultural team, hinting at a reskilling need beyond pure engineering.",
+        "metaphors": ["Breaking the ice with jokes"],
+        "negative_case": "He portrays this transition as an individual's responsibility ('just do your work and make friends'), not as a disruptive organizational hurdle involving hierarchies or authority shifts."
+    }
+]

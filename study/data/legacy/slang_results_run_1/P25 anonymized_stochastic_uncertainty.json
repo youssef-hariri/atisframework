@@ -1,0 +1,43 @@
+[
+  {
+    "speaker": "Person 2",
+    "metaphors": [
+      {
+        "metaphor": "Buffer",
+        "context": "Describing the role of the project manager in shielding the engineering team from direct client pressure.",
+        "quote": "…manage them so that Shields us from. There's the pressure of this client screaming at you."
+      },
+      {
+        "metaphor": "Bring yourself as you are",
+        "context": "Advising someone to leverage their unique cultural and personal background as a strength in a multicultural team.",
+        "quote": "I always tell people whenever you're tasked to do something, get to know what the job requires, and then bring like in such yourself, because the best way you can do a job is coming fully as you."
+      }
+    ],
+    "negative_cases": [
+      {
+        "case": "Minimal Cultural Impact on Technical Work",
+        "context": "Person 2 states that cultural differences did not significantly affect the core data engineering or machine learning work, as projects were often designed for a specific market (e.g., the US).",
+        "quote": "I don't think it did much… our clients were mostly from us. So we had to think about the US customer.",
+        "indicator_relevance": "This contrasts with indicators like 'data_dependency' and 'non-linear_estimation,' which suggest cultural context could heavily influence data and model design. Here, the technical scope was predefined by a single market's requirements."
+      },
+      {
+        "case": "Professional Training Overrides Cultural Norms",
+        "context": "Person 2 attributes effective cross-cultural communication to formal professional skills training (e.g., on feedback, growth mindset) rather than to navigating inherent cultural differences.",
+        "quote": "But it's really professional skills. And much of this helped us when we came to dealing with different teams. I feel it had… you're approaching it from just this school of thought.",
+        "indicator_relevance": "This suggests a managed process can mitigate frictions like 'accountability_challenges' arising from opaque outcomes, by establishing a common 'professional' communication protocol."
+      },
+      {
+        "case": "Technical System Differences, Not Cultural Behaviors",
+        "context": "When discussing challenges in fintech, Person 2 highlights differences in financial systems (e.g., Kenya's mobile money vs. Nigeria's systems) as the primary hurdle, not interpersonal cultural behaviors.",
+        "quote": "So because this company is basically now tries to target have these solutions for Africa, then every country we go to, we have to understand the system they work with.",
+        "indicator_relevance": "The challenge is framed as a deterministic, system-based 'data_dependency' issue rather than the 'stochastic_uncertainty' arising from human cultural unpredictability."
+      },
+      {
+        "case": "Feedback Issues Attributed to Timing, Not Culture",
+        "context": "Person 2 identifies the timing of feedback delivery as a problem, not the cultural style or content of the feedback itself.",
+        "quote": "So yeah, the timing of the delivery of the feedback.",
+        "indicator_relevance": "This is a logistical or process failure, not a manifestation of cultural 'opaque_outcomes' or 'accountability_challenges' stemming from stochastic model behavior."
+      }
+    ]
+  }
+]

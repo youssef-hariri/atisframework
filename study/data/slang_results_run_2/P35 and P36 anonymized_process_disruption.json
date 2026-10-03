@@ -1,0 +1,44 @@
+[
+  {
+    "expert_quote": "We have this model of work. That client is right, customer is right... So if he wants to switch from, I don't know, he was having a cluster in basement, he decided to switch to Solana. Our goal is to support him in his decision, so we will switch. Even that it's can be complicated and painful, but... So you know, we are ready to. Take his pace.",
+    "mapped_id": "workflow_brittleness",
+    "is_negative_case": false,
+    "rationale": "The slang 'complicated and painful' to describe adapting to a client's sudden technical pivot illustrates the increased vulnerability (brittleness) of their established linear service delivery process when confronted with a client's non-linear, adaptive decision-making, a core indicator of workflow brittleness."
+  },
+  {
+    "expert_quote": "I might not be able to guide you because we have a project manager who is also kind of account manager and ** *** talks to customers. I don't talk to them...",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "The explicit delegation of client communication and feedback handling to a dedicated project/account manager role indicates a functional specialization and shift from a purely technical role to one focused on relationship and system oversight, aligning with the role reconfiguration indicator."
+  },
+  {
+    "expert_quote": "We usually don't judge based on cultural or national background. We just analyze their profile. What the website, LinkedIn Profile or Twitter we look, what companies doing, what's their business and we try to prepare of course for the meeting in terms of bring them the most efficient stack that they would love to see or. Be delivered. But it's never based on nationality or. Geolocation...",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": true,
+    "rationale": "This quote is a direct negative case. Person 2 explicitly states they do not use cultural background to judge or prepare for engagements, instead relying on data-centric profiling of the company's digital footprint. This contradicts the 'cultural_resistance' friction, which posits a distrust of data-centric approaches in favor of experiential or culturally-based knowledge."
+  },
+  {
+    "expert_quote": "...the team is in Nigeria, they just not exactly our target audience because we mostly work with that part of the world Western bond, but not because they're Nigerians just, you know, kind of not our.",
+    "mapped_id": "silo_breakdown",
+    "is_negative_case": true,
+    "rationale": "This is a negative case for silo_breakdown. Person 2 describes market segmentation based on business alignment ('target audience', 'Western bond') rather than cross-functional data needs erasing traditional geographic or departmental boundaries. The statement reinforces a deliberate business boundary, not its breakdown."
+  },
+  {
+    "expert_quote": "...for us probably the most difficult ones would be Asians because they're they have a little different mentality... it was really insightful in terms of, like, OK, this they think this way, let's try to adapt their mentality and. We are always trying to adapt to fit. The client.",
+    "mapped_id": "integration_friction",
+    "is_negative_case": false,
+    "rationale": "The terms 'most difficult' and the need to 'adapt their mentality' to 'fit the client' describe the challenge (friction) of embedding their standard service model into the existing workflows and decision-making pace of a client from a different cultural context, matching the integration_friction indicator."
+  },
+  {
+    "expert_quote": "I would say for us probably the most difficult ones would be Asians because they're they have a little different mentality... Not to push, probably not to push. Not to hurry because I guess we are more in a hurry here in the Western part than they are. So yeah, the pace.",
+    "mapped_id": "procedural_nonlinearity",
+    "is_negative_case": false,
+    "rationale": "The description of a slower, more considered decision-making 'pace' that conflicts with their own 'hurry' implies a clash between sequential, fast-moving project expectations and a more deliberate, potentially iterative or cyclical client review process. This aligns with procedural_nonlinearity."
+  },
+  {
+    "expert_quote": "I think you're in. In general, the modern world is very open to work in Bism multinational teams. And this is great... So that means you know that people have access to Internet all over the place and they all in tune with the updates with everything. What's happening in the world.",
+    "mapped_id": "socio_technical_transition",
+    "is_negative_case": false,
+    "rationale": "The observation that the 'modern world' enables multinational teamwork due to ubiquitous internet access and being 'in tune with updates' reflects a transition to a hybrid, digitally-mediated collaboration model that transcends traditional human-centric, co-located teamwork, a key aspect of socio-technical transition."
+  }
+]

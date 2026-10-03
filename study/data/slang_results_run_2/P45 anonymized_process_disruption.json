@@ -1,0 +1,86 @@
+[
+  {
+    "expert_quote": "So pretty much I have a background in finance... after the the undergrad. I went through a graduate program in applied mathematics and from there a couple of years later I started to look into AI related themes based on my work requirements... I'm AVC portfolio manager. So I deal with AI themes on on a quasi day-to-day basis.",
+    "mapped_id": "socio_technical_transition",
+    "is_negative_case": false,
+    "rationale": "The speaker describes a career progression from traditional finance/math into AI-driven portfolio management, illustrating a shift from purely human-centric expertise to a role requiring hybrid technical understanding ('AI themes'). This transition is a core element of moving to a hybrid human-AI collaboration model."
+  },
+  {
+    "expert_quote": "When it comes to culture, I think that we are somehow pretty open minded here. So I don't think that there is a culture barrier.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": true,
+    "rationale": "The speaker explicitly contradicts the notion of 'cultural resistance' as a barrier. Their statement asserts an organizational openness to new methods and external influences, which runs counter to the defined friction of distrusting data-centric approaches in favor of experiential knowledge."
+  },
+  {
+    "expert_quote": "So we have a culture that's very linked to the best practices that that are conducted either in Europe or in the United States... So when it comes to processes... we somehow emulate the best practices from from from both regions.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": true,
+    "rationale": "The quote describes an intentional adoption and integration of external 'best practices' into local processes. This indicates alignment and learning, rather than a tension or 'clash' between imported, data-centric methodologies and tacit local knowledge."
+  },
+  {
+    "expert_quote": "We're learning with this counterparty.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "The phrase 'learning with this counterparty' implies an adaptive, ongoing process of integrating external procedural knowledge (European certification guidelines for ML solutions). This acknowledges the existence of a learning curve, which is a softer manifestation of the tension between different knowledge systems before full integration."
+  },
+  {
+    "expert_quote": "...sometimes we get lost in translation, sometimes we get lost in different our cultural differences... So yes, this has happened in the past, but it's more on the on the commercial side. Rather than the the product that we have developed.",
+    "mapped_id": "silo_breakdown",
+    "is_negative_case": false,
+    "rationale": "The 'lost in translation' metaphor describes friction in commercial interactions due to cultural nuances. This friction stems from cross-functional/cross-border collaboration needs (sales, relationship management) that are not smoothly supported by traditional, siloed project or product development methodologies."
+  },
+  {
+    "expert_quote": "Normally, when when, when you sit down with with the with C level, only the senior person of the group will be addressing the issues and sometimes senior person does not have all the the details but the junior employees that are engaged or participating in the call, they sometimes will not step up or will not provide feedback so this is where you start to get lost in translation.",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "This describes a rigid, hierarchical communication model (a traditional 'linear' process) that becomes brittle ('gets lost') when critical, adaptive project details are not shared. It highlights a failure to reconfigure roles and information flow for effective cross-functional, knowledge-intensive collaboration."
+  },
+  {
+    "expert_quote": "So we'll take note of everything that was said, but we always try to find, you know, more than one person that we can relate to that we can call back later to fill in the the missing details... It take place in between the senior meetings.",
+    "mapped_id": "procedural_nonlinearity",
+    "is_negative_case": false,
+    "rationale": "The speaker describes creating informal, iterative feedback loops ('call back later,' 'in between the senior meetings') to compensate for the shortcomings of a formal, sequential meeting structure. This is a workaround that introduces non-linear information gathering to fix a brittle linear process."
+  },
+  {
+    "expert_quote": "I think that, for example, Brazilians... we are open, but we are sometimes a little bit easy to be misread because... you will get the sense that I'm driving you to that outcome, but at the end of the day I'm being more educated and polite rather than really engaged...",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "This describes a fundamental 'clash' between different types of knowledge: explicit commercial signals (driving to an outcome) versus tacit cultural knowledge (politeness and relationship-building). This mismatch creates commercial friction as intentions are misread across cultural boundaries."
+  },
+  {
+    "expert_quote": "We'll always sit down with the team and grow over the details and sometimes. The cultural component will step in and will address that in some kind of. You know in, in different ways we will address the, the, the cultural barrier as well.",
+    "mapped_id": "integration_friction",
+    "is_negative_case": false,
+    "rationale": "The act of having to proactively 'address' the 'cultural barrier' during project discussions is a direct indicator of 'integration friction.' It is an additional, non-technical layer of work required to embed collaborative processes (which may include AI/data-sharing components) across different cultural contexts."
+  },
+  {
+    "expert_quote": "...most of the guys, especially if they're in the financial market or or or they're very close. To the subject that we're discussing of ML, et cetera, everybody studies abroad or everybody has some kind of international experience... So it's very. It's not common for you to meet a person very high level that has no international experience.",
+    "mapped_id": "role_transition_hurdles",
+    "is_negative_case": false,
+    "rationale": "This statement establishes international experience as a de facto prerequisite for leadership in this AI/ML-adjacent field. It highlights a systemic 'hurdle' or reskilling requirement (gaining international exposure) that disrupts traditional, locally-focused career paths and hierarchies."
+  },
+  {
+    "expert_quote": "For example, 111 thing that struck me... was the appetite was the way that we you were looking at investing and in. In looking at opportunities... that really struck me. And that's something that's very interesting because it's not very common for us. But once I get to. Once you came up with that, it always makes us think and always makes us reflect and things that we are doing that we could do different.",
+    "mapped_id": "silo_breakdown",
+    "is_negative_case": false,
+    "rationale": "Exposure to a different cultural approach to risk and opportunity ('appetite') directly led to internal reflection and consideration of innovation ('things we could do different'). This is a positive outcome of the 'breakdown' of insular, traditional thinking ('silos'), forcing a re-evaluation of established practices."
+  },
+  {
+    "expert_quote": "Ask questions. Always ask questions. Never be shy of asking questions and understanding how things work, because it's a different environment and you need to adapt. If you don't make questions, you're not going to adapt.",
+    "mapped_id": "role_transition_hurdles",
+    "is_negative_case": false,
+    "rationale": "This advice for multicultural work underscores the active learning and adaptation required—a form of 'reskilling.' It acknowledges the 'hurdle' of transitioning from a known, native operational environment to an unfamiliar one, where passive assumption leads to failure."
+  },
+  {
+    "expert_quote": "For example, if you look at Anglo Saxons, they're very intrepreneurial... it gives you that that sense of entrepreneurship that's a little bit different from us catalics... If you look at, you know how they see risk, it's a different perspective of risk overall... it's more, it comes more rational to them than rather than emotional... you learn how to manage the risk based on their point of view and their and based on their rational way of thinking.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "The speaker explicitly contrasts 'rational' vs. 'emotional' (and 'Catholic' vs. 'Protestant') perspectives on risk and business. This frames different approaches as a 'clash' of fundamental knowledge systems (rational/data-centric vs. value/experience-influenced) that must be understood and navigated."
+  },
+  {
+    "expert_quote": "If things go wrong, they'll call a rabbi rather than than than going than, you know, let's go to court and let's let's file a complaint or whatever. They don't do that. They go to the rabbi, they discuss with the rabbi, and then the rabbi sits with in in the table with the team, and then they'll make a decision. So it's very different.",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": false,
+    "rationale": "This describes a fundamental conflict in dispute resolution processes: a formal, procedural, legalistic system ('court') versus a community-based, authority-mediated ethical system ('rabbi'). While not about AI per se, it mirrors the core tension between automated/predictable processes and the need for human-centric, value-based judgment and oversight."
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "expert_quote": "And and they're also very keen to buying stuff. But but they need very good working products and uh very to see stuff, uh to be able to touch it with their hands or other two boards, uh but they they're like a very uh very straightforward",
+    "mapped_id": "dreams_vs_reality",
+    "is_negative_case": true,
+    "rationale": "This quote describes a pragmatic, utility-focused customer attitude ('need very good working products') rather than an idealized vision of flawless technology, directly contradicting the indicator of expecting perfect outputs."
+  },
+  {
+    "expert_quote": "In France, if you say that they back the fact go away, like . Okay, excellent. Yeah, this is the culture.",
+    "mapped_id": "trust_understanding_gap",
+    "is_negative_case": true,
+    "rationale": "Describes a cultural preference for formal process over optimistic claims. This skepticism suggests lower initial optimism about a product's claims, which is the opposite of the high optimism/opaque behavior gap defined in the indicator."
+  },
+  {
+    "expert_quote": "And if it if it makes and if it saves me time or if it say uh helps read so I don't have to hire more people, I'll buy I'll buy it, okay? And and they tell you right away, I'll buy it.",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": false,
+    "rationale": "The speaker articulates a clear, transactional expectation of AI/software ('saves me time', 'don't have to hire more people'). The slang 'I'll buy it right away' reflects an assumption of perfect alignment with personal/organizational goals, directly matching the indicator."
+  },
+  {
+    "expert_quote": "So, uh what I found challenging was that uh two things, but uh if I can generalize it that are very bad, but there, whether electricity, the, uh the banking services don't make transactions with them because and sometimes they had shut downs or for electricity, so it would not work for a few hours, some we had critical releases and it was a problem that you know, attest on the other hand, when we had our times, they would work like insanely",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "Describes a practical 'bug' (infrastructure failure) disrupting critical work. The need to context-switch from project work to managing these external failures represents the 're-education labor' and re-framing of expectations implied by the management friction."
+  },
+  {
+    "expert_quote": "I think that my colleagues were in Togo would be more accepting and saying yes, yes, yes, you know most or say yes, but not complaining not less than European people saying, okay, I don or I disagree or or I see things differently they would be more okay, okay, yes, I will do that. And sometimes uh sometimes they would not do it or it would take a lot of time, but they they don't did not so much say .",
+    "mapped_id": "trust_erosion",
+    "is_negative_case": false,
+    "rationale": "Describes a pattern where apparent agreement ('yes, yes') leads to unmet expectations and delayed outcomes ('would not do it'), which creates operational friction. This mismatch erodes trust and creates resistance in workflows, core to the friction's definition."
+  },
+  {
+    "expert_quote": "Well, yeah like complete engagements in the projects like great energy, I remember like the processing platform for products for marketing was very committed. I personally I worked like 44 hours in a row without everyone did not do that, but still that they were very permitted to till the end and that was pleasant and impressive.",
+    "mapped_id": "trust_erosion",
+    "is_negative_case": true,
+    "rationale": "This quote highlights high commitment and sustained engagement ('44 hours in a row', 'very committed till the end'), directly contradicting the disillusionment and resistance to scaling described in the 'trust_erosion' management friction."
+  }
+]

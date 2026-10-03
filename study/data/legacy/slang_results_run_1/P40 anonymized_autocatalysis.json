@@ -1,0 +1,50 @@
+[
+  {
+    "indicator_name": "temporal_misalignment",
+    "evidence": "Describes a fundamental clash in work rhythms between himself (morning-oriented) and his CEO/lead researcher (midnight to 5 AM 'most impactful... time to focus'). This creates a communication gap where meetings before 11 AM were 'a risk.'",
+    "match_type": "positive",
+    "rationale": "Directly illustrates the friction between individual 'organizational time' (personal schedules, meeting hours) and the relentless, non-standard 'AI time' of a key innovator, disrupting coordination."
+  },
+  {
+    "indicator_name": "skill_obsolescence_pace",
+    "evidence": "Briefly mentions the CTO was 'really really good' but the respondent 'didn't have to be all the interacting with him,' suggesting a compartmentalization of deep technical skill that the business lead did not need to master.",
+    "match_type": "partial",
+    "rationale": "Implies a separation of competencies, but does not provide evidence of those skills becoming outdated. The focus is more on role separation than on obsolescence velocity."
+  },
+  {
+    "indicator_name": "judgment_substitution",
+    "evidence": "No explicit discussion of AI systems substituting for human decision-making in their work processes.",
+    "match_type": "negative",
+    "rationale": "The conversation centers on human collaboration, communication, and project management. The 'AI' mentioned appears to be the product/service, not a force reconfiguring internal judgment calls."
+  },
+  {
+    "indicator_name": "regulatory_lag",
+    "evidence": "Discusses data privacy and security as a practical, ad-hoc concern ('we would just basic and... don't make reporting'), driven by investor reassurance needs rather than proactive governance. Notes a difference in strictness between US ('show me something that works') and European ('compliance about this or that') approaches.",
+    "match_type": "positive",
+    "rationale": "Highlights how governance (data maps, security measures) emerged reactively from business needs (investor relations) and was patchy, aligning with the 'lag' concept. Also identifies a cultural dimension to regulatory attitudes."
+  },
+  {
+    "indicator_name": "tool_proliferation",
+    "evidence": "Mentions using Notion, Google Drive, personal laptops, and 'dash or basic... stuff' for passwords in a seemingly unstructured way. States, 'I didn't have a complete map of where the data was.'",
+    "match_type": "positive",
+    "rationale": "Describes a fragmented tool ecosystem adopted for convenience, leading to integration debt ('integration_debt') and operational risk, as tools proliferated faster than a coherent governance system could be established."
+  },
+  {
+    "indicator_name": "socio_technical_shift",
+    "evidence": "The primary narrative tension is not about economic output from AI, but about human and organizational adaptation: cross-cultural communication, work rhythms, trust, feedback styles, and data governance ethics.",
+    "match_type": "positive",
+    "rationale": "While building an AI product, the recounted challenges are predominantly socio-technical—managing human systems (culture, time, communication) strained by the demands of a fast-paced tech environment."
+  },
+  {
+    "indicator_name": "gen_AI_acceleration",
+    "evidence": "No mention of using generative AI tools to accelerate development or innovation processes.",
+    "match_type": "negative",
+    "rationale": "The transcript does not engage with the recursive, self-improving aspect of AI development. The 'AI' referenced is treated as a static project domain."
+  },
+  {
+    "indicator_name": "recursive_innovation",
+    "evidence": "No mention of AI tools being used to build better AI tools.",
+    "match_type": "negative",
+    "rationale": "The discussion is about managing a team building an AI product, not about the internal development loop of the technology itself."
+  }
+]

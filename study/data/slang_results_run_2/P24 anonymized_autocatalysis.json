@@ -1,0 +1,56 @@
+[
+  {
+    "expert_quote": "day by day we are going with the AI. Now 10, AI is going on after few years that age AI will come.",
+    "mapped_id": "gen_AI_acceleration",
+    "is_negative_case": false,
+    "rationale": "The participant uses the colloquial 'going with the AI' and the vague but rapid sequencing 'Now 10, AI... after few years that age AI' to describe an accelerating, generational progression of AI technologies, aligning with the compound rate of change in innovation."
+  },
+  {
+    "expert_quote": "we now we are using the AI so we can convert the language during it's easy to like help it out... A miscommunication is there because of the pronunciations. So we have a like CC for this... like live text generations is there transcription says there that we can use that?",
+    "mapped_id": "recursive_innovation",
+    "is_negative_case": false,
+    "rationale": "The participant describes using AI tools (transcription, live text generation) to directly solve a core communication problem inherent in developing AI systems within multicultural teams, exemplifying AI tools being used to accelerate and enable further AI development work."
+  },
+  {
+    "expert_quote": "before using any AI... Please go through in deep... Pro Cons and especially the storage part. How the storage can be deleted?... If you disable it, that prompting will between you and the chat deputy... if that enable it, that prompt will go every user",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": false,
+    "rationale": "The participant details a manual, user-beware approach to data privacy and ethics ('go through in deep'), highlighting that robust governance is not embedded in the tools but is a post-deployment responsibility for the human user, indicative of frameworks lagging behind technical capabilities."
+  },
+  {
+    "expert_quote": "AI cannot create by the self... AI will AI have there don't have their own mind. They have only the memory. So you need to lick from his mind like like a like a kid like kid is you need to be with a spoon feeding",
+    "mapped_id": "judgment_substitution",
+    "is_negative_case": true,
+    "rationale": "This quote is a strong negative case. The participant's metaphor of 'spoon feeding' a mindless AI directly contradicts the rubric's concept of AI prediction capabilities reconfiguring human judgment. Here, the human judgment is positioned as entirely primary and indispensable."
+  },
+  {
+    "expert_quote": "It's really it's, it's really simple. What we will do at moment, we have like a team. We have a like Google meet and we have some another to we use that same... We have a zoom to it's very easy... We make a group where everyone is upgrading their task",
+    "mapped_id": "tool_proliferation",
+    "is_negative_case": false,
+    "rationale": "The participant's off-hand listing of collaboration tools ('Google meet', 'some another', 'zoom') and the phrase 'it's very easy to come' reflects the casual normalization of a proliferating ecosystem of tools, released and adopted faster than any formal evaluation of their comparative efficacy is mentioned."
+  },
+  {
+    "expert_quote": "If we exchange the knowledge, it's very good. It's upgrading, not yourself. It's also up grading... when you exchange your knowledge, you increase your knowledge.",
+    "mapped_id": "continuous_training_demand",
+    "is_negative_case": false,
+    "rationale": "The participant frames knowledge exchange as a constant, peer-driven 'upgrading' process. This informal, continuous upskilling mirrors the structured 'non-stop, modular training' required to keep pace with new AI subtypes, presented here as an organic professional necessity."
+  },
+  {
+    "expert_quote": "But there was a conf confusion for another time zones, so so many members is not able to come. They come after the time after the meeting over.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The participant describes a concrete failure where the fast-paced, synchronous demands of project coordination ('AI time') clash with the distributed, human realities of a global team ('organizational time'), leading to missed connections and inefficiencies."
+  },
+  {
+    "expert_quote": "because the project is not done by once. The project will split in different different way and every sections, every Sprint on every task will take multiple times before the delivery... It's rarely happened. Something has happened. It's really, really, but it never happened.",
+    "mapped_id": "timeline_compression",
+    "is_negative_case": true,
+    "rationale": "This quote presents a negative case for timeline compression. The participant emphasizes a methodical, multi-stage process ('every Sprint', 'multiple times') and explicitly states major mid-cycle failures 'rarely' or 'never' happen, contradicting the notion of rapid obsolescence forcing disruptive re-evaluations."
+  },
+  {
+    "expert_quote": "human get to know about it. How to like track the AI and if the some crisis is there, how to like like handle the AI like technology that's human need to be learned. Especially we working, we working professionals.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "The participant shifts focus from pure utility to human mastery and crisis management ('how to track', 'how to handle'), framing the core challenge as the need for professionals to learn control and ethics, which aligns with the shift from economic benefit to human acceptance due to technical velocity."
+  }
+]

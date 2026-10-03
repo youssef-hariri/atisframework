@@ -1,0 +1,37 @@
+[
+  {
+    "rubric_category": "indicators",
+    "rubric_element": "non_deterministic_outputs",
+    "metaphor_identified": "'Crunch the whole word' (paraphrasing of 'crunch the whole world') - Describes compressing a complex, multi-faceted communication (the world) into a single, presumed outcome.",
+    "supporting_quote": "So you mean, even if you crunch the whole word, but at the end? He said no, I don't agree on the budget right.",
+    "analysis": "Person 2 uses this metaphor to describe his misinterpretation of a client's ambiguous feedback. He 'crunched' the nuanced, culturally-inflected conversation into a deterministic 'yes' for budget approval, which proved to be an incorrect and non-replicable output. This illustrates how human communication in multicultural settings can introduce a stochastic layer—the same words can lead to different, unpredictable interpretations (outputs) based on cultural context."
+  },
+  {
+    "rubric_category": "indicators",
+    "rubric_element": "opaque_outcomes",
+    "metaphor_identified": "'Deconstruct it' - Framing the need to analyze and interpret a simple statement as if it were a complex, layered artifact.",
+    "supporting_quote": "His language or tone was. I wouldn't appreciate it. So I had to deconstruct it and say maybe I shouldn't repeat that. Process.",
+    "analysis": "The outcome of the interaction (project approval, payment, relationship health) was opaque, derived from an algorithmic-like decision-making process by the client that Person 2 couldn't parse. He had to retrospectively 'deconstruct' the client's simple statement to infer the actual negative outcome and the underlying 'rules' of engagement, highlighting the complexity and lack of explainability in cross-cultural business decisions."
+  },
+  {
+    "rubric_category": "management_frictions",
+    "rubric_element": "accountability_challenges",
+    "metaphor_identified": "N/A (Direct description of challenge)",
+    "supporting_quote": "He never said he was angry or he. He never said he was upset or things like that... His language or tone was. I wouldn't appreciate it.",
+    "analysis": "This scenario directly demonstrates accountability friction. The client's culturally nuanced, indirect feedback ('I wouldn't appreciate it') created opacity. It made it difficult to assign clear blame or responsibility for the project misstep. Was Person 2 at fault for misinterpreting? Was the client at fault for being indirect? The probabilistic nature of interpreting such communication makes pinning down accountability non-deterministic and challenging."
+  },
+  {
+    "rubric_category": "negative_case",
+    "rubric_element": "N/A",
+    "metaphor_identified": "N/A",
+    "supporting_quote": "We've also used the enterprise level tools like SaaS enterprise minor for some clients and you know the SaaS enterprise minority it... Just gets the job done by itself.",
+    "analysis": "This presents a negative case against stochastic uncertainty. Person 2 references deterministic, 'black-box' enterprise tools that produce reliable, consistent outputs ('gets the job done by itself'). This contrasts with the probabilistic, variance-prone nature of open-source or custom-built models implied by stochastic uncertainty. Here, the outcome is purposefully opaque but standardized and predictable, not statistically variable."
+  },
+  {
+    "rubric_category": "negative_case",
+    "rubric_element": "N/A",
+    "metaphor_identified": "'Dry boring period'",
+    "supporting_quote": "And then it's a dry period weeping them. They ping us, we give them a demo and they they give us feedback. Back and it's going to go on like that for a few weeks.",
+    "analysis": "This 'dry period' is described as a stable, predictable, and linear phase of the project lifecycle. It involves routine demos and feedback loops without mention of the inherent variance, drift, or adjustment needs central to stochastic uncertainty. This phase is portrayed as deterministic and reproducible, counter to the concept of constant dynamic adjustment due to model instability."
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "expert_quote": "the laptop or machine at the end of the day that human made can be better than the human to human interaction.",
+    "mapped_id": "magic_box_perception",
+    "is_negative_case": true,
+    "rationale": "The statement directly contradicts the 'magic box' belief by asserting that human-made technology cannot surpass fundamental human interaction, placing clear limits on AI's perceived autonomy and infallibility."
+  },
+  {
+    "expert_quote": "I like the numbers because like I am, you know, I finish yearning. So the math was. Something I always and I was like. 'cause I I come, I think, to more of a senior position where I was like coding is fun but like everyone started talking about machine learning.",
+    "mapped_id": "dreams_vs_reality",
+    "is_negative_case": true,
+    "rationale": "The speaker grounds the AI trend ('everyone started talking') in their foundational, non-magical appreciation for math and coding ('the math was something I always'), framing the interest as a logical progression of skills rather than an idealized vision."
+  },
+  {
+    "expert_quote": "We would try to adjust either to incorporate or regroup as a team, look into data again. See, you know to to potentially, if we can conclude in average is that a regular user behavior, if the feature needs to be changed and so on.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": true,
+    "rationale": "Describes a systematic, data-driven process for handling user feedback ('look into data again', 'conclude in average'), indicating a practical, iterative response rather than a 're-education labor' stemming from unrealistic user benchmarks."
+  },
+  {
+    "expert_quote": "And I when we lived in Manhattan finishing a boot camp NYC data Science boot camp two years ago, just to see if machine learning would be something for me...",
+    "mapped_id": "trust_understanding_gap",
+    "is_negative_case": true,
+    "rationale": "Frames engagement with AI/ML as a personal skills exploration ('to see if... would be something for me') via a structured educational boot camp, indicating a learning-based approach to understanding rather than high optimism undermined by opacity."
+  },
+  {
+    "expert_quote": "I think they are far from it, but they do invest a lot of money into it...",
+    "mapped_id": "dreams_vs_reality",
+    "is_negative_case": false,
+    "rationale": "Comments on Saudi Arabia's AI pledge highlight a perceived gap between investment ('a lot of money') and current practical capability ('far from it'), directly contrasting idealized visions with a grounded assessment of reality."
+  },
+  {
+    "expert_quote": "Most of the things when we have is what is a planning versus expected result...",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": false,
+    "rationale": "Identifies 'planning versus expected result' as a core challenge, semantically aligning with the 'utility_mismatch' indicator where assumed project outcomes (goals) do not perfectly align with practical execution and delivery."
+  }
+]

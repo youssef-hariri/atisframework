@@ -1,0 +1,38 @@
+[
+    {
+        "metaphors": [
+            {
+                "quote": "I wanted actually a fresh perspective. That is a reason I brought in a freshha into the team... the new blood was not understanding the business logic",
+                "metaphorical_meaning": "Refers to a new team member as 'fresh blood,' implying an infusion of new energy, ideas, or vitality into an existing system or team.",
+                "mapped_indicator": "dynamic_forecast_adjustment"
+            },
+            {
+                "quote": "Why should I be the one always to pull the heavyweight?",
+                "metaphorical_meaning": "Compares taking on the most difficult or burdensome tasks to pulling a heavy physical weight, highlighting uneven distribution of effort.",
+                "mapped_indicator": "baseline_erosion"
+            },
+            {
+                "quote": "If you are not available, at least allow a second in command.",
+                "metaphorical_meaning": "Uses a military/rank structure metaphor ('second in command') to describe delegating authority and creating redundancy to prevent project bottlenecks.",
+                "mapped_indicator": "lack_of_reproducibility"
+            }
+        ],
+        "negative_cases": [
+            {
+                "quote": "In fact, this young AI engineer, he built an AI model to classify which is good, which is not, which is to augment and all... So now it became a norm. They take if there is a new admission in the school... They share it with them. They run through his model and he just makes it fit... So like that they became... Using him in their regular workflow.",
+                "explanation": "Describes a successful, stable, and integrated AI application (photo classification for ID cards) that produces consistent, reliable outputs. This contradicts the core notion of stochastic uncertainty, as the model's output is presented as deterministic and reproducible within this specific workflow, showing no signs of variance, drift, or opaque outcomes in this context.",
+                "contradicts_indicator": "non_deterministic_outputs"
+            },
+            {
+                "quote": "So I have six people involved in ERP... And out of that four are gentlemen, 2 are ladies. The two ladies I can always rely on them anytime... What's up? If I post a message, next comes the information... Out of the four. One gentleman is very good... Anytime he will sit whereas the other three... they will just try to give one excuse... I have to always manage them.",
+                "explanation": "Attributes project challenges and varying performance not to the inherent unpredictability of the technology (AI/ERP as a system) but to clear, identifiable human factors: individual mindset, work ethic, and personality. This frames the problem as one of personnel management rather than a fundamental, irreducible uncertainty in the model or system outputs.",
+                "contradicts_indicator": "opaque_outcomes"
+            },
+            {
+                "quote": "They all know... They all are given KPIs for their performance. They know it will affect their appraisal.",
+                "explanation": "Points to a fixed, linear, and transparent system of accountability (KPIs linked to appraisals) as the primary management tool. This structure is presented as a method to mitigate performance variance, contrasting with the 'accountability challenges' friction which arises from opaque, AI-driven outcomes.",
+                "contradicts_indicator": "accountability_challenges"
+            }
+        ]
+    }
+]

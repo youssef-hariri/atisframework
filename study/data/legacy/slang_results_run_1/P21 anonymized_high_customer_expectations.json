@@ -1,0 +1,79 @@
+[
+    {
+      "indicator_name": "dreams_vs_reality",
+      "evidence": "Customer demanded '100% certainty' from an AI solution, an idealization incompatible with probabilistic systems.",
+      "quote": "\"I have had a customer. We implemented AI and they they fundamentally told us they need 100% certainty with this AI solution... that never exists.\"",
+      "explanation": "This directly contrasts the customer's dream of infallible automation with the stochastic, non-deterministic reality of AI, leading to project failure."
+    },
+    {
+      "indicator_name": "trust_understanding_gap",
+      "evidence": "High initial optimism undermined by deep-seated distrust in the AI's output and the vendor's handling of data.",
+      "quote": "\"I realized fundamentally it was an issue on trust... they don't trust it. That's why they want 100%.\" and \"The biggest problem with AI is trust.\"",
+      "explanation": "Despite investing in the technology, the underlying trust gap, fueled by fears of hallucinations and data leakage, prevents adoption, eroding the initial optimism."
+    },
+    {
+      "indicator_name": "magic_box_perception",
+      "evidence": "Implies customers and even sales teams view AI as an autonomous, all-capable solution without appreciating its internal complexity and dependencies.",
+      "quote": "\"Their mental model should be more like it's probabilistic. It's not linear because of nature AI.\" and references salespeople selling \"the art of the possible\" which is \"90% BS\".",
+      "explanation": "The need to explicitly teach that AI is 'probabilistic, not linear' indicates a prevalent 'magic box' mindset that must be corrected. Sales hype reinforces this perception."
+    },
+    {
+      "indicator_name": "explainability_deficit",
+      "evidence": "Frustration stems from AI as a '100% black box,' creating aversion to taking responsibility for its outputs.",
+      "quote": "\"Because AI implementations models inherently pre built. And it's 100% black box, right?\"",
+      "explanation": "The opacity of AI decision-making creates a cultural and operational barrier, making teams reluctant to integrate and own a system they cannot explain or debug."
+    },
+    {
+      "indicator_name": "utility_mismatch",
+      "description": "AI's output or required process does not align with user workflows or incentives.",
+      "evidence": "The solution technically worked but was abandoned because it threatened user roles and trust, misaligning with their personal/organizational goals.",
+      "quote": "\"To rapidly change things and trust AI, to do part of their work takes away stuff from them.\"",
+      "explanation": "Success was measured not just by technical accuracy but by adoption. The AI's utility was mismatched with the users' goal of job security and control, causing rejection."
+    },
+    {
+      "indicator_name": "unfairness_barriers",
+      "evidence": "Acknowledges bias in training data and fairness issues across languages/geographies as a fundamental concern and barrier.",
+      "quote": "\"The nature of AI #1. Question of bias? Any system or AI has a built in bias based on the training data... The other thing is the question of fairness.\"",
+      "explanation": "Person 2 identifies inherent unfairness and bias not as a theoretical concern but as a practical deployment barrier that must be managed."
+    }
+  ],
+  "metaphors_mapped": [
+    {
+      "metaphor": "Climbing a Tree (Cedar vs. Coconut)",
+      "context": "Used to explain the iterative, validation-first approach to AI implementation.",
+      "quote": "\"My mental model is like climbing a tree... You climb a tree one step at a time. You only put one step and put your weight on it. If it can support you.\"",
+      "interpretation": "Contrasts the achievable, branch-by-branch (use case-by-use case) approach (Cedar) with the impossible attempt to scale a smooth, branchless trunk (Coconut), which represents trying to build a perfect, all-encompassing AI solution from the start. This metaphor argues against the 'big bang' magic box deployment."
+    },
+    {
+      "metaphor": "Commando, Army, Police",
+      "context": "Describes three cultural/operational mindsets within teams and organizations.",
+      "quote": "\"The first mindset is a commando. People who are very good with uncertain things... The other is the army... The third thing is the police.\"",
+      "interpretation": "This taxonomy moves beyond nationality. 'Commandos' thrive in the uncertainty of AI prototyping. The 'Army' needs defined processes to scale it. The 'Police' require rigid rules for compliance and risk. Managing an AI project requires recognizing and integrating these differing cultural responses to the technology's inherent ambiguity."
+    },
+    {
+      "metaphor": "Dinosaurs vs. Theoretical Salespeople",
+      "context": "Describes a 2x2 matrix of theory vs. practice in AI competency.",
+      "quote": "\"Those are the dinosaurs... You have all the application and all that stuff domain knowledge. Zero theory with AI... [Salespeople] have a lot of theory, but very little experience.\"",
+      "interpretation": "'Dinosaurs' have deep domain practice but no AI theory, causing resistance or misapplication. 'Theoretical Salespeople' have AI theory but no practice, leading to overpromising (fueling the 'magic box' perception). Successful AI culture ('validated expertise') requires a blend of both, situated in the upper-right quadrant."
+    }
+  ],
+  "negative_cases_identified": [
+    {
+      "case_name": "Labeling Failure Due to Cultural/Contextual Gap",
+      "description": "A data labeling task performed offshore failed due to a lack of business context and cultural interpretation, not technical skill.",
+      "evidence": "\"We did a lot of implementation before for machine learning... labeling was done in Romania. And it was bad. The accuracy level was really low... part of its cultural part. It is just not understanding the business context.\"",
+      "link_to_rubric": "This illustrates **trust_erosion** (poor pilot results) and **utility_mismatch** (the labeled data did not match the intended utility). It shows that even foundational tasks like labeling are vulnerable to the 'understanding gap' when divorced from context."
+    },
+    {
+      "case_name": "Project Abandonment Due to Unrealistic Trust Demands",
+      "description": "A technically successful AI project was abandoned post-delivery because users fundamentally distrusted it and demanded impossible 100% certainty.",
+      "evidence": "\"That project was not good... six months after we met with the customer and we realized, Oh my God, you didn't use the system. Well, yeah it was. They didn't really trust it.\"",
+      "link_to_rubric": "A direct example of **trust_erosion** leading to resistance to scaling. It stems from **dreams_vs_reality** (100% certainty dream) and **trust_understanding_gap**. The management friction is total project failure after delivery."
+    },
+    {
+      "case_name": "Paralysis in Pre-Sales/Pilot Phase",
+      "description": "A corporate AI rollout program was stalled for months in the pre-sales/pilot phase due to pervasive risk aversion and unmanaged expectations.",
+      "evidence": "\"They went through an ALS parasys for two months doing nothing. Why? Because of all the risks that I mentioned to you.\"",
+      "link_to_rubric": "This represents **feedback_dissonance** and **trust_erosion** in a nascent phase. The 'magic box' hype collides with the daunting list of real risks (OWASP Top 10, IP theft, bias), causing inaction instead of productive iteration."
+    }
+  ]

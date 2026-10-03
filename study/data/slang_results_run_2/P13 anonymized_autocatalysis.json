@@ -1,0 +1,62 @@
+[
+  {
+    "expert_quote": "There's no big difference with ChatGPT and things like that. There's no big difference between 11 year experienced data engineer and a 6 year experience data engineer. If you ask me when it comes to coding and things like that.",
+    "mapped_id": "skill_obsolescence_pace",
+    "is_negative_case": false,
+    "rationale": "The participant uses the common professional phrase 'no big difference' to describe how AI tools are leveling and potentially devaluing traditional experience-based skill hierarchies, indicating a rapid pace of human competency becoming less relevant."
+  },
+  {
+    "expert_quote": "Previously, it had taken him six months and now we were saying it will take... less than two months... He was actually shocked... the kind of amount we were quoting was, let's say, 100 times less than what happened in the past.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The participant recounts client 'shock' at drastically reduced timelines and costs, highlighting a direct clash between the fast-paced, iterative 'AI time' of the service provider and the slower, sequential 'organizational time' the client was accustomed to."
+  },
+  {
+    "expert_quote": "But when it comes to deployment. I think there's a little bit of difference there.",
+    "mapped_id": "skill_obsolescence_pace",
+    "is_negative_case": false,
+    "rationale": "The participant makes a distinction, noting that while coding skills are homogenized by AI, deployment expertise may still have value. This subtly acknowledges the nuanced, uneven pace of obsolescence across different competency sub-domains."
+  },
+  {
+    "expert_quote": "So his way of telling it is like that... I wouldn't appreciate it. So I had to deconstruct it and say maybe I shouldn't repeat that process.",
+    "mapped_id": "judgment_substitution",
+    "is_negative_case": false,
+    "rationale": "The participant describes having to 'deconstruct' subtle human communication (tone, phrasing) after misinterpreting it. This points to the complex reconfiguration of human social judgment, contrasting with the binary clarity often expected from or provided by AI systems."
+  },
+  {
+    "expert_quote": "...there is also reality where people simply don't care and they just give you the entire dump and you do stuff.",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": false,
+    "rationale": "The participant contrasts formal policies (masking, GDPR) with the on-the-ground 'reality' of data handling. This 'just give you the entire dump' description exposes the gap between emerging ethical frameworks and established, expedient technical practices."
+  },
+  {
+    "expert_quote": "See if you recruit someone from Europe... the security, safety and GDPR, I think by default it comes to them... But if you recruit a guy... from India or Bangladesh? They may or may not know this. They just come and they get the job done and then they move on.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "The participant frames regional differences not in terms of technical skill, but in terms of default awareness of safety and ethical frameworks ('comes to them'), directly linking cultural background to the critical 'human acceptance and ethics' dimension of the socio-technical shift."
+  },
+  {
+    "expert_quote": "And then what ends up happening? What ended up happening was the servers could not handle it because of architectural issues.",
+    "mapped_id": "timeline_compression",
+    "is_negative_case": false,
+    "rationale": "The participant describes a project failure due to 'architectural issues' emerging after delivery. This exemplifies the friction of rapid innovation ('timeline_compression'), where new demands or unforeseen limitations force major system re-evaluations post-deployment."
+  },
+  {
+    "expert_quote": "We worked on some data engineering, data analytics, data warehousing, cloud projects... I would say there are some implementation differences... There are some customers who are open to use a chat GPT's API... There are some customers who buy the NVIDIA Jetson machine deploy... open source AI.",
+    "mapped_id": "tool_proliferation",
+    "is_negative_case": false,
+    "rationale": "The participant lists a wide array of adjacent technical domains and then specific, divergent AI tooling paths (APIs vs. on-prem hardware). This 'some do X, some do Y' description reflects the friction of managing a proliferating ecosystem of options faster than a single standard can be established."
+  },
+  {
+    "expert_quote": "AI from a technical side... it's just a neighbor of data engineering and data warehousing... there's no huge difference.",
+    "mapped_id": "gen_AI_acceleration",
+    "is_negative_case": true,
+    "rationale": "The participant explicitly downplays the disruptive novelty of AI, framing it as a contiguous evolution ('just a neighbor') from existing data practices. This is a negative case that contradicts the theory of generative AI causing a discontinuous, compounding acceleration in innovation processes."
+  },
+  {
+    "expert_quote": "We worked for... We worked on an AI project and the head of partnerships... gave the timeline of six months... I gave him the budget and I gave him the timeline and he was actually shocked.",
+    "mapped_id": "recursive_innovation",
+    "is_negative_case": false,
+    "rationale": "The core of the story is that the participant's firm can deliver an AI project vastly faster and cheaper than the client's past experience. This dramatic efficiency gain implies the use of advanced, productive AI/automation tools (like ChatGPT for coding) to accelerate the delivery of yet more AI solutions."
+  }
+]

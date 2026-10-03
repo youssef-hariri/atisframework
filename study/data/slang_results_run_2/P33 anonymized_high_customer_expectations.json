@@ -1,0 +1,26 @@
+[
+  {
+    "expert_quote": "sometimes it's difficult to, you know, someone will say something is going wrong on my computer or something is going wrong with my software. And then you have to ask them. Well, you know what? Computer are you using? What did you do? These kinds of questions. So sometimes there's. It can be difficult to like, communicate how much information we need and to have that conversation go smoothly.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "This quote illustrates the friction of 'feedback_dissonance' where users, operating under the 'Magic Box' expectation that AI should understand their problem without detailed context, provide insufficient bug reports. The engineer describes the additional labor required to re-educate users on the information necessary for troubleshooting, highlighting a gap between user expectations and system reality."
+  },
+  {
+    "expert_quote": "Particularly with the the current kind of projects that people are building with large language models and whatever. Their. It's such a general purpose technology. It's very you can't test for all possible things. There's many ways that it can go wrong.",
+    "mapped_id": "magic_box_perception",
+    "is_negative_case": false,
+    "rationale": "The speaker contrasts the perception of AI (especially LLMs) as a flawless, omnipotent 'Magic Box'—implied by the term 'general purpose technology'—with the practical reality of its inherent fallibility and unpredictability. This directly maps to the 'magic_box_perception' indicator of idealized, infallible expectations."
+  },
+  {
+    "expert_quote": "I'm not sure about that. I mean, there's maybe a stereotype that they do, but I don't think that's the case, I think.",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": true,
+    "rationale": "When asked if colleagues from different countries have different views on data privacy (a potential source of perceived AI bias or unfairness), the respondent explicitly contradicts the indicator. This is a negative case, indicating that in their experience, the 'unfairness_barriers' indicator—where rejection stems from perceived biases—is not a salient cultural factor within their technical team."
+  },
+  {
+    "expert_quote": "Again, for the same reasons. I have. I haven't experienced that as being a big, big difference.",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": true,
+    "rationale": "In response to a question about differing cultural approaches to AI ethics and model bias, the speaker explicitly states they have not observed significant differences. This contradicts the 'unfairness_barriers' indicator, which anticipates cultural variations in the perception of AI fairness as a barrier to adoption or trust."
+  }
+]

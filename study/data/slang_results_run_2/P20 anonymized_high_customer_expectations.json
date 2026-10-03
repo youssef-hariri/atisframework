@@ -1,0 +1,68 @@
+[
+  {
+    "expert_quote": "So basically you will enter your your details and then you will it would be able to pull out the data from the from the database based on the query which you have mentioned and then it will give you based it will give you the the data in...The the wordings statement in natural language. So basically everyone would be able to understand instead of see if if someone is from non it if someone is a non it person then it would be difficult for them to write a query and then you know pull out the data from the database. So basically what they would do is they would, you know mention you know this is what we need and then you know the the chatbot will go to that particular whatever the back end we implemented and then pull out the pull out the data.",
+    "mapped_id": "dreams_vs_reality",
+    "is_negative_case": false,
+    "rationale": "Person 2 describes an idealized vision where a chatbot flawlessly translates a non-IT user's natural language into perfect database queries and outputs, contrasting with the practical complexities of query formulation and data retrieval. This matches the indicator's description of 'idealized visions of AI capability' versus 'practical, imperfect outputs'."
+  },
+  {
+    "expert_quote": "But when you're having a interaction with foreign clients, OK, you will have to. You have to have a very professional and then you want, you know, you can't say a few things, but when you are too friendly, OK, when the client is very friendly and you. Have worked with them, you know from from over. I I think at least five years or four, two to three years when you're familiar with them then how they act and all then yeah, that would be that is feasible but yeah. It's always gonna be different.",
+    "mapped_id": "trust_understanding_gap",
+    "is_negative_case": false,
+    "rationale": "The quote describes a 'trust-building period' (2-5 years) required before clients relax professional barriers, indicating that initial interactions are governed by caution and a lack of transparent understanding. This aligns with the indicator's description of high optimism being initially undermined by an 'opaque' relationship that requires time to clarify."
+  },
+  {
+    "expert_quote": "So basically, if you if you work with most of the foreign clients, OK, they will act in a you know very professional way. So basically they they act as a you know. Like their whole life depends on the person who they are working with.",
+    "mapped_id": "magic_box_perception",
+    "is_negative_case": false,
+    "rationale": "The description of clients acting as if 'their whole life depends on the person they are working with' projects an expectation of infallible, total dependency on the service provider or solution (implicitly including technical solutions like AI systems). This mirrors the belief in an autonomous, flawlessly dependable 'Magic Box'."
+  },
+  {
+    "expert_quote": "So basically, if you if you work with most of the foreign clients, OK, they will act in a you know very professional way...We we won't be able to come to know whether they are, whether they're professional or not.",
+    "mapped_id": "explainability_deficit",
+    "is_negative_case": false,
+    "rationale": "The statement 'we won't be able to come to know whether they are...professional or not' points to a fundamental lack of transparency or interpretability in client behavior and expectations. This professional opacity mirrors the frustration caused by a lack of transparent, interpretable decision-making in AI systems."
+  },
+  {
+    "expert_quote": "You know each and everything. What's happening from your end and from other side as well?",
+    "mapped_id": "explainability_deficit",
+    "is_negative_case": false,
+    "rationale": "The emphasis on needing to know 'each and everything' happening on both sides reflects a core demand for total transparency and explainability in processes. This directly aligns with the indicator's focus on frustration due to a lack of transparent decision-making."
+  },
+  {
+    "expert_quote": "People are see you could communicate well you you would be having a very good English. You would be having a domain knowledge. One of the, you know, very critical thing nowadays is to understand the human. See, I may get the information from you, but I don't know how you work. OK, understanding of people is is very, very crucial.",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": false,
+    "rationale": "The statement highlights the gap between having raw information ('I may get the information from you') and true alignment ('I don't know how you work'). This underscores the risk of assuming AI recommendations or outputs will perfectly align with unspoken personal or organizational goals and working styles, which defines the utility mismatch."
+  },
+  {
+    "expert_quote": "They they most of the companies are not even using LLM. Sorry AI, just because of this. They want to make sure that or they want to run their own systems. OK, most of the companies are not lying on their all other stuff because they might not show that. You know that their data could be stealed OK...Someone could expose their data, yeah.",
+    "mapped_id": "paradoxical_expectations",
+    "is_negative_case": false,
+    "rationale": "This describes companies simultaneously desiring the benefits of AI ('using LLM') but rejecting it due to high perceived risks (data theft, exposure). This coexistence of high potential hope and high perceived risk perfectly encapsulates 'paradoxical expectations'."
+  },
+  {
+    "expert_quote": "So basically they they act as a you know. Like their whole life depends on the person who they are working with.",
+    "mapped_id": "anthropomorphic_projection",
+    "is_negative_case": false,
+    "rationale": "Attributing a life-or-death level of dependency ('their whole life depends on') to a professional relationship projects human-like characteristics of ultimate reliability and responsibility onto the service provider. This parallels expecting human-like reasoning or reliability from algorithms."
+  },
+  {
+    "expert_quote": "See, I have seen people, OK? Where I was given now I was. I was signed a task from them, OK. This does not mean that I should disturb them over and over again. So basically there are few things that foreigner foreigners OK, special us. You cannot. These peoples are are don't want to be. Don't like you to be disturbed very frequently.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "The quote describes users (clients) providing implicit 'feedback' (displeasure at being disturbed) based on unrealistic benchmarks of availability and communication frequency. Managing this requires the provider to adapt ('re-education labor' on appropriate interaction protocols), matching the friction's description."
+  },
+  {
+    "expert_quote": "They will not envy it you. They will will shout out you. They will break the contracts.",
+    "mapped_id": "trust_erosion",
+    "is_negative_case": false,
+    "rationale": "The described client reactions—shouting, breaking contracts—are clear indicators of severe disillusionment and resistance. This breakdown in the professional relationship directly corresponds to the 'disillusionment...leading to resistance to scaling and demands for redesign' outlined in the trust_erosion friction."
+  },
+  {
+    "expert_quote": "See, I think in today's world, OK, in 21st century, people are really, really to open minded, OK. They are very mindful, OK, they keep. If you if you go back 10 decades back OK10 decades ago, you will find that, you know, people were narrow minded. They used to mind each and everything there. They they used to lose their temple. OK. But but in today. Time. OK, things have changed drastically. So if you are saying that, you know people are fighting, just goes on the different culture. It's not like that.",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": true,
+    "rationale": "Person 2 explicitly contradicts the premise of cultural clashes or bias ('It's not like that') causing conflict in modern, professional settings. This is a direct negative case for the 'unfairness_barriers' indicator, which posits rejection due to perceived biases. Person 2 argues this specific barrier is largely absent in contemporary professional contexts."
+  }
+]

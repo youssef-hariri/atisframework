@@ -1,0 +1,80 @@
+[
+  {
+    "expert_quote": "I'm standing more the human side of the like of making an AI project. Like how the team work together.",
+    "mapped_id": "socio_technical_transition",
+    "is_negative_case": false,
+    "rationale": "The phrase 'the human side of...making an AI project' directly describes the shift from purely technical execution to a focus on human collaboration, matching the indicator of moving toward hybrid human-AI models."
+  },
+  {
+    "expert_quote": "The more things are subjective and complicated...The more complexity there is in establishing communication.",
+    "mapped_id": "workflow_brittleness",
+    "is_negative_case": false,
+    "rationale": "Describes communication complexity as a source of vulnerability in collaborative processes, aligning with the concept of increased brittleness when integrating diverse perspectives into adaptive workflows."
+  },
+  {
+    "expert_quote": "With clients, I'm often talking to people whose...come from a business background...And their the perspective is just different...Things need to be adjusted for right and try to understand it.",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "Highlights the need to adjust communication and roles when interfacing between technical and business domains, exemplifying the project manager's shift toward mediation and system oversight."
+  },
+  {
+    "expert_quote": "It's another source of potential breakdowns in communication right where expectations are different...This is not just across...Cultures...it's also differences between, for example. A person who's training is technical...and...people who...come from a business background.",
+    "mapped_id": "integration_friction",
+    "is_negative_case": false,
+    "rationale": "Frames differing professional and cultural expectations as a direct source of breakdown, capturing the friction of embedding AI/technical workflows into broader business contexts."
+  },
+  {
+    "expert_quote": "I feel like...a French educated person...is thinking about things in a more mathematical and theoretical perspective...In the right context. That is a superpower...in a different context. It might make a person...not as suitable maybe to a project.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "Describes a tension between deep theoretical (data-centric) knowledge and the practical needs of a project, illustrating the clash between specialized AI knowledge and applied, contextual human understanding."
+  },
+  {
+    "expert_quote": "I need help to finish some proof right. And that guy is the right guy to talk about. Now I need to explain or think about how different stakeholders might read the project...Maybe he is not the guy to like. Talk about the wording...I still want his perspective...And now maybe someone else is better to like. Hash these things out with.",
+    "mapped_id": "procedural_nonlinearity",
+    "is_negative_case": false,
+    "rationale": "Describes an iterative, looping process of gathering specialized input and then passing work to others for different phases, contradicting a strict linear, phase-gated methodology."
+  },
+  {
+    "expert_quote": "When a new idea maybe became accepted, I tried it on on multiple people...It like makes sense to people who have different backgrounds also academically...But also culturally and then that it comes out stronger because of this.",
+    "mapped_id": "silo_breakdown",
+    "is_negative_case": false,
+    "rationale": "Describes vetting ideas across diverse academic and cultural backgrounds as a strength, demonstrating how effective AI/data work requires breaking down traditional knowledge silos."
+  },
+  {
+    "expert_quote": "It felt like...everything has to have a happy face on it...even if I try to open a conversation...there's nothing wrong...but we're not doing that anymore...in a way that I feel doesn't make sense.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "Uses the metaphor of a 'happy face' to describe an environment where direct feedback and problem-solving are suppressed in favor of surface harmony, exemplifying cultural resistance to candid, data-centric dialogue."
+  },
+  {
+    "expert_quote": "So I don't think that it makes sense to talk about it as like a cultural thing, right?...I never have enough data to say something like...it's definitely all of the French people are theoretical or something like that...But talking to people candidly about like the parts that they care about more and the parts they're better at, I think is important.",
+    "mapped_id": "role_transition_hurdles",
+    "is_negative_case": false,
+    "rationale": "Rejects stereotyping but emphasizes candid conversation about individual strengths, highlighting the practical reskilling and interpersonal negotiation needed to reconfigure roles effectively in diverse teams."
+  },
+  {
+    "expert_quote": "If they're in a leadership role right then the most important thing is to use the power that they have right to...help navigate things...as opposed to using their power to, you know, just get their way right. Stop a discussion and focus on what they think is the best.",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": false,
+    "rationale": "Contrasts facilitative leadership with autocratic decision-making, reflecting the core tension between the efficiency of top-down control (akin to predictive automation) and the ethical need for inclusive human oversight and judgment."
+  },
+  {
+    "expert_quote": "It's like you have different potential sources of complexity and if you over if you have too much of too many of them, then things can fail...It can be because of the complexities of AI. It can sometimes be like a situation is too political. In addition to multicultural.",
+    "mapped_id": "workflow_brittleness",
+    "is_negative_case": false,
+    "rationale": "Uses the metaphor of a 'complexity budget' to describe how accumulating challenges (AI complexity, politics, culture) can cause systemic failure, directly illustrating the brittleness of workflows under excessive adaptive strain."
+  },
+  {
+    "expert_quote": "I don't think I've had an opportunity where where that came up. [Regarding data privacy/ethics]",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": true,
+    "rationale": "This is a negative case. The speaker explicitly states a lack of personal experience with ethical tensions around data privacy, which contradicts the theoretical expectation of this friction being a common challenge in AI integration."
+  },
+  {
+    "expert_quote": "I don't think I have personal experience with that, right? [Regarding model bias]",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": true,
+    "rationale": "This is a negative case. The speaker explicitly states a lack of direct experience with cultural bias in models, contradicting the theoretical construct's assumption of this as a prevalent friction point."
+  }
+]

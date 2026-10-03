@@ -1,0 +1,38 @@
+[
+  {
+    "indicator": "magic_box_perception",
+    "quote": "It's I think it's very robotic. It doesn't... have like a plethora of phrases and questions that they can pose in front of a client. But when it comes to understanding in what state the client is, maybe for example, if I'm talking to you, if I know what your mood is, I would maybe try to have a conversation a particular way, right?",
+    "analysis": "Person 2 directly contrasts AI's capabilities with human empathy and situational awareness. This frames AI as a limited, impersonal tool ('robotic') rather than an infallible 'Magic Box,' debunking the notion of it being a perfect, autonomous solution.",
+    "is_negative_case": true
+  },
+  {
+    "indicator": "anthropomorphic_projection",
+    "quote": "humans are with emotions and I have nobody can steal that away from us. What you know AI is doing is that it can have like a plethora of phrases and questions that they can pose... But when it comes to understanding in what state the client is...",
+    "analysis": "Person 2 explicitly sets a boundary, preventing the anthropomorphizing of AI. They assign unique, irreplaceable value to human emotional intelligence, rejecting the expectation that algorithms can replicate human-like relational reasoning or reliability.",
+    "is_negative_case": true
+  },
+  {
+    "indicator": "utility_mismatch",
+    "quote": "The type of I would say the tonality of any sort of messaging is very important because see sitting in India, I do not know what sort of problems people are facing in a different part of the country and we might not, you know, touch upon those topics... it's getting started to a particular conversation is very difficult.",
+    "analysis": "This highlights a core utility mismatch. An AI trained on general or regional data may fail to align with the specific, culturally nuanced goals and communication styles of a client in another country. Person 2's human-centric, research-based approach is presented as the necessary corrective.",
+    "is_negative_case": false
+  },
+  {
+    "indicator": "feedback_dissonance",
+    "meta_observation": "While Person 2 describes a feedback *process*, their method is designed to circumvent the very friction this indicator describes. They note that 'people do not like to give feedbacks' and that written feedback is particularly difficult. Their solution—structured questionnaires with ratings—is a form of 're-education labor' to manage unrealistic expectations about how feedback should be given and received, adapting the process to human reluctance rather than expecting AI-like efficiency.",
+    "supporting_quotes": [
+      "People do not like to give feedbacks... when it comes to written feedback, people hesitate a bit... what has worked for me is that... you prepare a questionnaire... you ask them to give you a rating.",
+      "even after one month we follow up with the client then OK we had this training. Do you think it was successful? Is there a behavioral change in your team?"
+    ],
+    "is_negative_case": false
+  },
+  {
+    "indicator": "trust_understanding_gap",
+    "meta_observation": "Person 2's entire narrative is about building trust through human understanding, implicitly acknowledging that a gap exists when only technology is involved. Their strategy—researching the client, showing empathy, adapting communication—is a direct response to the risk of high optimism being undermined by opaque or unsatisfactory interactions. Trust is built culturally and personally, not algorithmically.",
+    "supporting_quotes": [
+      "I try to research a lot about the person that I am meeting... I try to be very human.",
+      "you have to be aware. I think if the client is from any particular region, you have to be aware that what is happening you you have to be empathetic."
+    ],
+    "is_negative_case": false
+  }
+]

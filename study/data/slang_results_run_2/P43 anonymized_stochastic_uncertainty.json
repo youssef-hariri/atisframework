@@ -1,0 +1,38 @@
+[
+  {
+    "expert_quote": "But the way he the way she told me. It's for for me, it's not clear enough.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The phrase 'not clear enough' indicates a direct experience with the complexity and difficulty of explaining the rationale behind a project decision (discontinuing the admin interface), which aligns with the definition of algorithmic outcomes being hard to explain."
+  },
+  {
+    "expert_quote": "But yeah, she only said that all you can need to take. I I don't want to take your time to doing this this project.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The manager's indirect communication about discontinuing a feature ('I don't want to take your time') created ambiguity and a lack of a clear, explainable reason for the project shift, reflecting opaque decision-making."
+  },
+  {
+    "expert_quote": "The admin interfaces too complicated for her and 'cause. Yeah, she she doesn't have a computer science program, so she worried that she cannot make changes in the future.",
+    "mapped_id": "model_drift",
+    "is_negative_case": false,
+    "rationale": "The concern about being unable to 'make changes in the future' due to system complexity is a direct, non-technical expression of anxiety over the model's maintainability and potential performance decay over time, matching the 'model_drift' indicator."
+  },
+  {
+    "expert_quote": "And I think that's the main part that she cannot handle. It is she she. She cannot. Maybe she cannot handle it 'cause. Yeah, yeah, I think it's true that. It's more complicated than the previous fashion.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The repeated use of 'cannot handle' and 'complicated' describes a scenario where the system's internal complexity creates a barrier to understanding and control, a core element of opaque algorithmic outcomes."
+  },
+  {
+    "expert_quote": "For the culture. I think it it didn't have any effect. To the successful of the project.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": true,
+    "rationale": "This is a clear negative case. The speaker explicitly states that cultural differences did *not* create the friction of making it difficult to assign responsibility for decisions, which contradicts the 'accountability_challenges' friction as defined."
+  },
+  {
+    "expert_quote": "She she has like. A quite a different accent of English. So it's quite sometimes it's difficult to understand what she said",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "While directly about language, the 'difficult to understand' slang metaphorically extends to the broader theme of communication breakdowns that can contribute to a lack of clarity in project requirements and outcomes, a facet of opacity."
+  }
+]

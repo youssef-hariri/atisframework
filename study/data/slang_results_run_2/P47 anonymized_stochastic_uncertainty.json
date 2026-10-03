@@ -1,0 +1,38 @@
+[
+  {
+    "expert_quote": "So this multicultural setup... I will talk about work culture because there's some... Projects, when we did in that... Then another factor I will see is all of them speak English, so language is not it is they all communicate in English so that I don't see as a barrier...",
+    "mapped_id": "lack_of_reproducibility",
+    "is_negative_case": true,
+    "rationale": "The speaker explicitly states that language, a common barrier to consistent process execution and communication in diverse teams, is not an issue for them, creating a negative case against the indicator of being unable to replicate conditions for results."
+  },
+  {
+    "expert_quote": "I wanted actually a fresh perspective... Based on this knowledge and the background and the skill set, I felt the new entrant was little better than the existing workforce. But of course workforce they complemented because the new blood was not understanding the business logic and how the real world works... they had that under current they always had that... Whether how much I can use this? How this will play out? In the future so that they always had, though they embraced it still they had that some questions.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The description of experienced team members having persistent 'questions' and uncertainty about AI's future capability and application ('How this will play out?') aligns with the slang expression of 'opaque outcomes,' reflecting a lack of clarity in algorithmic potential and decision-making."
+  },
+  {
+    "expert_quote": "The approach is the hardware guys were more practical and we could understand, OK, what perspective? They are looking at that AI copilot, that difference we could see and the software team they were actually looking at the logical side.",
+    "mapped_id": "probabilistic_variance",
+    "is_negative_case": false,
+    "rationale": "The 'difference' in perspective between hardware and software teams when testing the same AI copilot illustrates variance in interpretation and evaluation, a human-system parallel to fluctuations in model predictions based on different 'data' inputs or viewpoints."
+  },
+  {
+    "expert_quote": "They take if there is a new admission in the school... The hard way team they go, take the picture. They share it with them. They run through his model and he just makes it fit enough for the ID card system he gives... So like so like that they became. They did. Using him in their regular workflow.",
+    "mapped_id": "dynamic_forecast_adjustment",
+    "is_negative_case": false,
+    "rationale": "The integration of the AI model into the 'regular workflow' for a standardized task (ID card photos) suggests a move away from constant, reactive adjustment. This humanizes the concept of 'dynamic forecast adjustment' by showing a process being stabilized and embedded, reducing the need for baseline updates."
+  },
+  {
+    "expert_quote": "I talked to them one to one... I I set common rules, OK?... They know it will affect their appraisal... I I talked to them one by one... So like that, we tell them and they understand. That is how we sort out.",
+    "mapped_id": "baseline_erosion",
+    "is_negative_case": false,
+    "rationale": "The manager's actions of setting 'common rules' and linking performance to 'appraisal' directly counter the concept of 'baseline erosion.' This is a management practice aimed at creating stability and clear expectations, preventing the repeated adjustment of forecasts and commitments due to team variance."
+  },
+  {
+    "expert_quote": "I was asking certain. Things to her I I told. Her as a leader, you have to make sure your team members are empowered... So that person was not developing empowering people there. She was not developing the second line leaders. When I told that OK, when I told that. It was not taken in the right way.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": false,
+    "rationale": "The conflict over leadership style and empowerment ('not developing the second line leaders') highlights difficulties in assigning clear responsibility and authority within a team structure. This mirrors the friction of 'accountability challenges' where opacity in processes or decisions makes it hard to assign responsibility."
+  }
+]

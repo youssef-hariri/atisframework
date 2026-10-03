@@ -1,0 +1,86 @@
+[
+  {
+    "indicator": "non_deterministic_outputs",
+    "presence": "indirect",
+    "evidence": "Person 2 discusses using both external AI (e.g., ChatGPT) and in-house models, noting that in-house models are more likely to be 'biased' due to being trained on localized student data. This implies outputs are not fixed and can vary based on the model's training data source, aligning with non-deterministic behavior.",
+    "metaphors": [],
+    "negative_cases": "Successes are achieved when diverse cultural perspectives bring varied ideas forward, which can counteract potential negative effects of non-deterministic outputs by enriching the solution space."
+  },
+  {
+    "indicator": "probabilistic_variance",
+    "presence": "present",
+    "evidence": "Explicitly contrasts external AI models, which show 'less biases,' with in-house models that show 'more biases' due to their training on specific, local datasets. This highlights how statistical variance in predictions depends heavily on the data source and model deployment.",
+    "metaphors": [],
+    "negative_cases": null
+  },
+  {
+    "indicator": "model_drift",
+    "presence": "indirect",
+    "evidence": "While not explicitly stated, the initiative to implement in-house AI servers to maintain data privacy implies an ongoing need to manage and update models to remain relevant and secure against evolving threats (e.g., cyber attacks) and changing educational data patterns.",
+    "metaphors": [],
+    "negative_cases": null
+  },
+  {
+    "indicator": "lack_of_reproducibility",
+    "presence": "implied",
+    "evidence": "The focus on training in-house models with specific, local student data suggests that results may not be easily replicable in different contexts or with different demographic groups, hinting at reproducibility challenges.",
+    "metaphors": [],
+    "negative_cases": null
+  },
+  {
+    "indicator": "data_dependency",
+    "presence": "strong",
+    "evidence": "Strongly emphasized. Person 2 states that in-house AI models are purposefully biased because they are trained on 'data only for local students.' This shows a high, intentional sensitivity to the specific historical data used, which defines the model's behavior and utility.",
+    "metaphors": [],
+    "negative_cases": null
+  },
+  {
+    "indicator": "non_linear_estimation",
+    "presence": "present",
+    "evidence": "Describes 'roadblocks' in projects where team members from less vocal cultures withhold concerns, leading to the discovery of feasibility issues 'later on in the later stages of the project.' This forces the team to 'retrace steps,' illustrating non-linear, complex project paths that deviate from initial plans.",
+    "metaphors": [
+      {
+        "phrase": "roadblocks",
+        "interpretation": "Metaphor for unforeseen, non-linear impediments in the project lifecycle caused by communication gaps rooted in cultural differences."
+      },
+      {
+        "phrase": "retrace our steps",
+        "interpretation": "Metaphor for the iterative, non-linear correction process required when initial assumptions or plans prove flawed."
+      }
+    ],
+    "negative_cases": "The proactive, vocal nature of some cultures (e.g., American, Canadian) is cited as a source of project success, as it surfaces ideas and potential problems early, potentially simplifying and linearizing project estimation."
+  },
+  {
+    "indicator": "opaque_outcomes",
+    "presence": "present",
+    "evidence": "Discusses the intentional use of biased, in-house AI models for certain applications. While sometimes desirable, this introduces complexity in explaining algorithmic decisions, especially in sensitive areas like 'fairness in giving opportunities or in evaluation for the admission criterias.'",
+    "metaphors": [],
+    "negative_cases": null
+  },
+  {
+    "indicator": "dynamic_forecast_adjustment",
+    "presence": "present",
+    "evidence": "The repeated need to 'retrace steps' and correct mistakes mid-project due to late-emerging information is a direct example of baseline instability. Project forecasts and commitments must be constantly updated, indicating underlying system and process instability.",
+    "metaphors": [
+      {
+        "phrase": "go back, retrace our steps",
+        "interpretation": "Metaphor for the dynamic and unstable nature of project forecasting, where baselines are not fixed and require constant revision."
+      }
+    ],
+    "negative_cases": "A well-managed, open communication environment is described as a mitigator, where people feel safe to voice concerns early, reducing the need for drastic forecast adjustments later."
+  },
+  {
+    "management_friction": "baseline_erosion",
+    "presence": "present",
+    "evidence": "The described project roadblocks and necessary mid-course corrections directly lead to repeated adjustments in project forecasts, deliverables, and timelines, eroding the initial baseline.",
+    "metaphors": [],
+    "negative_cases": null
+  },
+  {
+    "management_friction": "accountability_challenges",
+    "presence": "indirect",
+    "evidence": "While not explicitly about AI decisions, Person 2 discusses the difficulty in fostering an environment where team members feel accountable for voicing concerns early. This mirrors the challenge of assigning clear responsibility when outcomes are shaped by opaque processes or delayed information flow.",
+    "metaphors": [],
+    "negative_cases": "Clear leadership practices (e.g., one-on-one meetings, fostering an open environment) are employed to clarify and encourage individual accountability, countering this friction."
+  }
+]

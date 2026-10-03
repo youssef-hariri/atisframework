@@ -1,0 +1,56 @@
+[
+  {
+    "expert_quote": "In the past years I've been mainly active in, in, in the energy space where we have to deal with with the processing, with loads of data... AI is, yeah, it's becoming more and more dominant in in data processing also in some cases. Replacing traditional applications in the energy space as well.",
+    "mapped_id": "recursive_innovation",
+    "is_negative_case": false,
+    "rationale": "The quote describes AI's expanding role in replacing traditional applications and processing vast datasets in a specialized domain. This reflects the recursive nature where AI systems are increasingly used to handle the complex data environments they help create, accelerating their own field's development and application scope."
+  },
+  {
+    "expert_quote": "And that's and that's something there where? Yeah, I see most of my, my, my my colleagues fail as as well and in some cases I think I do it right. In other cases I do it also completely wrong, but that's, but that's that's very weird. Need to do those assessments on how well are we performing? At this moment.",
+    "mapped_id": "skill_obsolescence_pace",
+    "is_negative_case": false,
+    "rationale": "The speaker describes a constant, ad-hoc need for self-assessment and adaptation in managerial approach ('that's very weird. Need to do those assessments'). This mirrors the pressure of skill obsolescence, where established competencies (like traditional management styles) must be continuously re-evaluated and updated in fast-changing, cross-cultural, tech-driven environments."
+  },
+  {
+    "expert_quote": "If I'm telling something, then people know he's got the title first president and then. It's it's. It's hard for people to to provide a critique. I mean that they are typically dealing with well, if he's saying it, then it's probably true. Let's let's let's work with it.",
+    "mapped_id": "judgment_substitution",
+    "is_negative_case": false,
+    "rationale": "The quote describes a cultural context where hierarchical authority leads to the automatic acceptance of a leader's statement as 'probably true,' substituting the team's own critical judgment. This is analogous to the theoretical concept where superior (or perceived superior) AI predictive capabilities lead to the reconfiguration and potential atrophy of human evaluative judgment."
+  },
+  {
+    "expert_quote": "We were dealing with teams in Russia that at that moment... And there in in that cultural setup, they respected the old management that they had, that they didn't respect the new management that that they had. And then we ended up in a. Almost hostile environment... and then we're finding out it doesn't work... you try to fix it by traveling over there or having the people over here. But then it's too late.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The failure in this DevOps project is attributed to a deep-seated cultural misalignment that was not identified or addressed in time. The 'fix' (travel, meetings) operates on a slow, human relational 'organizational time,' but the discovery of the problem ('it doesn't work') and its consequences happen in 'project time,' creating an irretrievable lag. This clash between the pace of social/technical integration and the pace of delivery is a core friction of temporal misalignment."
+  },
+  {
+    "expert_quote": "And that that's where leadership really needs to teach the the the people... you have to work with people in a completely different country, or different different different cultures. If you don't, yeah. What is it ingrained that in in their brain then? That, yeah. Then you get those. Yeah, almost racist type type of approaches that that you have... that's where leadership needs to make sure... be well prepared.",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": false,
+    "rationale": "The speaker identifies a critical gap: new employees enter complex multicultural AI projects without ingrained ethical and cultural frameworks ('If you don't... ingrained that in their brain'). The 'almost racist' approaches that emerge are a socio-technical risk. The call for leadership to 'teach' and 'make sure' people are 'well prepared' highlights that formal governance, training, and ethical frameworks are reactive, emerging only after the technical and collaborative environment is already deployed and causing friction."
+  },
+  {
+    "expert_quote": "But if you're aware of people wanting the best, and if you collaborate with them on on that one, then you're way more successful than in. A. Yeah, I I would. Call it a tad bit lazy type of attitude that that we have here in the West...",
+    "mapped_id": "tool_proliferation",
+    "is_negative_case": false,
+    "rationale": "The speaker contrasts a 'drive for the best' (in teams from India, Malaysia, Philippines) with a 'tad bit lazy... attitude' in the West. In the context of autocatalysis, this 'drive' can manifest as the relentless adoption and pursuit of the newest frameworks and tools ('the best'). Success is framed as leveraging this cultural drive through close collaboration, which implicitly acknowledges the challenge of managing the pace and motivation behind constant tool evaluation and integration."
+  },
+  {
+    "expert_quote": "I mean for, for, for us everything is is fine right? I mean the models are trained in in. Us slash European dives. And then it worked for us. But I'm not sure if if our people in. In the east or far West actually like Watchat you, Betty is doing that kind of stuff so.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "The speaker explicitly questions the universal applicability and acceptance of AI models (LLMs) trained on Western data ('for us everything is fine'). This moves the conversation from pure technical capability ('it worked for us') to critical concerns of cultural bias, human acceptance, and ethical deployment in a global context. This reflects the shift in focus from economic/technical benefits to the human and ethical dimensions necessitated by the technology's rapid, global spread."
+  },
+  {
+    "expert_quote": "In some cases, it is true from a domain perspective, but that is that is that is more about a knowledge perspective. But not always about this is the way you go about it.",
+    "mapped_id": "continuous_training_demand",
+    "is_negative_case": false,
+    "rationale": "The speaker distinguishes between static 'domain knowledge' and the dynamic, procedural knowledge of 'the way you go about it' when working in new cultural/team contexts. This parallels the management friction of continuous training, where keeping up isn't just about new AI 'subtypes' (technical knowledge), but about the evolving 'soft' methodologies, protocols, and collaborative practices required to integrate them effectively across a global organization."
+  },
+  {
+    "expert_quote": "I have the luxury to work with teams that have been working with for for years already. So, so so we haven't kind of ingrained pattern and we know what to expect for from from each other... But as soon as you start something new, then it's almost like, yeah, all the assumptions that you have that you have from your old teams. They're all bound with rang. You have to do that again...",
+    "mapped_id": "timeline_compression",
+    "is_negative_case": false,
+    "rationale": "The speaker describes a stable, patterned working relationship ('for years') that is completely reset ('all bound with rang') when starting a new project with new teams. This necessitates re-establishing trust, communication, and workflows from scratch. This mirrors the friction of timeline compression in autocatalysis, where the rapid obsolescence of tools or team compositions forces a constant re-evaluation and re-establishment of foundational project architectures and human coordination patterns, disrupting planned cycles."
+  }
+]

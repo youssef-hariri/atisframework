@@ -1,0 +1,44 @@
+[
+  {
+    "expert_quote": "We had to work for like a very long time to come up with like. A viable solution? That we could deploy.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The participant describes 'a very long time' for development and deployment, contrasting with 'AI time' (fast, iterative) and highlighting a slow, sequential organizational process typical of the temporal misalignment friction in autocatalytic environments."
+  },
+  {
+    "expert_quote": "The feedback loop was like pretty slow back in Nepal...",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The participant's description of a 'slow' feedback loop contrasts directly with the fast, recursive pace ('AI time') central to autocatalysis, underscoring a critical temporal friction."
+  },
+  {
+    "expert_quote": "Here in us. The feedbacks are like very a quick. And you know, like way to the point and it actually helps us findune [fine-tune] our products, right.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": true,
+    "rationale": "The participant explicitly describes a 'quick' feedback loop in the US context. This contradicts the 'temporal misalignment' indicator, suggesting that not all organizational cultures are equally slow, thus representing a negative case where the expected friction is reduced or absent."
+  },
+  {
+    "expert_quote": "Even if you don't, you know like give like a tangible result. You're still appreciated.",
+    "mapped_id": "skill_obsolescence_pace",
+    "is_negative_case": true,
+    "rationale": "This quote describes an organizational appreciation for effort over immediate, tangible results. This human-centered approach (appreciation for hard work) can serve as a buffer against the rapid skill obsolescence driven by autocatalysis, representing a counteractive or negative case to the indicator."
+  },
+  {
+    "expert_quote": "We did introduce a lot of bias from these experts, right? Even though they were like experts, probably they may not have. Had the opportunity to the opportunity to look at the data... they're rather making this and based on their own experiences, right?",
+    "mapped_id": "judgment_substitution",
+    "is_negative_case": false,
+    "rationale": "The participant critiques the uncritical substitution of human expert judgment into an automated system (credit scoring). This directly maps to the reconfiguration of human judgment as a source of bias, a core process within the 'judgment_substitution' indicator."
+  },
+  {
+    "expert_quote": "It was like really difficult to. Communicate the feedbacks, right? And it was like very difficult to get feedbacks as well. Because I think. Probably I think it was probably because they had very less idea about, you know, like what they actually wanted.",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": false,
+    "rationale": "The participant describes a client with 'very less idea' of their needs, leading to poor communication and feedback. This reflects a foundational socio-technical misalignment and knowledge gap, which is a precursor and contributing factor to the 'regulatory_lag' where governance (here, clear requirements and evaluation frameworks) lags behind technical ambition."
+  },
+  {
+    "expert_quote": "I think you know like. The ******* manager. They're not very flexible about certain things... They don't give you a lot of personal space... they would, you know, like ask you, why do you need the holiday, you know?... they're kind of ask you like, you know, like also when, like, bring your doctor's. Like prescription or something like that, right?",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "The participant describes a rigid, invasive, and transactional managerial culture that prioritizes control over human needs (personal space, trust). This exemplifies the type of traditional organizational 'friction' that the 'socio_technical_shift' indicator predicts will become a central point of tension and required change as autocatalysis forces a focus on human factors like well-being and acceptance."
+  }
+]

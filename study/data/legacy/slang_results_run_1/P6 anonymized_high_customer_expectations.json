@@ -1,0 +1,42 @@
+[
+  {
+    "time_range": "5:35.480-6:25.160",
+    "transcript_excerpt": "because these IT and machine learning, AI, mathematics, science is everything is a very, very, very dynamic field where there is a lots of new things coming. Every month, every week there are lots of research. So best thing is the person should have a understanding of things...",
+    "indicators": ["magic_box_perception"],
+    "metaphors": ["AI as a 'dynamic field' requiring constant adaptation"],
+    "negative_case": true,
+    "analysis": "Person 2 explicitly contradicts the 'magic box' perception by describing AI as a rapidly evolving, complex field requiring continuous learning and technical understanding. This frames AI success as dependent on human expertise and effort, not autonomous perfection."
+  },
+  {
+    "time_range": "10:52.270-11:17.850",
+    "transcript_excerpt": "How to deliver thing instead of hiring the people who doesn't have a technical background and put them into the directly? It doesn't give much good result because the maturity of understanding results and durations. It's not much there because the person is blindly follow the management tricks instead following the what can be outcome with technical understanding.",
+    "indicators": ["trust_understanding_gap", "explainability_deficit"],
+    "metaphors": ["Technical understanding as a compass vs. 'blindly following management tricks'"],
+    "negative_case": true,
+    "analysis": "Person 2 identifies a core friction: non-technical stakeholders (like certain managers or Scrum Masters) lack the understanding to set realistic expectations or timelines. This creates a gap where AI projects are managed by 'tricks' rather than technical reality, directly opposing the 'set-and-forget' magic box idea."
+  },
+  {
+    "time_range": "12:00.610-12:16.760",
+    "transcript_excerpt": "Every IT domain is a dynamic where you have two constraints only learn new things, so it required that person should have understanding of almost... AI domain specificities",
+    "indicators": ["dreams_vs_reality"],
+    "metaphors": ["AI work as a constant learning challenge with 'constraints'"],
+    "negative_case": true,
+    "analysis": "This statement grounds AI work in the reality of constraints and the necessity for deep, specific knowledge. It implicitly contrasts with idealized visions of AI as an effortless, boundless solution, positioning it instead as a disciplined technical field."
+  },
+  {
+    "time_range": "15:37.070-16:03.680",
+    "transcript_excerpt": "Because majority problem in any IT domain is that when you put the person under pressure and you force, the person loses the interest in the team and work. I think better to appreciate pressure is also there or better to appreciate and make them independent to take decision...",
+    "indicators": ["utility_mismatch", "trust_erosion"],
+    "metaphors": ["Team management as inspiration vs. pressure; Independence as key to results"],
+    "negative_case": true,
+    "analysis": "Person 2 describes a management philosophy centered on trust, appreciation, and granting autonomy to technical teams. This contradicts a top-down, results-at-all-costs approach that might stem from treating AI as a mere utility to be forced into delivering. It highlights that sustainable success requires managing human factors, not just expecting algorithmic output."
+  },
+  {
+    "time_range": "24:45.570-25:33.310",
+    "transcript_excerpt": "Experience is not 100% required if you are quite capable of handling your yourself... If you have a passion. You develop something new, you have an idea you can deliver best and that is the only experience actually that you have a passion... That is the maturity actually.",
+    "indicators": ["anthropomorphic_projection"],
+    "metaphors": ["Maturity and capability as rooted in 'passion' and 'vision', not just experience"],
+    "negative_case": true,
+    "analysis": "Person 2 defines maturity in AI/tech not by years of experience (a common, sometimes biased, proxy) but by passion, vision, and self-driven capability. This subtly argues against anthropomorphizing AI teams or expecting reliability from mere tenure; true reliability comes from intrinsic motivation and a growth mindset, qualities that defy simplistic projection."
+  }
+]

@@ -1,0 +1,89 @@
+[
+    {
+      "indicator": "dreams_vs_reality",
+      "evidence": [
+        "At the start, when there's an idea, usually everyone is very enthusiastic and thinks their lives will get easier... But then when it comes to really trying to, yeah, give it a place in the organization. That's usually when the resistance gets a bit up and people think, oh, wait, we also need to change some parts of our processes. We don't want that.",
+        "Describes the initial project goal as clear and technically successful ('exceed that goal'), but ultimate failure due to sales recruiters seeing the shared data solution as a 'disincentive' that removed their competitive edge."
+      ],
+      "quote_ref": ["0:44", "1:36"]
+    },
+    {
+      "indicator": "trust_understanding_gap",
+      "evidence": [
+        "The German team was 'quite critical' and made 'apples with oranges' comparisons, expecting scraped internet candidate profiles to be as tailored as pre-filtered, uploaded CVs. This shows high optimism for the tool's capability undermined by a fundamental misunderstanding of its input data and scope.",
+        "In a later dashboard project, Person 2 couldn't convince business people of the solution's value due to a lack of a clear benchmark against current processes, leading to hesitancy and non-adoption despite the creator's belief it was 'much better'."
+      ],
+      "quote_ref": ["0:36", "1:13"]
+    },
+    {
+      "indicator": "paradoxical_expectations",
+      "evidence": [
+        "Sales recruiters exhibited this: they had high hopes for the tool to aid sourcing but perceived high risk that it would erode their individual competitive advantage ('if everyone has this information, there's no reward')."
+      ],
+      "quote_ref": ["1:49"]
+    },
+    {
+      "indicator": "magic_box_perception",
+      "evidence": [
+        "The central Dutch headquarters' vision to use the AI project for 'centralization' implies a perception of the technology as an autonomous solution that could standardize and control processes across regional divisions, overlooking local resistance and cultural independence."
+      ],
+      "quote_ref": ["0:27"]
+    },
+    {
+      "indicator": "explainability_deficit",
+      "evidence": [
+        "Person 2 states a core challenge: 'with machine learning AI there's this little extra abstraction layer which is just very hard for... non-core data experts to to fully appreciate.' This abstraction directly fuels the understanding gap and unrealistic comparisons seen with the German team."
+      ],
+      "quote_ref": ["1:07"]
+    },
+    {
+      "indicator": "utility_mismatch",
+      "evidence": [
+        "The project failed because the AI solution's utility (standardized, shared candidate pool for organizational efficiency) did not align with the sales recruiters' personal/organizational sub-goals (maintaining individual competitive advantage and performance metrics)."
+      ],
+      "quote_ref": ["1:49"]
+    }
+  ],
+  "metaphors_identified": [
+    {
+      "metaphor": "Glue",
+      "context": "Used to describe shared language/culture (Dutch/Flemish) that helps bridge differences and smooth collaboration.",
+      "quote": "It's it's a sort of glue, so to say."
+    },
+    {
+      "metaphor": "Islands",
+      "context": "Describes the risk in teams where one dominant culture has a small sub-branch of another, leading to silos and communication breakdowns.",
+      "quote": "I think in that case you can have the a big opportunity to have islands..."
+    },
+    {
+      "metaphor": "Centralization",
+      "context": "Used not just as an operational term, but as a metaphor for the perceived power of the AI solution to homogenize processes and control across culturally distinct regions.",
+      "quote": "...this sort of tendency to also use the AI machine learning project to do some centralization."
+    }
+  ],
+  "negative_cases": [
+    {
+      "case": "Successful Expectation Alignment with a Data-Savvy Manager",
+      "description": "Person 2 highlights a counter-example where clear, realistic goals were set from the start because a 'data manager... was really well versed in the topic.' This person understood what ML could do and the current process, creating a realistic benchmark (90% accuracy). This alignment led to technical success and clear progress measurement.",
+      "significance": "Demonstrates that the 'high expectations' dynamic is not inevitable. It can be mitigated by having a stakeholder who translates between business needs and ML capabilities, setting achievable, concrete targets.",
+      "quote_ref": ["1:04", "1:06"]
+    },
+    {
+      "case": "Belgian Team's Constructive Skepticism",
+      "description": "Unlike the German team's critical mismatch, the Belgian teams were 'very sceptical at the start' but, after thorough in-person explanation of aims and process, came fully on board. Their skepticism was a starting point for dialogue, not a fixed unrealistic expectation.",
+      "significance": "Shows that initial skepticism or high expectations can be managed through direct, clear communication and relationship-building, leading to successful collaboration. The expectation was adjusted through understanding, not just met or failed.",
+      "quote_ref": ["0:00", "0:16"]
+    }
+  ],
+  "management_frictions_observed": [
+    {
+      "friction": "feedback_dissonance",
+      "evidence": "The German team's feedback was based on comparing the AI's output (raw scraped profiles) to the output of a later, human-involved stage in their existing process (pre-filtered CVs). This required the data team to engage in 're-education labor' to explain the pipeline difference and later add German-specific portals to better meet the (still somewhat mismatched) expectation.",
+      "quote_ref": ["0:36", "0:33"]
+    },
+    {
+      "friction": "trust_erosion",
+      "description": "While not in a pilot phase per se, the fundamental 'utility_mismatch' with the sales recruiters' incentives led to active resistance and demands to change the system's logic ('can we just give it only to our... best performers'). This disillusionment with the shared-value model prevented scaling and ultimately led to the project being shelved.",
+      "quote_ref": ["1:49"]
+    }
+  ]

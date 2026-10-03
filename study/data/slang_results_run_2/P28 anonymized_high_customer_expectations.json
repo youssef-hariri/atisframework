@@ -1,0 +1,38 @@
+[
+  {
+    "expert_quote": "every time you just play with it. It's like it's not much of A.",
+    "mapped_id": "magic_box_perception",
+    "is_negative_case": true,
+    "rationale": "The slang 'play with it' and the dismissive 'not much of A' directly contradict the 'Magic Box' idealization. It frames AI as a trivial, ordinary tool rather than an infallible or autonomous solution."
+  },
+  {
+    "expert_quote": "Security is like. The first priority... It becomes really, really hard to like... They don't compromise on security at all... It's necessary hard.",
+    "mapped_id": "trust_erosion",
+    "is_negative_case": true,
+    "rationale": "The emphasis on non-negotiable, preemptive security protocols ('necessary hard') acts as a structural barrier preventing the disillusionment and resistance typical of trust erosion in pilot phases. The friction is managed by design, not experienced."
+  },
+  {
+    "expert_quote": "to put a mechanism in place... not leave it to by chance like people to just figure out themselves... It's not about you making a decision... if the system is not followed then... it's a people problem.",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": true,
+    "rationale": "The professional terminology 'mechanism' and 'system' describes institutionalized governance that preemptively addresses potential biases or fairness issues. This procedural rigor negates the scenario where rejection occurs due to 'perceived' unfairness."
+  },
+  {
+    "expert_quote": "The way they think about the problem, it always resonate on their breathing and how they know their... social cycle... the way I'm thinking of the problem is totally different... it just adds up.",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": true,
+    "rationale": "The metaphor 'resonate on their breathing' and the concept of a 'social cycle' highlight how diverse cultural perspectives are seen as additive to problem-solving. This contradicts the indicator where AI is expected to have a singular, perfect alignment with goals; here, human diversity is valued for generating multiple valid approaches."
+  },
+  {
+    "expert_quote": "It's not like they're trying to be rude to you... they just blat... It's like how they are... This is just a fact. So there's no feelings about it attached.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": true,
+    "rationale": "The description of blunt, factual feedback as a cultural norm ('how they are') reframes critical input not as 'bug reports based on unrealistic benchmarks' but as a neutral, efficient communication style. This reduces the 're-education labor' friction by establishing a shared expectation of directness."
+  },
+  {
+    "expert_quote": "if you're stuck and keep quiet about it, try to figure out on yourself, taking days, taking more time. That's not OK... People will help you every time.",
+    "mapped_id": "trust_understanding_gap",
+    "is_negative_case": true,
+    "rationale": "The explicit cultural rule against silent struggling and the norm of seeking help ('shout out') mitigates the gap where high optimism is undermined by opaque behavior. It institutionalizes transparency and collective problem-solving, reducing the risk of isolated disillusionment."
+  }
+]

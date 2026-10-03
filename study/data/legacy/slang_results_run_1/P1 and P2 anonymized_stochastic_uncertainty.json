@@ -1,0 +1,117 @@
+[
+  {
+    "segment": "And one thing that I I I noticed from the guys in Latin America, excluding Brazil of course, but they they were in a uh, in uh one step behind so... here in Brazil the the data science was a bit more spread and we we are starting to to bring guys from from universities with a A PhD degrees and master degrees and some some guys more as Vincent, so to speak.",
+    "metaphors": ["one step behind", "spread"],
+    "negative_cases": []
+  },
+  {
+    "segment": "No, we were more. Yeah. Yeah. Thank you. We're more concerned about the the how, how the the models were built and there and there they they were more concerned about maybe the answers or and a fast the response affects answered.",
+    "metaphors": ["fast response"],
+    "negative_cases": []
+  },
+  {
+    "segment": "So there were starting the process and then they they do not have the knowledge or techniques or do not know the right answer or how to do it. So they are more flexible about how they could apply the models or machine learning into the their concepts or the context.",
+    "metaphors": ["starting the process"],
+    "negative_cases": []
+  },
+  {
+    "segment": "And then here in Brazil, will we ever developed. So we're doing this for maybe four or five years and the company, so we already cross that step so you know.",
+    "metaphors": ["cross that step"],
+    "negative_cases": []
+  },
+  {
+    "segment": "It's basically trained so we we we do like a process to explain. It's it's like you. You were in the lecture, right? So we we made it meetings like uh, we put the the data scientists together with us and we explain how we approach the problem...",
+    "metaphors": ["in the lecture"],
+    "negative_cases": []
+  },
+  {
+    "segment": "When we reach them, they were like locals, you know, they were using some other tools, some other uh infrastructures in in that stuff, so.",
+    "metaphors": ["like locals"],
+    "negative_cases": []
+  },
+  {
+    "segment": "So we get some simple from them and you know I and that's kind of personal. I I found more easier to explain when you, you know you get some data for them you make like an example model, some small work so to speak and then we show them you know...",
+    "metaphors": ["example model", "small work"],
+    "negative_cases": []
+  },
+  {
+    "segment": "But we never tell them like you need to understand these or you your technique is ohh then you are not doing the the right way. That's that's stuff you know we show them the options.",
+    "metaphors": ["show them the options"],
+    "negative_cases": []
+  },
+  {
+    "segment": "But we showed the downsides of the the their models. The upsides of ours, then it's all about the results.",
+    "metaphors": ["downsides", "upsides"],
+    "negative_cases": []
+  },
+  {
+    "segment": "You have to direct your speech for your audience... When you simplify your show, the results you show don't get into technical, so let the technical for the the other talk.",
+    "metaphors": ["direct your speech", "let the technical for the other talk"],
+    "negative_cases": []
+  },
+  {
+    "segment": "We bring them the new concept like the high level concept and then they were asking, asking and asking.",
+    "metaphors": ["high level concept"],
+    "negative_cases": []
+  },
+  {
+    "segment": "I know that in China they are really flexible. So they basically change data for data. There's no agreements or no contracts about how you can use it this stuff.",
+    "metaphors": ["change data for data"],
+    "negative_cases": []
+  },
+  {
+    "segment": "Like if inside the same company there this different levels of concern from like for one country to another, it's gonna be like that too so.",
+    "metaphors": ["different levels of concern"],
+    "negative_cases": []
+  },
+  {
+    "segment": "It's kind of this exercise, you know, to explain salary. Do we need or is rationale use the race of the people to to optimize salary? No, it's not rational. So we don't even are concerned if the variable is good. That's like, you know, that's like a filter beneath this question.",
+    "metaphors": ["filter beneath this question"],
+    "negative_cases": []
+  },
+  {
+    "segment": "But that's really a a mindset, you know, a cultural or we we need this responsibility of building the model.",
+    "metaphors": ["mindset"],
+    "negative_cases": []
+  },
+  {
+    "segment": "OK. So it's network. Like if I change this model it will impact like model 12345 you know like any models? so the resistance to change something and to see the impact that is gonna cause in the whole structure, the whole company, it's like a a difficult thing to surpass.",
+    "metaphors": ["network", "whole structure"],
+    "negative_cases": []
+  },
+  {
+    "segment": "And to map these things and to coordinate everyone change something and change all the things that are gonna impact. It's really difficult.",
+    "metaphors": ["map these things", "coordinate everyone"],
+    "negative_cases": []
+  },
+  {
+    "segment": "Small and we have, you know, where everybody, we have more power to influence shades, things like that, you know.",
+    "metaphors": ["influence shades"],
+    "negative_cases": []
+  },
+  {
+    "segment": "So I think it's knowing the process and go step by step and validating and talking and discussing every step of the way.",
+    "metaphors": ["step by step", "every step of the way"],
+    "negative_cases": []
+  },
+  {
+    "segment": "It it's most because of we we data scientists in general. You know we like the solutions maybe more than we like the the problem you know. So one thing that I I noticed that it's it's a real problem.",
+    "metaphors": ["like the solutions more than the problem"],
+    "negative_cases": []
+  },
+  {
+    "segment": "So do it like a solution faster simple and show them give to them the solution so they didn't can use it, didn't get they can point the the the main mistakes or how we can improve the solution and then do it again do it again so you know in small a it is more projects in.",
+    "metaphors": ["in small"],
+    "negative_cases": []
+  },
+  {
+    "segment": "Yeah, yeah, we are the model.",
+    "metaphors": ["we are the model"],
+    "negative_cases": [
+      {
+        "rubric_element": "opaque_outcomes",
+        "description": "Person 2's statement 'we are the model' suggests a level of self-awareness and explainability in their own decision-making, contrasting with the indicator of algorithmic complexity leading to hard-to-explain results."
+      }
+    ]
+  }
+]

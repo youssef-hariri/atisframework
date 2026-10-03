@@ -1,0 +1,62 @@
+[
+  {
+    "expert_quote": "So basically you will enter your your details and then you will it would be able to pull out the data from the from the database based on the query which you have mentioned and then it will give you based it will give you the the data in... The the wordings statement in natural language. So basically everyone would be able to understand instead of see if if someone is from non it if someone is a non it person then it would be difficult for them to write a query and then you know pull out the data from the database.",
+    "mapped_id": "socio_technical_transition",
+    "is_negative_case": false,
+    "rationale": "The quote describes creating a chatbot interface that translates data queries into natural language, bypassing the need for technical skills. This exemplifies the shift from human-centric (requiring SQL knowledge) to a hybrid human-AI collaboration model, a core indicator of socio-technical transition."
+  },
+  {
+    "expert_quote": "Getting the requirements which are not properly accepted. First of all from your end... And to structure it properly. That is one of the most critical thing... there are a lot of gaps. OK, we gonna have to, you know, conduct the requirements over and over to to make sure that, you know like we are getting the proper requirement.",
+    "mapped_id": "procedural_nonlinearity",
+    "is_negative_case": false,
+    "rationale": "The speaker describes a non-linear, iterative process ('over and over') of requirement gathering and structuring. This contrasts with a traditional, linear, phase-gated project methodology, directly indicating the friction of procedural non-linearity when integrating adaptive data/AI work."
+  },
+  {
+    "expert_quote": "Most of the companies in today's world highly concerned about their data, OK... They they most of the companies are not even using LLM. Sorry AI, just because of this. They want to make sure that... their data could be stealed OK. Someone could expose their data...",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": false,
+    "rationale": "The quote uses slang ('stealed', 'expose') to describe data security fears that lead companies to avoid using AI/LLMs. This highlights the core tension between the desire for predictive automation and the imperative for human ethical and security oversight, a key indicator of ethical automation tension."
+  },
+  {
+    "expert_quote": "The IT compliance data won't be as important. Won't be as important as the healthcare would be, OK.",
+    "mapped_id": "silo_breakdown",
+    "is_negative_case": false,
+    "rationale": "This statement implicitly acknowledges that data sensitivity and ethical requirements vary drastically by domain (e.g., healthcare vs. IT). Implementing cross-functional AI systems must navigate these differing regulatory and ethical 'silos,' which is a foundational source of friction described by silo breakdown."
+  },
+  {
+    "expert_quote": "We are being full, OK. So basically we think that this person does not know anything, but they are very, you know, like very professional.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "The phrase 'we are being full' (likely meaning 'we are being fooled' or presumptuous) describes an initial misjudgment based on surface-level interaction. This reveals the underlying tension between data-centric/AI-driven assessments and the value of tacit, experience-based human professional knowledge."
+  },
+  {
+    "expert_quote": "But but that that would that would be very subjective. OK, but that's not followed with all the peoples out there.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": true,
+    "rationale": "The speaker explicitly counters a broad generalization about cultural reactions to feedback, stating observed behavior is 'subjective' and not universal. This acts as a negative case, challenging the notion that cultural resistance is a uniform or primary management friction in AI/data workflow integration."
+  },
+  {
+    "expert_quote": "I think in today's world, OK, in 21st century, people are really, really to open minded, OK. They are very mindful... It's not like that. So, so. So basically when you join a company, OK, you join as a professional.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": true,
+    "rationale": "The speaker directly contradicts the potential for significant cultural clash ('It's not like that'), attributing professional conduct to modern, open-minded attitudes. This is a strong negative case against cultural resistance being a major disruptive force in contemporary, professional AI/data environments."
+  },
+  {
+    "expert_quote": "Understanding of people is is very, very crucial... So basically understand them. OK, well, I, but I will tell a person, OK or my my colleague. If he is going to work with the client... Understand the people. OK, who are going to work with the the kind of knowledge they have. OK and how they treat.",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "The repeated emphasis on 'understanding people' and their knowledge moves beyond traditional task management. It signals the evolving role of project managers/data professionals towards system oversight, relationship management, and ethical judgment—key aspects of role reconfiguration."
+  },
+  {
+    "expert_quote": "I will talk to you. I will understand you like, you know, like that's how yours works. OK. And then like if you want something then you know like you must be very angry if I want be able to send him in right away because he wants it because it's very urgent. If not, then I will ask your you know permission... I might not be able to.",
+    "mapped_id": "workflow_brittleness",
+    "is_negative_case": false,
+    "rationale": "This describes navigating client urgency and expectations in real-time. The need for constant communication and permission-seeking to manage unpredictable demands ('very urgent') reveals the increased vulnerability and brittleness of linear processes when they must accommodate dynamic, data-intensive workflows."
+  },
+  {
+    "expert_quote": "You should communicate to your client. You know because if not, see things going to be very messy. Very messy. They will not envy it you. They will will shout out you. They will break the contracts.",
+    "mapped_id": "role_transition_hurdles",
+    "is_negative_case": false,
+    "rationale": "The speaker uses vivid, non-academic language ('very messy', 'shout out you', 'break the contracts') to describe the catastrophic consequences of poor communication. This underscores a critical reskilling need—moving from technical execution to proactive stakeholder communication—a core hurdle in role transition for project managers."
+  }
+]

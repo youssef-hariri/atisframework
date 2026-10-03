@@ -1,0 +1,62 @@
+[
+  {
+    "expert_quote": "The biggest problem with AI is trust. Right. There's a lot of hallucination with generative AI, a lot of lawsuits, a lot of intellectual property being stolen... Opening eyes being soon right, deep seek use data from open AI. So everybody's stealing from everyone. Then they open sourced it.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "The quote describes a shift in focus from pure technical capability to issues of trust, ethics (lawsuits, IP theft), and the societal consequences of rapid, unchecked technical deployment—a core aspect of socio-technical shift."
+  },
+  {
+    "expert_quote": "And actually won't know. Opening eyes being soon right, deep seek use data from open AI. So everybody's stealing from everyone. Then they open sourced it.",
+    "mapped_id": "gen_AI_acceleration",
+    "is_negative_case": false,
+    "rationale": "Describes the rapid, recursive, and seemingly unchecked development cycle in generative AI (model 'stealing' from/model-building on others), directly indicating the compounding rate of innovation."
+  },
+  {
+    "expert_quote": "The other thing is the the the inherent problem of. Just the sheer complexity in a variation of AI. So there's a big mindset shift from deterministic solutions to more stochastic meaning. AI introduces a lot of variations in edge cases that people don't normally understand.",
+    "mapped_id": "judgment_substitution",
+    "is_negative_case": false,
+    "rationale": "Describes the fundamental reconfiguration required in human thinking—from expecting deterministic, rule-based outcomes to accepting probabilistic, 'stochastic' AI outputs—which is the essence of judgment being supplemented or substituted."
+  },
+  {
+    "expert_quote": "So their degrees to failure I would say. Because certain folks are not aware of the things that people normally interpret... People tend to write things very differently and just the date. I've had situations people get confused and they put in the wrong pass data because they read that they completely differently, right? Because the format's here is different.",
+    "mapped_id": "skill_obsolescence_pace",
+    "is_negative_case": false,
+    "rationale": "Highlights how traditional competencies in data interpretation and system design become obsolete or insufficient ('not aware') when faced with the nuanced, varied inputs AI systems must handle, leading to failure."
+  },
+  {
+    "expert_quote": "But people, let's say Romania, I've had them in several engagements wherein they've they changed rules and it's perfectly OK... It's good and bad because good in a sense that. If it's not too complex, we can move things forward. But sometimes they're spread too thinly that you don't really have deep expertise.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "Illustrates the clash between the need for fast, flexible action ('move things forward') enabled by a generalist 'ninja' mindset versus the traditional, sequential organizational need for deep, specialized expertise, creating a friction of pace."
+  },
+  {
+    "expert_quote": "I realized fundamentally it was an issue on trust... Because they've been working on a system for 20 years for the old system. To rapidly change things and trust AI, to do part of their work takes away stuff from them. But fundamentally, it takes away trust. They don't trust it.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "Explicitly frames the project failure not on technical grounds but on human factors—trust, change management, and displacement of long-held roles—demonstrating the shift in focus to human acceptance."
+  },
+  {
+    "expert_quote": "So what we did was we did a demo. And the single biggest solution that we did for Sprint, one very simple 0 automation. So what we did was we got 200 faxes, we use generative AI and we just summarized the data and attach a cover page. That's it.",
+    "mapped_id": "timeline_compression",
+    "is_negative_case": false,
+    "rationale": "Describes a pragmatic, rapid, 'quick win' tactical solution ('0 automation') necessitated by compressed timelines and the need to demonstrate immediate value, bypassing longer, traditional architecture cycles."
+  },
+  {
+    "expert_quote": "What we do is we have scrums, so we have daily scrums... Then you kind of have like that poster on, there's not being as as part of the exercise.",
+    "mapped_id": "continuous_training_demand",
+    "is_negative_case": true,
+    "rationale": "This describes a structured, recurring communication cadence (scrums) to maintain alignment. It is a *negative case* against 'continuous_training_demand' as it presents an established, routine process for managing change, not an ad-hoc or overwhelming need for new skill acquisition."
+  },
+  {
+    "expert_quote": "The big question is how do you reduce time to value?... In a perfect world, they want to have, let's say, 100 customers that already using it and singing praises of it. So the big problem is the product is not get ready but they want to implement it... So that's why I got roped in.",
+    "mapped_id": "timeline_compression",
+    "is_negative_case": false,
+    "rationale": "Directly describes the management friction of product development and market release timelines being compressed ('not get ready but they want to implement'), forcing implementation efforts to run concurrently with or ahead of stable product readiness."
+  },
+  {
+    "expert_quote": "The other thing is the question of fairness. Right. You have Ellen models that's been trained and they're fine-tuned for certain group new stack and use case and sometimes fairness is not considered because it's not part of the original data set.",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": false,
+    "rationale": "Points out that critical ethical considerations like fairness are addressed reactively ('not considered') only after models are built and deployed for specific use cases, highlighting the lag of governance frameworks behind technical capability."
+  }
+]

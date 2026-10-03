@@ -1,0 +1,22 @@
+[
+  {
+    "type": "metaphor",
+    "text": "In Brazil, we call it jabuka jabuchika... It's a fruit that exists only in Brazil, so this solution exists only in Brazil that you cannot expand to the world because the world doesn't have this type of problem to be solved.",
+    "interpretation": "The 'jabuka' metaphor illustrates the concept of **data_dependency**. It highlights how AI models solving hyper-local, messy data problems (like inconsistent Brazilian barcode data) are constrained by the specific, non-transferable nature of their training data. This creates inherent uncertainty when trying to generalize the model's utility or replicate its success in other markets with different data realities."
+  },
+  {
+    "type": "metaphor",
+    "text": "The the problem the problem is existing only in this reality?",
+    "interpretation": "This rhetorical question, following the 'jabuka' example, reinforces the metaphor of a model's **stochastic_uncertainty** being bounded by its unique 'reality' or data environment. It points to the **opaque_outcomes** and **lack_of_reproducibility** that stem from models built on highly contextual, non-standardized data sets that don't exist elsewhere."
+  },
+  {
+    "type": "negative_case",
+    "text": "In Europe you have the KR codes or barcodes. Determine the... who is producing the size of it. All the information for the party you have the bar code you don't have any doubts about this information.",
+    "interpretation": "This describes a **negative case** for the indicators **data_dependency** and **opaque_outcomes**. The speaker contrasts the messy Brazilian data environment with Europe's standardized, high-quality data. In this European context, the foundational data for an AI model is clean and reliable, theoretically reducing the inherent unpredictability and opacity caused by poor data quality. This suggests stochastic uncertainty is not a fixed property of AI but is amplified or mitigated by the underlying data ecosystem."
+  },
+  {
+    "type": "negative_case",
+    "text": "Everybody knows, OK, this is the future. You cannot go back... Some of them I'm using with a very concern... I have to dealt with the costs and the... the business economic model for what I developed it. And for me, this is a great restriction to make sure that we're going to evaluate because it can do everything basically everything.",
+    "interpretation": "This reveals a **negative case** for **dynamic_forecast_adjustment** and **baseline_erosion**. The speaker identifies a powerful, non-stochastic constraint: the business model and operational costs (e.g., $100k monthly AWS bills). This hard, deterministic economic reality acts as a stabilizing counterweight to probabilistic variance. It forces a pragmatic evaluation *before* deployment, preventing the cycle of constant adjustment and baseline erosion that pure model uncertainty might otherwise cause. The uncertainty is bounded by a known, non-negotiable cost structure."
+  }
+]

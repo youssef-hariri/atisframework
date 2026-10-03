@@ -1,0 +1,212 @@
+[
+  {
+    "segment": {
+      "start": "0:0:-4.820",
+      "end": "0:0:23.910",
+      "text": "So I think this whole domain is very new to me. I haven't really had any education. I would say that. But the company that I'm working for, they are into AI trainings and DevOps training. If you've heard of it. So cloud agile, quality assurance, artificial intelligence is something that they train different cooperates in. So I do have some understanding."
+    },
+    "metaphors": [],
+    "negative_cases": [
+      "non_deterministic_outputs",
+      "probabilistic_variance",
+      "model_drift",
+      "lack_of_reproducibility",
+      "data_dependency",
+      "non_linear_estimation",
+      "opaque_outcomes",
+      "dynamic_forecast_adjustment",
+      "baseline_erosion",
+      "accountability_challenges"
+    ],
+    "analysis": "Person 2 describes AI training and corporate education, but does not touch on the inherent stochastic uncertainty of AI models. This is a negative case where the focus is on training and knowledge transfer rather than the probabilistic nature of AI outputs."
+  },
+  {
+    "segment": {
+      "start": "0:0:23.970",
+      "end": "0:0:28.890",
+      "text": "Going to face surface level, I would say not not very deep."
+    },
+    "metaphors": [
+      {
+        "phrase": "surface level",
+        "interpretation": "Metaphor for limited or shallow understanding, contrasting with 'deep' knowledge."
+      }
+    ],
+    "negative_cases": [
+      "non_deterministic_outputs",
+      "probabilistic_variance",
+      "model_drift",
+      "lack_of_reproducibility",
+      "data_dependency",
+      "non_linear_estimation",
+      "opaque_outcomes",
+      "dynamic_forecast_adjustment"
+    ],
+    "analysis": "Person 2 acknowledges a superficial understanding of AI, which acts as a negative case for discussing stochastic uncertainty. Without deep knowledge, they are less likely to engage with the complex, unpredictable aspects of AI models."
+  },
+  {
+    "segment": {
+      "start": "0:0:30.200",
+      "end": "0:0:57.100",
+      "text": "But from what I've read recently, uhm, with all the news that is coming up and all the companies that are typing into artificial intelligence, I can for sure say that it is going to be a very integral part of all the companies. So everybody's trying to develop something or the other. So if even if they're in services or they have a product, so everybody wants something to be aligned with artificial intelligence."
+    },
+    "metaphors": [
+      {
+        "phrase": "integral part",
+        "interpretation": "Metaphor for essential, embedded component, likening AI to a fundamental piece of a structure or system."
+      },
+      {
+        "phrase": "aligned with",
+        "interpretation": "Metaphor for synchronization or harmony, suggesting AI must fit seamlessly into existing business frameworks."
+      }
+    ],
+    "negative_cases": [
+      "non_deterministic_outputs",
+      "probabilistic_variance",
+      "model_drift",
+      "lack_of_reproducibility",
+      "data_dependency",
+      "non_linear_estimation",
+      "opaque_outcomes",
+      "dynamic_forecast_adjustment",
+      "baseline_erosion",
+      "accountability_challenges"
+    ],
+    "analysis": "Person 2 discusses AI adoption trends in a deterministic, strategic manner. This is a negative case for stochastic uncertainty as it frames AI integration as a linear, inevitable business decision, ignoring the unpredictability and variance inherent in AI systems."
+  },
+  {
+    "segment": {
+      "start": "0:2:39.600",
+      "end": "0:3:9.710",
+      "text": "The economic and the social standpoint is something that makes a difference in the sector that I'm working in. So for example, if I have clients in India, since India is going towards that world where everything is digital and you know people are trying to get into that space, I think Middle East has just started that if I'm not wrong, they are trying to. They're trying to train people in, you know, AI."
+    },
+    "metaphors": [
+      {
+        "phrase": "going towards that world",
+        "interpretation": "Metaphor for a journey or transition into a new digital era or state of being."
+      }
+    ],
+    "negative_cases": [
+      "non_deterministic_outputs",
+      "probabilistic_variance",
+      "model_drift",
+      "lack_of_reproducibility",
+      "data_dependency",
+      "non_linear_estimation",
+      "opaque_outcomes",
+      "dynamic_forecast_adjustment"
+    ],
+    "analysis": "The focus is on regional adoption rates and training initiatives, not on the stochastic behavior of AI. This is a negative case where AI is treated as a stable skill to be transferred, not as a source of unpredictable outputs."
+  },
+  {
+    "segment": {
+      "start": "0:3:20.70",
+      "end": "0:3:48.440",
+      "text": "The major difference is that it is more of so people in the Middle East, they are more welcoming to the idea that, OK, we might want to train people and we might want to build that workforce. But in India, since there is so much, you know, availability of resources and there are so many people trained, there are so many colleges, people are getting those kind of, you know, skill sets. So I think there is some sort of adversity I would say."
+    },
+    "metaphors": [],
+    "negative_cases": [
+      "non_deterministic_outputs",
+      "probabilistic_variance",
+      "model_drift",
+      "lack_of_reproducibility",
+      "data_dependency",
+      "non_linear_estimation",
+      "opaque_outcomes",
+      "dynamic_forecast_adjustment"
+    ],
+    "analysis": "Person 2 contrasts cultural receptiveness to AI training but does not address the stochastic uncertainty of the AI tools being taught. This is a negative case focusing on human and organizational factors, not the probabilistic nature of the technology itself."
+  },
+  {
+    "segment": {
+      "start": "0:6:53.580",
+      "end": "0:7:21.970",
+      "text": "Uh, you know? So humans are with emotions and I have nobody can steal that away from us. What? You know AI is doing is that it can have like a plethora of phrases and questions that they can pose in front of a client. But when it comes to understanding in what state the client is, maybe for example, if I'm talking to you, if I know what your mood is, I would maybe."
+    },
+    "metaphors": [
+      {
+        "phrase": "plethora of phrases",
+        "interpretation": "Metaphor for an overwhelming abundance or flood of pre-programmed language, contrasting with human adaptability."
+      },
+      {
+        "phrase": "steal that away from us",
+        "interpretation": "Metaphor for loss or theft of a uniquely human trait (emotional understanding), framing AI as incapable of this 'theft'."
+      }
+    ],
+    "negative_cases": [
+      "non_deterministic_outputs",
+      "probabilistic_variance",
+      "model_drift",
+      "lack_of_reproducibility",
+      "data_dependency",
+      "non_linear_estimation",
+      "opaque_outcomes",
+      "dynamic_forecast_adjustment"
+    ],
+    "analysis": "Person 2 contrasts deterministic, scripted AI responses with nuanced human emotional intelligence. This implicitly highlights a negative case for stochastic uncertainty: they frame current AI as rigid and predictable ('plethora of phrases') rather than acknowledging that advanced AI can have non-deterministic, probabilistic outputs that might simulate understanding."
+  },
+  {
+    "segment": {
+      "start": "0:18:44.850",
+      "end": "0:18:51.590",
+      "text": "Yeah, I think it has to be in a very linear fashion. It has to follow a very agile way. So."
+    },
+    "metaphors": [
+      {
+        "phrase": "linear fashion",
+        "interpretation": "Metaphor for a straightforward, predictable, step-by-step progression."
+      }
+    ],
+    "negative_cases": ["non_linear_estimation", "dynamic_forecast_adjustment"],
+    "analysis": "Person 2 suggests AI project management should be 'linear' and 'agile.' The mention of 'linear fashion' is a direct negative case for the 'non_linear_estimation' indicator, implying a belief in predictable, sequential progress contrary to the complex, non-linear realities of AI development with stochastic uncertainty."
+  },
+  {
+    "segment": {
+      "start": "0:18:52.950",
+      "end": "0:19:15.610",
+      "text": "With scrums and daily meetings tasks going into backlog and then reworking on it, I think upskilling is also very important because let's say in some parts of the country in India I'm talking about, there are still some people with the notion that AI is working on rudimentary concepts but right now."
+    },
+    "metaphors": [
+      {
+        "phrase": "rudimentary concepts",
+        "interpretation": "Metaphor for basic, simple, or outdated ideas, contrasting with the perceived current sophistication of AI."
+      }
+    ],
+    "negative_cases": [
+      "non_deterministic_outputs",
+      "probabilistic_variance",
+      "model_drift",
+      "lack_of_reproducibility",
+      "opaque_outcomes"
+    ],
+    "analysis": "Person 2 describes agile project management and the need for upskilling against outdated perceptions of AI. This is a negative case for discussing stochastic uncertainty, as the focus is on process, education, and changing perceptions, not on managing the inherent unpredictability of AI model outputs."
+  },
+  {
+    "segment": {
+      "start": "0:19:16.280",
+      "end": "0:19:46.420",
+      "text": "The the technology has developed. I think it is on another level right now. So we have to be very fast-paced. We have to understand things quickly and I think for that companies also need to invest in a lot of, you know upskilling projects, they cannot just rely on one person's knowledge or existing knowledge, they have to see how they can, you know amp up their speed and be relevant."
+    },
+    "metaphors": [
+      {
+        "phrase": "on another level",
+        "interpretation": "Metaphor for a significant, qualitative advancement or leap in capability."
+      },
+      {
+        "phrase": "amp up their speed",
+        "interpretation": "Metaphor derived from electronics/audio, meaning to intensify or accelerate pace."
+      }
+    ],
+    "negative_cases": [
+      "non_deterministic_outputs",
+      "probabilistic_variance",
+      "model_drift",
+      "lack_of_reproducibility",
+      "data_dependency",
+      "non_linear_estimation",
+      "opaque_outcomes",
+      "dynamic_forecast_adjustment"
+    ],
+    "analysis": "Person 2 emphasizes rapid technological change and the need for organizational learning. This is a negative case for stochastic uncertainty. The response is about keeping pace with deterministic advancements and skill gaps, not about managing the probabilistic variance or opaque outcomes of the AI systems themselves."
+  }
+]

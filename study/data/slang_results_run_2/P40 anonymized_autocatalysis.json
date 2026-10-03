@@ -1,0 +1,38 @@
+[
+  {
+    "expert_quote": "He was on the products and a research area... And he would never sleep before 4 AM and work very often until 5 AM... So I changed... I enjoyed at some point he worked in the evening was 10 pm and one 1 a.m because it's more quiet, a very good time for producing stuff.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The speaker describes adapting to a co-founder's radically different, high-velocity 'personal rhythm' of work (midnight to 5 AM). This human-floor description of clashing personal productive tempos mirrors the theoretical clash between fast, iterative 'AI time' and slower 'organizational time'."
+  },
+  {
+    "expert_quote": "I didn't have a complete map of where the data was and sometimes it was super important because maybe I need to access data or... make sure that it's safe, you know, for... the company still has their assets for the investors... we have these assets that they're secure, we know we have where they are, and they'll have a good data governance, so but... we were at the very start, I guess we would just basic and and and don't make reporting.",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": false,
+    "rationale": "The speaker admits to having ad-hoc, incomplete data governance ('just basic') driven by practical needs and investor concerns, acknowledging formal rules come later. This reflects the concept of governance frameworks emerging reactively after technical deployment and business needs are established."
+  },
+  {
+    "expert_quote": "Our engineer would even work more than our CTO... and he would work like quite often more like prime hours... they would work like insanely... they don't have so many opportunities... So when you have some inspiring projects... they would work very hard to make it succeed... they're very kind of hardcore on how they work, more than French work.",
+    "mapped_id": "skill_obsolescence_pace",
+    "is_negative_case": false,
+    "rationale": "The speaker describes team members in Togo working 'insanely' hard and being 'hardcore' to seize rare opportunities and keep skills relevant. This professional slang for intense, sustained effort to stay competitive and valuable indirectly maps to the pressure of competencies becoming outdated, requiring extreme dedication to avoid obsolescence."
+  },
+  {
+    "expert_quote": "I don't know if you or French European if they have like very strict rules for their coordination at the very start of the life... Because we like as we were at the very start, I guess we would just basic... I've worked also in SaaS projects where some cofounders would be very strict on organization... So I would say, of course, there is some cultural difference, but there is also some personal personal.",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": true,
+    "rationale": "The speaker explicitly contrasts their startup's 'just basic' approach with stricter organizational cultures, attributing the difference partly to company stage ('very start') and partly to personal/style factors. This directly challenges the indicator's premise that lag is a systemic, post-deployment issue, suggesting it can be a deliberate, early-phase choice or a personal preference."
+  },
+  {
+    "expert_quote": "Maybe it's links with the what I just told you about they did not say no. So for example, wasn't it likeable for the company like financially speaking... I could do this also. I say yes, I will take care of this and I don't fail to do it and so it's hard to say... maybe it's not so much of cultural.",
+    "mapped_id": "judgment_substitution",
+    "is_negative_case": true,
+    "rationale": "The speaker questions whether a pattern of not saying 'no' is a cultural trait or a universal personal/professional behavior, citing their own similar potential actions. This counters the theoretical 'reconfiguration of human judgment,' suggesting the described dynamic (acquiescence vs. pushback) may be a general human interaction issue, not specifically tied to AI-driven shifts in decision-making authority."
+  },
+  {
+    "expert_quote": "It's hard to say because when we were talking, they was we already nearly with the camera so I was mostly speaking through a slack or through just a black screen... so I could not really understand it was just a tone of a voice... not on emotional stuff.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "The speaker laments the limitations of remote, text/audio-only communication ('black screen') for understanding emotional context and true sentiment. This everyday description of tech-mediated interaction impediments highlights the human and relational challenges that become focal points (shifting focus to 'human acceptance') in a high-velocity technical environment."
+  }
+]

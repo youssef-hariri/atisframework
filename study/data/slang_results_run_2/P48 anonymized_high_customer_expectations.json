@@ -1,0 +1,62 @@
+[
+  {
+    "expert_quote": "people who doesn't really understand or know the potential and the use of it is very afraid of adopting it.",
+    "mapped_id": "trust_understanding_gap",
+    "is_negative_case": false,
+    "rationale": "The phrase 'doesn't really understand' and 'very afraid' indicates a gap between potential high optimism (hype) about AI and the underlying opaque reality that fosters fear and undermines trust, matching the indicator's description."
+  },
+  {
+    "expert_quote": "the main barrier commercial is ... the business manager saying, OK, if I introduce this technology in my company, my jobs are the risk.",
+    "mapped_id": "paradoxical_expectations",
+    "is_negative_case": false,
+    "rationale": "The manager's statement reveals simultaneous high hopes for AI's benefits (commercial intent) and a high perceived risk (job loss), which is the core of this indicator."
+  },
+  {
+    "expert_quote": "So the managerial team says no, I won't touch the button doing this randomly or by itself, I must manage to value his job.",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": false,
+    "rationale": "The manager's rejection of the automated 'button' shows a mismatch between the AI's goal of autonomous optimization and the manager's personal goal of maintaining job value and control, illustrating the assumption that AI's utility will align with organizational goals is flawed."
+  },
+  {
+    "expert_quote": "And I have to dealt with the costs and the the, the OK, the business economic model for what I developed it. And for me, this is a great restriction to make sure that we're going to evaluate because it can do everything basically everything.",
+    "mapped_id": "dreams_vs_reality",
+    "is_negative_case": false,
+    "rationale": "The statement 'it can do everything basically everything' reflects an idealized, limitless capability, which is immediately contrasted with the 'great restriction' of real-world costs and business models, fitting the dreams vs. reality indicator."
+  },
+  {
+    "expert_quote": "OK, I have to use AI, but the cost of a is huge... I have to choose the application and choose.",
+    "mapped_id": "dreams_vs_reality",
+    "is_negative_case": false,
+    "rationale": "The speaker contrasts the grand potential of AI ('use AI') with the practical, limiting reality of 'huge' costs, forcing a selective, imperfect application, which is a classic dreams vs. reality contrast."
+  },
+  {
+    "expert_quote": "AI in a culture can produce offensive piece of marketing. This is a problem... who is operating in the context of AI? If he's aware of this situation, not from, it's fine, no problem.",
+    "mapped_id": "anthropomorphic_projection",
+    "is_negative_case": false,
+    "rationale": "The quote shows that AI, left to its own devices, fails to navigate cultural nuance, violating the human-like reasoning and reliability users unconsciously project onto it. The need for a human operator ('who is operating') to correct this highlights the projection gap."
+  },
+  {
+    "expert_quote": "I have a very avant-garde people... and I've seen lots of old school managers and leaders... just put this idea inside the company to have a marketing brand that I'm using AI.",
+    "mapped_id": "magic_box_perception",
+    "is_negative_case": false,
+    "rationale": "The description of leaders adopting AI for 'marketing brand' purposes without understanding its impact reflects a belief in AI as an infallible, symbolic solution (a 'magic box') that enhances image, rather than a tool with complexities."
+  },
+  {
+    "expert_quote": "The leadership was very aware of the information, but had no ethical problem of his information. That's private.",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": false,
+    "rationale": "The leadership's disregard for the ethical use of 'private' information points to the perceived biases and lack of fairness in how AI systems can be deployed, which can become a barrier to ethical adoption."
+  },
+  {
+    "expert_quote": "In Brazil they call you say, I don't want you anymore. Why not? Because we change it so this this culture... first of all, I don't have the culture of feedback.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "The lack of a 'culture of feedback' and the abrupt termination ('I don't want you anymore') without clear explanation creates a scenario where developers cannot receive constructive, realistic feedback to improve, matching the management friction of unrealistic benchmarks and re-education labor."
+  },
+  {
+    "expert_quote": "Objectiveness the main difference, OK. The European are working in, in, in Europe, they come with you, says the problem and define the solution and move on with the plan and execute it.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": true,
+    "rationale": "This quote describes a counter-example (European culture) where clear, objective feedback is given ('says the problem'). This contradicts the 'feedback_dissonance' friction, which is characterized by a lack of such clear, actionable feedback based on realistic expectations."
+  }
+]

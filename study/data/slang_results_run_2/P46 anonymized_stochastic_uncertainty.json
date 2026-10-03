@@ -1,0 +1,38 @@
+[
+  {
+    "expert_quote": "The thing is I think in terms of project delivery, it matters the most... we have different sort of cultural roles playing in different levels... you can see fellow Indians who would work day and night or fellow Chinese people who would work day and night to submit anything and even go beyond to submit certain things right... But when we have also other people from, say Europe, where they have a good work life balance. So they would actually shut their laptops at 5:00 PM and go home.",
+    "mapped_id": "non_deterministic_outputs",
+    "is_negative_case": false,
+    "rationale": "The speaker describes 'non-deterministic outputs' of team behavior and project delivery timelines, which are not fixed but vary based on cultural work ethic norms ('work day and night' vs. 'shut their laptops at 5:00 PM'). This directly maps to the inherent unpredictability in team processes, analogous to a probabilistic system's variance."
+  },
+  {
+    "expert_quote": "I think culturally also... there is this concept in India called Jugad, OK, North India saying you come up with an innovative quick fix to achieve what you want right in a short period of time. While certain cultures want to... do it very properly... it has to be 100% perfect and everything, but you'll never get there right?... So then Indians will. Just quickly, makeshift one thing like a small prototype and start building from there.",
+    "mapped_id": "non_linear_estimation",
+    "is_negative_case": false,
+    "rationale": "The slang 'Jugad' (improvised, quick-fix solution) versus a '100% perfect' approach illustrates non-linear approaches to solution development and project estimation. Different cultural mindsets create different, unpredictable paths ('start building from there') rather than a single, predetermined linear plan, aligning with the indicator's description of complex, non-traditional paths."
+  },
+  {
+    "expert_quote": "If I'm planning a solution, say a solution for a hospital. Typically, women will... they'll notice... saying hey, this is for women, this is for kids. You're doing computer vision to acknowledge, maybe you have to train on more on women's data. You need a women to actually say that. But it's very difficult without any women in the meeting also.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The quote points to potential 'opaque outcomes' in AI system design (e.g., biased computer vision models) that can result from a lack of diverse perspectives in the planning team. The complexity and potential for unexplained, poor results are made clear by noting the difficulty of anticipating necessary data considerations without that diversity."
+  },
+  {
+    "expert_quote": "The only difference that you should see here is... you'll have to be updated constantly. Right. You don't know what engine in the next two months... you'll have to be really thorough and constantly learn about what's happening in the market.",
+    "mapped_id": "model_drift",
+    "is_negative_case": false,
+    "rationale": "The professional reality of needing to be 'updated constantly' because 'you don't know what engine in the next two months' is a direct, human-floor description of 'model drift'—the performance decay or obsolescence of AI solutions due to the rapidly 'constantly evolving' technological and market landscape."
+  },
+  {
+    "expert_quote": "At the end of the day you have a task. You're here to work and everybody should work, right... culturally, I haven't seen any barriers per SE... everybody sort of gets in the grind... because most of the people who come into my company already coming from Microsoft or Oracle, where they're already working with Multicultural teams... I've not seen much career like other professionals... I'm still in my early career professional... I have no choice. I am put into such multicultural right? I just have to go on like this.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": true,
+    "rationale": "This is a 'Negative Case.' The speaker explicitly states that cultural diversity does not create 'barriers' or significant accountability challenges in their specific, normalized multicultural context ('everybody gets in the grind', 'I have no choice'). They attribute this to pre-existing experience and a work-centric environment, contradicting the theoretical friction where opacity leads to accountability problems."
+  },
+  {
+    "expert_quote": "They just want the application working. That's it. So even while delivering projects, it's really to do with the people, right?... Be it AI or not...",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": true,
+    "rationale": "This is a 'Negative Case.' The speaker directly downplays the unique complexity ('opaque outcomes') of AI by stating the customer 'doesn't care' about the underlying technology ('AI or Gen. AI. Nothing'). They assert the primary challenge is universal people-management ('it's really to do with the people'), not specifically the algorithmic opacity theorized in the indicator."
+  }
+]

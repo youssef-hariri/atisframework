@@ -1,0 +1,71 @@
+[
+  {
+    "process_disruption_indicator": "socio_technical_transition",
+    "evidence": "Discusses using AI tools (real-time transcription, translation, automation) to bridge communication gaps in multicultural teams, moving from purely human-centric coordination to hybrid collaboration.",
+    "metaphor": "Uses the metaphor of AI as a 'bridge' or 'tool' to overcome human limitations like language and time zones.",
+    "negative_case": false
+  },
+  {
+    "process_disruption_indicator": "integration_friction",
+    "evidence": "Highlights time zone differences and holiday schedules (e.g., Indian festivals, Christmas breaks) as major challenges that disrupt synchronized, phase-gated project workflows and delivery timelines.",
+    "metaphor": "Implies work schedules are a 'jigsaw puzzle' with mismatching pieces from different cultural calendars.",
+    "negative_case": false
+  },
+  {
+    "process_disruption_indicator": "workflow_brittleness",
+    "evidence": "Describes how miscommunication or technical issues in a globally distributed team can delay tasks, indicating vulnerability in linear processes when reliant on seamless virtual collaboration.",
+    "metaphor": "Describes communication gaps and technical issues as 'blockheads' that halt the workflow.",
+    "negative_case": false
+  },
+  {
+    "process_disruption_indicator": "role_reconfiguration",
+    "evidence": "Emphasizes leadership as being about motivation, understanding, and conflict resolution ('soft corner' and 'hard corner'), shifting the project manager's role from pure task oversight to team facilitator and ethical mediator.",
+    "metaphor": "Leaders must wear 'two hats': one for empathy and one for decisive authority.",
+    "negative_case": false
+  },
+  {
+    "process_disruption_indicator": "knowledge_clash",
+    "evidence": "Advocates for structured knowledge exchange sessions and communities, highlighting the need to blend formal, tool-specific AI knowledge (e.g., new AI platforms) with tacit team knowledge and experience.",
+    "metaphor": "Knowledge exchange is portrayed as 'upgrading' the entire team, not just the individual.",
+    "negative_case": false
+  },
+  {
+    "process_disruption_indicator": "procedural_nonlinearity",
+    "evidence": "Describes project flow as being adaptable—covering work before/after holidays, adjusting for client availability—rather than rigidly sequential, though this is presented as a managed necessity, not a core methodology.",
+    "metaphor": null,
+    "negative_case": true,
+    "negative_case_rationale": "While describing adaptive practices, Person 2 frames them as exceptions managed within an overarching linear structure (client sign-off, phased delivery). The core process disruption of iterative AI loops conflicting with methodology is not explicitly raised."
+  },
+  {
+    "process_disruption_indicator": "ethical_automation_tension",
+    "evidence": "Discusses data privacy as a paramount, contractually managed concern that varies by region (India vs. US). Also strongly argues AI cannot replace human judgment ('AI is created by the human'), placing ethical and final oversight firmly with people.",
+    "metaphor": "Describes AI as requiring 'spoon-feeding' like a child, emphasizing its lack of independent ethical reasoning.",
+    "negative_case": false
+  },
+  {
+    "process_disruption_indicator": "cultural_resistance",
+    "evidence": "Implies a preference for human-centric, experience-based leadership ('no books can teach you leadership') and trust in human relationships over purely data-driven or automated management. The focus is on human communication as the 'best way'.",
+    "metaphor": null,
+    "negative_case": false
+  },
+  {
+    "process_disruption_indicator": "role_transition_hurdles",
+    "evidence": "Highlights the critical importance of 'reskilling' in AI tool literacy (e.g., showing a senior developer how ChatGPT stores data) and soft skills like communication and active listening for team cohesion.",
+    "metaphor": null,
+    "negative_case": false
+  },
+  {
+    "process_disruption_indicator": "silo_breakdown",
+    "evidence": "Evidence is absent. Person 2 discusses cross-cultural and cross-time-zone collaboration but does not mention breakdowns between traditional departments (e.g., data science, engineering, business) due to AI/data needs.",
+    "metaphor": null,
+    "negative_case": true,
+    "negative_case_rationale": "The discussion centers on geographic and cultural silos, not functional or departmental silos being broken down by AI's data-centric needs. This potential disruption is not surfaced in the conversation."
+  },
+  {
+    "process_disruption_indicator": "legacy_inflexibility",
+    "evidence": "Evidence is absent. Person 2 discusses integrating AI into client systems as a business demand but does not mention internal legacy software hindering dynamic data work or reporting.",
+    "metaphor": null,
+    "negative_case": true,
+    "negative_case_rationale": "The friction between dynamic AI data needs and static legacy systems is not mentioned as a personal or team challenge."
+  }
+]

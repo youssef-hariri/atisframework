@@ -1,0 +1,26 @@
+[
+  {
+    "expert_quote": "Well, it's it's rarely happened. Something has happened. It's really, really, but it never happened.",
+    "mapped_id": "model_drift",
+    "is_negative_case": true,
+    "rationale": "The speaker describes a situation where critical project failure (analogous to performance decay) is stated as not occurring ('never happened'). This explicitly contradicts the indicator's expectation of performance decay over time."
+  },
+  {
+    "expert_quote": "AI will AI have there don't have their own mind. They have only the memory. So you need to lick from his mind like like a like a kid like kid is you need to be with a spoon feeding like to do anything.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": true,
+    "rationale": "The metaphor of 'spoon-feeding a kid' frames AI's decision-making not as inherently opaque or complex, but as a direct, predictable function of the user's input ('prompt'). This negates the notion of algorithmic complexities leading to unexplainable results, attributing outcomes wholly to user instruction."
+  },
+  {
+    "expert_quote": "It's totally depend upon the users user like you and me how to use the technology... It's totally depend upon the users user like you and me how to use the technology. It's not about the AI... it's totally depend upon the prompting by the users.",
+    "mapped_id": "non_deterministic_outputs",
+    "is_negative_case": true,
+    "rationale": "The repeated emphasis that output is 'totally depend upon the users' attributes variance and non-determinism not to an inherent property of the AI model, but to external, human-controlled prompting. This contradicts the indicator's core premise of inherent model-driven unpredictability."
+  },
+  {
+    "expert_quote": "Because if you are using the temporary. To use that particular hard mode and then delete it. At the same time. Otherwise your data will like like explore worldwide.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "The phrase 'explore worldwide' is a professional slang metaphor describing extreme data exposure. It highlights a critical sensitivity to data handling and security practices, directly relating to the indicator's concern with data quality and relevance risks."
+  }
+]

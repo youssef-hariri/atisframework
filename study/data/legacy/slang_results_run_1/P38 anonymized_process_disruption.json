@@ -1,0 +1,75 @@
+[
+    {
+      "metaphor": "\"both in the mud\"",
+      "context": "Describing his approach to overcoming hierarchical barriers: '...gets his hands dirty... giving the people the sense that you're dealing with solving a problem together... both in the mud...'",
+      "rubric_mapping": "socio_technical_transition, role_reconfiguration",
+      "interpretation": "This metaphor opposes the traditional, detached project manager role. It advocates for a collaborative, 'in-the-trenches' leadership style necessary for hybrid human-AI work, where problem-solving is iterative and hands-on data engagement is critical. It signals a shift from hierarchical oversight to participatory system oversight."
+    },
+    {
+      "metaphor": "\"completely reset\"",
+      "context": "Describing the failure point in a DevOps project due to cultural/hierarchical clashes: '...you simply have to say, well, we have to completely reset this one.'",
+      "rubric_mapping": "workflow_brittleness, cultural_resistance",
+      "interpretation": "Highlights the brittleness of integrated technical processes (like DevOps or, by extension, iterative AI pipelines) when underlying socio-cultural foundations (trust, respect for new management) are not aligned. The need for a 'complete reset' indicates that friction was not a manageable bug but a fundamental failure of the integrated system."
+    },
+    {
+      "metaphor": "\"carry a grudge forever\"",
+      "context": "Explaining the lasting impact of cultural friction in failed collaborations: 'In some cultures, people tend to carry a grudge forever. And it doesn't go away. You cannot fix it anymore.'",
+      "rubric_mapping": "cultural_resistance",
+      "interpretation": "Metaphor for deep, systemic cultural resistance that creates permanent silos and breaks down collaboration. This is a critical management friction, showing that some process disruptions (here, from integrating new teams/management) can cause irreversible damage to the social fabric needed for agile, cross-functional work."
+    },
+    {
+      "metaphor": "\"in their DNA\"",
+      "context": "Referring to the drive for quality in certain cultures: '...that is something that... is almost in their DNA.'",
+      "rubric_mapping": "N/A - Positive Cultural Trait",
+      "interpretation": "While not a direct process_disruption indicator, this metaphor highlights a cultural asset that could potentially counteract `cultural_resistance`. It suggests that a data-centric, quality-focused attitude can be a native strength in some teams, facilitating the adoption of rigorous AI/ML workflows."
+    }
+  ],
+  "negative_cases": [
+    {
+      "rubric_indicator": "procedural_nonlinearity, integration_friction",
+      "transcript_evidence": "The interview does not detail specific AI project phases (data collection, model training, deployment) or mention clashes between iterative AI loops and stage-gate project management methodologies (e.g., Agile vs. Waterfall).",
+      "interpretation": "Person 2's discussion remains at the high-level cultural and managerial layer. The absence of detailed talk about AI workflow mechanics is a negative case for these technically-oriented indicators. The friction discussed is more about human collaboration preconditions than the direct procedural clash of AI cycles with phase gates."
+    },
+    {
+      "rubric_indicator": "knowledge_clash",
+      "transcript_evidence": "While Person 2 emphasizes 'domain knowledge' as critical, there is no explicit discussion of tension between data-driven AI model insights and veteran, experience-based (tacit) human expertise.",
+      "interpretation": "The potential clash between quantitative, probabilistic AI outputs and qualitative, experiential judgment is not addressed. This is a notable absence, as this clash is a core `process_disruption` in fields like energy/fluid dynamics that he mentions."
+    },
+    {
+      "rubric_indicator": "ethical_automation_tension",
+      "transcript_evidence": "The conversation touches on AI security (red-teaming, bias in LLMs) only at the very end, prompted by the interviewer. Person 2 does not volunteer examples of conflict between automated predictions and the need for human ethical oversight in his projects.",
+      "interpretation": "Ethical tension is not a foregrounded issue in his primary narrative about team success and failure. It appears as an acknowledged but secondary concern, suggesting it may be a nascent or compartmentalized form of friction in his current projects."
+    },
+    {
+      "rubric_indicator": "legacy_inflexibility",
+      "transcript_evidence": "No mention of legacy software systems, data formats, or reporting tools hindering dynamic AI/data work.",
+      "interpretation": "This technical-integrative friction is absent from the discussion. The described frictions are primarily human and cultural (hierarchy, trust, communication), not technical debt or system incompatibility."
+    },
+    {
+      "rubric_indicator": "silo_breakdown",
+      "transcript_evidence": "Person 2 discusses cross-cultural and cross-location collaboration, but not cross-functional (e.g., data science vs. engineering vs. business) collaboration. The 'silos' mentioned are geographic/cultural, not departmental.",
+      "interpretation": "The transcript provides evidence for the breakdown of *geographic* silos but not necessarily the *functional* silos implied by the rubric. The need for data sharing across traditional departments is not explicitly discussed."
+    }
+  ],
+  "key_insights_for_process_disruption": [
+    {
+      "insight": "Cultural Hierarchy as a Primary Friction Point",
+      "support": "Person 2 repeatedly identifies hierarchical cultures as a major barrier to the open, collaborative feedback loops essential for iterative AI/data work (`socio_technical_transition`, `role_reconfiguration`). The 'magical entity [Hofstede] index' and examples from Russia/India show how traditional authority structures directly conflict with the need for flat, rapid information exchange.",
+      "rubric_link": "cultural_resistance, role_reconfiguration"
+    },
+    {
+      "insight": "Leadership Role is Fundamentally Reconfigured",
+      "support": "Person 2's prescribed solution is not better process design, but a transformation in leadership behavior: from titular authority to hands-on collaborator ('both in the mud'), and from assuming Western superiority to cultivating 'situational awareness.' This aligns perfectly with the `role_reconfiguration` indicator toward system oversight and ethical/human judgment facilitators.",
+      "rubric_link": "role_reconfiguration, socio_technical_transition"
+    },
+    {
+      "insight": "Success Depends on Overcoming Pre-Process Social Friction",
+      "support": "The major failures and successes described are not about the AI workflow itself, but about establishing the social trust and psychological safety necessary *for* that workflow to function. The 'complete reset' metaphor underscores that without this foundation, the technical process is brittle and will fail (`workflow_brittleness`).",
+      "rubric_link": "workflow_brittleness, integration_friction"
+    },
+    {
+      "insight": "Process Disruption is Managed Proactively Through Immersion",
+      "support": "Person 2 advocates for deep immersion (travel, shared meals, discussing history/religion) as a key management tactic. This is a direct response to `integration_friction` and `cultural_resistance`. It's an acknowledgment that linear, document-based onboarding processes are insufficient; integrating non-linear AI teams requires non-linear, relational investment.",
+      "rubric_link": "integration_friction, cultural_resistance"
+    }
+  ]

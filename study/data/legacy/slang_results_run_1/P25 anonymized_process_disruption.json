@@ -1,0 +1,44 @@
+[
+  {
+    "quote": "It was around the time when GDPR was introduced in Europe. So even if most of your clients are not in Europe, you still have to account for that because they may have even the companies may have clients... So you have to think about that for them.",
+    "code": "integration_friction",
+    "explanation": "Describes the proactive need to integrate a new, complex regulatory data governance framework (GDPR) into existing systems and workflows, even when not directly applicable to all clients. This represents friction from embedding a non-linear, compliance-driven requirement into standard development processes.",
+    "metaphor": "Invisible Perimeter – GDPR acts as a mandatory boundary that must be pre-emptively built into the system's architecture, regardless of the immediate user's location, extending the system's responsibility beyond its apparent operational scope."
+  },
+  {
+    "quote": "I feel then would have... your role is to understand what the issue is. Manage expectations for the client. Get to know when we can give them a response and then update them... Or even sometimes you're even doing a maintenance on our end... communicating that so that they are aware of it so that they're not the ones reporting it to us.",
+    "code": "role_reconfiguration",
+    "explanation": "Illustrates a role (support engineer) expanding beyond technical troubleshooting to encompass client communication, expectation management, and proactive transparency. This shifts the role towards a hybrid of technical expert and client relationship manager.",
+    "metaphor": "The Human Buffer – The engineer becomes a shock-absorbing layer between the technical system's inherent issues/maintenance cycles and the client's experience, actively managing the information flow to prevent surprises."
+  },
+  {
+    "quote": "But also these changes... I would find, for instance, when you look at a different slack channels, the ones maybe when you go to the US1 it may be... Less like people are less vocal... and then you find for instance, like the Kenyan people are really chatty...",
+    "code": "silo_breakdown & knowledge_clash",
+    "explanation": "Observes fundamental differences in communication norms and knowledge-sharing styles (explicit/formal vs. tacit/informal) across geographically distributed teams. This informal, social knowledge is crucial for cohesion but clashes with more formal, structured communication expectations, potentially breaking down informational silos in unexpected ways.",
+    "metaphor": "The Water Cooler vs. The Boardroom – Contrasts the informal, relational 'water cooler' channels of communication (Kenyan chats) with the formal, task-focused 'boardroom' channels (US teams), highlighting a clash in where and how vital team knowledge and cohesion are built."
+  },
+  {
+    "quote": "I feel OK. It's not affected... it would be evident, for instance, how strong willed Nigerians are when they are. They're really passionate about something... a Kenyan maybe try to... downplay something... a Nigerian will not shut up about it... I also learned a lot of it and I liked it because if you don't fight for your needs, no one will come and give you things...",
+    "code": "cultural_resistance & role_transition_hurdles",
+    "explanation": "Highlights direct cultural resistance to passive or consensus-seeking approaches. Person 2 reframes this not as friction but as a valuable lesson, indicating a personal role transition from a possibly more deferential style to one that advocates more strongly, challenging established hierarchical or communicative norms.",
+    "metaphor": "Advocacy as Engine Oil – Views vocal advocacy not as disruptive noise, but as a necessary lubricant that prevents needs from being ignored and stalls from occurring in the project's engine, contrasting with a culture that might see friction as something to be minimized."
+  },
+  {
+    "quote": "I had to consciously now step back and be like OK in this scenario. I need to just speak English so that this conversation involves everyone, even just a normal lunchtime conversation so that everyone feels included.",
+    "code": "socio_technical_transition",
+    "explanation": "Describes a deliberate, conscious shift in personal behavior to enable a hybrid collaborative model. The transition is from a default, natural-state (speaking Swahili) to a chosen, inclusive state (speaking English) to maintain team cohesion across cultural-linguistic boundaries.",
+    "metaphor": "The Deliberate Bridge – Person 2 consciously constructs a linguistic bridge in informal settings, recognizing that the social substrate of the team is as critical for collaboration as the formal technical protocols."
+  },
+  {
+    "quote": "I don't believe so. I don't believe it made a big difference. But it was especially when it worked as a data engineer. It was like my first years working, so I don't think I thought much about all these influences.",
+    "code": "NEGATIVE CASE for multiple indicators",
+    "explanation": "A direct negative case. Person 2 asserts that cultural differences did not have a significant impact on the core data engineering work, attributing this partly to their junior focus at the time. This contradicts the rubric's assumption that these frictions are universally prominent, suggesting that in some contexts or phases (early-career, specific project types), technical workflows may be somewhat insulated from cultural-process disruptions.",
+    "inferred_context": "The focus was on well-defined data engineering tasks (pipelines, payroll logic for a US model) within a team that had strong professional skill training. The 'process' was stable, and the 'data' domain was relatively fixed, minimizing disruptive non-linearity."
+  },
+  {
+    "quote": "So because this company is basically now tries to target have these solutions for Africa, then every country we go to, we have to understand the system they work with. And so that we can solve for their needs...",
+    "code": "legacy_inflexibility",
+    "explanation": "Implies a core challenge: a product or system likely built with one financial model (e.g., US or Kenyan mobile money) must adapt to fundamentally different 'legacy' financial systems in other countries (e.g., Nigeria). The friction arises from the inflexibility of the original system/assumptions when faced with new, complex, real-world data structures and processes.",
+    "metaphor": "Square Peg, Round Country – The existing technical system (square peg) meets the immutable, complex reality of a different national financial ecosystem (round hole), forcing a fundamental reconsideration of design, not just configuration."
+  }
+]

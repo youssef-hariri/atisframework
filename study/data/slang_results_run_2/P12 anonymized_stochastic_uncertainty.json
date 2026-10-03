@@ -1,0 +1,32 @@
+[
+  {
+    "expert_quote": "they will give insects weekly ways. So we'll be acting upon it and we'll see what is the mistake and they will also give like if they wanna feature update in the app, they will mention that also and will be on the product design team or the developing team will be working on it side.",
+    "mapped_id": "dynamic_forecast_adjustment",
+    "is_negative_case": false,
+    "rationale": "The weekly feedback and update cycle ('acting upon it', 'feature update') described by the speaker mirrors the concept of dynamic forecast adjustment, where constant updates to the project or model indicate an underlying need for iterative correction and adaptation, reflecting system instability. The slang 'insects' (likely 'insights' via accent/transcription) for client feedback highlights the ongoing, human-driven process of calibration."
+  },
+  {
+    "expert_quote": "We we leverage those models to get good insights actually. So for example, if we have a task... sometimes we use mostly we use open AI but it it get used to it and it won't give proper sender... in that case we can use some advanced extension... Once the model keeps on getting updated, we make use of it actually... I would actually, I have to say it was like positive way only we used it. So there was no any negative concern.",
+    "mapped_id": "model_drift",
+    "is_negative_case": true,
+    "rationale": "The speaker explicitly contradicts the indicator of model drift. They describe a positive, proactive approach where performance issues (OpenAI 'won't give proper sender') are addressed by leveraging updates and extensions ('make use of it'). The professional slang 'gets used to it' for a model becoming less effective is a human-floor description of drift, but the speaker frames this as a manageable, non-concerning aspect of their workflow."
+  },
+  {
+    "expert_quote": "we create the model only particularly to this use case. They don't focus on any other general stuff, so we we are mainly focused on extracting the key insights, what we can generate from the free text, so that the model also is totally based on that. If you ask something else it it doesn't know. So it can't answer.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The speaker's description of a model that 'doesn't know' and 'can't answer' questions outside its narrow training data is a professional explanation for opaque outcomes. It highlights how algorithmic decision-making is constrained and hard to explain or generalize, as the model's capabilities and reasoning are opaque beyond its specific, pre-defined task ('totally based on that')."
+  },
+  {
+    "expert_quote": "The client doesn't want to... use this data in any other a models or like kind of opening or don't put it in any other model. I just want you guys to do either man. Do it manually if you want... so that the data it's not a leak somewhere else.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "The client's mandate ('do it manually', 'don't put it in any other model') directly reflects a high sensitivity to data quality and relevance. The slang 'kind of opening' (likely referring to using open-source models or APIs) highlights the practical friction where the stochastic model's performance is critically dependent on controlled, high-quality data, and the risk of 'leak' underscores the dependency's critical nature."
+  },
+  {
+    "expert_quote": "if you do the training, if you give the training perfectly, then only they will give you the team leaders and so they know how I will work... If you give the training perfectly, then only they will give you the team leaders and so they know how I will work.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": false,
+    "rationale": "The speaker's focus on perfect training as a prerequisite for leadership trust ('they know how I will work') indirectly points to accountability challenges. In the context of AI projects, ensuring clear, reproducible processes (perfect training) is a human-floor strategy to mitigate the opacity and non-determinism of AI outcomes, making responsibility for decisions clearer and more traceable."
+  }
+]

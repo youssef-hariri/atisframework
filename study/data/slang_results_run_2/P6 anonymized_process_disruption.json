@@ -1,0 +1,44 @@
+[
+  {
+    "expert_quote": "So there is no much problem. Yeah, communicating the different teams from different people from different countries. And main thing is the only the time difference. Sometimes you have to adjust the time.",
+    "mapped_id": "integration_friction",
+    "is_negative_case": true,
+    "rationale": "The speaker describes the primary friction as logistical (time zones) rather than a fundamental incompatibility between AI workflows and traditional processes. This 'human-floor' description of a simple logistical hiccup contradicts the more severe theoretical 'integration friction' of clashing methodologies."
+  },
+  {
+    "expert_quote": "I think so. Country doesn't have any impact as far as your maturity and understanding the technology. You can do the planning better and that's the main thing.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "The speaker privileges 'understanding the technology' and technical 'maturity' as the primary factors for success, marginalizing the value of tacit, experience-based, or culturally-situated knowledge. This directly illustrates the tension between data-centric AI knowledge and other forms of human knowledge."
+  },
+  {
+    "expert_quote": "So there are some miscommunication or there are some misjudgment when Scrum Monster don't have enough knowledge about technology and he's tried to ask you for task he or she can't judge because they those people don't have understanding of... What is the actual meaning of task and where can we have trouble?",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "The speaker identifies a failure point where a traditional role (Scrum Master, focused on process) lacks the technical depth to oversee or judge AI-specific tasks. This points to the ongoing friction and need for project managers to shift towards deeper technical and system oversight, a core aspect of role reconfiguration."
+  },
+  {
+    "expert_quote": "...these IT and machine learning, AI, mathematics, science is everything is a very, very, very dynamic field where there is a lots of new things coming... Every month, every week there are lots of research.",
+    "mapped_id": "procedural_nonlinearity",
+    "is_negative_case": false,
+    "rationale": "The speaker's description of the field as 'very, very, very dynamic' with constant new research inherently conflicts with linear, phase-gated project plans. This professional acknowledgment of rapid, non-linear knowledge evolution is a root cause for procedural nonlinearity."
+  },
+  {
+    "expert_quote": "The person should have understanding of almost... A related all domains on which the project is going to work... For example, if you hire some person for cloud technology, person should have knowledge of network. Person should have knowledge of security, person should have a knowledge of web application...",
+    "mapped_id": "silo_breakdown",
+    "is_negative_case": false,
+    "rationale": "The speaker defines an ideal team member not by a narrow specialty but by broad, cross-functional knowledge spanning network, security, and application development. This expectation for integrated, cross-domain expertise directly challenges and undermines traditional departmental or skills-based silos."
+  },
+  {
+    "expert_quote": "Experience is not 100% required if you are quite capable of handling your yourself. You did some projects... there are some universities student... who developed their own new things. Do research because they have a patient right?... That is the maturity actually.",
+    "mapped_id": "role_transition_hurdles",
+    "is_negative_case": false,
+    "rationale": "The speaker redefines 'maturity' away from corporate hierarchy and years of experience ('convention') towards passion, patience, and project-based capability. This challenges established hierarchies and creates reskilling and evaluation hurdles, as traditional markers of seniority are dismissed."
+  },
+  {
+    "expert_quote": "I didn't have any failure in that way actually, but... The because I what task I'll take I I dedicated it and I thoroughly go and when I assigned the task someone I also understand what is the capability and how to guide that person... it may be possible sometime delivery take 2-3 days more so which is OK because we know that there may be a troubles. There may be a finding research and development.",
+    "mapped_id": "workflow_brittleness",
+    "is_negative_case": true,
+    "rationale": "The speaker describes a personal mitigation strategy (deep personal oversight) that prevents catastrophic failure, while acknowledging that slippage ('2-3 days more') is an acceptable norm due to R&D nature. This contradicts the theoretical severity of 'workflow brittleness' by presenting it as a manageable, expected variance rather than a critical vulnerability."
+  }
+]

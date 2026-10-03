@@ -1,0 +1,58 @@
+[
+    {
+        "rubric_indicator": "non_deterministic_outputs",
+        "quotes": ["When we are done with the project after three months, our projects decided. Their model decided now. Just to not approve the loan to all the customers. So the model was not now classified who not to approve and who not to."],
+        "analysis": "Person 2 describes a clear case of non-deterministic output. Despite being 'done' with the project, the model's final, operational decision (to deny all loans) was an unpredictable and undesired outcome that was not present or intended during development. This reflects the inherent unpredictability in model behavior.",
+        "metaphor_mapping": "The model 'deciding' is personified, framing the unpredictable output as an autonomous, erratic agent rather than a deterministic tool.",
+        "negative_case": "No negative case present here; the outcome was a definitive failure of deterministic expectation."
+    },
+    {
+        "rubric_indicator": "probabilistic_variance",
+        "quotes": ["...the expectation and the requirement. Just because there are certain contexts of these data which I don't know... there will be like a variance, a large variance from the expectation and the requirement."],
+        "analysis": "Person 2 explicitly names 'variance' between expected and actual project outcomes. They link this to a lack of contextual understanding of the data, which is a source of statistical uncertainty. The variance isn't a small error but described as 'large,' highlighting significant probabilistic fluctuation.",
+        "metaphor_mapping": null,
+        "negative_case": "No negative case; variance is presented as a direct challenge and source of project risk."
+    },
+    {
+        "rubric_indicator": "lack_of_reproducibility",
+        "quotes": ["...after we are done and trying to test on other like unseen data sets, I want to know decided that nobody who comes new people and seen as the ones we have can't be given any loan."],
+        "analysis": "The core failure is a lack of reproducibility. The model's performance and decision logic did not generalize from the training/development phase to new, unseen data. The outcome on the unseen set was fundamentally different and useless, breaking the reproducibility of the initial 'successful' project work.",
+        "metaphor_mapping": "The unseen data is treated as a 'new' population that the model rejects wholesale, metaphorically highlighting the model's failure to adapt or reproduce its function in a new environment.",
+        "negative_case": "No negative case; the lack of generalization is the central story of the project failure."
+    },
+    {
+        "rubric_indicator": "data_dependency",
+        "quotes": ["So we get this data. The company's missing. Then we go deeper. Dive deeper. So like it was unethical... The data or information you have like these different way should behave. To handle it in a certain way...", "...what determines a good model... is the domain knowledge. It doesn't help us in engineering the features..."],
+        "analysis": "Person 2 highlights high sensitivity to data quality and context in two ways. First, an ethical breach occurred from diving 'deeper' into data without proper constraints, showing dependency on appropriate data handling. Second, they emphasize that domain knowledge—understanding the specific context and meaning behind data—is critical for engineering features that determine model quality. This underscores that model success is not just technical but deeply dependent on the relevance and ethical use of historical data.",
+        "metaphor_mapping": "'Dive deeper' is a metaphor for exploratory data analysis that crossed an ethical boundary, framing data as a perilous ocean where going too deep has consequences.",
+        "negative_case": "A negative case is presented in the success story: cultural diversity brought domain expertise which *positively* addressed data dependency, leading to better feature engineering and enhanced model quality. Here, diverse data understanding mitigated the friction."
+    },
+    {
+        "rubric_indicator": "opaque_outcomes",
+        "quotes": ["So after we are done... our projects decided... the model was not now classified...", "Later on, with consultation and asking some of the professors, we're able to correct some of the mistakes which you made."],
+        "analysis": "The outcome (denying all loans) was opaque; the team did not understand *why* the model made this decision upon deployment. The opacity necessitated external consultation ('professors') to diagnose and correct the issue. The decision-making process of the model was not transparent or explainable to the team post-failure.",
+        "metaphor_mapping": null,
+        "negative_case": "No negative case; opacity was a problem requiring expert intervention to resolve."
+    },
+    {
+        "rubric_indicator": "dynamic_forecast_adjustment",
+        "quotes": ["...what determines a good model... is the domain knowledge... It doesn't help us in engineering the features...", "We the explosion now comes with what do we require? What some of the features should be engineer when we deal with data from a particular domain..."],
+        "analysis": "While not about a timeline forecast, Person 2 describes the core process of 'feature engineering' as a dynamic, iterative adjustment to improve the model's predictive 'forecast.' The need to constantly identify and create new features based on domain insight is an indicator of system instability—the initial model schema was insufficient and required ongoing, expert-driven adjustment to perform.",
+        "metaphor_mapping": "'Feature engineering' is framed as a constructive, almost architectural process, building the components that shape the model's future outputs.",
+        "negative_case": "The negative case is the successful application of this process through diverse domain knowledge, which turned dynamic adjustment from a sign of instability into a source of strength and quality enhancement."
+    },
+    {
+        "rubric_indicator": "baseline_erosion",
+        "quotes": ["So after we are done with the project after three months, our projects decided... So we consider that a failure, even though it took us a lot of time, three months, four months and the a lot of investment was made in this."],
+        "analysis": "The project baseline—defined by months of work, investment, and the expectation of a functioning loan approval model—was completely eroded by the model's final, failed behavior. The probabilistic variance forced a total reassessment of the project's success, moving it from 'done' to a 'failure' that required rework.",
+        "metaphor_mapping": "The investment of 'time' and 'investment' is metaphorically described as being lost or wasted, illustrating the erosion of the project's foundational effort.",
+        "negative_case": "No negative case; the baseline was unequivocally destroyed."
+    },
+    {
+        "rubric_indicator": "accountability_challenges",
+        "quotes": ["The main learning point was that we. Are all intense beginners. And we just went in. Not consulting from those who have experience in the field."],
+        "analysis": "Person 2 does not assign blame to the model or its algorithms for the failure. Instead, accountability is placed clearly on the team ('we') and their lack of experience/consultation. The opacity of the model's failure mechanism (why it denied all loans) is not cited as the primary cause; the human process is. This suggests that in their retrospective, the challenge was not in assigning blame for an algorithmic decision, but in acknowledging a human process failure, which is a different kind of accountability challenge.",
+        "metaphor_mapping": null,
+        "negative_case": "This is a nuanced negative case regarding the rubric's definition. The expected 'accountability challenge' due to 'opaque outcomes' is *not* present. Instead, accountability is straightforwardly assigned to the human team's actions, bypassing the friction the rubric anticipates from algorithmic opacity."
+    }
+]

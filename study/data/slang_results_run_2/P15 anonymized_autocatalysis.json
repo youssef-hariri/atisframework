@@ -1,0 +1,44 @@
+[
+  {
+    "expert_quote": "Yeah, I think you know that long ago. It probably was a cultural thing where they were expecting. You know somebody to give them specific instruction about the direction they wanted.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "The quote describes a human-centric workplace dynamic (expectation for specific instruction) that can be at odds with the pace and autonomy required by fast-moving technical projects, hinting at a friction point between technical velocity and human acceptance."
+  },
+  {
+    "expert_quote": "I don't address it specifically. Not not openly and specifically I I don't.",
+    "mapped_id": "skill_obsolescence_pace",
+    "is_negative_case": false,
+    "rationale": "This statement reflects a passive approach to managing cultural differences, a non-technical competency. The lack of active, systematic upskilling in 'soft' managerial skills is a form of skill obsolescence, where the human capacity to adapt is not being formally developed to match technical project complexity."
+  },
+  {
+    "expert_quote": "I probably just through experience and sub consciously have adapted not just to the language difference but also. The culture right?",
+    "mapped_id": "skill_obsolescence_pace",
+    "is_negative_case": false,
+    "rationale": "Adaptation is described as subconscious and experiential rather than through formal, continuous training. This highlights a gap where critical cross-cultural management competencies are developed organically and slowly, potentially lagging behind the pace of technical team formation and project demands."
+  },
+  {
+    "expert_quote": "And I and I think you know, the contacts there is the culture around privacy in Germany. It's lot different than it is in the United States, right?",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": false,
+    "rationale": "The speaker explicitly identifies a clash between established regional privacy norms and a single product deployment, illustrating how ethical and governance frameworks are pre-existing but divergent, forcing reactive accommodations rather than proactive, unified standards—a form of regulatory lag at the operational level."
+  },
+  {
+    "expert_quote": "The United States has. Less regulatory. Laws around. You know, AI ethics and AI than Europe does.",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": false,
+    "rationale": "This is a direct, high-level observation of differential regulatory maturity, a core tenet of regulatory lag where governance frameworks emerge unevenly and often lag behind technical deployment and innovation."
+  },
+  {
+    "expert_quote": "The US would probably value innovation over ethics in a lot of cases, more so than in Europe, right?",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "The quote frames the central tension in socio-technical shift: the prioritization of innovation velocity (technical benefits) versus the integration of ethical considerations (human/societal acceptance). It positions this as a cultural and regional value judgment."
+  },
+  {
+    "expert_quote": "I I ensure the hiring process. The way the way I view it is, you know a lot of these technical interviews get down to like, you know, can you write this algorithm super efficiently and how quickly? I value I value the the what? What would you call it? The soft skills almost as much as I value the technical skills, right?",
+    "mapped_id": "judgment_substitution",
+    "is_negative_case": true,
+    "rationale": "This is a negative case. The speaker explicitly states they value human judgment ('soft skills') as highly as technical proficiency, actively countering the narrative of judgment substitution where technical capability might be prioritized over human-centric skills like ethics and collaboration."
+  }
+]

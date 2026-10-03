@@ -1,0 +1,30 @@
+[
+  {
+    "indicator": "trust_understanding_gap",
+    "evidence": "Person 2 describes implementing a chatbot to pull data for non-IT users: '...it would be able to pull out the data from the from the database based on the query which you have mentioned and then it will give you... the data in... wordings statement in natural language.'",
+    "analysis": "The description frames the AI as a seamless translator and data fetcher. The language ('it would be able to') implies a reliable, direct capability without detailing the potential for errors, misinterpretations, or limitations in query understanding or data retrieval, suggesting an underlying trust in its functionality that may not account for its practical imperfections.",
+    "metaphor_mapping": "The chatbot is presented as a 'Bridge' or 'Interpreter'—a tool that effortlessly connects non-technical human intent with complex technical systems, masking the potential for gaps in translation.",
+    "negative_case": "Person 2 does **not** elaborate on user frustrations with the chatbot's outputs, misunderstandings, or the need for iterative prompt refinement. The focus is on the solution's intended utility, not its real-world friction points."
+  },
+  {
+    "indicator": "magic_box_perception",
+    "evidence": "When discussing client interactions and project requirements, Person 2 states: '...you can't explain what exactly is happening or under the hood, what you would be able to do... you could just give them an overview... there will be a lot of understanding, but there are a lot of gaps.'",
+    "analysis": "This acknowledges a common practice of presenting AI/ML solutions as black boxes to clients, offering an 'overview' rather than transparent mechanics. This fosters a 'Magic Box' perception where the client is expected to trust the output without a clear understanding of the process, directly creating the conditions for the 'explainability deficit' and subsequent 'trust erosion'.",
+    "metaphor_mapping": "The AI system is treated as a 'Sealed Unit' or 'Oracle'—its internal workings are opaque and not for client consumption; value is derived from its pronouncements, not its process.",
+    "negative_case": "Person 2 does **not** describe a scenario where this opacity backfired (e.g., a client rejecting a valid output because they couldn't understand it). He presents it as a standard, manageable part of the workflow."
+  },
+  {
+    "indicator": "paradoxical_expectations",
+    "evidence": "Discussing data privacy and AI adoption: '...most of the companies in today's world highly concerned about their data... most of the companies are not even using AI, just because of this... they want to run their own systems... because they might not show that... their data could be stealed.'",
+    "analysis": "This highlights the tension between the perceived utility of AI and the high perceived risk (data exposure, lack of control). Companies exhibit paradoxical expectations: they see AI's potential value but simultaneously hold back due to fears of its inherent risks (unfairness, security, opacity), aligning with the 'unfairness_barriers' indicator as a subset of this paradox.",
+    "metaphor_mapping": "AI is viewed as a 'Double-Edged Sword'—a powerful tool that is also a potential source of vulnerability. It is both a 'Treasure Chest' and a 'Pandora's Box'.",
+    "negative_case": "Person 2 does **not** provide an example of a company that successfully navigated this paradox with a specific strategy (e.g., through explainable AI or robust governance). The observation remains at the level of a general industry caution."
+  },
+  {
+    "indicator": "utility_mismatch",
+    "evidence": "In advising a colleague on working with foreign clients, Person 2 emphasizes: 'Understand the people... how they work exactly or how they would like them to be work... I may get the information from you, but I don't know how you work. Understanding of people is is very, very crucial.'",
+    "analysis": "While about human interaction, this principle directly applies to AI design and deployment. It underscores the risk of a 'utility mismatch'—where an AI system is built on technical requirements and data but fails because its designers did not deeply understand the end-user's workflows, goals, and unspoken needs ('how they would like them to be work'). This human-centric insight is a proxy for the gap between algorithmic function and human utility.",
+    "metaphor_mapping": "This advice warns against the 'Square Peg, Round Hole' scenario. Implementing a solution (AI or otherwise) without deep user empathy leads to poor fit and low adoption.",
+    "negative_case": "The transcript does **not** contain a specific example where Person 2 witnessed an AI project fail due to this mismatch. The insight is applied to human relationships, not directly to an AI use case."
+  }
+]

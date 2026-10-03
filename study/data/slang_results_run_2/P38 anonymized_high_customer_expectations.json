@@ -1,0 +1,56 @@
+[
+  {
+    "expert_quote": "Take, for example, fluid dynamics. That's. That's the kind of stuff that is. That is always been based on statistics, and that's where AI shines. Compared to traditional solvers and that that kind of stuff.",
+    "mapped_id": "dreams_vs_reality",
+    "is_negative_case": false,
+    "rationale": "The phrase 'AI shines' juxtaposed with 'traditional solvers' implies an idealized vision of AI capability superior to existing methods, aligning with the indicator's description of idealized visions contrasted with practical outputs."
+  },
+  {
+    "expert_quote": "But I'm not sure if if our people in. In the east or far West actually like Watchat you, Betty is doing that kind of stuff so.",
+    "mapped_id": "trust_understanding_gap",
+    "is_negative_case": false,
+    "rationale": "The speaker's uncertainty about the global suitability and reception of AI models trained on Western data points to high optimism undercut by opaque or potentially unsatisfactory behavior for different cultural audiences."
+  },
+  {
+    "expert_quote": "And and that's and that's something there where? Yeah, I see most of my, my, my my colleagues fail as as well and in some cases I think I do it right. In other cases I do it also completely wrong...",
+    "mapped_id": "trust_erosion",
+    "is_negative_case": false,
+    "rationale": "Admitting failure in managing team dynamics and boundaries, which can lead to disappointing outcomes, semantically links to disillusionment in pilot phases that causes friction and resistance to scaling."
+  },
+  {
+    "expert_quote": "But that's. Yeah, that's the kind of stuff that you that you have to deal with.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "The resigned acceptance of having to manage diverse presentation requirements (numerics, colors) reflects a management friction where user expectations based on local norms require re-education and additional labor."
+  },
+  {
+    "expert_quote": "In in some cases you have to be that 4A little while so that they know, OK, these are the boundaries that we have to operate in.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "Describing the need to be a 'boss from hell' temporarily to set boundaries indicates a scenario where user/team behavior, based on unrealistic expectations of autonomy, requires corrective managerial 're-education' labor."
+  },
+  {
+    "expert_quote": "Yes, not so much in an AI project. But mainly in. In Dev OPS projects.",
+    "mapped_id": "trust_erosion",
+    "is_negative_case": true,
+    "rationale": "This is a negative case for the 'trust_erosion' friction within the AI context. The speaker explicitly states that the failure leading to a hostile environment and disillusionment occurred in DevOps, not AI, projects."
+  },
+  {
+    "expert_quote": "You also have to be aware of. Well, it's it's not like we are in the West and we know best you.",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": false,
+    "rationale": "The warning against assuming Western superiority reflects an awareness that AI solutions or processes designed with one cultural perspective may not align with or be useful for the goals and contexts of other teams or clients."
+  },
+  {
+    "expert_quote": "And and and and tell me what you've learned.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "The prescription to read about history and religion before joining a team is a proactive strategy to manage expectations and prevent the 're-education labor' required when cultural misalignments cause project friction."
+  },
+  {
+    "expert_quote": "That that they really have that drive of it has to be good. That that the trick, of course, is is in our case to recognize that people want to be good and provide that feedback... because if if we're in that Western mode... then then you run into those into into those those disappointments.",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": false,
+    "rationale": "Describes a cultural 'drive' for quality that, if mismanaged with a hands-off 'Western mode' of leadership, leads to disappointment. This highlights a mismatch between assumed managerial utility (autonomy) and the team's actual need for frequent guidance."
+  }
+]

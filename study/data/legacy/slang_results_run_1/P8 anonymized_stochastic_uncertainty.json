@@ -1,0 +1,58 @@
+[
+  {
+    "excerpt": "Right now we are on in the R&D for for the AI part. So basically we're trying to integrate it in our startup basically, yeah.",
+    "timeframe": "0:2:24.310 --> 0:2:30.620",
+    "stochastic_uncertainty_indicator": "model_drift",
+    "metaphor": null,
+    "negative_case": false,
+    "analysis": "The R&D phase inherently involves experimentation and adjustment, indicating early-stage instability and potential for performance decay as the model evolves, aligning with the 'model_drift' indicator."
+  },
+  {
+    "excerpt": "Because we can then shift accordingly to the qatarian word, because mainly my project will mainly you know jeria basically will serve not in Europe... From the computer side, I would say uh with I I we could have good chance but still I want to build something there because of the competitor landscape, it's really nothing comparing to your.",
+    "timeframe": "0:3:34.480 --> 0:3:56.30",
+    "stochastic_uncertainty_indicator": "data_dependency",
+    "metaphor": null,
+    "negative_case": false,
+    "analysis": "High sensitivity to local data (Qatar region) and competitor landscape highlights dependency on specific, potentially scarce or unique historical data for model training, which is a core aspect of data_dependency."
+  },
+  {
+    "excerpt": "Since we are in a different cultures comes this dynamic of uh, it comes this attachment like, yeah, I can do more. I can do better because because because I wanna show what we can do and the other can show what they can do as representation of the folk or of the country.",
+    "timeframe": "0:12:0.440 --> 0:12:9.350",
+    "stochastic_uncertainty_indicator": "opaque_outcomes",
+    "metaphor": "Representation of folk/country as a driving force",
+    "negative_case": false,
+    "analysis": "Cultural dynamics introduce complex, hard-to-predict motivational factors into team performance and decision-making. This complexity can lead to outcomes that are difficult to explain algorithmically (opaque_outcomes), as they stem from non-quantifiable social and cultural drivers."
+  },
+  {
+    "excerpt": "I don't see the... I don't handle this differently. Basically we we're always following the same path, the same procedures of developing a product or working together in a project.",
+    "timeframe": "0:6:45.140 --> 0:6:55.770",
+    "stochastic_uncertainty_indicator": null,
+    "metaphor": null,
+    "negative_case": true,
+    "analysis": "This statement presents a negative case. Person 2 explicitly states that cultural diversity does not introduce unpredictability or require different management procedures in their AI projects, contradicting the notion that such differences inherently create stochastic uncertainty or management friction."
+  },
+  {
+    "excerpt": "So because at the end we want every user to use it, not just and especially if you're talking about better as a Berber and he would say, OK, how you also add the third language, which is Berber... you have to somehow understand what he's saying and incorporate this... So I don't know if this is related to ethic but and counting. This is basically kind of yeah training. The model for using such a data from the Internet.",
+    "timeframe": "0:15:43.540 --> 0:17:13.400",
+    "stochastic_uncertainty_indicator": "data_dependency",
+    "metaphor": null,
+    "negative_case": false,
+    "analysis": "The challenge of incorporating low-resource languages/dialects (Berber) highlights extreme data dependency. The quality, availability, and relevance of training data for these languages is a major source of uncertainty and potential model failure, directly impacting the model's ability to function for all end-users."
+  },
+  {
+    "excerpt": "I mean, even with dialect, it's not won't be a problem if you have a good data, yeah.",
+    "timeframe": "0:18:37.600 --> 0:18:42.260",
+    "stochastic_uncertainty_indicator": "data_dependency",
+    "metaphor": "Good data as a solution",
+    "negative_case": false,
+    "analysis": "This reinforces data_dependency. The statement frames 'good data' as the single solution to a complex, uncertain problem (dialect understanding), acknowledging that the core challenge and source of unpredictability lies in data quality and availability."
+  },
+  {
+    "excerpt": "No, not really, because everyone is focused with the end goal. Actually, everyone is focused on what is the purpose of the I I and that's it.",
+    "timeframe": "0:23:37.400 --> 0:23:47.510",
+    "stochastic_uncertainty_indicator": null,
+    "metaphor": "End goal as a unifying focus",
+    "negative_case": true,
+    "analysis": "Another negative case. Person 2 asserts that a shared technical focus ('the end goal') completely mitigates any potential for cultural differences to introduce complexity, unpredictability, or opacity in the AI development process. This contrasts with the indicator 'opaque_outcomes' which suggests cultural factors can complicate results."
+  }
+]

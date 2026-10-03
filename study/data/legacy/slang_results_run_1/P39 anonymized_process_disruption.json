@@ -1,0 +1,53 @@
+[
+  {
+    "speaker": "Person 2",
+    "rubric_category": "management_frictions.cultural_resistance",
+    "evidence": "You might just be sluggish, sluggish to to get on that route, but yeah, what? You still have to do, you still have to still have to get the job done. ... going back to the social economical factor we talked about you are you are modeling. Leaning on the side of actually doing getting the tax done just so you could get paid and move ahead with your, with your, with your career.",
+    "analysis": "Person 2 describes a form of compliance driven by economic necessity rather than genuine buy-in. This indicates a 'masked' or passive cultural resistance where team members follow directives out of financial need, not alignment with the new process or vision. This creates a brittle foundation for collaboration.",
+    "metaphor": "Masked Compliance / Economic Leverage"
+  },
+  {
+    "speaker": "Person 2",
+    "rubric_category": "indicators.integration_friction",
+    "evidence": "We had a hybrid architecture rather than a full-fledged cloud architecture. So that is one of the cases...",
+    "analysis": "The decision to adopt a hybrid cloud infrastructure over a full-cloud solution represents a tangible point of friction in integrating the AI/data system. It's a compromise between ideal technical scalability (full cloud) and practical constraints (cost, skills, startup status), directly illustrating the clash between new AI/data needs and existing operational realities.",
+    "metaphor": "Architectural Compromise"
+  },
+  {
+    "speaker": "Person 2",
+    "rubric_category": "indicators.workflow_brittleness",
+    "evidence": "You have situations whereby you know for folks in India... it's quite a strain on their head... it reduces, you know, the effect of actually how you contribute... You have to push and delay to the next day because you know because of the timeframe.",
+    "analysis": "The linear, synchronous process of meetings is shown to be brittle when stretched across time zones in a globally distributed AI team. The workflow breaks down, causing strain, reduced contribution quality, and delays, highlighting the incompatibility of rigid, time-bound processes with the need for fluid, async collaboration in AI projects.",
+    "metaphor": "Time Zone Strain"
+  },
+  {
+    "speaker": "Person 2",
+    "rubric_category": "management_frictions.role_transition_hurdles",
+    "evidence": "When when someone comes in the tax list quite much, right, the tax lenders quite much for you to be able to... To achieve so. Someone comes in within five months, six months. You know their house because the load is quite much so... You might now get to wonder. OK, you stay in that six months is because of the money or what you have gone out.",
+    "analysis": "Person 2 observes the high attrition rate (6 months) due to intense workload ('the tax is quite much'). This points to a failure in managing the transition to new, demanding AI project roles. The high turnover disrupts team cohesion and knowledge continuity, a key friction in sustaining AI initiatives.",
+    "metaphor": "The Grind / High Attrition"
+  },
+  {
+    "speaker": "Person 2",
+    "rubric_category": "indicators.silo_breakdown",
+    "evidence": "I communicate with him, especially with respect to the AI features that are coming up in the application.",
+    "analysis": "Person 2, an MLOps/Infrastructure specialist, describes necessary communication with a front-end engineer and designer about AI features. This indicates the cross-functional collaboration required for AI integration, breaking down the traditional silo between backend/data science teams and frontend/UX teams.",
+    "metaphor": "Forced Cross-Functional Dialogue"
+  },
+  {
+    "speaker": "Person 2",
+    "negative_case": true,
+    "rubric_category": "indicators.knowledge_clash",
+    "evidence": "The only place where I think cultural can communist when you are dealing with domain specific. Problems, right?... cultural diversity will play inside how you put in those. Things right? ... I can, to be honest, I can't. That was just an example I gave you...",
+    "analysis": "Person 2 initially posits that domain knowledge is where culture matters but immediately fails to recall a concrete example, retracting it as hypothetical. This suggests that in their experience, the explicit tension between data-centric AI knowledge and tacit human/domain knowledge ('knowledge_clash') is not a primary or memorable point of friction. The dominant frictions are elsewhere (logistics, economics, workload).",
+    "metaphor": "Theoretical vs. Experiential Friction"
+  },
+  {
+    "speaker": "Person 2",
+    "negative_case": true,
+    "rubric_category": "indicators.ethical_automation_tension",
+    "evidence": "In terms of. This thing so yeah. It's tough. It's tough because. It was a start of again, so you don't have much data. You're still trying to build, so yeah.",
+    "analysis": "When asked explicitly about ethics and model bias, Person 2 deflects, stating the project was using Generative AI (Gemini) and was in a startup phase with little data. They do not engage with the ethical dimension, framing the challenge as one of technical/data scarcity rather than ethical oversight. This absence suggests ethical considerations are not yet a salient point of process disruption in their described projects.",
+    "metaphor": "Ethics as a Distant Concern"
+  }
+]

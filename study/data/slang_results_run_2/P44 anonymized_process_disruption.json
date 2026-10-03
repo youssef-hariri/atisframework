@@ -1,0 +1,62 @@
+[
+  {
+    "expert_quote": "AI projects are not that much different in that sense. What I've seen work so far is that you know, like sometimes what happens is that you already have a team that works well together, right? So they work together on some previous project in the past.",
+    "mapped_id": "workflow_brittleness",
+    "is_negative_case": true,
+    "rationale": "Speaker contradicts the notion of unique AI workflow disruption by stating that successful team assembly for AI projects relies on pre-existing, stable human relationships from past linear projects, suggesting the traditional ('brittle') model is still the preferred foundation, not a point of failure."
+  },
+  {
+    "expert_quote": "All of this cultural stories that you hear about people from this place or from that place, mostly they're just like they're not true... Some people take the feedback easily. Some people just ignore it. Some people become aggressive, like depends on the people, but really I wouldn't say it's like country.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": true,
+    "rationale": "Speaker explicitly rejects the theoretical 'knowledge clash' between data-centric patterns (e.g., cultural generalizations) and tacit human knowledge, framing behavioral variance as an individual, not a systemic or culturally-patterned, friction."
+  },
+  {
+    "expert_quote": "Some companies they try to collect their feedback, so to say behind your back... It's not actionable, and quite often it's it's incorrect... feedback from my perspective it could be a weapon as well.",
+    "mapped_id": "legacy_inflexibility",
+    "is_negative_case": false,
+    "rationale": "Describes a 'weaponized' feedback system as a rigid, opaque, and often inaccurate legacy process. This illustrates friction where dynamic, trust-based collaboration needed for adaptive AI/hybrid work is hindered by static, punitive HR/performance management tools."
+  },
+  {
+    "expert_quote": "My approach is like to probe, to see and try to be extremely diplomatic in the beginning and then once you see the people, OK, they appreciate the direct feedback... They take it easily... I do the same, but if you see that people are a little bit... backward a little bit... you just give them the same thing... because otherwise as you said some might get offended.",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "Describes a managerial role that is not about phase-gated oversight but about continuous, empathetic sensing ('probe', 'see'), adaptive communication, and ethical judgment on how to deliver feedback—a shift from process manager to a situational and interpersonal facilitator."
+  },
+  {
+    "expert_quote": "I just come and I see. So I listen more than I talk. I see what people talk about. I participate in meetings. I see what kind of information they share and so on and so forth, and then basically what happened is that. I've seen that there was a culture that was not really much suitable to my taste.",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "Employs the slang of a detective or ethnographer ('come and I see', 'listen more than I talk') to describe the manager's new role in assessing cultural and operational fit, which supersedes traditional checklist-based onboarding for linear projects."
+  },
+  {
+    "expert_quote": "It's a sales process both way... you know, like both people in the companies they try to show probably to describe them better than they actually are.",
+    "mapped_id": "integration_friction",
+    "is_negative_case": false,
+    "rationale": "Uses the metaphor of a mutual 'sales process' to describe the inherent misalignment and friction when integrating into a new team or company culture. This mirrors the challenge of embedding new AI/data-centric ways of working into established environments where true capabilities and needs are initially obscured."
+  },
+  {
+    "expert_quote": "The culture... comes as, let's say, priority #2. Unfortunately so.",
+    "mapped_id": "integration_friction",
+    "is_negative_case": false,
+    "rationale": "Explicitly states that cultural and behavioral fit ('soft' factors critical for hybrid/AI collaboration) is systematically deprioritized in traditional hiring/interview processes focused on technical skills ('priority #2'), creating a foundational friction for integration."
+  },
+  {
+    "expert_quote": "Don't lead by talking, just lead by example, right?... treat people with respect, you know, like try to listen to them, try to give time to people who need this time... Try to grow people as well.",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "Defines leadership through coaching, mentorship, and ethical example ('lead by example', 'grow people'), not through gatekeeping phases. This aligns with the reconfiguration toward oversight of system health and team development in adaptive environments."
+  },
+  {
+    "expert_quote": "You try to from the start to get the people in your team who will not do things that are not acceptable in your team, right?",
+    "mapped_id": "integration_friction",
+    "is_negative_case": false,
+    "rationale": "Highlights a pre-emptive, selection-focused strategy to avoid friction, revealing the inherent difficulty (and thus friction) of integrating diverse working styles post-hoc into a team. The goal is to fit people into a pre-defined 'acceptable' mold, which is challenged by the dynamic needs of AI projects."
+  },
+  {
+    "expert_quote": "I didn't really create any forums for some kind of discussions that are not related to the work... during the work time, normally we discuss things that are related to work... But again here it's it's more an art than science.",
+    "mapped_id": "procedural_nonlinearity",
+    "is_negative_case": false,
+    "rationale": "Maintains a strict boundary between work (structured discussion) and non-work, describing the balance as an 'art'. This contrasts with the non-linear, iterative AI workflow which often blurs these boundaries through continuous, informal collaboration and knowledge exchange, creating a procedural friction."
+  }
+]

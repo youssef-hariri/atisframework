@@ -1,0 +1,50 @@
+[
+  {
+    "type": "metaphor",
+    "rubric_element": "temporal_misalignment",
+    "quote": "But for for me and my friends, like we like work life balance as well. But if we need to, to. To push 'cause, it's like in the deadline. Yeah, we, we will do it like, yeah, maybe that's the thing.",
+    "analysis": "Person 2 uses the metaphor of a 'deadline push' to describe a flexible, event-driven approach to time (common in some agile/start-up cultures). This contrasts with the German project manager's metaphor of a fixed 'container' of time (strict work hours/weekends). This clash represents the friction between 'AI time' (iterative, deadline-driven bursts) and 'organizational time' (structured, sequential schedules)."
+  },
+  {
+    "type": "metaphor",
+    "rubric_element": "skill_obsolescence_pace & judgment_substitution",
+    "quote": "She always ask ask about how how to code, how to make it works... She worried that she cannot make changes in the future.",
+    "analysis": "The project manager's background in 'industrial management' is metaphorically positioned as an 'outdated map' for navigating the technical 'terrain' of the AI project. Her reliance on Person 2's judgment for technical decisions ('how to make it work') and her fear of future complexity show a reconfiguration where managerial judgment is supplemented/substituted by the developer's technical judgment due to a skill gap. This points to the 'judgment_substitution' dynamic, initiated by a form of role-specific 'skill_obsolescence'."
+  },
+  {
+    "type": "metaphor",
+    "rubric_element": "integration_debt",
+    "quote": "when I created the new version like I need to create the a new API in the server. So I changed the server code... It's more complicated than the previous [version].",
+    "analysis": "Person 2 describes the technical upgrade as creating a 'new layer' that requires changes to the 'foundation' (server code). The project manager's inability to handle this new complexity treats the previous system as a form of 'technical debt' that has now become 'integration debt'—the new, more capable AI component creates friction because it is incompatible with the old operational understanding and comfort level."
+  },
+  {
+    "type": "negative_case",
+    "rubric_element": "recursive_innovation",
+    "evidence": "The entire discussion revolves around the application of existing AI/software tools to a specific problem (document analysis). There is no mention of using AI tools to design, optimize, or accelerate the creation of *new* AI tools.",
+    "interpretation": "This project exists at the application layer of the AI stack. The autocatalytic loop of AI-accelerated AI R&D is absent from this practitioner's immediate experience, highlighting that the phenomenon may be concentrated in research labs and platform-developing organizations, not all downstream projects."
+  },
+  {
+    "type": "negative_case",
+    "rubric_element": "tool_proliferation",
+    "evidence": "Person 2 discusses modifying an existing codebase and API. There is no mention of evaluating or integrating a stream of new libraries, frameworks, or foundation models.",
+    "interpretation": "The friction experienced is rooted in deepening integration with a *single* tool/system, not in managing the influx of *many* new ones. This suggests 'tool_proliferation' is a pressure point more for architects, researchers, and CTOs than for individual developers on a focused application project."
+  },
+  {
+    "type": "negative_case",
+    "rubric_element": "socio_technical_shift",
+    "evidence": "The ethical, societal, or human acceptance dimensions of AI are never raised. The discussion of 'culture' is strictly about workplace communication and project management styles.",
+    "interpretation": "For Person 2, working on an AI project is functionally identical to any other software project ('I think it's the same'). The profound socio-technical questions (bias, ethics, displacement) triggered by AI's advancing capabilities are not part of his immediate development purview. The 'shift' has not reached his operational level."
+  },
+  {
+    "type": "negative_case",
+    "rubric_element": "gen_AI_acceleration",
+    "evidence": "No mention of generative AI (e.g., LLMs, diffusion models) or their impact on the project's pace or nature.",
+    "interpretation": "The project likely predates or does not utilize the most recent wave of generative AI. The specific acceleration vector of 'gen_AI_acceleration' is not active in this context, indicating the autocatalysis rubric captures a multi-speed phenomenon where some teams are in a faster, more recent cycle than others."
+  },
+  {
+    "type": "negative_case",
+    "rubric_element": "continuous_training_demand",
+    "evidence": "Person 2 mentions learning English to overcome a barrier, but there is no discussion of needing to constantly learn new AI subtypes, libraries, or paradigms to remain effective in his role during the project.",
+    "interpretation": "The training demand highlighted is cultural/linguistic (a human skill), not technical. The relentless pace of technical obsolescence ('continuous_training_demand') is implied in the project manager's skill gap but is not explicitly experienced as a personal, ongoing educational burden by Person 2 in this narrative."
+  }
+]

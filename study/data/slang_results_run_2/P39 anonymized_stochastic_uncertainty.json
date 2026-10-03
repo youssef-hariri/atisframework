@@ -1,0 +1,32 @@
+[
+  {
+    "expert_quote": "So you have situations whereby you know for folks in India and for folks, those are quite far and you have some people in the UK and in Nigeria as well, which we have just about one hour difference in in the time time. So that's quite easy then for people in India... So when you have this sort of meetings, right, that maybe take place in the in the evenings and stuffs like that. It's it's quite a strain on their head... It reduces, you know, the effect of actually how you contribute because it does... You have to push and delay to the next day because you know because of the timeframe.",
+    "mapped_id": "baseline_erosion",
+    "is_negative_case": false,
+    "rationale": "The professional slang of 'strain' and 'push and delay' describes how probabilistic variance in team availability (due to time zones) forces constant rescheduling and adjustment of project timelines, directly illustrating the management friction of baseline erosion."
+  },
+  {
+    "expert_quote": "Feedback absorption might be masked or out out... So I think Shishu economic factor might affect and how you take feedback... You might need to to probably just follow it right. And when you swallow it just OK, I've. I've got to do this because I need the cash, right?... So that's why I will say to that so.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": false,
+    "rationale": "The metaphor of 'swallowing' feedback and the slang 'masked' describe how opacity in team members' true reactions, driven by economic pressures, creates ambiguity in who is accountable for a decision or its outcome, aligning with the accountability challenges friction."
+  },
+  {
+    "expert_quote": "It was a start of again, so you don't have much data. You're still trying to build...",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "The everyday phrase 'you don't have much data' directly highlights the project's high sensitivity and dependency on historical data quality and quantity, a core indicator of stochastic uncertainty."
+  },
+  {
+    "expert_quote": "Either we go full cloud, full cloud century or we go hybrid. Alright. And, you know, guilty was like, OK. Let's go Full card, but this particular guy was like, you know, these are these are some of the downtimes. These are some of the things you have a cloud. Wesley startup. We don't. We don't make money yet, right? Why not just go vibrate since we have the capability... So we had to go back, revise the things... So that is one of the cases and there are a lot of cases where you you get to see that where I had to see that evening with respect to code structure and so.",
+    "mapped_id": "dynamic_forecast_adjustment",
+    "is_negative_case": false,
+    "rationale": "The professional process described—'go back, revise the things'—acts as a human-floor description for the need to constantly update technical and architectural baselines due to new perspectives and constraints, indicative of underlying system instability requiring dynamic forecast adjustment."
+  },
+  {
+    "expert_quote": "From the cultural perspective. No, I don't. I don't see that. I don't. It doesn't work on me because when you're working with different people. You have to you have to sudden go that you're trying to reach, right?... So. Well, I think that's that in most of my experiences, no.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": true,
+    "rationale": "The speaker explicitly states that cultural diversity does not create opacity or challenges in assigning responsibility ('it doesn't work on me') in his general experience, directly contradicting the theoretical premise of the management friction."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "expert_quote": "with machine learning AI there's this little extra abstraction layer which is just very hard for yeah non. Yeah, core data experts to to fully appreciate.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The participant describes the core challenge of AI/ML as an 'extra abstraction layer,' a professional metaphor aligning with the theoretical indicator of 'opaque_outcomes' where algorithmic complexity leads to results that are hard for stakeholders to understand or explain."
+  },
+  {
+    "expert_quote": "sales recruiters themselves tend to think really competitively. So they're like, yeah, if everyone has this information. There's no reward... they wanted to also have some metrics like, yeah, but this data set, can we just give it only to our like like best performers... that was not how we had it in. Mind, but those kinds of small, yeah, cultural changes led to, I think the solution of being adopted in the end.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "This quote highlights a 'human-floor' friction where the *quality and relevance* of the data feeding the AI system (i.e., which recruiter's data is shared) is directly compromised by organizational culture and competitive incentives. This maps to 'data_dependency' as the model's effectiveness is shown to be highly sensitive to real-world data sharing behaviors, not just technical data quality."
+  },
+  {
+    "expert_quote": "those kinds of small, yeah, cultural changes led to, I think the solution of being adopted in the end.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": false,
+    "rationale": "The participant attributes project failure to diffuse 'cultural changes' and competitive motives rather than a clear technical or decision-making fault. This exemplifies 'accountability_challenges,' as the opacity of how the AI's value proposition interacted with human incentives made it difficult to assign clear responsibility for the failure to adopt."
+  },
+  {
+    "expert_quote": "the German ones... they were making a little bit of compare apples with oranges because they were used to only uploading people to their database system, which already had talked to Rec... but what our solution did is just scrape people so to say from the Internet.",
+    "mapped_id": "lack_of_reproducibility",
+    "is_negative_case": true,
+    "rationale": "This is a negative case for 'lack_of_reproducibility.' The German team's criticism was not about inconsistent AI outputs between runs, but about a perceived mismatch in input data quality (pre-vetted CVs vs. scraped profiles). The participant clarifies this as a misunderstanding of the process step, not an inherent irreproducibility of the model's function."
+  }
+]

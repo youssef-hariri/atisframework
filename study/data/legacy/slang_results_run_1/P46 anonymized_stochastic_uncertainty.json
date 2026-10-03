@@ -1,0 +1,44 @@
+[
+    {
+      "stochastic_uncertainty_indicator": "opaque_outcomes",
+      "evidence": "Person 2 states: '...nobody cares about the technology... The customer will be only concerned if their application is working or not. He doesn't care... They just want the application working.' This highlights a focus on functional outcomes over the inherently complex and often unexplainable algorithmic decision-making processes, aligning with the 'opaque_outcomes' indicator.",
+      "metaphor_mapping": "AI as a 'Black Box' Tool: Person 2 implicitly frames AI as a utility. The complexity ('what's underneath') is irrelevant as long as the output ('the application working') is delivered. The 'box' is opaque to the end-user.",
+      "negative_case": null
+    },
+    {
+      "stochastic_uncertainty_indicator": "dynamic_forecast_adjustment",
+      "evidence": "Person 2 emphasizes the need for constant learning: '...you'll have to be really thorough and constantly learn about what's happening in the market... you'll have to be really aware because your field is like that and it's constantly evolving.' This reflects the underlying instability and rapid change in AI that necessitates continuous updates to knowledge and expectations.",
+      "metaphor_mapping": "AI as a 'Moving Race': She describes keeping up with AI as running a 'race' where the track and the competition ('DeepSeek', 'Open algorithm', 'NVIDIA group model') are constantly changing, forcing participants to adapt their pace and strategy continually.",
+      "negative_case": null
+    },
+    {
+      "stochastic_uncertainty_indicator": "data_dependency",
+      "evidence": "Person 2 notes cultural differences in data ethics: 'Europeans... they're particularly very concerned about these data loss, compliance, GDPR...' while others are 'more chill or relax in these kind of aspects.' This highlights how the foundational element of AI—data—is subject to variable cultural and legal interpretations, impacting model development and deployment.",
+      "metaphor_mapping": "Data as Culturally-Contingent 'Fuel': Data is the fuel for AI, but its quality and acceptability are filtered through cultural 'lenses' (e.g., GDPR vs. efficiency-focused attitudes). The same fuel is not universally available or permissible.",
+      "negative_case": null
+    },
+    {
+      "stochastic_uncertainty_indicator": "management_frictions.baseline_erosion",
+      "evidence": "While discussing project delivery challenges, Person 2 focuses on political/legal roadblocks (tax, customs laws) and personal 'egos', not on probabilistic variance forcing forecast adjustments. The core management friction described is rooted in external bureaucracy and interpersonal dynamics, not AI's inherent statistical unpredictability.",
+      "metaphor_mapping": null,
+      "negative_case": "Yes. Person 2's account of project management challenges does not align with 'baseline_erosion' due to stochastic uncertainty. She identifies clear, deterministic obstacles (laws, personalities) rather than the probabilistic 'fog' that would force repeated recalibration of project baselines. Her framing suggests project variance has identifiable external causes, not inherent model variance."
+    },
+    {
+      "stochastic_uncertainty_indicator": "lack_of_reproducibility",
+      "evidence": "No direct evidence found. Person 2 discusses reproducibility of *team success* through culture and process ('HR has established a working culture'), not the reproducibility of specific AI model outputs or results.",
+      "metaphor_mapping": null,
+      "negative_case": "Yes. The concept of irreproducible AI results is absent. Success is attributed to replicable human and organizational factors (diversity, company culture, networking), implying that good outcomes can be deliberately recreated through these means, contrary to the irreproducibility posed by stochastic systems."
+    },
+    {
+      "stochastic_uncertainty_indicator": "probabilistic_variance / non_deterministic_outputs",
+      "evidence": "No direct evidence found. The discussion of AI outputs is binary ('application working' or not). There is no mention of statistical confidence intervals, fluctuating predictions, or variance between model runs.",
+      "metaphor_mapping": null,
+      "negative_case": "Yes. Person 2's operational view of AI sidesteps its probabilistic nature. AI is presented as a deterministic service provider ('working/not working'), akin to traditional software. The core uncertainty she engages with is in the *business and human environment* (markets, laws, cultures), not in the statistical variance of the AI's own outputs."
+    },
+    {
+      "stochastic_uncertainty_indicator": "model_drift",
+      "evidence": "Indirectly connected via the need for constant learning and updates. However, the described 'drift' is in the *landscape of available tools and knowledge*, not in the decay of a deployed model's performance due to changing real-world data patterns.",
+      "metaphor_mapping": "Ecosystem Drift vs. Model Drift: The metaphor is of an evolving 'ecosystem' (new models, conferences, news) that professionals must adapt to, rather than a single model's performance 'drifting' away from its original baseline.",
+      "negative_case": "Partial. While acknowledging a dynamic environment, Person 2 does not cite examples of live models degrading or requiring retraining due to data pattern shifts ('model_drift'). The focus is on staying current with new tools, not maintaining existing ones."
+    }
+  ]

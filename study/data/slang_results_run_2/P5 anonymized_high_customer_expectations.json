@@ -1,0 +1,50 @@
+[
+  {
+    "expert_quote": "We are typically separated like through like product or customer support. They are the ones who mainly connect with the customer. So we don't always get a chance to connect directly with customers.",
+    "mapped_id": "trust_erosion",
+    "is_negative_case": false,
+    "rationale": "The quote describes a structural separation between the data science team and end-users. This operational layer prevents direct feedback and understanding, creating conditions where unrealistic customer expectations ('Magic Box' perceptions) can form unchecked and lead to disillusionment upon product interaction, which is a precursor to trust erosion."
+  },
+  {
+    "expert_quote": "It's not so much a culture, but the background, like usually if you are on an engineering team, then pretty much everybody has an engineering background, right? ... Whereas in data science... we had on our team people from physics like me, there was people from economics, from neuroscience, from political science.",
+    "mapped_id": "explainability_deficit",
+    "is_negative_case": false,
+    "rationale": "The speaker uses the contrast with homogeneous engineering teams to highlight the interdisciplinary, non-standardized backgrounds in data science. This diversity of thought, while valuable, can lead to differing internal assumptions and communication styles about model behavior, indirectly contributing to challenges in creating a single, transparent, and interpretable explanation for stakeholders, feeding an explainability deficit."
+  },
+  {
+    "expert_quote": "our products, like I said, are not directly used by the customer... So it's not so much of an issue for us.",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": true,
+    "rationale": "This is a direct negative case. The speaker explicitly states that because their AI product (advertising systems) is not a high-stakes, direct-impact application like credit scoring, the ethical concerns and perceived biases (unfairness_barriers) that drive customer rejection in other domains are not a significant issue in their specific context."
+  },
+  {
+    "expert_quote": "we are now, all of the practices in software engineering are slowly getting applied... we're trying to bring in the same rigor that an engineering project has... we are kind of moving more and more towards using the same engineering processes",
+    "mapped_id": "dreams_vs_reality",
+    "is_negative_case": false,
+    "rationale": "The professional slang 'same rigor' and 'same engineering processes' contrasts the idealized, innovative perception of AI work with the practical, industrial reality he describes: a shift towards standardized, repeatable engineering pipelines. This juxtaposition captures the 'dreams vs. reality' indicator where the hype of AI as pure research clashes with the mundane reality of systematization."
+  },
+  {
+    "expert_quote": "In the data science model, since your model is dependent on the data and the data can change... the model has to adapt to that and you have to check if the model is still working correctly or not. Otherwise you have to retrain or build a different model.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "The speaker describes the fundamental non-static nature of ML models, which require continuous monitoring and maintenance ('check', 'retrain'). This inherent imperfection and need for ongoing labor directly sets the stage for 'feedback_dissonance', where users might report issues based on an unrealistic expectation of a static, perfectly finished product, requiring teams to manage these expectations."
+  },
+  {
+    "expert_quote": "there's no finished item that we provide. So it's usually something that they interact through a website or an API... we can make changes to those",
+    "mapped_id": "magic_box_perception",
+    "is_negative_case": false,
+    "rationale": "The phrase 'no finished item' and the description of a service (API/website) that is continually updated contradicts the 'Magic Box' perception of AI as a complete, infallible, and static product. The quote highlights the reality of AI-as-a-service, which conflicts with the stakeholder view of AI as an autonomous, set-and-forget solution."
+  },
+  {
+    "expert_quote": "if you don't have data from certain parts of the world, it just won't work there... you need to have the data that you use to train a model has to be sufficiently, you know, diverse so that it can capture differences.",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": false,
+    "rationale": "The blunt professional assessment 'it just won't work there' underscores a core technical limitation. This directly maps to 'utility_mismatch'—the assumption that an AI model's recommendations or functions will perfectly align with global organizational goals fails if the training data lacks geographic or demographic representation, leading to a failure of utility in specific markets."
+  },
+  {
+    "expert_quote": "not so much in the interactions with the customers. It's just with the internal processes differences in, and some of those could be cultural as well... It's more of the organizational culture than the, you know, the culture. Like the people all around the culture.",
+    "mapped_id": "trust_understanding_gap",
+    "is_negative_case": true,
+    "rationale": "This is a nuanced negative case. While acknowledging internal 'cultural' frictions (organizational, not national), the speaker explicitly states that high-stakes cultural misunderstandings leading to a 'trust_understanding_gap' with *customers* are not present in their experience. The friction is relocated to internal team dynamics, not the customer expectation dynamic central to the construct."
+  }
+]

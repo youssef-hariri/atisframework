@@ -1,0 +1,22 @@
+[
+  {
+    "name": "socio_technical_transition",
+    "description": "Moving from human-centric to hybrid human-AI collaboration models.",
+    "evidence": "Person 2 contrasts human emotional understanding with AI capabilities: 'humans are with emotions... AI can have like a plethora of phrases and questions... but when it comes to understanding in what state the client is... that is what I do.'"
+  },
+  {
+    "name": "knowledge_clash",
+    "description": "Tension between data-centric AI knowledge and tacit, experience-based human knowledge.",
+    "evidence": "Contrasts formal AI training with human adaptability: 'I am very good with it... I try to research a lot about the person... try to talk about common topics... I try to be very human.' Also notes difference in AI adoption levels between India (advanced) and Middle East (just starting)."
+  },
+  {
+    "name": "cultural_resistance",
+    "description": "Distrust of data-centric approaches in favor of experiential knowledge and waterfall methods.",
+    "evidence": "Notes resistance in some regions: 'in some parts of the country in India... there are still some people with the notion that AI is working on rudimentary concepts.' Also mentions Middle East being newer to technical subjects compared to India."
+  },
+  {
+    "name": "role_transition_hurdles",
+    "description": "Reskilling needs disrupting established hierarchies and decision-making authority.",
+    "evidence": "Emphasizes continuous learning: 'upskilling is also very important... companies also need to invest in a lot of upskilling projects, they cannot just rely on one person's knowledge.'"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "expert_quote": "And my teammates are like, super supportive and open minded, I told them. Like from the start that I know absolutely nothing... So they are basically tutoring me on all of the technical stuff.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": true,
+    "rationale": "This quote describes a process of demystification through close collaboration, where the team actively makes the AI's 'technical stuff' transparent and understandable to a non-expert. This directly contradicts the indicator's description of 'results that are hard to explain,' as the team structure is set up to prevent opacity."
+  },
+  {
+    "expert_quote": "We all are very different, like on a personality level. For example, our founder is very, very like, chill and nonchalant, and I'm very anxious and I need everything to go like according to plan... But here, even though we have a lot to do every week, I feel like everybody is very calm about it and it works a lot smoother.",
+    "mapped_id": "dynamic_forecast_adjustment",
+    "is_negative_case": true,
+    "rationale": "Person 2 describes a work culture characterized by calm and smooth operation, contrasting with their previous high-stress experience. This stability in the team's working mode, despite different personalities, suggests a lack of the underlying instability that would necessitate constant 'dynamic forecast adjustment.' The calmness implies a level of predictability in processes."
+  },
+  {
+    "expert_quote": "We previously had like 2 founders, but then they had to separate because it was difficult to decide on directions. When there are two people in charge, like on the same level.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": false,
+    "rationale": "This statement about early leadership structure reveals a core management friction: the difficulty in making clear directional decisions when accountability is diffuse ('two people in charge'). This directly mirrors the friction's description of difficulty 'assigning clear responsibility for...decisions,' even before AI-derived decisions are introduced."
+  }
+]

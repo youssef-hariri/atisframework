@@ -1,0 +1,50 @@
+[
+  {
+    "expert_quote": "But is to help... solution architect. So yeah, my biggest part is helping solution architects be more productive. So it comes with many hats.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "The use of 'many hats' is a professional slang metaphor for the role's inherent complexity and lack of a single, clearly defined path, aligning with the theoretical indicator of outcomes that are hard to explain due to complex, multi-faceted decision-making."
+  },
+  {
+    "expert_quote": "It's just kind of the way you know, so so be like, yeah, it may give you, like, directly if people come to you say somet... Directly then you know you really messed up, like more than once. It's like, hey, it's like I've been, like, trying to, but since this is not working, you know. But in here, it's like yes, the first thing come.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": false,
+    "rationale": "Describes a cultural feedback mechanism where direct accountability is delayed or obscured ('you really messed up, like more than once'), contrasting with a system that enforces immediate clarity. This illustrates the friction of assigning responsibility when communication protocols are opaque or culturally contingent."
+  },
+  {
+    "expert_quote": "And it may just hit to them like the way I'm thinking of the problem is totally different because of like hours of bringing how I take it as a social. And I mean being perspective that they didn't foresee, but it makes sense to them.",
+    "mapped_id": "non_linear_estimation",
+    "is_negative_case": false,
+    "rationale": "The phrase 'totally different... because of... perspective' is an everyday description of how diverse team inputs create non-obvious, non-linear paths to problem-solving and solution estimation, diverging from traditional, linear analytical approaches."
+  },
+  {
+    "expert_quote": "Security is like. The first priority in my role and my current company... It becomes really, really hard to like... It's like they don't compromise on security at all, or this privacy thing comes down to literally everything you do, even when you write a document sometimes.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "The phrase 'comes down to literally everything you do' is a human-floor description of an absolute, non-negotiable constraint. This highlights the extreme sensitivity and foundational dependency of AI/ML work on specific, high-quality, and secure data inputs."
+  },
+  {
+    "expert_quote": "But the good thing I think of when a business or any team to do, it's like what we are currently doing like to put a mechanism in place like yeah to not leave it to by chance like people to just figure out themselves... It's like here's a mechanism. Here is like how we gonna do it. This is the system.",
+    "mapped_id": "lack_of_reproducibility",
+    "is_negative_case": true,
+    "rationale": "This quote explicitly describes implementing rigid 'mechanisms' and 'systems' to prevent outcomes from being left 'to by chance.' This directly contradicts the theoretical indicator of an inability to replicate results, as it shows a conscious organizational effort to enforce procedural reproducibility and remove human variance."
+  },
+  {
+    "expert_quote": "Looks like I don't have much experience, huh? I've never been the boy yet. To, I mean, as far as I remember, maybe I've forgotten something. But as far as I remember, I don't remember yet. Culture to be like hindrance, like a failure.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": true,
+    "rationale": "The speaker states they do not recall culture being a 'hindrance' or cause of 'failure.' This is a direct negative case against the management friction where cultural opacity in decision-making leads to accountability problems, suggesting in this participant's experience, this specific friction has not manifested as a critical issue."
+  },
+  {
+    "expert_quote": "In my previous job I was like... If I may say, you are stuck. You tend to find yourself like antitrustacker. It's like it's like you feel a little bit of a shame... you come here, it's like people don't want you to start... if you're stuck and keep quiet about it, try to figure out on yourself, taking days, taking more time. That's not OK.",
+    "mapped_id": "dynamic_forecast_adjustment",
+    "is_negative_case": false,
+    "rationale": "Contrasts a culture of silent, individual struggle ('taking days') with one that mandates immediate disclosure of blockers. This 'shout out' culture is a human-floor mechanism to force rapid surface-level adjustments, preventing the deeper 'baseline erosion' that occurs when problems are hidden and forecasts become silently unstable."
+  },
+  {
+    "expert_quote": "It becomes like really inconsistent to a leader... you tend to not get any patterns. It's like you go out to every conversation. You just like. So what's today? You're not sure every new person who comes is like you can't. You can't assume because you'll be like, OK. So what about you? It's like a new puzzle every day.",
+    "mapped_id": "baseline_erosion",
+    "is_negative_case": false,
+    "rationale": "The metaphors 'no patterns,' 'new puzzle every day,' and 'you can't assume' describe the core management friction. The leader cannot establish a stable forecast ('baseline') because each team member's culturally-influenced goals and methods introduce irreducible variance, forcing constant re-evaluation and adjustment of plans and commitments."
+  }
+]

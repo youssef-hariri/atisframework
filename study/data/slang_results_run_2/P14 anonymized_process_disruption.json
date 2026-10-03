@@ -1,0 +1,62 @@
+[
+  {
+    "expert_quote": "I still had to have, you know, direct conversations with people 'cause I was the the lead in there.",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "The speaker describes a shift in their role from a technical practitioner to a leader who must manage direct conversations and team alignment, aligning with the indicator of project managers moving toward system oversight and judgment."
+  },
+  {
+    "expert_quote": "...why are we doing things where we're doing things? Is it only because to get the job done or is it there's a way to make things maintainable long term?",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "The speaker frames a tension between the immediate, task-oriented 'get it done' knowledge (associated with one group) and the long-term, sustainable engineering knowledge he values, which is a direct manifestation of the clash between experience-based/practical knowledge and systematic knowledge."
+  },
+  {
+    "expert_quote": "It ends up being more that sometimes the folks in the United states work harder not just because they're just working to work but also because they feel the need to compensate for the lack of quote UN quote hours...",
+    "mapped_id": "workflow_brittleness",
+    "is_negative_case": false,
+    "rationale": "The description of U.S. team members 'compensating' for different work-hour cultures reveals the inherent vulnerability and strain (brittleness) of trying to enforce a linear, time-bound project workflow across a globally distributed, hybrid team."
+  },
+  {
+    "expert_quote": "I've seen messages sent out... around 3:00 o'clock my time which is around 12:00 o'clock his time at midnight. And that also is on the weekend...",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "The speaker implicitly contrasts the U.S. 'live to work' culture, which disrupts linear phase gates (nights/weekends), with European 'work to live' norms. This highlights a core cultural resistance to the always-on, adaptive demands that can accompany data-intensive workflows."
+  },
+  {
+    "expert_quote": "And now with Sephora I have a lot? Colleagues that are in France. And so it's a lot of these conversations when it comes to understanding privacy concerns... There are things in place to make sure that we have a sense of privacy.",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": false,
+    "rationale": "The presence of European colleagues triggers explicit 'conversations' and 'things in place' (guardrails) regarding privacy, illustrating the tension between the drive for data-centric automation and the imperative for ethical, human-centric oversight, which is often legally and culturally mandated."
+  },
+  {
+    "expert_quote": "...for the most part you can use what you want to use as long as you have approval by legal?... But as I've grown more my career... some American companies that has additional guardrails. And some that don't.",
+    "mapped_id": "legacy_inflexibility",
+    "is_negative_case": false,
+    "rationale": "The speaker contrasts a legacy, permissive U.S. approach ('use what you want') with newer, more restrictive systems ('additional guardrails'). This highlights how dynamic data governance needs are hindered by inconsistent or outdated (legacy) corporate policies and software cultures."
+  },
+  {
+    "expert_quote": "A solution that. Honestly it's ugly and quite honestly I would never want to do it but it works... Now again this wasn't future proof...",
+    "mapped_id": "procedural_nonlinearity",
+    "is_negative_case": false,
+    "rationale": "The acceptance of an 'ugly,' non-future-proof solution that 'works for the moment' exemplifies the iterative, pragmatic, and often non-elegant problem-solving loops of AI/data work, which conflict with the goal of creating maintainable, sequential project deliverables."
+  },
+  {
+    "expert_quote": "I haven't experienced any failure but I think that's because I've been very focused as an individual. To not allow our differences get in the way...",
+    "mapped_id": "integration_friction",
+    "is_negative_case": true,
+    "rationale": "This is a clear negative case. The speaker explicitly states they have not experienced project failure due to cultural/difference issues, directly contradicting the expected presence of significant 'integration_friction' when embedding diverse teams into projects."
+  },
+  {
+    "expert_quote": "Did you feel that anything specific to to AI and culture arose in this project?... No not not in my particular experience not my experience.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": true,
+    "rationale": "This is a direct negative case for the 'knowledge_clash' indicator. The speaker asserts that in their experience, no culture-specific issues arose uniquely within AI/data science projects compared to other types (like education), contradicting the theory that data-centric knowledge creates unique cultural tensions."
+  },
+  {
+    "expert_quote": "Be flexible and ask more questions... learning to be more flexible definitely helps because there are some things that will just happen and you have to be able to adapt to that...",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "The advice to 'be flexible' and 'adapt' is a direct prescription for overcoming the 'cultural_resistance' friction. It acknowledges the existence of deeply ingrained assumptions (like shoe-wearing in houses) that must be navigated to enable collaboration."
+  }
+]

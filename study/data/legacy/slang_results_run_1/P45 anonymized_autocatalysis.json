@@ -1,0 +1,74 @@
+[
+  {
+    "segment": "I'm AVC portfolio manager. So I deal with AI themes on on a quasi day-to-day basis.",
+    "rubric_facet": "indicators/socio_technical_shift",
+    "match_type": "implied",
+    "score": 3,
+    "metaphor": null,
+    "reasoning": "Person 2's role as a portfolio manager focused on AI themes situates him at the intersection of technical capability and economic/human impact, aligning with a shift in focus from pure economics to broader acceptance and ethics."
+  },
+  {
+    "segment": "We're teaming up with with this company... with the ML, with the, with the technology, with a solution and we're following their guidelines. So what are the guidelines for you to sell to France, to Spain, UK, etc... We're learning with this counterparty.",
+    "rubric_facet": "indicators/regulatory_lag",
+    "match_type": "implied",
+    "score": 4,
+    "metaphor": null,
+    "reasoning": "This describes a reactive process of adopting externally developed (European) governance and compliance frameworks, which are treated as a prerequisite for market entry rather than being proactively developed in parallel with the technology. It exemplifies learning and applying frameworks post-technical development."
+  },
+  {
+    "segment": "If you look at, for example, Mexican culture... Normally, when when, when you sit down with with the with C level, only the senior person of the group will be addressing the issues... junior Employees... they sometimes will not step up or will not. Provide feedback so this is where you start to get lost in translation.",
+    "rubric_facet": "indicators/temporal_misalignment",
+    "match_type": "implied",
+    "score": 4,
+    "metaphor": "lost in translation",
+    "reasoning": "The cultural hierarchy creates a sequential, rigid communication flow ('organizational time') that impedes the rapid, iterative exchange of information and clarification needed for fast-moving technical projects ('AI time'), causing misalignment and project murkiness."
+  },
+  {
+    "segment": "One thing that's very interesting here... is that most of the guys, especially if they're in the financial market or... very close to the subject that we're discussing of ML, et cetera, everybody studies abroad or everybody has some kind of international experience.",
+    "rubric_facet": "management_frictions/continuous_training_demand",
+    "match_type": "implied",
+    "score": 4,
+    "metaphor": null,
+    "reasoning": "The statement identifies international experience as a critical, non-negotiable competency for engaging with ML/AI themes at a high level. This reflects a constant, high-level 'training' or credentialing demand to stay relevant, analogous to the need for continuous upskilling in specific AI subtypes."
+  },
+  {
+    "segment": "Well, I think that even the online courses that, that, that we have available is to some extent... will give us some kind of background or provide us with some kind of knowledge and skills that will help us, right.",
+    "rubric_facet": "management_frictions/continuous_training_demand",
+    "match_type": "explicit",
+    "score": 5,
+    "metaphor": null,
+    "reasoning": "Directly references using online courses as a tool to acquire necessary background knowledge and skills, highlighting the ongoing, modular learning required to bridge competency gaps, especially for those lacking broad international immersion."
+  },
+  {
+    "segment": "When it comes to culture, I think that we are somehow pretty open minded here. So I don't think that there is a culture barrier. There's more of a social. Economic background that somehow will create barriers here rather than than cultural cultural components on a broader aspect",
+    "rubric_facet": "NEGATIVE_CASE",
+    "match_type": "contradiction",
+    "score": 1,
+    "metaphor": null,
+    "reasoning": "Person 2 explicitly downplays the role of 'culture' as a primary barrier, attributing challenges instead to socioeconomic factors. This contrasts with the rubric's emphasis on cultural and organizational norms (like temporal misalignment and judgment substitution) as key friction points in autocatalysis. He later contradicts this by providing detailed examples of cultural barriers."
+  },
+  {
+    "segment": "Catholic religion is very it's very linked to guilt, right?... So you do the right thing... you will be rewarded for doing the right things... it's very different from how Protestants think when it comes to meritocracy, etc... If you look from a from a rational perspective risk and reward... they go very smoothly, right? So you don't mix things up.",
+    "rubric_facet": "indicators/judgment_substitution",
+    "match_type": "implied",
+    "score": 4,
+    "metaphor": null,
+    "reasoning": "Person 2 describes a cultural/religious framework (Catholic/guilt-based) that influences business judgment and risk perception. He contrasts this with a more 'rational' (implied Protestant/Anglo-Saxon) framework. This illustrates how underlying human judgment systems are being recognized, compared, and in some cases, a more data-driven/rational model is implicitly favored—hinting at a reconfiguration of judgment paradigms."
+  },
+  {
+    "segment": "Brazil's a patchwork. So we do have, you know, different coaches and different environments that we are navigating. So we tend to be very open minded.",
+    "rubric_facet": "indicators/socio_technical_shift",
+    "match_type": "implied",
+    "score": 3,
+    "metaphor": "patchwork",
+    "reasoning": "The 'patchwork' metaphor for Brazilian culture implies inherent diversity and the necessity of navigating complex human systems. This aligns with the socio-technical shift's focus on human factors (acceptance, ethics, cultural navigation) as critical alongside technical development in a fast-paced environment."
+  },
+  {
+    "segment": "If things go wrong, they'll call a rabbi rather than... let's go to court... They go to the rabbi, they discuss with the rabbi, and then the rabbi sits with in in the table with the team, and then they'll make a decision. So it's very different.",
+    "rubric_facet": "indicators/judgment_substitution & temporal_misalignment",
+    "match_type": "implied",
+    "score": 4,
+    "metaphor": null,
+    "reasoning": "This is a profound example of an alternative judgment system (religious-community authority) replacing standard legal/business procedures. It introduces a significant temporal and procedural misalignment with fast-paced, secular commercial norms, creating a unique friction point for integration and decision-making velocity."
+  }
+]

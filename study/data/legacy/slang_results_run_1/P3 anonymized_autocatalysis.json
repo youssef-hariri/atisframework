@@ -1,0 +1,79 @@
+[
+  {
+    "rubric_category": "indicators",
+    "specific_item": "recursive_innovation",
+    "evidence": "None. Person 2 does not discuss the use of AI tools to develop new AI tools. The focus is on applying established AI/ML for a specific business problem (fraud detection).",
+    "metaphor_identified": "None.",
+    "negative_case": "The project is described as a stable application of known techniques (statistical analysis, ML for pattern detection) to telecom data, not as a frontier of recursive AI tool-building."
+  },
+  {
+    "rubric_category": "indicators",
+    "specific_item": "skill_obsolescence_pace",
+    "evidence": "Indirect/Weak. Person 2 states that 'technical expertise plays the more important role' in planning/architecture over multicultural factors. This implies a premium on current technical skill but does not explicitly describe its rapid obsolescence.",
+    "metaphor_identified": "None.",
+    "negative_case": "While technical skill is prioritized, there is no discussion of a frantic pace of reskilling or frameworks becoming obsolete mid-project. The technical environment appears relatively stable for their domain."
+  },
+  {
+    "rubric_category": "indicators",
+    "specific_item": "judgment_substitution",
+    "evidence": "None. Human judgment is discussed in the context of business understanding and cultural interpretation ('different perspectives of the problem in hand'). There is no mention of AI prediction capabilities reconfiguring or substituting for these human judgment calls.",
+    "metaphor_identified": "None.",
+    "negative_case": "Judgment is framed as a human, culturally-informed asset for problem definition, not as an activity being subsumed by AI."
+  },
+  {
+    "rubric_category": "indicators",
+    "specific_item": "temporal_misalignment",
+    "evidence": "None. The discussion of timelines relates to cultural interpretations of deadlines ('tomorrow is not exactly tomorrow'), not to a clash between fast AI iteration cycles and slow organizational processes.",
+    "metaphor_identified": "None.",
+    "negative_case": "Temporal issues are attributed to culture, not to a fundamental mismatch between 'AI time' and 'organizational time'."
+  },
+  {
+    "rubric_category": "indicators",
+    "specific_item": "regulatory_lag",
+    "evidence": "Weak/Potential. Person 2 notes that regulations like GDPR are a 'very important point' and compliance is put 'on the agenda.' They mention regulations are 'a little bit loose' in Asia or the US but still followed. This suggests reacting to existing, geography-specific frameworks.",
+    "metaphor_identified": "None.",
+    "negative_case": "The testimony describes adherence to established regulations (GDPR), not the phenomenon of governance scrambling to catch up with already-deployed, novel AI capabilities. The domain (telecom) is described as 'highly regulated,' implying a pre-existing, not lagging, framework."
+  },
+  {
+    "rubric_category": "indicators",
+    "specific_item": "tool_proliferation",
+    "evidence": "None. There is no mention of evaluating or integrating new AI frameworks, libraries, or tools. The technical discussion is about applying statistical analysis to data.",
+    "metaphor_identified": "None.",
+    "negative_case": "The work is portrayed as applying a known methodology to a data set, not as managing an onslaught of new tools."
+  },
+  {
+    "rubric_category": "indicators",
+    "specific_item": "socio_technical_shift",
+    "evidence": "Weak/Contradictory. Person 2 discusses ethics and privacy but downplays their significance for his work due to the data type (non-personal traffic data). He observes a socio-technical difference in concern for privacy between Middle Eastern and Western colleagues, but this is presented as a static cultural difference, not a shift driven by technical velocity.",
+    "metaphor_identified": "None.",
+    "negative_case": "The ethical dimension is considered, but its salience is tied to data type and local culture, not to the accelerating pace of AI development forcing a re-evaluation from economics to ethics."
+  },
+  {
+    "rubric_category": "indicators",
+    "specific_item": "gen_AI_acceleration",
+    "evidence": "None. The interview predates the widespread discourse on generative AI. The work described involves traditional ML for pattern detection, not generative models.",
+    "metaphor_identified": "None.",
+    "negative_case": "The innovation process described is not compounded by generative AI techniques."
+  },
+  {
+    "rubric_category": "management_frictions",
+    "specific_item": "timeline_compression",
+    "evidence": "None. No discussion of project timelines being disrupted by rapid tool or model obsolescence. Delays are attributed to communication issues or cultural differences in time perception.",
+    "metaphor_identified": "None.",
+    "negative_case": "Project planning and architecture are not described as being vulnerable to mid-cycle upheaval from technological churn."
+  },
+  {
+    "rubric_category": "management_frictions",
+    "specific_item": "continuous_training_demand",
+    "evidence": "None. While technical expertise is valued, there is no mention of a formal or informal system of 'non-stop, modular training' to keep up with new AI subtypes.",
+    "metaphor_identified": "None.",
+    "negative_case": "The need for continuous learning is not raised as a specific managerial or operational challenge."
+  },
+  {
+    "rubric_category": "management_frictions",
+    "specific_item": "integration_debt",
+    "evidence": "None. There is no discussion of legacy AI components, model versions, or data pipelines causing compatibility issues with new systems.",
+    "metaphor_identified": "None.",
+    "negative_case": "The technical environment appears coherent without mention of debt from past AI iterations."
+  }
+]

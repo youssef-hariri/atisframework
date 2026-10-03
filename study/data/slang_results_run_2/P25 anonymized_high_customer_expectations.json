@@ -1,0 +1,26 @@
+[
+  {
+    "expert_quote": "Or, but I'm also glad I said this because there was also this woman who was saying she's leaving her company and she's going to talk about Rei is really. Like trained by male people for male people, blah blah blah. And as much as they don't feel that as my experience when using ChatGPT specifically. Is a reality where many models are being trained with content. Excluding black people, excluding like anyone else that is not white male.",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": false,
+    "rationale": "The speaker uses everyday descriptions ('trained by male people for male people', 'excluding black people') to articulate the real-world bias in AI training data. This directly matches the indicator's description of 'rejection of AI due to perceived biases or lack of fairness.'"
+  },
+  {
+    "expert_quote": "It's it's mostly light, but yeah, sometimes just someone was feelin for me.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": true,
+    "rationale": "The speaker uses professional slang ('feelin for me' implying frustration) to describe minor communication hiccups. However, the context is about language inclusion, not AI expectations. This directly contradicts the friction, which is defined as users submitting bug reports based on unrealistic AI benchmarks."
+  },
+  {
+    "expert_quote": "So I don't feel like. Even when there was that culture of not specially respecting time like work time lens. But I don't think it served us because we were in very different time zones.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": true,
+    "rationale": "The speaker's description of logistical challenges ('time zones', 'not respecting time') relates to operational friction. It explicitly states that unrealistic expectations (about synchronous work) were not a major issue ('I don't think it served us'), negating the core premise of 'feedback_dissonance' stemming from unrealistic AI performance benchmarks."
+  },
+  {
+    "expert_quote": "So because of now, for instance, that training I got from Mandela, I was able to even support when even managers from the other company were struggling with even delivering feedback 'cause sometimes you're not like giving the person feedback immediately. Sometimes there's a time I struggled with my manager because by the time they're relaying the feedback, yes, maybe they're struggling on their end to actually. Articulate these or really. Find a better way to say it, but by the time they tell you the the actual act is maybe two or a month back. So you don't feel like totally reflects your current work?",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": true,
+    "rationale": "The speaker describes a generic management issue of delayed and poorly articulated feedback using professional slang ('relaying the feedback', 'struggling on their end'). The context is general performance feedback, not user feedback on an AI system's outputs. This contradicts the specific AI-centric 're-education labor' described in the friction."
+  }
+]

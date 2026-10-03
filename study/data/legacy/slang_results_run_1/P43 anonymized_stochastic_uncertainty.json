@@ -1,0 +1,63 @@
+[
+      {
+        "indicator_name": "opaque_outcomes",
+        "evidence_from_transcript": "She she always give me the response to feedback about my about my task... But I... I don't get it. It's like... when the project is done I created... admin interface... but she won't use it 'cause it's too complicated... the way she told me... it's for for me, it's not clear enough. She she just... I think she just want to say that maybe I don't need the admin interface anymore.",
+        "interpretation": "Person 2 experiences the decision-making process of the project manager (using/not using the AI interface) as opaque and difficult to interpret, leading to wasted effort and unclear objectives. This aligns with algorithmic decisions being hard to explain from the user/developer perspective."
+      },
+      {
+        "indicator_name": "dynamic_forecast_adjustment",
+        "evidence_from_transcript": "Because actually I I already did. The... my internship process is already done for... February. But I still working on it in the 3rd of March 'cause it's not done yet.",
+        "interpretation": "The project's completion timeline (a key forecast) had to be dynamically and significantly adjusted, indicating instability in task definition and acceptance criteria, a symptom of underlying project uncertainty."
+      },
+      {
+        "indicator_name": "non_linear_estimation",
+        "evidence_from_transcript": "It's more complicated than the previous fashion... she cannot handle it 'cause... she doesn't have a computer science background... she worried that she cannot make changes in the future.",
+        "interpretation": "The perceived complexity and future maintenance burden of the AI/admin system did not follow a simple, linear relationship to its development. The non-technical manager's assessment introduced a new, complex dimension (future self-sufficiency) that wasn't part of the original technical estimation."
+      },
+      {
+        "indicator_name": "data_dependency",
+        "evidence_from_transcript": "Not really 'cause the the the document is on the on user manual for the machine and I think it it's a public.",
+        "interpretation": "While not a direct issue here, Person 2's clarification about data highlights an awareness of data as a foundational, sensitive input. The project's perceived simplicity/safety was contingent on using non-sensitive, public data, avoiding a major source of uncertainty."
+      }
+    ],
+    "management_frictions": [
+      {
+        "friction_name": "accountability_challenges",
+        "evidence_from_transcript": "For some some of our opinions. She just she accept the the opening but cannot implement it. Because for her it's too complicated.",
+        "interpretation": "Person 2 describes a scenario where feedback is accepted in principle but not acted upon, creating a gap in accountability for implementing changes. The opacity of the manager's reasoning ('too complicated') makes it difficult to assign or understand responsibility for the final decision."
+      },
+      {
+        "friction_name": "baseline_erosion",
+        "evidence_from_transcript": "I created like the admin interface... but she won't use it... I still working on it in the 3rd of March 'cause it's not done yet.",
+        "interpretation": "The baseline deliverable (a functioning admin interface) was effectively invalidated post-completion by the manager's rejection. This forced Person 2 to extend work beyond the agreed schedule, eroding the original project plan and commitments without a clear re-baselining process."
+      }
+    ],
+    "metaphors_mapped": [
+      {
+        "metaphorical_phrase": "language barrier",
+        "context": "The first one is the language, of course. 'cause. Yeah, the language barrier...",
+        "interpretation": "Language is framed as a physical or structural obstacle ('barrier') that must be overcome for collaboration to occur. It implies separation and impediment to flow of information."
+      },
+      {
+        "metaphorical_phrase": "strict work life balance",
+        "context": "The working style because the the Germany and like she I think she has like. A strict work life balance...",
+        "interpretation": "The concept of balance is applied to the relationship between work and personal life. 'Strict' implies rigidity, rules, and clear, inviolable boundaries, likening it to a disciplined system or contract."
+      },
+      {
+        "metaphorical_phrase": "push 'cause it's like in the deadline",
+        "context": "But if we need to, to. To push 'cause, it's like in the deadline.",
+        "interpretation": "Work intensity is metaphorically described as a physical force ('push'), and the deadline is conceptualized as a location or state ('in the deadline') one enters, requiring increased effort to move through it."
+      }
+    ],
+    "negative_cases_identified": [
+      {
+        "case": "Culture had no negative effect on project success.",
+        "evidence": "I think it it didn't have any effect. To the successful of the project... For the culture, I don't find any. Of any obstacles with the culture difference.",
+        "interpretation": "Contrary to the research focus, Person 2 explicitly states that cultural differences (aside from language) were not a source of friction or failure. The primary challenges cited are related to communication clarity, technical mismatches, and individual management styles, not deep-seated cultural values."
+      },
+      {
+        "case": "Direct communication was valued and effective.",
+        "evidence": "German lady. Actually, at the first time we met, she. She told us that you can tell me anything if you cannot working on the task for today. You please just tell. Tell me... we don't need to hide something from each other, so yeah, I think it's it's the... That's the one that make me enjoy working with her.",
+        "interpretation": "Despite potential cultural norms around indirectness or 'saving face,' Person 2 found the German manager's explicit invitation for direct, honest communication to be positive and conducive to good collaboration. This negates a potential hypothesis that directness would cause friction."
+      }
+    ]

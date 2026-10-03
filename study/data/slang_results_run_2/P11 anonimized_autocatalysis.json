@@ -1,0 +1,44 @@
+[
+  {
+    "expert_quote": "And these kind of things.",
+    "mapped_id": "tool_proliferation",
+    "is_negative_case": false,
+    "rationale": "The vague, trailing-off reference to 'these kind of things' signifies the unenumerated and ever-expanding suite of AI-related tools (knowledge graphs, semantic solutions) that define the modern AI landscape, matching the 'proliferation' descriptor."
+  },
+  {
+    "expert_quote": "So the the problem you are trying to make your research around is, is that AI is evolving faster than other technologies and that's why you picked up AI.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "This direct statement identifies the core differential in speed between AI ('evolving faster') and other, presumably more established, organizational technologies and processes, aligning with the 'clash' of different temporalities."
+  },
+  {
+    "expert_quote": "It's already it's already. I think too late too.",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": false,
+    "rationale": "This expresses a fatalistic sentiment regarding copyright and ethical governance, implying that technical deployment (data crawling, model training) has progressed so far that establishing effective retroactive frameworks now feels impossible, exemplifying severe lag."
+  },
+  {
+    "expert_quote": "Because again, it's a machine, doesn't have any emotion. It just, it just knows.",
+    "mapped_id": "judgment_substitution",
+    "is_negative_case": false,
+    "rationale": "This quote frames AI as a pure prediction/knowledge engine, implicitly contrasting it with human emotional and ethical judgment, which is being 'reconfigured' or sidelined in the process of model fine-tuning for different cultural contexts."
+  },
+  {
+    "expert_quote": "So we we make it like more on more of an agent to assist with for for our clients to assist you know doing their business. So it's more in a business context. It doesn't really touch on the...",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": true,
+    "rationale": "This is a negative case. The speaker explicitly states their current AI work (RAG-based business agents) is insulated from the broader societal and ethical debates ('it doesn't really touch on that'), contradicting the indicator that a shift to human acceptance/ethics is a universal focus driven by velocity."
+  },
+  {
+    "expert_quote": "I know that they are now trying to recognize images by some hidden patterns. So what you are trying to find is the hidden buttons and they are really they are really hard to find because you need a lot of data to be able to to get it.",
+    "mapped_id": "gen_AI_acceleration",
+    "is_negative_case": false,
+    "rationale": "The speaker uses the metaphor of 'hidden buttons' to describe complex, latent cultural patterns. He immediately suggests this research problem 'should be done by AI,' indicating a reflexive belief that new AI capabilities (pattern recognition in unstructured data) are the necessary tool to understand the complexities *created* by AI's own rapid adoption, a compounding effect."
+  },
+  {
+    "expert_quote": "If you can have it like. Yeah, a survey where you have the questions are not textual. Like it's not a text. It's more more of, you know, choose multi. Yeah, exactly.",
+    "mapped_id": "skill_obsolescence_pace",
+    "is_negative_case": false,
+    "rationale": "The speaker struggles to articulate the methodological shift from qualitative textual analysis to structured quantitative ('choose multi') surveys. This friction in conceptualizing research design mirrors the 'obsolescence' of traditional analysis skills in the face of data-driven, AI-compatible methods required for scale."
+  }
+]

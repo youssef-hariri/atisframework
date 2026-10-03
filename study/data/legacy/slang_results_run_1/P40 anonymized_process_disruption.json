@@ -1,0 +1,87 @@
+[
+  {
+    "indicator": "socio_technical_transition",
+    "evidence": "Describes working with AI engineers and a product-focused CEO in a remote, cross-cultural team, highlighting a shift from purely human-centric to hybrid collaboration.",
+    "person_2_quote": "I was leading the business aspect. He was on the products and a research area... the whole time for a year and a half, we worked remotely from France, and et.",
+    "analysis": "Person 2's role as business lead interfacing with technical/AI roles illustrates the transition to a hybrid model, though time-zone and work-rhythm mismatches create friction."
+  },
+  {
+    "indicator": "workflow_brittleness",
+    "evidence": "Highlights how infrastructure issues (electricity outages in Togo) and asynchronous work patterns create critical vulnerabilities in project timelines and releases.",
+    "person_2_quote": "Whether electricity, the banking services... it would not work for a few hours, some we had critical releases and it was a problem.",
+    "analysis": "The linear, phase-gated process of 'critical releases' is disrupted by non-linear, unpredictable infrastructure failures, showing increased brittleness when relying on distributed, adaptive teams."
+  },
+  {
+    "indicator": "role_reconfiguration",
+    "evidence": "Person 2 takes on data governance and security oversight for investors, a role that emerges from the need to manage dispersed AI/data assets, moving beyond traditional business functions.",
+    "person_2_quote": "As a cofounder I didn't have a complete map of where the data was... I need to access data or just to make sure that it's safe... for the investors.",
+    "analysis": "This shows an emergent, non-linear reconfiguration of the business lead's role toward system oversight and ethical/data stewardship, driven by the asset nature of the AI project."
+  },
+  {
+    "indicator": "integration_friction",
+    "evidence": "Describes ad-hoc, poorly integrated data storage solutions (Notion, Google Drive, personal computers) conflicting with the need for secure, centralized governance for AI/data assets.",
+    "person_2_quote": "We had one place notion place where we stored all our passwords... some other data was store on our personal [computers].",
+    "analysis": "This exemplifies friction in embedding data-intensive AI workflows into existing, simplistic digital tools. The process is non-linear and insecure, clashing with phase-gated project management that assumes controlled assets."
+  },
+  {
+    "indicator": "knowledge_clash",
+    "evidence": "Notes a tension between the technical cofounders' strict security posture and Person 2's own 'practical' and 'convenience'-oriented business approach to data.",
+    "person_2_quote": "I'm not so much a security person. I am I'm quite practical... but my colleagues... would just have like great basic security measures.",
+    "analysis": "Highlights a clash between data-centric, technical knowledge (rigorous security) and business/experiential knowledge (pragmatism, convenience), a common disruption in AI projects."
+  },
+  {
+    "indicator": "procedural_nonlinearity",
+    "evidence": "Contrasts the CEO's and Togolese engineers' non-linear, late-night productive 'loops' with Person 2's initial expectation of linear, daytime collaborative work.",
+    "person_2_quote": "The best time to focus for him was between midnight and 4 AM... I learned to work... at 8, 9 pm go back to work and then have your actively productive time.",
+    "analysis": "The iterative, inspiration-driven work rhythms of AI/tech team members directly conflict with traditional sequential, synchronous project methodologies, forcing personal adaptation."
+  },
+  {
+    "indicator": "silo_breakdown",
+    "evidence": "Describes a flat, remote structure where business, product, and engineering roles are intertwined, with Person 2 needing access to technical data assets for investor relations.",
+    "person_2_quote": "I was leading the business aspect... he was on the products and a research area... I need to access data [for investors].",
+    "analysis": "The data-intensive nature of the AI project forces cross-functional needs, breaking down the traditional silo between business/finance and technical product development."
+  },
+  {
+    "indicator": "ethical_automation_tension",
+    "evidence": "Implied tension in the need for data governance and security (ethical/oversight) versus the practical, fast-moving demands of a startup building AI-driven products.",
+    "person_2_quote": "To make sure that the company still has their assets for the investors... we have a good data governance... but we were at the very start, I guess we would just basic.",
+    "analysis": "Shows the conflict between the predictive, automated nature of their AI product and the emergent, non-linear need for human oversight regarding data security and investor accountability."
+  },
+  {
+    "management_friction": "cultural_resistance",
+    "evidence": "Contrasts the 'hardcore' commitment of Togolese engineers with perceived French work culture limits ('I cannot work after seven'), and notes European focus on 'forms' and 'compliance' vs. American pragmatism.",
+    "person_2_quote": "They would work very hard to make it succeed... more than French work... In Europe [it's] much more about the forms... in America [it's] 'show me something that works'.",
+    "analysis": "Demonstrates cultural resistance to the adaptive, outcome-oriented, and often non-linear work patterns demanded by AI projects, favoring experiential knowledge and structured methods."
+  },
+  {
+    "management_friction": "role_transition_hurdles",
+    "evidence": "Person 2 describes personally adapting their work rhythm and learning new oversight roles (data governance), indicating the reskilling and flexibility required of managers.",
+    "person_2_quote": "I learned also I changed I did updates... I learned to work [late nights]... I need to make sure that it's safe.",
+    "analysis": "Highlights the disruptive, non-linear personal transition required of a project manager moving from a linear business role to one involving AI system oversight and cross-cultural team adaptation."
+  },
+  {
+    "metaphor": "Working like insanely / very hardcore",
+    "source_text": "They would work like insanely... they're very kind of hardcore on how they work.",
+    "interpretation": "Metaphor for the intense, non-linear, and often chaotic work patterns required in data-intensive AI development, which contradicts steady, phase-gated project pacing."
+  },
+  {
+    "metaphor": "Basic security measures / Just basic",
+    "source_text": "Great basic security measures... we would just basic.",
+    "interpretation": "Metaphor for the makeshift, minimally viable solutions used to integrate AI/data workflows, highlighting the gap between dynamic project needs and established, robust processes."
+  },
+  {
+    "metaphor": "Show me something that works",
+    "source_text": "In America... 'show me something that works and brings me value and I'll buy it'.",
+    "interpretation": "Metaphor for the iterative, proof-driven culture of AI/tech markets, which clashes with the linear, planning-heavy 'forms' and compliance culture Person 2 attributes to Europe."
+  },
+  {
+    "negative_case_evidence": "Use of familiar, generic tools (Slack, Google Drive, Notion) for core project functions.",
+    "absence_of_disruption": "This suggests that despite the AI-driven product, the team's core collaboration and data management tools remained standard and linear, not requiring or triggering a shift to specialized, non-linear AI workflow platforms. The disruption was managed within legacy digital patterns.",
+    "person_2_quote": "We had some Google drive for some data... I was mostly speaking through a slack."
+  },
+  {
+    "negative_case_evidence": "Attribution of challenges primarily to personal rhythm and infrastructure, not to fundamental AI workflow mismatch.",
+    "absence_of_disruption": "Person 2 frames major frictions (time zones, electricity) as personal or geographic, not systemic clashes between AI's non-linear processes and traditional project management. The core 'process_disruption' is partially obscured by these more tangible issues.",
+    "person_2_quote": "The biggest difference was... a personal rhythm of how he was working... whether electricity... it would not work for a few hours."
+  }
+]

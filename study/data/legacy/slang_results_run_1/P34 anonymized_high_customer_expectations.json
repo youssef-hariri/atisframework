@@ -1,0 +1,44 @@
+[
+  {
+    "indicator": "trust_understanding_gap",
+    "evidence": "Person 2 describes the British communication style where the critical request is buried at the end of a social conversation, contrasted with the Hong Kong style of immediate directness. This creates a 'gap' where high optimism for collaboration is undermined by opaque or unsatisfactory interaction patterns, leading to mutual frustration ('one finds the other really slow, one finds the other really pushing').",
+    "metaphor": "Negotiation as social ritual vs. surgical procedure.",
+    "negative_case": false,
+    "management_friction_link": "feedback_dissonance"
+  },
+  {
+    "indicator": "paradoxical_expectations",
+    "evidence": "While discussing data privacy, Person 2 notes a universal baseline appreciation for responsibility and avoiding harm. However, they highlight the German team's intense, specific focus on implementation details ('Where in Europe?') driven by historical/cultural context. This shows simultaneous high trust in shared ethical goals but high perceived risk and scrutiny over execution.",
+    "metaphor": "Data storage as a geopolitical legacy.",
+    "negative_case": false,
+    "management_friction_link": "trust_erosion"
+  },
+  {
+    "indicator": "utility_mismatch",
+    "evidence": "The failed collaboration with the Dutch counterpart stemmed from a clash in the assumed 'utility' or standard protocol for initiating a partnership. Person 2 viewed an upfront NDA as a high-risk, abnormal barrier ('living in a different world'), while the other party saw it as a normal, goal-aligned step. The mismatch in perceived utility of the legal instrument killed the project.",
+    "metaphor": "Contract as a drawbridge vs. a welcome mat.",
+    "negative_case": false,
+    "management_friction_link": "trust_erosion"
+  },
+  {
+    "indicator": "anthropomorphic_projection",
+    "evidence": "Person 2 cautions against making cultural assumptions by highlighting the stronger role of individual personality (introversion/extroversion). They warn that projecting a cultural communication style onto an individual can be misleading, analogous to expecting human-like reasoning (a cultural 'norm') from a unique algorithm (an individual).",
+    "metaphor": "Culture as a noisy training dataset for predicting individual behavior.",
+    "negative_case": false,
+    "management_friction_link": null
+  },
+  {
+    "indicator": "magic_box_perception",
+    "negative_case": true,
+    "evidence": "Person 2's discussion centers entirely on human-to-human interaction, communication overhead, and team dynamics. There is no mention of stakeholders or users perceiving their AI *application* as a flawless 'Magic Box.' The friction they describe is interpersonal and cultural, not technological. The 'black box' in their narrative is the other person's intentions or communication style, not an AI system.",
+    "metaphor": null,
+    "management_friction_link": null
+  },
+  {
+    "indicator": "explainability_deficit",
+    "negative_case": true,
+    "evidence": "The transcript contains no discussion of AI decision-making, model outputs, or user frustration with opaque AI behavior. The 'explainability' challenge Person 2 implicitly addresses is explaining one's own cultural perspective and communication intent to others ('you have to dial up the communication'), not explaining an AI's decisions.",
+    "metaphor": null,
+    "management_friction_link": null
+  }
+]

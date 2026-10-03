@@ -1,0 +1,38 @@
+[
+  {
+    "rubric_element": "socio_technical_transition",
+    "supporting_quote": "I think you know the folks from different backgrounds, different cultures that I've worked with. I think one of the big things that we encounter in tech is, you know, some cultures are a lot more, let's say, argumentative... I want to hear from everybody. I want people to push back and and argue, and maybe that's my very American kind of cowboy idea...",
+    "analysis": "This highlights the transition from a traditional, possibly hierarchical, project communication model to a hybrid, collaborative model that values dissent and debate—a core socio-technical shift when integrating diverse human inputs into problem-solving workflows.",
+    "metaphor": "'American kind of cowboy idea' – Metaphor for a cultural archetype of individualism, direct confrontation, and challenging authority, contrasted with more consensus or deferential styles."
+  },
+  {
+    "rubric_element": "knowledge_clash",
+    "supporting_quote": "I tend to be very verbose and say a lot of words... I've gotten feedback that, you know my, my reviews are too long and too much extra words that they don't need... some people really like the very, you know, just right to the point and it's very concise... some people you know from certain cultures interpret that as... people being mean or or robotic and unfeeling.",
+    "analysis": "Directly illustrates a clash between different forms of knowledge communication: verbose, contextual, relationship-oriented feedback (often tied to experiential/tacit knowledge sharing) vs. concise, data/outcome-focused feedback. This friction arises at the intersection of human-centric communication norms and a data-centric workflow's demand for efficiency.",
+    "metaphor": "'Robotic and unfeeling' – Metaphor for feedback that is perceived as purely data-driven, algorithmic, and devoid of the human context and empathy valued in some cultural knowledge systems."
+  },
+  {
+    "rubric_element": "integration_friction",
+    "supporting_quote": "I think it definitely led to sometimes things going slower, right for folks that were, you know, either a bit aggressive and that kind of made people not want to engage and kind of pull back... [or] people not sharing ideas that might be different... And so, you know, things might have taken longer.",
+    "analysis": "Shows friction in embedding a new, collaborative, and potentially contentious (AI-like iterative debate) dynamic into an existing project timeline. The linear, phase-gated process is disrupted ('things going slower') by the non-linear, human-interaction loops required for effective idea generation and validation.",
+    "negative_case": "Negative Case: While cultural mixing created friction and slowed the process, Person 2 explicitly states it never led to project *failure*. This indicates that the process was resilient enough to absorb the disruption, though at the cost of efficiency. It highlights that 'brittleness' may not mean catastrophic failure but significant speed/reliability degradation."
+  },
+  {
+    "rubric_element": "role_reconfiguration",
+    "supporting_quote": "In those one-on-one settings you can learn a lot very quickly and then kind of you know aggregate all that information like a good data person and use that in bigger meetings... maybe I ask them before the big group meeting for an idea... So they're not caught off guard, right?",
+    "analysis": "Person 2 describes a project manager's role reconfiguring from a pure schedule/task overseer to a human-system interpreter and facilitator. They act as a data aggregator ('like a good data person') on team dynamics and proactively design social protocols to optimize the hybrid human-AI (or diverse human) collaboration system.",
+    "metaphor": "'Aggregate all that information like a good data person' – Metaphor for the project manager adopting a data scientist's mindset, treating human behavioral patterns as a dataset to be analyzed and modeled for better system (team) performance."
+  },
+  {
+    "rubric_element": "cultural_resistance",
+    "supporting_quote": "I try to be cognizant of that. I try to, you know, do it in a positive way with a possible solution, not just, hey, you're bad at this period. Move on, right?... maybe people from various places or backgrounds are embarrassed by praise in front of a large group, right?... they don't want that to be called out... if that's going to stress somebody out, that's not good. And so you know, how do I balance that?",
+    "analysis": "Demonstrates active management of cultural resistance. The leader's default, data/outcome-driven feedback style (likely effective in a pure tech workflow) meets resistance from culturally-rooted preferences for indirect communication and aversion to public recognition. The friction requires manual, empathetic intervention to maintain workflow cohesion.",
+    "negative_case": "Negative Case: Person 2 notes that data privacy and ethics attitudes were shaped more by *company culture* than national culture. This contradicts an expectation that these sensitive areas would show strong national cultural variation, suggesting organizational norms can sometimes override deeper cultural programming in professional settings, presenting a nuance to the 'cultural resistance' friction."
+  },
+  {
+    "rubric_element": "silo_breakdown",
+    "supporting_quote": "I had folks that were based in India and they were fine, you know, working for a few hours, going to dinner and working for a few more hours late at night to cover California time zones... my team in in Poland would, you know, take a long lunch and then work a little bit later. Again, to kind of have that overlap...",
+    "analysis": "The need for continuous collaboration across time zones to support iterative, data-intensive work (like model training, debugging, analysis) breaks down the traditional silo of a standardized 9-5 workday. Workflows are reconfigured around data and collaboration needs, not geographical or departmental boundaries, forcing personal schedule flexibility.",
+    "metaphor": "'Have that overlap' – Metaphor for the active creation of a shared, cross-border temporal space necessary for the collaborative workflow to function, akin to creating a data pipeline between disparate systems."
+  }
+]

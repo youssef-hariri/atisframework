@@ -1,0 +1,38 @@
+[
+  {
+    "expert_quote": "Now having technologies just like, I don't know, chat, GPT or devil, it's easier to write something and put that on the documentation.",
+    "mapped_id": "tool_proliferation",
+    "is_negative_case": false,
+    "rationale": "The expert's casual mention of using 'chat, GPT' to accelerate a core project task (documentation) exemplifies the rapid uptake of new, unvetted tools to keep pace, directly aligning with the indicator's description of frameworks released faster than they can be systematically evaluated."
+  },
+  {
+    "expert_quote": "This is like the customer is like the enemy because maybe he has a lot of ideas, a lot of like the ideas that are in the cloud or the the heaven... It's important to to know how to explain all of that things, because we we, we this is not useful if we are like so technical.",
+    "mapped_id": "judgment_substitution",
+    "is_negative_case": false,
+    "rationale": "The expert frames the human client's expansive vision as a problem ('the enemy') that needs to be translated and constrained. This re-frames the interaction away from collaborative human judgment towards a process of conforming client ideas to AI/system capabilities, indicating a reconfiguration of traditional roles."
+  },
+  {
+    "expert_quote": "We just have the taste test, the test data that are like an image of the other, but it's like this is not like the same data... So all that all that sensitive information are not present. So I think it's very different. It's completely different from from my country... There is nothing, uhm, regulating all of that.",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": false,
+    "rationale": "The expert contrasts a US project with strict data protocols against their home country's complete lack of regulation, highlighting a stark disparity in governance frameworks. This directly illustrates the indicator of ethical and regulatory frameworks emerging unevenly and often lagging far behind technical deployments in different regions."
+  },
+  {
+    "expert_quote": "Culture determines the need for monitoring and how it is done. Also, the level of details and the way of presenting the work and the results. And the timing of knowledge sharing. Mexico need all the details at each step. USA need the details at the end of the project.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The expert identifies a fundamental clash in project tempo driven by cultural expectations: iterative, detailed updates vs. a focus on final delivery. This misalignment between stakeholder 'organizational time' and the developer's assumed 'AI time' (fast, continuous iteration) creates management friction, as described by the indicator."
+  },
+  {
+    "expert_quote": "I didn't have like an example for you, but I consider that it's something very important that we need to to deal with, yeah... This is something like this is if you're Chuck here about AI or ML, they are talking about ohh big models. Ohh, bigger statistics, a lot of data, big data and all of that. But if you try to talk about ethics, they are not they they didn't have like a certain idea... in the universities we don't have like that subject in our career curricula.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "The expert acknowledges the critical importance of ethics ('something very important') while simultaneously noting its absence in both professional discourse (focused on technical scale) and formal education. This gap between accelerating technical capability and the lagging development of human ethical frameworks reflects the shift in focus compelled by technical velocity."
+  },
+  {
+    "expert_quote": "So I think that's that's I think that. Multicultural teams are are good because we have like this, just not to talking about the the technical ways... I think that talking with people that are from other countries make you understand how they are working.",
+    "mapped_id": "skill_obsolescence_pace",
+    "is_negative_case": true,
+    "rationale": "Here, the expert presents a counterpoint to the skill obsolescence narrative. Instead of describing competencies becoming outdated, they emphasize the enduring and adaptive value of non-technical, interpersonal, and cultural understanding skills as a key asset in a fast-paced, global AI environment."
+  }
+]

@@ -1,0 +1,80 @@
+[
+    {
+      "name": "recursive_innovation",
+      "evidence": "Person 2 explicitly mentions using AI tools ('chat, GPT or devil') to streamline and improve the critical process of project documentation. This is a direct example of using AI to accelerate a core project task (communication/knowledge transfer), which is a prerequisite for further development.",
+      "quote": "Now having technologies just like, I don't know, chat, GPT or devil, it's easier to write something and put that on the documentation."
+    },
+    {
+      "name": "skill_obsolescence_pace",
+      "evidence": "He identifies communication as the 'most important skill,' surpassing purely technical competencies. This reflects a shift where the pace of technical change (new models, tools) is so fast that the enduring, differentiating skill is the human capacity to manage knowledge and expectations across diverse stakeholders.",
+      "quote": "So I think communication is like the skill that we need to have like the the this is the most important skill in the team."
+    },
+    {
+      "name": "judgment_substitution",
+      "evidence": "Person 2 describes a fundamental reconfiguration of the data scientist's role in client interactions. The value is no longer in holding technical knowledge, but in translating and filtering AI capabilities for business decisions. Human judgment is reconfigured from 'technical expert' to 'business translator' and feasibility arbiter.",
+      "quote": "It's important to to know how to explain all of that things, because we we, we this is not useful if we are like so technical... We need to put everything and say, OK, we are going to do this and try to explain in the most... friendlier way to the customer."
+    },
+    {
+      "name": "temporal_misalignment",
+      "evidence": "He contrasts client expectations based on culture: Mexican clients seek deep, continuous technical understanding ('searching for all... information'), aligning with a slower, sequential verification process. US clients prefer simplified, decisive updates, aligning with a faster, output-oriented 'AI time.' This misalignment creates friction in project pacing and communication.",
+      "quote": "Mexican people... want to know everything... US people... give me the the most simpler definition and I will take some decisions... they don't need some the the some definitions about what we are doing exactly."
+    },
+    {
+      "name": "regulatory_lag",
+      "evidence": "Person 2 highlights a stark absence of data privacy and AI ethics frameworks in his regional context (Peru/Latin America). He points out that regulations are absent even as sensitive financial and national ID data is handled in projects. This lag forces ad-hoc, project-specific ethical decision-making.",
+      "quote": "Well, here are my country... There is nothing, uhm, regulating all of that... I was able to see some... information about the national identification... that was something I think not legal."
+    },
+    {
+      "name": "socio_technical_shift",
+      "evidence": "The entire interview's focus—requested by the researcher and elaborated by Person 2—is on human and cultural factors (communication, trust-building, expectation management) as critical to project success. The technical work is a given; the primary challenge and source of friction/opportunity is the human socio-technical system.",
+      "quote": "Multicultural teams are are good... talking with people that are from other countries make you understand how they are working... you can absorb good things... I think that's a good a good option."
+    }
+  ],
+  "mapped_management_frictions": [
+    {
+      "name": "timeline_compression",
+      "evidence": "Person 2 discusses the critical need for prioritization within the team, driven by resource constraints (e.g., training 'a big model' monopolizes compute). This forces constant re-evaluation of what to build next, compressing decision cycles and requiring everyone to understand technical trade-offs to align priorities.",
+      "quote": "We don't know what is more important... if we are training a model, a big model, we are not going to be able to try to train the other ones... So yeah, I think that we need to prioritize."
+    },
+    {
+      "name": "continuous_training_demand",
+      "evidence": "While not about formal training, he emphasizes the non-stop need for team members to learn about each other's cultural work habits and communication styles to function effectively. This is a form of continuous, modular 'training' required to keep up with the human diversity that accompanies global AI teams, which is itself accelerated by remote work tech.",
+      "quote": "They need to put like all the interest on, understand their their peers."
+    },
+    {
+      "name": "integration_debt",
+      "evidence": "He advocates for imposing a strong, common 'work framework' or 'box' to bring order to diverse teams. This can be seen as a management response to 'integration debt'—the incompatibility of different cultural work styles and undocumented processes. The formal framework is a patch to integrate disparate 'legacy' human behaviors into a coherent project system.",
+      "quote": "We need to put like the the framework like the the job framework as a standard... If you are saving things on the box, we need to put everything in order... I consider that formalizing things is something important because... we are not going to be able to to escale the project."
+    }
+  ],
+  "metaphors_identified": [
+    {
+      "metaphor": "The customer is like the enemy in the cloud/heaven.",
+      "interpretation": "Represents the gap between abstract, grandiose client ideas fueled by AI hype ('the cloud/heaven') and the grounded, feasible reality of implementation ('the floor'). This metaphor captures the 'judgment substitution' friction where AI's perceived potential outstrips practical delivery.",
+      "quote": "the customer is like the enemy because maybe he has a lot of ideas, a lot of like the ideas that are in the cloud or the the heaven. And that's something that we need to, like put all the things on the floor"
+    },
+    {
+      "metaphor": "Putting everything in the box in order.",
+      "interpretation": "The 'box' is the project or team. 'Order' is the formalized framework (processes, documentation standards). This metaphor illustrates the management response to autocatalysis-induced chaos (diverse tools, cultures, ideas) by enforcing structure to ensure scalability and integration.",
+      "quote": "If you are saving things on the box, we need to put everything in order that instead of just putting all the things disorder."
+    },
+    {
+      "metaphor": "A PhD dissertation at the end.",
+      "interpretation": "Describes the detailed, comprehensive reporting expected by some clients (e.g., US) at project closure. This contrasts with continuous updates. It metaphorically represents the 'temporal misalignment' and the accumulation of explanatory debt that must be paid in a single, intense deliverable after the fast-paced 'AI time' development cycle ends.",
+      "quote": "for the US people... at the end this is like a PhD dissertation... you are going to say all you, you you research it."
+    }
+  ],
+  "negative_cases_identified": [
+    {
+      "case": "Neutrality as a Cultural Strategy",
+      "description": "Person 2 states he does not prepare for or adapt to specific client cultures, choosing instead to 'be neutral.' This contradicts the expected autocatalysis response of developing sophisticated, adaptive cultural intelligence frameworks or tools. It suggests a coping mechanism that relies on a standardized, one-size-fits-all professional persona rather than accelerated learning.",
+      "quote": "I don't prepare previously for that... we need to be like neutral... I never prepared for like some yeah, like I culture or or kind of people from from a specific country.",
+      "relation_to_autocatalysis": "This is a negative case for 'skill_obsolescence_pace' and 'socio_technical_shift.' It shows a resistance to or non-recognition of the need for rapidly adaptive interpersonal skills, instead falling back on a static professional default."
+    },
+    {
+      "case": "Shared Language as a Simplifying Assumption",
+      "description": "Person 2 idealizes teams that share a native language (Spanish), stating it makes communication and understanding subtleties like sarcasm much easier. This overlooks the complex reality of global AI teams where a shared second language (like English) is the norm. It's a negative case because it bypasses the very communication challenges that autocatalysis in global teams creates and requires new tools/frameworks to solve.",
+      "quote": "Having the same language on on your team is it's easier for people to communicate... In my team, everyone knows Spanish... it's like we talk and we know what we are trying to to talk to say.",
+      "relation_to_autocatalysis": "Contrasts with the 'socio_technical_shift' indicator. It represents a desire for a simpler, pre-autocatalysis team model to avoid the compounded complexity of managing both rapid technical change *and* deep cross-cultural communication in a lingua franca."
+    }
+  ]

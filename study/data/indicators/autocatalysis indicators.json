@@ -1,0 +1,59 @@
+{
+    "research_construct": "AI Technical Specificities Semantic Rubric",
+    "version": "1.2_Clean",
+    "specificities": [
+        {
+            "id": "autocatalysis",
+            "definition": "The self-reinforcing, recursive acceleration of AI development that outstrips organizational and human capacity to adapt.",
+            "indicators": [
+                {
+                    "name": "recursive_innovation",
+                    "description": "AI tools being used to accelerate the development of further AI tools."
+                },
+                {
+                    "name": "skill_obsolescence_pace",
+                    "description": "Technical and managerial competencies becoming outdated faster than they can be replaced."
+                },
+                {
+                    "name": "judgment_substitution",
+                    "description": "The reconfiguration of human judgment as AI prediction capabilities improve."
+                },
+                {
+                    "name": "temporal_misalignment",
+                    "description": "The clash between 'AI time' (fast, iterative) and 'organizational time' (slow, sequential)."
+                },
+                {
+                    "name": "regulatory_lag",
+                    "description": "Governance and ethical frameworks emerging only after technical deployment."
+                },
+                {
+                    "name": "tool_proliferation",
+                    "description": "New frameworks released faster than they can be systematically evaluated or integrated."
+                },
+                {
+                    "name": "socio_technical_shift",
+                    "description": "Focus moving from economic benefits to human acceptance and ethics due to technical velocity."
+                },
+                {
+                    "name": "gen_AI_acceleration",
+                    "description": "Generative AI compounding the rate of change in innovation processes themselves."
+                }
+            ],
+            "management_frictions": [
+                {
+                    "name": "timeline_compression",
+                    "description": "Rapid tool obsolescence forcing architecture and testing re-evaluations mid-cycle."
+                },
+                {
+                    "name": "continuous_training_demand",
+                    "description": "The need for non-stop, modular training to keep up with emerging AI subtypes."
+                },
+                {
+                    "name": "integration_debt",
+                    "description": "Managing legacy AI components that are incompatible with new systems or standards."
+                }
+            ]
+        }
+        
+    ]
+}

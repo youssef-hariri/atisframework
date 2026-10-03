@@ -1,0 +1,44 @@
+[
+  {
+    "expert_quote": "This team that I worked with then... I gave them this this project, and I I asked them. I said, here's how it works. Now I want you to redesign it and rebuild it... I thought I was doing them a favor to give them authority and agency to make design decisions and you know, architecture decisions. They didn't. What I learned from that is they didn't want that. They wanted me to tell them what to do.",
+    "mapped_id": "trust_understanding_gap",
+    "is_negative_case": false,
+    "rationale": "The professional description of a consultant team rejecting 'agency' in favor of explicit instructions reveals a gap between the manager's understanding of effective collaboration and the team's operational expectations. This semantic disconnect ('they didn't want that') aligns with the theoretical gap between optimism about a collaborative approach and the opaque, unsatisfactory reality of the team's behavior."
+  },
+  {
+    "expert_quote": "They weren't asking the right questions, I think, and I wasn't... I assume I was making assumptions. That they understood my direction and how I wanted them to proceed. And I think there was this possibly a disconnect between... What I was asking, what they understood, what I was asking and what I assumed that they understood.",
+    "mapped_id": "explainability_deficit",
+    "is_negative_case": false,
+    "rationale": "The slang terms 'right questions,' 'making assumptions,' and 'disconnect' describe a classic project friction stemming from a lack of transparent, shared understanding. This frustration over opaque requirements and expectations directly maps to the 'explainability_deficit' indicator, where the process is not interpretable to all stakeholders."
+  },
+  {
+    "expert_quote": "We had, we've had been working with consulting agency in Eastern Europe... they were designing the user interface for a mobile application and one of the icons they chose. Was in the AmPerson 2 an culture is basically a white supremacist sign, right?... they wouldn't have known, right? Because they don't understand the culture enough.",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": false,
+    "rationale": "The phrase 'they don't understand the culture enough' is a professional-floor description of a cultural bias and fairness issue inadvertently designed into a system. This perception of a product being 'offensive' due to embedded cultural assumptions aligns with the 'unfairness_barriers' indicator, where system outputs are rejected due to perceived biases."
+  },
+  {
+    "expert_quote": "We also had delivered this product to Europe, including Germany. Germany has a lot more strong. Regulations on privacy. And so we had to make accommodations in the product to comply with those regulations... The culture around privacy in Germany. It's lot different than it is in the United States, right?",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": false,
+    "rationale": "The everyday professional term 'make accommodations' highlights a friction where the product's utility and design assumptions did not match the legal and cultural goals of a new stakeholder group. This describes a 'utility_mismatch' where the system's operation is assumed to align with one context's goals but fails in another."
+  },
+  {
+    "expert_quote": "Ethics are playing a part in AI in Europe in a way that they're not playing a part in the United States, right?... The US would probably value innovation over ethics in a lot of cases, more so than in Europe, right?",
+    "mapped_id": "paradoxical_expectations",
+    "is_negative_case": false,
+    "rationale": "The direct comparison of regional stances ('innovation over ethics' vs. regulatory barriers) captures the professional understanding of simultaneous high hopes for AI's potential (innovation) and high perceived risk (ethical concerns). This contradiction in societal expectations maps to the core of 'paradoxical_expectations.'"
+  },
+  {
+    "expert_quote": "I I personally when I deal with my teams, I give them. Authority and I and I encourage them to take. Actions I I guess fundamentally, I trust the people who work for me because I wouldn't hire them, right?... I trust you until I can't, right?... I value the the what? What would you call it? The soft skills almost as much as I value the technical skills, right?... I look for those kind of values when when I'm hiring people.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": true,
+    "rationale": "This is a negative case. Person 2 describes a management philosophy of trust, agency, and pre-screening for values ('soft skills'). This proactive, values-based approach contradicts the 'feedback_dissonance' friction, which anticipates user reports based on unrealistic benchmarks requiring 're-education.' Here, the expectation is managed upstream through hiring and empowerment."
+  },
+  {
+    "expert_quote": "I don't address it specifically... Not not openly and specifically I I don't... I I think... I don't think about it. I guess you know, maybe I don't consciously address it, maybe subconsciously.",
+    "mapped_id": "trust_erosion",
+    "is_negative_case": true,
+    "rationale": "This is a negative case. When asked if he addresses cultural issues with his team, Person 2 states he does not do so 'openly and specifically' and has adapted 'subconsciously.' This indicates an absence of the acute disillusionment and explicit 'demands for redesign' described in the 'trust_erosion' friction. Management here is described as an evolved, internalized skill, not a reactive crisis."
+  }
+]

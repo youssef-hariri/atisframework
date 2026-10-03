@@ -1,0 +1,37 @@
+[
+  {
+    "indicator": "data_dependency",
+    "evidence": "Explains how German privacy regulations forced specific data handling requirements ('find any reference to this person in our databases and remove all references'), demonstrating high sensitivity to regional data quality and legal relevance.",
+    "management_friction": "accountability_challenges",
+    "metaphor": "N/A",
+    "negative_case": false
+  },
+  {
+    "indicator": "opaque_outcomes",
+    "evidence": "Describes an incident where a European design team inadvertently used a white supremacist icon due to lack of cultural context, highlighting how algorithmic or design decisions can become inexplicably problematic when cultural variables are opaque to the team.",
+    "management_friction": "accountability_challenges",
+    "metaphor": "N/A",
+    "negative_case": false
+  },
+  {
+    "indicator": "dynamic_forecast_adjustment",
+    "evidence": "Describes the constant struggle to keep his team employed at Babylon ('my struggle was try to keep them employed'), requiring repeated adjustments to project priorities and resource forecasts based on the unstable financial health of the company.",
+    "management_friction": "baseline_erosion",
+    "metaphor": "N/A",
+    "negative_case": false
+  },
+  {
+    "indicator": "negative_case",
+    "evidence": "Person 2 emphasizes hiring for shared values and 'soft skills' during the interview process to ensure team cohesion and ethical alignment ('I ensure the hiring process... I value the soft skills almost as much as I value the technical skills'). This represents a proactive, deterministic strategy to mitigate potential human-source unpredictability in projects.",
+    "management_friction": null,
+    "metaphor": "Trust until broken",
+    "negative_case": true
+  },
+  {
+    "indicator": "negative_case",
+    "evidence": "Advises leaders to 'meet them where they are' and consciously structure teams based on understood skills and personalities ('thinking about... the personalities and how they fit together'). This reflects a belief in manageable, predictable human dynamics through careful planning, counter to the notion of irreducible unpredictability.",
+    "management_friction": null,
+    "metaphor": "Fitting puzzle pieces together",
+    "negative_case": true
+  }
+]

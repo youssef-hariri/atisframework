@@ -1,0 +1,50 @@
+[
+  {
+    "expert_quote": "The problem I'm doing designing in such a way that at a certain point you're going to business analytics, there are certain semi state you go deep into coding.",
+    "mapped_id": "skill_obsolescence_pace",
+    "is_negative_case": false,
+    "rationale": "The speaker describes a learning path where the technical depth required shifts rapidly ('semi state'), indicating that the pace of skill/knowledge change is embedded within the program's very structure, aligning with the indicator of competencies becoming outdated within an educational framework."
+  },
+  {
+    "expert_quote": "Just we have the project... we did it wrong after we got the feedback of our results, but we let the problem go through... Nobody was willing to point out that mistake and correct.",
+    "mapped_id": "judgment_substitution",
+    "is_negative_case": false,
+    "rationale": "The team deferred to an initial model's output ('we let the problem go through'), allowing a flawed technical prediction to proceed without human intervention. This exemplifies the reconfiguration of human judgment in the face of AI/system output, even when it is incorrect."
+  },
+  {
+    "expert_quote": "So with this one, now feedback is important... I don't know these and I really want to know these because for us to move forward and not just to wait up with this project, each and every need to know whatever you're doing and the why.",
+    "mapped_id": "continuous_training_demand",
+    "is_negative_case": false,
+    "rationale": "The speaker emphasizes the constant, non-negotiable need for clarification and understanding ('really want to know') as a prerequisite for project progress. This mirrors the friction of needing continuous, modular learning to keep pace with complex and evolving project demands."
+  },
+  {
+    "expert_quote": "Later on, we'll say by by then this one, this one. We did it wrong after we got the feedback of our results, but we let the problem go through.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The quote describes a sequence where a mistake is identified only in retrospect ('later on'), after the project has progressed based on an initial, faster technical cycle. This captures the clash between the iterative, immediate execution of the model ('AI time') and the slower, sequential process of human review and feedback ('organizational time')."
+  },
+  {
+    "expert_quote": "The supervisor was working with was like it's kind of... stalking is not allowed... So like it was unethical... it can be incriminating. For how you use that data set in different cultures.",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": false,
+    "rationale": "The ethical and legal implications of data use ('stalking', 'incriminating') were identified as a problem only after deep diving into the dataset. This aligns with governance frameworks (here, ethical norms) emerging as a concern only post-technical deployment, indicating a lag."
+  },
+  {
+    "expert_quote": "The main learning point was that we... are all intense beginners... And we just went in. Not consulting from those who have experience in the field.",
+    "mapped_id": "tool_proliferation",
+    "is_negative_case": false,
+    "rationale": "The failure stemmed from diving into complex technical work ('just went in') without proper foundational evaluation or expert guidance. This reflects the friction of new technical frameworks or projects being undertaken faster than they can be systematically evaluated for feasibility or integrated with existing knowledge."
+  },
+  {
+    "expert_quote": "If it gets out there, whatever we are doing, the model we are trying to create... will not know the difference whether this one is not the real... if it gets out of there and get in the wrong hand, there might be a problem.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "The speaker's concern shifts from the technical capability of the model to its potential for misuse ('deep fake', 'wrong hands') and societal impact. This demonstrates a focus moving from pure technical/economic benefit to human acceptance and ethical risk due to the power of the technology."
+  },
+  {
+    "expert_quote": "The we leads to knowing what is the strength of this person. What are the weak areas then? We come in and... we try to boost them.",
+    "mapped_id": "integration_debt",
+    "is_negative_case": true,
+    "rationale": "This quote directly contradicts the 'integration_debt' friction. Instead of describing legacy components causing incompatibility, it describes a proactive, human-centric strategy of identifying and bolstering team members' weak areas to ensure seamless integration and function, acting as a negative case."
+  }
+]

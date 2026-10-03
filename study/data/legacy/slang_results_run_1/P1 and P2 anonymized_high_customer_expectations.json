@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "Person 2",
+    "indicator": "magic_box_perception",
+    "metaphor": "Model as a 'Answer Generator'",
+    "quote": "And they they were more concerned about maybe the answers or... The response affects answered.",
+    "negative_case": false,
+    "analysis": "Person 2 describes the Chilean team's focus as being primarily on the model's output ('the answers') rather than its construction or sustainability. This suggests they viewed the model instrumentally as a 'black box' producing a desired result, aligning with the 'magic box' perception where the internal workings are secondary to the final output."
+  },
+  {
+    "speaker": "Person 2",
+    "indicator": "utility_mismatch",
+    "metaphor": "Model as a 'Salary Oracle'",
+    "quote": "How do I estimate the salary of a person that I didn't know anything about?... we is make like a average salary based on people they really can they have relations with.",
+    "negative_case": false,
+    "analysis": "The financial institution built a model to estimate salaries for individuals with no formal financial data. This reflects an expectation that AI can infer accurate, personal financial information from social connections—a significant utility mismatch where the model's goal (estimation) is assumed to align perfectly with a complex, real-world truth (actual earnings), leading to ethical and practical pitfalls."
+  },
+  {
+    "speaker": "Person 2",
+    "indicator": "unfairness_barriers",
+    "metaphor": "Model as a 'Bias Amplifier'",
+    "quote": "If you put [gender, race, age] in the in the model... implicitly what what the model would say is you can give a lower salaries to woman or you can give lower salaries to older... you are reinforce the this this bias.",
+    "negative_case": true,
+    "analysis": "Here, Person 2 demonstrates a sophisticated, critical understanding of AI's limitations, specifically its propensity to perpetuate societal biases. This is a **negative case** for 'high_customer_expectations' because it shows active resistance to the 'magic box' idea. Person 2 recognizes the model not as an infallible oracle but as a potential amplifier of unfairness, necessitating careful, ethical feature selection."
+  },
+  {
+    "speaker": "Person 2",
+    "indicator": "dreams_vs_reality",
+    "metaphor": "AI Development as a 'Fast Answer' vs. 'Sustainable Solution'",
+    "quote": "[Chilean team] they're not concerned about the applied the right techniques... or maybe how this would be in the future... we were more concerned about this, this stuff.",
+    "negative_case": false,
+    "analysis": "This highlights a classic 'dreams vs. reality' gap. One party (Chile) expects AI to deliver quick solutions ('fast answers'), representing an idealized, short-term vision. The other (Brazil, represented by Person 2) is grounded in the reality that models require sustainable, well-built architectures to remain effective over time, contrasting the dream of instant utility with practical, long-term considerations."
+  },
+  {
+    "speaker": "Person 2",
+    "indicator": "explainability_deficit",
+    "metaphor": "Executive 'Results-Only Filter'",
+    "quote": "For executive level... it's all about the results... simplify the presentation, the speech... don't get in the technical.",
+    "negative_case": false,
+    "analysis": "Person 2 adapts to a stakeholder expectation that treats the AI model as an opaque results-generator. The need to hide technical details and focus solely on outputs for executives points to an 'explainability deficit' where there is either no demand for or an active discouragement of transparent decision-making, reinforcing a 'magic box' relationship with the technology."
+  },
+  {
+    "speaker": "Person 2",
+    "indicator": "trust_understanding_gap",
+    "metaphor": "Model as a 'Legacy Anchor'",
+    "quote": "The resistance to change something and to see the impact that is gonna cause in the whole structure, the whole company, it's like a a difficult thing to surpass.",
+    "negative_case": true,
+    "analysis": "This is a **negative case** showing a deep understanding of the gap between trust in a model's output and the reality of its integration. Person 2 doesn't express blind optimism; instead, they pinpoint how trust in an established model creates systemic inertia, making it hard to correct even when its flaws (like bias) are understood. This reflects a realistic view of AI's embedded risks, not an idealized one."
+  }
+]

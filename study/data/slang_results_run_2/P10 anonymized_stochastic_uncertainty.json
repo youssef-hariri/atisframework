@@ -1,0 +1,20 @@
+[
+  {
+    "expert_quote": "it can have like a plethora of phrases and questions that they can pose in front of a client. But when it comes to understanding in what state the client is, maybe for example, if I'm talking to you, if I know what your mood is, I would maybe... try to have a conversation a particular way, right?",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": true,
+    "rationale": "Person 2 presents a 'negative case' by highlighting AI's lack of contextual, human-like adaptability as a key weakness, contrasting it with the nuanced, state-sensitive understanding required for effective communication. This implicitly contradicts the rubric's 'opaque outcomes' indicator, which describes complexities that are hard to explain. Here, the speaker clarifies that the opacity is a known limitation, not a mysterious complexity, by contrasting it with transparent, human-centric adaptability."
+  },
+  {
+    "expert_quote": "People do not like to give feedbacks.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": false,
+    "rationale": "The speaker's direct, slang-like statement identifies a core cultural friction: the hesitation to provide written or direct feedback. This lack of clear, attributable input directly maps to the management friction of 'accountability challenges,' as it creates difficulty in assigning responsibility, understanding outcomes, and iterating on AI-driven services when client responses are ambiguous or withheld."
+  },
+  {
+    "expert_quote": "I think what is important is to probe the client. So if I want a feedback I if I can prepare a list of questions then they are able to give the feedback... you do not ask them to write. You ask them to give you a rating.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": false,
+    "rationale": "The professional slang of needing to 'probe' and the tactical workaround of using ratings instead of written statements demonstrate active management of the 'accountability challenge.' This method is an attempt to impose structure and clarity on a process made difficult by cultural preferences, directly addressing the friction of opacity in assigning responsibility for outcomes."
+  }
+]

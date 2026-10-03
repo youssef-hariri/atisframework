@@ -1,0 +1,44 @@
+[
+  {
+    "expert_quote": "Where we have to deal with with the processing, with loads of data... AI is, yeah, it's becoming more and more dominant in in data processing also in some cases. Replacing traditional applications in the energy space as well.",
+    "mapped_id": "socio_technical_transition",
+    "is_negative_case": false,
+    "rationale": "Person 2 describes the shift in their domain from traditional applications and solvers to AI-driven data processing, exemplifying the move from human-centric methods to hybrid human-AI collaboration models."
+  },
+  {
+    "expert_quote": "In some cases you have to be that [boss from hell] for a little while so that they know, OK, these are the boundaries that we have to operate in... And then they everybody finds out. Well, as long as we're in those boundaries, everything is fine.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "The quote describes the need to assert authority to establish clear 'boundaries' for collaboration. This highlights the friction caused by the need to overcome a culture of experiential hierarchy ('they respected the old management') to instill new, structured operational norms, a form of cultural resistance to new processes."
+  },
+  {
+    "expert_quote": "I'm one of those people that likes to step down and and and gets his hands dirty... It's giving the people the sense that you're dealing with solving a problem together... They lose sight of those... Traditional boundaries... and then then stuff becomes a lot easier.",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "Person 2 describes deliberately breaking down traditional hierarchical roles ('traditional boundaries') by collaborating directly on the work ('hands dirty', 'solving a problem together'). This exemplifies the shift from a top-down project manager to a collaborator and system facilitator."
+  },
+  {
+    "expert_quote": "We were dealing with teams in Russia that at that moment... [were] driven by a very hierarchical setup... they respected the old management that they had, that they didn't respect the new management... and then we ended up in an almost hostile environment... then you know well. We we we have failed here... In some cultures, people tend to carry a grudge forever. And it doesn't doesn't go away.",
+    "mapped_id": "workflow_brittleness",
+    "is_negative_case": false,
+    "rationale": "This describes a linear project delivery ('delivered on Friday afternoon') completely breaking down ('hostile environment', 'it doesn't work') due to a socio-cultural conflict around hierarchy and management change. It demonstrates the acute vulnerability (brittleness) of linear workflows to non-technical, human-centric disruptions."
+  },
+  {
+    "expert_quote": "It's not like we are in the West and we know best... You also have to be have to have that situational awareness... That is also a a cultural difference as in... In some cultures, people tend to carry a grudge forever. And it doesn't doesn't go away. You can't. You cannot fix it anymore.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "Person 2 explicitly warns against assuming Western ('us in the West know best') procedural or experiential knowledge is superior. He contrasts this with the tacit, relational knowledge in other cultures (e.g., carrying a 'grudge'), highlighting the fundamental tension between different forms of knowledge that impact project success."
+  },
+  {
+    "expert_quote": "Not so much in an AI project. But mainly in in Dev OPS projects.",
+    "mapped_id": "integration_friction",
+    "is_negative_case": true,
+    "rationale": "This is a negative case for the specific target of 'process_disruption' in AI workflows. Person 2 explicitly states that the major cultural failure they experienced was NOT in an AI project context, but in a different domain (DevOps). This suggests the friction described may not yet be pronounced or experienced in their specific AI project work."
+  },
+  {
+    "expert_quote": "And then we have a structure where immediate manager that takes that responsibility. For preparing those people to go somewhere else... you have to make people aware of simple stuff like... if they go to the West, you have to prepare them about, well, this is how our toilets work because because it's it's completely different... So in in that sense, if we receive people, then we have to be aware of that one as well.",
+    "mapped_id": "role_transition_hurdles",
+    "is_negative_case": false,
+    "rationale": "The quote details the formal and informal 'preparation' (reskilling and cultural acclimatization) required for team members to transition into a multicultural context. This preparation, down to mundane details, is a direct response to the hurdles and disruptions caused by shifting roles and work environments in a globalized, collaborative setting."
+  }
+]

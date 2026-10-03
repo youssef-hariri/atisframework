@@ -1,0 +1,62 @@
+[
+  {
+    "indicator_name": "socio_technical_transition",
+    "evidence": "Person 2 describes cultivating a culture where feedback is treated as 'neutral information' and emphasizes asynchronous collaboration through shared documents (Notion). This reflects a shift from purely human-centric debate to a hybrid model where structured, data-like communication (feedback as information) and collaborative tools mediate understanding.",
+    "metaphors": ["Feedback as neutral information", "Holding/manipulating an idea together"],
+    "negative_case": false
+  },
+  {
+    "indicator_name": "workflow_brittleness",
+    "evidence": "Person 2 highlights the vulnerability of project timelines when communication breaks down: 'Some colleagues...won't say that...this project is not gonna get done in time...only three days later we find out actually there was some big problem'. This shows how the linear expectation of a sequential timeline is brittle when adaptive, human-factor issues (like communication style) are integrated.",
+    "metaphors": ["Delayed discovery of problems as a 'pattern'"],
+    "negative_case": false
+  },
+  {
+    "indicator_name": "role_reconfiguration",
+    "evidence": "Person 2 describes leadership's role as 'giving the right model' through behavior, not just dictating rules. This aligns with a shift from traditional task-management to ethical/cultural system oversight. Their hiring focus on cultural/working-style 'mesh' over pure technical ability further underscores this reconfiguration toward judging team-fit and collaboration dynamics.",
+    "metaphors": ["Leadership as behavioral modeling", "Hiring for 'mesh' not just skill"],
+    "negative_case": false
+  },
+  {
+    "indicator_name": "integration_friction",
+    "evidence": "Person 2 discusses the challenge of integrating team members with different technological maturities and expectations ('people are starting from different places'). The solution—'talking a lot' and working towards a 'common understanding'—highlights the friction of embedding a new, diverse (AI-capable) workforce into an existing collaborative lifecycle.",
+    "metaphors": ["Building a 'shared point' of understanding"],
+    "negative_case": false
+  },
+  {
+    "indicator_name": "knowledge_clash",
+    "evidence": "Person 2 identifies a tension between different knowledge bases: 'In certain places...emphasis on...software abstractions...in other places the emphasis is...on the product and what the user thinks.' This mirrors the rubric's clash between data/abstraction-centric knowledge (common in AI/engineering) and tacit, experience/user-centric knowledge.",
+    "metaphors": null,
+    "negative_case": false
+  },
+  {
+    "indicator_name": "procedural_nonlinearity",
+    "evidence": "The process Person 2 describes for alignment is inherently nonlinear: 'sometimes that might mean that everyone needs to go away and...think about it...it's not like everything always gets solved the first time.' This iterative, reflective loop for building consensus contrasts with a linear, phase-gated project methodology.",
+    "metaphors": ["Alignment as an iterative, non-instant process"],
+    "negative_case": false
+  },
+  {
+    "indicator_name": "silo_breakdown",
+    "evidence": "Person 2 states that diversity helps 'imagine how things can go wrong' with AI products used globally. This underscores how building robust AI systems requires breaking down the 'silo' of a single cultural/technical perspective, necessitating cross-functional (and cross-cultural) input for testing and design.",
+    "metaphors": ["Diverse team as a risk-imagination tool"],
+    "negative_case": false
+  },
+  {
+    "indicator_name": "ethical_automation_tension",
+    "evidence": "**NEGATIVE CASE**. Person 2 explicitly states they have not experienced significant differences in views on model bias, ethics, or data privacy within their technical team, attributing this to shared professional training. This indicates that in this context, the predicted tension between automation and ethical oversight was not a salient source of process disruption.",
+    "metaphors": null,
+    "negative_case": true
+  },
+  {
+    "management_friction_name": "cultural_resistance",
+    "evidence": "Person 2 notes a difference in comfort with upward feedback: European colleagues are 'much more comfortable' giving direct feedback upwards than some non-European colleagues. This points to a residual friction where certain cultural norms (deference to hierarchy) resist the data-centric, 'feedback-as-information' culture the company is trying to establish.",
+    "metaphors": null,
+    "negative_case": false
+  },
+  {
+    "management_friction_name": "role_transition_hurdles",
+    "evidence": "The need for 'space to think' and not react immediately to feedback, along with the practice of fasting together during Ramadan, highlights the ongoing reskilling and adaptation required. Team members must transition from potentially ingrained hierarchical or individual work styles to a more collaborative, reflective, and culturally aware mode of operation.",
+    "metaphors": ["Creating 'space' for reflection and cultural recognition"],
+    "negative_case": false
+  }
+]

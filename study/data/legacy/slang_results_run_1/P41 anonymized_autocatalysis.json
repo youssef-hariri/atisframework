@@ -1,0 +1,58 @@
+[
+  {
+    "indicator": "skill_obsolescence_pace",
+    "metaphor": "Career as a forced pivot",
+    "quote": "I was working on some experimental physics at the beginning of my PhD, But I was unhappy... and those days machine learning started to make hype and I decided to make a career change... It was tough because I really need to coding. It got hours and hours, but I had to do.",
+    "interpretation": "Describes the personal and rapid upskilling required to stay relevant, mirroring the organizational pressure where competencies must be replaced faster than they naturally become obsolete.",
+    "negative_case": null
+  },
+  {
+    "indicator": "tool_proliferation",
+    "metaphor": "Open-source as an ocean of help and chaos",
+    "quote": "For open source project, there are some people that are eager to give the knowledge... she was extremely talented... we can make the people feel your help... There are individual peoples in different countries that loves to share their knowledge.",
+    "interpretation": "Highlights the dual nature of rapid tool/framework proliferation: a valuable, decentralized resource pool of expertise (positive), but dependent on finding the right individual contributors, which is non-systematic.",
+    "negative_case": "This positive view contrasts with the rubric's implicit negative framing of 'proliferation' as overwhelming. It shows the potential benefit of a distributed, enthusiastic community."
+  },
+  {
+    "indicator": "recursive_innovation",
+    "metaphor": "Stuck in a loop, freed by diverse perspectives",
+    "quote": "I last project I saw I was stuck... for 3 weeks. I stuck... but talking with different peoples in different countries... They say Chinese, Germany, India. Taking their support help me to overcome this problem... I learned so much from them.",
+    "interpretation": "The innovation process (debugging/solving a technical problem) was accelerated not by an AI tool, but by the recursive application of diverse human knowledge and experience within a collaborative network.",
+    "negative_case": "The recursive acceleration described is socio-technical (human network) rather than purely technical (AI-augmenting-AI), which is a crucial nuance."
+  },
+  {
+    "indicator": "socio_technical_shift",
+    "metaphor": "The supportive container",
+    "quote": "I love being a part of multicultural environments, diverse environment... I feel good in that... We need to someone to understand us.",
+    "interpretation": "The focus shifts from pure technical output to the human and relational environment ('acceptance') as a prerequisite for effective work, especially when facing high-velocity technical challenges.",
+    "negative_case": null
+  },
+  {
+    "indicator": "judgment_substitution",
+    "metaphor": "Algorithmic choice as an ethical concession",
+    "quote": "I had to choose one algorithm, but it was not... It underestimates some of the classes... I accept to not rightly estimate this kind of stars. It is some kind of model bias.",
+    "interpretation": "Demonstrates a direct, small-scale instance of judgment being re-configured by technical limitations. The practitioner's judgment is overridden by the algorithm's bias, and they are forced to accept an imperfect, biased outcome due to the tool's constraints.",
+    "negative_case": null
+  },
+  {
+    "indicator": "management_frictions.continuous_training_demand",
+    "metaphor": "Non-stop learning as a personal journey",
+    "quote": "I had built so many times so many errors and after so many stacks you learn something.",
+    "interpretation": "This encapsulates the personal, experiential aspect of the continuous training demand. Knowledge is gained not through formal modules but through iterative failure and problem-solving in a fast-moving field.",
+    "negative_case": null
+  },
+  {
+    "indicator": "judgment_substitution",
+    "metaphor": "Pressure-cooker results",
+    "quote": "In some specific country... they are so prone to show Good results... they had pressure on them to be best to show best, but it is not best... sometimes we are hearing about they manipulate some results.",
+    "interpretation": "Points to an environment where the imperative for 'good results' (potentially driven by a culture of high performance metrics) can supersede ethical judgment and integrity. This is a cultural/social driver for the substitution of sound judgment.",
+    "negative_case": "This is identified as a cultural, not purely technical, source of pressure leading to bad judgment, adding a layer to the 'judgment_substitution' indicator."
+  },
+  {
+    "indicator": "temporal_misalignment",
+    "metaphor": "The tired academic vs. the available mentor",
+    "quote": "In my Academy in Turkey... they're so bored, they do not want to give me time... In Johns Hopkins... they were treating us equally and whenever I want... they gave me time.",
+    "interpretation": "Contrasts 'organizational time' in a traditional, resource-constrained academic setting (slow, unavailable) with a more responsive, agile environment. The misalignment is not with AI, but between different human institutional speeds, which would be exacerbated by AI time.",
+    "negative_case": null
+  }
+]

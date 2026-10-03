@@ -1,0 +1,26 @@
+[
+  {
+    "rubric_indicator": "trust_understanding_gap",
+    "person_statement": "So which means that you will only be able to see how you work with the person only once you start working with the person and especially... on very challenging and let's say stressful project, then you see the real person.",
+    "metaphor_mapping": "Team/Person as a 'Black Box' System. The statement uses the process of team integration as a metaphor for system testing. Just as an AI system's true capabilities and flaws are only revealed under real, stressful conditions (not in demos or sandbox environments), a person's real professional character is only revealed under project pressure. This underscores the gap between initial trust/optimism (based on interviews/proxies) and actual understanding.",
+    "negative_case_identification": "This directly challenges the 'magic box' perception by emphasizing that true understanding and trust are earned through stress-testing reality, not bestowed by reputation or promise. It implies that any expectation of flawless performance from the outset (whether of a person or a system) is naive."
+  },
+  {
+    "rubric_indicator": "feedback_dissonance",
+    "person_statement": "some companies they try to collect their feedback, so to say behind your back... the feedback... it's not actionable, and quite often it's incorrect... So which means that you have like some evidence, and then this evidence doesn't respond to the feedback that is described in the system.",
+    "metaphor_mapping": "Opaque Feedback System as a Dysfunctional AI. The description of a feedback system that is secretive, un-actionable, and misaligned with evidence is a powerful metaphor for an AI system with poor explainability (explainability_deficit). Users receive an output (feedback/decision) that doesn't match the observable inputs/evidence, leading to frustration and eroding trust.",
+    "negative_case_identification": "This is a concrete example of a management friction. The system generates user 'bug reports' (in this case, employee confusion and demotivation) because the feedback mechanism is broken. The labor required is not just fixing the feedback, but also re-educating the user on how the *opaque* system is supposed to work, or in Person 2's case, leaving the company (project abandonment/scaling resistance)."
+  },
+  {
+    "rubric_indicator": "explainability_deficit",
+    "person_statement": "I call this a weapon. So... if you want to, let's say, to affect the person in the negative or in a positive way, you can structure more or less the same situation and give feedback that will encourage people... Or you can totally discourage and demotivate person",
+    "metaphor_mapping": "Unexplained Feedback as a 'Weaponizable' Output. This frames an opaque decision-making process (feedback generation) as a tool that can be arbitrarily wielded for good or ill based on the wielder's intent, not on transparent, consistent rules. This parallels fears about AI where biased data or opaque models can be 'weaponized' to produce unfair or manipulative outcomes (unfairness_barriers).",
+    "negative_case_identification": "Highlights a critical risk of the explainability deficit: it's not just about frustration, but about enabling manipulation and unfairness. The lack of transparency turns the system's output into a potential weapon, directly fueling stakeholder fears about bias and control (paradoxical_expectations: high hope for utility, high perceived risk of misuse)."
+  },
+  {
+    "rubric_indicator": "utility_mismatch",
+    "person_statement": "it's very important to understand the culture of the company that you are joining or of the team that you are joining and if this culture like a response to your values",
+    "metaphor_mapping": "Organizational Culture as a System's 'Goal Alignment'. Person 2 frames project success as dependent on the alignment between an individual's values (personal/organizational goals) and the team/company's culture (the system's operating principles). A mismatch leads to failure. This mirrors the utility_mismatch where an AI's optimization function may not align with a user's or organization's true, complex goals.",
+    "negative_case_identification": "Suggests that a primary cause of project failure (AI or otherwise) is a mismatch between the system's design/objectives and the user's core values/needs. This challenges the assumption that a technically proficient AI will naturally deliver utility; its goals must be carefully aligned and understood by the stakeholder from the start."
+  }
+]

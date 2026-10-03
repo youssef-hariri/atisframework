@@ -1,0 +1,74 @@
+[
+  {
+    "theme": "non_deterministic_outputs",
+    "type": "indicator",
+    "quote": "There is that accent problem. You know, sometimes... you don't get some words, you get the whole concept, but you just sometimes be like, Oh yeah, yeah, yeah, yeah.",
+    "explanation": "Person 2 highlights how communication in multicultural teams is non-deterministic; the same words or phrases can lead to varying interpretations due to accents and cultural nuances, similar to how AI models produce variable outputs."
+  },
+  {
+    "theme": "probabilistic_variance",
+    "type": "indicator",
+    "quote": "For example, like in UK, most people will just give you a blank feedback... if you're coming from culture like people are like, more like trying to avoid to give you direct, you may sit like. What do you do? You hate me or something?",
+    "explanation": "Feedback styles vary probabilistically across cultures (blunt vs. indirect), causing fluctuations in how messages are received and acted upon, akin to statistical variance in AI predictions."
+  },
+  {
+    "theme": "model_drift",
+    "type": "indicator",
+    "quote": "When you shift accounts... you come here to UK and you start to work... you have to lose him. All of them at once, and it's the same man, and you have to onboard your work.",
+    "explanation": "Moving to a new cultural environment requires constant adaptation to changing norms and practices, analogous to model drift where AI performance decays as data patterns shift over time."
+  },
+  {
+    "theme": "opaque_outcomes",
+    "type": "indicator",
+    "quote": "It becomes like really inconsistent to a leader... you tend to not get any patterns. It's like you go out to every conversation. You just like. So what's today? You're not sure every new person who comes is like you can't. You can't assume because you'll be like, OK. So what about you? It's like a new puzzle every day.",
+    "explanation": "Leadership in multicultural teams faces opaque outcomes due to diverse personal goals and backgrounds, making it hard to predict or explain behaviors, similar to AI's complex decision-making processes."
+  },
+  {
+    "theme": "dynamic_forecast_adjustment",
+    "type": "indicator",
+    "quote": "When I was coming the first two weeks first months, it was like... even the process of like maybe getting... a house and how you should pay for it... you all have to lose him. All of them at once... and you have to onboard your work.",
+    "explanation": "Constant adjustments in personal and work life when relocating reflect dynamic forecast adjustment, where baselines must be repeatedly updated due to underlying instability."
+  },
+  {
+    "theme": "baseline_erosion",
+    "type": "management_friction",
+    "quote": "When I was coming the first two weeks first months, it was like... even the process of like maybe getting... a house and how you should pay for it... you all have to lose him. All of them at once... and you have to onboard your work.",
+    "explanation": "The need to constantly adapt and relearn routines (e.g., finding halal food, understanding housing) mirrors baseline erosion, where probabilistic variance forces repeated adjustments to forecasts and commitments."
+  },
+  {
+    "theme": "Empty your cup",
+    "type": "metaphor",
+    "quote": "Empty your cup. I mean, yeah, empty your cup. Like don't. Don't assume like what you know on your past experience is just gonna apply like 1 to one the moment you eat.",
+    "explanation": "Metaphor for approaching multicultural teams with an open mind, discarding prior assumptions to adapt to new contexts, reflecting the need to manage uncertainty by resetting expectations."
+  },
+  {
+    "theme": "Mechanism",
+    "type": "metaphor",
+    "quote": "But the good thing I think of when a business or any team to do, it's like what we are currently doing like to put a mechanism in place... Here's a mechanism. Here is like how we gonna do it. This is the system.",
+    "explanation": "Metaphor for structured systems or rules (like AI governance frameworks) that reduce uncertainty by providing clear guidelines, mitigating stochastic effects through standardization."
+  },
+  {
+    "theme": "Puzzle",
+    "type": "metaphor",
+    "quote": "It's like a new puzzle every day.",
+    "explanation": "Metaphor for the unpredictable and complex nature of multicultural interactions, where each team member presents unique challenges that require solving, akin to navigating AI's opaque outcomes."
+  },
+  {
+    "theme": "positive_cultural_diversity",
+    "type": "negative_case",
+    "quote": "The way they think about the problem, it always resonate on their breathing and how they know their. I mean their social cycle, you know... it's a good thing... it just adds up.",
+    "explanation": "Negative case to stochastic uncertainty: Cultural diversity is viewed as a positive force that enriches problem-solving, contrasting with the rubric's focus on unpredictability as a hindrance."
+  },
+  {
+    "theme": "successful_adaptation",
+    "type": "negative_case",
+    "quote": "I've become like an expert of knowing. Like, yeah, yeah, I should go.",
+    "explanation": "Negative case to model drift and dynamic forecast adjustment: Person 2 successfully adapts to a new culture, achieving stability and expertise, countering the notion of perpetual instability."
+  },
+  {
+    "theme": "system_reduces_uncertainty",
+    "type": "negative_case",
+    "quote": "It's like more of mechanism... it really helps when you have no idea how to act.",
+    "explanation": "Negative case to opaque outcomes and lack of reproducibility: Institutional mechanisms provide clarity and reproducibility in multicultural settings, reducing uncertainty and enhancing predictability."
+  }
+]

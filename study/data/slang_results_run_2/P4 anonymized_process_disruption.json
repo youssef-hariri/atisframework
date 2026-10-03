@@ -1,0 +1,44 @@
+[
+  {
+    "expert_quote": "Where in like, you know, people will tell you things the way they are, right? They don't get that they don't sort of hold back. They don't, you know, pretend like, you know, they understand what you're saying. So if they have an issue with what you're asking, they will tell you directly, right?",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "The description contrasts direct, data/issue-focused communication (associated with data-centric AI work) with a preference for smoother, consensus-based interaction. This 'human-floor' observation highlights a cultural preference for experiential, relationship-based knowledge over blunt, objective data-sharing, creating friction in integrated teams."
+  },
+  {
+    "expert_quote": "The other thing is like it's also to do with some kind of politics as well. I mean like you see that people will want to sort of take ownership of particular domains and you know they don't want to relinquish that sort of ownership and it creates bottlenecks along the way... They want to sort of think of how they want to solve the problem and, you know, pursue it in that particular way.",
+    "mapped_id": "silo_breakdown",
+    "is_negative_case": false,
+    "rationale": "The speaker uses the slang of 'ownership of particular domains' and 'bottlenecks' to describe how cross-functional AI/data needs challenge established territorial boundaries and linear hand-off processes, directly mapping to the friction of silos breaking down."
+  },
+  {
+    "expert_quote": "It does actually because I feel like people here are more paranoid. People are more worried about their personal information being accessed by a third party without their permission. I feel like back in countries where there is a communist regime, I don't think that's an option... people who come from economies which are pretty stable... they have the luxury of the time to sort of ponder on where it is that, you know, the information is being used, how to democratize the use of the information, how to incentivize the use of the information and you know how can you know the wrongdoers be held accountable...",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": false,
+    "rationale": "The quote describes a foundational clash in perspective on data ethics ('paranoid' vs. 'not an option' vs. 'luxury to ponder'), rooted in cultural/economic background. This is a 'human-floor' illustration of the tension between automated data collection/prediction (AI's core) and the variable, culturally-informed need for human ethical oversight and accountability."
+  },
+  {
+    "expert_quote": "If you have a small team, then I feel like people function in a more agile way, where in like, there is less time focused on planning and more time spent on getting to the solution, where in like, people are trying to figure out what's the best way out, given the information at any point in time rather than thinking about going forward what we will be doing. Because you don't have the time and the resources to sort of sit and figure out what could be a potential solution.",
+    "mapped_id": "procedural_nonlinearity",
+    "is_negative_case": false,
+    "rationale": "The speaker contrasts a formal, forward-looking planning process with an 'agile way' characterized by figuring out solutions 'given the information at any point in time.' This professional slang for iterative, adaptive problem-solving directly conflicts with linear, phase-gated project methodologies, capturing the essence of procedural nonlinearity."
+  },
+  {
+    "expert_quote": "I think culture is just one aspect of the problem. I think it all matters what kind of environments people have gone across in their work life. So, based on their past history, based on the way they have worked with other people or based on the way they have learned how to work with other people. They sort of have sort of molded themselves or they are, they've decided that this is the best approach towards doing a certain thing.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": true,
+    "rationale": "This quote is a negative case. The speaker explicitly argues that cultural background is not the primary driver of friction ('just one aspect'), attributing work style instead to individual professional history and learned behavior. This contradicts the rubric's assertion of 'cultural resistance' as a primary management friction, suggesting the friction may be more individualized or experiential."
+  },
+  {
+    "expert_quote": "The other way would be to sort of have split conversations, Right, wherein like, you know, people who are from different teams have, you know, there is one individual which talks to different teams that way instead of like letting the teams communicate with each other. So that way, you know, it streamlines the process and it takes away the ego aspect.",
+    "mapped_id": "silo_breakdown",
+    "is_negative_case": false,
+    "rationale": "The described practice of using a single point of contact to manage inter-team communication is a classic workaround for siloed structures. The mention of 'ego aspect' and preventing direct team communication reveals the underlying friction when cross-functional collaboration (essential for AI/data projects) is needed but hindered by entrenched boundaries."
+  },
+  {
+    "expert_quote": "One thing that can be done to sort of reduce... the impact of the problem... is doing some risk management. So you think about what are the potential consequences and then go to the solution at hand at the end and then sort of work backwards from there. So assuming that you have a deadline, just pull back that deadline by a week or two and then start from there because you just assume that things will not work or there will be delays or there are dependencies.",
+    "mapped_id": "workflow_brittleness",
+    "is_negative_case": false,
+    "rationale": "The strategy of working backward from a deadline while assuming 'things will not work' is a professional, pragmatic admission of increased vulnerability. It acknowledges that integrated, non-linear processes (implied by 'dependencies') are inherently more fragile and prone to disruption than predictable, linear ones."
+  }
+]

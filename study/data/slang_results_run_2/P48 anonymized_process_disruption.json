@@ -1,0 +1,62 @@
+[
+  {
+    "expert_quote": "some of the managerial teams says OK, like it, but these features, I don't want to put here. Because that's the idea they individually, they have a better solution for determining which price level they have to assume. Which assortment they have to assume in some man decision based idea instead of OK let accept. So the two is able to execute all the tactical strategic ideas of the pricing assortments. Just press the button and and make it happen. Automatically, but the managerial team says no, I won't touch the button doing this. Randomly or by itself, I must manage to value his job.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "The quote illustrates a tension where managers prioritize their own experiential, tacit knowledge ('man decision based idea') and the perceived value of their role over trusting a data-centric, automated AI system ('press the button'), directly aligning with the theoretical tension between data-centric AI and human experiential knowledge."
+  },
+  {
+    "expert_quote": "What I I conquered Latin America mainly. This type of thinking is quite different. And the difference is I don't value the. Productivity or the result objective, objectively defined as increase of revenues or reducing costs? They don't see that they are capable of to be recognized for such a measure. So they are valued by loyalty. They are valued by doing what the boss says, so different thinking is more relationship oriented than results oriented.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "The participant describes a cultural mindset that values relationships and hierarchical loyalty over objective, data-driven results. This constitutes a 'Distrust of data-centric approaches in favor of experiential knowledge,' a core indicator of cultural resistance to integrating AI workflows."
+  },
+  {
+    "expert_quote": "But what I see is OK, they're doing to OK increment my profile as I adopted this AI in my journey. I don't care if it stay with the job or not, but I am imposter of this knowledge. I I know how to use and I know how to deploy this in other other place.",
+    "mapped_id": "socio_technical_transition",
+    "is_negative_case": false,
+    "rationale": "The speaker describes an individual adapting to a hybrid role, focusing on acquiring and wielding AI knowledge ('imposter of this knowledge') as a personal asset, reflecting the broader transition from purely human-centric roles to new, hybrid human-AI collaboration models."
+  },
+  {
+    "expert_quote": "the price of acquisition here in Latin America has this impairment in terms of relationship in, in man job is gone and I don't know what they're going to do in the future.",
+    "mapped_id": "role_transition_hurdles",
+    "is_negative_case": false,
+    "rationale": "This statement highlights the disruption and uncertainty ('I don't know what they're going to do') caused by AI replacing traditional managerial jobs ('man job is gone'), directly reflecting the reskilling needs and disruption to established hierarchies and decision-making authority."
+  },
+  {
+    "expert_quote": "I gotta tell you, in Brazil you can scan a a code like that and you can have a problem because it's not well established for the information deformations. The same code in two different products. So you have problems if like. In for in the data that the problem.",
+    "mapped_id": "legacy_inflexibility",
+    "is_negative_case": false,
+    "rationale": "The speaker points to inconsistent, non-standardized data infrastructure ('not well established') as a foundational problem. This aligns with legacy systems' inability to meet the dynamic, high-integrity data needs of AI, hindering integration and causing friction."
+  },
+  {
+    "expert_quote": "Here in Brazil. So first of all, I don't have the culture of feedback.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "The blunt statement 'I don't have the culture of feedback' characterizes a work culture resistant to the transparent, iterative, and data-informed dialogue necessary for integrating and refining adaptive AI systems, representing a foundational cultural friction."
+  },
+  {
+    "expert_quote": "So I process billions of coupons. Billions, not 1,000,000 billions of coupons in seconds. The cost that I I was having with Amazon was about $100,000 monthly... So by the time I provide the services and by the time I put a price on it, it's not a huge margin. So quite low margin, retailer said, OK, my margin's very low. The professional who's doing this manually is doing a very bad job. It's cheaper and I cannot afford your services.",
+    "mapped_id": "integration_friction",
+    "is_negative_case": false,
+    "rationale": "This narrative reveals a critical friction in embedding AI: the high operational cost and economic model of a powerful, non-linear AI system clashes with existing business cost structures and the perceived value of legacy manual processes, creating a barrier to adoption within traditional financial lifecycles."
+  },
+  {
+    "expert_quote": "AI in a culture. Can. OK, so you can manage to AI for certain answers and and certain answers for certain coaches can be offensive. This is a problem.",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": false,
+    "rationale": "The speaker identifies a core conflict: AI's automated, predictive output ('certain answers') can generate culturally insensitive or 'offensive' content, highlighting the inherent tension between automated processes and the necessity for nuanced human ethical and cultural oversight."
+  },
+  {
+    "expert_quote": "I think the leadership, some of them know all this complexity in the in the powers that they have in their hands and the same time you have. I'm gonna call old school, OK? Adopted. But let me see if it works. I don't know really understand what it is. I don't really impact on the organization.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "This describes 'old school' leaders who adopt AI superficially ('let me see if it works') without understanding its complexity or organizational impact. This embodies distrust and a lack of engagement with the data-centric paradigm, favoring a passive, wait-and-see approach over strategic integration."
+  },
+  {
+    "expert_quote": "The agile methodology for Brazil very worked. Very nice because established very narrow objectives for a short term in.",
+    "mapped_id": "procedural_nonlinearity",
+    "is_negative_case": true,
+    "rationale": "This statement presents a negative case. The participant asserts that Agile—an iterative, non-linear methodology—'very worked' in the Brazilian context. This contradicts the theoretical expectation of a 'clash' between iterative AI loops and sequential methods, suggesting cultural or contextual factors can mitigate this specific friction."
+  }
+]

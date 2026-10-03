@@ -1,0 +1,44 @@
+[
+  {
+    "expert_quote": "I compare AI in many ways to Web 3 because that's where you see a lot of it being integrated and it's still the same thing because it's new because a lot of the people who are in that sphere are fairly, let's say, youngish.",
+    "mapped_id": "gen_AI_acceleration",
+    "is_negative_case": false,
+    "rationale": "The speaker equates the AI domain with the 'new' and disruptive nature of Web3, describing its integration as a novel phenomenon driven by a younger demographic. This aligns with the concept of generative AI compounding the rate of change in innovation processes by introducing new paradigms and attracting new talent pools."
+  },
+  {
+    "expert_quote": "Every day there's something new. Every day there's a new discovery. There's a new something.",
+    "mapped_id": "tool_proliferation",
+    "is_negative_case": false,
+    "rationale": "This statement uses the colloquial phrase 'every day there's something new' to describe the relentless pace of new AI developments and discoveries. It directly corresponds to the indicator of new frameworks being released faster than they can be systematically evaluated or integrated."
+  },
+  {
+    "expert_quote": "And so you find a lot of chasing and not enough... runway, right in terms of before the next thing happens, so everything is constantly changing over and over again without any real foundation build.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The metaphor of 'chasing' and lacking 'runway' captures the friction of 'AI time' outpacing the organizational capacity to establish stable foundations. This is a direct expression of the clash between fast, iterative technological change and the slower, sequential pace required for building solid organizational processes."
+  },
+  {
+    "expert_quote": "I won't say that it's easy and I won't say that there aren't days where I feel totally overwhelmed. I can only say that you just try to go back to the basics, OK, let me document this. Let me look at it. Let me analyze it. Let me get feedback from others and then you see what happens.",
+    "mapped_id": "continuous_training_demand",
+    "is_negative_case": false,
+    "rationale": "The speaker describes a personal, reactive strategy of 'going back to the basics'—documenting, analyzing, and seeking feedback—to cope with feeling 'totally overwhelmed.' This aligns with the management friction of needing non-stop, modular training and adaptation to keep pace with emerging AI developments."
+  },
+  {
+    "expert_quote": "You establish best practices, right? And then you establish constant communication channels that allows for everybody to contribute and say this is what I've discovered. This is how I'm applying it, and then let's see what happens, right. And then you have to have room for mistakes, right? Rooms for things not to work and say, OK.",
+    "mapped_id": "timeline_compression",
+    "is_negative_case": false,
+    "rationale": "The description of a flexible, iterative process with 'room for mistakes' and constant sharing of new discoveries reflects an adaptive response to rapid tool obsolescence and change. This is a practical management tactic to deal with the friction of being forced to re-evaluate architectures and processes mid-cycle due to rapid innovation."
+  },
+  {
+    "expert_quote": "When we talk about ethics, what would be acceptable in Europe is not necessarily acceptable in the United States. So in the United States is like, say, more liberal in terms of what data can be shared, how that data is looked at and perceived, and how can it be monetized. In Europe, you have the GRPR, which is highly, well, let's say more protected, not perfect, but more protective of privacy.",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": false,
+    "rationale": "The speaker explicitly contrasts differing regulatory frameworks (GDPR in Europe vs. a more liberal approach in the US) governing data and AI ethics. This highlights how governance and ethical frameworks are not globally synchronized and often emerge reactively, lagging behind technical deployment and creating a complex compliance landscape."
+  },
+  {
+    "expert_quote": "I don't use ChatGPT for anything like that... I use it for proofreading... I can't say that I would use it for something else. I think it's. It's like a baby. It doesn't know what it doesn't know. So it just tells you whatever it thinks you want to hear.",
+    "mapped_id": "judgment_substitution",
+    "is_negative_case": true,
+    "rationale": "This is a negative case. The speaker explicitly limits their use of generative AI (ChatGPT) to a narrow, non-critical task (proofreading) and uses the metaphor of a 'baby' to express deep skepticism about its reliability for substantive work. This contradicts the theoretical construct of reconfiguring human judgment as AI capabilities improve, instead asserting a conscious boundary against such substitution."
+  }
+]

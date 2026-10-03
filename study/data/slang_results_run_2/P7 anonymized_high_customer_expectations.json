@@ -1,0 +1,62 @@
+[
+  {
+    "expert_quote": "this is like for developers, for data scientists or researchers, this is like the the the customer is like the enemy because maybe he has a lot of ideas, a lot of like the ideas that are in the cloud or the the heaven.",
+    "mapped_id": "dreams_vs_reality",
+    "is_negative_case": false,
+    "rationale": "The slang 'ideas in the cloud or the heaven' metaphorically describes customers' idealized, lofty visions of AI capabilities, directly contrasting with the grounded reality developers must work within."
+  },
+  {
+    "expert_quote": "And that's something that we need to, like put all the things on the floor and and say OK. We we can do this. But we we can't do the other things...",
+    "mapped_id": "dreams_vs_reality",
+    "is_negative_case": false,
+    "rationale": "The phrase 'put all the things on the floor' is professional slang for grounding abstract ideas, highlighting the necessary process of contrasting customer dreams with practical, deliverable outputs."
+  },
+  {
+    "expert_quote": "It's important to to know how to explain all of that things, because we we, we this is not useful if we are like so technical.",
+    "mapped_id": "trust_understanding_gap",
+    "is_negative_case": false,
+    "rationale": "The statement acknowledges that high optimism (customer interest) can be undermined by opaque technical explanations, creating a gap that requires translation to maintain trust."
+  },
+  {
+    "expert_quote": "We need to put everything and say, OK, we are going to do this and try to explain in the most, umm not easier, but most friendlier way to the customer...",
+    "mapped_id": "explainability_deficit",
+    "is_negative_case": false,
+    "rationale": "The need to explain in a 'friendlier way' stems directly from frustration or anticipated friction due to a lack of transparent, interpretable decision-making (explainability) in AI systems."
+  },
+  {
+    "expert_quote": "the Mexican people at once to know everything about like they they want... they are searching for all the information regarding that process...",
+    "mapped_id": "magic_box_perception",
+    "is_negative_case": false,
+    "rationale": "The expectation to 'know everything' implies a belief that the AI system's workings are fully knowable and should be transparent, challenging the 'black box' or 'Magic Box' perception and revealing a demand for its deconstruction."
+  },
+  {
+    "expert_quote": "just the US people... It's like give me the the most simpler definition and I will take some decisions about that. Or yeah, that's fine... they are not so technical. They they don't need some the the some definitions about what we are doing exactly.",
+    "mapped_id": "utility_mismatch",
+    "is_negative_case": false,
+    "rationale": "The description of US clients wanting only a 'simpler definition' suggests they assume AI outputs and recommendations will align with their goals without needing deep understanding, highlighting a potential mismatch between assumed utility and the need for informed oversight."
+  },
+  {
+    "expert_quote": "in some jobs... I will be able to see all of that information, all of that very like Brett specific information that a person don't need to to to know... I think that that's something not legal... There is nothing, uhm, regulating all of that.",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": false,
+    "rationale": "The ability to see overly sensitive personal data and the lack of regulation are described as concrete problems. This points to perceived biases (in data handling) and systemic unfairness/lack of fairness safeguards, which can be a barrier to AI adoption."
+  },
+  {
+    "expert_quote": "for the other kind of people, just like the the US people... they want to know very little things, but at the end this is like a PhD dissertation... you are going to say all you, you you research it.",
+    "mapped_id": "feedback_dissonance",
+    "is_negative_case": false,
+    "rationale": "The 'PhD dissertation' metaphor describes a final, exhaustive report. This mismatch in communication timing and depth (little during, everything at the end) can lead to feedback based on final outputs without understanding interim benchmarks, requiring re-education labor."
+  },
+  {
+    "expert_quote": "I found some some failures... from the Mexican people they they are they want to know everything but when they give you some definitions umm they are not they are not giving you complete definitions. It's like they are like waiting for you to to know.",
+    "mapped_id": "trust_erosion",
+    "is_negative_case": false,
+    "rationale": "This describes a direct failure caused by mismatched expectations in communication. The client's incomplete definitions and assumption that the team 'should know' lead to project failure, which is a core mechanism for disillusionment and resistance to scaling noted in trust erosion."
+  },
+  {
+    "expert_quote": "We have a BPN... we are not able to see the database data... all that sensitive information are not present. So I think it's very different.",
+    "mapped_id": "unfairness_barriers",
+    "is_negative_case": true,
+    "rationale": "This quote describes a rigorous, standardized data privacy protocol (BPN) in a US project. It serves as a negative case, explicitly contradicting the 'unfairness_barriers' indicator by showing a context where perceived biases and privacy risks are actively managed and mitigated, not a barrier."
+  }
+]

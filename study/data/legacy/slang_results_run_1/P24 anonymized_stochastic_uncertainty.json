@@ -1,0 +1,82 @@
+[
+    {
+      "quote": "Working with the people we had some the main issue with the language. But yes, we now we are using the AI so we can convert the language during it's easy to like help it out... A miscommunication is there because of the pronunciations. So we have a like CC for this.",
+      "time_range": "8:31-8:57",
+      "analysis": {
+        "metaphors": [],
+        "stochastic_uncertainty_indicators": ["non_deterministic_outputs", "opaque_outcomes"],
+        "management_frictions": [],
+        "negative_case": "This statement indicates that AI tools are used to mitigate communication gaps, suggesting that technology can reduce uncertainty in multicultural settings, which contrasts with the notion of inherent unpredictability in AI models."
+      }
+    },
+    {
+      "quote": "Everyone wants to invest less and get output more.",
+      "time_range": "3:32-4:10",
+      "analysis": {
+        "metaphors": [],
+        "stochastic_uncertainty_indicators": ["non_linear_estimation"],
+        "management_frictions": ["baseline_erosion"],
+        "negative_case": "This reflects a business expectation of predictable returns, which contrasts with the probabilistic nature of AI outcomes that may not guarantee proportional returns on investment."
+      }
+    },
+    {
+      "quote": "It's rarely happened. Something has happened. It's really, really, but it never happened.",
+      "time_range": "6:34-7:10",
+      "analysis": {
+        "metaphors": [],
+        "stochastic_uncertainty_indicators": ["lack_of_reproducibility"],
+        "management_frictions": [],
+        "negative_case": "Person 2 dismisses the occurrence of errors in projects, implying a high level of control and predictability, which contradicts the inherent unpredictability of stochastic AI systems."
+      }
+    },
+    {
+      "quote": "We have to work with both if we are dealing with the Russia clients, then we will deal with that because we already exchanged the data PRIV... we always exchange each and everything. Then we sign the document.",
+      "time_range": "7:26-8:03",
+      "analysis": {
+        "metaphors": [],
+        "stochastic_uncertainty_indicators": ["data_dependency"],
+        "management_frictions": ["accountability_challenges"],
+        "negative_case": "This highlights reliance on formal agreements to manage data privacy, suggesting that contractual measures can mitigate uncertainties, whereas stochastic uncertainty is inherent and not fully addressable through documentation."
+      }
+    },
+    {
+      "quote": "If I want to work on Indian time and they are on UST time... they will come and help us if we take. It's not very urgent and we are stuck somewhere.",
+      "time_range": "9:26-9:59",
+      "analysis": {
+        "metaphors": [],
+        "stochastic_uncertainty_indicators": ["dynamic_forecast_adjustment"],
+        "management_frictions": ["baseline_erosion"],
+        "negative_case": "This demonstrates adaptive teamwork across time zones, implying that human collaboration can adjust to uncertainties, contrasting with the rigid unpredictability of AI models."
+      }
+    },
+    {
+      "quote": "I strictly use my authoritaries... either you work here for me... or I will change your places.",
+      "time_range": "17:37-18:50",
+      "analysis": {
+        "metaphors": ["hard corner", "authoritaries"],
+        "stochastic_uncertainty_indicators": [],
+        "management_frictions": ["accountability_challenges"],
+        "negative_case": "Person 2 employs authoritative control to resolve team conflicts, suggesting that leadership can override uncertainties, whereas stochastic uncertainty in AI often defies such top-down resolution."
+      }
+    },
+    {
+      "quote": "AI will AI have there don't have their own mind. They have only the memory... you need to be with a spoon feeding like to do anything.",
+      "time_range": "26:49-26:55",
+      "analysis": {
+        "metaphors": ["spoon feeding"],
+        "stochastic_uncertainty_indicators": ["opaque_outcomes"],
+        "management_frictions": [],
+        "negative_case": "This metaphor reduces AI to a passive tool requiring explicit instruction, downplaying its capacity for autonomous, unpredictable outputs that characterize stochastic uncertainty."
+      }
+    },
+ {
+      "quote": "Before using any AI... go through in deep... Pro Cons and especially the storage part... if you are using the temporary... then delete it.",
+      "time_range": "30:44-31:48",
+      "analysis": {
+        "metaphors": [],
+        "stochastic_uncertainty_indicators": ["data_dependency"],
+        "management_frictions": ["accountability_challenges"],
+        "negative_case": "Person 2 advocates for proactive user management of AI tools, implying that uncertainties can be controlled through user diligence, whereas stochastic uncertainty is an inherent model property independent of user actions."
+      }
+    }
+  ]

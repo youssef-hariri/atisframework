@@ -1,0 +1,32 @@
+[
+  {
+    "expert_quote": "You have a meeting with British people. They tend to talk about the weather, cricket, football, drinking and a bunch of other things that you find interesting for about 55 minutes. And then just as they're wrapping up the meeting, they're, oh, by the way, that put it together. Can you have it done by Friday? ... And so they they sort of, they sort of talk about it as if it's a buy to buy, but it's actually the most important thing and they just left it for last.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "Person 2 describes a communication style where the true, critical request (the 'outcome') is obscured and non-explicit until the very end, mirroring the theoretical indicator of algorithmic results that are hard to explain or anticipate, rooted in underlying cultural 'complexities'."
+  },
+  {
+    "expert_quote": "And if you're from Hong Kong, you'll find out extremely frustrating because you're used to people just getting to the point immediately. You're like, all right, we need to discuss this, this, this, this make a decision, OK. Good. Let's go. Done.",
+    "mapped_id": "non_deterministic_outputs",
+    "is_negative_case": false,
+    "rationale": "Person 2 contrasts two culturally-programmed decision-making processes, highlighting that the sequence and nature of outputs (decisions, requests) are not fixed but vary fundamentally based on the agent's background, akin to non-deterministic model outputs."
+  },
+  {
+    "expert_quote": "They will be very serious about data security and they will be very concerned with implementation here, not sort of ethics, but more. They're very specific about it. So where is the data stored? You're like, oh, it's slow. And then I but where? Yeah, it's in Europe. Yeah, but where in Europe?",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "The quote illustrates a heightened, culturally-ingrained sensitivity to the specific provenance and handling of data. This mirrors the theoretical indicator of 'high sensitivity to historical data quality and relevance,' where the perceived value and risk of an outcome are intrinsically tied to deep, non-negotiable concerns about the data's origin and chain of custody."
+  },
+  {
+    "expert_quote": "We were about to start me exploring collaboration and and it halted because. That person was requiring me to sign basically a contract. Tired to even discussing the ideas... And culturally, to me that is very strange, right to approach a collaboration... that made that effort fail... from the other person's perspective, that was completely normal... So we had a sort of clash there.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": false,
+    "rationale": "The collaboration failed due to an irreconcilable, culturally-rooted difference in the perceived process for establishing accountability (an NDA). The opacity in the other party's normative framework for assigning legal responsibility made it impossible to proceed, directly reflecting the management friction where opacity makes it difficult to assign clear responsibility for decisions."
+  },
+  {
+    "expert_case": "I want to say a resounding yes. I think I think like we all... The blending of perspectives and ideas... it's it's sort of... when you work with people who have different... Starting points... you get new new perspectives and things... The outcome is even better as a result of that.",
+    "mapped_id": "baseline_erosion",
+    "is_negative_case": true,
+    "rationale": "Person 2 explicitly describes cultural diversity as a source of strength and better outcomes, directly contradicting the theoretical friction of 'baseline erosion.' He frames the need for increased communication not as a destabilizing force that erodes plans, but as a productive complexity that enhances the final result."
+  }
+]

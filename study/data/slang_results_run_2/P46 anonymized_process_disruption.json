@@ -1,0 +1,62 @@
+[
+  {
+    "expert_quote": "The thing is I think in terms of project delivery, it matters the most. OK project delivery because we have, if we are working towards deadlines, right... We have different sort of cultural roles playing in different levels... But when we have also other people from, say Europe, where they have a good work life balance. So they would actually shut their laptops at 5:00 PM and go home.",
+    "mapped_id": "workflow_brittleness",
+    "is_negative_case": false,
+    "rationale": "The slang 'shut their laptops at 5:00 PM' describes a fundamental conflict in work rhythms (linear, phase-gated 'deadlines' vs. non-linear 'work-life balance') that introduces vulnerability ('brittleness') to project delivery schedules when teams operate under different cultural and procedural assumptions."
+  },
+  {
+    "expert_quote": "And right now I was working with the presales or the solutions team for the larger part of my life. Almost for 10 years I've moved since last year to the commercial side of things, the bid management side of AI... So more focused on numbers for AI, and I've worked with Solutioning and presales also for AI solutions in specific.",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "The professional slang of moving from 'solutions team' to 'bid management side' and being 'more focused on numbers' signifies a tangible shift in role focus from technical solutioning to commercial and oversight functions, aligning with the transition toward system and business oversight."
+  },
+  {
+    "expert_quote": "But in certain confidential industries like mine, right when you're dealing with governments and everything, yous really can't have a third party app recording these conversations and taking notes... But Europeans in the join in they're particularly very concerned about these data loss, compliance, GDP and everything. They're pretty more aware... So yeah, this kind of difference is what I've noticed mostly.",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": false,
+    "rationale": "The everyday description of being unable to use AI note-taking apps due to confidentiality and contrasting it with GDPR-aware Europeans highlights a core tension between the desire for predictive automation (efficient note-taking) and the non-negotiable need for human ethical and compliance oversight, which varies culturally."
+  },
+  {
+    "expert_quote": "I think culturally also. So I feel that like see there, there is this concept in India called Jugad, OK, North India saying you come up with an innovative quick fix to achieve what you want right in a short period of time. While certain cultures want to... Do it very properly and you know it has to be 100% perfect and everything, but you'll never get there right?... So then Indians will. Just quickly, makeshift one thing like a small prototype and start building from there...",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "The cultural slang 'Jugad' (an innovative quick fix) is contrasted with a desire for 100% perfection. This directly illustrates a 'knowledge clash' between a data-centric, iterative, prototype-driven approach (common in AI/tech) and a linear, experience-based, perfection-seeking methodology."
+  },
+  {
+    "expert_quote": "And also in commercial. Since we do international business. There are different sort of arrangements like right financing arrangements or even the taxing laws are varies between country to country so... It's more of the political and social context that comes into play... It's probably more depends on the social and political context other than the teams culture specifically.",
+    "mapped_id": "silo_breakdown",
+    "is_negative_case": false,
+    "rationale": "The statement that international AI business forces engagement with diverse 'financing arrangements,' 'taxing laws,' and 'political context' demonstrates how AI projects inherently break down traditional departmental silos (e.g., between commercial, legal, delivery) to manage cross-functional, location-specific data and compliance needs."
+  },
+  {
+    "expert_quote": "I think in terms of project delivery, it matters the most... We have different sort of cultural roles playing in different levels... But when we have also other people from, say Europe, where they have a good work life balance. So they would actually shut their laptops at 5:00 PM and go home. Right. So that kind of things also we have which which is the way to be actually right in Dubai there is yeah in Dubai and Abu Dhabi, there's no real strict office culture saying no you have to overwork or anything but it depends on the individual really.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "The description of divergent work-hour cultures ('shut laptops at 5:00 PM' vs. 'work day and night') exemplifies 'cultural resistance'—a distrust or misalignment with a homogenized, data-centric 'always-on' workflow in favor of culturally ingrained, experiential norms about work-life balance."
+  },
+  {
+    "expert_quote": "Even though there are all nationalities and you know genders here working in the company, only difference in the AI is that you'll have to be updated constantly. Right. You don't know what engine in the next two months... you'll have to be really thorough and constantly learn about what's happening in the market... you'll have to pick up means last year nobody knew... you'll have to be really aware because your field is like that and it's constantly evolving.",
+    "mapped_id": "socio_technical_transition",
+    "is_negative_case": false,
+    "rationale": "The professional necessity of being 'updated constantly' and the field 'constantly evolving' is described as the core 'only difference' in AI work. This underscores the systemic move from a static, human-centric skill model to a dynamic, hybrid human-AI collaboration model where continuous technical adaptation is paramount."
+  },
+  {
+    "expert_quote": "Not really actually. But it we face some roadblocks but it was more of the political roadblocks say because of tax laws in different countries and you know, customs laws in different like that... It's very political roadblocks and not really cultural roadblocks per SE.",
+    "mapped_id": "integration_friction",
+    "is_negative_case": true,
+    "rationale": "This is a negative case. The speaker explicitly states that major roadblocks are 'political' (tax/customs laws) and 'not really cultural,' contradicting the indicator that anticipates significant 'integration friction' from embedding AI into existing processes. It suggests that in their context, external regulatory factors overshadow internal methodological clashes."
+  },
+  {
+    "expert_quote": "Because they've they keep telling us fail fast fail first because you'll have. That's how you'll have to grow up from a startup to a mature company. That's how you build products, we we value product led growth. So it's more also of how the hour and the team champions the work culture...",
+    "mapped_id": "procedural_nonlinearity",
+    "is_negative_case": false,
+    "rationale": "The company mantra 'fail fast fail first' and 'product led growth' is institutionalized slang for a non-linear, iterative development loop. This directly conflicts with and seeks to override traditional sequential ('waterfall') project methodologies, embodying the core of 'procedural_nonlinearity.'"
+  },
+  {
+    "expert_quote": "even while delivering projects, it's really to do with the people, right? So... Be it AI or not, the only difference that you should see here is... you'll have to be updated constantly... I think this this extra special quality. Has to be with all the AI professionals, be it regardless of their nationality.",
+    "mapped_id": "role_transition_hurdles",
+    "is_negative_case": false,
+    "rationale": "The statement identifies an 'extra special quality' (constant learning) as the universal, non-negotiable requirement for AI professionals. This implicitly highlights the 'reskilling needs' and continuous adaptation that disrupt established career paths and hierarchies, which is the core of 'role_transition_hurdles.'"
+  }
+]

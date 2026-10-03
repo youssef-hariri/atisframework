@@ -1,0 +1,56 @@
+[
+  {
+    "expert_quote": "I had a team of marketing... all pieces of marking my company was producing. I was using a combination of a ChatGPT and Gemini to provide the contents and things like that. So much more professional. Using less analysts to do that, so the idea is the manager was OK because his was reducing. Analytical team, so analysts and interns, OK. That's fine.",
+    "mapped_id": "judgment_substitution",
+    "is_negative_case": false,
+    "rationale": "The quote describes a managerial decision to accept AI tools that perform analytical tasks, directly illustrating the reconfiguration of human roles and judgment as AI takes over content production and analysis."
+  },
+  {
+    "expert_quote": "What I've seen... European culture is very different from the Latin America one... In Brazil, they are valued by loyalty. They are valued by doing what the boss says, so different thinking is more relationship oriented than results oriented.",
+    "mapped_id": "skill_obsolescence_pace",
+    "is_negative_case": false,
+    "rationale": "The description highlights a cultural skill set (relationship-oriented loyalty) that is misaligned with and potentially made obsolete by the results-oriented, data-driven decision-making demanded by AI systems, creating an adaptation gap."
+  },
+  {
+    "expert_quote": "So first of all, I don't have the culture of feedback... People don't. Don't, don't, don't. Don't call for feedback... In Brazil... things take more time. To be concluded to be executed.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The speaker describes a slow, sequential, feedback-averse organizational culture ('organizational time') that clashes with the fast, iterative, feedback-dependent development and deployment cycle characteristic of AI projects ('AI time')."
+  },
+  {
+    "expert_quote": "In Brazil, we have a it's called LGBT. It's a law that protects individuals information. But you have to. Create a context for AI. To use correctly the information... I think the leadership, some of them know all this complexity... the same time you have... old school... I don't really know the impact of in terms of compliances.",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": false,
+    "rationale": "The quote contrasts the existence of data privacy laws with a lack of leadership awareness and established processes for compliant AI implementation, exemplifying how governance and ethical frameworks lag behind technical capability and deployment."
+  },
+  {
+    "expert_quote": "So the solutions, not something provided globally for Indian company are many services must be built and provide only in Brazil. We call it Jabuka jabuchika bus... a fruit that exists only in Brazil, so this solution exists only in Brazil that you cannot expand to the world because the world doesn't have this type of problem to be solved so.",
+    "mapped_id": "tool_proliferation",
+    "is_negative_case": false,
+    "rationale": "The 'Jabuka' metaphor describes highly localized, bespoke AI solutions proliferating to address unique regional problems. This mirrors the concept of tools/frameworks being generated faster than they can be standardized, evaluated, or integrated into a global ecosystem."
+  },
+  {
+    "expert_quote": "It was so powerful. It's fast to develop it. That I couldn't provide the retailers... the cost of this solution was very high... by the time I put a price on it, it's not a huge margin... The professional who's doing this manually is doing a very bad job. It's cheaper and I cannot afford your services.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "The narrative shifts from the technical power of AI ('processing billions of coupons in seconds') to the socio-economic barriers of cost and human labor economics. This highlights the transition from pure technical benefit to complex human and economic acceptance factors."
+  },
+  {
+    "expert_quote": "Some of them I'm using with a very. Concern I was a very strong user. And I have to dealt with the costs and the the, the OK, the business economic model for what I developed it. And for me, this is a great restriction... it can do everything basically everything.",
+    "mapped_id": "gen_AI_acceleration",
+    "is_negative_case": false,
+    "rationale": "The statement 'it can do everything' reflects the perceived boundless capability of generative AI, while the 'great restriction' of cost and business model illustrates the compounding challenge of managing the accelerated innovation it enables."
+  },
+  {
+    "expert_quote": "What happens? Things take more time. To be concluded to be executed.",
+    "mapped_id": "timeline_compression",
+    "is_negative_case": true,
+    "rationale": "This quote is a negative case for 'timeline_compression'. The speaker describes project delays and extended timelines due to cultural factors, which contradicts the theoretical indicator of rapid tool obsolescence forcing mid-cycle re-evaluations and compressed schedules."
+  },
+  {
+    "expert_quote": "The idea is the manager was OK because his was reducing. Analytical team, so analysts and interns, OK. That's fine.",
+    "mapped_id": "continuous_training_demand",
+    "is_negative_case": true,
+    "rationale": "This is a negative case for 'continuous_training_demand'. The manager's acceptance is based on headcount reduction, not on the need for upskilling or modular training for the remaining team to manage new AI subtypes, suggesting this specific friction was not present in this instance."
+  }
+]

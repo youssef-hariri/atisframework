@@ -1,0 +1,38 @@
+[
+  {
+    "expert_quote": "And and I've been keeping up with. The you know the the developments in the space. And especially with the large language models, I really started reading a lot just in my spare time.",
+    "mapped_id": "continuous_training_demand",
+    "is_negative_case": false,
+    "rationale": "The phrase 'keeping up' and consuming information 'in my spare time' are professional slang indicating the personal, ongoing effort required to stay current with AI developments, aligning with the 'non-stop, modular training' needed to manage autocatalytic change."
+  },
+  {
+    "expert_quote": "So what we do is we train that kind of domain knowledge into. Language models. Through fine tuning and and other techniques.",
+    "mapped_id": "recursive_innovation",
+    "is_negative_case": false,
+    "rationale": "The act of using AI (fine-tuning LLMs) to enhance other AI systems for business tasks is an in-vivo description of using AI tools to improve further AI tools, a core activity in a self-reinforcing innovation cycle."
+  },
+  {
+    "expert_quote": "In terms of implementing these systems and and making them successful, you typically need a very opinionated, a very opinionated domain expert that would work with the technology team to help determine you know, what's the right place to implement AI...",
+    "mapped_id": "judgment_substitution",
+    "is_negative_case": false,
+    "rationale": "The quote describes the reconfiguration of expertise, where human judgment (the 'opinionated domain expert') is central to determining where AI prediction capabilities should be applied, directly mapping to the reconfiguration of human judgment as AI improves."
+  },
+  {
+    "expert_quote": "...the mindset is around how do we make this safe and privacy concerns, data sovereignty... Whereas if it's, if it's people in the US... we're more focused. On. How can this enable? You know, our business use cases... the ethics of the implementation you know can be handled down the line once the economic value is proved...",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "Person 2 contrasts a European focus on safety/privacy (human/ethical concerns) with a US focus on enabling business use cases first. This captures the ongoing shift in focus from pure economic benefit to human acceptance and ethics due to differing responses to technical velocity."
+  },
+  {
+    "expert_quote": "...the safety? And the the ethics of the implementation you know can be handled down the line once the economic value is proved right.",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": false,
+    "rationale": "The statement 'handled down the line' is an everyday metaphor describing a reactive approach where ethical and governance frameworks are deferred until after a solution's economic viability is proven, exemplifying a classic regulatory lag dynamic."
+  },
+  {
+    "expert_quote": "I can't think of one right now.",
+    "mapped_id": "timeline_compression",
+    "is_negative_case": true,
+    "rationale": "When asked for a specific example of cultural impact on project selection, the expert's inability to recall an example on the spot can be interpreted as a negative case for 'timeline_compression.' It suggests that in this specific discussion of culture, the pressure of rapid, mid-cycle re-evaluation was not the dominant or memorable factor."
+  }
+]

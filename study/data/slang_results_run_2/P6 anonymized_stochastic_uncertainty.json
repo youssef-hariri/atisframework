@@ -1,0 +1,62 @@
+[
+  {
+    "expert_quote": "The only the time difference. Sometimes you have to adjust the time.",
+    "mapped_id": "dynamic_forecast_adjustment",
+    "is_negative_case": false,
+    "rationale": "The speaker's need to 'adjust' for time zones is a concrete, everyday example of managing a dynamic variable that forces constant realignment of plans and coordination baselines, mirroring the instability requiring forecast updates in stochastic systems."
+  },
+  {
+    "expert_quote": "Country doesn't have any impact as far as your maturity and understanding the technology. You can do the planning better and that's the main thing.",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "This positions 'maturity and understanding of technology' as the primary antidote to potential planning failures or misunderstandings. The implication is that without this understanding, the rationale behind AI project plans and decisions can become opaque and lead to poor outcomes."
+  },
+  {
+    "expert_quote": "If person is not from technological background... it is possible to have a misunderstanding and bias because the person don't know what is right and what is wrong...",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": false,
+    "rationale": "Directly links a lack of technical knowledge to 'misunderstanding and bias,' creating ambiguity in decision-making. This opacity makes it difficult to cleanly assign accountability for decisions, as the rationale may be flawed from the outset due to a knowledge gap."
+  },
+  {
+    "expert_quote": "There are some miscommunication or there are some misjudgment when Scrum Master don't have enough knowledge about technology and he's tried to ask you for task he or she can't judge because they those people don't have understanding of what is the actual meaning of task and where can we have trouble?",
+    "mapped_id": "opaque_outcomes",
+    "is_negative_case": false,
+    "rationale": "Describes a scenario where a non-technical manager ('Scrum Master') cannot accurately interpret or judge work due to a lack of domain understanding. This leads to 'misjudgment,' a direct consequence of the algorithmic and technical complexities being opaque to the decision-maker."
+  },
+  {
+    "expert_quote": "IT and machine learning, AI, mathematics, science is everything is a very, very, very dynamic field where there is a lots of new things coming. Every month, every week there are lots of research.",
+    "mapped_id": "data_dependency",
+    "is_negative_case": false,
+    "rationale": "The repeated emphasis on a 'very, very, very dynamic field' with constant new research highlights the extreme sensitivity of AI work to the relevance and timeliness of knowledge. This rapid evolution creates inherent instability, as models and methods can quickly become outdated."
+  },
+  {
+    "expert_quote": "If a person has a interest in learning and delivering, then there is no issue... there is, if any, any cultural conflict. I think there is no culture... everything is depend on maturity of person.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": false,
+    "rationale": "By attributing success or failure primarily to individual 'maturity' and 'interest,' the speaker frames accountability in personal terms rather than systemic or model-related terms. This human-centric focus can obscure accountability for issues stemming from the stochastic nature of the AI systems themselves."
+  },
+  {
+    "expert_quote": "I didn't have any failure in that way actually... it may be possible sometime delivery take 2-3 days more so which is OK because we know that there may be a troubles. There may be a finding research and development.",
+    "mapped_id": "lack_of_reproducibility",
+    "is_negative_case": false,
+    "rationale": "Acknowledges that deliveries can slip by '2-3 days' due to unforeseen 'troubles' and 'research and development.' This variance in timeline, treated as an acceptable norm, reflects the inherent difficulty in perfectly replicating or predicting the effort and outcomes of complex, novel AI tasks."
+  },
+  {
+    "expert_quote": "Every IT domain is a dynamic where you have two constraints only learn new things, so it required that person should have understanding... and ability and industry interest to learn new things consistently.",
+    "mapped_id": "model_drift",
+    "is_negative_case": false,
+    "rationale": "The statement 'learn new things' as a core constraint directly addresses the need for continuous adaptation. This necessity is driven by the 'dynamic' nature of the field, which is a key driver of model and skill 'drift'—where once-effective approaches decay in performance without constant updating."
+  },
+  {
+    "expert_quote": "The person who don't know technology, no background from technology and he's handling the business... he has to check the person who who is nearby him or who impressed with words instead of deep understanding of technology. So there there. That said there may be a bias.",
+    "mapped_id": "baseline_erosion",
+    "is_negative_case": false,
+    "rationale": "Describes a hiring/selection process eroded by superficial factors ('nearby,' 'impressed with words') due to a lack of technical understanding. This compromises the foundational baseline of team competence, akin to how stochastic variance forces repeated and often suboptimal adjustments to project forecasts and commitments."
+  },
+  {
+    "expert_quote": "I don't have such problem because where I took intensive or work, there are people who has very rich experience in technology.",
+    "mapped_id": "accountability_challenges",
+    "is_negative_case": true,
+    "rationale": "This is a clear negative case. The speaker explicitly states they have *not* encountered the problem of accountability challenges arising from non-technical managers, attributing this to their specific work environment being staffed with technically experienced people. This contradicts the theoretical friction's general expectation."
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "expert_quote": "I was working on some experimental physics in at the beginning of my pH. D, But I was unhappy... those days and machine learning started to make hype and I decided on a give a decision to make a career change and I changed my pH. D area. It was tough because I I was really need to coding.",
+    "mapped_id": "skill_obsolescence_pace",
+    "is_negative_case": false,
+    "rationale": "The speaker's description of needing to pivot careers and 'really need to coding' due to the 'hype' of an emerging field reflects the friction of technical competencies becoming outdated faster than they can be replaced, prompting a complete professional reset."
+  },
+  {
+    "expert_quote": "I'm working on machine learning projects... I have built so many times so many errors and after so many stacks you learn something.",
+    "mapped_id": "tool_proliferation",
+    "is_negative_case": false,
+    "rationale": "The speaker's reference to going through 'so many stacks' highlights the overwhelming volume of new tools and frameworks, with learning occurring through iterative trial-and-error rather than systematic evaluation."
+  },
+  {
+    "expert_quote": "In this database we are working on open data sets. OK, since we are using open data sets it is not issue for us. But if it would be...",
+    "mapped_id": "regulatory_lag",
+    "is_negative_case": true,
+    "rationale": "The speaker explicitly states that data privacy was not a problem *because* they used open datasets, indicating a scenario where they bypassed potential regulatory or ethical friction, a negative case for the indicator."
+  },
+  {
+    "expert_quote": "I faced model bias... I had to choose one algorithm, but it was not. It underestimates some of the classes choosing these algorithms... It is some kind of model bias I guess.",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "The speaker's identification of 'model bias' as a key challenge moves the discussion from pure technical performance to the human-centric, ethical implications of algorithmic fairness, indicating a shift in focus due to technical complexity."
+  },
+  {
+    "expert_quote": "In my Academy in Turkey... they had to give lectures besides making research. And in Turkey, this is some kind of different the times of the lectures are so large and making research make them very tirades... I see that the saw boards maybe this this might be about political environment. This might be about. Tough times.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The description of being 'very tirades' [tired] and 'tough times' due to conflicting, slow-moving institutional demands (long lectures, political environment) contrasts implicitly with the fast-paced demands of AI research, embodying a socio-temporal clash."
+  },
+  {
+    "expert_quote": "I was stuck in a project... It was 3 weeks. I stuck summer so just one line course. I couldn't see it. But... talking with different peoples in different countries... They say Chinese, Germany, India. Taking their. Support help me to overcome this problem...",
+    "mapped_id": "continuous_training_demand",
+    "is_negative_case": false,
+    "rationale": "Being 'stuck' on a technical problem for weeks and overcoming it through peer support from a global network illustrates the non-stop, modular, and socially-mediated nature of training required to keep pace with complex, evolving tools."
+  },
+  {
+    "expert_quote": "We lost so many people in that project. I don't know. For me, I felt discriminated by this individual person... The problematic leader was. Having closing some different people... she left the project for one month and tried to get turn back and without any explanation.",
+    "mapped_id": "temporal_misalignment",
+    "is_negative_case": false,
+    "rationale": "The leader's unexplained absence and return, resulting in project attrition ('lost so many people'), demonstrates a clash between the erratic, unpredictable 'AI time' of project continuity and the stable, sequential expectations of 'organizational time' for team leadership."
+  },
+  {
+    "expert_quote": "If there is a I made something difference that make me understand as root for the country. I will give it a chance for more chance to more tolerated...",
+    "mapped_id": "socio_technical_shift",
+    "is_negative_case": false,
+    "rationale": "The speaker's reflection on tolerance and understanding 'root' causes for behavior prioritizes human acceptance and relational dynamics, indicating a shift in management focus from purely technical project execution to navigating socio-cultural complexity."
+  }
+]

@@ -1,0 +1,51 @@
+[
+    {
+      "rubric_indicator": "skill_obsolescence_pace",
+      "evidence_from_transcript": "Person 2 highlights the fundamental mindset shift required from 'deterministic solutions' to 'stochastic' AI. He notes that a failure to understand AI's probabilistic nature (its variations and edge cases) is a key reason for project failure. This points to existing technical and managerial competencies becoming outdated.",
+      "metaphor_mapping": "Implied 'Mental Model' as Software. Person 2 treats the human understanding of technology as a piece of software that needs an update: 'So AI. Your mental model should be more like it's probabilistic. It's not linear because of nature AI so.'",
+      "negative_case": "The 'Dinosaurs.' Person 2 identifies a group with deep practical/domain experience (e.g., in billing systems) but 'zero theory with AI.' This is a negative case of skill obsolescence where deep legacy expertise does not translate to or accelerate the new paradigm, creating a barrier.",
+      "autocatalysis_link": "The pace of AI's inherent complexity (non-deterministic, edge-case prone) outruns the ability of even experienced professionals to adapt their core 'mental model,' creating a competency gap that hinders implementation velocity."
+    },
+    {
+      "rubric_indicator": "judgment_substitution",
+      "evidence_from_transcript": "Person 2 repeatedly identifies 'trust' as the #1 problem with AI, citing hallucinations and lawsuits. He gives a specific example where a project delivered technically but failed because users demanded '100% certainty' and fundamentally did not trust the AI to do part of their work, rendering the system unused.",
+      "metaphor_mapping": "None explicitly used for this concept. The discussion is direct about the reconfiguration of human judgment (trust) being a bottleneck.",
+      "negative_case": "The demand for '100% certainty.' This is a direct negative case against judgment substitution. The organization attempted to substitute AI judgment, but the human cultural/psychological framework (inability to trust probabilistic outputs) rejected it, causing the project's value to be nullified.",
+      "autocatalysis_link": "The technical capability of AI (prediction) advances, but the human and organizational capacity to reconfigure judgment (trust) lags severely. This misalignment halts the absorption of AI tools into workflows, acting as a friction brake on autocatalytic integration."
+    },
+    {
+      "rubric_indicator": "temporal_misalignment",
+      "evidence_from_transcript": "Person 2 describes the clash between rapid iterative development ('AI time') and organizational process time. He gives the example of UI Path's upcoming GA release: the product isn't ready, but the business wants 100 successful implementations by April, leading to a rushed, risky scaling program. Earlier, he mentions structuring his *own* workday ('wake up super early') to align with the productive hours of developers in other time zones, a microcosm of temporal coordination.",
+      "metaphor_mapping": "None explicitly used for time, but the 'Climbing a Tree' metaphor is instructive. It advocates for a slow, secure, stepwise validation ('put your weight on it') which is in tension with the business's desire to 'see the thing from the top' (the fast, top-down GA release goal).",
+      "negative_case": "The 'ALS Parasys' two-month stall. Person 2 notes that a team spun for two months 'doing nothing' because of unaddressed risks. This is a negative case where 'organizational time' (risk-averse, deliberative) completely halts the momentum of 'AI time' (the push for rapid deployment).",
+      "autocatalysis_link": "The pressure for rapid deployment (driven by competitive 'AI time') crashes into the slower, sequential processes of risk assessment, trust-building, and organizational learning, causing waste (stalled projects) and risky deployments."
+    },
+    {
+      "rubric_indicator": "tool_proliferation",
+      "evidence_from_transcript": "While not discussing specific model releases, Person 2 describes the 'sheer complexity and variation of AI' as a core challenge. The solutioning framework he recommends (the 3/4 D's) and the 'Inner Source Patterns' are themselves meta-tools/frameworks introduced to manage the complexity of implementing AI tools.",
+      "metaphor_mapping": "The 'Menu of Options.' To solve the data trust problem, he creates a 'menu of options' (onshore US team, then offshore to LATAM, then India, etc.). This metaphor reflects the proliferation of engagement models needed to handle the complex socio-technical problem of data access, which itself is amplified by AI tool complexity.",
+      "negative_case": "Over-engineering in the Mayo Clinic project. Before Person 2's intervention, the team was building complex 'flows' without solving the core data problem. This is a negative case of misapplying tools/frameworks (RPA/automation design) before validating the fundamental AI capability, a form of integration debt from premature tool application.",
+      "autocatalysis_link": "The complexity and variety of AI subtypes and use cases force the rapid creation and adoption of new management and process frameworks (like his 3D's). The velocity of the core technology drives a parallel, necessary proliferation of governance and integration methodologies."
+    },
+    {
+      "rubric_indicator": "socio_technical_shift",
+      "evidence_from_transcript": "The entire interview is centered on this shift. Person 2's primary focus is not on the economic algorithm, but on the human factors determining success: trust, culture, communication, incentive alignment ('What is your incentive?'), and mindset ('commando, army, police'). He states, 'The biggest problem with AI is trust.'",
+      "metaphor_mapping": "The 'Commando, Army, Police' mindset typology. This metaphor explicitly categorizes people not by technical skill, but by their socio-cultural approach to work (tolerance for uncertainty, need for process, role rigidity), which Person 2 argues is critical for AI team design.",
+      "negative_case": "The failed project due to lack of trust. This is a prime negative case demonstrating the socio-technical shift. The technically sound system failed because the social (trust) and cultural (certainty-avoidance) dimensions were not addressed. Value is now determined by human acceptance, not just technical performance.",
+      "autocatalysis_link": "The accelerating technical capability (autocatalysis) makes the socio-cultural barriers (trust, incentives, culture) the dominant limiting factors. The focus of expert practitioners like Person 2 necessarily shifts from pure technical implementation to being a 'socio-technical integrator.'"
+    },
+    {
+      "rubric_indicator": "management_frictions: timeline_compression",
+      "evidence_from_transcript": "The push for the April GA release with 100 successful customers is a direct example. It forces a compression of the prototyping->production cycle, creating programmatic risk. Person 2's 'climbing a tree' philosophy is a direct response to this—advocating for deliberate, validated steps against the pressure for rapid leaps.",
+      "metaphor_mapping": "See 'temporal_misalignment' above. The 'Climbing a Tree' vs. 'Seeing from the Top' contrast encapsulates this friction.",
+      "negative_case": "The Mayo Clinic 'quick win' of zero automation. The negative case here is that to combat timeline compression and prove value amid uncertainty, the optimal solution was to *not* deploy a complex automated tool initially, but to use AI to create a simple summary attachment. This 'decelerates' the tool integration to secure long-term success.",
+      "autocatalysis_link": "The autocatalytic expectation of rapid delivery forces re-evaluation of architecture mid-cycle (e.g., shifting from a full automation build to a simple AI-assisted summary), creating management friction and requiring agile, value-first pragmatism."
+    },
+    {
+      "rubric_indicator": "management_frictions: integration_debt",
+      "evidence_from_transcript": "Person 2 discusses 'legacy AI components' indirectly. He talks about the challenge of pre-built, black-box AI models where teams have 'a natural aversion to taking responsibility for code not written by the team itself.' This is a core integration debt issue—incorporating opaque, externally-developed AI components into accountable production systems.",
+      "metaphor_mapping": "The '30 Day Warranty' pattern from Inner Source. This is a proposed cultural/process tool to manage the integration debt of external components by creating a temporary support contract, building trust for the unknown component.",
+      "negative_case": "The 'Dinosaurs' with legacy system expertise but no AI theory. This represents a human form of integration debt—valuable legacy knowledge that is incompatible with new AI systems and standards, creating a human capital integration challenge.",
+      "autocatalysis_link": "The autocatalytic cycle produces new, opaque AI components (LLMs, APIs) faster than organizations can develop cultural and technical practices to responsibly integrate and own them, leading to aversion, risk, and slowdown."
+    }
+  ]

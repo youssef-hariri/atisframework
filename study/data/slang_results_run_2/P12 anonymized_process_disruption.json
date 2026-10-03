@@ -1,0 +1,74 @@
+[
+  {
+    "expert_quote": "Yeah, like this is the future, you know? And this is, you know what? What a lot of project beautiful things are happening.",
+    "mapped_id": "socio_technical_transition",
+    "is_negative_case": false,
+    "rationale": "The participant uses the vernacular 'the future' and 'beautiful things are happening' to express a positive, forward-looking view of the shift towards AI and data-centric work, aligning with the transition from human-centric to hybrid models."
+  },
+  {
+    "expert_quote": "So I was not too technical into the stuff... What data engineering people were doing?",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "The participant describes a distinct separation between their project ownership/analyst role and the more technical data engineering work, indicating an early-stage reconfiguration of roles within the AI workflow."
+  },
+  {
+    "expert_quote": "Difficult to communicate with them actually because like sometimes you are you will be in a very basic... So understanding of what is going on in the app, so it was very difficult to come and the time difference also...",
+    "mapped_id": "integration_friction",
+    "is_negative_case": false,
+    "rationale": "The participant highlights practical, day-to-day challenges ('time difference', 'difficult to communicate') in collaborating with international tech teams, demonstrating friction in embedding cross-functional AI work into existing operational rhythms."
+  },
+  {
+    "expert_quote": "Related to the knowledge level difference, they are more than us because like I'm my role is data and this so I don't have that much visibility in what they're working on.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "The participant explicitly notes a 'knowledge level difference' and lack of 'visibility' between their data analysis role and the data science/engineering teams, reflecting tension between different domains of expertise within the AI project lifecycle."
+  },
+  {
+    "expert_quote": "Only thing is, I'll be asking repeatedly to communicate in English and apart from that I will just wait patiently till these guys wake up.",
+    "mapped_id": "integration_friction",
+    "is_negative_case": false,
+    "rationale": "The participant describes a direct, human-workaround ('wait patiently') for the systemic friction caused by time zones and language in a multinational team, a practical manifestation of integration challenges."
+  },
+  {
+    "expert_quote": "Don't want to reveal the data... I just want you guys to do either man... Do it manually if you want... Otherwise, you can use your own a model, but it should not be based on opening or something...",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": false,
+    "rationale": "The participant quotes a client mandating manual work or closed models over open AI, directly illustrating the conflict between the desire for predictive automation and concerns over data privacy/control (a core ethical oversight issue)."
+  },
+  {
+    "expert_quote": "So we don't use those in the model and we also. Just create the model only particularly to this use case. They don't focus on any other general stuff...",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": false,
+    "rationale": "Describing how they build a narrow, use-case-specific model that 'doesn't know' other answers is a practical example of implementing ethical guardrails (limiting scope) to manage automation risks."
+  },
+  {
+    "expert_quote": "Directly, we won't say actually in the meeting it won't discussed actually they will just put a mail...",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "The participant describes an indirect, asynchronous (email) feedback protocol over direct confrontation, suggesting a cultural or procedural norm that may slow down the iterative, communicative needs of agile AI development."
+  },
+  {
+    "expert_quote": "As a team lead, you have to give confidence also and you have to motivate them also to do properly. You can't keep on discouraging them.",
+    "mapped_id": "role_transition_hurdles",
+    "is_negative_case": false,
+    "rationale": "The participant articulates the new soft-skill requirements (motivation, confidence-building) for a team lead in a tech environment, highlighting the reskilling aspect and shift from pure technical oversight to human management."
+  },
+  {
+    "expert_quote": "If you do the training, if you give the training perfectly, then only they will give you the team leaders and so they know how I will work.",
+    "mapped_id": "role_transition_hurdles",
+    "is_negative_case": false,
+    "rationale": "The participant links their authority as a team lead ('they will give you the team leaders') directly to their perceived ability to train others, underscoring how skill dissemination and established hierarchies are intertwined."
+  },
+  {
+    "expert_quote": "I have to say it was like positive way only we used it. So there was no any negative concern.",
+    "mapped_id": "integration_friction",
+    "is_negative_case": true,
+    "rationale": "This is a clear negative case. The participant explicitly states that leveraging different technological advancements from various teams/countries was only positive, contradicting the expectation of friction from integrating disparate systems or knowledge bases."
+  },
+  {
+    "expert_quote": "My address would be like to take their time like communicate regularly... they have to regularly, they have to communicate with the multicultural background.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "The advice to 'communicate regularly' proactively with multicultural teams is a prescribed solution to overcome the inherent distrust and coordination friction ('cultural resistance') in distributed, diverse work environments."
+  }
+]

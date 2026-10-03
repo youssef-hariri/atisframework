@@ -1,0 +1,44 @@
+[
+  {
+    "expert_quote": "And for example, you would work on this AI projects, where do you feel that people's culture affects most of the project? The biggest difference was between me and my CEO three cofounders... he would never sleep before 48 4 a and work uh very often until 5, uh 5 AM... the availability and the time uh when focused on on working and the maybe one of the best time to focus for him was between midnight and 4 AM... I learned also I changed I did updates and and I enjoyed at some point he worked in the evening... So after work, maybe at 5, 6 PM 6 p.m you have something... and then at 8, 9 pm go back to to work uh and then have your actively projective time. Where you produce... So that's how I learned to work",
+    "mapped_id": "socio_technical_transition",
+    "is_negative_case": false,
+    "rationale": "The speaker describes adapting personal and team work rhythms to a non-linear, always-on model driven by a key member's unconventional schedule. This 'human-floor' description of adjusting active work times mirrors the theoretical transition from a fixed, human-centric workday to a fluid, hybrid model required for data-intensive AI collaboration."
+  },
+  {
+    "expert_quote": "we worked remotely uh from France... the whole time for a year and a half... two other people uh one was just TO and another AI engineer. They were in..",
+    "mapped_id": "silo_breakdown",
+    "is_negative_case": false,
+    "rationale": "The quote describes a distributed, cross-functional team working across geographical boundaries (France, Togo, US). This everyday description of a remote setup undermines traditional departmental and locational silos, aligning with the 'silo_breakdown' indicator where AI/data projects necessitate cross-functional collaboration."
+  },
+  {
+    "expert_quote": "I didn't have a complete map of where the data was... we had some Google Google drive for some data and some other data was store on our personal ... I just to make sure that it's safe, you know, for make sure that the company uh still has their assets... but like for uh I don't know if you uh or French European uh if they have like very strict rules for their coordination at the very start... we would just basic and and and don't make reporting, don't make uh",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": false,
+    "rationale": "The speaker's slang ('complete map', 'store on our personal', 'just basic') describes an ad-hoc, convenience-driven approach to data governance. This contradicts the need for rigorous ethical oversight and asset security, highlighting the tension between fast-paced, practical AI work and established compliance/ethical protocols."
+  },
+  {
+    "expert_quote": "I've worked also in SAS projects where uh since uh some cofounders would would be very strict on organization and uh how how the projects we would work, okay? We we have this deadline, we'll meet like this, you'll take care of that...",
+    "mapped_id": "procedural_nonlinearity",
+    "is_negative_case": false,
+    "rationale": "The speaker references traditional SaaS project management ('strict on organization', 'this deadline') as a contrast to their current experience. This implicitly points to a clash between the linear, phase-gated 'waterfall methods' mentioned in the rubric and the implied iterative, less structured nature of their AI project work."
+  },
+  {
+    "expert_quote": "I think that my colleagues were in Togo would be more accepting and saying yes, yes, yes... not complaining not less than European people saying, okay, I don or I disagree or or I see things differently... they would be more okay, okay, yes, I will do that. And sometimes uh sometimes they would not do it or it would take a lot of time, but they they don't did not so much say",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "The quote describes a communication friction rooted in cultural norms ('saying yes, yes, yes'). This everyday language reveals a tension between tacit, experience-based knowledge (expressed as open disagreement/feedback in one culture) and the need for transparent, iterative communication crucial for integrating data-centric AI work, where unclear feedback can derail adaptive processes."
+  },
+  {
+    "expert_quote": "in Europe where like, oh, yes, I want to be sure what what the compliance about this or that, um it's much more about the the forms in in Europe and they're okay, it works so it doesn't work, show me something that works and brings me value and I'll buy it... In France, if you say that they back the fact go away",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": false,
+    "rationale": "The speaker uses professional slang ('about the forms', 'back the fact go away') to contrast European caution and procedural focus with a more direct, results-oriented American approach. This illustrates the 'cultural_resistance' friction, where a preference for experiential knowledge and established formal processes can hinder the adoption of agile, data-centric business methods."
+  },
+  {
+    "expert_quote": "Be flexible and a pathetic understanding situation of other people. Yeah, and so if you understand them, you can help them excluding their life and they they will be completely uh engaged in the in the work then like if you truly have help them and and if they feel you understand.",
+    "mapped_id": "role_transition_hurdles",
+    "is_negative_case": false,
+    "rationale": "The advice to be 'flexible' and have 'understanding' uses common, non-academic language to describe a core managerial strategy. This directly addresses the 'role_transition_hurdles' friction, where managers must reskill in empathy and adaptive leadership to overcome disruptions to established hierarchies and authority when integrating new AI workflows and diverse teams."
+  }
+]

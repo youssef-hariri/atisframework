@@ -1,0 +1,44 @@
+[
+  {
+    "expert_quote": "I've worked at three different companies as a data scientist, as an IC and as a manager and and director... Looking at how people use products and new features and are they successful and you know forecasting the usage and stuff like that. But I've also done... business related machine learning on customer segmentation, customer lifetime value... Modeling add effectiveness modeling so you know machine learning and advanced analytics sort of types of things there... There's also been dashboarding and analytic. You know, that kind of visualization and, you know, putting processes in place around how to track KP is and single source of truth and stuff like that.",
+    "mapped_id": "socio_technical_transition",
+    "is_negative_case": false,
+    "rationale": "The quote describes a hybrid role that blends traditional data science/analysis (human-centric) with newer 'advanced analytics' and ML modeling (AI-centric), embodying the transition to a hybrid human-AI collaboration model."
+  },
+  {
+    "expert_quote": "I've gotten feedback that, you know my, my, my reviews are too long and too much extra words that they don't need... Whereas some people like that and then on the other side, some people really like the very, you know, just right to the point and it's very concise... But then some people you know from certain cultures interpret that as their, you know, people being mean or or robotic and unfeeling and unempathetic, even though they want that from a manager.",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "The speaker describes the challenge of adjusting their managerial feedback style, a core management function, to accommodate diverse cultural interpretations. This reflects the reconfiguration of the manager's role toward greater interpersonal and ethical oversight in a multicultural, technical environment."
+  },
+  {
+    "expert_quote": "The first company I was at, no, they just kind of you know I I talked to people and tried to figure it out myself. But at at my last two companies Zoom and Mozilla, you know big international companies... they definitely, you know, understood that this was a thing that everyone should be aware of, even if you're not running a team, even if you're not running an international team, you know that this is something to be aware of 'cause you have Co workers and colleagues that are from different backgrounds in different countries.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": true,
+    "rationale": "The speaker explicitly contrasts an early experience of no organizational support with later companies that actively promoted awareness. This contradicts the 'cultural_resistance' friction, indicating proactive organizational adaptation rather than entrenched resistance to new (data-centric/cross-cultural) ways of working."
+  },
+  {
+    "expert_quote": "I knew the person knew some stuff, had some knowledge, had some subject matter expertise on this problem... I expected them to present an idea... And so, you know, later on in a one-on-one situation... then they were a little bit more forthcoming. When I kind of prompted them of, like, hey, what do you think about my idea?... a little bit more kind of pulling and and questioning got them to express their opinion that you know clearly they had in their brain during the big meeting.",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "The quote illustrates a tension between the manager's expectation for open, data/idea-driven discourse (a common norm in tech/AI) and the team member's tacit, culturally-influenced approach to knowledge sharing (withholding in group settings). This is a clash between expected 'project knowledge' flow and personal, experiential communication norms."
+  },
+  {
+    "expert_quote": "I found that the that you know more so more strongly than where someone was from or their culture or country, you know where they live, that it was sort of the company itself and the team really drove how people felt about about privacy... So you know, I worked at companies that were mostly very careful about data privacy and, you know, had stricter internal regulations than the US or the state of California... I feel it was more, you know the company set that tone and people that worked there kind of bought into that idea... and that cut across, you know, all kinds of cultures and and countries really.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": true,
+    "rationale": "The speaker states that organizational policy and culture were the dominant factors shaping attitudes toward data privacy, overriding national or cultural background. This is a negative case for 'cultural_resistance,' showing that strong organizational norms can supersede potential cultural resistance to data-centric practices."
+  },
+  {
+    "expert_quote": "You know, I've discussed this with friends and things like that, but I haven't been in many situations outside of like, yeah, P I, I or data governance, specifically talking about ethics of AI or or training models, things like that.",
+    "mapped_id": "ethical_automation_tension",
+    "is_negative_case": false,
+    "rationale": "The statement 'I haven't been in many situations... specifically talking about ethics of AI' indicates a lack of formalized discourse or process around ethical oversight. This absence highlights the latent tension between advancing AI automation and the need for structured human ethical judgment, a core element of the friction."
+  },
+  {
+    "expert_quote": "Any time you have something that is sort of trying to write, you know, sound like a human or write, you know, plain language... It's gonna pick up. Not just like slang and idioms in the way it speaks informally, but again, like the the links of these sentences... when I've interacted with ChatGPT, it feels like an American English speaker responding to me. It doesn't feel like even a British English speaker... would write differently... So I certainly see that sort of, you know, coming from the training data sets. Going into those models and kind of repeating back out.",
+    "mapped_id": "silo_breakdown",
+    "is_negative_case": false,
+    "rationale": "The expert identifies how AI outputs (like ChatGPT) reflect the specific cultural and linguistic biases of their training data. This implicitly points to the need for cross-functional, culturally diverse input in creating training datasets to avoid such bias, challenging the traditional silos of data engineering and model development."
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "expert_quote": "She she has like... A quite a different accent of English. So it's quite sometimes it's difficult to understand what she said",
+    "mapped_id": "integration_friction",
+    "is_negative_case": false,
+    "rationale": "The slang 'difficult to understand' due to accent highlights basic communication friction, a foundational layer of the broader challenge of embedding a new actor (international AI team) into an existing workflow."
+  },
+  {
+    "expert_quote": "She had... an industrial management background. Me and my friend is a corporate science... she always ask ask about how how to code, how to make it works",
+    "mapped_id": "knowledge_clash",
+    "is_negative_case": false,
+    "rationale": "The explicit contrast between 'industrial management' and 'computer science' backgrounds, with the manager persistently asking 'how to code', embodies the tension between experiential/procedural knowledge and technical, data-centric AI knowledge."
+  },
+  {
+    "expert_quote": "She only said that all you can need to take. I I don't want to take your time to doing this this project... I think she just want to say that. Maybe I don't need the admin interface anymore.",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "The manager's indirect communication about deprioritizing a technical feature, which the developer must interpret, signals a shift where the manager exercises oversight and ethical/resource judgment ('don't want to take your time') over technical execution."
+  },
+  {
+    "expert_quote": "The Germany and like she I think she has like. A strict work life balance... after working hours is free. But for for me and my friends... if we need to, to push 'cause, it's like in the deadline. Yeah, we, we will do it",
+    "mapped_id": "procedural_nonlinearity",
+    "is_negative_case": false,
+    "rationale": "The contrast between a 'strict' schedule and a flexible, 'push' approach to meet deadlines reveals a clash between a linear, phase-gated mindset and the adaptive, often non-linear demands of AI/data project work."
+  },
+  {
+    "expert_quote": "The admin interface... she she doesn't have a computer science program, so she worried that she cannot make changes in the future.",
+    "mapped_id": "workflow_brittleness",
+    "is_negative_case": false,
+    "rationale": "The manager's worry about future changes to a technical system she doesn't understand demonstrates increased vulnerability in the process; the workflow depends on a specific human's (the developer's) knowledge, creating a single point of failure."
+  },
+  {
+    "expert_quote": "For the culture. I think it it didn't have any effect. To the successful of the project.",
+    "mapped_id": "cultural_resistance",
+    "is_negative_case": true,
+    "rationale": "This is a direct negative case. The participant explicitly states that cultural difference (a core element of the theoretical friction) did not impact project success, contradicting the rubric's assumption of significant cultural resistance."
+  },
+  {
+    "expert_quote": "I think the the the most. Barrier for me and my friend is dealing with 'cause. Yeah, we're not really friends in English.",
+    "mapped_id": "integration_friction",
+    "is_negative_case": false,
+    "rationale": "The phrase 'not really friends in English' is professional slang for lack of proficiency. This language barrier is a primary, tangible friction point that complicates the integration of the international team into the collaborative AI workflow."
+  },
+  {
+    "expert_quote": "For some some of our opinions. She just she accept the the opening but cannot implement it. Because for her it's too complicated.",
+    "mapped_id": "legacy_inflexibility",
+    "is_negative_case": false,
+    "rationale": "The manager's acceptance of an idea but inability to implement due to perceived complexity suggests that the existing operational or technical framework ('legacy' knowledge/systems) is inflexible and cannot absorb innovative, potentially more efficient, AI-driven suggestions."
+  },
+  {
+    "expert_quote": "She told us that you can tell me anything if you cannot working on the task for today. You please just tell... we we didn't. We don't need to hide something from each other",
+    "mapped_id": "role_reconfiguration",
+    "is_negative_case": false,
+    "rationale": "The manager's explicit rule for transparent communication about task capacity redefines her role from pure taskmaster to a facilitator of system oversight, prioritizing project flow and ethical treatment of contributors over rigid adherence to a plan."
+  }
+]
